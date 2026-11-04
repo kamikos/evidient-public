@@ -124,6 +124,7 @@ node --env-file-if-exists=.env.local --import tsx scripts/precompute.ts   # buil
 
 - Coverage is limited to medicines and alcohol. Recreational drugs are not covered. "Nothing documented" means nothing was found *in these sources*, not that there is no risk.
 - A class-level warning is not direct evidence about a pair, and the card says when a passage doesn't name the drug.
+- Live agent runs can differ. The same pair can return different passages and a different level from one run to the next, so a live card is a reading of what the agent found that time. Shipped cards don't change.
 - On-request results are kept on the device that asked, not shared between users yet.
 - Abstract-level reading only. Full-text studies are not parsed.
 - The judge is a model. A matched quote proves where a claim came from, and the judge's verdict is a second opinion, not proof of truth.
