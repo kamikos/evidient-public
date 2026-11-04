@@ -97,7 +97,7 @@ DrugBank and DDInter were deliberately not used because of their licenses.
 
 ## Built during the hackathon
 
-This repository was created on Nov 3, 2026, during the build window. **Everything in it was built during the hackathon:**
+Development started on Nov 3, 2026, during the build window. This public repository is a clean export of the private working repository, without raw download caches and build logs. **Everything in it was built during the hackathon:**
 
 - Expo app (web + iOS/Android): a home list grouped by warning level, evidence cards that lead with the answer, a worst-first overview for 3+ substances, interaction map, audit trail, live and on-request agent runs, medicine-box scanning, light and dark mode. The UI lives in `ui/`; the design system is in `DESIGN.md`.
 - Agent pipeline, quote verifier, judge integration, card writer and API routes: `server/`, `app/api/`.
