@@ -1,0 +1,40 @@
+{
+  "pair": "acarbose__digoxin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Acarbose label states it has been shown to change digoxin bioavailability, which may require digoxin dose adjustment."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "French label says acarbose can in some cases interfere with digoxin bioavailability requiring dose adaptation; translation is faithful."
+    },
+    {
+      "id": "c3",
+      "support": "supports",
+      "rationale": "Crossover study in healthy men found digoxin AUC and Cmax significantly lower and tmax higher with acarbose versus digoxin alone."
+    },
+    {
+      "id": "c4",
+      "support": "supports",
+      "rationale": "Claim presents it as a single case report and accurately states digoxin levels rose to therapeutic range after acarbose was stopped."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

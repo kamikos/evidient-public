@@ -1,0 +1,21 @@
+{
+ "pair": "calcitriol__cholecalciferol",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The calcitriol label says pharmacological doses of vitamin D (which includes cholecalciferol) should be withheld to avoid additive effects and hypercalcemia."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

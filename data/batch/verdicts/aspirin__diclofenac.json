@@ -1,0 +1,26 @@
+{
+  "pair": "aspirin__diclofenac",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The diclofenac label states concurrent aspirin and an NSAID such as diclofenac increases serious GI event risk."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The diclofenac label states controlled studies showed no greater therapeutic effect from NSAIDs with analgesic aspirin doses."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

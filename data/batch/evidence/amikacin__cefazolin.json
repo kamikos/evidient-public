@@ -1,0 +1,146 @@
+{
+  "card": {
+    "pair": "amikacin__cefazolin",
+    "a": "amikacin",
+    "b": "cefazolin",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "An in vitro serum study reports little aminoglycoside inactivation by cefazolin.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The study tested aminoglycosides including amikacin in serum mixtures and placed cefazolin among agents causing little inactivation.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "An in vitro serum study of aminoglycosides including amikacin reports little inactivation by cefazolin.",
+        "quote": "Based on the results, the beta-lactams can be divided into three groups: (1) cefazolin and cefamandole, which cause little inactivation;",
+        "source": {
+          "kind": "pubmed",
+          "id": "6653408"
+        },
+        "stance": "uncertain",
+        "outcome": "drug_inactivation",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The in vitro serum study tested amikacin among the aminoglycosides and grouped cefazolin with agents causing little inactivation; the claim keeps the in vitro framing.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "1dc9de56-e259-4546-a1db-23119a8a088e#contraindications",
+        "title": "cefazolin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1dc9de56-e259-4546-a1db-23119a8a088e",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1dc9de56-e259-4546-a1db-23119a8a088e#warnings",
+        "title": "cefazolin: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1dc9de56-e259-4546-a1db-23119a8a088e",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1dc9de56-e259-4546-a1db-23119a8a088e#precautions",
+        "title": "cefazolin: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1dc9de56-e259-4546-a1db-23119a8a088e",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "3935637",
+        "title": "Interaction of gentamicin, dibekacin, netilmicin and amikacin with various penicillins, cephalosporins, minocycline and new fluoro-quinolones against Enterobacteriaceae and Pseudomonas aeruginosa.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3935637/",
+        "citation": "0305-7453 16 5 1985 Nov The Journal of antimicrobial chemotherapy J Antimicrob Chemother",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32990533",
+        "title": "Pharmacokinetic Drug-drug Interaction of Antibiotics Used in Sepsis Care in China.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32990533/",
+        "citation": "1875-5453 22 1 2021 Current drug metabolism Curr Drug Metab",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "7999824",
+        "title": "Time-kill efficacy of antibiotics in combination with rifampin against Staphylococcus epidermidis biofilms.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7999824/",
+        "citation": "1197-8554 10 1994 Advances in peritoneal dialysis. Conference on Peritoneal Dialysis Adv Perit Dial",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6653408",
+        "title": "Aminoglycoside inactivation by penicillins and cephalosporins and its impact on drug-level monitoring.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6653408/",
+        "citation": "0012-6578 17 12 1983 Dec Drug intelligence & clinical pharmacy Drug Intell Clin Pharm",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "studies_only",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amikacin or Cefazolin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amikacin and Cefazolin, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet does not provide a controlled human interaction study of amikacin and cefazolin.",
+        "searched": [
+          "\"amikacin\"[tiab] AND \"cefazolin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.641Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

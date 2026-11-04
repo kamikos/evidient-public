@@ -1,0 +1,30 @@
+{
+  "pair": "aspirin__celecoxib",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The Spanish SmPC says coadministration with aspirin, even at low doses, further increases GI adverse-effect risk; the translation is faithful."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The FDA label reports two studies in which celecoxib 200-400 mg daily did not interfere with aspirin's (100-325 mg) cardioprotective antiplatelet effect."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

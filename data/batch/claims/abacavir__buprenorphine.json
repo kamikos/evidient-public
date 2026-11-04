@@ -1,0 +1,45 @@
+{
+  "pair": "abacavir__buprenorphine",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA buprenorphine label says nucleoside reverse transcriptase inhibitors do not appear to induce or inhibit the P450 pathway, so no interactions with buprenorphine are expected.",
+      "quote": "Nucleoside reverse transcriptase inhibitors (NRTIs) do not appear to induce or inhibit the P450 enzyme pathway, thus no interactions with buprenorphine are expected.",
+      "sourceId": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions",
+      "stance": "mechanism",
+      "outcome": "no_interaction_expected"
+    }
+  ],
+  "headline": {
+    "text": "The FDA buprenorphine label says no interactions with buprenorphine are expected for NRTIs as a class (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The statement covers NRTIs as a class and does not name abacavir.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The label says NRTIs do not appear to induce or inhibit the P450 enzyme pathway.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"abacavir\"[tiab] AND \"buprenorphine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

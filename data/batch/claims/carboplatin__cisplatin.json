@@ -1,0 +1,70 @@
+{
+  "pair": "carboplatin__cisplatin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA carboplatin label says bone marrow suppression is increased in patients who have received prior therapy, especially regimens including cisplatin.",
+      "quote": "Bone marrow suppression is increased in patients who have received prior therapy, especially regimens including cisplatin.",
+      "sourceId": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#warnings",
+      "stance": "increases_risk",
+      "outcome": "myelosuppression"
+    },
+    {
+      "id": "c2",
+      "text": "The French carboplatin label says the severity of myelosuppression is worse in patients previously treated, notably with cisplatin, and in renal impairment.",
+      "quote": "La sévérité de la myélosuppression est aggravée chez les patients préalablement traités (notamment par du cisplatine) et/ou en cas d’altération de la fonction rénale.",
+      "quoteEnglish": "The severity of myelosuppression is aggravated in patients previously treated (notably with cisplatin) and/or in case of impaired renal function.",
+      "sourceId": "FR:61095461#4.4",
+      "stance": "increases_risk",
+      "outcome": "myelosuppression"
+    },
+    {
+      "id": "c3",
+      "text": "The FDA carboplatin label says the incidence of peripheral neurotoxicity is increased in patients older than 65 years and in patients previously treated with cisplatin.",
+      "quote": "Although peripheral neurotoxicity is infrequent, its incidence is increased in patients older than 65 years and in patients previously treated with cisplatin.",
+      "sourceId": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#warnings",
+      "stance": "increases_risk",
+      "outcome": "neurotoxicity"
+    },
+    {
+      "id": "c4",
+      "text": "The FDA carboplatin label lists a history of severe allergic reactions to cisplatin or other platinum-containing compounds as a contraindication.",
+      "quote": "Carboplatin injection is contraindicated in patients with a history of severe allergic reactions to cisplatin or other platinum-containing compounds.",
+      "sourceId": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#contraindications",
+      "stance": "increases_risk",
+      "outcome": "hypersensitivity"
+    }
+  ],
+  "headline": {
+    "text": "The FDA carboplatin label says bone marrow suppression is increased after prior therapy, especially regimens including cisplatin (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French label also reports worse myelosuppression after prior cisplatin (c2). The FDA label reports more peripheral neurotoxicity after prior cisplatin (c3).",
+      "claimIds": [
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "text": "The FDA label contraindicates carboplatin after severe allergic reactions to cisplatin (c4).",
+      "claimIds": [
+        "c4"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The statements concern carboplatin after prior cisplatin treatment. The PubMed records are chemotherapy trials and reviews that do not report an interaction between the two drugs.",
+      "searched": [
+        "\"carboplatin\"[tiab] AND \"cisplatin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

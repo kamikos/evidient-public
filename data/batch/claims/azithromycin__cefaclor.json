@@ -1,0 +1,20 @@
+{
+  "pair": "azithromycin__cefaclor",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The PubMed records compare or list the two antibiotics as separate treatments; none reports them given together.",
+      "searched": [
+        "\"azithromycin\"[tiab] AND \"cefaclor\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

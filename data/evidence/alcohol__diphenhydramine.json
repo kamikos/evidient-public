@@ -1,0 +1,459 @@
+{
+  "card": {
+    "pair": "alcohol__diphenhydramine",
+    "a": "alcohol",
+    "b": "diphenhydramine",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "The label addresses avoiding alcoholic beverages when using this diphenhydramine product",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states to avoid alcoholic beverages when using this diphenhydramine product.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult human trial of combined alcohol and diphenhydramine impairment found.",
+        "searched": [
+          "alcohol diphenhydramine interaction human psychomotor sedation",
+          "diphenhydramine alcohol interaction drowsiness sedation"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Diphenhydramine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states to avoid alcoholic beverages when using this diphenhydramine product.",
+        "quote": "When using this product avoid alcoholic beverages",
+        "source": {
+          "kind": "fda_label",
+          "id": "01906eed-78ee-f2a1-e063-6294a90a809b#when_using"
+        },
+        "stance": "increases_risk",
+        "outcome": "alcohol_combination_use",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "supports: The quote is an explicit label instruction to avoid alcoholic beverages when using this diphenhydramine product, which matches the claim and qualifies as a label restriction on the combination for increases_risk.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "01906eed-78ee-f2a1-e063-6294a90a809b#when_using",
+        "title": "When Using",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01906eed-78ee-f2a1-e063-6294a90a809b",
+        "citation": "FDA label · When Using",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:42:30.827Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__diphenhydramine",
+      "at": "2026-11-03T19:40:39.519Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:01906eed-78ee-f2a1-e063-6294a90a809b#when_using",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "01906eed-78ee-f2a1-e063-6294a90a809b#when_using"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:01906eed-78ee-f2a1-e063-6294a90a809b#when_using",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "01906eed-78ee-f2a1-e063-6294a90a809b#when_using"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2edab0a7646817c12f7347d803f",
+      "name": "record_claim",
+      "args": {
+        "outcome": "alcohol_combination_use",
+        "quote": "When using this product avoid alcoholic beverages",
+        "sourceId": "01906eed-78ee-f2a1-e063-6294a90a809b#when_using",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states to avoid alcoholic beverages when using this diphenhydramine product."
+      },
+      "t": 9375
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states to avoid alcoholic beverages when using this diphenhydramine product.",
+        "quote": "When using this product avoid alcoholic beverages",
+        "source": {
+          "kind": "fda_label",
+          "id": "01906eed-78ee-f2a1-e063-6294a90a809b#when_using"
+        },
+        "stance": "increases_risk",
+        "outcome": "alcohol_combination_use"
+      },
+      "t": 9376
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2edab0a7646817c12f7347d803f",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 9376
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2edae087055b398286b31c15624",
+      "name": "get_label_sections",
+      "args": {
+        "substanceId": "diphenhydramine"
+      },
+      "t": 9376
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2edae087055b398286b31c15624",
+      "summary": "get_label_sections completed: [{\"kind\":\"fda_label\",\"id\":\"01906eed-78ee-f2a1-e063-6294a90a809b#when_using\",\"text\":\"When using this product avoid alcoholic beverages\"},{\"kind\":\"fda_label\",\"id\":\"01906eed-78ee-f2a1-e063-6294a90a809b#when_using\",\"text\":\"When using this product avoid alcoholic beverages\"}]",
+      "t": 9378
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2edaf1671e8b873922a9cfc977b",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol diphenhydramine interaction human psychomotor sedation"
+      },
+      "t": 9378
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2edaf1671e8b873922a9cfc977b",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol diphenhydramine interaction human psychomotor sedation\",\"pmids\":[]}",
+      "t": 9601
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2edb06b76f7bf58e861e16a90bc",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol diphenhydramine combination adults psychomotor performance"
+      },
+      "t": 9601
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2edb06b76f7bf58e861e16a90bc",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol diphenhydramine combination adults psychomotor performance\",\"pmids\":[\"22154302\",\"11751030\",\"2885203\",\"6995128\",\"33053\"]}",
+      "t": 9962
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2edcc5274879157ce063053fdbc",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "22154302",
+          "11751030"
+        ]
+      },
+      "t": 17903
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2edcc5274879157ce063053fdbc",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"22154302\",\"title\":\"Long-term and within-day variability of working memory performance and EEG in individuals.\",\"journal\":\"Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology\",\"year\":\"2012\",\"abstractText\":\"Assess individual-subject long-term and within-day variability of a combined behavioral and EEG test of working memory.\\n\\nEEGs were recorded from 16 adults performing n-back working memory tasks, with 10 tested in morning and afternoon sessions over several years. Participants were also tested after ingesting non-prescription medications or recreational substances. Performance and EEG measures were analyzed to derive an Overall score and three constituent sub-scores characterizing changes in performance, cortical activation, and alertness from each individual's baseline. Long-term and within-day variability were determined for each score; medication effects were assessed by reference to each individual's normal day-to-day variability.\\n\\nOver the several year period, the mean Overall score and sub-scores were approximately zero with standard deviations less than one. Overall scores were lower and their variability higher in afternoon relative to morning sessions. At the group level, alcohol, diphenhydramine and marijuana produced significant effects, but there were large individual differences.\\n\\nObjective working memory measures incorporating performance and EEG are stable over time and sensitive at the level of individual subjects to interventions that affect neurocognitive function.\\n\\nWith further research these measures may be suitable for use in individualized medical care by providing a sensitive assessment of incipient illness and response to treatment.\",\"publicationTypes\":[\"Clinical Trial\",\"Comparative Study\",\"Journal Article\",\"Research Support, N.I.H., Extramural\",\"Research Support, U.S. Gov't, Non-P.H.S.\"],\"firstAuthor\":\"Gevins\",\"kind\":\"pubmed\",\"id\":\"22154302\",\"text\":\"Assess individual-subject long-term and within-day variability of a combined behavioral and EEG test of working memory.\\n\\nEEGs were recorded from 16 adults performing n-back working memory tasks, with 10 tested in morning and afternoon sessions over several years. Participants were also tested after ingesting non-prescription medications or recreational substances. Performance and EEG measures were analyzed to derive an Overall score and three constituent sub-scores characterizing changes in performance, cortical activation, and alertness from each individual's baseline. Long-term and within-day variability were determined for each score; medication effects were assessed by reference to each individual's normal day-to-day variability.\\n\\nOver the several year period, the mean Overall score and sub-scores were approximately zero with standard deviations less than one. Overall scores were lower and their variability higher in afternoon relative to morning sessions. At the group level, alcohol, diphenhydramine and marijuana produced significant effects, but there were large individual differences.\\n\\nObjective working memory measures incorporating performance and EEG are stable over time and sensitive at the level of individual subjects to interventions that affect neurocognitive function.\\n\\nWith further research these measures may be suitable for use in individualized medical care by providing a sensitive assessment of incipient illness and response to treatment.\"},{\"pmid\":\"11751030\",\"title\":\"Tracking the cognitive pharmacodynamics of psychoactive substances with combinations of behavioral and neurophysiological measures.\",\"journal\":\"Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology\",\"year\":\"2002\",\"abstractText\":\"Many common pharmacological treatments have effects on cognitive ability. Psychometric task batteries used to characterize such effects do not provide direct information about treatment-related changes in brain function. Since overt task performance reflects motivation and effort as well as ability, behavioral measures alone may overestimate or underestimate the impact of a pharmacological intervention on brain function. Here we present a method that combines behavioral and neurophysiological measures in an attempt to detect the psychoactive effects of pharmacological treatments with greater sensitivity than that provided by behavioral measures alone. Initial application of the method is made to the data from a double blind, placebo-controlled, crossover study in which caffeine, diphenhydramine, and alcohol were used to alter the mental state of 16 healthy subjects at rest and while they performed low load and high load versions of a working memory task. For each intervention, more sensitive detection of drug or alcohol effects over a four hour period was obtained when EEG variables were included in multivariate analyses than when only behavioral variables were used. These initial results suggest that it can be useful to incorporate neurophysiological measures of brain activity into inferences concerning the acute impact of drugs on mental function, and demonstrate the feasibility of using multivariate combinations of behavioral and neurophysiological measures to sensitively characterize the pharmacodynamics of drug-induced changes in cognition.\",\"publicationTypes\":[\"Clinical Trial\",\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, U.S. Gov't, Non-P.H.S.\",\"Research Support, U.S. Gov't, P.H.S.\"],\"firstAuthor\":\"Gevins\",\"kind\":\"pubmed\",\"id\":\"11751030\",\"text\":\"Many common pharmacological treatments have effects on cognitive ability. Psychometric task batteries used to characterize such effects do not provide direct information about treatment-related changes in brain function. Since overt task performance reflects motivation and effort as well as ability, behavioral measures alone may overestimate or underestimate the impact of a pharmacological intervention on brain function. Here we present a method that combines behavioral and neurophysiological measures in an attempt to detect the psychoactive effects of pharmacological treatments with greater sensitivity than that provided by behavioral measures alone. Initial application of the method is made to the data from a double blind, placebo-controlled, crossover study in which caffeine, diphenhydramine, and alcohol were used to alter the mental state of 16 healthy subjects at rest and while they performed low load and high load versions of a working memory task. For each intervention, more sensitive detection of drug or alcohol effects over a four hour period was obtained when EEG variables were included in multivariate analyses than when only behavioral variables were used. These initial results suggest that it can be useful to incorporate neurophysiological measures of brain activity into inferences concerning the acute impact of drugs on mental function, and demonstrate the feasibility of using multivariate combinations of behavioral and neurophysiological measures to sensitively characterize the pharmacodynamics of drug-induced changes in cognition.\"}]",
+      "t": 18484
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee05a074358fc58e9605412015",
+      "name": "get_label_sections",
+      "args": {
+        "substanceId": "alcohol"
+      },
+      "t": 32679
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee05a074358fc58e9605412015",
+      "summary": "get_label_sections completed: []",
+      "t": 32679
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee270770bc92f33924b2d9f4c7",
+      "name": "search_pubmed",
+      "args": {
+        "query": "diphenhydramine ethanol combination driving impairment"
+      },
+      "t": 41836
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee270770bc92f33924b2d9f4c7",
+      "summary": "search_pubmed completed: {\"query\":\"diphenhydramine ethanol combination driving impairment\",\"pmids\":[\"17018108\",\"1979799\"]}",
+      "t": 42092
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee284d729186e6df609b0e2ef2",
+      "name": "search_pubmed",
+      "args": {
+        "query": "diphenhydramine alcohol interaction drowsiness sedation"
+      },
+      "t": 42092
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee284d729186e6df609b0e2ef2",
+      "summary": "search_pubmed completed: {\"query\":\"diphenhydramine alcohol interaction drowsiness sedation\",\"pmids\":[]}",
+      "t": 42631
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee4667721ba306a95ab7eaa7f1",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "17018108",
+          "1979799"
+        ]
+      },
+      "t": 49561
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee4667721ba306a95ab7eaa7f1",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"17018108\",\"title\":\"Changing patterns of drug and alcohol use in fatally injured drivers in Washington State.\",\"journal\":\"Journal of forensic sciences\",\"year\":\"2006\",\"abstractText\":\"We have previously reported on patterns of drug and alcohol use in fatally injured drivers in Washington State. Here we revisit that population to examine how drug use patterns have changed in the intervening 9 years. Blood and serum specimens from drivers who died within 4 h of a traffic accident between February 1, 2001, and January 31, 2002, were analyzed for illicit and therapeutic drugs and alcohol. Drugs when present were quantitated. Samples suitable for testing were obtained from 370 fatally injured drivers. Alcohol was detected above 0.01 g/100 mL in 41% of cases. The mean alcohol concentration for those cases was 0.17 g/100 mL (range 0.02-0.39 g/100 mL). Central nervous system (CNS) active drugs were detected in 144 (39%) cases. CNS depressants including carisoprodol, diazepam, hydrocodone, diphenhydramine, amitriptyline, and others were detected in 52 cases (14.1%), cannabinoids were detected in 47 cases (12.7%), CNS stimulants (cocaine and amphetamines) were detected in 36 cases (9.7%), and narcotic analgesics (excluding morphine which is often administered iatrogenically in trauma cases) were detected in 12 cases (3.2%). For those cases which tested positive for alcohol c. 40% had other drugs present which have the potential to cause or contribute to the driver's impairment. Our report also considers the blood drug concentrations in the context of their interpretability with respect to driving impairment. The data reveal that over the past decade, while alcohol use has declined, some drug use, notably methamphetamine, has increased significantly (from 1.89% to 4.86% of fatally injured drivers) between 1992 and 2002. Combined drug and alcohol use is a very significant pattern in this population and is probably overlooked in DUI enforcement programs.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Schwilke\",\"kind\":\"pubmed\",\"id\":\"17018108\",\"text\":\"We have previously reported on patterns of drug and alcohol use in fatally injured drivers in Washington State. Here we revisit that population to examine how drug use patterns have changed in the intervening 9 years. Blood and serum specimens from drivers who died within 4 h of a traffic accident between February 1, 2001, and January 31, 2002, were analyzed for illicit and therapeutic drugs and alcohol. Drugs when present were quantitated. Samples suitable for testing were obtained from 370 fatally injured drivers. Alcohol was detected above 0.01 g/100 mL in 41% of cases. The mean alcohol concentration for those cases was 0.17 g/100 mL (range 0.02-0.39 g/100 mL). Central nervous system (CNS) active drugs were detected in 144 (39%) cases. CNS depressants including carisoprodol, diazepam, hydrocodone, diphenhydramine, amitriptyline, and others were detected in 52 cases (14.1%), cannabinoids were detected in 47 cases (12.7%), CNS stimulants (cocaine and amphetamines) were detected in 36 cases (9.7%), and narcotic analgesics (excluding morphine which is often administered iatrogenically in trauma cases) were detected in 12 cases (3.2%). For those cases which tested positive for alcohol c. 40% had other drugs present which have the potential to cause or contribute to the driver's impairment. Our report also considers the blood drug concentrations in the context of their interpretability with respect to driving impairment. The data reveal that over the past decade, while alcohol use has declined, some drug use, notably methamphetamine, has increased significantly (from 1.89% to 4.86% of fatally injured drivers) between 1992 and 2002. Combined drug and alcohol use is a very significant pattern in this population and is probably overlooked in DUI enforcement programs.\"},{\"pmid\":\"1979799\",\"title\":\"A review of the effects of antihistamines on mental processes related to automobile driving.\",\"journal\":\"The Journal of allergy and clinical immunology\",\"year\":\"1990\",\"abstractText\":\"The newer, second-generation H1-receptor antagonists have been shown to have potent antiallergic effects without inducing sleepiness. However, because traditional antihistamines may cause functional or cognitive impairment, the clinician still must consider warning patients about activities that could be hazardous. Because the effects of drugs on driving an automobile are difficult to measure directly, studies must use surrogate activities in a laboratory setting. Effects of antihistamines on the central nervous system are assessed with psychomotor tests, which are selected on the basis of their relativity to real-world activities, to develop a profile of mental processes that may be affected. This article reviews the psychomotor tests and study design used to characterize the intensity and duration of drug effects after single and multiple doses and in combination with other impairing agents such as ethanol. Several studies have been published that assess the effects of cetirizine, an H1-receptor blocker, on mental performance. In the study discussed here, diphenhydramine hydrochloride and hydroxyzine were used as positive controls to demonstrate that the period during which some traditional antihistamines impair performance is different than the period of reported drowsiness they induce. The results of this series of studies show that cetirizine induced minimal changes in mental performance tests and only following the highest (20 mg) dose studied.\",\"publicationTypes\":[\"Journal Article\",\"Review\"],\"firstAuthor\":\"Gengo\",\"kind\":\"pubmed\",\"id\":\"1979799\",\"text\":\"The newer, second-generation H1-receptor antagonists have been shown to have potent antiallergic effects without inducing sleepiness. However, because traditional antihistamines may cause functional or cognitive impairment, the clinician still must consider warning patients about activities that could be hazardous. Because the effects of drugs on driving an automobile are difficult to measure directly, studies must use surrogate activities in a laboratory setting. Effects of antihistamines on the central nervous system are assessed with psychomotor tests, which are selected on the basis of their relativity to real-world activities, to develop a profile of mental processes that may be affected. This article reviews the psychomotor tests and study design used to characterize the intensity and duration of drug effects after single and multiple doses and in combination with other impairing agents such as ethanol. Several studies have been published that assess the effects of cetirizine, an H1-receptor blocker, on mental performance. In the study discussed here, diphenhydramine hydrochloride and hydroxyzine were used as positive controls to demonstrate that the period during which some traditional antihistamines impair performance is different than the period of reported drowsiness they induce. The results of this series of studies show that cetirizine induced minimal changes in mental performance tests and only following the highest (20 mg) dose studied.\"}]",
+      "t": 55450
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee91107192af37f8b09a13f4b2",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "alcohol diphenhydramine interaction human psychomotor sedation",
+          "alcohol diphenhydramine combination adults psychomotor performance",
+          "diphenhydramine ethanol combination driving impairment"
+        ],
+        "text": "No adult human trial of combined alcohol and diphenhydramine effects was found."
+      },
+      "t": 68291
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee91107192af37f8b09a13f4b2",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 68291
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2eeba34746c90830712cf3e34c7",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "alcohol diphenhydramine interaction human psychomotor sedation",
+          "diphenhydramine alcohol interaction drowsiness sedation"
+        ],
+        "text": "No adult human trial of combined alcohol and diphenhydramine impairment found."
+      },
+      "t": 78787
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult human trial of combined alcohol and diphenhydramine impairment found.",
+        "searched": [
+          "alcohol diphenhydramine interaction human psychomotor sedation",
+          "diphenhydramine alcohol interaction drowsiness sedation"
+        ]
+      },
+      "t": 78787
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2eeba34746c90830712cf3e34c7",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 78787
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 78787
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 78787
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "supports: The quote is an explicit label instruction to avoid alcoholic beverages when using this diphenhydramine product, which matches the claim and qualifies as a label restriction on the combination for increases_risk.",
+      "model": "muse-wonder-1.0",
+      "t": 82494
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 82494
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 0.",
+      "t": 97440
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__diphenhydramine",
+        "a": "alcohol",
+        "b": "diphenhydramine",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "The label addresses avoiding alcoholic beverages when using this diphenhydramine product",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states to avoid alcoholic beverages when using this diphenhydramine product.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult human trial of combined alcohol and diphenhydramine impairment found.",
+            "searched": [
+              "alcohol diphenhydramine interaction human psychomotor sedation",
+              "diphenhydramine alcohol interaction drowsiness sedation"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Diphenhydramine and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states to avoid alcoholic beverages when using this diphenhydramine product.",
+            "quote": "When using this product avoid alcoholic beverages",
+            "source": {
+              "kind": "fda_label",
+              "id": "01906eed-78ee-f2a1-e063-6294a90a809b#when_using"
+            },
+            "stance": "increases_risk",
+            "outcome": "alcohol_combination_use",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "supports: The quote is an explicit label instruction to avoid alcoholic beverages when using this diphenhydramine product, which matches the claim and qualifies as a label restriction on the combination for increases_risk.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "01906eed-78ee-f2a1-e063-6294a90a809b#when_using",
+            "title": "When Using",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=01906eed-78ee-f2a1-e063-6294a90a809b",
+            "citation": "FDA label · When Using",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:42:30.827Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_advises_against",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 111308
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "inn": "gemcitabine",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "61928914",
+  "product": "GEMZAR 1000 mg, poudre pour solution pour perfusion",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61928914/extrait",
+  "retrievedAt": "2026-11-04T08:44:07.779Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "247dffd41f04e60a97c8aa822d41f5d348f516763a8b31ce044a7b4e4bf75244",
+  "sections": [
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAucune étude d’interaction spécifique n’a été réalisée (voir rubrique 5.2)\n\nRadiothérapie\n\nConcomitante (administrée simultanément ou &#8804; 7 jours d'intervalle) – La toxicité associée à cette thérapie multimodale dépend de nombreux facteurs différents, notamment la dose de gemcitabine, sa fréquence d’administration, la dose d’irradiation, la technique de planification de la radiothérapie, le tissu cible, et le volume cible. Des études pré-cliniques et cliniques ont montré une activité radio sensibilisante de la gemcitabine. Dans un essai clinique chez des patients atteints de cancer bronchique non à petites cellules, où la gemcitabine a été administrée à la dose de 1 000 mg/m2 de façon concomitante avec une radiothérapie thoracique et pour une durée allant jusqu’à 6 semaines consécutives, une toxicité significative sous forme de mucite sévère et mettant potentiellement en jeu le pronostic vital, notamment œsophagite, et une pneumopathie a été observée, en particulier chez les patients ayant reçu de gros volumes de radiothérapie [médiane de volume du traitement : 4 795 cm3]. Les études réalisées ultérieurement ont suggéré la faisabilité d'administrer la gemcitabine avec la radiothérapie à des doses plus faibles avec une toxicité prévisible, comme dans le cas d’une étude de phase II dans le cancer bronchique non à petites cellules, où les doses de radiothérapie thoracique de 66 Gy ont été administrées de façon concomitante avec la gemcitabine (600 mg/m2, quatre fois) et le cisplatine (80 mg/m2, deux fois) pendant 6 semaines. Le schéma optimal pour une administration sécurisée de la gemcitabine avec la radiothérapie à doses thérapeutiques n'a pas encore été déterminé dans tous les types de tumeurs.\n\nNon concomitante (administrée > 7 jours d'intervalle) - L'analyse des données n'indique pas d’augmentation de la toxicité lorsque la gemcitabine est administrée plus de 7 jours avant ou après la radiothérapie, autre que la réactivation radique. Les données suggèrent que la gemcitabine peut être débutée après la résolution des effets aigus de l’irradiation ou au moins une semaine après l’irradiation.\n\nDes atteintes radiques ont été rapportées au niveau des tissus cibles (par exemple, œsophagite, colite et pneumopathie), lors de l’utilisation concomitante ou non de la gemcitabine avec la radiothérapie.\n\nAutres\n\nLe vaccin antiamarile (fièvre jaune) et les vaccins vivants atténués ne sont pas recommandés du fait du risque d’atteinte systémique potentiellement fatale, et notamment chez les patients immunodéprimés.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61928914/extrait#tabpanel-rcp-panel",
+      "sha256": "247dffd41f04e60a97c8aa822d41f5d348f516763a8b31ce044a7b4e4bf75244"
+    }
+  ]
+}

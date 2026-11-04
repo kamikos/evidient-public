@@ -1,0 +1,149 @@
+{
+  "card": {
+    "pair": "alcohol__bupropion",
+    "a": "alcohol",
+    "b": "bupropion",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The Spanish label reports rare adverse events with alcohol during bupropion treatment.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The Spanish bupropion label reports rare neuropsychiatric events or reduced alcohol tolerance in patients drinking alcohol during treatment.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish bupropion label reports rare neuropsychiatric events or reduced alcohol tolerance in patients drinking alcohol during treatment.",
+        "quote": "Aunque en los datos clínicos no se identifica la existencia de una interacción farmacocinética entre bupropión y alcohol, en raras ocasiones se ha notificado la aparición de acontecimientos adversos neuropsiquiátricos o de una disminución de la tolerancia al alcohol en pacientes que beben alcohol durante el tratamiento con Zyntabac.",
+        "quoteEnglish": "Although clinical data do not identify a pharmacokinetic interaction between bupropion and alcohol, rare neuropsychiatric adverse events or reduced alcohol tolerance have been reported in patients drinking alcohol during Zyntabac treatment.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:63265#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "neuropsychiatric_events",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "gpt-6.1-sol (self-check, replace)",
+        "judgeRationale": "The original Spanish sentence explicitly reports rare neuropsychiatric events or reduced alcohol tolerance during drinking and bupropion treatment; the claim preserves that scope and does not infer causation.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "86530199-999b-9f92-b1bc-b8515ec829f3#contraindications",
+        "title": "bupropion: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86530199-999b-9f92-b1bc-b8515ec829f3",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "86530199-999b-9f92-b1bc-b8515ec829f3#warnings_and_cautions",
+        "title": "bupropion: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86530199-999b-9f92-b1bc-b8515ec829f3",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "86530199-999b-9f92-b1bc-b8515ec829f3#drug_interactions",
+        "title": "bupropion: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86530199-999b-9f92-b1bc-b8515ec829f3",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:63265#4.5",
+        "title": "ZYNTABAC 150 mg COMPRIMIDOS DE LIBERACION PROLONGADA: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=63265&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "39835000",
+        "title": "Challenges in the Management of Severe Serotonin Syndrome: A Case Report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39835000/",
+        "citation": "2168-8184 16 12 2024 Dec Cureus Cureus",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "22020393",
+        "title": "Unexpected aggressive behaviour: interaction of bupropion and alcohol.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22020393/",
+        "citation": "1878-6847 23 3 2011 The International journal of risk & safety in medicine Int J Risk Saf Med",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6436033",
+        "title": "The effect of bupropion, a new antidepressant drug, and alcohol and their interaction in man.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6436033/",
+        "citation": "0031-6970 27 1 1984 European journal of clinical pharmacology Eur J Clin Pharmacol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33755521",
+        "title": "A systematic review of second line therapies in toxic seizures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33755521/",
+        "citation": "1556-9519 59 6 2021 Jun Clinical toxicology (Philadelphia, Pa.) Clin Toxicol (Phila)",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Bupropion and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.551Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "gpt-6.1-sol (self-check, replace)",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

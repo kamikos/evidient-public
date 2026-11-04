@@ -1,0 +1,20 @@
+{
+  "pair": "abiraterone__alteplase",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The abiraterone label sections do not name alteplase; no human study was found.",
+      "searched": [
+        "\"abiraterone\"[tiab] AND \"alteplase\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

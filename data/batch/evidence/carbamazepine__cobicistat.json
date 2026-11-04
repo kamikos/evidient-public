@@ -1,0 +1,164 @@
+{
+  "card": {
+    "pair": "carbamazepine__cobicistat",
+    "a": "carbamazepine",
+    "b": "cobicistat",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "The FDA cobicistat label lists carbamazepine coadministration as contraindicated because of potential loss of therapeutic effect and resistance.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA interaction table indicates decreased cobicistat and boosted protease inhibitor exposure with carbamazepine.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The French label attributes reduced cobicistat efficacy to carbamazepine increasing cobicistat metabolism.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA cobicistat label lists carbamazepine coadministration as contraindicated because of potential loss of therapeutic effect and resistance.",
+        "quote": "Anticonvulsants: carbamazepine, phenobarbital, phenytoin ↓ atazanavir ↓ darunavir ↓ cobicistat Coadministration with carbamazepine, phenobarbital, or phenytoin is contraindicated due to potential for loss of therapeutic effect and development of resistance.",
+        "source": {
+          "kind": "fda_label",
+          "id": "3784c35c-e87f-410c-900b-8fd6313c6010#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The cobicistat table states coadministration with carbamazepine is contraindicated due to potential loss of therapeutic effect and resistance.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French label says carbamazepine can reduce cobicistat efficacy by increasing its metabolism.",
+        "quote": "Risque de diminution de l’efficacité du cobicistat par augmentation de son métabolisme par la carbamazépine.",
+        "quoteEnglish": "Risk of reduced cobicistat efficacy through increased metabolism caused by carbamazepine.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:61009918#4.5"
+        },
+        "stance": "mechanism",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French carbamazepine label states a risk of reduced cobicistat efficacy through increased metabolism by carbamazepine, and the translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61009918#4.5",
+        "title": "TEGRETOL 200 mg, comprimé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61009918/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#contraindications",
+        "title": "cobicistat: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#drug_interactions",
+        "title": "cobicistat: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:113872001#4.5",
+        "title": "TYBOST 150mg comprimidos recubiertos con pelicula: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=113872001&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34502487",
+        "title": "Pharmacokinetic Drug-Drug Interactions among Antiepileptic Drugs, Including CBD, Drugs Used to Treat COVID-19 and Nutrients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34502487/",
+        "citation": "1422-0067 22 17 2021 Sep 3 International journal of molecular sciences Int J Mol Sci",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38723113",
+        "title": "Effect of Carbamazepine on Darunavir Trough Concentrations: When the Dose Can Make the Difference-A Case Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38723113/",
+        "citation": "1536-3694 46 3 2024 Jun 1 Therapeutic drug monitoring Ther Drug Monit",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37731164",
+        "title": "Mechanisms and Clinical Significance of Pharmacokinetic Drug Interactions Mediated by FDA and EMA-approved Hepatitis C Direct-Acting Antiviral Agents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37731164/",
+        "citation": "1179-1926 62 10 2023 Oct Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Carbamazepine or Cobicistat, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Carbamazepine and Cobicistat, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.678Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

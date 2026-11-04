@@ -1,0 +1,151 @@
+{
+  "card": {
+    "pair": "alcohol__haloperidol",
+    "a": "alcohol",
+    "b": "haloperidol",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The Spanish label says haloperidol may increase alcohol-induced CNS depression.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes potentiation of alcohol's central depressant effects.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish label says haloperidol may increase CNS depression produced by alcohol.",
+        "quote": "El haloperidol puede aumentar la depresión del SNC producida por el alcohol",
+        "quoteEnglish": "Haloperidol may increase CNS depression produced by alcohol",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:33488#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish label states haloperidol may increase CNS depression produced by alcohol, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2cdd9fca-afe5-4bfa-8db1-337beec13c6b#drug_interactions",
+        "title": "haloperidol: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2cdd9fca-afe5-4bfa-8db1-337beec13c6b",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:33488#4.5",
+        "title": "HALOPERIDOL PRODES 2mg/ml GOTAS ORALES EN SOLUCION: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=33488&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61490049#4.4",
+        "title": "HALDOL 1 mg, comprimé: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61490049/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61490049#4.5",
+        "title": "HALDOL 1 mg, comprimé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61490049/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "21881547",
+        "title": "Human rabies--Wisconsin, 2010.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21881547/",
+        "citation": "1545-861X 60 34 2011 Sep 2 MMWR. Morbidity and mortality weekly report MMWR Morb Mortal Wkly Rep",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35935687",
+        "title": "Serine racemase interaction with N-methyl-D-aspartate receptors antagonist reveals potential alternative target of chronic pain treatment: Molecular docking study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35935687/",
+        "citation": "2231-4040 13 3 2022 Jul-Sep Journal of advanced pharmaceutical technology & research J Adv Pharm Technol Res",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6405436",
+        "title": "Involvement of catecholamines in acute tolerance to ethanol in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6405436/",
+        "citation": "0033-3158 79 2-3 1983 Psychopharmacology Psychopharmacology (Berl)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "18601302",
+        "title": "Delirium and its treatment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18601302/",
+        "citation": "1172-7047 22 8 2008 CNS drugs CNS Drugs",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Haloperidol and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.580Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

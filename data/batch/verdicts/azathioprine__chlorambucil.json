@@ -1,0 +1,21 @@
+{
+  "pair": "azathioprine__chlorambucil",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Azathioprine contraindications state RA patients previously treated with alkylating agents including chlorambucil may have prohibitive malignancy risk on azathioprine."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "does_not_support"
+    },
+    {
+      "path": "reported.0",
+      "support": "does_not_support"
+    }
+  ]
+}

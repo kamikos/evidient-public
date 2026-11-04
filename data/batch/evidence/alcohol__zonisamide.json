@@ -1,0 +1,137 @@
+{
+  "card": {
+    "pair": "alcohol__zonisamide",
+    "a": "alcohol",
+    "b": "zonisamide",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says zonisamide and alcohol coadministration has not been evaluated in clinical studies.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies a lack of clinical coadministration studies.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA zonisamide label says coadministration with alcohol has not been evaluated in clinical studies.",
+        "quote": "Concomitant administration of zonisamide and alcohol or other CNS depressant drugs has not been evaluated in clinical studies.",
+        "source": {
+          "kind": "fda_label",
+          "id": "994e3ce0-f30b-47b1-aa42-b1ed37fb7c12#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states concomitant zonisamide and alcohol has not been evaluated in clinical studies.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "994e3ce0-f30b-47b1-aa42-b1ed37fb7c12#precautions",
+        "title": "zonisamide: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=994e3ce0-f30b-47b1-aa42-b1ed37fb7c12",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "994e3ce0-f30b-47b1-aa42-b1ed37fb7c12#drug_interactions",
+        "title": "zonisamide: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=994e3ce0-f30b-47b1-aa42-b1ed37fb7c12",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24936587",
+        "title": "A pharmaco-EEG-based assessment of the interaction between ethanol and zonisamide.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24936587/",
+        "citation": "1464-3502 49 5 2014 Sep-Oct Alcohol and alcoholism (Oxford, Oxfordshire) Alcohol Alcohol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "39063550",
+        "title": "Zonisamide Ameliorated the Apoptosis and Inflammation in Cerebellar Tissue of Induced Alcohol Addiction Animal Model.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39063550/",
+        "citation": "2075-1729 14 7 2024 Jun 24 Life (Basel, Switzerland) Life (Basel)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38170117",
+        "title": "Zonisamide: A Comprehensive, Updated Review for the Clinician.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38170117/",
+        "citation": "2163-0402 14 1 2024 Feb Neurology. Clinical practice Neurol Clin Pract",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20473070",
+        "title": "Placebo-controlled trial of zonisamide for the treatment of alcohol dependence.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20473070/",
+        "citation": "1533-712X 30 3 2010 Jun Journal of clinical psychopharmacology J Clin Psychopharmacol",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Zonisamide and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet includes animal interaction studies and an alcohol-dependence treatment trial, but no controlled human acute interaction study.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"zonisamide\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.629Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

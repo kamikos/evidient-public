@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__hydroxychloroquine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The review lists alcohol intake among predisposing risk factors for HCQ-induced psychosis, and the claim correctly notes no quantification."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

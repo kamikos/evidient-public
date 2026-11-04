@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__lomitapide",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The lomitapide label says alcohol may increase hepatic fat and induce or exacerbate liver injury."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

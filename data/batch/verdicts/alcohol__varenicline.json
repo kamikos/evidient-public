@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__varenicline",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The varenicline label reports postmarketing increased alcohol intoxication, some with unusual or aggressive behavior and often amnesia."
+    },
+    {
+      "id": "cEU1",
+      "support": "supports",
+      "rationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

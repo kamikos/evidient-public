@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__baclofen",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The FDA precautions sentence directly states baclofen's CNS effects may be additive to alcohol."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The French 4.5 entry for alcohol (drink or excipient) states alcohol increases baclofen's sedative effect, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

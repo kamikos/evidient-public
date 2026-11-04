@@ -1,0 +1,153 @@
+{
+  "card": {
+    "pair": "alcohol__risperidone",
+    "a": "alcohol",
+    "b": "risperidone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The French label describes increased sedation risk with risperidone and alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies increased sedation risk.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "A retrospective emergency-department study found no statistically significant vital-sign effects; that finding does not measure sedation directly.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French label describes increased sedation risk when risperidone is combined with alcohol.",
+        "quote": "La rispéridone doit être administrée avec prudence en association avec d’autres médicaments agissant au niveau central en particulier l’alcool, les opiacés, les antihistaminiques et les benzodiazépines du fait d’une augmentation du risque d’effet sédatif.",
+        "quoteEnglish": "Risperidone must be administered cautiously with other centrally acting substances, particularly alcohol, opiates, antihistamines and benzodiazepines, because of an increased risk of sedation.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60260497#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French 4.5 text calls for caution combining risperidone with alcohol because of increased risk of sedation, and the English rendering is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A retrospective emergency-department study found no statistically significant vital-sign effects with oral risperidone, with or without alcohol intoxication and benzodiazepine administration.",
+        "quote": "Overall, risperidone with and without alcohol intoxication and benzodiazepine administration had no statistically significant effect on vital signs (p&#xa0;=&#xa0;ns for all comparisons).",
+        "source": {
+          "kind": "pubmed",
+          "id": "29079068"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "vital_sign_changes",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The retrospective ED chart review reports no statistically significant effect on vital signs with risperidone with or without alcohol intoxication and benzodiazepines.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "4ab6d256-6590-45be-a5df-f505987f96c3#drug_interactions",
+        "title": "risperidone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4ab6d256-6590-45be-a5df-f505987f96c3",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60260497#4.5",
+        "title": "RISPERDAL 2 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60260497/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "18601302",
+        "title": "Delirium and its treatment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18601302/",
+        "citation": "1172-7047 22 8 2008 CNS drugs CNS Drugs",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27640244",
+        "title": "A comparison between conventional liposome and drug-cyclodextrin complex in liposome system.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27640244/",
+        "citation": "1873-3476 513 1-2 2016 Nov 20 International journal of pharmaceutics Int J Pharm",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "29079068",
+        "title": "Safety of Risperidone for Acute Agitation and Alcohol Intoxication in Emergency Department Patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29079068/",
+        "citation": "0736-4679 53 4 2017 Oct The Journal of emergency medicine J Emerg Med",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33278816",
+        "title": "Pitfalls and challenges associated with phenoconversion in forensic toxcicology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33278816/",
+        "citation": "1878-0326 51 2021 Mar Forensic science international. Genetics Forensic Sci Int Genet",
+        "language": "en",
+        "design": "case_report"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Risperidone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.612Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

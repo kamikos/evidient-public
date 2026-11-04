@@ -1,0 +1,30 @@
+{
+  "pair": "aliskiren__captopril",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The aliskiren label states use with ACE inhibitors is associated with increased hypotension, hyperkalemia and renal function changes including acute renal failure versus monotherapy; captopril is an ACE inhibitor."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The captopril contraindications section says not to co-administer aliskiren with captopril in patients with diabetes."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

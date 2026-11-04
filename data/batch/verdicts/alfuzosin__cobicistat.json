@@ -1,0 +1,1 @@
+{"pair":"alfuzosin__cobicistat","judge":"claude-opus-5-5","claims":[{"id":"c1","support":"supports","rationale":"The cobicistat interaction table lists alfuzosin as contraindicated (with an exposure increase arrow) due to potential serious reactions such as hypotension."}],"sentences":[{"path":"headline","support":"supports"},{"path":"reported.0","support":"supports"}]}

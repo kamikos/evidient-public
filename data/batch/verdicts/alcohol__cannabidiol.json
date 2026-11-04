@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__cannabidiol",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The Epidiolex label states alcohol could potentiate its somnolence and sedation effect."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The crossover study abstract reports lower blood alcohol with CBD plus alcohol and few differences in pharmacological effects versus alcohol alone."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

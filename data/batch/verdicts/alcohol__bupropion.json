@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__bupropion",
+  "judge": "gpt-6.1-sol (self-check, replace)",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The original Spanish sentence explicitly reports rare neuropsychiatric events or reduced alcohol tolerance during drinking and bupropion treatment; the claim preserves that scope and does not infer causation."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

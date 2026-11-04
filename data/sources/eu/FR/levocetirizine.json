@@ -1,0 +1,28 @@
+{
+  "inn": "levocetirizine",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60073608",
+  "product": "LEVOCETIRIZINE KRKA 5 mg, comprimé pelliculé",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60073608/extrait",
+  "retrievedAt": "2026-11-04T08:44:14.795Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "f2dd2924951e76ad1fb31f5eef64b433775366857ae393f381bab2a873e5dd8d",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nLa prudence est recommandée en cas d'ingestion concomitante d'alcool (voir rubrique 4.5).\n\nDes précautions doivent être prises chez les patients avec des facteurs prédisposant à la rétention urinaire (par ex. lésion de la moelle épinière, hyperplasie prostatique) étant donné que la lévocétirizine peut augmenter le risque de rétention urinaire.\n\nDes précautions doivent être prises chez les patients épileptiques et les patients à risque de convulsions, car la lévocétirizine peut provoquer une aggravation des crises.\n\nLes réponses aux tests allergiques cutanés sont inhibées par les antihistaminiques et une période de wash-out (3 jours) est nécessaire avant de les exécuter.\n\nDes cas de prurit peuvent apparaître après l’arrêt de la lévocétirizine même si ces symptômes ne sont pas présents avant le début du traitement. Les symptômes peuvent disparaître spontanément. Dans certains cas, les symptômes peuvent être intenses et peuvent nécessiter une reprise du traitement. Les symptômes doivent disparaître lors de la reprise du traitement.\n\nPopulation pédiatrique\n\nL'utilisation du comprimé pelliculé n'est pas recommandée chez l'enfant de moins de 6 ans car la forme comprimé pelliculé ne permet pas l'adaptation posologique pour cette tranche d'âge. Il est recommandé d'utiliser une présentation adaptée à l’usage pédiatrique de lévocétirizine.\n\nCe médicament contient du lactose. Les patients présentant des problèmes héréditaires rares d'intolérance au galactose, de déficit total en lactase ou un syndrome de malabsorption du glucose et du galactose ne doivent pas prendre ce médicament.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60073608/extrait#tabpanel-rcp-panel",
+      "sha256": "c11ec8f24c10ad4838c9463b82d11d264b777d979b6b2fe93adcbf120e5fab76"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAucune étude spécifique d’interaction n’a été conduite avec la lévocétirizine (notamment avec les inducteurs du CYP3A4). Les études avec la cétirizine (mélange racémique) n’ont révélé aucune interaction cliniquement significative (avec l’antipyrine, l’azithromycine, la cimétidine, le diazépam, l'érythromycine, le glipizide, le kétoconazole et la pseudoéphédrine). Une légère diminution de la clairance de la cétirizine (16 %) a été observée après administration répétée de théophylline (400 mg une fois par jour), alors que le métabolisme de la théophylline n’est pas modifié par l’administration concomitante de cétirizine. Lors d'une étude à doses multiples dede ritonavir (600 mg deux fois par jour) et de cétirizine (10 mg par jour), l'étendue de l'exposition à la cétirizine a été augmentée d'environ 40 % tandis que la biodisponibilité du ritonavir a été légèrement modifiée (-11 %) après administration concomitante de cétirizine.\n\nLe taux d’absorption de la lévocétirizine n’est pas diminué par l’alimentation, bien que la vitesse d'absorption soit réduite.\n\nChez certains patients sensibles, la prise concomitante d’alcool ou autres dépresseurs du système nerveux central (SNC) avec la cétirizine ou la lévocétirizine peut entraîner une altération accrue de la vigilance ou des performances.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60073608/extrait#tabpanel-rcp-panel",
+      "sha256": "09eb192c996af1d718d17fe37c37ebbc95b1b6415952c6ae159cae5ac1f777a4"
+    }
+  ]
+}

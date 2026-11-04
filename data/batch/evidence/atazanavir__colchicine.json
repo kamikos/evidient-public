@@ -1,0 +1,142 @@
+{
+  "card": {
+    "pair": "atazanavir__colchicine",
+    "a": "atazanavir",
+    "b": "colchicine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA colchicine label reports potentially fatal toxicity with protease inhibitors in patients with renal or hepatic impairment.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA warning covers atazanavir as a protease inhibitor and concerns patients with renal or hepatic impairment.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "A spontaneous-report analysis also found a rhabdomyolysis or myopathy reporting signal for this specific pair.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA colchicine label reports life-threatening and fatal toxicity with protease inhibitors, including atazanavir's class, in patients with renal or hepatic impairment.",
+        "quote": "Patients with renal or hepatic impairment should not be given colchicine tablets in conjunction with P-gp or strong CYP3A4 inhibitors (this includes all protease inhibitors except fosamprenavir).\nIn these patients, life-threatening and fatal colchicine toxicity has been reported with colchicine taken in therapeutic doses.",
+        "source": {
+          "kind": "fda_label",
+          "id": "5a0b4246-e7dd-29e5-e063-6294a90a2871#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The colchicine contraindication covers all protease inhibitors except fosamprenavir in renal or hepatic impairment and reports life-threatening and fatal toxicity; atazanavir is a protease inhibitor.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A spontaneous-report analysis found a rhabdomyolysis or myopathy reporting signal for colchicine plus atazanavir, with reporting odds ratio 35.4.",
+        "quote": "The strongest ROR signal was for colchicine + atazanavir and rhabdomyolysis/myopathy (ROR = 35.4, 95% CI: 12.8-97.6)",
+        "source": {
+          "kind": "pubmed",
+          "id": "36688283"
+        },
+        "stance": "increases_risk",
+        "outcome": "myopathy",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The FAERS disproportionality abstract reports the strongest ROR signal for colchicine plus atazanavir and rhabdomyolysis/myopathy (ROR 35.4), and the claim frames it as a reporting signal.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions",
+        "title": "atazanavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a0b4246-e7dd-29e5-e063-6294a90a2871#contraindications",
+        "title": "colchicine: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a0b4246-e7dd-29e5-e063-6294a90a2871",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a0b4246-e7dd-29e5-e063-6294a90a2871#warnings_and_cautions",
+        "title": "colchicine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a0b4246-e7dd-29e5-e063-6294a90a2871",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36688283",
+        "title": "Drugs That Interact With Colchicine Via Inhibition of Cytochrome P450 3A4 and P-Glycoprotein: A Signal Detection Analysis Using a Database of Spontaneously Reported Adverse Events (FAERS).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36688283/",
+        "citation": "1542-6270 57 10 2023 Oct The Annals of pharmacotherapy Ann Pharmacother",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "16120068",
+        "title": "Therapeutic drug monitoring of atazanavir: surveillance of pharmacotherapy in the clinic.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16120068/",
+        "citation": "0306-5251 60 3 2005 Sep British journal of clinical pharmacology Br J Clin Pharmacol",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Atazanavir or Colchicine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Atazanavir and Colchicine, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.663Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

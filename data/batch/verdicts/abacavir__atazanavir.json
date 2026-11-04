@@ -1,0 +1,21 @@
+{
+  "pair": "abacavir__atazanavir",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The Spanish atazanavir label states verbatim that abacavir exposure is not expected to change significantly with atazanavir; the translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "does_not_support"
+    }
+  ]
+}

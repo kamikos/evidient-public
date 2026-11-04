@@ -1,0 +1,21 @@
+{
+  "pair": "atazanavir__cisapride",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The atazanavir label contraindicates cisapride due to potential serious and/or life-threatening reactions such as cardiac arrhythmias."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "inn": "cefuroxime",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60378168",
+  "product": "APROKAM 50 mg, poudre pour solution injectable",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60378168/extrait",
+  "retrievedAt": "2026-11-04T08:45:25.850Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "258b9d0652de7c9612720e76618e2931143e3951c14638b0aaf6e7526d29b22f",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nAPROKAM doit être utilisé uniquement par voie intra-camérulaire.\n\nEn raison d'un possible risque de réaction allergique croisée, une précaution particulière doit être prise chez les patients ayant des antécédents de réactions allergiques aux pénicillines ou aux autres bêta-lactamines.\n\nChez les patients à risque d’infections dues à des souches résistantes, par exemple les patients ayant eu une infection ou une colonisation avec un SARM (Staphylococcus aureus résistant à la méticilline), un autre traitement antibiotique prophylactique doit être envisagé.\n\nEn l’absence de données chez des groupes de patients particuliers (patients à haut risque d’infection, patients avec des cataractes compliquées, patients devant subir des interventions combinées à la chirurgie de la cataracte, patients ayant une maladie sévère de la thyroïde, patients ayant moins de 2000 cellules endothéliales cornéennes), APROKAM doit être uniquement utilisé qu’après une évaluation attentive du rapport bénéfice/risque.\n\nL’utilisation de la céfuroxime ne doit pas être considérée comme une mesure isolée car d’autres précautions sont tout aussi importantes, comme le traitement prophylactique antiseptique.\n\nAucune toxicité endothéliale cornéenne n’a été rapportée à la concentration recommandée de céfuroxime ; néanmoins, ce risque ne peut être exclu et durant la surveillance post-opératoire, les médecins doivent garder à l’esprit ce risque potentiel.\n\nCe médicament contient moins de 1 mmol (23 mg) de sodium par dose, c-à-d. qu’il est essentiellement « sans sodium ».",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60378168/extrait#tabpanel-rcp-panel",
+      "sha256": "6f6a968ae41adbffc5aff718907c32126d0910628b8a3a98678ca5eb819b16b3"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nL’exposition systémique attendue étant négligeable, les interactions systémiques sont peu probables.\n\nAucune incompatibilité avec les produits les plus fréquemment utilisés dans la chirurgie de la cataracte, n’a été rapportée dans la littérature.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60378168/extrait#tabpanel-rcp-panel",
+      "sha256": "4e06cb4aa43825f10788c7ba75d2d2a1601e84c2f50f411327cfeabb9c5e06db"
+    }
+  ]
+}

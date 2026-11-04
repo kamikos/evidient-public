@@ -1,0 +1,21 @@
+{
+ "pair": "dalteparin__diclofenac",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "partial",
+   "rationale": "The quote says \"in these patients\", meaning those receiving neuraxial anesthesia or spinal puncture, but the claim generalizes this to anticoagulated patients."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

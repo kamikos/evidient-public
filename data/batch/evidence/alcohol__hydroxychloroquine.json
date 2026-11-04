@@ -1,0 +1,128 @@
+{
+  "card": {
+    "pair": "alcohol__hydroxychloroquine",
+    "a": "alcohol",
+    "b": "hydroxychloroquine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "A review lists alcohol intake among predisposing factors for hydroxychloroquine-related psychosis.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The review identifies alcohol intake as a predisposing factor without giving an alcohol-specific risk estimate.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "A review of hydroxychloroquine-related psychosis lists alcohol intake among predisposing risk factors; it does not quantify the alcohol-related risk.",
+        "quote": "The presence of risk factors in these patients may precipitate HCQ-induced psychosis and their precocious detection could be associated with a risk minimization. Among predisposing risk factors, there are the co-exposure to interacting drugs, alcohol intake, familial history of psychiatric diseases, female gender, and the concomitant use of low-dose glucocorticoids.",
+        "source": {
+          "kind": "pubmed",
+          "id": "29948492"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychosis",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The review lists alcohol intake among predisposing risk factors for HCQ-induced psychosis, and the claim correctly notes no quantification.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "ebe00e35-ed3d-40f4-9a93-a37b0da01ddb#warnings_and_cautions",
+        "title": "hydroxychloroquine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebe00e35-ed3d-40f4-9a93-a37b0da01ddb",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30683557",
+        "title": "Porphyria cutanea tarda: Recent update.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30683557/",
+        "citation": "1096-7206 128 3 2019 Nov Molecular genetics and metabolism Mol Genet Metab",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27173501",
+        "title": "Quinine and the ABCs of Long QT: A Patient's Misfortune with Arthritis, (Alcoholic) Beverages, and Cramps.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27173501/",
+        "citation": "1525-1497 31 10 2016 Oct Journal of general internal medicine J Gen Intern Med",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35919373",
+        "title": "c H Synthesis of pyrazolo[5',1':2,3]imidazo[1,5-]quinazolin-6(5)-ones and molecular docking study of their affinity against the COVID-19 main protease.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35919373/",
+        "citation": "2046-2069 12 30 2022 Jun 29 RSC advances RSC Adv",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "29948492",
+        "title": "Neuropsychiatric clinical manifestations in elderly patients treated with hydroxychloroquine: a review article.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29948492/",
+        "citation": "1568-5608 26 5 2018 Oct Inflammopharmacology Inflammopharmacology",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "studies_only",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Hydroxychloroquine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study isolating the effects of alcohol combined with hydroxychloroquine.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"hydroxychloroquine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.581Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__daridorexant",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The abstract of the 19-subject randomized crossover study reports numerically greater impairment on the listed measures with ethanol plus daridorexant than daridorexant alone."
+    },
+    {
+      "id": "cEU1",
+      "support": "supports",
+      "rationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

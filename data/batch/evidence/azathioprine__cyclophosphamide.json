@@ -1,0 +1,138 @@
+{
+  "card": {
+    "pair": "azathioprine__cyclophosphamide",
+    "a": "azathioprine",
+    "b": "cyclophosphamide",
+    "origin": "batch",
+    "category": "liver",
+    "headline": {
+      "text": "The FDA label flags malignancy risk with azathioprine after alkylating agents such as cyclophosphamide in rheumatoid arthritis.",
+      "claimIds": [
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Separately, the French cyclophosphamide label lists increased hepatotoxicity, including hepatic necrosis, with azathioprine.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French cyclophosphamide label lists increased hepatotoxicity, including hepatic necrosis, with azathioprine.",
+        "quote": "Azathioprine : risque accru d’hépatotoxicité (nécrose hépatique)",
+        "quoteEnglish": "Azathioprine: increased risk of hepatotoxicity, including hepatic necrosis.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62554177#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "liver_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French Endoxan label lists azathioprine with an increased risk of hepatotoxicity (hepatic necrosis), and the English rendering is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label describes a potentially prohibitive malignancy risk from azathioprine in rheumatoid arthritis patients previously treated with alkylating agents, including cyclophosphamide.",
+        "quote": "Patients with rheumatoid arthritis previously treated with alkylating agents (cyclophosphamide, chlorambucil, melphalan, or others) may have a prohibitive risk of malignancy if treated with azathioprine.",
+        "source": {
+          "kind": "fda_label",
+          "id": "5116b22b-1460-5535-e063-6394a90acbe5#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "malignancy",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The azathioprine contraindications say RA patients previously treated with alkylating agents including cyclophosphamide may have a prohibitive malignancy risk.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "5116b22b-1460-5535-e063-6394a90acbe5#contraindications",
+        "title": "azathioprine: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5116b22b-1460-5535-e063-6394a90acbe5",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62554177#4.5",
+        "title": "ENDOXAN 50 mg, comprimé enrobé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62554177/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32005600",
+        "title": "ANCA associated vasculitis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32005600/",
+        "citation": "1879-0828 74 2020 Apr European journal of internal medicine Eur J Intern Med",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "8711631",
+        "title": "[Vasculitis].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8711631/",
+        "citation": "0040-5930 53 7 1996 Jul Therapeutische Umschau. Revue therapeutique Ther Umsch",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37438402",
+        "title": "Effect of DMARDs on the immunogenicity of vaccines.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37438402/",
+        "citation": "1759-4804 19 9 2023 Sep Nature reviews. Rheumatology Nat Rev Rheumatol",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Azathioprine or Cyclophosphamide, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Azathioprine and Cyclophosphamide, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.664Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

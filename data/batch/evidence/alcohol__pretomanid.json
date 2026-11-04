@@ -1,0 +1,92 @@
+{
+  "card": {
+    "pair": "alcohol__pretomanid",
+    "a": "alcohol",
+    "b": "pretomanid",
+    "origin": "batch",
+    "category": "liver",
+    "headline": {
+      "text": "The FDA pretomanid label flags alcohol during treatment, especially with impaired hepatic function.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label groups alcohol with hepatotoxic agents in this warning.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA pretomanid label includes alcohol in its avoidance warning during treatment, especially with impaired hepatic function.",
+        "quote": "Avoid alcohol and hepatotoxic agents, including herbal supplements and drugs other than bedaquiline and linezolid [see Indications and Usage (1) ] while on Pretomanid Tablets, especially in patients with impaired hepatic function.",
+        "source": {
+          "kind": "fda_label",
+          "id": "f1906fc9-cb3c-4e13-8a4a-da76100c1bf3#warnings_and_cautions"
+        },
+        "stance": "uncertain",
+        "outcome": "liver_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The warning says to avoid alcohol and hepatotoxic agents while on pretomanid, especially with impaired hepatic function.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "f1906fc9-cb3c-4e13-8a4a-da76100c1bf3#warnings_and_cautions",
+        "title": "pretomanid: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Pretomanid and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no human study quantifying this combination's effects.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"pretomanid\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.607Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

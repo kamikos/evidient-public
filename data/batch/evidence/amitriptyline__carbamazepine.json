@@ -1,0 +1,156 @@
+{
+  "card": {
+    "pair": "amitriptyline__carbamazepine",
+    "a": "amitriptyline",
+    "b": "carbamazepine",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "The Spanish label says carbamazepine may reduce amitriptyline-class drug concentrations and antidepressant response.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes reduced tricyclic antidepressant concentrations and response with carbamazepine.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The label attributes the reduction to increased tricyclic antidepressant metabolism.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish amitriptyline label says carbamazepine may increase tricyclic antidepressant metabolism, reducing plasma concentrations and antidepressant response.",
+        "quote": "la carbamazepina y la hierba de San Juan (Hypericum perforatum) pueden aumentar el metabolismo de los antidepresivos tricíclicos, con la consiguiente reducción de sus concentraciones plasmáticas y de la respuesta antidepresiva.",
+        "quoteEnglish": "Carbamazepine and St John's wort (Hypericum perforatum) may increase the metabolism of tricyclic antidepressants, consequently reducing their plasma concentrations and antidepressant response.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:37130#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The amitriptyline SmPC lists carbamazepine among inducers that may increase TCA metabolism, reducing plasma concentrations and antidepressant response; the rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "eu_smpc",
+        "id": "ES:37130#4.5",
+        "title": "TRYPTIZOL 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=37130&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62633436#4.5",
+        "title": "LAROXYL 50 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62633436/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7c1dd8ce-c490-40b4-b17a-da331df24cba#contraindications",
+        "title": "carbamazepine: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c1dd8ce-c490-40b4-b17a-da331df24cba",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7c1dd8ce-c490-40b4-b17a-da331df24cba#precautions",
+        "title": "carbamazepine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c1dd8ce-c490-40b4-b17a-da331df24cba",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "1397050",
+        "title": "Amitriptyline, desipramine, cyproheptadine and carbamazepine, in concentrations used therapeutically, reduce kainate- and N-methyl-D-aspartate-induced intracellular Ca2+ levels in neuronal culture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1397050/",
+        "citation": "0014-2999 219 1 1992 Aug 14 European journal of pharmacology Eur J Pharmacol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "18806030",
+        "title": "The effect of amitriptyline, gabapentin, and carbamazepine on morphine-induced hypercarbia in rabbits.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18806030/",
+        "citation": "1526-7598 107 4 2008 Oct Anesthesia and analgesia Anesth Analg",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2465530",
+        "title": "Central post-stroke pain--a controlled trial of amitriptyline and carbamazepine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2465530/",
+        "citation": "0304-3959 36 1 1989 Jan Pain Pain",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amitriptyline or Carbamazepine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amitriptyline and Carbamazepine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study isolating the amitriptyline–carbamazepine interaction.",
+        "searched": [
+          "\"amitriptyline\"[tiab] AND \"carbamazepine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.645Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

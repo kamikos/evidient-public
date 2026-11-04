@@ -1,0 +1,348 @@
+{
+  "note": "Manual owner-authorized overrides. These are the only hand-written catalog names. Augmentin excluded because it contains amoxicillin plus clavulanate. Adderall is the explicitly requested mixed-amphetamine-salts exception. Markets identify source regions, not current authorization or availability.",
+  "entries": [
+    {
+      "ingredient": "methylphenidate",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Ritalin",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Medikinet",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Concerta",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Equasym",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "lisdexamfetamine",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Elvanse",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "acetaminophen",
+      "synonyms": [
+        "paracetamol",
+        "Paracetamolum"
+      ],
+      "brands": [
+        {
+          "name": "Panadol",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Apap",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Calpol",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "ibuprofen",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Nurofen",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Ibuprom",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "diclofenac",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Voltaren",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "aspirin",
+      "synonyms": [
+        "acetylsalicylic acid",
+        "Acidum acetylsalicylicum"
+      ],
+      "brands": [
+        {
+          "name": "Aspirin",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Polopiryna",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Acard",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "tramadol",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Tramal",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "zolpidem",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Stilnox",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "alprazolam",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Xanax",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Afobam",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "hydroxyzine",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Atarax",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "cetirizine",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Zyrtec",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Cetrin",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "sertraline",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Zoloft",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Asentra",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "metronidazole",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Flagyl",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Metronidazol",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "warfarin",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Coumadin",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Warfin",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "lorazepam",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Ativan",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Lorafen",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "diphenhydramine",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Benadryl",
+          "markets": [
+            "US"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "amoxicillin",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Amotaks",
+          "markets": [
+            "PL"
+          ]
+        },
+        {
+          "name": "Duomox",
+          "markets": [
+            "PL"
+          ]
+        }
+      ]
+    },
+    {
+      "ingredient": "epinephrine",
+      "synonyms": [
+        "adrenaline",
+        "Adrenalinum"
+      ],
+      "brands": []
+    },
+    {
+      "ingredient": "albuterol",
+      "synonyms": [
+        "salbutamol",
+        "Salbutamolum"
+      ],
+      "brands": []
+    },
+    {
+      "ingredient": "amphetamine",
+      "synonyms": [],
+      "brands": [
+        {
+          "name": "Adderall",
+          "markets": [
+            "US"
+          ]
+        }
+      ]
+    }
+  ],
+  "supplementQueries": [
+    "whey",
+    "creatine",
+    "caffeine",
+    "melatonin",
+    "St John’s wort",
+    "fish oil",
+    "omega-3",
+    "vitamin D",
+    "magnesium",
+    "ginkgo",
+    "ashwagandha",
+    "turmeric",
+    "curcumin"
+  ]
+}

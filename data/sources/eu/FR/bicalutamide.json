@@ -1,0 +1,28 @@
+{
+  "inn": "bicalutamide",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "61599842",
+  "product": "BICALUTAMIDE BIOGARAN 50 mg, comprimé pelliculé",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61599842/extrait",
+  "retrievedAt": "2026-11-04T08:45:17.228Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "6869860ae036729e479672a099cd8bd35d88fb96c7d431beca10991747735ee8",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nLe rapport bénéfice/risque d’un traitement par le bicalutamide n’est pas favorable chez les patients atteints d’un cancer de la prostate au stade localisé (voir rubrique 5.1).\n\nLe bicalutamide est essentiellement métabolisé par le foie. Des données indiquent que son élimination peut être ralentie en cas d'insuffisance hépatique sévère, ce qui pourrait entraîner une augmentation de l’accumulation du bicalutamide. En conséquence, le bicalutamide doit être utilisé avec prudence en cas d'insuffisance hépatique modérée à sévère. Une surveillance régulière de la fonction hépatique doit être envisagée en raison de la possibilité d’altérations hépatiques.\n\nLa plupart des modifications surviennent au cours des 6 premiers mois du traitement par le bicalutamide.\n\nDans de rares cas, des perturbations hépatiques sévères et des insuffisances hépatiques ont été observées sous traitement par le bicalutamide, et des issues fatales ont été rapportées (voir rubrique 4.8). Le traitement par le bicalutamide doit être arrêté en cas de modifications hépatiques sévères.\n\nChez les patients présentant une progression objective de la maladie avec un taux de PSA élevé, l’arrêt du traitement par le bicalutamide doit être envisagé.\n\nUne diminution de la tolérance au glucose a été observée chez les hommes traités par des agonistes de la LHRH. Ceci peut se traduire par un diabète ou une perte du contrôle de la glycémie chez les patients avec un diabète préexistant. Il convient de surveiller la glycémie chez les patients recevant du bicalutamide en association avec des agonistes de la LHRH.\n\nDans de rares cas, des atteintes pulmonaires de type pneumopathies interstitielles ont été observées sous traitement par le bicalutamide et des issues fatales ont été rapportées (voir rubrique 4.8).\n\nDes cas d’insuffisance cardiaque et d’infarctus du myocarde ont été observés sous traitement par le bicalutamide en association avec un autre traitement agoniste de la LHRH (voir rubrique 4.8).\n\nLe traitement par suppression androgénique peut allonger l’intervalle QT.\n\nPour les patients ayant des antécédents ou des facteurs de risques d’allongement de l’intervalle QT, et pour les patients recevant des médicaments pouvant allonger l’intervalle QT, les médecins doivent évaluer le rapport bénéfice/risque en prenant en compte le risque de torsade de pointes avant d’initier BICALUTAMIDE BIOGARAN.\n\nLe traitement antiandrogène peut causer des changements morphologiques au niveau des spermatozoïdes. Bien que l’effet du bicalutamide sur la morphologie du sperme n’ait pas été évalué et qu’aucun changement de ce type n’ait été reporté chez les patients qui ont reçu le bicalutamide, les patients et/ou leurs partenaires doivent utiliser une contraception adaptée pendant le traitement par BICALUTAMIDE BIOGARAN et pendant 130 jours après arrêt.\n\nCe médicament contient du lactose. Les patients présentant une intolérance au galactose, un déficit total en lactase ou un syndrome de malabsorption du glucose et du galactose (maladies héréditaires rares) ne doivent pas prendre ce médicament.\n\nCe médicament contient moins de 1 mmol (23 mg) de sodium par comprimé, c’est-à-dire qu’il est essentiellement « sans sodium ».",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61599842/extrait#tabpanel-rcp-panel",
+      "sha256": "eb534b06d97cc3a8cd4ba3bee25f966eaa51954799f43c74359525fa2e81f138"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nLes études in vitro ont montré que l'énantiomère (R) du bicalutamide était un inhibiteur du cytochrome CYP 3A4 et à un degré moindre des cytochromes CYP 2C9, 2C19 et 2D6.\n\nPopulation pédiatrique\n\nLes études d’interaction n’ont été réalisées que chez l’adulte.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61599842/extrait#tabpanel-rcp-panel",
+      "sha256": "2001465764c671aba15fc68308cd5361cf88fa2b72058bf9839e009b42edf939"
+    }
+  ]
+}

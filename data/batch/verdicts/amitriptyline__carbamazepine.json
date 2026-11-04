@@ -1,0 +1,25 @@
+{
+  "pair": "amitriptyline__carbamazepine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The amitriptyline SmPC lists carbamazepine among inducers that may increase TCA metabolism, reducing plasma concentrations and antidepressant response; the rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

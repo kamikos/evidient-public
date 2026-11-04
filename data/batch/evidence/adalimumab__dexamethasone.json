@@ -1,0 +1,101 @@
+{
+  "card": {
+    "pair": "adalimumab__dexamethasone",
+    "a": "adalimumab",
+    "b": "dexamethasone",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA adalimumab label describes potentially greater infection risk with concurrent corticosteroids, the class containing dexamethasone.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes a corticosteroid class risk rather than a dexamethasone-specific estimate.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA adalimumab label says patients taking concurrent immunosuppressants such as corticosteroids, the class containing dexamethasone, may have greater infection risk.",
+        "quote": "Patients 65 years of age and older, patients with co-morbid conditions and/or patients taking concomitant immunosuppressants (such as corticosteroids or methotrexate), may be at greater risk of infection.",
+        "source": {
+          "kind": "fda_label",
+          "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "infection",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The adalimumab label says patients on concomitant immunosuppressants such as corticosteroids may be at greater infection risk, and dexamethasone is a corticosteroid.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#boxed_warning",
+        "title": "adalimumab: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions",
+        "title": "adalimumab: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Adalimumab or Dexamethasone, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Adalimumab and Dexamethasone, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no PubMed abstract evaluating adalimumab combined specifically with dexamethasone.",
+        "searched": [
+          "\"adalimumab\"[tiab] AND \"dexamethasone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.546Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

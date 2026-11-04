@@ -1,0 +1,38 @@
+{
+  "pair": "calcitriol__cholecalciferol",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA calcitriol label says pharmacological doses of vitamin D and its derivatives are to be withheld during calcitriol treatment because of possible additive effects and hypercalcemia.",
+      "quote": "Since calcitriol is the most potent active metabolite of vitamin D 3 , pharmacological doses of vitamin D and its derivatives should be withheld during treatment with calcitriol to avoid possible additive effects and hypercalcemia (see WARNINGS ).",
+      "sourceId": "bf621b22-b783-416f-aee3-e0dbfdb782ca#drug_interactions",
+      "stance": "increases_risk",
+      "outcome": "hypercalcemia"
+    }
+  ],
+  "headline": {
+    "text": "The FDA calcitriol label names additive effects and hypercalcemia with pharmacological doses of vitamin D (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA calcitriol label calls calcitriol the most potent active metabolite of vitamin D3 and says additive effects and hypercalcemia are possible with pharmacological vitamin D doses.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"calcitriol\"[tiab] AND \"cholecalciferol\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

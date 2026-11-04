@@ -1,0 +1,40 @@
+{
+  "pair": "alcohol__tiagabine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label states tiagabine showed no clinically important potentiation of alcohol's pharmacodynamic effects."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The label advises caution with ethanol because of possible additive nervous-system depressant effects, which the claim reports as a flag."
+    },
+    {
+      "id": "c3",
+      "support": "supports",
+      "rationale": "The double-blind abstract reports no evidence of a pharmacodynamic interaction on the measured cognitive, motor and subjective variables."
+    },
+    {
+      "id": "c4",
+      "support": "supports",
+      "rationale": "The abstract states the Cmax, Tmax and AUC of tiagabine and ethanol were unchanged during concomitant administration."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

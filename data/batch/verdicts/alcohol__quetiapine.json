@@ -1,0 +1,1 @@
+{"pair":"alcohol__quetiapine","judge":"claude-opus-5-5","claims":[{"id":"c1","support":"supports","rationale":"The label reports quetiapine potentiated the cognitive and motor effects of alcohol in a trial in subjects with selected psychotic disorders."}],"sentences":[{"path":"headline","support":"supports"},{"path":"reported.0","support":"supports"}]}

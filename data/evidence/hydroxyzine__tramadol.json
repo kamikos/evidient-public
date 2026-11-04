@@ -1,0 +1,588 @@
+{
+  "card": {
+    "pair": "hydroxyzine__tramadol",
+    "a": "hydroxyzine",
+    "b": "tramadol",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Hydroxyzine and tramadol together increase central nervous system depression risks",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes additive pharmacologic effect of tramadol with other CNS depressants.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult human study of hydroxyzine-tramadol co-use and sedation was found.",
+        "searched": [
+          "hydroxyzine tramadol adult CNS depression potentiation"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Hydroxyzine or Tramadol, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Hydroxyzine and Tramadol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states hydroxyzine potentiating action with CNS depressants including narcotics requires dosage reduction.",
+        "quote": "PRECAUTIONS THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depressant_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes hydroxyzine's potentiating action with CNS depressants including narcotics and directs dosage reduction for that co-use, supporting the claim and an increases_risk label restriction for the tramadol pair via its class.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "The label states concomitant tramadol with other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depressant_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quoted tramadol-label statement explicitly says concomitant use with benzodiazepines or other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death, matching the claim and increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "The label describes additive pharmacologic effect of tramadol with other CNS depressants.",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "cns_depressant_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes the tramadol interaction with other CNS depressants to an additive pharmacologic effect, which directly supports the stated mechanism claim.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "title": "Precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+        "citation": "FDA label · Precautions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b7f61b-5173-43e6-a3f9-d2efbda40c19",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:46:28.985Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c2",
+        "c3"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "hydroxyzine__tramadol",
+      "at": "2026-11-03T20:44:29.612Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 1
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 1
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:09092888-0c18-501d-e063-6294a90aad67#precautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "09092888-0c18-501d-e063-6294a90aad67#precautions"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3281a5a76b189916e0aebc10226",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depressant_potentiation",
+        "quote": "PRECAUTIONS THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states hydroxyzine potentiating action with CNS depressants including narcotics requires dosage reduction."
+      },
+      "t": 9143
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states hydroxyzine potentiating action with CNS depressants including narcotics requires dosage reduction.",
+        "quote": "PRECAUTIONS THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depressant_potentiation"
+      },
+      "t": 9143
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3281a5a76b189916e0aebc10226",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 9143
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3281ed474009318c41b376d7a9d",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine tramadol interaction"
+      },
+      "t": 9143
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3281ed474009318c41b376d7a9d",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine tramadol interaction\",\"pmids\":[\"41650540\",\"37696127\",\"30064817\",\"29947135\",\"25262990\"]}",
+      "t": 15974
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3281fc7718b95c8a1c4f11d732b",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine tramadol adult CNS depression potentiation"
+      },
+      "t": 15974
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3281fc7718b95c8a1c4f11d732b",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine tramadol adult CNS depression potentiation\",\"pmids\":[]}",
+      "t": 16403
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32820db716aad51c40334b7c42c",
+      "name": "get_label_sections",
+      "args": {
+        "substanceId": "tramadol"
+      },
+      "t": 16403
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32820db716aad51c40334b7c42c",
+      "summary": "get_label_sections completed: [{\"kind\":\"fda_label\",\"id\":\"00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions\",\"text\":\"7 DRUG INTERACTIONS Table 2 includes clinically significant drug interactions with tramadol hydrochloride extended-release tablets. Table 2: Clinically Significant Drug Interactions with Tramadol Hydrochloride Extended-Release Tablets Inhibitors of CYP2D6 Clinical Impact: The concomitant use of tramadol hydrochloride extended-release tablets and CYP2D6 inhibitors may result in an increase in the plasma concentration of tramadol and a decrease in the plasma concentration of M1, particularly when an inhibitor is added after a stable dose of tramadol hydrochloride extended-release tablets is achieved. Since M1 is a more potent µ-opioid agonist, decreased M1 exposure could result in decreased therapeutic effects, and may result in signs and symptoms of opioid withdrawal in patients who had developed physical dependence to tramadol. Increased tramadol exposure can result in increased or prolonged therapeutic effects and increased risk for serious adverse events including seizures and serotonin syndrome. After stopping a CYP2D6 inhibitor, as the effects of the inhibitor decline, the tramadol plasma concentration will decrease and the M1 plasma concentration will increase which could increase or prolong therapeutic effects but also increase adverse reactions related to opioid toxicity, and may cause potentially fatal respiratory depression [see Clinical Pharmacology ( 12.3 )] . Intervention: If concomitant use of a CYP2D6 inhibitor is necessary, follow patients closely for adverse reactions including opioid withdrawal, seizures, and serotonin syndrome. If a CYP2D6 inhibitor is discontinued, consider lowering tramadol hydrochloride extended-release tablets dosage until stable drug effects are achieved. Follow patients closely for adverse events including respiratory depression and sedation. Examples Quinidine, fluoxetine, paroxetine and bupropion Inhibitors of CYP3A4 Clinical Impact: The concomitant use of tramadol hydrochloride extended-release tablets and CYP3A4 inhibitors can increase the plasma concentration of tramadol and may result in a greater amount of metabolism via CYP2D6 and greater levels of M1. Follow patients closely for increased risk of serious adverse events including seizures and serotonin syndrome, and adverse reactions related to opioid toxicity including potentially fatal respiratory depression, particularly when an inhibitor is added after a stable dose of tramadol hydrochloride extended-release tablets is achieved. After stopping a CYP3A4 inhibitor, as the effects of the inhibitor decline, the tramadol plasma concentration will decrease [see Clinical Pharmacology ( 12.3 )] , resulting in decreased opioid efficacy and possibly signs and symptoms of opioid withdrawal in patients who had developed physical dependence to tramadol. Intervention: If concomitant use is necessary, consider dosage reduction of tramadol hydrochloride extended-release tablets until stable drug effects are achieved. Follow patients closely for seizures and serotonin syndrome, and signs of respiratory depression and sedation at frequent intervals. If a CYP3A4 inhibitor is discontinued, consider increasing the tramadol hydrochloride extended-release tablets dosage until stable drug effects are achieved and follow patients for signs and symptoms of opioid withdrawal. Examples Macrolide antibiotics (e.g., erythromycin), azole-antifungal agents (e.g. ketoconazole), protease inhibitors (e.g., ritonavir) CYP3A4 Inducers Clinical Impact: The concomitant use of tramadol hydrochloride extended-release tablets and CYP3A4 inducers can decrease the plasma concentration of tramadol [see Clinical Pharmacology ( 12.3 )] , resulting in decreased efficacy or onset of a withdrawal syndrome in patients who have developed physical dependence to tramadol, [see Warnings and Precautions ( 5.6 )] . After stopping a CYP3A4 inducer, as the effects of the inducer decline, the tramadol plasma concentration will increase [see Clinical Pharmacology ( 12.3 )] , which could increase or prolong both the therapeutic effects and adverse reactions, and may cause seizures and serotonin syndrome, and potentially fatal respiratory depression. Intervention: If concomitant use is necessary, consider increasing the tramadol hydrochloride extended-release tablets dosage until stable drug effects are achieved. Follow patients for signs of opioid withdrawal. If a CYP3A4 inducer is discontinued, consider tramadol hydrochloride extended-release tablets dosage reduction and monitor for seizures and serotonin syndrome, and signs of sedation and respiratory depression. Patients taking carbamazepine, a CYP3A4 inducer, may have a significantly reduced analgesic effect of tramadol. Because carbamazepine increases tramadol metabolism and because of the seizure risk associated with tramadol, concomitant administration of tramadol hydrochloride extended-release tablets and carbamazepine is not recommended. Examples: Rifampin, carbamazepine, phenytoin Benzodiazepines and Other Central Nervous System (CNS) Depressants Clinical Impact: Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death. Intervention: Reserve concomitant prescribing of these drugs for use in patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients closely for signs of respiratory depression and sedation [see Warnings and Precautions ( 5.7 )] . If concomitant use is warranted, consider prescribing naloxone for the emergency treatment of opioid overdose [see Dosage and Administration (2.2), Warnings and Precautions (5.1, 5.3, 5.7)]. Examples: Benzodiazepines and other sedatives/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, other opioids, alcohol. Serotonergic Drugs Clinical Impact: The concomitant use of opioids with other drugs that affect the serotonergic neurotransmitter system has resulted in serotonin syndrome . Intervention: If concomitant use is warranted, carefully observe the patient, particularly during treatment initiation and dose adjustment. Discontinue tramadol hydrochloride extended-release tablets if serotonin syndrome is suspected. Examples: Selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), triptans, 5-HT3 receptor antagonists, drugs that affect the serotonin neurotransmitter system (e.g., mirtazapine, trazodone, tramadol), certain muscle relaxants (i.e., cyclobenzaprine, metaxalone), monoamine oxidase (MAO) inhibitors (those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue). Monoamine Oxidase Inhibitors (MAOIs) Clinical Impact: MAOI interactions with opioids may manifest as serotonin syndrome [see Warnings and Precautions ( 5.8 )] or opioid toxicity (e.g., respiratory depression, coma) [see Warnings and Precautions ( 5.3 )]. Intervention: Do not use tramadol hydrochloride extended-release tablets in patients taking MAOIs or within 14 days of stopping such treatment. Examples: phenelzine, tranylcypromine, linezolid Mixed Agonist/Antagonist and Partial Agonist Opioid Analgesics Clinical Impact: May reduce the analgesic effect of tramadol hydrochloride extended-release tablets and/or precipitate withdrawal symptoms. Intervention: Avoid concomitant use. Examples: butorphanol, nalbuphine, pentazocine, buprenorphine Muscle Relaxants Clinical Impact: Tramadol may enhance the neuromuscular blocking action of skeletal muscle relaxants and produce an increased degree of respiratory depression. Intervention: Monitor patients for signs of respiratory depression that may be greater than otherwise expected and decrease the dosage of tramadol hydrochloride extended-release tablets and/or the muscle relaxant as necessary. Due to the risk of respiratory depression with concomitant use of skeletal muscle relaxants and opioids, consider prescribing naloxone for the emergency treatment of opioid overdose [see Dosage and Administration (2.2), Warnings and Precautions (5.3, 5.7)] Diuretics Clinical Impact: Opioids can reduce the efficacy of diuretics by inducing the release of antidiuretic hormone. Intervention: Monitor patients for signs of diminished diuresis and/or effects on blood pressure and increase the dosage of the diuretic as needed. Anticholinergic Drugs Clinical Impact: The concomitant use of anticholinergic drugs may increase risk of urinary retention and/or severe constipation, which may lead to paralytic ileus. Intervention: Monitor patients for signs of urinary retention or reduced gastric motility when tramadol hydrochloride extended-release tablets are used concomitantly with anticholinergic drugs. Digoxin Clinical Impact: Post-marketing surveillance of tramadol has revealed rare reports of digoxin toxicity. Intervention: Follow patients for signs of digoxin toxicity and adjust the dosage of digoxin as needed. Warfarin Clinical Impact: Post-marketing surveillance of tramadol has revealed rare reports of alteration of warfarin effect, including elevation of prothrombin times. Intervention: Monitor the prothrombin time of patients on warfarin for signs of an interaction and adjust the dosage of warfarin as needed. • Mixed Agonist/Antagonist and Partial Agonist Opioid Analgesics: Avoid use with tramadol hydrochloride extended-release tablets because they may reduce analgesic effect of tramadol hydrochloride extended-release tablets or precipitate withdrawal symptoms. ( 5.17 , 7 )\"}]",
+      "t": 16403
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3286ad6740f82e9103aa612a565",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depressant_potentiation",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "sourceId": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states concomitant tramadol with other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death."
+      },
+      "t": 30783
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states concomitant tramadol with other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depressant_potentiation"
+      },
+      "t": 30783
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3286ad6740f82e9103aa612a565",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 30783
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3286f1870dbb2ab055160944a4a",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "41650540",
+          "37696127"
+        ]
+      },
+      "t": 30783
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3286f1870dbb2ab055160944a4a",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"41650540\",\"title\":\"Phosphated maltodextrin as an anionic chiral selector for capillary electrophoresis: Application to the enantiomeric separation of basic drugs.\",\"journal\":\"Journal of chromatography. A\",\"year\":\"2026\",\"abstractText\":\"Chiral separation is critical in pharmaceutical analysis, as enantiomers often exhibit distinct pharmacological activities, metabolic behaviors, and toxicity profiles. Cyclodextrins have been widely employed in capillary electrophoresis (CE) owing to their well-defined cavities and strong inclusion capabilities that facilitate effective chiral recognition. However, their relatively high cost, moderate aqueous solubility, and limited compatibility with certain analytes remain important drawbacks. In contrast, maltodextrins are inexpensive and highly soluble but display restricted chiral selectivity. To overcome these limitations, this study introduces phosphated maltodextrin (PMD), a novel anionic derivative designed to enhance enantiomeric resolution through the combined influence of electrostatic and hydrophobic interactions. PMD was synthesized via a simple aqueous method and characterized by standard spectroscopic and elemental analyses. Its chiral recognition capability in CE was systematically assessed using five model drugs: tramadol, citalopram, hydroxyzine, amlodipine, and fluoxetine. Compared with native maltodextrin, PMD markedly improved enantiomeric resolution-for example, Rs increased from 0.44 to 1.33 (tramadol), 3.37 to 7.54 (citalopram), 0.58 to 1.73 (amlodipine), and 1.88 to 4.23 (hydroxyzine). These enhancements were achieved with only minor changes in migration time (-0.75 to +2.7 min across analytes). The optimized CE conditions employed a 50 mM phosphate buffer at pH 3 containing 5% (m/v) PMD, under 20 kV and 25 °C. Method validation for citalopram and hydroxyzine confirmed excellent linearity (r² > 0.983), precision (RSD < 10.2%), and accuracy (recoveries 93.09-108.56%). The method reached quantification limits as low as 10 mg/L and was successfully applied to the enantiomeric assay of commercial tablets, yielding recoveries of 97.57-102.46% of the label claim. PMD is a new anionic chiral selector combining affordability, solubility, and enhanced selectivity. Major resolution gains without longer analysis times demonstrate PMD's promising potential for routine pharmaceutical applications, with broader chiral separations to be explored in future studies.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Arooni\",\"kind\":\"pubmed\",\"id\":\"41650540\",\"text\":\"Chiral separation is critical in pharmaceutical analysis, as enantiomers often exhibit distinct pharmacological activities, metabolic behaviors, and toxicity profiles. Cyclodextrins have been widely employed in capillary electrophoresis (CE) owing to their well-defined cavities and strong inclusion capabilities that facilitate effective chiral recognition. However, their relatively high cost, moderate aqueous solubility, and limited compatibility with certain analytes remain important drawbacks. In contrast, maltodextrins are inexpensive and highly soluble but display restricted chiral selectivity. To overcome these limitations, this study introduces phosphated maltodextrin (PMD), a novel anionic derivative designed to enhance enantiomeric resolution through the combined influence of electrostatic and hydrophobic interactions. PMD was synthesized via a simple aqueous method and characterized by standard spectroscopic and elemental analyses. Its chiral recognition capability in CE was systematically assessed using five model drugs: tramadol, citalopram, hydroxyzine, amlodipine, and fluoxetine. Compared with native maltodextrin, PMD markedly improved enantiomeric resolution-for example, Rs increased from 0.44 to 1.33 (tramadol), 3.37 to 7.54 (citalopram), 0.58 to 1.73 (amlodipine), and 1.88 to 4.23 (hydroxyzine). These enhancements were achieved with only minor changes in migration time (-0.75 to +2.7 min across analytes). The optimized CE conditions employed a 50 mM phosphate buffer at pH 3 containing 5% (m/v) PMD, under 20 kV and 25 °C. Method validation for citalopram and hydroxyzine confirmed excellent linearity (r² > 0.983), precision (RSD < 10.2%), and accuracy (recoveries 93.09-108.56%). The method reached quantification limits as low as 10 mg/L and was successfully applied to the enantiomeric assay of commercial tablets, yielding recoveries of 97.57-102.46% of the label claim. PMD is a new anionic chiral selector combining affordability, solubility, and enhanced selectivity. Major resolution gains without longer analysis times demonstrate PMD's promising potential for routine pharmaceutical applications, with broader chiral separations to be explored in future studies.\"},{\"pmid\":\"37696127\",\"title\":\"Carboxymethylated maltodextrin as a chiral selector for the separation of some basic drug enantiomers using capillary electrophoresis.\",\"journal\":\"Journal of chromatography. A\",\"year\":\"2023\",\"abstractText\":\"In this work, carboxymethylated maltodextrin (Cm-MD) was successfully synthesized as an efficient anionic chiral selector and applied for the enantiomer separation of some basic drugs including tramadol, venlafaxine, verapamil, hydroxyzine, citalopram, fluoxetine, and amlodipine by capillary electrophoresis (CE). The synthesized chiral selector was characterized by the nuclear magnetic resonance and Fourier transform infrared spectrophotometry. Under the optimized Cm-MD modified CE conditions (background electrolyte: phosphate buffer (pH 5.0, 50 mM) containing 5% (w/v) Cm-MD; applied voltage: 20 kV; and capillary column temperature: 25 °C), successful enantiomer separation of all studied chiral drugs were observed. By comparison of Cm-MD and MD for enantiomer separation of the model drugs, it was revealed that Cm-MD exhibits a higher resolution in comparison to the MD modified CE. This enhanced resolution could be attributed to the electrostatic interactions between the cationic drugs and anionic Cm-MD and opposite direction mobility of the host-guest complex relative to the chiral analyte. The optimized Cm-MD modified CE method was successfully used for the assay of the enantiomers of citalopram and venlafaxine in commercial tablets. The proposed method showed the linear range of 5.0-150.0 mg/L and 10.0-150.0 mg/L for both enantiomers of citalopram and venlafaxine, respectively. The limits of quantification were 5.0 and 10.0 mg/L for the enantiomers of citalopram and venlafaxine, respectively. The limit of detection for all enantiomers was found to be < 3.0 mg/L. Intra- and inter-day RSDs (n = 4) were less than 9.7%. The relative errors were less than 9.4% for all enantiomers. The obtained results in this research show that Cm-MD as a new, efficient and inexpensive chiral selector can be used for enantiomer separation of basic drugs using the CE technique.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Alawadi\",\"kind\":\"pubmed\",\"id\":\"37696127\",\"text\":\"In this work, carboxymethylated maltodextrin (Cm-MD) was successfully synthesized as an efficient anionic chiral selector and applied for the enantiomer separation of some basic drugs including tramadol, venlafaxine, verapamil, hydroxyzine, citalopram, fluoxetine, and amlodipine by capillary electrophoresis (CE). The synthesized chiral selector was characterized by the nuclear magnetic resonance and Fourier transform infrared spectrophotometry. Under the optimized Cm-MD modified CE conditions (background electrolyte: phosphate buffer (pH 5.0, 50 mM) containing 5% (w/v) Cm-MD; applied voltage: 20 kV; and capillary column temperature: 25 °C), successful enantiomer separation of all studied chiral drugs were observed. By comparison of Cm-MD and MD for enantiomer separation of the model drugs, it was revealed that Cm-MD exhibits a higher resolution in comparison to the MD modified CE. This enhanced resolution could be attributed to the electrostatic interactions between the cationic drugs and anionic Cm-MD and opposite direction mobility of the host-guest complex relative to the chiral analyte. The optimized Cm-MD modified CE method was successfully used for the assay of the enantiomers of citalopram and venlafaxine in commercial tablets. The proposed method showed the linear range of 5.0-150.0 mg/L and 10.0-150.0 mg/L for both enantiomers of citalopram and venlafaxine, respectively. The limits of quantification were 5.0 and 10.0 mg/L for the enantiomers of citalopram and venlafaxine, respectively. The limit of detection for all enantiomers was found to be < 3.0 mg/L. Intra- and inter-day RSDs (n = 4) were less than 9.7%. The relative errors were less than 9.4% for all enantiomers. The obtained results in this research show that Cm-MD as a new, efficient and inexpensive chiral selector can be used for enantiomer separation of basic drugs using the CE technique.\"}]",
+      "t": 31262
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3288cc974f6a9c60d79bfab6e9f",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "30064817",
+          "29947135",
+          "25262990"
+        ]
+      },
+      "t": 38192
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3288cc974f6a9c60d79bfab6e9f",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"30064817\",\"title\":\"Development of a modified partial filling method in capillary electrophoresis using two chiral plugs for the simultaneous enantioseparation of chiral drugs: Comparison with mixed chiral selector capillary electrophoresis.\",\"journal\":\"Journal of chromatography. A\",\"year\":\"2018\",\"abstractText\":\"In this study, a chiral CE method was developed based on the partial filling technique with two chiral plugs for the simultaneous enantioseparation of some racemic drugs, including baclofen, carvedilol, cetirizine, chlorpheniramine, citalopram, fluoxetine, hydroxyzine, propranolol, tramadol, trihexyphenidyl. This method of capillary filling involves the application of two adjacent chiral plugs containing the same BGE, but with different chiral selectors in the plugs for the enantioseparation of a mixture of drugs which cannot be separated with single or mixed chiral selectors. By using this method, each plug can separate the enantiomers independently (same as a single chiral selector modified CE) and the possible interactions between the chiral selectors would be inhibited. The best results were obtained using a fused silica capillary (60cm×50μm id (50cm effective length)) with phosphate buffer (100mM, pH 3.0) containing 10mM hydroxypropyl-α/β-cyclodextrin and 10% (w/v) maltodextrin and detected by UV at 214nm. The influence of the length and order of the chiral plugs on the enantioresolution was also studied and optimized. The proposed method was compared with a mixed chiral selector-CE system with a combination of hydroxypropyl-α-cyclodextrin/hydroxypropyl-β-cyclodextrin and maltodextrin in the BGE. According to the results, the modified partial filling method is a simple and efficient method for the simultaneous chiral separation and offers appropriate migration times and resolutions compared to the results obtained from mixed chiral selector CE.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\"],\"firstAuthor\":\"Chalavi\",\"kind\":\"pubmed\",\"id\":\"30064817\",\"text\":\"In this study, a chiral CE method was developed based on the partial filling technique with two chiral plugs for the simultaneous enantioseparation of some racemic drugs, including baclofen, carvedilol, cetirizine, chlorpheniramine, citalopram, fluoxetine, hydroxyzine, propranolol, tramadol, trihexyphenidyl. This method of capillary filling involves the application of two adjacent chiral plugs containing the same BGE, but with different chiral selectors in the plugs for the enantioseparation of a mixture of drugs which cannot be separated with single or mixed chiral selectors. By using this method, each plug can separate the enantiomers independently (same as a single chiral selector modified CE) and the possible interactions between the chiral selectors would be inhibited. The best results were obtained using a fused silica capillary (60cm×50μm id (50cm effective length)) with phosphate buffer (100mM, pH 3.0) containing 10mM hydroxypropyl-α/β-cyclodextrin and 10% (w/v) maltodextrin and detected by UV at 214nm. The influence of the length and order of the chiral plugs on the enantioresolution was also studied and optimized. The proposed method was compared with a mixed chiral selector-CE system with a combination of hydroxypropyl-α-cyclodextrin/hydroxypropyl-β-cyclodextrin and maltodextrin in the BGE. According to the results, the modified partial filling method is a simple and efficient method for the simultaneous chiral separation and offers appropriate migration times and resolutions compared to the results obtained from mixed chiral selector CE.\"},{\"pmid\":\"29947135\",\"title\":\"Evaluation of the synergistic effect with amino acids for enantioseparation of basic drugs using capillary electrophoresis.\",\"journal\":\"Electrophoresis\",\"year\":\"2018\",\"abstractText\":\"1 The synergistic effect of two acidic amino acids, aspartic and glutamic acid, on the electrophoretic enantioseparation of four basic drugs was evaluated in the BGE containing a CD and at different pHs. Chlorpheniramine, hydroxyzine, propranolol and tramadol were used as the basic model drugs. However, no enantioseparations were achieved with a BGE containing sole amino acid, but the combined use of an acidic amino acid and a CD showed improved enantioseparations (synergistic effect) compared with the single CD system. The results demonstrated that at optimized pH, the electrostatic interactions of the anionic amino acids with the positively charged basic drugs could result in a decrease of the analyte migration velocity and it consequently improved the enantioseparation. The effective parameters such as the amino acid and chiral selector type and concentration, buffer pH, applied voltage, and capillary temperature were optimized. Favorable enantiomeric resolution and migration times of the model drugs were achieved with a 100 mM phosphate buffer solution (pH 3.0) containing 5.0 mM HP-α-CD/HP-β-CD and 20 mM aspartic acid with an 18 kV applied voltage at 25°C.  H NMR experiments were also carried out in a mixture of an analyte and CD in the absence and presence of aspartic acid. The NMR results were consistent with the results obtained by CE which showed the synergistic effect of amino acid.\",\"publicationTypes\":[\"Journal Article\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Chalavi\",\"kind\":\"pubmed\",\"id\":\"29947135\",\"text\":\"1 The synergistic effect of two acidic amino acids, aspartic and glutamic acid, on the electrophoretic enantioseparation of four basic drugs was evaluated in the BGE containing a CD and at different pHs. Chlorpheniramine, hydroxyzine, propranolol and tramadol were used as the basic model drugs. However, no enantioseparations were achieved with a BGE containing sole amino acid, but the combined use of an acidic amino acid and a CD showed improved enantioseparations (synergistic effect) compared with the single CD system. The results demonstrated that at optimized pH, the electrostatic interactions of the anionic amino acids with the positively charged basic drugs could result in a decrease of the analyte migration velocity and it consequently improved the enantioseparation. The effective parameters such as the amino acid and chiral selector type and concentration, buffer pH, applied voltage, and capillary temperature were optimized. Favorable enantiomeric resolution and migration times of the model drugs were achieved with a 100 mM phosphate buffer solution (pH 3.0) containing 5.0 mM HP-α-CD/HP-β-CD and 20 mM aspartic acid with an 18 kV applied voltage at 25°C.  H NMR experiments were also carried out in a mixture of an analyte and CD in the absence and presence of aspartic acid. The NMR results were consistent with the results obtained by CE which showed the synergistic effect of amino acid.\"},{\"pmid\":\"25262990\",\"title\":\"Evaluation of sulfated maltodextrin as a novel anionic chiral selector for the enantioseparation of basic chiral drugs by capillary electrophoresis.\",\"journal\":\"Electrophoresis\",\"year\":\"2015\",\"abstractText\":\"Introducing a new class of chiral selectors is an interesting work and this issue is still one of the hot topics in separation science and chirality. In this study, for the first time, sulfated maltodextrin (MD) was synthesized as a new anionic chiral selector and then it was successfully applied for the enantioseparation of five basic drugs (amlodipine, hydroxyzine, fluoxetine, tolterodine, and tramadol) as model chiral compounds using CE. This chiral selector has two recognition sites: a helical structure and a sulfated group which contribute to three corresponding driving forces; inclusion complexation, electrostatic interaction, and hydrogen binding. Under the optimized condition (buffer solution: 50 mM phosphate (pH 3.0) and 2% w/v sulfated MD; applied voltage: 18 kV; temperature: 20°C), baseline enantioseparation was observed for all mentioned chiral drugs. When instead of sulfated MD neutral MD was used under the same condition, no enantioseparation was observed which means the resolution power of sulfated MD is higher than neutral MD due to the electrostatic interaction between sulfated groups and protonated chiral drugs. Also, the countercurrent mobility of negatively charged MD (sulfated MD) allows more interactions between the chiral selector and chiral drugs and this in turn results in a successful resolution for the enantiomers. Furthermore, a higher concentration of neutral MD (approximately five times) is necessary to achieve the equivalent resolution compared with the negatively charged MD.\",\"publicationTypes\":[\"Evaluation Study\",\"Journal Article\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Tabani\",\"kind\":\"pubmed\",\"id\":\"25262990\",\"text\":\"Introducing a new class of chiral selectors is an interesting work and this issue is still one of the hot topics in separation science and chirality. In this study, for the first time, sulfated maltodextrin (MD) was synthesized as a new anionic chiral selector and then it was successfully applied for the enantioseparation of five basic drugs (amlodipine, hydroxyzine, fluoxetine, tolterodine, and tramadol) as model chiral compounds using CE. This chiral selector has two recognition sites: a helical structure and a sulfated group which contribute to three corresponding driving forces; inclusion complexation, electrostatic interaction, and hydrogen binding. Under the optimized condition (buffer solution: 50 mM phosphate (pH 3.0) and 2% w/v sulfated MD; applied voltage: 18 kV; temperature: 20°C), baseline enantioseparation was observed for all mentioned chiral drugs. When instead of sulfated MD neutral MD was used under the same condition, no enantioseparation was observed which means the resolution power of sulfated MD is higher than neutral MD due to the electrostatic interaction between sulfated groups and protonated chiral drugs. Also, the countercurrent mobility of negatively charged MD (sulfated MD) allows more interactions between the chiral selector and chiral drugs and this in turn results in a successful resolution for the enantiomers. Furthermore, a higher concentration of neutral MD (approximately five times) is necessary to achieve the equivalent resolution compared with the negatively charged MD.\"}]",
+      "t": 47952
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a328dbe871fa85bd9f4383cb80a1",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "hydroxyzine tramadol interaction",
+          "hydroxyzine tramadol adult CNS depression potentiation"
+        ],
+        "text": "No adult human study of hydroxyzine-tramadol co-use and sedation outcomes was found."
+      },
+      "t": 59931
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a328dbe871fa85bd9f4383cb80a1",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 59931
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3290125716bbf8b1d676855833e",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "hydroxyzine tramadol adult CNS depression potentiation"
+        ],
+        "text": "No adult human study of hydroxyzine-tramadol co-use and sedation was found."
+      },
+      "t": 69491
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult human study of hydroxyzine-tramadol co-use and sedation was found.",
+        "searched": [
+          "hydroxyzine tramadol adult CNS depression potentiation"
+        ]
+      },
+      "t": 69491
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3290125716bbf8b1d676855833e",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 69491
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3293601740fb6e7b7e3fc3a749d",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depressant_potentiation",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "sourceId": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "mechanism",
+        "text": "The label describes additive pharmacologic effect of tramadol with other CNS depressants."
+      },
+      "t": 82029
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "The label describes additive pharmacologic effect of tramadol with other CNS depressants.",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "cns_depressant_potentiation"
+      },
+      "t": 82029
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3293601740fb6e7b7e3fc3a749d",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 82029
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 82029
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 82029
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 82029
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 82030
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes hydroxyzine's potentiating action with CNS depressants including narcotics and directs dosage reduction for that co-use, supporting the claim and an increases_risk label restriction for the tramadol pair via its class.",
+      "model": "muse-wonder-1.0",
+      "t": 91113
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quoted tramadol-label statement explicitly says concomitant use with benzodiazepines or other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death, matching the claim and increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 91113
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes the tramadol interaction with other CNS depressants to an additive pharmacologic effect, which directly supports the stated mechanism claim.",
+      "model": "muse-wonder-1.0",
+      "t": 91113
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 91113
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 4 card sentences against their claims; dropped 3.",
+      "t": 114278
+    },
+    {
+      "type": "thinking",
+      "text": "Made 14 external requests",
+      "t": 119374
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "hydroxyzine__tramadol",
+        "a": "hydroxyzine",
+        "b": "tramadol",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Hydroxyzine and tramadol together increase central nervous system depression risks",
+          "claimIds": [
+            "c1",
+            "c2"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label describes additive pharmacologic effect of tramadol with other CNS depressants.",
+            "claimIds": [
+              "c3"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult human study of hydroxyzine-tramadol co-use and sedation was found.",
+            "searched": [
+              "hydroxyzine tramadol adult CNS depression potentiation"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Hydroxyzine or Tramadol, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Hydroxyzine and Tramadol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states hydroxyzine potentiating action with CNS depressants including narcotics requires dosage reduction.",
+            "quote": "PRECAUTIONS THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depressant_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes hydroxyzine's potentiating action with CNS depressants including narcotics and directs dosage reduction for that co-use, supporting the claim and an increases_risk label restriction for the tramadol pair via its class.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "The label states concomitant tramadol with other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+            "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depressant_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quoted tramadol-label statement explicitly says concomitant use with benzodiazepines or other CNS depressants can increase risk of hypotension, respiratory depression, profound sedation, coma, and death, matching the claim and increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "The label describes additive pharmacologic effect of tramadol with other CNS depressants.",
+            "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions"
+            },
+            "stance": "mechanism",
+            "outcome": "cns_depressant_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes the tramadol interaction with other CNS depressants to an additive pharmacologic effect, which directly supports the stated mechanism claim.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+            "title": "Precautions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+            "citation": "FDA label · Precautions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "fda_label",
+            "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b7f61b-5173-43e6-a3f9-d2efbda40c19",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:46:28.985Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "serious_warning",
+          "basis": [
+            "c2",
+            "c3"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 119374
+    }
+  ]
+}

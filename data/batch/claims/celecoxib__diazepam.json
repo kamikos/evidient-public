@@ -1,0 +1,60 @@
+{
+  "pair": "celecoxib__diazepam",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Spanish celecoxib label reports in vitro potential to inhibit CYP2C19, lists diazepam among CYP2C19-metabolized drugs, and calls the clinical importance unknown.",
+      "quote": "Los estudios in vitro han demostrado que celecoxib presenta un cierto potencial para inhibir el metabolismo catalizado por el CYP2C19.\nLa importancia clínica de este hallazgo in vitro es desconocida.\nEjemplos de medicamentos que se metabolizan por el CYP2C19 son diazepam, citalopram e imipramina.",
+      "quoteEnglish": "In vitro studies have shown that celecoxib has some potential to inhibit CYP2C19-catalysed metabolism. The clinical importance of this in vitro finding is unknown. Examples of drugs metabolised by CYP2C19 are diazepam, citalopram and imipramine.",
+      "sourceId": "ES:63072#4.5",
+      "stance": "uncertain",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "c2",
+      "text": "In mice, celecoxib, a selective cyclooxygenase-2 inhibitor, did not shorten the sleep induced by diazepam, whereas non-selective and cyclooxygenase-1 inhibitors cut it by 60-75%.",
+      "quote": "In dose and time dependent models non selective cyclooxygenase and selective cyclooxygnase-1 inhibitors significantly reduced the duration of sleep induced by diazepam in mice by 60-75%, while the selective cyclooxygnase-2 inhibitor did not (p > 0.05).",
+      "sourceId": "20672494",
+      "stance": "no_effect_observed",
+      "outcome": "reduced_effect"
+    }
+  ],
+  "headline": {
+    "text": "The Spanish celecoxib label notes in vitro CYP2C19 inhibition with diazepam as an example substrate and calls its clinical importance unknown (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The Spanish celecoxib label lists diazepam as a CYP2C19 substrate and says the clinical importance of the in vitro inhibition is unknown.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "A mouse study found that celecoxib did not change diazepam-induced sleep duration.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The Spanish label attributes the possible effect to in vitro inhibition of CYP2C19-catalysed metabolism by celecoxib.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"celecoxib\"[tiab] AND \"diazepam\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

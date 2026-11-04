@@ -1,0 +1,44 @@
+{
+ "pair": "cisapride__clarithromycin",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The contraindication quote names cisapride."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The quote reports postmarketing arrhythmias most likely due to inhibited metabolism."
+  },
+  {
+   "id": "c3",
+   "support": "supports",
+   "rationale": "The abstract describes a 12-volunteer crossover, and the quote gives 25 ms QTc and 3-fold cisapride increases."
+  },
+  {
+   "id": "c4",
+   "support": "supports",
+   "rationale": "The quote describes two torsades cases after clarithromycin started on long-term cisapride, and the claim presents them as case reports."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

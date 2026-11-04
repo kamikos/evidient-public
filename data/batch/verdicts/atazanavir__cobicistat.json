@@ -1,0 +1,39 @@
+{
+  "pair": "atazanavir__cobicistat",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Tybost label states concentrations of CYP3A-metabolized drugs including atazanavir rise with cobicistat; translation is faithful."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "Tybost label states cobicistat with atazanavir in second and third trimesters produced lower atazanavir exposure than postpartum; translation is faithful."
+    },
+    {
+      "id": "c3",
+      "support": "supports",
+      "rationale": "Review abstract states bioequivalence between cobicistat and ritonavir as atazanavir pharmacoenhancer was established."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "does_not_support"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

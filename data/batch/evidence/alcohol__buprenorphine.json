@@ -1,0 +1,155 @@
+{
+  "card": {
+    "pair": "alcohol__buprenorphine",
+    "a": "alcohol",
+    "b": "buprenorphine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA buprenorphine label links alcohol co-use to respiratory depression, profound sedation, coma, and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label explicitly includes alcohol in its warning about concomitant CNS depressants.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The label attributes the increased risk to additive pharmacologic effects.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA buprenorphine label says alcohol and other CNS depressants increase respiratory depression, profound sedation, coma, and death through additive pharmacologic effects.",
+        "quote": "Due to additive pharmacologic effects, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, increases the risk of respiratory depression, profound sedation, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The buprenorphine interaction table names alcohol among CNS depressants that increase respiratory depression, sedation, coma and death through additive effects.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions",
+        "title": "buprenorphine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions",
+        "title": "buprenorphine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60549391#4.4",
+        "title": "TEMGESIC 0,2 mg, comprimé sublingual: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60549391/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60549391#4.5",
+        "title": "TEMGESIC 0,2 mg, comprimé sublingual: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60549391/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36967706",
+        "title": "Phenobarbital for alcohol withdrawal in the context of the opioid epidemic: a neglected caveat.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36967706/",
+        "citation": "1360-0443 118 7 2023 Jul Addiction (Abingdon, England) Addiction",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33570467",
+        "title": "Transdermal delivery of buprenorphine from reduced graphene oxide laden hydrogel to treat osteoarthritis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33570467/",
+        "citation": "1568-5624 32 7 2021 May Journal of biomaterials science. Polymer edition J Biomater Sci Polym Ed",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34118699",
+        "title": "Extended-release naltrexone for youth with opioid use disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34118699/",
+        "citation": "1873-6483 130 2021 Nov Journal of substance abuse treatment J Subst Abuse Treat",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Buprenorphine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human interaction study of alcohol with buprenorphine.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"buprenorphine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.550Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

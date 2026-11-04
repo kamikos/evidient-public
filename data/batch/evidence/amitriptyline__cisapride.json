@@ -1,0 +1,94 @@
+{
+  "card": {
+    "pair": "amitriptyline__cisapride",
+    "a": "amitriptyline",
+    "b": "cisapride",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label identifies increased QT interval and arrhythmia risk with amitriptyline and cisapride.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label's contraindication statement links this combination to potential QT prolongation and arrhythmia.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says amitriptyline with cisapride has potential to increase the QT interval and arrhythmia risk.",
+        "quote": "Amitriptyline hydrochloride should not be given with cisapride due to the potential for increased QT interval and increased risk for arrhythmia.",
+        "source": {
+          "kind": "fda_label",
+          "id": "61b29703-cfc2-45c7-ae24-7bf3b77e8587#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "qt_prolongation",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The contraindication says amitriptyline should not be given with cisapride due to potential increased QT interval and arrhythmia risk.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "61b29703-cfc2-45c7-ae24-7bf3b77e8587#contraindications",
+        "title": "amitriptyline: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61b29703-cfc2-45c7-ae24-7bf3b77e8587",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62633436#4.5",
+        "title": "LAROXYL 50 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62633436/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amitriptyline or Cisapride, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amitriptyline and Cisapride, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.646Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

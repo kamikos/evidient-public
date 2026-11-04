@@ -1,0 +1,444 @@
+{
+  "card": {
+    "pair": "alprazolam__hydroxyzine",
+    "a": "alprazolam",
+    "b": "hydroxyzine",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+      "claimIds": [
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult human study of alprazolam-hydroxyzine combination and CNS depression was found.",
+        "searched": [
+          "alprazolam hydroxyzine combination adults CNS depression sedation"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Alprazolam or Hydroxyzine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Alprazolam and Hydroxyzine, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+        "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants. Examples Psychotropic medications, anticonvulsants, antihistaminics, ethanol, and other drugs which themselves produce CNS depression.",
+        "source": {
+          "kind": "fda_label",
+          "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "additive_cns_depression",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c2",
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+        "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants.",
+        "source": {
+          "kind": "fda_label",
+          "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "additive_cns_depression",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes to benzodiazepines including alprazolam additive CNS depressant effects when coadministered with other CNS depressants, a class relevant to hydroxyzine as a sedating antihistaminic, supporting increased risk.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=388e249d-b9b6-44c3-9f8f-880eced0239f",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:46:05.693Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alprazolam__hydroxyzine",
+      "at": "2026-11-03T20:44:08.820Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a327d468753891e7af5f030881ac",
+      "name": "record_claim",
+      "args": {
+        "outcome": "additive_cns_depression",
+        "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants. Examples Psychotropic medications, anticonvulsants, antihistaminics, ethanol, and other drugs which themselves produce CNS depression.",
+        "sourceId": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects."
+      },
+      "t": 11715
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+        "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants. Examples Psychotropic medications, anticonvulsants, antihistaminics, ethanol, and other drugs which themselves produce CNS depression.",
+        "source": {
+          "kind": "fda_label",
+          "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "additive_cns_depression"
+      },
+      "t": 11715
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a327d468753891e7af5f030881ac",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 11715
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a327d89a7082b5dbc4b75d81598a",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alprazolam hydroxyzine human study"
+      },
+      "t": 11715
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a327d89a7082b5dbc4b75d81598a",
+      "summary": "search_pubmed completed: {\"query\":\"alprazolam hydroxyzine human study\",\"pmids\":[\"41981935\",\"39749945\",\"38580683\",\"32474342\",\"29241093\"]}",
+      "t": 12156
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a327d9cf75dabe37bbf372798ed2",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alprazolam hydroxyzine combination adults CNS depression sedation"
+      },
+      "t": 12156
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a327d9cf75dabe37bbf372798ed2",
+      "summary": "search_pubmed completed: {\"query\":\"alprazolam hydroxyzine combination adults CNS depression sedation\",\"pmids\":[]}",
+      "t": 12587
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a327f1457132a423dabb9271774a",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "41981935",
+          "39749945"
+        ]
+      },
+      "t": 19256
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a327f1457132a423dabb9271774a",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"41981935\",\"title\":\"Insights from a 6-year hair drug analysis compendium in drug-facilitated sexual assault cases.\",\"journal\":\"Journal of forensic sciences\",\"year\":\"2026\",\"abstractText\":\"Drug-facilitated sexual assault (DFSA) may involve a diverse array of substances, including illicit drugs, prescription medications, and over-the-counter pharmaceuticals. Hair analysis has emerged as a valuable forensic tool, offering an extended window of detection spanning several months. However, interpreting drug concentrations in hair can be challenging in forensic cases, as there are still substantial disparities in drug concentration findings across studies, or even no data available in the literature. This compendium seeks to contribute to the understanding and interpretation of forensic cases involving hair analysis. This study included hair analysis results upon prosecutor request over 6 years in Grenoble Forensic Laboratory from 2019 to 2024. Segmental hair analysis was performed using liquid chromatography coupled to tandem mass spectrometry (LC-MS/MS) on Sciex® 5500QT and Waters® TQ-XS mass spectrometers, following Society of Hair Testing guidelines. Screened substances included drugs of abuse, benzodiazepines, sedative medications, and gamma-hydroxybutyrate (GHB), depending on the case, following French Society of Analytical Toxicology guidelines. Hair proficiency quality testing ensured reproducible results. In this compendium, 22 authentic DFSA cases are described with hair analysis. The cohort predominantly involved female victims (95%) aged 13-47 years. Hair analysis was positive in nine cases (41%), revealing the presence of at least one psychoactive substance. Substances identified were alimemazine, alprazolam, bromazepam, cetirizine, clozapine, codeine, cyamemazine, hydroxyzine, oxazepam, zolpidem, and 3,4-methylenedioxymethamphetamine (MDMA). The chemical profile observed primarily included sedating and amnesic pharmaceuticals, but not only. This compendium adds valuable data in the literature for better hair drug concentration interpretation in forensic cases.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Fort\",\"kind\":\"pubmed\",\"id\":\"41981935\",\"text\":\"Drug-facilitated sexual assault (DFSA) may involve a diverse array of substances, including illicit drugs, prescription medications, and over-the-counter pharmaceuticals. Hair analysis has emerged as a valuable forensic tool, offering an extended window of detection spanning several months. However, interpreting drug concentrations in hair can be challenging in forensic cases, as there are still substantial disparities in drug concentration findings across studies, or even no data available in the literature. This compendium seeks to contribute to the understanding and interpretation of forensic cases involving hair analysis. This study included hair analysis results upon prosecutor request over 6 years in Grenoble Forensic Laboratory from 2019 to 2024. Segmental hair analysis was performed using liquid chromatography coupled to tandem mass spectrometry (LC-MS/MS) on Sciex® 5500QT and Waters® TQ-XS mass spectrometers, following Society of Hair Testing guidelines. Screened substances included drugs of abuse, benzodiazepines, sedative medications, and gamma-hydroxybutyrate (GHB), depending on the case, following French Society of Analytical Toxicology guidelines. Hair proficiency quality testing ensured reproducible results. In this compendium, 22 authentic DFSA cases are described with hair analysis. The cohort predominantly involved female victims (95%) aged 13-47 years. Hair analysis was positive in nine cases (41%), revealing the presence of at least one psychoactive substance. Substances identified were alimemazine, alprazolam, bromazepam, cetirizine, clozapine, codeine, cyamemazine, hydroxyzine, oxazepam, zolpidem, and 3,4-methylenedioxymethamphetamine (MDMA). The chemical profile observed primarily included sedating and amnesic pharmaceuticals, but not only. This compendium adds valuable data in the literature for better hair drug concentration interpretation in forensic cases.\"},{\"pmid\":\"39749945\",\"title\":\"Assessing the prevalence of anticholinergic and sedative medications to avoid in older adults from the French Health Data System.\",\"journal\":\"Journal of the American Geriatrics Society\",\"year\":\"2025\",\"abstractText\":\"In older people, medications with anticholinergic or sedative properties are associated with falls, frailty, and functional and cognitive impairment. These medications are often described as a subset of potentially inappropriate medications (PIMs). We examined the prevalence of anticholinergic or sedative medications to avoid in older people in France in 2023.\\n\\nThis cross-sectional study used anonymized data from a large electronic healthcare database, the French National Health Data System (Système National des Données de Santé, SNDS). All people aged 65 years or older from January 1, 2023, to December 31, 2023, were included in this study. Dispensations of anticholinergic and sedative medications were identified according to PIM criteria (2023 American Geriatrics Society Beers Criteria and REMEDI[e]S tool). The prevalence of anticholinergic or sedative medications was assessed for the study population and by age (65-84 and 85 or older) and living place (home and institutionalized patients) subgroups in terms of number and percentage of patients.\\n\\nThis study included 16,938,152 patients aged 65 years or older (55% women). Among all patients, 79.8% were aged between 65 and 84 years and 20.2% were aged 85 years or older. Most patients lived at home (97.0%), and 3.0% were institutionalized. The prevalence of anticholinergic or sedative medications was 32.8% among all patients, 32.3% among 65-84 patients, and 34.8% among 85 or older patients, 32.1% among home patients, and 54.5% among institutionalized patients. The most commonly dispensed anticholinergic or sedative medications were oxazepam (5.27%), alprazolam (5.27%), zopiclone (4.85%), bromazepam (4.23%), metopimazine (2.88%), paroxetine (2.70%), nefopam (2.57%), and hydroxyzine (2.17%).\\n\\nThis study highlighted that anticholinergic and sedative medications to avoid in older people are still frequently prescribed despite the development and regular updating of PIM criteria. Future studies are needed to assess whether this has led to worsened outcomes among older adults who utilized these medications, and new initiatives should be developed to further promote deprescribing by prescribers and pharmacists.\",\"publicationTypes\":[\"Journal Article\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Novais\",\"kind\":\"pubmed\",\"id\":\"39749945\",\"text\":\"In older people, medications with anticholinergic or sedative properties are associated with falls, frailty, and functional and cognitive impairment. These medications are often described as a subset of potentially inappropriate medications (PIMs). We examined the prevalence of anticholinergic or sedative medications to avoid in older people in France in 2023.\\n\\nThis cross-sectional study used anonymized data from a large electronic healthcare database, the French National Health Data System (Système National des Données de Santé, SNDS). All people aged 65 years or older from January 1, 2023, to December 31, 2023, were included in this study. Dispensations of anticholinergic and sedative medications were identified according to PIM criteria (2023 American Geriatrics Society Beers Criteria and REMEDI[e]S tool). The prevalence of anticholinergic or sedative medications was assessed for the study population and by age (65-84 and 85 or older) and living place (home and institutionalized patients) subgroups in terms of number and percentage of patients.\\n\\nThis study included 16,938,152 patients aged 65 years or older (55% women). Among all patients, 79.8% were aged between 65 and 84 years and 20.2% were aged 85 years or older. Most patients lived at home (97.0%), and 3.0% were institutionalized. The prevalence of anticholinergic or sedative medications was 32.8% among all patients, 32.3% among 65-84 patients, and 34.8% among 85 or older patients, 32.1% among home patients, and 54.5% among institutionalized patients. The most commonly dispensed anticholinergic or sedative medications were oxazepam (5.27%), alprazolam (5.27%), zopiclone (4.85%), bromazepam (4.23%), metopimazine (2.88%), paroxetine (2.70%), nefopam (2.57%), and hydroxyzine (2.17%).\\n\\nThis study highlighted that anticholinergic and sedative medications to avoid in older people are still frequently prescribed despite the development and regular updating of PIM criteria. Future studies are needed to assess whether this has led to worsened outcomes among older adults who utilized these medications, and new initiatives should be developed to further promote deprescribing by prescribers and pharmacists.\"}]",
+      "t": 19664
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3280cde7618967dad883ff6e693",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "alprazolam hydroxyzine human study",
+          "alprazolam hydroxyzine combination adults CNS depression sedation"
+        ],
+        "text": "No adult human study of alprazolam with hydroxyzine measuring additive CNS depression was found."
+      },
+      "t": 26035
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3280cde7618967dad883ff6e693",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 26035
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3284f29746c93052bde26b1b49a",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "alprazolam hydroxyzine combination adults CNS depression sedation"
+        ],
+        "text": "No adult human study of alprazolam-hydroxyzine combination and CNS depression was found."
+      },
+      "t": 43893
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult human study of alprazolam-hydroxyzine combination and CNS depression was found.",
+        "searched": [
+          "alprazolam hydroxyzine combination adults CNS depression sedation"
+        ]
+      },
+      "t": 43893
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3284f29746c93052bde26b1b49a",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 43893
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 69475
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "not_found",
+      "t": 69475
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 1 rejected claims",
+      "t": 69475
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a328dc6d7165b18531c7864cc990",
+      "name": "record_claim",
+      "args": {
+        "outcome": "additive_cns_depression",
+        "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants.",
+        "sourceId": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects."
+      },
+      "t": 79591
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+        "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants.",
+        "source": {
+          "kind": "fda_label",
+          "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "additive_cns_depression"
+      },
+      "t": 79591
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a328dc6d7165b18531c7864cc990",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 79591
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 79591
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes to benzodiazepines including alprazolam additive CNS depressant effects when coadministered with other CNS depressants, a class relevant to hydroxyzine as a sedating antihistaminic, supporting increased risk.",
+      "model": "muse-wonder-1.0",
+      "t": 85387
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 85387
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 3.",
+      "t": 113474
+    },
+    {
+      "type": "thinking",
+      "text": "Made 14 external requests",
+      "t": 116873
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alprazolam__hydroxyzine",
+        "a": "alprazolam",
+        "b": "hydroxyzine",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+          "claimIds": [
+            "c2"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+            "claimIds": [
+              "c2"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult human study of alprazolam-hydroxyzine combination and CNS depression was found.",
+            "searched": [
+              "alprazolam hydroxyzine combination adults CNS depression sedation"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Alprazolam or Hydroxyzine, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Alprazolam and Hydroxyzine, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+            "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants. Examples Psychotropic medications, anticonvulsants, antihistaminics, ethanol, and other drugs which themselves produce CNS depression.",
+            "source": {
+              "kind": "fda_label",
+              "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "additive_cns_depression",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c2",
+            "text": "The label states alprazolam with other CNS depressants produces additive CNS depressant effects.",
+            "quote": "The benzodiazepines, including alprazolam, produce additive CNS depressant effects when coadministered with other CNS depressants.",
+            "source": {
+              "kind": "fda_label",
+              "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "additive_cns_depression",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes to benzodiazepines including alprazolam additive CNS depressant effects when coadministered with other CNS depressants, a class relevant to hydroxyzine as a sedating antihistaminic, supporting increased risk.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=388e249d-b9b6-44c3-9f8f-880eced0239f",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:46:05.693Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c2"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 116873
+    }
+  ]
+}

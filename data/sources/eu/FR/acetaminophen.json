@@ -1,0 +1,28 @@
+{
+  "inn": "acetaminophen",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60025403",
+  "product": "EFFERALGAN 1000 mg, comprimé pelliculé",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60025403/extrait",
+  "retrievedAt": "2026-11-03T23:08:51.096Z",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-03; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "1339b9798d0d08da41800e456bb35f565099c8ae53e45d5002b3e65f1142190b",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nEn raison de la dose unitaire de paracétamol par comprimé (1000 mg soit 1 g), cette présentation n'est pas adaptée aux enfants de moins de 50 kg.\n\nLes patients doivent être informés qu’ils ne doivent pas prendre d’autres médicaments contenant du paracétamol. La prise de plusieurs doses en une administration peut gravement endommager le foie ; le cas échéant, le patient doit immédiatement appeler un médecin.\n\nChez un enfant traité par 60 mg/kg/jour de paracétamol, l'association d'un autre antipyrétique n'est justifiée qu'en cas d'inefficacité.\n\nEn cas d’hépatite virale aiguë, il convient d'arrêter le traitement.\n\nPrécautions d’emploi\n\nLe paracétamol doit être administré avec précaution dans les situations suivantes (voir rubrique 4.2) :\n\n· Adulte de poids inférieur à 50 kg\n\n· Insuffisance hépatique légère à modérée\n\n· Alcoolisme chronique et sevrage récent\n\n· Insuffisance rénale\n\n· Syndrome de Gilbert\n\n· Traitement concomitant avec des médicaments affectant la fonction hépatique (ex : médicaments potentiellement hépatotoxiques, médicaments inducteurs enzymatiques du cytochrome P450 tels que phénobarbital, phénytoïne, carbamazépine, topiramate, rifampicine)\n\n· Déficit en Glucose-6-Phosphate Déshydrogénase (G6PD) (pouvant conduire à une anémie hémolytique)\n\n· Déshydratation\n\n· En cas de réserves basses ou déficit en glutathion hépatique (ex : malnutrition chronique, jeûne, amaigrissement récent, anorexie, cachexie)\n\n· Personnes âgées\n\nLa consommation de boissons alcoolisées pendant le traitement est déconseillée.\n\nEn cas de prise au long cours, de fortes doses, ou d’utilisation incorrecte d’analgésiques chez des patients atteints de céphalées chroniques, des céphalées peuvent apparaître ou s’aggraver ; elles ne doivent pas être traitées par des doses plus élevées de ce médicament. Dans de tels cas, l’utilisation d’analgésiques doit être interrompue sur avis médical..\n\nDes cas d’acidose métabolique à trou anionique élevé (AMTAE) due à une acidose pyroglutamique ont été rapportés chez les patients atteints d’une maladie grave telle qu’une insuffisance rénale sévère et un sepsis, ou chez les patients souffrant de malnutrition et autres sources de déficit en glutathion (par exemple, l’alcoolisme chronique), qui ont été traités par du paracétamol à une dose thérapeutique pendant une période prolongée ou par une association de paracétamol et de flucloxacilline. En cas de suspicion d’AMTAE due à une acidose pyroglutamique, il est recommandé d’arrêter immédiatement le paracétamol et d’effectuer une surveillance étroite. La mesure de la 5-oxoproline urinaire peut être utile pour identifier l’acidose pyroglutamique comme cause sous-jacente de l’AMTAE chez les patients présentant de multiples facteurs de risque.\n\nExcipient à effet notoire :\n\nCe médicament contient moins de 1 mmol (23 mg) de sodium par comprimé pelliculé, c.-à-d. qu’il est essentiellement « sans sodium ».",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60025403/extrait#tabpanel-rcp-panel",
+      "sha256": "c9890273dad8361de0a60877636f1517ec61d675b70bd0e4f645fedf92c93eb9"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAssociations faisant l'objet de précautions d'emploi\n\n+ Antivitamines K\n\nRisque d'augmentation de l'effet de l'antivitamine K et du risque hémorragique en cas de prise de paracétamol aux doses maximales (4 g/j) pendant au moins 4 jours.\n\nContrôle plus fréquent de l'INR. Adaptation éventuelle de la posologie de l'antivitamine K pendant le traitement par le paracétamol et après son arrêt.\n\n+ Flucloxacilline\n\nDes précautions doivent être prises lorsque le paracétamol est utilisé en même temps que la flucloxacilline, car une prise concomitante a été associée à une acidose métabolique à trou anionique élevé due à une acidose pyroglutamique, en particulier chez les patients présentant des facteurs de risque (voir rubrique 4.4).\n\nInteractions avec les examens paracliniques\n\nLa prise de paracétamol peut fausser le dosage de la glycémie par la méthode à la glucose oxydase- peroxydase en cas de concentrations anormalement élevées.\n\nLa prise de paracétamol peut fausser le dosage de l'acide urique sanguin par la méthode à l'acide phosphotungstique.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60025403/extrait#tabpanel-rcp-panel",
+      "sha256": "4fb85a9976d8e1a0ade7ac5546afa0b914e93e5c9eb2dce077074f5aa7941a93"
+    }
+  ],
+  "documentUpdatedAt": "2026-11-03"
+}

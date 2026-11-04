@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__dimenhydrinate",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The dimenhydrinate label states concomitant alcohol may have an additive effect, in the context of CNS depression."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

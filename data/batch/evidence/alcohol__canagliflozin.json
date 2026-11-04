@@ -1,0 +1,101 @@
+{
+  "card": {
+    "pair": "alcohol__canagliflozin",
+    "a": "alcohol",
+    "b": "canagliflozin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA canagliflozin label identifies alcohol abuse as a precipitating condition for ketoacidosis.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label's statement concerns alcohol abuse and does not quantify risk at lower alcohol intake.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA canagliflozin label lists alcohol abuse among conditions that precipitate ketoacidosis.",
+        "quote": "Precipitating conditions for diabetic ketoacidosis or other ketoacidosis include under-insulinization due to insulin dose reduction or missed insulin doses, acute febrile illness, reduced caloric intake, ketogenic diet, surgery, volume depletion, and alcohol abuse.",
+        "source": {
+          "kind": "fda_label",
+          "id": "b9057d3b-b104-4f09-8a61-c61ef9d4a3f3#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "ketoacidosis",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The canagliflozin warning lists alcohol abuse among precipitating conditions for ketoacidosis in SGLT2-inhibitor users.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "b9057d3b-b104-4f09-8a61-c61ef9d4a3f3#warnings_and_cautions",
+        "title": "canagliflozin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b9057d3b-b104-4f09-8a61-c61ef9d4a3f3",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40045692",
+        "title": "An Attention-Aware Multi-Task Learning Framework Identifies Candidate Targets for Drug Repurposing in Sarcopenia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40045692/",
+        "citation": "2190-6009 16 2 2025 Apr Journal of cachexia, sarcopenia and muscle J Cachexia Sarcopenia Muscle",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Canagliflozin and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The retrieved PubMed abstract does not study alcohol combined with canagliflozin.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"canagliflozin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.553Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,21 @@
+{
+ "pair": "bromfenac__diclofenac",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "does_not_support",
+   "rationale": "The quote is a systemic NSAID class statement about GI toxicity in the oral diclofenac label; bromfenac is an ophthalmic topical NSAID, so the class statement does not clearly cover this pair."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

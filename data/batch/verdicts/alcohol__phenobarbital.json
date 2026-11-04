@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__phenobarbital",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label says concomitant alcohol may produce additive CNS depressant effects."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The French SmPC states alcohol increases phenobarbital's sedative effect, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

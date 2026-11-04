@@ -1,0 +1,21 @@
+{
+ "pair": "ciclesonide__desmopressin",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The boxed warning names inhaled glucocorticoids, which covers inhaled ciclesonide, and the claim notes ciclesonide is not named."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

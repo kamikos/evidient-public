@@ -1,0 +1,54 @@
+{
+ "pair": "buprenorphine__diazepam",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The Sublocade buprenorphine label quote matches the claim."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The diazepam label quote matches the claim."
+  },
+  {
+   "id": "c3",
+   "support": "supports",
+   "rationale": "The French Valium entry for buprenorphine says increased risk of possibly fatal respiratory depression, and the English rendering is faithful."
+  },
+  {
+   "id": "c4",
+   "support": "supports",
+   "rationale": "The rat study quote reports sedation and respiratory depression with the combination in contrast to either drug alone, and the claim names rats."
+  },
+  {
+   "id": "c5",
+   "support": "supports",
+   "rationale": "The quote attributes the respiratory depression to a pharmacodynamic interaction on ventilatory parameters."
+  },
+  {
+   "id": "c6",
+   "support": "supports",
+   "rationale": "The abstract describes a double-blind crossover in 8 methadone and 8 buprenorphine patients, and the quote reports greater sedation with minimal physiological impact."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__methotrexate",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label states the risk of hepatotoxicity is increased with heavy alcohol consumption; the benzyl-alcohol excipient text was correctly not used."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

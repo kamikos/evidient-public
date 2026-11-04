@@ -1,0 +1,61 @@
+{
+  "pair": "abiraterone__dextromethorphan",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a trial in men with prostate cancer, abiraterone acetate plus prednisone increased dextromethorphan systemic exposure by approximately 100%.",
+      "quote": "Coadministration of abiraterone acetate plus prednisone increased the systemic exposure of dextromethorphan by approximately 100%.",
+      "sourceId": "23064959",
+      "stance": "increases_risk",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "c2",
+      "text": "In the same trial, dextromethorphan Cmax and AUC24h ratios were 275% and 268%, outside the bioequivalence limit.",
+      "quote": "Ratios of geometric means for maximum plasma concentration (C(max)) (275.36%) and area under plasma concentration-time curves from time 0 to 24 h (AUC(24h)) (268.14%) of dextromethorphan were outside the bioequivalence limit.",
+      "sourceId": "23064959",
+      "stance": "increases_risk",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "cEU1",
+      "text": "The EMA abiraterone label reports approximately 2.9-fold higher dextromethorphan exposure in a study of abiraterone acetate plus prednisone.",
+      "quote": "In a study to determine the effects of abiraterone acetate (plus prednisone) on a single dose of the CYP2D6 substrate dextromethorphan, the systemic exposure (AUC) of dextromethorphan was increased approximately 2.9 fold.",
+      "sourceId": "EU:EMEA/H/C/002321#4.5",
+      "stance": "mechanism",
+      "outcome": "dextromethorphan_exposure"
+    }
+  ],
+  "headline": {
+    "text": "A trial found abiraterone plus prednisone roughly doubled dextromethorphan exposure (c1, c2).",
+    "claimIds": [
+      "c1",
+      "c2"
+    ]
+  },
+  "reported": [
+    {
+      "text": "Dextromethorphan Cmax and AUC24h ratios fell outside the bioequivalence limit (c2).",
+      "claimIds": [
+        "c2"
+      ]
+    },
+    {
+      "text": "The EMA abiraterone label reports approximately 2.9-fold higher dextromethorphan exposure in a study of abiraterone acetate plus prednisone.",
+      "claimIds": [
+        "cEU1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The FDA label excerpt in the packet is fragmentary and gives no complete dextromethorphan statement.",
+      "searched": [
+        "\"abiraterone\"[tiab] AND \"dextromethorphan\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

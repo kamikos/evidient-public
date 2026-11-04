@@ -1,0 +1,139 @@
+{
+  "card": {
+    "pair": "alcohol__methotrexate",
+    "a": "alcohol",
+    "b": "methotrexate",
+    "origin": "batch",
+    "category": "liver",
+    "headline": {
+      "text": "The FDA methotrexate label links heavy alcohol consumption to increased hepatotoxicity risk.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label's alcohol-related risk statement concerns heavy consumption.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA methotrexate label says heavy alcohol consumption increases hepatotoxicity risk.",
+        "quote": "The risk of hepatotoxicity is increased with heavy alcohol consumption.",
+        "source": {
+          "kind": "fda_label",
+          "id": "dd035a9f-cd40-4314-b9d8-2294b8a924e2#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "liver_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states the risk of hepatotoxicity is increased with heavy alcohol consumption; the benzyl-alcohol excipient text was correctly not used.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "dd035a9f-cd40-4314-b9d8-2294b8a924e2#boxed_warning",
+        "title": "methotrexate: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd035a9f-cd40-4314-b9d8-2294b8a924e2",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "dd035a9f-cd40-4314-b9d8-2294b8a924e2#warnings_and_cautions",
+        "title": "methotrexate: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dd035a9f-cd40-4314-b9d8-2294b8a924e2",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60082450#4.4",
+        "title": "IZIXATE 12,5 mg/0,25 mL, solution injectable en stylo injecteur prérempli: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60082450/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "11460037",
+        "title": "[Acitretine].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11460037/",
+        "citation": "0151-9638 128 6-7 2001 Jun-Jul Annales de dermatologie et de venereologie Ann Dermatol Venereol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2196079",
+        "title": "Methotrexate side-effects.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2196079/",
+        "citation": "0007-0963 122 Suppl 36 1990 Jun The British journal of dermatology Br J Dermatol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33353028",
+        "title": "Increased Encapsulation Efficiency of Methotrexate in Liposomes for Rheumatoid Arthritis Therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33353028/",
+        "citation": "2227-9059 8 12 2020 Dec 18 Biomedicines Biomedicines",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "21044443",
+        "title": "Methotrexate use and alcohol.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21044443/",
+        "citation": "0392-856X 28 5 Suppl 61 2010 Sep-Oct Clinical and experimental rheumatology Clin Exp Rheumatol",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Methotrexate and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.592Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

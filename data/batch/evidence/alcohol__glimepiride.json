@@ -1,0 +1,162 @@
+{
+  "card": {
+    "pair": "alcohol__glimepiride",
+    "a": "alcohol",
+    "b": "glimepiride",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label says alcohol can unpredictably strengthen or weaken glimepiride's glucose-lowering effect.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The interaction section describes unpredictable changes with acute and chronic alcohol intake.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The warning section also identifies alcohol ingestion as a factor making hypoglycemia more likely.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says acute and chronic alcohol intake may unpredictably strengthen or weaken glimepiride's glucose-lowering action.",
+        "quote": "Both acute and chronic alcohol intake may potentiate or weaken the glucose-lowering action of glimepiride in an unpredictable fashion.",
+        "source": {
+          "kind": "fda_label",
+          "id": "fc9d8495-184c-3af1-e053-6394a90a5e29#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "altered_glucose_lowering",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says acute and chronic alcohol intake may potentiate or weaken glimepiride's glucose-lowering action unpredictably.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA glimepiride label says hypoglycemia is more likely when alcohol is ingested.",
+        "quote": "Hypoglycemia is also more likely to occur when caloric intake is deficient, after severe or prolonged exercise, or when alcohol is ingested.",
+        "source": {
+          "kind": "fda_label",
+          "id": "fc9d8495-184c-3af1-e053-6394a90a5e29#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "hypoglycemia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The glimepiride warnings say hypoglycemia is more likely when alcohol is ingested.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "fc9d8495-184c-3af1-e053-6394a90a5e29#warnings_and_cautions",
+        "title": "glimepiride: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc9d8495-184c-3af1-e053-6394a90a5e29",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "fc9d8495-184c-3af1-e053-6394a90a5e29#drug_interactions",
+        "title": "glimepiride: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc9d8495-184c-3af1-e053-6394a90a5e29",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60116447#4.5",
+        "title": "GLIMEPIRIDE EG 1 mg, comprimé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60116447/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38742853",
+        "title": "Analyzing the Iatrogenic Triad: Discovering Strategies for Preventing Harm in the Elderly.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38742853/",
+        "citation": "2148-6247 21 2 2024 May 14 Turkish journal of pharmaceutical sciences Turk J Pharm Sci",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "29360412",
+        "title": "Impact of various solid carriers and spray drying on pre/post compression properties of solid SNEDDS loaded with glimepiride: in vitro-ex vivo evaluation and cytotoxicity assessment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29360412/",
+        "citation": "1520-5762 44 7 2018 Jul Drug development and industrial pharmacy Drug Dev Ind Pharm",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27457692",
+        "title": "Evaluation of herb-drug interaction of a polyherbal Ayurvedic formulation through high throughput cytochrome P450 enzyme inhibition assay.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27457692/",
+        "citation": "1872-7573 197 2017 Feb 2 Journal of ethnopharmacology J Ethnopharmacol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26775063",
+        "title": "Transdermal glimepiride delivery system based on optimized ethosomal nano-vesicles: Preparation, characterization, in vitro, ex vivo and clinical evaluation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26775063/",
+        "citation": "1873-3476 500 1-2 2016 Mar 16 International journal of pharmaceutics Int J Pharm",
+        "language": "en",
+        "design": "controlled_trial"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Glimepiride and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.579Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,1 @@
+{"pair":"alcohol__metformin","judge":"claude-opus-5-5","claims":[{"id":"c1","support":"supports","rationale":"The label states verbatim that alcohol potentiates the effect of metformin on lactate metabolism."}],"sentences":[{"path":"headline","support":"supports"},{"path":"reported.0","support":"supports"},{"path":"mechanism.0","support":"supports"}]}

@@ -1,0 +1,30 @@
+{
+  "pair": "apalutamide__atazanavir",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The atazanavir table states coadministration with apalutamide (with or without ritonavir) is contraindicated for potential loss of virologic response and PI resistance."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The Spanish label states apalutamide concentrations may increase with atazanavir/ritonavir, possibly causing serious adverse events including seizures, and the translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pair": "acebutolol__amlodipine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acebutolol label section does not mention amlodipine, and the PubMed trial found compared the drugs in separate arms rather than together.",
+      "searched": [
+        "\"acebutolol\"[tiab] AND \"amlodipine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

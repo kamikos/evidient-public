@@ -1,0 +1,92 @@
+{
+  "card": {
+    "pair": "alcohol__ertugliflozin",
+    "a": "alcohol",
+    "b": "ertugliflozin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA ertugliflozin label identifies alcohol abuse as a precipitating condition for ketoacidosis.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies alcohol abuse rather than quantifying the effect of a particular drinking amount.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA ertugliflozin label lists alcohol abuse among precipitating conditions for ketoacidosis.",
+        "quote": "Precipitating conditions for diabetic ketoacidosis or other ketoacidosis include under-insulinization due to insulin dose reduction or missed insulin doses, acute febrile illness, reduced caloric intake, ketogenic diet, surgery, volume depletion, and alcohol abuse.",
+        "source": {
+          "kind": "fda_label",
+          "id": "e6f3e718-bb99-48f1-ab94-b9f0af05fed6#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "ketoacidosis",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The ertugliflozin label lists alcohol abuse among precipitating conditions for ketoacidosis.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "e6f3e718-bb99-48f1-ab94-b9f0af05fed6#warnings_and_cautions",
+        "title": "ertugliflozin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e6f3e718-bb99-48f1-ab94-b9f0af05fed6",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Ertugliflozin and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no PubMed abstract evaluating this combination.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"ertugliflozin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.574Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

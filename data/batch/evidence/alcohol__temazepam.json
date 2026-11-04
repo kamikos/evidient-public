@@ -1,0 +1,143 @@
+{
+  "card": {
+    "pair": "alcohol__temazepam",
+    "a": "alcohol",
+    "b": "temazepam",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label describes additive central nervous system depression with temazepam and alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label reports additive depressant effects with alcohol.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "It also describes an apparent increase in sleep-driving risk with alcohol during temazepam treatment.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says temazepam and alcohol produce additive central nervous system depression.",
+        "quote": "The benzodiazepines, including temazepam, produce additive CNS-depressant effects when co-administered with other CNS depressants such as alcohol",
+        "source": {
+          "kind": "fda_label",
+          "id": "cbe5bd6a-f36a-4557-82d8-ef4e49d310e9#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The temazepam label states benzodiazepines including temazepam produce additive CNS-depressant effects with alcohol.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label says alcohol appears to increase the risk of sleep-driving behaviors with temazepam.",
+        "quote": "Although behaviors such as “sleep-driving” may occur with temazepam capsules alone at therapeutic doses, the use of alcohol and other CNS depressants with temazepam capsules appears to increase the risk of such behaviors, as does the use of temazepam capsules at doses exceeding the maximum recommended dose.",
+        "source": {
+          "kind": "fda_label",
+          "id": "cbe5bd6a-f36a-4557-82d8-ef4e49d310e9#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "complex_sleep_behaviors",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The temazepam label states alcohol appears to increase the risk of sleep-driving behaviors.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "cbe5bd6a-f36a-4557-82d8-ef4e49d310e9#boxed_warning",
+        "title": "temazepam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbe5bd6a-f36a-4557-82d8-ef4e49d310e9",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "cbe5bd6a-f36a-4557-82d8-ef4e49d310e9#warnings",
+        "title": "temazepam: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbe5bd6a-f36a-4557-82d8-ef4e49d310e9",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "cbe5bd6a-f36a-4557-82d8-ef4e49d310e9#precautions",
+        "title": "temazepam: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbe5bd6a-f36a-4557-82d8-ef4e49d310e9",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "cbe5bd6a-f36a-4557-82d8-ef4e49d310e9#drug_interactions",
+        "title": "temazepam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbe5bd6a-f36a-4557-82d8-ef4e49d310e9",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "12774892",
+        "title": "Interaction of alcohol and drugs in fatal poisonings.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12774892/",
+        "citation": "0960-3271 22 5 2003 May Human & experimental toxicology Hum Exp Toxicol",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Temazepam and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.617Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,112 @@
+{
+  "card": {
+    "pair": "alcohol__dimenhydrinate",
+    "a": "alcohol",
+    "b": "dimenhydrinate",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA dimenhydrinate label describes possible additive CNS depressant effects with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label includes alcohol among CNS depressants that may have an additive effect with dimenhydrinate.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA dimenhydrinate label says concomitant alcohol use may have an additive CNS depressant effect.",
+        "quote": "The concomitant use of alcohol or other central nervous system depressants may have an additive effect.",
+        "source": {
+          "kind": "fda_label",
+          "id": "bc71539e-1a33-4709-8a24-c2894e8dbc1c#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The dimenhydrinate label states concomitant alcohol may have an additive effect, in the context of CNS depression.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "bc71539e-1a33-4709-8a24-c2894e8dbc1c#contraindications",
+        "title": "dimenhydrinate: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "bc71539e-1a33-4709-8a24-c2894e8dbc1c#warnings",
+        "title": "dimenhydrinate: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60173964#4.5",
+        "title": "NAUSICALM ADULTES 50 mg, gélule: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60173964/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "10521884",
+        "title": "The use of non-prescription sleep products in the elderly.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10521884/",
+        "citation": "0885-6230 14 10 1999 Oct International journal of geriatric psychiatry Int J Geriatr Psychiatry",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Dimenhydrinate and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.567Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

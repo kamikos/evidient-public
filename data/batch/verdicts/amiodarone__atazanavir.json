@@ -1,0 +1,30 @@
+{
+  "pair": "amiodarone__atazanavir",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The atazanavir table states atazanavir with ritonavir and amiodarone is contraindicated due to potential serious or life-threatening reactions such as arrhythmias."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The Spanish label states the amiodarone/atazanavir interaction mechanism is CYP3A inhibition, and the translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

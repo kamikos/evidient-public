@@ -1,0 +1,481 @@
+{
+  "card": {
+    "pair": "lorazepam__tramadol",
+    "a": "lorazepam",
+    "b": "tramadol",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Tramadol with lorazepam may cause profound sedation, respiratory depression, coma, and death",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes concomitant use of tramadol with benzodiazepines such as lorazepam as potentially resulting in profound sedation, respiratory depression, coma, and death.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The label reserves concomitant prescribing for patients with inadequate alternative options and describes limiting dosage and duration with follow-up for respiratory depression and sedation.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No retrieved adult study directly measured lorazepam-tramadol combined sedation, respiratory depression, coma, or death.",
+        "searched": [
+          "tramadol lorazepam concomitant sedation respiratory depression coma death"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Lorazepam or Tramadol, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Lorazepam and Tramadol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states concomitant tramadol with benzodiazepines may cause profound sedation, respiratory depression, coma, death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "combined_sedation_respiratory_coma_death",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports, because the quoted label warning that opioid-benzodiazepine co-use may result in profound sedation, respiratory depression, coma, and death applies to tramadol with lorazepam as members of those classes and matches the claim's hedged wording and increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The label states reserve concomitant use for inadequate alternatives, limit dose and duration, monitor patients.",
+        "quote": "Reserve concomitant prescribing of tramadol hydrochloride extended-release injection and benzodiazepines or other CNS depressants for use in patients for whom alternative treatment options are inadequate. • Limit dosages and durations to the minimum required. • Follow patients for signs and symptoms of respiratory depression and sedation.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "combined_sedation_respiratory_coma_death",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states the label restriction for tramadol with benzodiazepines, the class containing lorazepam, to reserve concomitant use for inadequate alternatives, limit dosages and durations, and follow patients, supporting both the claim and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+        "title": "Boxed Warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b7f61b-5173-43e6-a3f9-d2efbda40c19",
+        "citation": "FDA label · Boxed Warning",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:57:49.992Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "lorazepam__tramadol",
+      "at": "2026-11-03T19:56:28.427Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc33e37178a20186f986a91cbc",
+      "name": "record_claim",
+      "args": {
+        "outcome": "combined_sedation_respiratory_coma_death",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+        "sourceId": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states concomitant tramadol with benzodiazepines may cause profound sedation, respiratory depression, coma, death."
+      },
+      "t": 14281
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states concomitant tramadol with benzodiazepines may cause profound sedation, respiratory depression, coma, death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "combined_sedation_respiratory_coma_death"
+      },
+      "t": 14282
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc33e37178a20186f986a91cbc",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 14282
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc384070009befc30ce0e22226",
+      "name": "record_claim",
+      "args": {
+        "outcome": "combined_sedation_respiratory_coma_death",
+        "quote": "Reserve concomitant prescribing of tramadol hydrochloride extended-release injection and benzodiazepines or other CNS depressants for use in patients for whom alternative treatment options are inadequate. • Limit dosages and durations to the minimum required. • Follow patients for signs and symptoms of respiratory depression and sedation.",
+        "sourceId": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states reserve concomitant use for inadequate alternatives, limit dose and duration, monitor patients."
+      },
+      "t": 14282
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states reserve concomitant use for inadequate alternatives, limit dose and duration, monitor patients.",
+        "quote": "Reserve concomitant prescribing of tramadol hydrochloride extended-release injection and benzodiazepines or other CNS depressants for use in patients for whom alternative treatment options are inadequate. • Limit dosages and durations to the minimum required. • Follow patients for signs and symptoms of respiratory depression and sedation.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "combined_sedation_respiratory_coma_death"
+      },
+      "t": 14282
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc384070009befc30ce0e22226",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 14282
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc3c6970ba90d0f22457cfed9f",
+      "name": "search_pubmed",
+      "args": {
+        "query": "tramadol lorazepam concomitant sedation respiratory depression coma death"
+      },
+      "t": 14282
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc3c6970ba90d0f22457cfed9f",
+      "summary": "search_pubmed completed: {\"query\":\"tramadol lorazepam concomitant sedation respiratory depression coma death\",\"pmids\":[]}",
+      "t": 14753
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc3d8e720f89de1f2bed307f37",
+      "name": "search_pubmed",
+      "args": {
+        "query": "tramadol lorazepam combination adults"
+      },
+      "t": 14753
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc3d8e720f89de1f2bed307f37",
+      "summary": "search_pubmed completed: {\"query\":\"tramadol lorazepam combination adults\",\"pmids\":[\"30726003\",\"40165576\",\"33232099\",\"33428370\",\"25088385\"]}",
+      "t": 15192
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc549b7547be441d2664f27dbd",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "30726003",
+          "40165576"
+        ]
+      },
+      "t": 21589
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc549b7547be441d2664f27dbd",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"40165576\",\"title\":\"Psychotropic Drug Use in Korean Patients With Osteoarthritis.\",\"journal\":\"Journal of Korean medical science\",\"year\":\"2025\",\"abstractText\":\"There are few safe effective ways to relieve osteoarthritis (OA) pain; as a result, off-label psychotropic drug prescriptions have increased worldwide. This study examined the change in psychotropic drug prescriptions for patients with OA from 2011 to 2020 using the Korean National Health Insurance Service dataset.\\n\\nThe study population consisted of patients with hip or knee OA aged ≥ 65 years. Psychotropic drugs included opioids, benzodiazepines, non-benzodiazepine hypnotics (Z-drugs), anti-epileptics, tricyclic antidepressants, selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), typical antipsychotics, atypical antipsychotics, and anxiolytics. The prevalence and long-term (> 3 months) prescription rates of psychotropic drugs in OA patients were calculated.\\n\\nThe study included 1,821,158 patients with OA (mean age 71.7 years; 65.32% female). Of the cohort, 49% had comorbidities for which psychotropics were indicated. The prevalence of psychotropic prescriptions decreased from 58.2% to 52.0% in 2018 and then leveled off. The long-term prescription rate remained constant until 2018 and then increased slightly. The most commonly prescribed psychotropics were opioids and long- and short-acting benzodiazepines. The prescription rates of opioids and long-acting benzodiazepines decreased from 2011 to 2020. For those with psychiatric co-morbidities, the prescription rates of anti-epileptics and SNRIs increased, while the prescription rates of anti-epileptics, SSRIs, other antidepressants, and atypical psychotropics increased for those without such co-morbidities. The most commonly prescribed psychotropics were diazepam and alprazolam, excluding tramadol and tramadol-acetaminophen combination. For those with psychiatric co-morbidities, the prescription rates of gabapentin and fentanyl increased, while for those without such co-morbidities, the prescription rates of lorazepam, fentanyl, escitalopram and quetiapine increased.\\n\\nA significant number of older Korean patients with OA were prescribed psychotropic drugs in the absence of comorbidities requiring such drugs, including drugs that have little effect on OA and unfavorable safety profiles in older adults.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Kang\",\"kind\":\"pubmed\",\"id\":\"40165576\",\"text\":\"There are few safe effective ways to relieve osteoarthritis (OA) pain; as a result, off-label psychotropic drug prescriptions have increased worldwide. This study examined the change in psychotropic drug prescriptions for patients with OA from 2011 to 2020 using the Korean National Health Insurance Service dataset.\\n\\nThe study population consisted of patients with hip or knee OA aged ≥ 65 years. Psychotropic drugs included opioids, benzodiazepines, non-benzodiazepine hypnotics (Z-drugs), anti-epileptics, tricyclic antidepressants, selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), typical antipsychotics, atypical antipsychotics, and anxiolytics. The prevalence and long-term (> 3 months) prescription rates of psychotropic drugs in OA patients were calculated.\\n\\nThe study included 1,821,158 patients with OA (mean age 71.7 years; 65.32% female). Of the cohort, 49% had comorbidities for which psychotropics were indicated. The prevalence of psychotropic prescriptions decreased from 58.2% to 52.0% in 2018 and then leveled off. The long-term prescription rate remained constant until 2018 and then increased slightly. The most commonly prescribed psychotropics were opioids and long- and short-acting benzodiazepines. The prescription rates of opioids and long-acting benzodiazepines decreased from 2011 to 2020. For those with psychiatric co-morbidities, the prescription rates of anti-epileptics and SNRIs increased, while the prescription rates of anti-epileptics, SSRIs, other antidepressants, and atypical psychotropics increased for those without such co-morbidities. The most commonly prescribed psychotropics were diazepam and alprazolam, excluding tramadol and tramadol-acetaminophen combination. For those with psychiatric co-morbidities, the prescription rates of gabapentin and fentanyl increased, while for those without such co-morbidities, the prescription rates of lorazepam, fentanyl, escitalopram and quetiapine increased.\\n\\nA significant number of older Korean patients with OA were prescribed psychotropic drugs in the absence of comorbidities requiring such drugs, including drugs that have little effect on OA and unfavorable safety profiles in older adults.\"}]",
+      "t": 22312
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc7427774b9b9efa45465dd64e",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "33232099",
+          "33428370",
+          "25088385"
+        ]
+      },
+      "t": 29476
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc7427774b9b9efa45465dd64e",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"25088385\",\"title\":\"Influence of central nervous system-acting drugs on results of cognitive testing in geriatric inpatients.\",\"journal\":\"Zeitschrift fur Gerontologie und Geriatrie\",\"year\":\"2014\",\"abstractText\":\"Growing evidence shows a high correlation between extensive use of central nervous system-acting drugs (CNSADs) in elderly patients and adverse drug reactions (ADRs) such as falls, fractures, and mortality.\\n\\nAre results of cognitive testing with the Mini Mental Status Examination (MMSE) influenced by use of CNSADs?\\n\\nGeriatric inpatient service for acute, subacute, and rehabilitation care.\\n\\nSecondary combined analysis of two prospective, single-center study cohorts (PROPSYC, 2011 and AGE OUT, 2012) with identical procedure for the MMSE at a tertiary hospital.\\n\\nOverall, 395 patients were included, 144 male (M) and 251 female (F). Mean age was 80.0 ± 8.4 years (M 76.7 ± 9.1, F 81.9 ± 7.3, p = 0.0000). Mean MMSE points were 22.9 ± 4.8 (M 23.2 ± 4.6, F 22.6 ± 5.0, p = 0.211). In total, 258 patients (65.3 %) used drugs with potential adverse cognitive properties. Analgesics with central activity were given to 117 of 395 patients (29.6 %). Low-potency opioids (tramadol hydrochloride, tilidine) were identified in 60 patients and high-potency opioids in 57 patients. Antidepressants were used in 66 patients, benzodiazepines in 26, and hypnotics in 11, while 38 patients received other CNSADs. We only found significant correlations with the results of cognitive testing for sedatives (diazepam and oxazepam, Pearson's r - 0.79, p = 0.05), but not for lorazepam.\\n\\nOur analysis shows an influence of sedatives (diazepam and oxazepam, but not lorazepam) on cognitive testing with the MMSE in users of CNSADs.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\"],\"firstAuthor\":\"Gogol\",\"kind\":\"pubmed\",\"id\":\"25088385\",\"text\":\"Growing evidence shows a high correlation between extensive use of central nervous system-acting drugs (CNSADs) in elderly patients and adverse drug reactions (ADRs) such as falls, fractures, and mortality.\\n\\nAre results of cognitive testing with the Mini Mental Status Examination (MMSE) influenced by use of CNSADs?\\n\\nGeriatric inpatient service for acute, subacute, and rehabilitation care.\\n\\nSecondary combined analysis of two prospective, single-center study cohorts (PROPSYC, 2011 and AGE OUT, 2012) with identical procedure for the MMSE at a tertiary hospital.\\n\\nOverall, 395 patients were included, 144 male (M) and 251 female (F). Mean age was 80.0 ± 8.4 years (M 76.7 ± 9.1, F 81.9 ± 7.3, p = 0.0000). Mean MMSE points were 22.9 ± 4.8 (M 23.2 ± 4.6, F 22.6 ± 5.0, p = 0.211). In total, 258 patients (65.3 %) used drugs with potential adverse cognitive properties. Analgesics with central activity were given to 117 of 395 patients (29.6 %). Low-potency opioids (tramadol hydrochloride, tilidine) were identified in 60 patients and high-potency opioids in 57 patients. Antidepressants were used in 66 patients, benzodiazepines in 26, and hypnotics in 11, while 38 patients received other CNSADs. We only found significant correlations with the results of cognitive testing for sedatives (diazepam and oxazepam, Pearson's r - 0.79, p = 0.05), but not for lorazepam.\\n\\nOur analysis shows an influence of sedatives (diazepam and oxazepam, but not lorazepam) on cognitive testing with the MMSE in users of CNSADs.\"}]",
+      "t": 30070
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc95cd76679fe01aff3b02bf22",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "tramadol lorazepam concomitant sedation respiratory depression coma death",
+          "tramadol lorazepam combination adults"
+        ],
+        "text": "No retrieved adult study directly measured lorazepam-tramadol combined sedation, respiratory depression, coma, or death."
+      },
+      "t": 38199
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc95cd76679fe01aff3b02bf22",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 38199
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fcb2ee70b983f869cc79149154",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "tramadol lorazepam concomitant sedation respiratory depression coma death"
+        ],
+        "text": "No retrieved adult study directly measured lorazepam-tramadol combined sedation, respiratory depression, coma, or death."
+      },
+      "t": 45230
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No retrieved adult study directly measured lorazepam-tramadol combined sedation, respiratory depression, coma, or death.",
+        "searched": [
+          "tramadol lorazepam concomitant sedation respiratory depression coma death"
+        ]
+      },
+      "t": 45230
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fcb2ee70b983f869cc79149154",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 45230
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 53877
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 53878
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 53880
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly states the label restriction for tramadol with benzodiazepines, the class containing lorazepam, to reserve concomitant use for inadequate alternatives, limit dosages and durations, and follow patients, supporting both the claim and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 57333
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "Supports, because the quoted label warning that opioid-benzodiazepine co-use may result in profound sedation, respiratory depression, coma, and death applies to tramadol with lorazepam as members of those classes and matches the claim's hedged wording and increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 57448
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 57448
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 0.",
+      "t": 78136
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "lorazepam__tramadol",
+        "a": "lorazepam",
+        "b": "tramadol",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Tramadol with lorazepam may cause profound sedation, respiratory depression, coma, and death",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label describes concomitant use of tramadol with benzodiazepines such as lorazepam as potentially resulting in profound sedation, respiratory depression, coma, and death.",
+            "claimIds": [
+              "c1"
+            ]
+          },
+          {
+            "text": "The label reserves concomitant prescribing for patients with inadequate alternative options and describes limiting dosage and duration with follow-up for respiratory depression and sedation.",
+            "claimIds": [
+              "c2"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No retrieved adult study directly measured lorazepam-tramadol combined sedation, respiratory depression, coma, or death.",
+            "searched": [
+              "tramadol lorazepam concomitant sedation respiratory depression coma death"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Lorazepam or Tramadol, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Lorazepam and Tramadol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states concomitant tramadol with benzodiazepines may cause profound sedation, respiratory depression, coma, death.",
+            "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+            },
+            "stance": "increases_risk",
+            "outcome": "combined_sedation_respiratory_coma_death",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports, because the quoted label warning that opioid-benzodiazepine co-use may result in profound sedation, respiratory depression, coma, and death applies to tramadol with lorazepam as members of those classes and matches the claim's hedged wording and increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "The label states reserve concomitant use for inadequate alternatives, limit dose and duration, monitor patients.",
+            "quote": "Reserve concomitant prescribing of tramadol hydrochloride extended-release injection and benzodiazepines or other CNS depressants for use in patients for whom alternative treatment options are inadequate. • Limit dosages and durations to the minimum required. • Follow patients for signs and symptoms of respiratory depression and sedation.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+            },
+            "stance": "increases_risk",
+            "outcome": "combined_sedation_respiratory_coma_death",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states the label restriction for tramadol with benzodiazepines, the class containing lorazepam, to reserve concomitant use for inadequate alternatives, limit dosages and durations, and follow patients, supporting both the claim and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+            "title": "Boxed Warning",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b7f61b-5173-43e6-a3f9-d2efbda40c19",
+            "citation": "FDA label · Boxed Warning",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:57:49.992Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "serious_warning",
+          "basis": [
+            "c1",
+            "c2"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 81565
+    }
+  ]
+}

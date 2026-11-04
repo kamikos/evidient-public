@@ -1,0 +1,25 @@
+{
+  "pair": "amiodarone__cobicistat",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The Cordarone SmPC entry for cobicistat states a risk of increased amiodarone adverse effects via decreased metabolism, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

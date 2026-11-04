@@ -1,0 +1,195 @@
+{
+  "card": {
+    "pair": "alcohol__venlafaxine",
+    "a": "alcohol",
+    "b": "venlafaxine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The French venlafaxine label flags CNS depression with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label flags CNS depression, while a crossover study in 16 healthy men detected no pharmacodynamic interaction.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "text": "That study also found no pharmacokinetic interaction in either direction.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French venlafaxine label describes a risk of adverse interactions with alcohol, including CNS depression.",
+        "quote": "Compte tenu de ses effets sur le SNC et de sa capacité à entraîner une aggravation clinique des troubles psychiatriques ainsi que du risque d'interactions indésirables avec la venlafaxine, notamment des effets dépresseurs sur le SNC, il doit être recommandé aux patients d'éviter la consommation d'alcool.",
+        "quoteEnglish": "Given alcohol's CNS effects and its capacity to cause clinical worsening of psychiatric disorders, as well as the risk of adverse interactions with venlafaxine, particularly CNS depressant effects, patients must be advised to avoid alcohol consumption.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60234214#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French label cites a risk of adverse interactions with venlafaxine, notably CNS depressant effects, and advises avoiding alcohol; the English rendering is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A randomized crossover study in 16 healthy men detected no pharmacodynamic interaction between venlafaxine and ethanol.",
+        "quote": "No pharmacodynamic interaction was detected between venlafaxine and ethanol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "9506002"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The abstract of the randomized crossover study in 16 healthy men reports no pharmacodynamic interaction with ethanol.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The study found ethanol did not affect venlafaxine or O-desmethylvenlafaxine disposition, and venlafaxine did not affect ethanol disposition.",
+        "quote": "Pharmacokinetic data indicated that ethanol administration did not affect the disposition of venlafaxine or O-desmethylvenlafaxine. Similarly, venlafaxine administration did not affect the pharmacokinetic disposition of ethanol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "9506002"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The abstract reports no effect of ethanol on venlafaxine or O-desmethylvenlafaxine disposition and none of venlafaxine on ethanol disposition.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "c41d847b-88ba-49a5-9d73-269ac4caa4ed#drug_interactions",
+        "title": "venlafaxine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c41d847b-88ba-49a5-9d73-269ac4caa4ed",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60234214#4.5",
+        "title": "VENLAFAXINE EVOLUGEN PHARMA LP 37,5 mg, gélule à libération prolongée: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60234214/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33278816",
+        "title": "Pitfalls and challenges associated with phenoconversion in forensic toxcicology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33278816/",
+        "citation": "1878-0326 51 2021 Mar Forensic science international. Genetics Forensic Sci Int Genet",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9506002",
+        "title": "Pharmacokinetic and pharmacodynamic evaluation of the potential drug interaction between venlafaxine and ethanol.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9506002/",
+        "citation": "0091-2700 37 11 1997 Nov Journal of clinical pharmacology J Clin Pharmacol",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "25086830",
+        "title": "Distribution of venlafaxine and O-desmethylvenlafaxine in a fatal case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25086830/",
+        "citation": "1872-6283 242 2014 Sep Forensic science international Forensic Sci Int",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "11516890",
+        "title": "Postmortem tissue concentrations of venlafaxine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11516890/",
+        "citation": "0379-0738 121 1-2 2001 Sep 15 Forensic science international Forensic Sci Int",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [
+      {
+        "outcome": "cns_depression",
+        "sideA": [
+          "c1"
+        ],
+        "sideB": [
+          "c2"
+        ],
+        "summary": {
+          "text": "The French label flags CNS depression, while a crossover study in 16 healthy men detected no pharmacodynamic interaction.",
+          "claimIds": [
+            "c1",
+            "c2"
+          ]
+        }
+      }
+    ],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": true
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "conflict",
+        "text": "The label and a published study disagree here. Which finding fits my situation better?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Venlafaxine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The controlled study involved healthy men and does not establish effects in other populations or with heavier alcohol exposure.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"venlafaxine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.628Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

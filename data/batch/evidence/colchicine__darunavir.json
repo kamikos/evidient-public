@@ -1,0 +1,178 @@
+{
+  "card": {
+    "pair": "colchicine__darunavir",
+    "a": "colchicine",
+    "b": "darunavir",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA darunavir label contraindicates co-administration with colchicine in patients with renal and/or hepatic impairment.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA colchicine label extends its contraindication in renal or hepatic impairment to all protease inhibitors except fosamprenavir.",
+        "claimIds": [
+          "c2"
+        ]
+      },
+      {
+        "text": "The French darunavir label says boosted darunavir may increase colchicine exposure.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA darunavir label lists colchicine under anti-gout drugs and says co-administration is contraindicated in patients with renal and/or hepatic impairment because of potential serious or life-threatening reactions.",
+        "quote": "Co-administration is contraindicated in patients with renal and/or hepatic impairment due to potential for serious and/or life-threatening reactions.",
+        "source": {
+          "kind": "fda_label",
+          "id": "e80e44f8-1987-4b78-a63d-a4e4d5122ddb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "In context, the quote is the colchicine row of the darunavir interaction table.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA colchicine label says use with P-gp or strong CYP3A4 inhibitors, including all protease inhibitors except fosamprenavir, is contraindicated in patients with renal or hepatic impairment.",
+        "quote": "Use of colchicine tablets in conjunction with P-gp or strong CYP3A4 inhibitors (this includes all protease inhibitors except fosamprenavir) is contraindicated in patients with renal or hepatic impairment",
+        "source": {
+          "kind": "fda_label",
+          "id": "5a0b4246-e7dd-29e5-e063-6294a90a2871#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The colchicine label covers all protease inhibitors except fosamprenavir, which clearly includes darunavir.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The French darunavir label says concomitant use of colchicine and boosted darunavir may increase colchicine exposure.",
+        "quote": "L’utilisation concomitante de la colchicine et de darunavir boosté peut augmenter l’exposition à la colchicine.",
+        "quoteEnglish": "Concomitant use of colchicine and boosted darunavir may increase colchicine exposure.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60803434#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French quote and its English rendering match the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "5a0b4246-e7dd-29e5-e063-6294a90a2871#contraindications",
+        "title": "colchicine: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a0b4246-e7dd-29e5-e063-6294a90a2871",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a0b4246-e7dd-29e5-e063-6294a90a2871#warnings_and_cautions",
+        "title": "colchicine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a0b4246-e7dd-29e5-e063-6294a90a2871",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "e80e44f8-1987-4b78-a63d-a4e4d5122ddb#drug_interactions",
+        "title": "darunavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e80e44f8-1987-4b78-a63d-a4e4d5122ddb",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60803434#4.5",
+        "title": "DARUNAVIR ZENTIVA 400 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60803434/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32735768",
+        "title": "Anti-Inflammatory Properties of Drugs Used to Control COVID-19 and their Effects on the Renin-Angiotensin System and Angiotensin-Converting Enzyme-2.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32735768/",
+        "citation": "1482-1826 23 2020 Journal of pharmacy & pharmaceutical sciences : a publication of the Canadian Society for Pharmaceutical Sciences, Societe canadienne des sciences pharmaceutiques J Pharm Pharm Sci",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34306260",
+        "title": "Complex analysis of the personalized pharmacotherapy in the management of COVID-19 patients and suggestions for applications of predictive, preventive, and personalized medicine attitude.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34306260/",
+        "citation": "1878-5077 12 3 2021 Sep The EPMA journal EPMA J",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Colchicine or Darunavir, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Colchicine and Darunavir, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"colchicine\"[tiab] AND \"darunavir\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.699Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

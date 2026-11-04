@@ -1,0 +1,35 @@
+{
+ "pair": "desmopressin__dexamethasone",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The contraindication list item names systemic or inhaled glucocorticoids, which covers dexamethasone."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The boxed warning quote matches the claim."
+  },
+  {
+   "id": "c3",
+   "support": "supports",
+   "rationale": "The quote matches, and the claim presents it as a single case report."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  }
+ ]
+}

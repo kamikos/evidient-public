@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__buspirone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Buspirone label states formal studies found buspirone does not increase alcohol-induced motor and mental impairment."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "Same label sentence states it is prudent to avoid concomitant alcohol and buspirone."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

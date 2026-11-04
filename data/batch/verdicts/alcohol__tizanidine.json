@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__tizanidine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The tizanidine label states alcohol increases tizanidine exposure and this was associated with more adverse reactions."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The claim presents the abstract as a single case report of syncope from postural hypotension, matching the quote."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

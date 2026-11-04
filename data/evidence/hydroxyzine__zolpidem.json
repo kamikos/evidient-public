@@ -1,0 +1,584 @@
+{
+  "card": {
+    "pair": "hydroxyzine__zolpidem",
+    "a": "hydroxyzine",
+    "b": "zolpidem",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult combined hydroxyzine-zolpidem CNS depression study found.",
+        "searched": [
+          "hydroxyzine zolpidem coadministration CNS depression adults"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Hydroxyzine or Zolpidem, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Hydroxyzine and Zolpidem, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes a potentiating action to hydroxyzine used with CNS depressants (the class including zolpidem) and directs reducing the depressant dosage, matching the claim and an increases_risk label restriction.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "The label advises against simultaneous hydroxyzine use with other CNS depressant drugs.",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "In the hydroxyzine labeling context, the quote explicitly advises patients against simultaneous use of other CNS depressant drugs, which includes zolpidem and supports the stated restriction.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "The label states zolpidem with other CNS depressants increases CNS depression risk.",
+        "quote": "Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression [see WARNINGS AND PRECAUTIONS (5.1) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that co-administration of zolpidem with other CNS depressants, a class relevant to hydroxyzine, increases the risk of CNS depression.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "title": "Precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+        "citation": "FDA label · Precautions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25e71199-c55d-4cc6-8388-b309d654d2b0",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:47:44.210Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "hydroxyzine__zolpidem",
+      "at": "2026-11-03T20:46:05.696Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:09092888-0c18-501d-e063-6294a90aad67#precautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "09092888-0c18-501d-e063-6294a90aad67#precautions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3299a237346853bb6194c8ae1bd",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depression_potentiation",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage."
+      },
+      "t": 11712
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression_potentiation"
+      },
+      "t": 11712
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3299a237346853bb6194c8ae1bd",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 11712
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3299fce725bacd2addd2781d5b2",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depression_potentiation",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label advises against simultaneous hydroxyzine use with other CNS depressant drugs."
+      },
+      "t": 11712
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label advises against simultaneous hydroxyzine use with other CNS depressant drugs.",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression_potentiation"
+      },
+      "t": 11712
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3299fce725bacd2addd2781d5b2",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 11712
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329a1c4709e97096a6b46bbc3f1",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine zolpidem interaction human study"
+      },
+      "t": 11712
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329a1c4709e97096a6b46bbc3f1",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine zolpidem interaction human study\",\"pmids\":[]}",
+      "t": 12133
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329a2c273b88721037513f602f4",
+      "name": "get_label_sections",
+      "args": {
+        "substanceId": "zolpidem"
+      },
+      "t": 12133
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329a2c273b88721037513f602f4",
+      "summary": "get_label_sections completed: [{\"kind\":\"fda_label\",\"id\":\"25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions\",\"text\":\"7DRUG INTERACTIONS • CNS depressants, including alcohol: Possible adverse additive CNS-depressant effects ( 5.1 , 7.1 ) • Imipramine: Decreased alertness observed ( 7.1 ) • Chlorpromazine: Impaired alertness and psychomotor performance observed ( 7.1 ) • Rifampin: Combination use may decrease effect ( 7.2 ) • Ketoconazole: Combination use may increase effect ( 7.2 ) 7.1 CNS-Active Drugs Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression [see WARNINGS AND PRECAUTIONS (5.1) ]. Zolpidem tartrate was evaluated in healthy volunteers in single-dose interaction studies for several CNS drugs. Imipramine, Chlorpromazine Imipramine in combination with zolpidem produced no pharmacokinetic interaction other than a 20% decrease in peak levels of imipramine, but there was an additive effect of decreased alertness. Similarly, chlorpromazine in combination with zolpidem produced no pharmacokinetic interaction, but there was an additive effect of decreased alertness and psychomotor performance [see CLINICAL PHARMACOLOGY (12.3) ]. Haloperidol A study involving haloperidol and zolpidem revealed no effect of haloperidol on the pharmacokinetics or pharmacodynamics of zolpidem. The lack of a drug interaction following single-dose administration does not predict the absence of an effect following chronic administration [see CLINICAL PHARMACOLOGY (12.3) ]. Alcohol An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see WARNINGS AND PRECAUTIONS (5.1) ]. Sertraline Concomitant administration of zolpidem and sertraline increases exposure to zolpidem [see CLINICAL PHARMACOLOGY (12.3) ]. Fluoxetine After multiple doses of zolpidem tartrate and fluoxetine an increase in the zolpidem half-life (17%) was observed. There was no evidence of an additive effect in psychomotor performance [see CLINICAL PHARMACOLOGY (12.3) ]. 7.2 Drugs that Affect Drug Metabolism via Cytochrome P450 Some compounds known to inhibit CYP3A may increase exposure to zolpidem. The effect of drugs on other P450 enzymes on the exposure to zolpidem is not known. Rifampin Rifampin, a CYP3A4 inducer, significantly reduced the exposure to and the pharmacodynamic effects of zolpidem. Use of Rifampin in combination with zolpidem may decrease the efficacy of zolpidem. Ketoconazole Ketoconazole, a potent CYP3A4 inhibitor, increased the pharmacodynamic effects of zolpidem. Consideration should be given to using a lower dose of zolpidem when ketoconazole and zolpidem are given together.\"}]",
+      "t": 12133
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329c5cc7292be4ad7c40de70922",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depression_potentiation",
+        "quote": "Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression [see WARNINGS AND PRECAUTIONS (5.1) ].",
+        "sourceId": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states zolpidem with other CNS depressants increases CNS depression risk."
+      },
+      "t": 22740
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "The label states zolpidem with other CNS depressants increases CNS depression risk.",
+        "quote": "Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression [see WARNINGS AND PRECAUTIONS (5.1) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression_potentiation"
+      },
+      "t": 22740
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329c5cc7292be4ad7c40de70922",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 22740
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329c9b675a6889a8410bc8e7930",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine AND zolpidem"
+      },
+      "t": 22740
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329c9b675a6889a8410bc8e7930",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine AND zolpidem\",\"pmids\":[\"41981935\",\"37801864\",\"37130054\",\"36630579\",\"36413369\"]}",
+      "t": 23172
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329e409750da4a89a54d4488d14",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "41981935",
+          "37801864"
+        ]
+      },
+      "t": 30008
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329e409750da4a89a54d4488d14",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"41981935\",\"title\":\"Insights from a 6-year hair drug analysis compendium in drug-facilitated sexual assault cases.\",\"journal\":\"Journal of forensic sciences\",\"year\":\"2026\",\"abstractText\":\"Drug-facilitated sexual assault (DFSA) may involve a diverse array of substances, including illicit drugs, prescription medications, and over-the-counter pharmaceuticals. Hair analysis has emerged as a valuable forensic tool, offering an extended window of detection spanning several months. However, interpreting drug concentrations in hair can be challenging in forensic cases, as there are still substantial disparities in drug concentration findings across studies, or even no data available in the literature. This compendium seeks to contribute to the understanding and interpretation of forensic cases involving hair analysis. This study included hair analysis results upon prosecutor request over 6 years in Grenoble Forensic Laboratory from 2019 to 2024. Segmental hair analysis was performed using liquid chromatography coupled to tandem mass spectrometry (LC-MS/MS) on Sciex® 5500QT and Waters® TQ-XS mass spectrometers, following Society of Hair Testing guidelines. Screened substances included drugs of abuse, benzodiazepines, sedative medications, and gamma-hydroxybutyrate (GHB), depending on the case, following French Society of Analytical Toxicology guidelines. Hair proficiency quality testing ensured reproducible results. In this compendium, 22 authentic DFSA cases are described with hair analysis. The cohort predominantly involved female victims (95%) aged 13-47 years. Hair analysis was positive in nine cases (41%), revealing the presence of at least one psychoactive substance. Substances identified were alimemazine, alprazolam, bromazepam, cetirizine, clozapine, codeine, cyamemazine, hydroxyzine, oxazepam, zolpidem, and 3,4-methylenedioxymethamphetamine (MDMA). The chemical profile observed primarily included sedating and amnesic pharmaceuticals, but not only. This compendium adds valuable data in the literature for better hair drug concentration interpretation in forensic cases.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Fort\",\"kind\":\"pubmed\",\"id\":\"41981935\",\"text\":\"Drug-facilitated sexual assault (DFSA) may involve a diverse array of substances, including illicit drugs, prescription medications, and over-the-counter pharmaceuticals. Hair analysis has emerged as a valuable forensic tool, offering an extended window of detection spanning several months. However, interpreting drug concentrations in hair can be challenging in forensic cases, as there are still substantial disparities in drug concentration findings across studies, or even no data available in the literature. This compendium seeks to contribute to the understanding and interpretation of forensic cases involving hair analysis. This study included hair analysis results upon prosecutor request over 6 years in Grenoble Forensic Laboratory from 2019 to 2024. Segmental hair analysis was performed using liquid chromatography coupled to tandem mass spectrometry (LC-MS/MS) on Sciex® 5500QT and Waters® TQ-XS mass spectrometers, following Society of Hair Testing guidelines. Screened substances included drugs of abuse, benzodiazepines, sedative medications, and gamma-hydroxybutyrate (GHB), depending on the case, following French Society of Analytical Toxicology guidelines. Hair proficiency quality testing ensured reproducible results. In this compendium, 22 authentic DFSA cases are described with hair analysis. The cohort predominantly involved female victims (95%) aged 13-47 years. Hair analysis was positive in nine cases (41%), revealing the presence of at least one psychoactive substance. Substances identified were alimemazine, alprazolam, bromazepam, cetirizine, clozapine, codeine, cyamemazine, hydroxyzine, oxazepam, zolpidem, and 3,4-methylenedioxymethamphetamine (MDMA). The chemical profile observed primarily included sedating and amnesic pharmaceuticals, but not only. This compendium adds valuable data in the literature for better hair drug concentration interpretation in forensic cases.\"},{\"pmid\":\"37801864\",\"title\":\"Associations between insomnia medications and risk of death by suicide.\",\"journal\":\"Sleep medicine\",\"year\":\"2023\",\"abstractText\":\"Insomnia is a modifiable risk factor for suicide often treated with medications. However, little is known about the associations between insomnia medications and risk of death by suicide. The purpose of this study is to model the comparative risk of suicide by each insomnia medication compared to zolpidem, a sedative-hypnotic approved for insomnia.\\n\\nFirst prescription fills of medications commonly used to treat insomnia were identified in electronic medical records. Date and cause of death were identified in death certificates. Cox proportional hazards models were used to analyze time from insomnia prescription to suicide.\\n\\nMore than 2 million patients filled a new insomnia prescription between 2005 and 2015, and 518 of them died by suicide within 12 months. Compared to zolpidem, the tricyclic antidepressants (amitriptyline, doxepin) were associated with a 64% lower risk of suicide (HR 0.36 (95% CI 0.22-0.66) and the sedating antihistamines (hydroxyzine, diphenhydramine) a 40% lower risk of suicide (HR 0.60 (0.41-0.89)). In contrast, the tetracyclic antidepressant (mirtazapine) was associated with a 62% higher risk of suicide (HR 1.62 (95% CI 1.10-2.38) compared to zolpidem.\\n\\nInsomnia is a modifiable risk factor for suicide, yet many medications used to treat insomnia have never been tested for the indication in clinical trials. To define efficacy in the prevention of suicide, trials are warranted.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Lavigne\",\"kind\":\"pubmed\",\"id\":\"37801864\",\"text\":\"Insomnia is a modifiable risk factor for suicide often treated with medications. However, little is known about the associations between insomnia medications and risk of death by suicide. The purpose of this study is to model the comparative risk of suicide by each insomnia medication compared to zolpidem, a sedative-hypnotic approved for insomnia.\\n\\nFirst prescription fills of medications commonly used to treat insomnia were identified in electronic medical records. Date and cause of death were identified in death certificates. Cox proportional hazards models were used to analyze time from insomnia prescription to suicide.\\n\\nMore than 2 million patients filled a new insomnia prescription between 2005 and 2015, and 518 of them died by suicide within 12 months. Compared to zolpidem, the tricyclic antidepressants (amitriptyline, doxepin) were associated with a 64% lower risk of suicide (HR 0.36 (95% CI 0.22-0.66) and the sedating antihistamines (hydroxyzine, diphenhydramine) a 40% lower risk of suicide (HR 0.60 (0.41-0.89)). In contrast, the tetracyclic antidepressant (mirtazapine) was associated with a 62% higher risk of suicide (HR 1.62 (95% CI 1.10-2.38) compared to zolpidem.\\n\\nInsomnia is a modifiable risk factor for suicide, yet many medications used to treat insomnia have never been tested for the indication in clinical trials. To define efficacy in the prevention of suicide, trials are warranted.\"}]",
+      "t": 30822
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a0dc9710a8b9a334dd8ec7421",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "hydroxyzine zolpidem interaction human study",
+          "hydroxyzine AND zolpidem"
+        ],
+        "text": "No adult human study of hydroxyzine plus zolpidem measuring CNS depression found."
+      },
+      "t": 41478
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a0dc9710a8b9a334dd8ec7421",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 41478
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a334676f58fc1a6e0a5355f21",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine zolpidem coadministration CNS depression adults"
+      },
+      "t": 51503
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a334676f58fc1a6e0a5355f21",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine zolpidem coadministration CNS depression adults\",\"pmids\":[]}",
+      "t": 51951
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a534f7067a388d3409cd036f6",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "hydroxyzine zolpidem coadministration CNS depression adults"
+        ],
+        "text": "No adult combined hydroxyzine-zolpidem CNS depression study found."
+      },
+      "t": 58910
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult combined hydroxyzine-zolpidem CNS depression study found.",
+        "searched": [
+          "hydroxyzine zolpidem coadministration CNS depression adults"
+        ]
+      },
+      "t": 58910
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a534f7067a388d3409cd036f6",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 58910
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 58910
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 58910
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 58910
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 58910
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes a potentiating action to hydroxyzine used with CNS depressants (the class including zolpidem) and directs reducing the depressant dosage, matching the claim and an increases_risk label restriction.",
+      "model": "muse-wonder-1.0",
+      "t": 65096
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "In the hydroxyzine labeling context, the quote explicitly advises patients against simultaneous use of other CNS depressant drugs, which includes zolpidem and supports the stated restriction.",
+      "model": "muse-wonder-1.0",
+      "t": 65096
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote explicitly states that co-administration of zolpidem with other CNS depressants, a class relevant to hydroxyzine, increases the risk of CNS depression.",
+      "model": "muse-wonder-1.0",
+      "t": 65096
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 65097
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 3.",
+      "t": 95515
+    },
+    {
+      "type": "thinking",
+      "text": "Made 14 external requests",
+      "t": 98515
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "hydroxyzine__zolpidem",
+        "a": "hydroxyzine",
+        "b": "zolpidem",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult combined hydroxyzine-zolpidem CNS depression study found.",
+            "searched": [
+              "hydroxyzine zolpidem coadministration CNS depression adults"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Hydroxyzine or Zolpidem, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Hydroxyzine and Zolpidem, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states hydroxyzine potentiates CNS depressants, requiring lower depressant dosage.",
+            "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depression_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes a potentiating action to hydroxyzine used with CNS depressants (the class including zolpidem) and directs reducing the depressant dosage, matching the claim and an increases_risk label restriction.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "The label advises against simultaneous hydroxyzine use with other CNS depressant drugs.",
+            "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depression_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "In the hydroxyzine labeling context, the quote explicitly advises patients against simultaneous use of other CNS depressant drugs, which includes zolpidem and supports the stated restriction.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "The label states zolpidem with other CNS depressants increases CNS depression risk.",
+            "quote": "Co-administration of zolpidem with other CNS depressants increases the risk of CNS depression [see WARNINGS AND PRECAUTIONS (5.1) ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depression_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that co-administration of zolpidem with other CNS depressants, a class relevant to hydroxyzine, increases the risk of CNS depression.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+            "title": "Precautions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+            "citation": "FDA label · Precautions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "fda_label",
+            "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25e71199-c55d-4cc6-8388-b309d654d2b0",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:47:44.210Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 98515
+    }
+  ]
+}

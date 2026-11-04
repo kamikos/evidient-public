@@ -1,0 +1,580 @@
+{
+  "card": {
+    "pair": "ibuprofen__warfarin",
+    "a": "ibuprofen",
+    "b": "warfarin",
+    "category": "bleeding",
+    "depth": "limited",
+    "headline": {
+      "text": "Ibuprofen with warfarin increases bleeding risk",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label lists ibuprofen with warfarin as increasing bleeding risk.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The reported bleeding risk with ibuprofen in warfarin users involves inhibition of platelet aggregation.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult prospective study of ibuprofen with warfarin and bleeding found.",
+        "searched": [
+          "ibuprofen warfarin coadministration major hemorrhage prospective cohort"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Ibuprofen or Warfarin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Ibuprofen and Warfarin, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label lists ibuprofen with warfarin as increasing bleeding risk.",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "supports: The label explicitly lists ibuprofen in Table 3 of drugs that can increase bleeding risk and states bleeding risk is increased when these drugs are used concomitantly with warfarin.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The label states warfarin interactions include synergism impairing hemostasis.",
+        "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support: The quote lists synergism as a general possible mechanism for warfarin drug interactions without identifying ibuprofen or attributing that mechanism to the ibuprofen-warfarin pair.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c3",
+        "text": "NSAID coumarin bleeding risk involves platelet aggregation inhibition.",
+        "quote": "NSAIDs are reported to increase the risk of bleeding in coumarin users. The mechanism underlying this risk is inhibition of platelet aggregation, however a pharmacokinetic mechanism resulting in an increased International Normalised Ratio (INR) was proposed in some case reports in warfarin treated patients.",
+        "source": {
+          "kind": "pubmed",
+          "id": "14691574"
+        },
+        "stance": "mechanism",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes the reported increased bleeding risk in NSAID-treated coumarin users to inhibition of platelet aggregation, supporting the mechanism claim for the ibuprofen-warfarin class pair.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c8f47c6-a180-4ad8-b962-04069d2270cb",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "14691574",
+        "title": "Potential interaction between acenocoumarol and diclofenac, naproxen and ibuprofen and role of CYP2C9 genotype.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14691574/",
+        "citation": "van Dijk et al. · Thrombosis and haemostasis 2004",
+        "design": "other",
+        "year": 2004,
+        "sampleSize": 112,
+        "population": "outpatients stabilised on acenocoumarol therapy"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:43:51.008Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "ibuprofen__warfarin",
+      "at": "2026-11-03T19:42:18.592Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef35cd766ba7471d16bb5c9a52",
+      "name": "record_claim",
+      "args": {
+        "outcome": "bleeding",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac",
+        "sourceId": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label lists ibuprofen with warfarin as increasing bleeding risk."
+      },
+      "t": 13170
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label lists ibuprofen with warfarin as increasing bleeding risk.",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding"
+      },
+      "t": 13170
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef35cd766ba7471d16bb5c9a52",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 13170
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef3c947005b4927996238ee850",
+      "name": "record_claim",
+      "args": {
+        "outcome": "bleeding",
+        "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+        "sourceId": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "mechanism",
+        "text": "The label states warfarin interactions include synergism impairing hemostasis."
+      },
+      "t": 13170
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states warfarin interactions include synergism impairing hemostasis.",
+        "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "bleeding"
+      },
+      "t": 13170
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef3c947005b4927996238ee850",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 13170
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef40fe76e18d03547287cf998f",
+      "name": "search_pubmed",
+      "args": {
+        "query": "ibuprofen warfarin bleeding INR human study"
+      },
+      "t": 13170
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef40fe76e18d03547287cf998f",
+      "summary": "search_pubmed completed: {\"query\":\"ibuprofen warfarin bleeding INR human study\",\"pmids\":[\"14691574\"]}",
+      "t": 13402
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef421f74319160aead20052ca0",
+      "name": "search_pubmed",
+      "args": {
+        "query": "ibuprofen warfarin combination adults bleeding"
+      },
+      "t": 13402
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef421f74319160aead20052ca0",
+      "summary": "search_pubmed completed: {\"query\":\"ibuprofen warfarin combination adults bleeding\",\"pmids\":[\"17994466\"]}",
+      "t": 13960
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef590174e1a909a8b6115e0c74",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "14691574",
+          "17994466"
+        ]
+      },
+      "t": 20940
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef590174e1a909a8b6115e0c74",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"14691574\",\"title\":\"Potential interaction between acenocoumarol and diclofenac, naproxen and ibuprofen and role of CYP2C9 genotype.\",\"journal\":\"Thrombosis and haemostasis\",\"year\":\"2004\",\"abstractText\":\"NSAIDs are reported to increase the risk of bleeding in coumarin users. The mechanism underlying this risk is inhibition of platelet aggregation, however a pharmacokinetic mechanism resulting in an increased International Normalised Ratio (INR) was proposed in some case reports in warfarin treated patients. In this retrospective cohort study the influence of diclofenac, naproxen and ibuprofen on the INR of outpatients stabilised on acenocoumarol therapy was investigated. We also determined the role of cytochrome P450 2C9 (CYP2C9) polymorphism on coumarin dosage and INR in NSAID users. The study was carried out at the Groningen Outpatient Thrombosis Service. A retrospective cohort study among patients who received both acenocoumarol and one of the NSAIDs under study was performed. Patients whose INR rose above the upper level of the therapeutic range (INR above 3.5 or 4.0) after an NSAID under study was added to the acenocoumarol therapy, were compared with patients who did not show such an elevation. A two-sample t-test (average acenocoumarol dosage, age), and chi-square tests (sex, therapeutic range, type of NSAID) were used to test for differences. Genotyping was carried out by analysing blood samples for the relevant CYP2C9 alleles. The study population consisted of 112 patients on stable acenocoumarol therapy, of which 52 (46%) showed an elevation of the INR above the desired therapeutic level (INR 3.5 and 4.0 respectively) after the start of an NSAID under study. In 12 patients, the INR increased above 6. The INR of the other 60 patients (54%) remained constant after the start of one of the NSAIDs under study. There were no statistically significant differences between patients with increased INR and patients without increased INR with regard to age, sex, therapeutic range and average acenocoumarol dosage. Eighty patients, of whom 36 showed an increased INR as a result of a potential acenocoumarol-NSAID drug interaction, were included in the genotyping study. No association between CYP2C9 genotype and an increased INR as a result of the drug-drug interaction was found. In nearly half of a cohort of elderly patients, the INR increased beyond the therapeutic range (INR 3.5 or 4.0) as a result of a potential pharmacokinetic drug-drug interaction between acenocoumarol and diclofenac, naproxen and ibuprofen. The average increase in INR was between 1 and 4. Polymorphism of CYP2C9 does not seem to be a relevant risk factor for the NSAID-acenocoumarol interaction.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"van Dijk\",\"kind\":\"pubmed\",\"id\":\"14691574\",\"text\":\"NSAIDs are reported to increase the risk of bleeding in coumarin users. The mechanism underlying this risk is inhibition of platelet aggregation, however a pharmacokinetic mechanism resulting in an increased International Normalised Ratio (INR) was proposed in some case reports in warfarin treated patients. In this retrospective cohort study the influence of diclofenac, naproxen and ibuprofen on the INR of outpatients stabilised on acenocoumarol therapy was investigated. We also determined the role of cytochrome P450 2C9 (CYP2C9) polymorphism on coumarin dosage and INR in NSAID users. The study was carried out at the Groningen Outpatient Thrombosis Service. A retrospective cohort study among patients who received both acenocoumarol and one of the NSAIDs under study was performed. Patients whose INR rose above the upper level of the therapeutic range (INR above 3.5 or 4.0) after an NSAID under study was added to the acenocoumarol therapy, were compared with patients who did not show such an elevation. A two-sample t-test (average acenocoumarol dosage, age), and chi-square tests (sex, therapeutic range, type of NSAID) were used to test for differences. Genotyping was carried out by analysing blood samples for the relevant CYP2C9 alleles. The study population consisted of 112 patients on stable acenocoumarol therapy, of which 52 (46%) showed an elevation of the INR above the desired therapeutic level (INR 3.5 and 4.0 respectively) after the start of an NSAID under study. In 12 patients, the INR increased above 6. The INR of the other 60 patients (54%) remained constant after the start of one of the NSAIDs under study. There were no statistically significant differences between patients with increased INR and patients without increased INR with regard to age, sex, therapeutic range and average acenocoumarol dosage. Eighty patients, of whom 36 showed an increased INR as a result of a potential acenocoumarol-NSAID drug interaction, were included in the genotyping study. No association between CYP2C9 genotype and an increased INR as a result of the drug-drug interaction was found. In nearly half of a cohort of elderly patients, the INR increased beyond the therapeutic range (INR 3.5 or 4.0) as a result of a potential pharmacokinetic drug-drug interaction between acenocoumarol and diclofenac, naproxen and ibuprofen. The average increase in INR was between 1 and 4. Polymorphism of CYP2C9 does not seem to be a relevant risk factor for the NSAID-acenocoumarol interaction.\"},{\"pmid\":\"17994466\",\"title\":\"Analysis of the risk factors and their combinations in acute gastroduodenal ulcer bleeding: a case-control study.\",\"journal\":\"Scandinavian journal of gastroenterology\",\"year\":\"2007\",\"abstractText\":\"Traditional non-steroidal anti-inflammatory drugs (NSAIDs) including ASA for thrombosis prophylaxis (ASA-TP), for pain medication (ASA-P) or non-ASA NSAIDs (NANSAIDs), Helicobacter pylori infection, CagA strains of H. pylori and smoking are reported risk factors for peptic ulcer bleeding (PUB), but the combined and the dose effects of these factors are controversial. The aim of this study was to estimate the significance of these risk factors and their combinations in PUB.\\n\\nPUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method.\\n\\nH. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB.\\n\\nPrevious DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Udd\",\"kind\":\"pubmed\",\"id\":\"17994466\",\"text\":\"Traditional non-steroidal anti-inflammatory drugs (NSAIDs) including ASA for thrombosis prophylaxis (ASA-TP), for pain medication (ASA-P) or non-ASA NSAIDs (NANSAIDs), Helicobacter pylori infection, CagA strains of H. pylori and smoking are reported risk factors for peptic ulcer bleeding (PUB), but the combined and the dose effects of these factors are controversial. The aim of this study was to estimate the significance of these risk factors and their combinations in PUB.\\n\\nPUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method.\\n\\nH. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB.\\n\\nPrevious DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.\"}]",
+      "t": 21694
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef992e7374840d2b038be309e1",
+      "name": "record_claim",
+      "args": {
+        "outcome": "bleeding",
+        "quote": "NSAIDs are reported to increase the risk of bleeding in coumarin users. The mechanism underlying this risk is inhibition of platelet aggregation, however a pharmacokinetic mechanism resulting in an increased International Normalised Ratio (INR) was proposed in some case reports in warfarin treated patients.",
+        "sourceId": "14691574",
+        "sourceKind": "pubmed",
+        "stance": "mechanism",
+        "text": "NSAID coumarin bleeding risk involves platelet aggregation inhibition."
+      },
+      "t": 39904
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "NSAID coumarin bleeding risk involves platelet aggregation inhibition.",
+        "quote": "NSAIDs are reported to increase the risk of bleeding in coumarin users. The mechanism underlying this risk is inhibition of platelet aggregation, however a pharmacokinetic mechanism resulting in an increased International Normalised Ratio (INR) was proposed in some case reports in warfarin treated patients.",
+        "source": {
+          "kind": "pubmed",
+          "id": "14691574"
+        },
+        "stance": "mechanism",
+        "outcome": "bleeding"
+      },
+      "t": 39904
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef992e7374840d2b038be309e1",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 39904
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ef9ca876519f942dddb1b5cecc",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "ibuprofen warfarin bleeding INR human study",
+          "ibuprofen warfarin combination adults bleeding"
+        ],
+        "text": "No adult ibuprofen-warfarin bleeding study with control group found."
+      },
+      "t": 39904
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ef9ca876519f942dddb1b5cecc",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 39904
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2efc354721e92b0bb70fe67318f",
+      "name": "search_pubmed",
+      "args": {
+        "query": "ibuprofen warfarin coadministration major hemorrhage prospective cohort"
+      },
+      "t": 47582
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2efc354721e92b0bb70fe67318f",
+      "summary": "search_pubmed completed: {\"query\":\"ibuprofen warfarin coadministration major hemorrhage prospective cohort\",\"pmids\":[]}",
+      "t": 48041
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2efe4277241a59b149cb2060eb5",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "ibuprofen warfarin coadministration major hemorrhage prospective cohort"
+        ],
+        "text": "No adult prospective study of ibuprofen with warfarin and bleeding found."
+      },
+      "t": 55786
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult prospective study of ibuprofen with warfarin and bleeding found.",
+        "searched": [
+          "ibuprofen warfarin coadministration major hemorrhage prospective cohort"
+        ]
+      },
+      "t": 55786
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2efe4277241a59b149cb2060eb5",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 55786
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 55786
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 55786
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 55788
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 55790
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes the reported increased bleeding risk in NSAID-treated coumarin users to inhibition of platelet aggregation, supporting the mechanism claim for the ibuprofen-warfarin class pair.",
+      "model": "muse-wonder-1.0",
+      "t": 59986
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "supports: The label explicitly lists ibuprofen in Table 3 of drugs that can increase bleeding risk and states bleeding risk is increased when these drugs are used concomitantly with warfarin.",
+      "model": "muse-wonder-1.0",
+      "t": 60146
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "does_not_support",
+      "rationale": "does_not_support: The quote lists synergism as a general possible mechanism for warfarin drug interactions without identifying ibuprofen or attributing that mechanism to the ibuprofen-warfarin pair.",
+      "model": "muse-wonder-1.0",
+      "t": 64471
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 75365
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 0.",
+      "t": 89220
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "ibuprofen__warfarin",
+        "a": "ibuprofen",
+        "b": "warfarin",
+        "category": "bleeding",
+        "depth": "limited",
+        "headline": {
+          "text": "Ibuprofen with warfarin increases bleeding risk",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label lists ibuprofen with warfarin as increasing bleeding risk.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [
+          {
+            "text": "The reported bleeding risk with ibuprofen in warfarin users involves inhibition of platelet aggregation.",
+            "claimIds": [
+              "c3"
+            ]
+          }
+        ],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult prospective study of ibuprofen with warfarin and bleeding found.",
+            "searched": [
+              "ibuprofen warfarin coadministration major hemorrhage prospective cohort"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "no_human_data",
+            "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Ibuprofen or Warfarin, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Ibuprofen and Warfarin, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label lists ibuprofen with warfarin as increasing bleeding risk.",
+            "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac",
+            "source": {
+              "kind": "fda_label",
+              "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "bleeding",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "supports: The label explicitly lists ibuprofen in Table 3 of drugs that can increase bleeding risk and states bleeding risk is increased when these drugs are used concomitantly with warfarin.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "The label states warfarin interactions include synergism impairing hemostasis.",
+            "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+            "source": {
+              "kind": "fda_label",
+              "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+            },
+            "stance": "mechanism",
+            "outcome": "bleeding",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support: The quote lists synergism as a general possible mechanism for warfarin drug interactions without identifying ibuprofen or attributing that mechanism to the ibuprofen-warfarin pair.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c3",
+            "text": "NSAID coumarin bleeding risk involves platelet aggregation inhibition.",
+            "quote": "NSAIDs are reported to increase the risk of bleeding in coumarin users. The mechanism underlying this risk is inhibition of platelet aggregation, however a pharmacokinetic mechanism resulting in an increased International Normalised Ratio (INR) was proposed in some case reports in warfarin treated patients.",
+            "source": {
+              "kind": "pubmed",
+              "id": "14691574"
+            },
+            "stance": "mechanism",
+            "outcome": "bleeding",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes the reported increased bleeding risk in NSAID-treated coumarin users to inhibition of platelet aggregation, supporting the mechanism claim for the ibuprofen-warfarin class pair.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c8f47c6-a180-4ad8-b962-04069d2270cb",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "14691574",
+            "title": "Potential interaction between acenocoumarol and diclofenac, naproxen and ibuprofen and role of CYP2C9 genotype.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14691574/",
+            "citation": "van Dijk et al. · Thrombosis and haemostasis 2004",
+            "design": "other",
+            "year": 2004,
+            "sampleSize": 112,
+            "population": "outpatients stabilised on acenocoumarol therapy"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:43:51.008Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 92416
+    }
+  ]
+}

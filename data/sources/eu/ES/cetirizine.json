@@ -1,0 +1,28 @@
+{
+  "inn": "cetirizine",
+  "country": "ES",
+  "language": "es",
+  "registryId": "58481",
+  "product": "ZYRTEC 10 mg COMPRIMIDOS RECUBIERTOS CON PELICULA",
+  "url": "https://cima.aemps.es/cima/dochtml/ft/58481/FT_58481.html",
+  "retrievedAt": "2026-11-03T23:08:53.458Z",
+  "licence": "AEMPS reuse conditions; not asserted CC0",
+  "terms": "https://www.aemps.gob.es/aviso-legal/",
+  "attribution": "Fuente de la información: Agencia Española de Medicamentos y Productos Sanitarios www.aemps.gob.es. CIMA, retrieved 2026-11-03, document updated 2023-09-27T22:39:07.000Z. Extracted sections; original meaning preserved; no endorsement.",
+  "sha256": "dbeecd70d8755e61c63337f5c82d2e49c238049885ecdef3b97ac9600cc91c92",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "Advertencias y precauciones especiales de empleo\n\nA dosis terapéuticas, no se ha demostrado interacción clínicamente significativa con alcohol (para un nivel de alcohol en sangre de 0,5 g/l). Sin embargo, se recomienda precaución si se toma concomitantemente alcohol.\n\nSe debe tener precaución en pacientes con factores de predisposición a la retención urinaria (p. ej., lesión de la médula espinal, hiperplasia de la próstata) ya que la cetirizina puede aumentar el riesgo de retención urinaria.\n\nSe recomienda precaución en pacientes epilépticos y pacientes con riesgo de convulsiones.\n\nLos medicamentos antihistamínicos inhiben la respuesta a las pruebas cutáneas de la alergia por lo que es necesario un periodo de lavado (de 3 días) antes de realizarlas.\n\nEste medicamento contiene lactosa. Los pacientes con intolerancia hereditaria a galactosa, deficiencia total de lactasa o problemas de absorción de glucosa o galactosa no deben tomar este medicamento.\n\nCuando cesa el tratamiento con cetirizina puede aparecer prurito y/o urticaria, incluso si los síntomas no estaban presentes antes del inicio del tratamiento. En algunos casos, los síntomas pueden ser intensos y pueden requerir el reinicio del tratamiento. Los síntomas deberían resolverse cuando el tratamiento se reinicie.\n\nPoblación pediátrica\n\nNo se recomienda el uso de la formulación de comprimidos recubiertos con película en niños menores de 6 años, ya que esta formulación no permite realizar ajustes apropiados de la dosis. Se recomienda utilizar una formulación pediátrica de cetirizina.",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=58481&seccion=4.4",
+      "sha256": "a65e65ec56f4fad73da7cc3bd6fbdcd631a01ba62e58a5b8365e5196916d2e82"
+    },
+    {
+      "section": "4.5",
+      "text": "Debido a la farmacocinética, farmacodinamia y al perfil de tolerancia de la cetirizina, no se esperan interacciones con este antihistamínico. De hecho, no se han notificado ni interacciones farmacodinámicas ni farmacocinéticas significativas en los estudios de interacción fármaco-fármaco desarrollados, especialmente con pseudoefedrina o teofilina (400 mg/día). La absorción de cetirizina no se reduce con la comida, aunque la velocidad de absorción disminuye. En pacientes sensibles, el uso conjunto de alcohol o cualquier depresor del SNC puede causar disminuciones adicionales en la atención y alteración del rendimiento, aunque la cetirizina no potencia el efecto del alcohol (niveles en sangre de 0,5 g/l).",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=58481&seccion=4.5",
+      "sha256": "2992448fc0fd98804b25ebb82d147052c39dfe3e65bcf45f170ed15ffe0b1f02"
+    }
+  ],
+  "documentUpdatedAt": "2023-09-27T22:39:07.000Z"
+}

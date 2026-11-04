@@ -1,0 +1,21 @@
+{
+  "pair": "adalimumab__budesonide",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The adalimumab label says patients on concomitant immunosuppressants such as corticosteroids may be at greater infection risk; budesonide is a corticosteroid and the claim keeps the 'may'."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

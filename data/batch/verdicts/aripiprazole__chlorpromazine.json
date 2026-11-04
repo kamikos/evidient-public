@@ -1,0 +1,25 @@
+{
+  "pair": "aripiprazole__chlorpromazine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Under the aripiprazole entry the Largactil SmPC states a risk of reduced efficacy, notably of aripiprazole, from dopamine receptor antagonism, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

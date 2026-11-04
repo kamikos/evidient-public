@@ -1,0 +1,32 @@
+{
+  "pair": "adalimumab__azathioprine",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Spanish adalimumab label describes hepatosplenic T-cell lymphoma cases in young adults receiving azathioprine or mercaptopurine for inflammatory bowel disease.",
+      "quote": "Algunos de estos linfomas hepatoesplénicos de células T con Humira se han presentado en pacientes adultos jóvenes en tratamiento concomitante con azatioprina o 6 - mercaptopurina utilizada para la enfermedad inflamatoria intestinal.",
+      "quoteEnglish": "Some of these hepatosplenic T-cell lymphomas with Humira occurred in young adult patients receiving concomitant azathioprine or 6-mercaptopurine for inflammatory bowel disease.",
+      "sourceId": "ES:103256013#4.4",
+      "stance": "increases_risk",
+      "outcome": "hepatosplenic_t_cell_lymphoma"
+    }
+  ],
+  "headline": {
+    "text": "The Spanish label reports lymphoma cases with adalimumab and azathioprine or mercaptopurine.",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The Spanish adalimumab label describes hepatosplenic T-cell lymphoma cases in young adults receiving azathioprine or mercaptopurine for inflammatory bowel disease.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": []
+}

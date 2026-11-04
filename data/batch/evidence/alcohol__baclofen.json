@@ -1,0 +1,159 @@
+{
+  "card": {
+    "pair": "alcohol__baclofen",
+    "a": "alcohol",
+    "b": "baclofen",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The labels describe additive central nervous system effects and increased sedation with baclofen and alcohol.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label describes additive central nervous system effects; the French label specifically describes increased sedation.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says baclofen's central nervous system effects may add to those of alcohol.",
+        "quote": "Patients should also be cautioned that the central nervous system effects of baclofen may be additive to those of alcohol and other CNS depressants.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab3760cd-a84b-49ba-88e3-b9ea73c55f82#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The FDA precautions sentence directly states baclofen's CNS effects may be additive to alcohol.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French label says alcohol increases baclofen's sedative effect.",
+        "quote": "Majoration par l’alcool de l’effet sédatif du baclofène.",
+        "quoteEnglish": "Alcohol increases the sedative effect of baclofen.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60304050#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French 4.5 entry for alcohol (drink or excipient) states alcohol increases baclofen's sedative effect, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "ab3760cd-a84b-49ba-88e3-b9ea73c55f82#precautions",
+        "title": "baclofen: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab3760cd-a84b-49ba-88e3-b9ea73c55f82",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60304050#4.4",
+        "title": "LIORESAL 10 mg, comprimé sécable: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60304050/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60304050#4.5",
+        "title": "LIORESAL 10 mg, comprimé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60304050/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38555116",
+        "title": "Substitution therapy for patients with alcohol dependence: Mechanisms of action and efficacy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38555116/",
+        "citation": "2162-5514 175 2024 International review of neurobiology Int Rev Neurobiol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38876319",
+        "title": "Involvement of Pre-limbic Cortex-Nucleus accumbens projections in Context-Induced alcohol seeking.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38876319/",
+        "citation": "1872-6240 1841 2024 Oct 15 Brain research Brain Res",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "29719204",
+        "title": "Drug-drug interactions in the treatment for alcohol use disorders: A comprehensive review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29719204/",
+        "citation": "1096-1186 133 2018 Jul Pharmacological research Pharmacol Res",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Baclofen and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study of concurrent baclofen and alcohol effects.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"baclofen\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.548Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

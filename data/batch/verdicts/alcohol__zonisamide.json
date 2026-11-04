@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__zonisamide",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label states concomitant zonisamide and alcohol has not been evaluated in clinical studies."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

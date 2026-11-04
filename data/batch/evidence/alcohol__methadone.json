@@ -1,0 +1,174 @@
+{
+  "card": {
+    "pair": "alcohol__methadone",
+    "a": "alcohol",
+    "b": "methadone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA methadone label links alcohol co-use to profound sedation, respiratory depression, coma, and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label also describes increased sedation with alcohol and methadone.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA methadone label says opioids with alcohol may cause profound sedation, respiratory depression, coma, and death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "540edd43-165d-4257-b989-3bccc8f54afb#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The methadone boxed warning says opioids with CNS depressants including alcohol may cause profound sedation, respiratory depression, coma and death.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French label says alcohol increases methadone's sedative effect.",
+        "quote": "Majoration par l’alcool de l'effet sédatif de la méthadone.",
+        "quoteEnglish": "Alcohol increases methadone's sedative effect.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60998856#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French SmPC states that alcohol increases methadone's sedative effect, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "540edd43-165d-4257-b989-3bccc8f54afb#boxed_warning",
+        "title": "methadone: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=540edd43-165d-4257-b989-3bccc8f54afb",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "540edd43-165d-4257-b989-3bccc8f54afb#warnings_and_cautions",
+        "title": "methadone: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=540edd43-165d-4257-b989-3bccc8f54afb",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "540edd43-165d-4257-b989-3bccc8f54afb#drug_interactions",
+        "title": "methadone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=540edd43-165d-4257-b989-3bccc8f54afb",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60998856#4.4",
+        "title": "METHADONE AP-HP 10 mg, gélule: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60998856/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60998856#4.5",
+        "title": "METHADONE AP-HP 10 mg, gélule: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60998856/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36967706",
+        "title": "Phenobarbital for alcohol withdrawal in the context of the opioid epidemic: a neglected caveat.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36967706/",
+        "citation": "1360-0443 118 7 2023 Jul Addiction (Abingdon, England) Addiction",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30459646",
+        "title": "A Review of the Potential Mechanisms of Action of Baclofen in Alcohol Use Disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30459646/",
+        "citation": "1664-0640 9 2018 Frontiers in psychiatry Front Psychiatry",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "702334",
+        "title": "Interaction of methadone and ethanol metabolism.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/702334/",
+        "citation": "0022-3565 207 1 1978 Oct The Journal of pharmacology and experimental therapeutics J Pharmacol Exp Ther",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Methadone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study of alcohol with methadone.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"methadone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.591Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

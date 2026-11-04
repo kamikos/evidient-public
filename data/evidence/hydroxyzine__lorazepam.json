@@ -1,0 +1,759 @@
+{
+  "card": {
+    "pair": "hydroxyzine__lorazepam",
+    "a": "hydroxyzine",
+    "b": "lorazepam",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Hydroxyzine and lorazepam together produce increased CNS-depressant effects",
+      "claimIds": [
+        "c4",
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states hydroxyzine has potentiating action with CNS depressants.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult controlled trial compared hydroxyzine plus lorazepam versus control for CNS depression.",
+        "searched": [
+          "hydroxyzine lorazepam adult CNS depression sedation"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Hydroxyzine or Lorazepam, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Hydroxyzine and Lorazepam, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states hydroxyzine has potentiating action with CNS depressants.",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "mechanism",
+        "outcome": "potentiated_cns_depression",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes a potentiating action to hydroxyzine used with CNS depressants, a class relevant to lorazepam, supporting the stated mechanism claim.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "The label states concomitant CNS depressant dosage should be reduced with hydroxyzine.",
+        "quote": "Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote is an explicit label directive to reduce concomitant CNS-depressant dosage with hydroxyzine, qualifying as a label restriction for the class including lorazepam.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "The label states patients are advised against simultaneous other CNS depressant drugs.",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly advises patients against simultaneous use of other CNS depressant drugs with hydroxyzine, an attributed label restriction relevant to lorazepam.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c4",
+        "text": "The label states lorazepam has increased CNS-depressant effects with sedative antihistamines.",
+        "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+        "source": {
+          "kind": "fda_label",
+          "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states lorazepam produces increased CNS-depressant effects with sedative antihistamines, the class to which hydroxyzine belongs.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c5",
+        "text": "Enteral hydroxyzine with lorazepam provided adequate sedation in ventilated adults.",
+        "quote": "Sedation by the enteral route is unusual in intensive medicine. We analysed the feasibility/efficacy of long-term enteral sedation in ventilated critically ill patients. Prospective interventional cohort study. General ICU. Forty-two patients needing ventilation and sedation for at least 4 days. At admission, sedation was induced with propofol or midazolam. Enteral hydroxyzine (+/- enteral lorazepam) was added in all patients within the second day. Intravenous drugs were gradually withdrawn, trying to maintain only enteral sedation after the initial 48 h. Analgesia was provided with continuous IV fentanyl. Sedation level was assessed evaluating, on a daily basis, patients' compliance to the invasive care and comparing observed vs planned Ramsay scores three times a day. Excluding the first 2 days of patient-stabilisation and fast titration of sedation level, 577 days with ventilatory support were analysed. In 460 days (79.7%) total enteral sedation was given. This percentage rose to 94.2% when the requested Ramsay was 2 (347 days). Daily sedation was judged as adequate in 82.8% of days of total enteral sedation. Thirty-one patients had total enteral as the exclusive route of sedation. After 24-48 h, enteral sedation may replace, totally/in part, IV sedation in ventilated patients. Total enteral sedation easily fits the target when a Ramsay score 2 is planned. When a deeper sedation is needed, a mixed regimen is effective and lowers IV drug dosages. No side effects were reported.",
+        "source": {
+          "kind": "pubmed",
+          "id": "15714324"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The quote reports feasible adequate enteral sedation with hydroxyzine with optional lorazepam and no side effects, so it neither isolates the pair nor reports increased risk as required by the stance.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "title": "Precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+        "citation": "FDA label · Precautions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=247110f2-5468-4593-8d86-41f8c869e03d",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "15714324",
+        "title": "Sedation in the critically ill ventilated patient: possible role of enteral drugs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15714324/",
+        "citation": "Cigada et al. · Intensive care medicine 2005",
+        "design": "controlled_trial",
+        "year": 2005,
+        "sampleSize": 42,
+        "population": "ventilated critically ill patients"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:48:05.549Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "hydroxyzine__lorazepam",
+      "at": "2026-11-03T20:46:00.401Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:09092888-0c18-501d-e063-6294a90aad67#precautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "09092888-0c18-501d-e063-6294a90aad67#precautions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3298ab374e7accf6d7bdd7b7319",
+      "name": "record_claim",
+      "args": {
+        "outcome": "potentiated_cns_depression",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "mechanism",
+        "text": "The label states hydroxyzine has potentiating action with CNS depressants."
+      },
+      "t": 14602
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states hydroxyzine has potentiating action with CNS depressants.",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "mechanism",
+        "outcome": "potentiated_cns_depression"
+      },
+      "t": 14602
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3298ab374e7accf6d7bdd7b7319",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 14602
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3298f1e760e9bdbbc1eed4957e9",
+      "name": "record_claim",
+      "args": {
+        "outcome": "potentiated_cns_depression",
+        "quote": "Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states concomitant CNS depressant dosage should be reduced with hydroxyzine."
+      },
+      "t": 14602
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states concomitant CNS depressant dosage should be reduced with hydroxyzine.",
+        "quote": "Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression"
+      },
+      "t": 14602
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3298f1e760e9bdbbc1eed4957e9",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 14602
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3299254736596c4cecd0eee4cb2",
+      "name": "record_claim",
+      "args": {
+        "outcome": "potentiated_cns_depression",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states patients are advised against simultaneous other CNS depressant drugs."
+      },
+      "t": 14602
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "The label states patients are advised against simultaneous other CNS depressant drugs.",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression"
+      },
+      "t": 14602
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3299254736596c4cecd0eee4cb2",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 14602
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329986377869e6d24f50c3b67d9",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine lorazepam combination human study"
+      },
+      "t": 14602
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329986377869e6d24f50c3b67d9",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine lorazepam combination human study\",\"pmids\":[\"36002244\",\"23551983\",\"16961518\",\"15714324\"]}",
+      "t": 15064
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3299a0071978a253cc912d8952a",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine lorazepam adult CNS depression sedation"
+      },
+      "t": 15064
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3299a0071978a253cc912d8952a",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine lorazepam adult CNS depression sedation\",\"pmids\":[]}",
+      "t": 15284
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329b18b7252bee3270e111c4a0f",
+      "name": "get_label_sections",
+      "args": {
+        "substanceId": "lorazepam"
+      },
+      "t": 22445
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329b18b7252bee3270e111c4a0f",
+      "summary": "get_label_sections completed: [{\"kind\":\"fda_label\",\"id\":\"247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions\",\"text\":\"Drug Interactions The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites in the CNS that control respiration. Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors. When benzodiazepines and opioids are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage and duration of concomitant use of benzodiazepines and opioids, and monitor patients closely for respiratory depression and sedation. The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics. Concomitant use of clozapine and lorazepam may produce marked sedation, excessive salivation, hypotension, ataxia, delirium, and respiratory arrest. Concurrent administration of lorazepam with valproate results in increased plasma concentrations and reduced clearance of lorazepam. Lorazepam dosage should be reduced to approximately 50% when coadministered with valproate. Concurrent administration of lorazepam with probenecid may result in a more rapid onset or prolonged effect of lorazepam due to increased half-life and decreased total clearance. Lorazepam dosage needs to be reduced by approximately 50% when coadministered with probenecid. The effects of probenecid and valproate on lorazepam may be due to inhibition of glucuronidation. Administration of theophylline or aminophylline may reduce the sedative effects of benzodiazepines, including lorazepam.\"}]",
+      "t": 22445
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329b2bc7498a3a698d7013e6b13",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "36002244",
+          "23551983",
+          "16961518",
+          "15714324"
+        ]
+      },
+      "t": 22445
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329b2bc7498a3a698d7013e6b13",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"36002244\",\"title\":\"Visual compatibility and particle counter evaluations of syringes of intramuscular psychotropic coadministered solutions.\",\"journal\":\"European journal of hospital pharmacy : science and practice\",\"year\":\"2023\",\"abstractText\":\"Patients in the acute phase of agitation can require the administration of multiple drugs by intramuscular injection in order to temporarily stabilise their condition. Administration of multiple psychotropic medications in a single syringe can be beneficial to both the patient and healthcare professionals. However, there are very little data in the literature regarding psychotropic drug compatibility in syringes for acute agitation.\\n\\nThe aim of this study was to assess the visual compatibility of various combinations of 12 intramuscular psychotropic medications in syringes, and to validate compatibility with the use of a particle counter. The medications evaluated were benztropine mesylate, diazepam, dimenhydrinate, diphenhydramine hydrochloride, haloperidol lactate, hydroxyzine, lorazepam, loxapine, methotrimeprazine, midazolam, olanzapine and zuclopenthixol acetate.\\n\\nCompounded solutions of medication combinations underwent visual inspection initially and after 0.25, 0.5, 1, 2 and 4 hours using a white background and a black background. In order to validate the compatibility results, the presence of particulate matter was determined by light obscuration.\\n\\nThis study identified 35 combinations that were visually compatible and 35 that were visually incompatible. We chose eight highly clinically relevant combinations to test using the requirements of the United States Pharmacopoeia (USP) chapter 788 (Particulate Matter in Injections). Of those eight, six were physically compatible, including the triple combinations of lorazepam and haloperidol with either benztropine or diphenhydramine.\\n\\nThese physical compatibility results will give healthcare professionals an idea of the possible compatible combinations of psychotropic drugs in syringes, and thus complete some of the missing data in the literature.\",\"publicationTypes\":[\"Journal Article\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Djerroud\",\"kind\":\"pubmed\",\"id\":\"36002244\",\"text\":\"Patients in the acute phase of agitation can require the administration of multiple drugs by intramuscular injection in order to temporarily stabilise their condition. Administration of multiple psychotropic medications in a single syringe can be beneficial to both the patient and healthcare professionals. However, there are very little data in the literature regarding psychotropic drug compatibility in syringes for acute agitation.\\n\\nThe aim of this study was to assess the visual compatibility of various combinations of 12 intramuscular psychotropic medications in syringes, and to validate compatibility with the use of a particle counter. The medications evaluated were benztropine mesylate, diazepam, dimenhydrinate, diphenhydramine hydrochloride, haloperidol lactate, hydroxyzine, lorazepam, loxapine, methotrimeprazine, midazolam, olanzapine and zuclopenthixol acetate.\\n\\nCompounded solutions of medication combinations underwent visual inspection initially and after 0.25, 0.5, 1, 2 and 4 hours using a white background and a black background. In order to validate the compatibility results, the presence of particulate matter was determined by light obscuration.\\n\\nThis study identified 35 combinations that were visually compatible and 35 that were visually incompatible. We chose eight highly clinically relevant combinations to test using the requirements of the United States Pharmacopoeia (USP) chapter 788 (Particulate Matter in Injections). Of those eight, six were physically compatible, including the triple combinations of lorazepam and haloperidol with either benztropine or diphenhydramine.\\n\\nThese physical compatibility results will give healthcare professionals an idea of the possible compatible combinations of psychotropic drugs in syringes, and thus complete some of the missing data in the literature.\"},{\"pmid\":\"23551983\",\"title\":\"Enteral vs. intravenous ICU sedation management: study protocol for a randomized controlled trial.\",\"journal\":\"Trials\",\"year\":\"2013\",\"abstractText\":\"A relevant innovation about sedation of long-term Intensive Care Unit (ICU) patients is the 'conscious target': patients should be awake even during the critical phases of illness. Enteral sedative administration is nowadays unusual, even though the gastrointestinal tract works soon after ICU admission. The enteral approach cannot produce deep sedation; however, it is as adequate as the intravenous one, if the target is to keep patients awake and adapted to the environment, and has fewer side effects and lower costs.\\n\\nA randomized, controlled, multicenter, single-blind trial comparing enteral and intravenous sedative treatments has been done in 12 Italian ICUs. The main objective was to achieve and maintain the desired sedation level: observed RASS = target RASS ± 1. Three hundred high-risk patients were planned to be randomly assigned to receive either intravenous propofol/midazolam or enteral melatonin/hydroxyzine/lorazepam. Group assignment occurred through online minimization process, in order to balance variables potentially influencing the outcomes (age, sex, SAPS II, type of admission, kidney failure, chronic obstructive pulmonary disease, sepsis) between groups. Once per shift, the staff recorded neurological monitoring using validated tools. Three flowcharts for pain, sedation, and delirium have been proposed; they have been designed to treat potentially correctable factors first, and, only once excluded, to administer neuroactive drugs. The study lasted from January 24 to December 31, 2012. A total of 348 patients have been randomized, through a centralized website, using a specific software expressly designed for this study. The created network of ICUs included a mix of both university and non-university hospitals, with different experience in managing enteral sedation. A dedicated free-access website was also created, in both Italian and English, for continuous education of ICU staff through CME courses.\\n\\nThis 'educational research' project aims both to compare two sedative strategies and to highlight the need for a profound cultural change, improving outcomes by keeping critically-ill patients awake.\\n\\nClinicaltrials.gov #NCT01360346.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\",\"Multicenter Study\",\"Randomized Controlled Trial\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Mistraletti\",\"kind\":\"pubmed\",\"id\":\"23551983\",\"text\":\"A relevant innovation about sedation of long-term Intensive Care Unit (ICU) patients is the 'conscious target': patients should be awake even during the critical phases of illness. Enteral sedative administration is nowadays unusual, even though the gastrointestinal tract works soon after ICU admission. The enteral approach cannot produce deep sedation; however, it is as adequate as the intravenous one, if the target is to keep patients awake and adapted to the environment, and has fewer side effects and lower costs.\\n\\nA randomized, controlled, multicenter, single-blind trial comparing enteral and intravenous sedative treatments has been done in 12 Italian ICUs. The main objective was to achieve and maintain the desired sedation level: observed RASS = target RASS ± 1. Three hundred high-risk patients were planned to be randomly assigned to receive either intravenous propofol/midazolam or enteral melatonin/hydroxyzine/lorazepam. Group assignment occurred through online minimization process, in order to balance variables potentially influencing the outcomes (age, sex, SAPS II, type of admission, kidney failure, chronic obstructive pulmonary disease, sepsis) between groups. Once per shift, the staff recorded neurological monitoring using validated tools. Three flowcharts for pain, sedation, and delirium have been proposed; they have been designed to treat potentially correctable factors first, and, only once excluded, to administer neuroactive drugs. The study lasted from January 24 to December 31, 2012. A total of 348 patients have been randomized, through a centralized website, using a specific software expressly designed for this study. The created network of ICUs included a mix of both university and non-university hospitals, with different experience in managing enteral sedation. A dedicated free-access website was also created, in both Italian and English, for continuous education of ICU staff through CME courses.\\n\\nThis 'educational research' project aims both to compare two sedative strategies and to highlight the need for a profound cultural change, improving outcomes by keeping critically-ill patients awake.\\n\\nClinicaltrials.gov #NCT01360346.\"},{\"pmid\":\"16961518\",\"title\":\"Bullous pemphigoid in a patient with psoriasis during the course of PUVA therapy: study by ELISA test.\",\"journal\":\"International journal of dermatology\",\"year\":\"2006\",\"abstractText\":\"A 65-year-old woman had a history of deep vein thrombosis and depression. Psoriasis was diagnosed in 1986 and various topical and systemic therapies, singly or in combination, were prescribed: tar, topical corticosteroids, cyclosporine, etretinate, and methotrexate. Two courses of oral and one course of bath psoralen plus UVA (PUVA) therapy (cumulative dose, 467 J/cm(2)) and UVB (2.96 J/cm(2)) had been given. In January 1999, she developed a flare of generalized psoriasis. In May 1999, therapy with PUVA (8-methoxypsoralen) plus topical acetonide triamcinolone 0.1% was initiated. At the time, she was taking acenocoumarol, lorazepam, and hydroxyzine chlorhydrate. In August 1999, at session 30, when the dose of UVA was 9 J/cm(2), and the total dose was 205 J/cm(2), a bulla appeared on the dorsum of the toe and was controlled with topical antibiotics. Five further sessions of PUVA were given and a generalized itching bullous eruption appeared all over the body. PUVA was stopped and the patient was hospitalized. On physical examination, extensive psoriatic plaques plus vesicles and bullae on the normal skin and on psoriatic lesions were observed all over the body (Fig. 1). Histopathologic study of a lesion showed a subepidermal vesicle containing fibrin, neutrophils, and a few eosinophils. No sunburn cells were observed (Fig. 2). The direct immunofluorescence (DIF) test of perilesional uninvolved skin revealed immunoglobulin G (IgG) (Fig. 3) and C3 at the dermal-epidermal junction. The DIF study using the patient's skin, previously treated with 1 m NaCl, localized the IgG at both the epidermal and dermal sides of the basement membrane zone (Fig. 4). Bullous pemphigoid (BP) was diagnosed and therapy with prednisone (60 mg/day) was started. The disease was well controlled in 3 weeks. The dose of prednisone was tapered and stopped 20 months later, without any recurrence. Study of the antibodies by the indirect immunofluorescence (IIF) test, using monkey esophagus and guinea pig as substrate, was positive at a titer of 1/160 in September 1999. The titer decreased to 1/10 in January 2000, and was negative in July 2000. An enzyme-linked immunosorbent assay (ELISA) test, performed using the commercial kit MBL, which identifies antibodies directed against epitopes of the extracellular fragment NC16 of antigen 2 of BP, was positive at 15 U/mL (normal value, < 9 U/mL) in September 1999, and negative in July 2000 (Table 1).\",\"publicationTypes\":[\"Case Reports\",\"Journal Article\"],\"firstAuthor\":\"Barnadas\",\"kind\":\"pubmed\",\"id\":\"16961518\",\"text\":\"A 65-year-old woman had a history of deep vein thrombosis and depression. Psoriasis was diagnosed in 1986 and various topical and systemic therapies, singly or in combination, were prescribed: tar, topical corticosteroids, cyclosporine, etretinate, and methotrexate. Two courses of oral and one course of bath psoralen plus UVA (PUVA) therapy (cumulative dose, 467 J/cm(2)) and UVB (2.96 J/cm(2)) had been given. In January 1999, she developed a flare of generalized psoriasis. In May 1999, therapy with PUVA (8-methoxypsoralen) plus topical acetonide triamcinolone 0.1% was initiated. At the time, she was taking acenocoumarol, lorazepam, and hydroxyzine chlorhydrate. In August 1999, at session 30, when the dose of UVA was 9 J/cm(2), and the total dose was 205 J/cm(2), a bulla appeared on the dorsum of the toe and was controlled with topical antibiotics. Five further sessions of PUVA were given and a generalized itching bullous eruption appeared all over the body. PUVA was stopped and the patient was hospitalized. On physical examination, extensive psoriatic plaques plus vesicles and bullae on the normal skin and on psoriatic lesions were observed all over the body (Fig. 1). Histopathologic study of a lesion showed a subepidermal vesicle containing fibrin, neutrophils, and a few eosinophils. No sunburn cells were observed (Fig. 2). The direct immunofluorescence (DIF) test of perilesional uninvolved skin revealed immunoglobulin G (IgG) (Fig. 3) and C3 at the dermal-epidermal junction. The DIF study using the patient's skin, previously treated with 1 m NaCl, localized the IgG at both the epidermal and dermal sides of the basement membrane zone (Fig. 4). Bullous pemphigoid (BP) was diagnosed and therapy with prednisone (60 mg/day) was started. The disease was well controlled in 3 weeks. The dose of prednisone was tapered and stopped 20 months later, without any recurrence. Study of the antibodies by the indirect immunofluorescence (IIF) test, using monkey esophagus and guinea pig as substrate, was positive at a titer of 1/160 in September 1999. The titer decreased to 1/10 in January 2000, and was negative in July 2000. An enzyme-linked immunosorbent assay (ELISA) test, performed using the commercial kit MBL, which identifies antibodies directed against epitopes of the extracellular fragment NC16 of antigen 2 of BP, was positive at 15 U/mL (normal value, < 9 U/mL) in September 1999, and negative in July 2000 (Table 1).\"},{\"pmid\":\"15714324\",\"title\":\"Sedation in the critically ill ventilated patient: possible role of enteral drugs.\",\"journal\":\"Intensive care medicine\",\"year\":\"2005\",\"abstractText\":\"Sedation by the enteral route is unusual in intensive medicine. We analysed the feasibility/efficacy of long-term enteral sedation in ventilated critically ill patients.\\n\\nProspective interventional cohort study.\\n\\nGeneral ICU.\\n\\nForty-two patients needing ventilation and sedation for at least 4 days.\\n\\nAt admission, sedation was induced with propofol or midazolam. Enteral hydroxyzine (+/- enteral lorazepam) was added in all patients within the second day. Intravenous drugs were gradually withdrawn, trying to maintain only enteral sedation after the initial 48 h. Analgesia was provided with continuous IV fentanyl.\\n\\nSedation level was assessed evaluating, on a daily basis, patients' compliance to the invasive care and comparing observed vs planned Ramsay scores three times a day. Excluding the first 2 days of patient-stabilisation and fast titration of sedation level, 577 days with ventilatory support were analysed. In 460 days (79.7%) total enteral sedation was given. This percentage rose to 94.2% when the requested Ramsay was 2 (347 days). Daily sedation was judged as adequate in 82.8% of days of total enteral sedation. Thirty-one patients had total enteral as the exclusive route of sedation.\\n\\nAfter 24-48 h, enteral sedation may replace, totally/in part, IV sedation in ventilated patients. Total enteral sedation easily fits the target when a Ramsay score 2 is planned. When a deeper sedation is needed, a mixed regimen is effective and lowers IV drug dosages. No side effects were reported.\",\"publicationTypes\":[\"Clinical Trial\",\"Comparative Study\",\"Journal Article\"],\"firstAuthor\":\"Cigada\",\"kind\":\"pubmed\",\"id\":\"15714324\",\"text\":\"Sedation by the enteral route is unusual in intensive medicine. We analysed the feasibility/efficacy of long-term enteral sedation in ventilated critically ill patients.\\n\\nProspective interventional cohort study.\\n\\nGeneral ICU.\\n\\nForty-two patients needing ventilation and sedation for at least 4 days.\\n\\nAt admission, sedation was induced with propofol or midazolam. Enteral hydroxyzine (+/- enteral lorazepam) was added in all patients within the second day. Intravenous drugs were gradually withdrawn, trying to maintain only enteral sedation after the initial 48 h. Analgesia was provided with continuous IV fentanyl.\\n\\nSedation level was assessed evaluating, on a daily basis, patients' compliance to the invasive care and comparing observed vs planned Ramsay scores three times a day. Excluding the first 2 days of patient-stabilisation and fast titration of sedation level, 577 days with ventilatory support were analysed. In 460 days (79.7%) total enteral sedation was given. This percentage rose to 94.2% when the requested Ramsay was 2 (347 days). Daily sedation was judged as adequate in 82.8% of days of total enteral sedation. Thirty-one patients had total enteral as the exclusive route of sedation.\\n\\nAfter 24-48 h, enteral sedation may replace, totally/in part, IV sedation in ventilated patients. Total enteral sedation easily fits the target when a Ramsay score 2 is planned. When a deeper sedation is needed, a mixed regimen is effective and lowers IV drug dosages. No side effects were reported.\"}]",
+      "t": 22858
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329e91671ffb0befa16d78b91b2",
+      "name": "record_claim",
+      "args": {
+        "outcome": "potentiated_cns_depression",
+        "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+        "sourceId": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states lorazepam has increased CNS-depressant effects with sedative antihistamines."
+      },
+      "t": 37761
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "The label states lorazepam has increased CNS-depressant effects with sedative antihistamines.",
+        "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+        "source": {
+          "kind": "fda_label",
+          "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression"
+      },
+      "t": 37761
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329e91671ffb0befa16d78b91b2",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 37761
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a1c3a739c865e7c36fa3a4c2e",
+      "name": "record_claim",
+      "args": {
+        "outcome": "potentiated_cns_depression",
+        "quote": "Sedation by the enteral route is unusual in intensive medicine. We analysed the feasibility/efficacy of long-term enteral sedation in ventilated critically ill patients. Prospective interventional cohort study. General ICU. Forty-two patients needing ventilation and sedation for at least 4 days. At admission, sedation was induced with propofol or midazolam. Enteral hydroxyzine (+/- enteral lorazepam) was added in all patients within the second day. Intravenous drugs were gradually withdrawn, trying to maintain only enteral sedation after the initial 48 h. Analgesia was provided with continuous IV fentanyl. Sedation level was assessed evaluating, on a daily basis, patients' compliance to the invasive care and comparing observed vs planned Ramsay scores three times a day. Excluding the first 2 days of patient-stabilisation and fast titration of sedation level, 577 days with ventilatory support were analysed. In 460 days (79.7%) total enteral sedation was given. This percentage rose to 94.2% when the requested Ramsay was 2 (347 days). Daily sedation was judged as adequate in 82.8% of days of total enteral sedation. Thirty-one patients had total enteral as the exclusive route of sedation. After 24-48 h, enteral sedation may replace, totally/in part, IV sedation in ventilated patients. Total enteral sedation easily fits the target when a Ramsay score 2 is planned. When a deeper sedation is needed, a mixed regimen is effective and lowers IV drug dosages. No side effects were reported.",
+        "sourceId": "15714324",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Enteral hydroxyzine with lorazepam provided adequate sedation in ventilated adults."
+      },
+      "t": 53111
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "Enteral hydroxyzine with lorazepam provided adequate sedation in ventilated adults.",
+        "quote": "Sedation by the enteral route is unusual in intensive medicine. We analysed the feasibility/efficacy of long-term enteral sedation in ventilated critically ill patients. Prospective interventional cohort study. General ICU. Forty-two patients needing ventilation and sedation for at least 4 days. At admission, sedation was induced with propofol or midazolam. Enteral hydroxyzine (+/- enteral lorazepam) was added in all patients within the second day. Intravenous drugs were gradually withdrawn, trying to maintain only enteral sedation after the initial 48 h. Analgesia was provided with continuous IV fentanyl. Sedation level was assessed evaluating, on a daily basis, patients' compliance to the invasive care and comparing observed vs planned Ramsay scores three times a day. Excluding the first 2 days of patient-stabilisation and fast titration of sedation level, 577 days with ventilatory support were analysed. In 460 days (79.7%) total enteral sedation was given. This percentage rose to 94.2% when the requested Ramsay was 2 (347 days). Daily sedation was judged as adequate in 82.8% of days of total enteral sedation. Thirty-one patients had total enteral as the exclusive route of sedation. After 24-48 h, enteral sedation may replace, totally/in part, IV sedation in ventilated patients. Total enteral sedation easily fits the target when a Ramsay score 2 is planned. When a deeper sedation is needed, a mixed regimen is effective and lowers IV drug dosages. No side effects were reported.",
+        "source": {
+          "kind": "pubmed",
+          "id": "15714324"
+        },
+        "stance": "increases_risk",
+        "outcome": "potentiated_cns_depression"
+      },
+      "t": 53111
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a1c3a739c865e7c36fa3a4c2e",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 53111
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a458f726a9d086e8fd8c1e610",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "hydroxyzine lorazepam combination human study",
+          "hydroxyzine lorazepam adult CNS depression sedation"
+        ],
+        "text": "No adult controlled trial compared hydroxyzine plus lorazepam versus control for CNS depression."
+      },
+      "t": 60303
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a458f726a9d086e8fd8c1e610",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 60303
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a6f9972339a1d1cd256446c14",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "hydroxyzine lorazepam adult CNS depression sedation"
+        ],
+        "text": "No adult controlled trial compared hydroxyzine plus lorazepam versus control for CNS depression."
+      },
+      "t": 72031
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult controlled trial compared hydroxyzine plus lorazepam versus control for CNS depression.",
+        "searched": [
+          "hydroxyzine lorazepam adult CNS depression sedation"
+        ]
+      },
+      "t": 72031
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a6f9972339a1d1cd256446c14",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 72031
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 72031
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 72031
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 72031
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 72031
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 72032
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "matched",
+      "t": 72032
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes a potentiating action to hydroxyzine used with CNS depressants, a class relevant to lorazepam, supporting the stated mechanism claim.",
+      "model": "muse-wonder-1.0",
+      "t": 79601
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote is an explicit label directive to reduce concomitant CNS-depressant dosage with hydroxyzine, qualifying as a label restriction for the class including lorazepam.",
+      "model": "muse-wonder-1.0",
+      "t": 79601
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote explicitly advises patients against simultaneous use of other CNS depressant drugs with hydroxyzine, an attributed label restriction relevant to lorazepam.",
+      "model": "muse-wonder-1.0",
+      "t": 79601
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "supports",
+      "rationale": "The quote explicitly states lorazepam produces increased CNS-depressant effects with sedative antihistamines, the class to which hydroxyzine belongs.",
+      "model": "muse-wonder-1.0",
+      "t": 79601
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c5",
+      "support": "does_not_support",
+      "rationale": "The quote reports feasible adequate enteral sedation with hydroxyzine with optional lorazepam and no side effects, so it neither isolates the pair nor reports increased risk as required by the stance.",
+      "model": "muse-wonder-1.0",
+      "t": 79601
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 86074
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 2.",
+      "t": 121745
+    },
+    {
+      "type": "thinking",
+      "text": "Made 14 external requests",
+      "t": 125148
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "hydroxyzine__lorazepam",
+        "a": "hydroxyzine",
+        "b": "lorazepam",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Hydroxyzine and lorazepam together produce increased CNS-depressant effects",
+          "claimIds": [
+            "c4",
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states hydroxyzine has potentiating action with CNS depressants.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult controlled trial compared hydroxyzine plus lorazepam versus control for CNS depression.",
+            "searched": [
+              "hydroxyzine lorazepam adult CNS depression sedation"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Hydroxyzine or Lorazepam, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Hydroxyzine and Lorazepam, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states hydroxyzine has potentiating action with CNS depressants.",
+            "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "mechanism",
+            "outcome": "potentiated_cns_depression",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes a potentiating action to hydroxyzine used with CNS depressants, a class relevant to lorazepam, supporting the stated mechanism claim.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "The label states concomitant CNS depressant dosage should be reduced with hydroxyzine.",
+            "quote": "Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "potentiated_cns_depression",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote is an explicit label directive to reduce concomitant CNS-depressant dosage with hydroxyzine, qualifying as a label restriction for the class including lorazepam.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "The label states patients are advised against simultaneous other CNS depressant drugs.",
+            "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "potentiated_cns_depression",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly advises patients against simultaneous use of other CNS depressant drugs with hydroxyzine, an attributed label restriction relevant to lorazepam.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c4",
+            "text": "The label states lorazepam has increased CNS-depressant effects with sedative antihistamines.",
+            "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+            "source": {
+              "kind": "fda_label",
+              "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "potentiated_cns_depression",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states lorazepam produces increased CNS-depressant effects with sedative antihistamines, the class to which hydroxyzine belongs.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c5",
+            "text": "Enteral hydroxyzine with lorazepam provided adequate sedation in ventilated adults.",
+            "quote": "Sedation by the enteral route is unusual in intensive medicine. We analysed the feasibility/efficacy of long-term enteral sedation in ventilated critically ill patients. Prospective interventional cohort study. General ICU. Forty-two patients needing ventilation and sedation for at least 4 days. At admission, sedation was induced with propofol or midazolam. Enteral hydroxyzine (+/- enteral lorazepam) was added in all patients within the second day. Intravenous drugs were gradually withdrawn, trying to maintain only enteral sedation after the initial 48 h. Analgesia was provided with continuous IV fentanyl. Sedation level was assessed evaluating, on a daily basis, patients' compliance to the invasive care and comparing observed vs planned Ramsay scores three times a day. Excluding the first 2 days of patient-stabilisation and fast titration of sedation level, 577 days with ventilatory support were analysed. In 460 days (79.7%) total enteral sedation was given. This percentage rose to 94.2% when the requested Ramsay was 2 (347 days). Daily sedation was judged as adequate in 82.8% of days of total enteral sedation. Thirty-one patients had total enteral as the exclusive route of sedation. After 24-48 h, enteral sedation may replace, totally/in part, IV sedation in ventilated patients. Total enteral sedation easily fits the target when a Ramsay score 2 is planned. When a deeper sedation is needed, a mixed regimen is effective and lowers IV drug dosages. No side effects were reported.",
+            "source": {
+              "kind": "pubmed",
+              "id": "15714324"
+            },
+            "stance": "increases_risk",
+            "outcome": "potentiated_cns_depression",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The quote reports feasible adequate enteral sedation with hydroxyzine with optional lorazepam and no side effects, so it neither isolates the pair nor reports increased risk as required by the stance.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+            "title": "Precautions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+            "citation": "FDA label · Precautions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "fda_label",
+            "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=247110f2-5468-4593-8d86-41f8c869e03d",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "15714324",
+            "title": "Sedation in the critically ill ventilated patient: possible role of enteral drugs.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15714324/",
+            "citation": "Cigada et al. · Intensive care medicine 2005",
+            "design": "controlled_trial",
+            "year": 2005,
+            "sampleSize": 42,
+            "population": "ventilated critically ill patients"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:48:05.549Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1",
+            "c2",
+            "c3",
+            "c4"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 125148
+    }
+  ]
+}

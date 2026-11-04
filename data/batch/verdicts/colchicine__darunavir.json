@@ -1,0 +1,35 @@
+{
+ "pair": "colchicine__darunavir",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "In context, the quote is the colchicine row of the darunavir interaction table."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The colchicine label covers all protease inhibitors except fosamprenavir, which clearly includes darunavir."
+  },
+  {
+   "id": "c3",
+   "support": "supports",
+   "rationale": "The French quote and its English rendering match the claim."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  }
+ ]
+}

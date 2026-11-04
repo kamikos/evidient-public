@@ -1,0 +1,88 @@
+{
+  "card": {
+    "pair": "lorazepam__pregabalin",
+    "a": "lorazepam",
+    "b": "pregabalin",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of lorazepam.",
+      "claimIds": [
+        "cEU1"
+      ]
+    },
+    "reported": [],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "cEU1",
+        "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of lorazepam.",
+        "quote": "Pregabalin may potentiate the effects of ethanol and lorazepam.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "EU:EMEA/H/C/000546#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/000546#4.4",
+        "title": "Lyrica: 4.4",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Lyrica, https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.4",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/000546#4.5",
+        "title": "Lyrica: 4.5",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Lyrica, https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.5",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "cEU1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Lorazepam or Pregabalin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Lorazepam and Pregabalin, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T18:37:23.288Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

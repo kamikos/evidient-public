@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__glimepiride",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label says acute and chronic alcohol intake may potentiate or weaken glimepiride's glucose-lowering action unpredictably."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The glimepiride warnings say hypoglycemia is more likely when alcohol is ingested."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

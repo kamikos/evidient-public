@@ -1,0 +1,169 @@
+{
+  "card": {
+    "pair": "abacavir__darunavir",
+    "a": "abacavir",
+    "b": "darunavir",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA darunavir label lists abacavir among medications without clinically significant interactions with darunavir/ritonavir.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label states no dosage adjustment is needed for abacavir with darunavir/ritonavir.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The French label says no interaction is expected between abacavir and boosted darunavir.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The French label bases the expectation on abacavir metabolism not depending on CYP450.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA darunavir label lists abacavir among medications without clinically significant interactions with darunavir/ritonavir and states no dosage adjustment is needed.",
+        "quote": "No dosage adjustments are recommended when darunavir/ritonavir is co-administered with the following medications: atazanavir, dolutegravir, efavirenz, etravirine, nevirapine, nucleoside reverse transcriptase inhibitors (abacavir, emtricitabine, emtricitabine/tenofovir alafenamide, lamivudine, stavudine, tenofovir disoproxil fumarate, zidovudine), pitavastatin, raltegravir, ranitidine, or rilpivirine.",
+        "source": {
+          "kind": "fda_label",
+          "id": "e80e44f8-1987-4b78-a63d-a4e4d5122ddb#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "no_interaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The darunavir label section on drugs without clinically significant interactions names abacavir with no dosage adjustment for darunavir/ritonavir.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French darunavir label says no interaction is expected between boosted darunavir and abacavir or other NRTIs, based on their elimination routes.",
+        "quote": "Sur la base des différentes voies d’élimination des autres INTI, c’est-à-dire zidovudine, emtricitabine, stavudine et lamivudine, principalement excrétés par le rein, et l’abacavir, pour lesquels le métabolisme n’est pas dépendant du CYP450, aucune interaction n’est attendue entre ces médicaments et le darunavir boosté.",
+        "quoteEnglish": "Based on the different elimination routes of the other NRTIs, namely zidovudine, emtricitabine, stavudine and lamivudine, mainly excreted by the kidney, and abacavir, whose metabolism is not CYP450-dependent, no interaction is expected between these drugs and boosted darunavir.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60803434#4.5"
+        },
+        "stance": "mechanism",
+        "outcome": "no_interaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "French label says no interaction is expected between abacavir (non-CYP450 metabolism) and boosted darunavir; translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "e80e44f8-1987-4b78-a63d-a4e4d5122ddb#drug_interactions",
+        "title": "darunavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e80e44f8-1987-4b78-a63d-a4e4d5122ddb",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60803434#4.5",
+        "title": "DARUNAVIR ZENTIVA 400 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60803434/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "22811264",
+        "title": "Antiretroviral neurotoxicity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22811264/",
+        "citation": "1538-2443 18 5 2012 Oct Journal of neurovirology J Neurovirol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30662776",
+        "title": "Drug-Drug Interaction of Ergotamine with a Combination of Darunavir, Abacavir, and Lamivudine Causing a Fatal Vasospastic Ischemia.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30662776/",
+        "citation": "2090-648X 2018 2018 Case reports in emergency medicine Case Rep Emerg Med",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35847492",
+        "title": "Approved HIV reverse transcriptase inhibitors in the past decade.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35847492/",
+        "citation": "2211-3835 12 4 2022 Apr Acta pharmaceutica Sinica. B Acta Pharm Sin B",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28008867",
+        "title": "Dolutegravir plasma concentrations according to companion antiretroviral drug: unwanted drug interaction or desirable boosting effect?",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28008867/",
+        "citation": "2040-2058 22 4 2017 Antiviral therapy Antivir Ther",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_no_interaction",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Abacavir or Darunavir, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Abacavir and Darunavir, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"abacavir\"[tiab] AND \"darunavir\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.521Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

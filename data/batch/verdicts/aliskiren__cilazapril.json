@@ -1,0 +1,21 @@
+{
+  "pair": "aliskiren__cilazapril",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The aliskiren label states use with ACE inhibitors increases hypotension, hyperkalemia and renal function change risk, and cilazapril is an ACE inhibitor."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

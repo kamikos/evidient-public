@@ -1,0 +1,153 @@
+{
+  "card": {
+    "pair": "alcohol__metformin",
+    "a": "alcohol",
+    "b": "metformin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label says alcohol potentiates metformin's effect on lactate metabolism.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label describes potentiation of metformin's effect on lactate metabolism by alcohol.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "Alcohol potentiates metformin's effect on lactate metabolism.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcohol potentiates metformin's effect on lactate metabolism.",
+        "quote": "Alcohol potentiates the effect of metformin on lactate metabolism.",
+        "source": {
+          "kind": "fda_label",
+          "id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a#warnings_and_cautions"
+        },
+        "stance": "mechanism",
+        "outcome": "lactic_acidosis",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states verbatim that alcohol potentiates the effect of metformin on lactate metabolism.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a#boxed_warning",
+        "title": "metformin: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=05999192-ebc6-4198-bd1e-f46abbfb4f8a",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a#warnings_and_cautions",
+        "title": "metformin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=05999192-ebc6-4198-bd1e-f46abbfb4f8a",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "05999192-ebc6-4198-bd1e-f46abbfb4f8a#drug_interactions",
+        "title": "metformin: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=05999192-ebc6-4198-bd1e-f46abbfb4f8a",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40368260",
+        "title": "The exposome and pancreatic cancer, lifestyle and environmental risk factors for PDAC.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40368260/",
+        "citation": "1096-3650 113 2025 Aug Seminars in cancer biology Semin Cancer Biol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "41864862",
+        "title": "Adverse events associated with drug-related thiamine deficiency: A pharmacovigilance study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41864862/",
+        "citation": "1941-2444 50 5 2026 Jul JPEN. Journal of parenteral and enteral nutrition JPEN J Parenter Enteral Nutr",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "39085762",
+        "title": "Metformin-Induced Invertase Unfolding: Enzyme Kinetics and Activity Regulation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39085762/",
+        "citation": "1520-5118 72 32 2024 Aug 14 Journal of agricultural and food chemistry J Agric Food Chem",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35104599",
+        "title": "Computational study of metformin hydrochloride nucleation in hydroxylic solvents: Experimental kinetics and DFT simulation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35104599/",
+        "citation": "1873-3476 616 2022 Mar 25 International journal of pharmaceutics Int J Pharm",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Metformin and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet's PubMed abstracts do not report a controlled human study of this combination.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"metformin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.590Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

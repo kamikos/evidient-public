@@ -1,0 +1,142 @@
+{
+  "card": {
+    "pair": "clonazepam__dihydrocodeine",
+    "a": "clonazepam",
+    "b": "dihydrocodeine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The clonazepam label says combined use with opioids may cause profound sedation, respiratory depression, coma and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label statement covers opioids as a class and does not name dihydrocodeine.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The label says benzodiazepines act at GABA A sites and opioids mainly at mu receptors.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA clonazepam label says concomitant use of benzodiazepines, including clonazepam, and opioids may result in profound sedation, respiratory depression, coma and death.",
+        "quote": "Concomitant use of benzodiazepines, including clonazepam tablets, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote matches, and dihydrocodeine is an opioid.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA clonazepam label says benzodiazepines act at GABA A sites and opioids act mainly at mu receptors.",
+        "quote": "Benzodiazepines interact at GABA A sites, and opioids interact primarily at mu receptors.",
+        "source": {
+          "kind": "fda_label",
+          "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote states GABA A and mu receptor sites.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#boxed_warning",
+        "title": "clonazepam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#warnings",
+        "title": "clonazepam: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#precautions",
+        "title": "clonazepam: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#drug_interactions",
+        "title": "clonazepam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Clonazepam or Dihydrocodeine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Clonazepam and Dihydrocodeine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"clonazepam\"[tiab] AND \"dihydrocodeine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.695Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__clozapine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The French SmPC says alcohol should be avoided during clozapine treatment because it can potentiate the sedative effect; the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "card": {
+    "pair": "cobicistat__darunavir",
+    "a": "cobicistat",
+    "b": "darunavir",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The Spanish cobicistat label reports higher plasma concentrations of darunavir when given with cobicistat.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The Spanish cobicistat label reports increased plasma concentrations of CYP3A-metabolised medicines, darunavir included, with cobicistat.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The French darunavir label says darunavir given with cobicistat decreases creatinine clearance.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The Spanish label attributes the rise in darunavir concentrations to cobicistat and CYP3A metabolism of darunavir.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish cobicistat label says plasma concentrations of CYP3A-metabolised medicines, including darunavir, increase when given together with cobicistat.",
+        "quote": "Se observa un aumento de las concentraciones plasmáticas de los medicamentos metabolizados por el CYP3A (incluyendo atazanavir y darunavir) cuando se administran de forma concomitante con cobicistat.",
+        "quoteEnglish": "An increase in plasma concentrations is seen for medicines metabolised by CYP3A (including atazanavir and darunavir) when they are administered concomitantly with cobicistat.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:113872001#4.5"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish quote names darunavir among CYP3A substrates with increased concentrations, and the English rendering is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French darunavir label says darunavir given with cobicistat lowers creatinine clearance.",
+        "quote": "Le darunavir co-administré avec le cobicistat diminue la clairance de la créatinine.",
+        "quoteEnglish": "Darunavir co-administered with cobicistat decreases creatinine clearance.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60803434#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_creatinine_clearance",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French quote says darunavir with cobicistat decreases creatinine clearance, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#contraindications",
+        "title": "cobicistat: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#warnings_and_cautions",
+        "title": "cobicistat: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#drug_interactions",
+        "title": "cobicistat: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:113872001#4.4",
+        "title": "TYBOST 150mg comprimidos recubiertos con pelicula: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=113872001&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:113872001#4.5",
+        "title": "TYBOST 150mg comprimidos recubiertos con pelicula: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=113872001&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60803434#4.4",
+        "title": "DARUNAVIR ZENTIVA 400 mg, comprimé pelliculé: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60803434/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60803434#4.5",
+        "title": "DARUNAVIR ZENTIVA 400 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60803434/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28193650",
+        "title": "In Vitro Interaction of Rifampin and Darunavir-Ritonavir or Darunavir-Cobicistat.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28193650/",
+        "citation": "1098-6596 61 5 2017 May Antimicrobial agents and chemotherapy Antimicrob Agents Chemother",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33803812",
+        "title": "Management of Antiretroviral Therapy with Boosted Protease Inhibitors-Darunavir/Ritonavir or Darunavir/Cobicistat.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33803812/",
+        "citation": "2227-9059 9 3 2021 Mar 18 Biomedicines Biomedicines",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27022304",
+        "title": "Evaluating the role of atazanavir/cobicistat and darunavir/cobicistat fixed-dose combinations for the treatment of HIV-1 infection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27022304/",
+        "citation": "1179-1373 8 2016 HIV/AIDS (Auckland, N.Z.) HIV AIDS (Auckl)",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Cobicistat or Darunavir, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Cobicistat and Darunavir, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"cobicistat\"[tiab] AND \"darunavir\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.698Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

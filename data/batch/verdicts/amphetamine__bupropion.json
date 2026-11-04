@@ -1,0 +1,21 @@
+{
+  "pair": "amphetamine__bupropion",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The mouse abstract reports bupropion pretreatment blunted D-amphetamine's acute anxiogenic effects and tolerance/cross-tolerance, and the claim labels it a mouse finding."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

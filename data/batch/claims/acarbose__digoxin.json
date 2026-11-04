@@ -1,0 +1,70 @@
+{
+  "pair": "acarbose__digoxin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA acarbose label says acarbose has been shown to change digoxin bioavailability when coadministered, which may require a digoxin dose adjustment.",
+      "quote": "Acarbose Tablets have been shown to change the bioavailability of digoxin when they are coadministered, which may require digoxin dose adjustment.",
+      "sourceId": "1ba7a072-03b0-41f2-be7a-101145bdef3a#drug_interactions",
+      "stance": "increases_risk",
+      "outcome": "altered_bioavailability"
+    },
+    {
+      "id": "c2",
+      "text": "The French acarbose label says acarbose can in some cases affect digoxin bioavailability, requiring a dose adaptation.",
+      "quote": "Dans certains cas, l'acarbose peut interférer sur la biodisponibilité de la digoxine, nécessitant une adaptation posologique.",
+      "quoteEnglish": "In some cases, acarbose can interfere with the bioavailability of digoxin, requiring a dose adjustment.",
+      "sourceId": "FR:60946941#4.5",
+      "stance": "increases_risk",
+      "outcome": "altered_bioavailability"
+    },
+    {
+      "id": "c3",
+      "text": "In a randomized crossover study of healthy male volunteers, digoxin AUC and Cmax were significantly lower and tmax significantly higher after acarbose than with digoxin alone.",
+      "quote": "Area under the concentration-time curve (AUC0-48) and mean maximum concentration (Cmax) were significantly lower and tmax significantly increased in phases 2 and 3 compared with phase 1.",
+      "sourceId": "9702852",
+      "stance": "increases_risk",
+      "outcome": "reduced_exposure"
+    },
+    {
+      "id": "c4",
+      "text": "A case report describes a 69-year-old woman whose subtherapeutic digoxin levels rose to the therapeutic range after acarbose was stopped.",
+      "quote": "In the absence of acarbose, the plasma concentration of digoxin increased to the therapeutic range.",
+      "sourceId": "8941033",
+      "stance": "increases_risk",
+      "outcome": "reduced_exposure"
+    }
+  ],
+  "headline": {
+    "text": "The FDA acarbose label says acarbose changes digoxin bioavailability when coadministered (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French label also reports acarbose can interfere with digoxin bioavailability (c2).",
+      "claimIds": [
+        "c2"
+      ]
+    },
+    {
+      "text": "A randomized crossover study in healthy volunteers found lower digoxin exposure after acarbose (c3). A case report describes subtherapeutic digoxin levels (c4).",
+      "claimIds": [
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The controlled study was in healthy male volunteers and measured digoxin concentrations, not clinical outcomes.",
+      "searched": [
+        "\"acarbose\"[tiab] AND \"digoxin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

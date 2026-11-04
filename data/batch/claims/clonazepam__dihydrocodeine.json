@@ -1,0 +1,53 @@
+{
+  "pair": "clonazepam__dihydrocodeine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA clonazepam label says concomitant use of benzodiazepines, including clonazepam, and opioids may result in profound sedation, respiratory depression, coma and death.",
+      "quote": "Concomitant use of benzodiazepines, including clonazepam tablets, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+      "sourceId": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#warnings",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA clonazepam label says benzodiazepines act at GABA A sites and opioids act mainly at mu receptors.",
+      "quote": "Benzodiazepines interact at GABA A sites, and opioids interact primarily at mu receptors.",
+      "sourceId": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#drug_interactions",
+      "stance": "mechanism",
+      "outcome": "cns_depression"
+    }
+  ],
+  "headline": {
+    "text": "The clonazepam label says combined use with opioids may cause profound sedation, respiratory depression, coma and death (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The label statement covers opioids as a class and does not name dihydrocodeine.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The label says benzodiazepines act at GABA A sites and opioids mainly at mu receptors.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"clonazepam\"[tiab] AND \"dihydrocodeine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

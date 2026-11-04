@@ -1,0 +1,21 @@
+{
+  "pair": "acitretin__desogestrel",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "partial",
+      "rationale": "The quote accurately states that a pharmacokinetic interaction with combined oral contraceptives is not established, but the link to desogestrel is the curator's inference and the same passage establishes that acitretin interferes with microdosed progestin preparations, a category that includes desogestrel-only minipills."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "does_not_support"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "card": {
+    "pair": "aspirin__celecoxib",
+    "a": "aspirin",
+    "b": "celecoxib",
+    "origin": "batch",
+    "category": "bleeding",
+    "headline": {
+      "text": "The Spanish label says aspirin adds to celecoxib's gastrointestinal adverse-event risk, even at low aspirin doses.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The Spanish label describes increased gastrointestinal ulceration or other gastrointestinal complications with coadministration.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The FDA label separately reports no interference with aspirin's cardioprotective antiplatelet effect in two studies at the stated doses.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish label says aspirin, even at low doses, adds to gastrointestinal adverse-event risk with celecoxib.",
+        "quote": "La administración conjunta de celecoxib con ácido acetilsalicílico (incluso en pequeñas dosis) incrementa adicionalmente el riesgo de efectos adversos digestivos (ulceración gastrointestinal u otras complicaciones gastrointestinales).",
+        "quoteEnglish": "Coadministration of celecoxib with acetylsalicylic acid (even at low doses) further increases the risk of gastrointestinal adverse effects (gastrointestinal ulceration or other gastrointestinal complications).",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:63072#4.4"
+        },
+        "stance": "increases_risk",
+        "outcome": "gastrointestinal_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish SmPC says coadministration with aspirin, even at low doses, further increases GI adverse-effect risk; the translation is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label reports no interference with aspirin's antiplatelet effect in two studies using celecoxib 200–400 mg daily and aspirin 100–325 mg.",
+        "quote": "In two studies in healthy volunteers, and in patients with osteoarthritis and established heart disease respectively, celecoxib (200 mg to 400 mg daily) has demonstrated a lack of interference with the cardioprotective antiplatelet effect of aspirin (100 mg to 325 mg).",
+        "source": {
+          "kind": "fda_label",
+          "id": "3a1eadd5-c0a7-473e-bde0-6b9450d11c95#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "antiplatelet_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The FDA label reports two studies in which celecoxib 200-400 mg daily did not interfere with aspirin's (100-325 mg) cardioprotective antiplatelet effect.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7ce4807e-7bd5-41f1-a9c7-1f3af6acdc09#warnings",
+        "title": "aspirin: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7ce4807e-7bd5-41f1-a9c7-1f3af6acdc09",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3a1eadd5-c0a7-473e-bde0-6b9450d11c95#boxed_warning",
+        "title": "celecoxib: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a1eadd5-c0a7-473e-bde0-6b9450d11c95",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3a1eadd5-c0a7-473e-bde0-6b9450d11c95#contraindications",
+        "title": "celecoxib: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a1eadd5-c0a7-473e-bde0-6b9450d11c95",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3a1eadd5-c0a7-473e-bde0-6b9450d11c95#warnings_and_cautions",
+        "title": "celecoxib: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a1eadd5-c0a7-473e-bde0-6b9450d11c95",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3a1eadd5-c0a7-473e-bde0-6b9450d11c95#drug_interactions",
+        "title": "celecoxib: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a1eadd5-c0a7-473e-bde0-6b9450d11c95",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:63072#4.4",
+        "title": "CELEBREX 100 MG CAPSULAS DURAS: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=63072&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:63072#4.5",
+        "title": "CELEBREX 100 MG CAPSULAS DURAS: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=63072&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33821899",
+        "title": "Effect of Celecoxib vs Placebo Added to Standard Adjuvant Therapy on Disease-Free Survival Among Patients With Stage III Colon Cancer: The CALGB/SWOG 80702 (Alliance) Randomized Clinical Trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33821899/",
+        "citation": "1538-3598 325 13 2021 Apr 6 JAMA JAMA",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38889377",
+        "title": "PIK3CA Improved Survival With Adjuvant Cyclooxygenase 2 Inhibition in-Activated Stage III Colon Cancer: CALGB/SWOG 80702 (Alliance).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38889377/",
+        "citation": "1527-7755 42 24 2024 Aug 20 Journal of clinical oncology : official journal of the American Society of Clinical Oncology J Clin Oncol",
+        "language": "en",
+        "design": "controlled_trial"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aspirin or Celecoxib, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aspirin and Celecoxib, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.654Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

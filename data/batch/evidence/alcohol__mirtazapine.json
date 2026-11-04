@@ -1,0 +1,130 @@
+{
+  "card": {
+    "pair": "alcohol__mirtazapine",
+    "a": "alcohol",
+    "b": "mirtazapine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says alcohol increases cognitive and motor impairment with mirtazapine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label reports greater impairment of cognitive and motor skills with the combination than with mirtazapine alone.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcohol increases the cognitive and motor impairment produced by mirtazapine alone.",
+        "quote": "The concomitant use of benzodiazepines or alcohol with mirtazapine tablets increase the impairment of cognitive and motor skills produced by mirtazapine tablets alone.",
+        "source": {
+          "kind": "fda_label",
+          "id": "63f140c2-2a18-4dea-96fe-2658dda28a0c#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says alcohol with mirtazapine increases the cognitive and motor impairment produced by mirtazapine alone.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "63f140c2-2a18-4dea-96fe-2658dda28a0c#warnings_and_cautions",
+        "title": "mirtazapine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63f140c2-2a18-4dea-96fe-2658dda28a0c",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "63f140c2-2a18-4dea-96fe-2658dda28a0c#drug_interactions",
+        "title": "mirtazapine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63f140c2-2a18-4dea-96fe-2658dda28a0c",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60015882#4.5",
+        "title": "MIRTAZAPINE BIOGARAN 15 mg, comprimé pelliculé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60015882/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "15289959",
+        "title": "Population pharmacokinetic analysis of mirtazapine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15289959/",
+        "citation": "0031-6970 60 7 2004 Sep European journal of clinical pharmacology Eur J Clin Pharmacol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "25446559",
+        "title": "Mirtazapine as positive control drug in studies examining the effects of antidepressants on driving ability.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25446559/",
+        "citation": "1879-0712 753 2015 Apr 15 European journal of pharmacology Eur J Pharmacol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32885849",
+        "title": "Enantioseparation and molecular modeling study of eight psychoactive drugs on a coated polysaccharide-based chiral stationary phase.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32885849/",
+        "citation": "1522-2683 41 24 2020 Dec Electrophoresis Electrophoresis",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Mirtazapine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.594Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

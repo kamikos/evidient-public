@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__phenytoin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Table 2 lists acute alcohol intake under drugs that may increase phenytoin serum levels."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "Table 2 lists chronic alcohol abuse under drugs that may decrease phenytoin serum levels."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

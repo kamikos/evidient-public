@@ -1,0 +1,108 @@
+{
+  "card": {
+    "pair": "abacavir__buprenorphine",
+    "a": "abacavir",
+    "b": "buprenorphine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA buprenorphine label says no interactions with buprenorphine are expected for NRTIs as a class.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The statement covers NRTIs as a class and does not name abacavir.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The label says NRTIs do not appear to induce or inhibit the P450 enzyme pathway.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA buprenorphine label says nucleoside reverse transcriptase inhibitors do not appear to induce or inhibit the P450 pathway, so no interactions with buprenorphine are expected.",
+        "quote": "Nucleoside reverse transcriptase inhibitors (NRTIs) do not appear to induce or inhibit the P450 enzyme pathway, thus no interactions with buprenorphine are expected.",
+        "source": {
+          "kind": "fda_label",
+          "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "no_interaction_expected",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Quote is the buprenorphine label NRTI class statement and abacavir is an NRTI; the claim reproduces it accurately.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions",
+        "title": "buprenorphine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28263457",
+        "title": "Ombitasvir/Paritaprevir/Ritonavir and Dasabuvir: Drug Interactions With Antiretroviral Agents and Drugs forSubstance Abuse.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28263457/",
+        "citation": "2160-7648 6 2 2017 Mar Clinical pharmacology in drug development Clin Pharmacol Drug Dev",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_no_interaction",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Abacavir or Buprenorphine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Abacavir and Buprenorphine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"abacavir\"[tiab] AND \"buprenorphine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.520Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

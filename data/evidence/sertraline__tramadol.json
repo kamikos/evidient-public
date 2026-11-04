@@ -1,0 +1,656 @@
+{
+  "card": {
+    "pair": "sertraline__tramadol",
+    "a": "sertraline",
+    "b": "tramadol",
+    "category": "serotonin",
+    "depth": "limited",
+    "headline": {
+      "text": "Concomitant sertraline and tramadol increases serotonin syndrome risk",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Concomitant sertraline and tramadol use is associated with potentially life-threatening serotonin syndrome involving mental, autonomic, neuromuscular, seizure, and gastrointestinal symptoms.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Sertraline or Tramadol, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Sertraline and Tramadol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states concomitant sertraline with tramadol increases serotonin syndrome risk.",
+        "quote": "The development of a potentially life-threatening serotonin syndrome has been reported with SNRIs and SSRIs, including Sertraline hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs, both those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms(e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+        "source": {
+          "kind": "fda_label",
+          "id": "00179766-980b-44b0-99d3-1fee2bb27e37#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote supports increases_risk because the label reports serotonin syndrome particularly with concomitant use of SSRIs including sertraline and other serotonergic drugs explicitly including tramadol.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "FAERS analysis linked SSRI with tramadol to serotonin syndrome safety signal.",
+        "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+        "source": {
+          "kind": "pubmed",
+          "id": "40288362"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c3",
+        "text": "Man taking sertraline with tramadol developed serotonin syndrome with dizziness and blood pressure changes.",
+        "quote": "A man in his mid-30s had a 10-month history of anxiety, depression and chronic tension-type headache. He had been on amitriptyline (25 mg daily) and sertraline (50 mg daily). Increment of sertraline (75 mg daily) and amitriptyline (75 mg daily) and the addition of tramadol led to the development of acute severe dizziness. Physical examinations demonstrate supine hypertension and orthostatic hypotension. He also met the diagnostic criteria of SS.",
+        "source": {
+          "kind": "pubmed",
+          "id": "38627042"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "The quote attributes serotonin syndrome to increased sertraline and amitriptyline plus added tramadol, so it cannot support attributing the event to the sertraline–tramadol pair alone.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c4",
+        "text": "Serotonergic properties of SSRIs and opioids can induce serotonin syndrome.",
+        "quote": "Background: Medications exhibiting serotonergic properties, such as selective serotonin reuptake inhibitors (SSRIs) antidepressants, opioids, and other antidepressants can induce serotonin syndrome, a rare but potentially life-threatening adverse event.",
+        "source": {
+          "kind": "pubmed",
+          "id": "40288362"
+        },
+        "stance": "mechanism",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports, because the quote explicitly states that the serotonergic properties of SSRIs and opioids can induce serotonin syndrome, matching the claim's qualified class-level mechanism relevant to sertraline and tramadol.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c5",
+        "text": "FAERS analysis linked sertraline-containing SSRI plus tramadol reports to serotonin syndrome signal.",
+        "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. Among the safety reports involving SSRIs, 4,851 cases reported at least one severe outcome. All active substances of the SSRI group were associated with serotonin syndrome, sertraline, and fluoxetine had the most reports, while fluvoxamine had the highest ROR and risk compared to all other SSRIs (ROR: 2.66, 95% confidence interval: 2.33-3.05). The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combinations of SSRIs with serotonin-norepinephrine reuptake inhibitors (ROR 25.42) and \"other antidepressants\" (ROR 22.74) were associated with a signal for serotonin syndrome. The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+        "source": {
+          "kind": "pubmed",
+          "id": "40288362"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support — The quote reports an SSRI-class plus opioid/tramadol serotonin-syndrome signal and sertraline reports separately, but provides no sertraline-plus-tramadol co-exposure result to support that specific pair claim.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "00179766-980b-44b0-99d3-1fee2bb27e37#warnings",
+        "title": "Warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00179766-980b-44b0-99d3-1fee2bb27e37",
+        "citation": "FDA label · Warnings",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40288362",
+        "title": "Selective Serotonin Reuptake Inhibitors and Risk of Serotonin Syndrome as Consequence of Drug-Drug Interactions: Analysis of the FDA Adverse Event Reporting System.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40288362/",
+        "citation": "Elli et al. · Medical principles and practice : international journal of the Kuwait University, Health Science Centre 2025",
+        "design": "other",
+        "year": 2025,
+        "sampleSize": 13312
+      },
+      {
+        "kind": "pubmed",
+        "id": "38627042",
+        "title": "Serotonin syndrome presenting as acute dizziness with supine hypertension and orthostatic hypotension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38627042/",
+        "citation": "Prakash et al. · BMJ case reports 2024",
+        "design": "case_report",
+        "year": 2024
+      }
+    ],
+    "generatedAt": "2026-11-03T19:57:46.972Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "sertraline__tramadol",
+      "at": "2026-11-03T19:55:47.747Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00179766-980b-44b0-99d3-1fee2bb27e37#warnings",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00179766-980b-44b0-99d3-1fee2bb27e37#warnings"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb764b74738c3d28f7778cffd3",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "The development of a potentially life-threatening serotonin syndrome has been reported with SNRIs and SSRIs, including Sertraline hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs, both those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms(e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+        "sourceId": "00179766-980b-44b0-99d3-1fee2bb27e37#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states concomitant sertraline with tramadol increases serotonin syndrome risk."
+      },
+      "t": 5941
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states concomitant sertraline with tramadol increases serotonin syndrome risk.",
+        "quote": "The development of a potentially life-threatening serotonin syndrome has been reported with SNRIs and SSRIs, including Sertraline hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs, both those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms(e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+        "source": {
+          "kind": "fda_label",
+          "id": "00179766-980b-44b0-99d3-1fee2bb27e37#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 5941
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb764b74738c3d28f7778cffd3",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 5941
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb7c97757cb6ccedc3c6265c73",
+      "name": "search_pubmed",
+      "args": {
+        "query": "sertraline tramadol serotonin syndrome human"
+      },
+      "t": 5941
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb7c97757cb6ccedc3c6265c73",
+      "summary": "search_pubmed completed: {\"query\":\"sertraline tramadol serotonin syndrome human\",\"pmids\":[\"40288362\",\"38627042\",\"24153222\",\"23796482\",\"18164916\"]}",
+      "t": 6439
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb7dab74c0a33828cd341975e0",
+      "name": "search_pubmed",
+      "args": {
+        "query": "sertraline tramadol combination adults serotonin syndrome"
+      },
+      "t": 6439
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb7dab74c0a33828cd341975e0",
+      "summary": "search_pubmed completed: {\"query\":\"sertraline tramadol combination adults serotonin syndrome\",\"pmids\":[\"40288362\",\"15190240\",\"12422548\",\"9034418\"]}",
+      "t": 6906
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb956977718d245a84897d8f39",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "40288362",
+          "38627042"
+        ]
+      },
+      "t": 12900
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb956977718d245a84897d8f39",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"40288362\",\"title\":\"Selective Serotonin Reuptake Inhibitors and Risk of Serotonin Syndrome as Consequence of Drug-Drug Interactions: Analysis of the FDA Adverse Event Reporting System.\",\"journal\":\"Medical principles and practice : international journal of the Kuwait University, Health Science Centre\",\"year\":\"2025\",\"abstractText\":\"<p>Background: Medications exhibiting serotonergic properties, such as selective serotonin reuptake inhibitors (SSRIs) antidepressants, opioids, and other antidepressants can induce serotonin syndrome, a rare but potentially life-threatening adverse event.\\n\\nThis study aims to investigate the risks of serotonin syndrome among different SSRIs and assess the influence of drug-drug interactions with other medications.\\n\\nWe analyzed the suspected adverse events in the US Food and Drug Administration Adverse Event Reporting System (FAERS) database.\\n\\nWe identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. Among the safety reports involving SSRIs, 4,851 cases reported at least one severe outcome. All active substances of the SSRI group were associated with serotonin syndrome, sertraline, and fluoxetine had the most reports, while fluvoxamine had the highest ROR and risk compared to all other SSRIs (ROR: 2.66, 95% confidence interval: 2.33-3.05). The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combinations of SSRIs with serotonin-norepinephrine reuptake inhibitors (ROR 25.42) and \\\"other antidepressants\\\" (ROR 22.74) were associated with a signal for serotonin syndrome. The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).\\n\\nClose monitoring for symptoms of serotonin syndrome should be considered in patients with depression with a combination of antidepressants, and in those on SSRIs who also require linezolid, monoamine oxidase inhibitors or high-risk opioids, like tramadol, or fentanyl. </p>.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Elli\",\"kind\":\"pubmed\",\"id\":\"40288362\",\"text\":\"<p>Background: Medications exhibiting serotonergic properties, such as selective serotonin reuptake inhibitors (SSRIs) antidepressants, opioids, and other antidepressants can induce serotonin syndrome, a rare but potentially life-threatening adverse event.\\n\\nThis study aims to investigate the risks of serotonin syndrome among different SSRIs and assess the influence of drug-drug interactions with other medications.\\n\\nWe analyzed the suspected adverse events in the US Food and Drug Administration Adverse Event Reporting System (FAERS) database.\\n\\nWe identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. Among the safety reports involving SSRIs, 4,851 cases reported at least one severe outcome. All active substances of the SSRI group were associated with serotonin syndrome, sertraline, and fluoxetine had the most reports, while fluvoxamine had the highest ROR and risk compared to all other SSRIs (ROR: 2.66, 95% confidence interval: 2.33-3.05). The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combinations of SSRIs with serotonin-norepinephrine reuptake inhibitors (ROR 25.42) and \\\"other antidepressants\\\" (ROR 22.74) were associated with a signal for serotonin syndrome. The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).\\n\\nClose monitoring for symptoms of serotonin syndrome should be considered in patients with depression with a combination of antidepressants, and in those on SSRIs who also require linezolid, monoamine oxidase inhibitors or high-risk opioids, like tramadol, or fentanyl. </p>.\"},{\"pmid\":\"38627042\",\"title\":\"Serotonin syndrome presenting as acute dizziness with supine hypertension and orthostatic hypotension.\",\"journal\":\"BMJ case reports\",\"year\":\"2024\",\"abstractText\":\"Serotonin syndrome (SS) is a drug-induced clinical syndrome characterised by a combination of cognitive, neuromuscular and autonomic dysfunctions. The symptoms may include mild non-specific symptoms such as tremors and diarrhoea to coma and sudden death. Herein, we describe a case of SS in which acute dizziness was associated with supine hypertension and orthostatic hypotension. A man in his mid-30s had a 10-month history of anxiety, depression and chronic tension-type headache. He had been on amitriptyline (25 mg daily) and sertraline (50 mg daily). Increment of sertraline (75 mg daily) and amitriptyline (75 mg daily) and the addition of tramadol led to the development of acute severe dizziness. Physical examinations demonstrate supine hypertension and orthostatic hypotension. He also met the diagnostic criteria of SS. The administration of cyproheptadine provided a complete response to dizziness, supine hypertension, orthostatic hypotension and other clinical features of SS.\",\"publicationTypes\":[\"Case Reports\",\"Journal Article\"],\"firstAuthor\":\"Prakash\",\"kind\":\"pubmed\",\"id\":\"38627042\",\"text\":\"Serotonin syndrome (SS) is a drug-induced clinical syndrome characterised by a combination of cognitive, neuromuscular and autonomic dysfunctions. The symptoms may include mild non-specific symptoms such as tremors and diarrhoea to coma and sudden death. Herein, we describe a case of SS in which acute dizziness was associated with supine hypertension and orthostatic hypotension. A man in his mid-30s had a 10-month history of anxiety, depression and chronic tension-type headache. He had been on amitriptyline (25 mg daily) and sertraline (50 mg daily). Increment of sertraline (75 mg daily) and amitriptyline (75 mg daily) and the addition of tramadol led to the development of acute severe dizziness. Physical examinations demonstrate supine hypertension and orthostatic hypotension. He also met the diagnostic criteria of SS. The administration of cyproheptadine provided a complete response to dizziness, supine hypertension, orthostatic hypotension and other clinical features of SS.\"}]",
+      "t": 15467
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fbccf070f7a81782ef617a6e7c",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+        "sourceId": "40288362",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "FAERS analysis linked SSRI with tramadol to serotonin syndrome safety signal."
+      },
+      "t": 28371
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "FAERS analysis linked SSRI with tramadol to serotonin syndrome safety signal.",
+        "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+        "source": {
+          "kind": "pubmed",
+          "id": "40288362"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 28371
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fbccf070f7a81782ef617a6e7c",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 28371
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fbfeac71b396b6a268fd8aabc6",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "A man in his mid-30s had a 10-month history of anxiety, depression and chronic tension-type headache. He had been on amitriptyline (25 mg daily) and sertraline (50 mg daily). Increment of sertraline (75 mg daily) and amitriptyline (75 mg daily) and the addition of tramadol led to the development of acute severe dizziness. Physical examinations demonstrate supine hypertension and orthostatic hypotension. He also met the diagnostic criteria of SS.",
+        "sourceId": "38627042",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Man taking sertraline with tramadol developed serotonin syndrome with dizziness and blood pressure changes."
+      },
+      "t": 40986
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Man taking sertraline with tramadol developed serotonin syndrome with dizziness and blood pressure changes.",
+        "quote": "A man in his mid-30s had a 10-month history of anxiety, depression and chronic tension-type headache. He had been on amitriptyline (25 mg daily) and sertraline (50 mg daily). Increment of sertraline (75 mg daily) and amitriptyline (75 mg daily) and the addition of tramadol led to the development of acute severe dizziness. Physical examinations demonstrate supine hypertension and orthostatic hypotension. He also met the diagnostic criteria of SS.",
+        "source": {
+          "kind": "pubmed",
+          "id": "38627042"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 40986
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fbfeac71b396b6a268fd8aabc6",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 40986
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc281671d8a450b1f73a12cb95",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "Background: Medications exhibiting serotonergic properties, such as selective serotonin reuptake inhibitors (SSRIs) antidepressants, opioids, and other antidepressants can induce serotonin syndrome, a rare but potentially life-threatening adverse event.",
+        "sourceId": "40288362",
+        "sourceKind": "pubmed",
+        "stance": "mechanism",
+        "text": "Serotonergic properties of SSRIs and opioids can induce serotonin syndrome."
+      },
+      "t": 50774
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Serotonergic properties of SSRIs and opioids can induce serotonin syndrome.",
+        "quote": "Background: Medications exhibiting serotonergic properties, such as selective serotonin reuptake inhibitors (SSRIs) antidepressants, opioids, and other antidepressants can induce serotonin syndrome, a rare but potentially life-threatening adverse event.",
+        "source": {
+          "kind": "pubmed",
+          "id": "40288362"
+        },
+        "stance": "mechanism",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 50774
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc281671d8a450b1f73a12cb95",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 50774
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 59781
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 59781
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "not_found",
+      "t": 59783
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 59783
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 59784
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote supports increases_risk because the label reports serotonin syndrome particularly with concomitant use of SSRIs including sertraline and other serotonergic drugs explicitly including tramadol.",
+      "model": "muse-wonder-1.0",
+      "t": 63088
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "supports",
+      "rationale": "Supports, because the quote explicitly states that the serotonergic properties of SSRIs and opioids can induce serotonin syndrome, matching the claim's qualified class-level mechanism relevant to sertraline and tramadol.",
+      "model": "muse-wonder-1.0",
+      "t": 65764
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "does_not_support",
+      "rationale": "The quote attributes serotonin syndrome to increased sertraline and amitriptyline plus added tramadol, so it cannot support attributing the event to the sertraline–tramadol pair alone.",
+      "model": "muse-wonder-1.0",
+      "t": 66258
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 1 rejected claims",
+      "t": 66258
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fc966d709dadf9ed66d67727f6",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. Among the safety reports involving SSRIs, 4,851 cases reported at least one severe outcome. All active substances of the SSRI group were associated with serotonin syndrome, sertraline, and fluoxetine had the most reports, while fluvoxamine had the highest ROR and risk compared to all other SSRIs (ROR: 2.66, 95% confidence interval: 2.33-3.05). The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combinations of SSRIs with serotonin-norepinephrine reuptake inhibitors (ROR 25.42) and \"other antidepressants\" (ROR 22.74) were associated with a signal for serotonin syndrome. The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+        "sourceId": "40288362",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "FAERS analysis linked sertraline-containing SSRI plus tramadol reports to serotonin syndrome signal."
+      },
+      "t": 81355
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "FAERS analysis linked sertraline-containing SSRI plus tramadol reports to serotonin syndrome signal.",
+        "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. Among the safety reports involving SSRIs, 4,851 cases reported at least one severe outcome. All active substances of the SSRI group were associated with serotonin syndrome, sertraline, and fluoxetine had the most reports, while fluvoxamine had the highest ROR and risk compared to all other SSRIs (ROR: 2.66, 95% confidence interval: 2.33-3.05). The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combinations of SSRIs with serotonin-norepinephrine reuptake inhibitors (ROR 25.42) and \"other antidepressants\" (ROR 22.74) were associated with a signal for serotonin syndrome. The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+        "source": {
+          "kind": "pubmed",
+          "id": "40288362"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 81355
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fc966d709dadf9ed66d67727f6",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 81355
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "matched",
+      "t": 81355
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c5",
+      "support": "does_not_support",
+      "rationale": "does_not_support — The quote reports an SSRI-class plus opioid/tramadol serotonin-syndrome signal and sertraline reports separately, but provides no sertraline-plus-tramadol co-exposure result to support that specific pair claim.",
+      "model": "muse-wonder-1.0",
+      "t": 87947
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 102733
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 1.",
+      "t": 119225
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "sertraline__tramadol",
+        "a": "sertraline",
+        "b": "tramadol",
+        "category": "serotonin",
+        "depth": "limited",
+        "headline": {
+          "text": "Concomitant sertraline and tramadol increases serotonin syndrome risk",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "Concomitant sertraline and tramadol use is associated with potentially life-threatening serotonin syndrome involving mental, autonomic, neuromuscular, seizure, and gastrointestinal symptoms.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "no_human_data",
+            "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Sertraline or Tramadol, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Sertraline and Tramadol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states concomitant sertraline with tramadol increases serotonin syndrome risk.",
+            "quote": "The development of a potentially life-threatening serotonin syndrome has been reported with SNRIs and SSRIs, including Sertraline hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs, both those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms(e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+            "source": {
+              "kind": "fda_label",
+              "id": "00179766-980b-44b0-99d3-1fee2bb27e37#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote supports increases_risk because the label reports serotonin syndrome particularly with concomitant use of SSRIs including sertraline and other serotonergic drugs explicitly including tramadol.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "FAERS analysis linked SSRI with tramadol to serotonin syndrome safety signal.",
+            "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+            "source": {
+              "kind": "pubmed",
+              "id": "40288362"
+            },
+            "stance": "increases_risk",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c3",
+            "text": "Man taking sertraline with tramadol developed serotonin syndrome with dizziness and blood pressure changes.",
+            "quote": "A man in his mid-30s had a 10-month history of anxiety, depression and chronic tension-type headache. He had been on amitriptyline (25 mg daily) and sertraline (50 mg daily). Increment of sertraline (75 mg daily) and amitriptyline (75 mg daily) and the addition of tramadol led to the development of acute severe dizziness. Physical examinations demonstrate supine hypertension and orthostatic hypotension. He also met the diagnostic criteria of SS.",
+            "source": {
+              "kind": "pubmed",
+              "id": "38627042"
+            },
+            "stance": "increases_risk",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "The quote attributes serotonin syndrome to increased sertraline and amitriptyline plus added tramadol, so it cannot support attributing the event to the sertraline–tramadol pair alone.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c4",
+            "text": "Serotonergic properties of SSRIs and opioids can induce serotonin syndrome.",
+            "quote": "Background: Medications exhibiting serotonergic properties, such as selective serotonin reuptake inhibitors (SSRIs) antidepressants, opioids, and other antidepressants can induce serotonin syndrome, a rare but potentially life-threatening adverse event.",
+            "source": {
+              "kind": "pubmed",
+              "id": "40288362"
+            },
+            "stance": "mechanism",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports, because the quote explicitly states that the serotonergic properties of SSRIs and opioids can induce serotonin syndrome, matching the claim's qualified class-level mechanism relevant to sertraline and tramadol.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c5",
+            "text": "FAERS analysis linked sertraline-containing SSRI plus tramadol reports to serotonin syndrome signal.",
+            "quote": "We identified 13,312 reports of serotonin syndrome, 52% of which involved SSRIs (n = 6,921), with reporting odds ratios (RORs) of 24.19. Among the safety reports involving SSRIs, 4,851 cases reported at least one severe outcome. All active substances of the SSRI group were associated with serotonin syndrome, sertraline, and fluoxetine had the most reports, while fluvoxamine had the highest ROR and risk compared to all other SSRIs (ROR: 2.66, 95% confidence interval: 2.33-3.05). The combinations of SSRIs with other drugs with the most reported cases were SSRIs-antidepressants (n = 2,395) and SSRIs-opioids (n = 2,252). The combinations of SSRIs with serotonin-norepinephrine reuptake inhibitors (ROR 25.42) and \"other antidepressants\" (ROR 22.74) were associated with a signal for serotonin syndrome. The combination SSRIs-opioids was associated with a safety signal, particularly those with higher risk for serotonin syndrome, like tramadol and fentanyl (ROR 41.95).",
+            "source": {
+              "kind": "pubmed",
+              "id": "40288362"
+            },
+            "stance": "increases_risk",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support — The quote reports an SSRI-class plus opioid/tramadol serotonin-syndrome signal and sertraline reports separately, but provides no sertraline-plus-tramadol co-exposure result to support that specific pair claim.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "00179766-980b-44b0-99d3-1fee2bb27e37#warnings",
+            "title": "Warnings",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00179766-980b-44b0-99d3-1fee2bb27e37",
+            "citation": "FDA label · Warnings",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "40288362",
+            "title": "Selective Serotonin Reuptake Inhibitors and Risk of Serotonin Syndrome as Consequence of Drug-Drug Interactions: Analysis of the FDA Adverse Event Reporting System.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40288362/",
+            "citation": "Elli et al. · Medical principles and practice : international journal of the Kuwait University, Health Science Centre 2025",
+            "design": "other",
+            "year": 2025,
+            "sampleSize": 13312
+          },
+          {
+            "kind": "pubmed",
+            "id": "38627042",
+            "title": "Serotonin syndrome presenting as acute dizziness with supine hypertension and orthostatic hypotension.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38627042/",
+            "citation": "Prakash et al. · BMJ case reports 2024",
+            "design": "case_report",
+            "year": 2024
+          }
+        ],
+        "generatedAt": "2026-11-03T19:57:46.972Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "serious_warning",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 119225
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pair": "abacavir__atazanavir",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Spanish atazanavir label says coadministration of abacavir and atazanavir is not expected to significantly change abacavir exposure.",
+      "quote": "No se espera que la coadministración de abacavir y atazanavir altere significativamente la exposición de abacavir.",
+      "quoteEnglish": "Coadministration of abacavir and atazanavir is not expected to significantly alter abacavir exposure.",
+      "sourceId": "ES:80654#4.5",
+      "stance": "uncertain",
+      "outcome": "altered_exposure"
+    }
+  ],
+  "headline": {
+    "text": "The Spanish atazanavir label says abacavir exposure is not expected to change significantly with atazanavir (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The statement is an expectation based on other nucleoside inhibitor data in the label, not a reported abacavir study (c1).",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search; the Altair trial compared separate regimens.",
+      "searched": [
+        "\"abacavir\"[tiab] AND \"atazanavir\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

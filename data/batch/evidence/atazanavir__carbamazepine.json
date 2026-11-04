@@ -1,0 +1,172 @@
+{
+  "card": {
+    "pair": "atazanavir__carbamazepine",
+    "a": "atazanavir",
+    "b": "carbamazepine",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "The FDA label lists carbamazepine with atazanavir as contraindicated because of possible loss of virologic response and resistance.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA table indicates decreased atazanavir and increased carbamazepine exposure with coadministration.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The Spanish label attributes increased carbamazepine levels to atazanavir's CYP3A4 inhibition.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label lists atazanavir with carbamazepine as contraindicated because of possible loss of virologic response and resistance.",
+        "quote": "Antiepileptics: carbamazepine ↓ atazanavir ↑ carbamazepine Coadministration of atazanavir (with or without ritonavir) with carbamazepine is contraindicated due to the risk for loss of virologic response and development of resistance [see Contraindications (4) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The atazanavir interaction table marks carbamazepine as contraindicated, lowering atazanavir and raising carbamazepine, due to risk of virologic failure and resistance.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish label says atazanavir can increase carbamazepine plasma levels through CYP3A4 inhibition.",
+        "quote": "Atazanavir puede aumentar los niveles plasmáticos de carbamazepina debido a la inhibición del CYP3A4.",
+        "quoteEnglish": "Atazanavir may increase carbamazepine plasma levels through CYP3A4 inhibition.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:80654#4.5"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish label says atazanavir may raise carbamazepine levels through CYP3A4 inhibition, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#contraindications",
+        "title": "atazanavir: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions",
+        "title": "atazanavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:80654#4.5",
+        "title": "ATAZANAVIR TEVA 200 MG CAPSULAS DURAS EFG: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=80654&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7c1dd8ce-c490-40b4-b17a-da331df24cba#precautions",
+        "title": "carbamazepine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c1dd8ce-c490-40b4-b17a-da331df24cba",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31743292",
+        "title": "Drug-Drug Interactions Between Antiretrovirals and Carbamazepine/Oxcarbazepine: A Real-Life Investigation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31743292/",
+        "citation": "1536-3694 42 2 2020 Apr Therapeutic drug monitoring Ther Drug Monit",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35605926",
+        "title": "Structured solubility behaviour in bioequivalent fasted simulated intestinal fluids.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35605926/",
+        "citation": "1873-3441 176 2022 Jul European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V Eur J Pharm Biopharm",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37890541",
+        "title": "Structured solubility behaviour in fed simulated intestinal fluids.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37890541/",
+        "citation": "1873-3441 193 2023 Dec European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V Eur J Pharm Biopharm",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "23745048",
+        "title": "Pharmacokinetic drug interaction profile of omeprazole with adverse consequences and clinical risk management.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23745048/",
+        "citation": "1176-6336 9 2013 Therapeutics and clinical risk management Ther Clin Risk Manag",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Atazanavir or Carbamazepine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Atazanavir and Carbamazepine, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.659Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

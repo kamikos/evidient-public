@@ -1,0 +1,137 @@
+{
+  "card": {
+    "pair": "amitriptyline__amphetamine",
+    "a": "amitriptyline",
+    "b": "amphetamine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA amitriptyline label flags concomitant sympathomimetic drugs without specifying an outcome for amphetamine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The relevant label statement concerns the sympathomimetic class and gives no measured effect size.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA amitriptyline label calls for close supervision and dose adjustment with sympathomimetic drugs, the class covering amphetamine, without specifying an interaction outcome.",
+        "quote": "When amitriptyline hydrochloride is given with anticholinergic agents or sympathomimetic drugs, including epinephrine combined with local anesthetics, close supervision and careful adjustment of dosages are required.",
+        "source": {
+          "kind": "fda_label",
+          "id": "61b29703-cfc2-45c7-ae24-7bf3b77e8587#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "unspecified_interaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label calls for close supervision and dose adjustment with sympathomimetic drugs, a class that includes amphetamine, and names no specific outcome.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "61b29703-cfc2-45c7-ae24-7bf3b77e8587#contraindications",
+        "title": "amitriptyline: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61b29703-cfc2-45c7-ae24-7bf3b77e8587",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "61b29703-cfc2-45c7-ae24-7bf3b77e8587#precautions",
+        "title": "amitriptyline: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61b29703-cfc2-45c7-ae24-7bf3b77e8587",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "61b29703-cfc2-45c7-ae24-7bf3b77e8587#drug_interactions",
+        "title": "amitriptyline: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=61b29703-cfc2-45c7-ae24-7bf3b77e8587",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28655495",
+        "title": "Tranylcypromine in mind (Part I): Review of pharmacology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28655495/",
+        "citation": "1873-7862 27 8 2017 Aug European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology Eur Neuropsychopharmacol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40738618",
+        "title": "Urinary metabolic ratio of pain management and substance abuse treatment drugs: Drug-drug interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40738618/",
+        "citation": "1551-7489 21 7 2025 Special Supplement: Data and Analysis of Apr Million Drug Samples Journal of opioid management J Opioid Manag",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26313333",
+        "title": "Sensitive determination of plasma protein binding of cationic drugs using mixed-mode solid-phase microextraction.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26313333/",
+        "citation": "1873-264X 115 2015 Nov 10 Journal of pharmaceutical and biomedical analysis J Pharm Biomed Anal",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amitriptyline or Amphetamine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amitriptyline and Amphetamine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The retrieved abstracts provide no specific clinical interaction result for amitriptyline combined with amphetamine.",
+        "searched": [
+          "\"amitriptyline\"[tiab] AND \"amphetamine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.644Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

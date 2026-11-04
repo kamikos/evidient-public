@@ -1,0 +1,760 @@
+{
+  "card": {
+    "pair": "alcohol__pregabalin",
+    "a": "alcohol",
+    "b": "pregabalin",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Pregabalin with alcohol showed additive effects on thinking and movement",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes additive effects on cognitive and gross motor functioning when pregabalin was combined with ethanol, with no clinically important effects on respiration.",
+        "claimIds": [
+          "c1",
+          "c3"
+        ]
+      },
+      {
+        "text": "The label describes no effect on ethanol and pregabalin pharmacokinetics in healthy subjects.",
+        "claimIds": [
+          "c2"
+        ]
+      },
+      {
+        "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of ethanol.",
+        "claimIds": [
+          "cEU1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "origin": "batch",
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No human studies found on pregabalin ethanol cognitive motor effects in healthy subjects.",
+        "searched": [
+          "pregabalin ethanol cognitive motor healthy subjects"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Pregabalin and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states pregabalin with ethanol showed additive effects on cognitive and gross motor functioning.",
+        "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cognitive_motor_impairment",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly reports additive cognitive and gross motor effects when pregabalin was co-administered with ethanol, supporting an increased-risk stance for the pair.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "The label states pregabalin 300 mg twice daily in healthy subjects did not affect ethanol pharmacokinetics and vice versa.",
+        "quote": "Multiple-dose administration of pregabalin (300 mg twice a day) in healthy subjects had no effect on the rate and extent of ethanol single-dose pharmacokinetics and single-dose administration of ethanol (0.7 g/kg) had no effect on the steady-state pharmacokinetics of pregabalin.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "ethanol_pharmacokinetics",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly reports a measured null pharmacokinetic effect in healthy subjects for pregabalin 300 mg twice daily with ethanol and for ethanol on pregabalin.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "The label states co-administered pregabalin with ethanol showed no clinically important effects on respiration.",
+        "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs. No clinically important effects on respiration were seen.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "respiratory_effect",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that co-administration of pregabalin with ethanol was among the combinations showing no clinically important respiratory effects.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c4",
+        "text": "The review states pregabalin needs further clinical evidence of efficacy, safety and tolerability.",
+        "quote": "Pregabalin, neurosteroids, tiagabine, and vigabatrin need further clinical evidence of efficacy, safety and tolerability.",
+        "source": {
+          "kind": "pubmed",
+          "id": "20482512"
+        },
+        "stance": "uncertain",
+        "outcome": "treatment_evidence",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The quote calls for further evidence on pregabalin alone without mentioning alcohol or ethanol co-exposure, so it does not establish uncertainty about the alcohol-pregabalin pair.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "cEU1",
+        "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of ethanol.",
+        "quote": "Pregabalin may potentiate the effects of ethanol and lorazepam.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "EU:EMEA/H/C/000546#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab06a36d-9a2d-4eae-8991-4eab5bc8311c",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology",
+        "title": "Clinical Pharmacology",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab06a36d-9a2d-4eae-8991-4eab5bc8311c",
+        "citation": "FDA label · Clinical Pharmacology",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20482512",
+        "title": "Medications acting on the GABA system in the treatment of alcoholic patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20482512/",
+        "citation": "Caputo et al. · Current pharmaceutical design 2010",
+        "design": "review",
+        "year": 2010
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/000546#4.5",
+        "title": "Lyrica: 4.5",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Lyrica, https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.5",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-04T18:37:07.559Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0, claude-opus-5-5",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c3",
+        "cEU1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__pregabalin",
+      "at": "2026-11-03T22:59:06.817Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Read 4 FDA label sections; found 2 matching passages.",
+      "t": 20
+    },
+    {
+      "type": "tool_result",
+      "callId": "prescan:ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions",
+      "summary": " Pharmacodynamics Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol.",
+      "sourceIds": [
+        "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+      ],
+      "t": 20
+    },
+    {
+      "type": "tool_result",
+      "callId": "prescan:ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology",
+      "summary": " Ethanol Multiple-dose administration of pregabalin (300 mg twice a day) in healthy subjects had no effect on the rate and extent of ethanol single-dose pharmacokinetics and single-dose administration of ethanol (0.",
+      "sourceIds": [
+        "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology"
+      ],
+      "t": 20
+    },
+    {
+      "type": "thinking",
+      "text": "Reading fetched FDA label sections.",
+      "t": 21
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:ab06a36d-9a2d-4eae-8991-4eab5bc8311c#contraindications",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#contraindications"
+      ],
+      "t": 21
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:ab06a36d-9a2d-4eae-8991-4eab5bc8311c#warnings_and_cautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#warnings_and_cautions"
+      ],
+      "t": 21
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+      ],
+      "t": 21
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology"
+      ],
+      "t": 21
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a35d2c723a95ff3dbe5a5cf549",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cognitive_motor_impairment",
+        "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs.",
+        "sourceId": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states pregabalin with ethanol showed additive effects on cognitive and gross motor functioning."
+      },
+      "t": 9527
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states pregabalin with ethanol showed additive effects on cognitive and gross motor functioning.",
+        "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cognitive_motor_impairment"
+      },
+      "t": 9528
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a35d2c723a95ff3dbe5a5cf549",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 9528
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a385c172baa5fdccf4712cf0f3",
+      "name": "record_claim",
+      "args": {
+        "outcome": "ethanol_pharmacokinetics",
+        "quote": "Multiple-dose administration of pregabalin (300 mg twice a day) in healthy subjects had no effect on the rate and extent of ethanol single-dose pharmacokinetics and single-dose administration of ethanol (0.7 g/kg) had no effect on the steady-state pharmacokinetics of pregabalin.",
+        "sourceId": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology",
+        "sourceKind": "fda_label",
+        "stance": "no_effect_observed",
+        "text": "The label states pregabalin 300 mg twice daily in healthy subjects did not affect ethanol pharmacokinetics and vice versa."
+      },
+      "t": 22101
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states pregabalin 300 mg twice daily in healthy subjects did not affect ethanol pharmacokinetics and vice versa.",
+        "quote": "Multiple-dose administration of pregabalin (300 mg twice a day) in healthy subjects had no effect on the rate and extent of ethanol single-dose pharmacokinetics and single-dose administration of ethanol (0.7 g/kg) had no effect on the steady-state pharmacokinetics of pregabalin.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "ethanol_pharmacokinetics"
+      },
+      "t": 22101
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a385c172baa5fdccf4712cf0f3",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 22101
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a3aa937071ad4baa1bcc70779a",
+      "name": "record_claim",
+      "args": {
+        "outcome": "respiratory_effect",
+        "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs. No clinically important effects on respiration were seen.",
+        "sourceId": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "no_effect_observed",
+        "text": "The label states co-administered pregabalin with ethanol showed no clinically important effects on respiration."
+      },
+      "t": 31016
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "The label states co-administered pregabalin with ethanol showed no clinically important effects on respiration.",
+        "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs. No clinically important effects on respiration were seen.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "respiratory_effect"
+      },
+      "t": 31016
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a3aa937071ad4baa1bcc70779a",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 31016
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a3c7f67311b37e6ebfcc479c5c",
+      "name": "search_pubmed",
+      "args": {
+        "query": "pregabalin alcohol ethanol interaction human"
+      },
+      "t": 37544
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a3c7f67311b37e6ebfcc479c5c",
+      "summary": "search_pubmed completed: {\"query\":\"pregabalin alcohol ethanol interaction human\",\"pmids\":[\"20482512\"]}",
+      "t": 37770
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a3ebb974bd851a0c943e261415",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "20482512"
+        ]
+      },
+      "t": 46177
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a3ebb974bd851a0c943e261415",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"20482512\",\"title\":\"Medications acting on the GABA system in the treatment of alcoholic patients.\",\"journal\":\"Current pharmaceutical design\",\"year\":\"2010\",\"abstractText\":\"Gamma aminobutyric acid (GABA) represents the major inhibitory neurotransmitter of the centra",
+      "t": 46672
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a3ec9e75da849c1eb8c7d9cb97",
+      "name": "search_pubmed",
+      "args": {
+        "query": "pregabalin ethanol cognitive motor healthy subjects"
+      },
+      "t": 46672
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a3ec9e75da849c1eb8c7d9cb97",
+      "summary": "search_pubmed completed: {\"query\":\"pregabalin ethanol cognitive motor healthy subjects\",\"pmids\":[]}",
+      "t": 46900
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a419dc72cc9ed2b2e102ff45f8",
+      "name": "record_claim",
+      "args": {
+        "outcome": "treatment_evidence",
+        "quote": "Pregabalin, neurosteroids, tiagabine, and vigabatrin need further clinical evidence of efficacy, safety and tolerability.",
+        "sourceId": "20482512",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "The review states pregabalin needs further clinical evidence of efficacy, safety and tolerability."
+      },
+      "t": 58530
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "The review states pregabalin needs further clinical evidence of efficacy, safety and tolerability.",
+        "quote": "Pregabalin, neurosteroids, tiagabine, and vigabatrin need further clinical evidence of efficacy, safety and tolerability.",
+        "source": {
+          "kind": "pubmed",
+          "id": "20482512"
+        },
+        "stance": "uncertain",
+        "outcome": "treatment_evidence"
+      },
+      "t": 58530
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a419dc72cc9ed2b2e102ff45f8",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 58530
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a4487e736f9f5365ed2a019620",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "pregabalin alcohol ethanol interaction human",
+          "pregabalin ethanol cognitive motor healthy subjects"
+        ],
+        "text": "No retrieved human study directly confirmed or contradicted label findings on additive cognitive-motor effects or ethanol pharmacokinetics."
+      },
+      "t": 71113
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a4487e736f9f5365ed2a019620",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 71113
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3a468ce7622a6bf4fe9a0e225f0",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "pregabalin ethanol cognitive motor healthy subjects"
+        ],
+        "text": "No human studies found on pregabalin ethanol cognitive motor effects in healthy subjects."
+      },
+      "t": 79078
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No human studies found on pregabalin ethanol cognitive motor effects in healthy subjects.",
+        "searched": [
+          "pregabalin ethanol cognitive motor healthy subjects"
+        ]
+      },
+      "t": 79078
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3a468ce7622a6bf4fe9a0e225f0",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 79078
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 79078
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 79079
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 79079
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 79079
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 79079
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly reports additive cognitive and gross motor effects when pregabalin was co-administered with ethanol, supporting an increased-risk stance for the pair.",
+      "model": "muse-wonder-1.0",
+      "t": 97695
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly reports a measured null pharmacokinetic effect in healthy subjects for pregabalin 300 mg twice daily with ethanol and for ethanol on pregabalin.",
+      "model": "muse-wonder-1.0",
+      "t": 97695
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote explicitly states that co-administration of pregabalin with ethanol was among the combinations showing no clinically important respiratory effects.",
+      "model": "muse-wonder-1.0",
+      "t": 97695
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "does_not_support",
+      "rationale": "The quote calls for further evidence on pregabalin alone without mentioning alcohol or ethanol co-exposure, so it does not establish uncertainty about the alcohol-pregabalin pair.",
+      "model": "muse-wonder-1.0",
+      "t": 97695
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 102648
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 0.",
+      "t": 128952
+    },
+    {
+      "type": "thinking",
+      "text": "Category cns_depression: The label states pregabalin co-administered with ethanol showed additive effects on cognitive and gross motor functioning.",
+      "t": 133284
+    },
+    {
+      "type": "thinking",
+      "text": "Estimated model spend: $0.209448",
+      "t": 138730
+    },
+    {
+      "type": "thinking",
+      "text": "Made 17 external requests",
+      "t": 138730
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__pregabalin",
+        "a": "alcohol",
+        "b": "pregabalin",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Pregabalin with alcohol showed additive effects on thinking and movement",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label describes additive effects on cognitive and gross motor functioning when pregabalin was combined with ethanol, with no clinically important effects on respiration.",
+            "claimIds": [
+              "c1",
+              "c3"
+            ]
+          },
+          {
+            "text": "The label describes no effect on ethanol and pregabalin pharmacokinetics in healthy subjects.",
+            "claimIds": [
+              "c2"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "origin": "requested",
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No human studies found on pregabalin ethanol cognitive motor effects in healthy subjects.",
+            "searched": [
+              "pregabalin ethanol cognitive motor healthy subjects"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking pregabalin and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states pregabalin with ethanol showed additive effects on cognitive and gross motor functioning.",
+            "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs.",
+            "source": {
+              "kind": "fda_label",
+              "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cognitive_motor_impairment",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly reports additive cognitive and gross motor effects when pregabalin was co-administered with ethanol, supporting an increased-risk stance for the pair.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "The label states pregabalin 300 mg twice daily in healthy subjects did not affect ethanol pharmacokinetics and vice versa.",
+            "quote": "Multiple-dose administration of pregabalin (300 mg twice a day) in healthy subjects had no effect on the rate and extent of ethanol single-dose pharmacokinetics and single-dose administration of ethanol (0.7 g/kg) had no effect on the steady-state pharmacokinetics of pregabalin.",
+            "source": {
+              "kind": "fda_label",
+              "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "ethanol_pharmacokinetics",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly reports a measured null pharmacokinetic effect in healthy subjects for pregabalin 300 mg twice daily with ethanol and for ethanol on pregabalin.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "The label states co-administered pregabalin with ethanol showed no clinically important effects on respiration.",
+            "quote": "Multiple oral doses of pregabalin were co-administered with oxycodone, lorazepam, or ethanol. Although no pharmacokinetic interactions were seen, additive effects on cognitive and gross motor functioning were seen when pregabalin was co-administered with these drugs. No clinically important effects on respiration were seen.",
+            "source": {
+              "kind": "fda_label",
+              "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "respiratory_effect",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that co-administration of pregabalin with ethanol was among the combinations showing no clinically important respiratory effects.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c4",
+            "text": "The review states pregabalin needs further clinical evidence of efficacy, safety and tolerability.",
+            "quote": "Pregabalin, neurosteroids, tiagabine, and vigabatrin need further clinical evidence of efficacy, safety and tolerability.",
+            "source": {
+              "kind": "pubmed",
+              "id": "20482512"
+            },
+            "stance": "uncertain",
+            "outcome": "treatment_evidence",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The quote calls for further evidence on pregabalin alone without mentioning alcohol or ethanol co-exposure, so it does not establish uncertainty about the alcohol-pregabalin pair.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab06a36d-9a2d-4eae-8991-4eab5bc8311c",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "fda_label",
+            "id": "ab06a36d-9a2d-4eae-8991-4eab5bc8311c#clinical_pharmacology",
+            "title": "Clinical Pharmacology",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab06a36d-9a2d-4eae-8991-4eab5bc8311c",
+            "citation": "FDA label · Clinical Pharmacology",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "20482512",
+            "title": "Medications acting on the GABA system in the treatment of alcoholic patients.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20482512/",
+            "citation": "Caputo et al. · Current pharmaceutical design 2010",
+            "design": "review",
+            "year": 2010
+          }
+        ],
+        "generatedAt": "2026-11-03T23:01:25.547Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 138730
+    }
+  ]
+}

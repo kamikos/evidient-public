@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__olopatadine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The olopatadine nasal spray label states additional reductions in alertness and CNS performance may occur with alcohol."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

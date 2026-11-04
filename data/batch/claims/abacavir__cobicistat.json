@@ -1,0 +1,20 @@
+{
+  "pair": "abacavir__cobicistat",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The cobicistat label table and the studies describe other antiretroviral combinations and do not report abacavir with cobicistat.",
+      "searched": [
+        "\"abacavir\"[tiab] AND \"cobicistat\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

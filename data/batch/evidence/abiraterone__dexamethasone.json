@@ -1,0 +1,145 @@
+{
+  "card": {
+    "pair": "abiraterone__dexamethasone",
+    "a": "abiraterone",
+    "b": "dexamethasone",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "A mouse study found dexamethasone lowered abiraterone exposure about ten-fold by area under the curve.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "A retrospective review of 53 patients found no significant potassium change with abiraterone plus dexamethasone or prednisolone.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "In mice given dexamethasone for three days before an abiraterone acetate dose, maximum plasma concentration fell about five-fold and area under the curve about ten-fold.",
+        "quote": "Our results demonstrated that dexamethasone lowered the maximum plasma concentration and area under the curve parameters by approximately five- and ten-fold, respectively.",
+        "source": {
+          "kind": "pubmed",
+          "id": "36976310"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Mouse PK study reports dexamethasone pretreatment lowered abiraterone Cmax about five-fold and AUC about ten-fold; claim states it is in mice.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "In a retrospective review of 53 patients taking abiraterone with prednisolone or dexamethasone, neither group showed significant changes in serum potassium after starting treatment.",
+        "quote": "Both groups showed no significant changes in serum potassium level before and after starting treatment.",
+        "source": {
+          "kind": "pubmed",
+          "id": "29118587"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "hypokalemia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Retrospective study of 53 patients on abiraterone with prednisolone or dexamethasone reports no significant serum potassium change in either group.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2ac063f0-4177-c90f-27c3-e70e29689255#warnings_and_cautions",
+        "title": "abiraterone: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2ac063f0-4177-c90f-27c3-e70e29689255",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36976310",
+        "title": "Effect of Dexamethasone on Abiraterone Pharmacokinetics in Mice: Determined by LC/MS Analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36976310/",
+        "citation": "2305-6320 10 3 2023 Mar 6 Medicines (Basel, Switzerland) Medicines (Basel)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "25361624",
+        "title": "Use of prednisone with abiraterone acetate in metastatic castration-resistant prostate cancer.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25361624/",
+        "citation": "1549-490X 19 12 2014 Dec The oncologist Oncologist",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "29118587",
+        "title": "Consequences of Different Corticosteroids on Serum Potassium and Prostate-Specific Antigen in Patients Receiving Abiraterone for Castration-Resistant Prostate Cancer: A Retrospective Observational Study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29118587/",
+        "citation": "1179-5549 11 2017 Clinical Medicine Insights. Oncology Clin Med Insights Oncol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37841911",
+        "title": "A new method to quantify the effect of co-medication on the efficacy of abiraterone in metastatic castration-resistant prostate cancer patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37841911/",
+        "citation": "1663-9812 14 2023 Frontiers in pharmacology Front Pharmacol",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "studies_only",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Abiraterone or Dexamethasone, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Abiraterone and Dexamethasone, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The FDA abiraterone label excerpt in the packet does not mention dexamethasone. No controlled human pharmacokinetic study was found in the PubMed search.",
+        "searched": [
+          "\"abiraterone\"[tiab] AND \"dexamethasone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.526Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

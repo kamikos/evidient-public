@@ -1,0 +1,67 @@
+{
+  "pair": "buprenorphine__chlordiazepoxide",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA buprenorphine label says concomitant use with benzodiazepines or other CNS depressants increases the risk of overdose, respiratory depression and death.",
+      "quote": "Concomitant use of buprenorphine and benzodiazepines or other CNS depressants increases the risk of adverse reactions including overdose, respiratory depression, and death.",
+      "sourceId": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA chlordiazepoxide label says concomitant use of benzodiazepines, including chlordiazepoxide, and opioids may cause profound sedation, respiratory depression, coma and death.",
+      "quote": "Concomitant use of benzodiazepines, including chlordiazepoxide, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+      "sourceId": "9aba3135-00ff-47ba-b926-55eb16b361bf#warnings",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c3",
+      "text": "The chlordiazepoxide label states benzodiazepines act at GABA A sites and opioids mainly at mu receptors.",
+      "quote": "Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors.",
+      "sourceId": "9aba3135-00ff-47ba-b926-55eb16b361bf#precautions",
+      "stance": "mechanism",
+      "outcome": "cns_depression"
+    }
+  ],
+  "headline": {
+    "text": "Both FDA labels warn that benzodiazepines used with buprenorphine or other opioids raise the risk of respiratory depression, coma and death (c1, c2).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA buprenorphine label says concomitant use with benzodiazepines increases the risk of overdose, respiratory depression and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "The FDA chlordiazepoxide label says use with opioids may result in profound sedation, respiratory depression, coma and death.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The chlordiazepoxide label says benzodiazepines act at GABA A sites and opioids primarily at mu receptors.",
+      "claimIds": [
+        "c3"
+      ]
+    }
+  ],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"buprenorphine\"[tiab] AND \"chlordiazepoxide\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pair": "abacavir__buprenorphine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Quote is the buprenorphine label NRTI class statement and abacavir is an NRTI; the claim reproduces it accurately."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

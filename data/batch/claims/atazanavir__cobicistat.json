@@ -1,0 +1,69 @@
+{
+  "pair": "atazanavir__cobicistat",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Spanish Tybost label says plasma concentrations of CYP3A-metabolized drugs, including atazanavir and darunavir, increase when given with cobicistat.",
+      "quote": "Se observa un aumento de las concentraciones plasmáticas de los medicamentos metabolizados por el CYP3A (entre ellos atazanavir y darunavir) cuando se administran de forma concomitante con cobicistat.",
+      "quoteEnglish": "An increase in plasma concentrations of drugs metabolized by CYP3A (among them atazanavir and darunavir) is observed when they are administered concomitantly with cobicistat.",
+      "sourceId": "ES:113872001#4.4",
+      "stance": "mechanism",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "c2",
+      "text": "The Spanish Tybost label says treatment with cobicistat and atazanavir or darunavir in the second and third trimesters of pregnancy produced lower atazanavir or darunavir exposure than postpartum.",
+      "quote": "Se ha demostrado que el tratamiento con cobicistat y atazanavir o darunavir durante el segundo y tercer trimestre de embarazo produce menores exposiciones a atazanavir o darunavir en comparación con el posparto.",
+      "quoteEnglish": "Treatment with cobicistat and atazanavir or darunavir during the second and third trimester of pregnancy has been shown to produce lower exposures to atazanavir or darunavir compared with postpartum.",
+      "sourceId": "ES:113872001#4.4",
+      "stance": "increases_risk",
+      "outcome": "reduced_exposure"
+    },
+    {
+      "id": "c3",
+      "text": "A review says bioequivalence between cobicistat and ritonavir as a pharmacoenhancer of atazanavir was established.",
+      "quote": "Bioequivalence between cobicistat (COBI) and ritonavir (RTV) as a pharmacoenhancer of ATV was established.",
+      "sourceId": "28443391",
+      "stance": "mechanism",
+      "outcome": "increased_exposure"
+    }
+  ],
+  "headline": {
+    "text": "The Spanish Tybost label says plasma concentrations of CYP3A-metabolized drugs, including atazanavir, increase when given with cobicistat (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The same label reports lower atazanavir or darunavir exposure in late pregnancy with cobicistat than postpartum (c2).",
+      "claimIds": [
+        "c2"
+      ]
+    },
+    {
+      "text": "A review reports bioequivalence between cobicistat and ritonavir as an atazanavir pharmacoenhancer (c3).",
+      "claimIds": [
+        "c3"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The Spanish label links the rise in atazanavir concentrations to cobicistat acting on CYP3A-metabolized drugs (c1).",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The FDA Tybost label excerpts in the packet describe cobicistat with atazanavir mainly in relation to other drugs; no controlled study of atazanavir with cobicistat was among the PubMed records.",
+      "searched": [
+        "\"atazanavir\"[tiab] AND \"cobicistat\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

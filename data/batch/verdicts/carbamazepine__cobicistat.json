@@ -1,0 +1,30 @@
+{
+  "pair": "carbamazepine__cobicistat",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The cobicistat table states coadministration with carbamazepine is contraindicated due to potential loss of therapeutic effect and resistance."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The French carbamazepine label states a risk of reduced cobicistat efficacy through increased metabolism by carbamazepine, and the translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

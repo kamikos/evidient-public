@@ -1,0 +1,46 @@
+{
+  "pair": "abiraterone__dexamethasone",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In mice given dexamethasone for three days before an abiraterone acetate dose, maximum plasma concentration fell about five-fold and area under the curve about ten-fold.",
+      "quote": "Our results demonstrated that dexamethasone lowered the maximum plasma concentration and area under the curve parameters by approximately five- and ten-fold, respectively.",
+      "sourceId": "36976310",
+      "stance": "increases_risk",
+      "outcome": "reduced_exposure"
+    },
+    {
+      "id": "c2",
+      "text": "In a retrospective review of 53 patients taking abiraterone with prednisolone or dexamethasone, neither group showed significant changes in serum potassium after starting treatment.",
+      "quote": "Both groups showed no significant changes in serum potassium level before and after starting treatment.",
+      "sourceId": "29118587",
+      "stance": "no_effect_observed",
+      "outcome": "hypokalemia"
+    }
+  ],
+  "headline": {
+    "text": "A mouse study found dexamethasone lowered abiraterone exposure about ten-fold by area under the curve (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "A retrospective review of 53 patients found no significant potassium change with abiraterone plus dexamethasone or prednisolone (c2).",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "efficacy",
+  "gaps": [
+    {
+      "text": "The FDA abiraterone label excerpt in the packet does not mention dexamethasone. No controlled human pharmacokinetic study was found in the PubMed search.",
+      "searched": [
+        "\"abiraterone\"[tiab] AND \"dexamethasone\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

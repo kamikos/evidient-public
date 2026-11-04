@@ -1,0 +1,147 @@
+{
+  "card": {
+    "pair": "aripiprazole__chlorpromazine",
+    "a": "aripiprazole",
+    "b": "chlorpromazine",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "The French chlorpromazine label describes a risk of reduced aripiprazole efficacy.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label specifically identifies aripiprazole as at risk of reduced efficacy.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The label attributes reduced efficacy to dopamine-receptor antagonism by the neuroleptic.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French chlorpromazine label describes reduced efficacy, particularly of aripiprazole, due to dopamine-receptor antagonism by the neuroleptic.",
+        "quote": "Risque de moindre efficacité, notamment de l’aripiprazole, suite à l’antagonisme des récepteurs dopaminergiques par le neuroleptique.",
+        "quoteEnglish": "Risk of reduced efficacy, particularly of aripiprazole, due to antagonism of dopamine receptors by the neuroleptic.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62184888#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Under the aripiprazole entry the Largactil SmPC states a risk of reduced efficacy, notably of aripiprazole, from dopamine receptor antagonism, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "9709ffde-7034-42be-97be-f5f39eeacf72#boxed_warning",
+        "title": "chlorpromazine: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9709ffde-7034-42be-97be-f5f39eeacf72",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "9709ffde-7034-42be-97be-f5f39eeacf72#precautions",
+        "title": "chlorpromazine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9709ffde-7034-42be-97be-f5f39eeacf72",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62184888#4.5",
+        "title": "LARGACTIL 25 mg/5 ml, solution injectable en ampoule: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62184888/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26819726",
+        "title": "Hyperglycemic adverse events following antipsychotic drug administration in spontaneous adverse event reports.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26819726/",
+        "citation": "2055-0294 1 2015 Journal of pharmaceutical health care and sciences J Pharm Health Care Sci",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32765206",
+        "title": "The Role of Serotonin in Singultus: A Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32765206/",
+        "citation": "1662-4548 14 2020 Frontiers in neuroscience Front Neurosci",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "39846496",
+        "title": "Effect of antipsychotics on the focal adhesion pathway.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39846496/",
+        "citation": "1814-1412 26 3 2025 Mar The world journal of biological psychiatry : the official journal of the World Federation of Societies of Biological Psychiatry World J Biol Psychiatry",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37111360",
+        "title": "Receptors Involved in Mental Disorders and the Use of Clozapine, Chlorpromazine, Olanzapine, and Aripiprazole to Treat Mental Disorders.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37111360/",
+        "citation": "1424-8247 16 4 2023 Apr 17 Pharmaceuticals (Basel, Switzerland) Pharmaceuticals (Basel)",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aripiprazole or Chlorpromazine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aripiprazole and Chlorpromazine, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.653Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

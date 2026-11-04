@@ -1,0 +1,187 @@
+{
+  "card": {
+    "pair": "celecoxib__diazepam",
+    "a": "celecoxib",
+    "b": "diazepam",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The Spanish celecoxib label notes in vitro CYP2C19 inhibition with diazepam as an example substrate and calls its clinical importance unknown.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The Spanish celecoxib label lists diazepam as a CYP2C19 substrate and says the clinical importance of the in vitro inhibition is unknown.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "A mouse study found that celecoxib did not change diazepam-induced sleep duration.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The Spanish label attributes the possible effect to in vitro inhibition of CYP2C19-catalysed metabolism by celecoxib.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish celecoxib label reports in vitro potential to inhibit CYP2C19, lists diazepam among CYP2C19-metabolized drugs, and calls the clinical importance unknown.",
+        "quote": "Los estudios in vitro han demostrado que celecoxib presenta un cierto potencial para inhibir el metabolismo catalizado por el CYP2C19.\nLa importancia clínica de este hallazgo in vitro es desconocida.\nEjemplos de medicamentos que se metabolizan por el CYP2C19 son diazepam, citalopram e imipramina.",
+        "quoteEnglish": "In vitro studies have shown that celecoxib has some potential to inhibit CYP2C19-catalysed metabolism. The clinical importance of this in vitro finding is unknown. Examples of drugs metabolised by CYP2C19 are diazepam, citalopram and imipramine.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:63072#4.5"
+        },
+        "stance": "uncertain",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish label quote and its faithful English rendering cover in vitro CYP2C19 inhibition, diazepam as substrate, and unknown clinical importance.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "In mice, celecoxib, a selective cyclooxygenase-2 inhibitor, did not shorten the sleep induced by diazepam, whereas non-selective and cyclooxygenase-1 inhibitors cut it by 60-75%.",
+        "quote": "In dose and time dependent models non selective cyclooxygenase and selective cyclooxygnase-1 inhibitors significantly reduced the duration of sleep induced by diazepam in mice by 60-75%, while the selective cyclooxygnase-2 inhibitor did not (p > 0.05).",
+        "source": {
+          "kind": "pubmed",
+          "id": "20672494"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The abstract identifies celecoxib as the selective COX-2 inhibitor that did not reduce diazepam sleep time in mice, while COX-1 and non-selective inhibitors did.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "eu_smpc",
+        "id": "ES:63072#4.5",
+        "title": "CELEBREX 100 MG CAPSULAS DURAS: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=63072&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61174898#4.5",
+        "title": "CELECOXIB CRISTERS 200 mg, gélule: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61174898/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "ba953b22-f0cd-4be5-9e0e-178bded88727#boxed_warning",
+        "title": "diazepam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba953b22-f0cd-4be5-9e0e-178bded88727",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "ba953b22-f0cd-4be5-9e0e-178bded88727#warnings",
+        "title": "diazepam: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba953b22-f0cd-4be5-9e0e-178bded88727",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "ba953b22-f0cd-4be5-9e0e-178bded88727#precautions",
+        "title": "diazepam: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba953b22-f0cd-4be5-9e0e-178bded88727",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "ba953b22-f0cd-4be5-9e0e-178bded88727#drug_interactions",
+        "title": "diazepam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba953b22-f0cd-4be5-9e0e-178bded88727",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35639664",
+        "title": "Pharmacogenetic Gene-Drug Associations in Pediatric Burn and Surgery Patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35639664/",
+        "citation": "1559-0488 43 5 2022 Sep 1 Journal of burn care & research : official publication of the American Burn Association J Burn Care Res",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20672494",
+        "title": "Effect of non-steroidal anti-inflammatory drugs on behavioral actions of diazepam in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20672494/",
+        "citation": "1319-6138 15 2 2010 Apr Neurosciences (Riyadh, Saudi Arabia) Neurosciences (Riyadh)",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Celecoxib or Diazepam, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Celecoxib and Diazepam, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"celecoxib\"[tiab] AND \"diazepam\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.686Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

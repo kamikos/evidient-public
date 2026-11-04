@@ -1,0 +1,49 @@
+{
+ "pair": "clarithromycin__colchicine",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The quote matches verbatim."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The contraindication quote matches verbatim."
+  },
+  {
+   "id": "c3",
+   "support": "partial",
+   "rationale": "The quote says clarithromycin inhibits CYP3A and Pgp; the clause that these handle colchicine comes from the preceding sentence, not the quote."
+  },
+  {
+   "id": "c4",
+   "support": "supports",
+   "rationale": "The French quote and its English rendering match the claim."
+  },
+  {
+   "id": "c5",
+   "support": "supports",
+   "rationale": "The quote gives 9/88 (10.2%) vs 1/28 (3.6%) deaths."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

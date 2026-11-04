@@ -1,0 +1,11 @@
+{
+  "pair": "abiraterone__budesonide",
+  "judge": "claude-opus-5-5",
+  "claims": [],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__remifentanil",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The remifentanil boxed warning names alcohol among CNS depressants whose co-use with opioids may cause profound sedation, respiratory depression, coma and death."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

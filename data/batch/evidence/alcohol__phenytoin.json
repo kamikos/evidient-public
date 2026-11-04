@@ -1,0 +1,139 @@
+{
+  "card": {
+    "pair": "alcohol__phenytoin",
+    "a": "alcohol",
+    "b": "phenytoin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label lists increased phenytoin levels with acute alcohol intake and decreased levels with chronic alcohol abuse.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label distinguishes opposite effects on phenytoin serum levels according to the pattern of alcohol use.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label lists acute alcohol intake among agents that may increase phenytoin serum levels.",
+        "quote": "Drugs that may increase phenytoin serum levels Antiepileptic drugs Ethosuximide, felbamate, oxcarbazepine, methsuximide, topiramate Azoles Fluconazole, ketoconazole, itraconazole, miconazole, voriconazole Antineoplastic agents Capecitabine, fluorouracil Antidepressants Fluoxetine, fluvoxamine, sertraline Gastric acid reducing agents H 2 antagonists (cimetidine), omeprazole Sulfonamides Sulfamethizole, sulfaphenazole, sulfadiazine, sulfamethoxazole-trimethoprim Other Acute alcohol intake",
+        "source": {
+          "kind": "fda_label",
+          "id": "46d5c0d1-a97b-46d9-8cf4-994780673337#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Table 2 lists acute alcohol intake under drugs that may increase phenytoin serum levels.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label lists chronic alcohol abuse among agents that may decrease phenytoin serum levels.",
+        "quote": "Drugs that may decrease phenytoin serum levels Antacids Antacids may affect absorption of phenytoin.\nCalcium carbonate, aluminum hydroxide, magnesium hydroxide Prevention or Management : Phenytoin and antacids should not be taken at the same time of day Antineoplastic agents usually in combination Bleomycin, carboplatin, cisplatin, doxorubicin, methotrexate Antiviral agents Fosamprenavir, nelfinavir, ritonavir Antiepileptic drugs Carbamazepine, vigabatrin Other Chronic alcohol abuse",
+        "source": {
+          "kind": "fda_label",
+          "id": "46d5c0d1-a97b-46d9-8cf4-994780673337#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "reduced_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Table 2 lists chronic alcohol abuse under drugs that may decrease phenytoin serum levels.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "46d5c0d1-a97b-46d9-8cf4-994780673337#drug_interactions",
+        "title": "phenytoin: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46d5c0d1-a97b-46d9-8cf4-994780673337",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62436200#4.4",
+        "title": "DILANTIN 250 mg/5 ml, solution injectable: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62436200/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "3896715",
+        "title": "Nitrofurantoin.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3896715/",
+        "citation": "0012-6578 19 7-8 1985 Jul-Aug Drug intelligence & clinical pharmacy Drug Intell Clin Pharm",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "11590342",
+        "title": "[Metronidazole].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11590342/",
+        "citation": "0151-9638 128 8-9 2001 Sep Annales de dermatologie et de venereologie Ann Dermatol Venereol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36063254",
+        "title": "Multimorbidity and chronic co-prescription networks and potential interactions in adult patients with epilepsy: MorbiNet study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36063254/",
+        "citation": "1590-3478 43 12 2022 Dec Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology Neurol Sci",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Phenytoin and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.605Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,28 @@
+{
+  "inn": "promethazine",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "68921769",
+  "product": "PHENERGAN 2 %, crème",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68921769/extrait",
+  "retrievedAt": "2026-11-04T08:44:30.891Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "8922fbc3db3f90c5b6b2b05e6970dddfd0472dc1f34ddad6bf918bf3c99d1ad7",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\nLe prurit n'est qu'un symptôme. Il exige dans tous les cas la recherche et le traitement de son étiologie.\n\nCompte-tenu des propriétés anticholinergiques centrales de la prométhazine, il existe un risque de troubles psychiatriques avec confusion et hallucinations si son application cutanée est importante.\n\nCompte-tenu du potentiel allergisant des composants de ce médicament, les risques encourus doivent être pesés face au bénéfice escompté.\n\nLa persistance ou l'aggravation du prurit peut être liée à une allergie à l'un des composants de ce médicament. L'apparition d'une allergie à la prométhazine ou aux parabènes peut contre-indiquer à l'avenir certains médicaments utilisés par voie générale (certains anesthésiques locaux, certains antihistaminiques).\n\nCompte-tenu de la présence de prométhazine, il existe un risque de sensibilisation cutanée et de photosensibilisation. En cas de sensibilisation cutanée prouvée à la prométhazine contenue dans la crème, des sensibilisations croisées pourraient survenir après administration de phénothiazines par voie générale.\n\nEn l'absence de données sur la résorption cutanée, le risque d'effets systémiques ne peut être exclu. Il est d'autant plus à redouter que le topique est utilisé sur une grande surface, sous pansement occlusif, sur une peau lésée (notamment brûlée), une muqueuse, une peau de prématuré ou de nourrisson (en raison du rapport surface/poids et de l'effet d'occlusion des couches au niveau du siège).\n\nPrécaution d'emploi\n\nCompte-tenu de l'effet photosensibilisant des phénothiazines, il est préférable de ne pas s'exposer au soleil ni aux U.V.A pendant le traitement. Il est recommandé de protéger les zones traitées par le port d'un vêtement durant toute la durée du traitement afin d'éviter tout risque de photosensibilisation.\n\nNe pas appliquer sur zones étendues du corps.\n\nCe médicament contient de l’alcool cétostéarylique et peut provoquer des réactions cutanées locales (par exemple : dermatite de contact).\n\nCe médicament contient de la lanoline (graisse de laine) et peut provoquer des réactions cutanées locales (par exemple : dermatite de contact).\n\nCe médicament contient du parahydroxybenzoate de méthyle et peut provoquer des réactions allergiques (éventuellement retardées).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68921769/extrait#tabpanel-rcp-panel",
+      "sha256": "a2fc430c6f4be2ba8d41cbcf9525dfef6aac7c1d7e2667c7f30f1202bdb99a3b"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAux doses recommandées, la prométhazine pour usage topique n'est pas susceptible de causer des interactions médicamenteuses significatives d'un point de vue médical.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68921769/extrait#tabpanel-rcp-panel",
+      "sha256": "fa49398c8390224bedc3417a757a7130e8eec57cbf1a1f394680b45cc0bcda99"
+    }
+  ]
+}

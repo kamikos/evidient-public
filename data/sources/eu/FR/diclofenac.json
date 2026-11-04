@@ -1,0 +1,28 @@
+{
+  "inn": "diclofenac",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60895831",
+  "product": "VOLTARENOPHTABAK 1 mg/ml, collyre en solution",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60895831/extrait",
+  "retrievedAt": "2026-11-04T08:45:12.554Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "1e1a1684e187067fbbe2ee767d0055edfe965de126cb70eb5f00130456c1c689",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nNe pas injecter, ne pas avaler.\n\nLe collyre ne doit pas être administré en injection péri ou intraoculaire.\n\nHypersensibilité\n\nVOLTARENOPHTABAK peut, comme les autres AINS, provoquer dans de rares cas des réactions allergiques incluant des réactions anaphylactiques, même sans exposition préalable au médicament.\n\nEn cas de réactions d'hypersensibilité à type de démangeaisons et de rougeurs ou de signes évocateurs d'allergie à ce médicament, notamment crise d'asthme ou brusque gonflement du visage et du cou, le traitement doit être interrompu.\n\nTrouble cornéen\n\nLes AINS, dont le diclofénac par voie locale, retardent la réépithalisation cornéenne même s'ils sont utilisés pendant une courte période. Les conséquences de ce retard de cicatrisation cornéenne sur la qualité de la cornée et sur le risque d'infections ne sont pas claires.\n\nLes corticostéroïdes topiques sont aussi connus pour ralentir ou retarder la cicatrisation. L’association d’AINS topiques et de corticoïdes topiques peut majorer les risques de retard de cicatrisation.\n\nLorsque les patients sont traités à fortes doses et pendant une période prolongée, l'utilisation d'AINS par voie locale peut provoquer des kératites. Chez certains patients sensibles, l'usage continu peut entraîner une rupture de la barrière épithéliale, un amincissement cornéen, des infiltrats cornéens, une érosion cornéenne, une ulcération cornéenne et une perforation cornéenne. Ces évènements peuvent mettre en jeu le pronostic visuel. Les patients avec des signes d’atteinte de la barrière épithéliale doivent immédiatement arrêter l’utilisation de VOLTARENOPHTABAK et l’état de la cornée doit être étroitement surveillé.\n\nDes données post-marketing suggèrent que chez des patients ayant des complications oculaires chirurgicales, de défects cornéens épithéliaux, un diabète, une pathologie de la surface oculaire (par exemple un syndrome de l'œil sec), une polyarthrite rhumatoïde, des chirurgies oculaires répétées sur une courte période peuvent présenter un risque accru d'effets indésirables cornéens.\n\nLes AINS topiques doivent être utilisés avec précaution chez ces patients. Une utilisation prolongée des AINS topiques peut augmenter le risque d’apparition et de sévérité des réactions indésirables cornéennes.\n\nInfection oculaire\n\nUne infection oculaire aiguë peut être masquée par l'utilisation d'agents anti-inflammatoires topiques. Un AINS n’a pas de propriété antimicrobienne. Au cours d’une infection oculaire, son utilisation avec un/des anti-infectieux doit être faite avec prudence.\n\nPersonnes à risque\n\nLes patients présentant un asthme associé à une rhinite chronique, à une sinusite chronique et/ou à une polypose nasale, ont un risque plus élevé que le reste de la population de manifestation allergique lors de la prise d'aspirine et/ou d'anti-inflammatoires non stéroïdiens.\n\nUn AINS peut provoquer une augmentation de la tendance au saignement des tissus oculaires lors d'une intervention chirurgicale : il est recommandé d'utiliser ce collyre avec précaution chez les patients ayant une tendance connue au saignement ou qui reçoivent d'autres traitements pouvant prolonger le temps de saignement.\n\nSensibilité croisée\n\nDes réactions de sensibilité croisée avec l'acide acétylsalicylique et les autres AINS sont possibles (voir rubrique 4.3).\n\nLentilles de contact\n\nLe port de lentilles de contact n’est pas recommandé pendant la période post-opératoire qui suit l’opération de la cataracte. Par conséquent, les patients doivent être avisés de ne pas porter de lentilles de contact, sauf indication claire de leur médecin.\n\nExcipient\n\nVOLTARENOPHTABAK contient du ricinoléate de macrogolglycérol (voir rubrique 4.8).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60895831/extrait#tabpanel-rcp-panel",
+      "sha256": "802724d80547ad33c5caaaae248bf2f087c61f9e836653f79d33aa09afade161"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAucune étude d’interaction n’a été réalisée.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60895831/extrait#tabpanel-rcp-panel",
+      "sha256": "00414868bed235546db4f7c9b7159f2aac8c7ad2aa3b8b0974fe823728502090"
+    }
+  ]
+}

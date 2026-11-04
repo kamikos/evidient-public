@@ -1,0 +1,164 @@
+{
+  "card": {
+    "pair": "alprazolam__dihydrocodeine",
+    "a": "alprazolam",
+    "b": "dihydrocodeine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA alprazolam label flags profound sedation and respiratory depression with opioids, the class containing dihydrocodeine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French dihydrocodeine label also warns about opioid-benzodiazepine co-use; alprazolam is a benzodiazepine.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The French label attributes the increased risk to additive CNS depression.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA alprazolam label says co-use with opioids, the class containing dihydrocodeine, may cause profound sedation, respiratory depression, coma, and death.",
+        "quote": "Concomitant use of benzodiazepines, including alprazolam, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The alprazolam label says benzodiazepines including alprazolam with opioids may cause profound sedation, respiratory depression, coma and death; dihydrocodeine is an opioid.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French dihydrocodeine label says opioid-benzodiazepine co-use increases sedation, respiratory depression, coma, and death through additive CNS depression.",
+        "quote": "L’utilisation concomitante d’opioïdes avec des médicaments sédatifs tels que les benzodiazépines ou les médicaments apparentés augmente le risque de sédation, de dépression respiratoire, de coma et de décès en raison d’un effet dépresseur additif sur le système nerveux central.",
+        "quoteEnglish": "Concomitant use of opioids with sedative medicines such as benzodiazepines or related medicines increases the risk of sedation, respiratory depression, coma, and death because of an additive depressant effect on the central nervous system.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:67482372#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French dihydrocodeine SmPC attributes increased risk of sedation, respiratory depression, coma and death with benzodiazepines to additive CNS depression; the translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#boxed_warning",
+        "title": "alprazolam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=563e09db-2f3d-4ce8-b356-ae44477be6d0",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#warnings_and_cautions",
+        "title": "alprazolam: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=563e09db-2f3d-4ce8-b356-ae44477be6d0",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#drug_interactions",
+        "title": "alprazolam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=563e09db-2f3d-4ce8-b356-ae44477be6d0",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:67482372#4.4",
+        "title": "DICODIN L.P. 60 mg, comprimé à libération prolongée: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67482372/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:67482372#4.5",
+        "title": "DICODIN L.P. 60 mg, comprimé à libération prolongée: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67482372/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26223761",
+        "title": "Parent and Metabolite Opioid Drug Concentrations in Unintentional Deaths Involving Opioid and Benzodiazepine Combinations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26223761/",
+        "citation": "1556-4029 60 4 2015 Jul Journal of forensic sciences J Forensic Sci",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Alprazolam or Dihydrocodeine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Alprazolam and Dihydrocodeine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study specifically testing alprazolam with dihydrocodeine.",
+        "searched": [
+          "\"alprazolam\"[tiab] AND \"dihydrocodeine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.639Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

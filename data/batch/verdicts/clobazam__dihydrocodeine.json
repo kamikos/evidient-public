@@ -1,0 +1,30 @@
+{
+ "pair": "clobazam__dihydrocodeine",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The quote matches, and dihydrocodeine is an opioid."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The quote states the different-receptor-site rationale."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

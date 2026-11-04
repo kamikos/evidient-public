@@ -1,0 +1,20 @@
+{
+  "pair": "acebutolol__betaxolol",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The retrieved review and receptor study describe beta-blockers separately and report no interaction between acebutolol and betaxolol.",
+      "searched": [
+        "\"acebutolol\"[tiab] AND \"betaxolol\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

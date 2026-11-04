@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__vadadustat",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The GI erosion warning names current alcohol drinkers among patients at increased risk for gastrointestinal erosions."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "card": {
+    "pair": "alcohol__tinidazole",
+    "a": "alcohol",
+    "b": "tinidazole",
+    "origin": "batch",
+    "category": "reaction",
+    "headline": {
+      "text": "The FDA tinidazole label warns of cramps, nausea, vomiting, headaches, and flushing with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label describes adverse reactions with alcohol, while a systematic review describes available data as supporting concomitant use.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcoholic beverages with tinidazole may cause abdominal cramps, nausea, vomiting, headaches, and flushing.",
+        "quote": "Alcohols, Disulfiram: Alcoholic beverages and preparations containing ethanol or propylene glycol should be avoided during tinidazole therapy and for 3 days afterward because abdominal cramps, nausea, vomiting, headaches, and flushing may occur.",
+        "source": {
+          "kind": "fda_label",
+          "id": "7f552a9b-3190-4301-8352-36451a73b956#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "disulfiram_like_reaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says alcoholic beverages should be avoided during and 3 days after tinidazole because cramps, nausea, vomiting, headaches and flushing may occur.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A systematic review describes available data as supporting concomitant tinidazole and alcohol use.",
+        "quote": "tinidazole, and fluconazole can be safely used with concomitant alcohol consumption.",
+        "source": {
+          "kind": "pubmed",
+          "id": "31871085"
+        },
+        "stance": "uncertain",
+        "outcome": "disulfiram_like_reaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The systematic review abstract states available data support that tinidazole can be safely used with concomitant alcohol consumption.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7f552a9b-3190-4301-8352-36451a73b956#drug_interactions",
+        "title": "tinidazole: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7f552a9b-3190-4301-8352-36451a73b956",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:66090799#4.5",
+        "title": "FASIGYNE 500 mg, comprimé enrobé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66090799/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31871085",
+        "title": "Fact versus Fiction: a Review of the Evidence behind Alcohol and Antibiotic Interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31871085/",
+        "citation": "1098-6596 64 3 2020 Feb 21 Antimicrobial agents and chemotherapy Antimicrob Agents Chemother",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6368609",
+        "title": "Metronidazole: its use in clinical dentistry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6368609/",
+        "citation": "0303-6979 11 3 1984 Mar Journal of clinical periodontology J Clin Periodontol",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Tinidazole and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.621Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

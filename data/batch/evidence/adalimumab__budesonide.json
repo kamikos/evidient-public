@@ -1,0 +1,102 @@
+{
+  "card": {
+    "pair": "adalimumab__budesonide",
+    "a": "adalimumab",
+    "b": "budesonide",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA adalimumab label identifies greater infection risk with concomitant immunosuppressants, including the corticosteroid class containing budesonide.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The warning covers corticosteroids as a class and does not quantify a budesonide-specific effect.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA adalimumab label says patients taking concomitant immunosuppressants such as corticosteroids may be at greater risk of infection; this class includes budesonide.",
+        "quote": "Patients 65 years of age and older, patients with co-morbid conditions and/or patients taking concomitant immunosuppressants (such as corticosteroids or methotrexate), may be at greater risk of infection.",
+        "source": {
+          "kind": "fda_label",
+          "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "infection",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The adalimumab label says patients on concomitant immunosuppressants such as corticosteroids may be at greater infection risk; budesonide is a corticosteroid and the claim keeps the 'may'.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#boxed_warning",
+        "title": "adalimumab: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions",
+        "title": "adalimumab: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "21172281",
+        "title": "Appropriateness of therapy for active Crohn's disease: Results of a multidisciplinary international expert panel-EPACT II.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21172281/",
+        "citation": "1876-4479 3 4 2009 Dec Journal of Crohn's & colitis J Crohns Colitis",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Adalimumab or Budesonide, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Adalimumab and Budesonide, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.544Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

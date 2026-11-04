@@ -1,0 +1,192 @@
+{
+  "card": {
+    "pair": "alcohol__midazolam",
+    "a": "alcohol",
+    "b": "midazolam",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA midazolam label describes increased respiratory impairment and potentially profound or prolonged effects with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label lists hypoventilation, airway obstruction, desaturation, and apnea; the Spanish label describes increased sedation and cardiorespiratory depression.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "text": "The EMA midazolam label states that co-administration with CNS depressants, including alcohol, is likely to enhance sedation and respiratory depression.",
+        "claimIds": [
+          "cEU1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA midazolam label says concurrent alcohol may increase hypoventilation, airway obstruction, desaturation, or apnea and deepen or prolong drug effects.",
+        "quote": "Concomitant use of barbiturates, alcohol or other central nervous system depressants may increase the risk of hypoventilation, airway obstruction, desaturation, or apnea and may contribute to profound and/or prolonged drug effect.",
+        "source": {
+          "kind": "fda_label",
+          "id": "d9305142-417d-4d8c-9a23-f9a1b6771cac#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The midazolam label states concomitant alcohol may increase hypoventilation, airway obstruction, desaturation or apnea risk and contribute to profound or prolonged effect.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish label says midazolam combined with alcohol can increase sedation and cardiorespiratory depression.",
+        "quote": "Cuando se coadministra midazolam con depresores del SNC incluyendo el alcohol, también puede producirse un aumento de los efectos adversos tales como la sedación y depresión cardiorrespiratoria.",
+        "quoteEnglish": "When midazolam is coadministered with CNS depressants including alcohol, adverse effects such as sedation and cardiorespiratory depression may also increase.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:59023#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Dormicum SmPC states adverse effects such as sedation and cardiorespiratory depression may increase with alcohol, and the English rendering is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "cEU1",
+        "text": "The EMA midazolam label states that co-administration with CNS depressants, including alcohol, is likely to enhance sedation and respiratory depression.",
+        "quote": "The co-administration of midazolam with other sedative/hypnotic medicinal products and CNS depressants, including alcohol, is likely to result in enhanced sedation and respiratory depression.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "EU:EMEA/H/C/002267#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "respiratory_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "d9305142-417d-4d8c-9a23-f9a1b6771cac#warnings",
+        "title": "midazolam: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9305142-417d-4d8c-9a23-f9a1b6771cac",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "d9305142-417d-4d8c-9a23-f9a1b6771cac#precautions",
+        "title": "midazolam: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9305142-417d-4d8c-9a23-f9a1b6771cac",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:59023#4.4",
+        "title": "DORMICUM 7,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA.: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=59023&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:59023#4.5",
+        "title": "DORMICUM 7,5 mg COMPRIMIDOS RECUBIERTOS CON PELICULA.: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=59023&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37313955",
+        "title": "Evaluation of Cytochrome P450-Mediated Cannabinoid-Drug Interactions in Healthy Adult Participants.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37313955/",
+        "citation": "1532-6535 114 3 2023 Sep Clinical pharmacology and therapeutics Clin Pharmacol Ther",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/002267#4.4",
+        "title": "Buccolam: 4.4",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/buccolam-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Buccolam, https://www.ema.europa.eu/en/documents/product-information/buccolam-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.4",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/002267#4.5",
+        "title": "Buccolam: 4.5",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/buccolam-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Buccolam, https://www.ema.europa.eu/en/documents/product-information/buccolam-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.5",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2",
+        "cEU1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Midazolam and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study isolating alcohol's interaction with midazolam.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"midazolam\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T18:37:23.277Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,101 @@
+{
+  "card": {
+    "pair": "alcohol__sufentanil",
+    "a": "alcohol",
+    "b": "sufentanil",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA sufentanil label links alcohol co-use to profound sedation, respiratory depression, coma, and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label's opioid warning explicitly includes alcohol among CNS depressants.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA sufentanil label says opioids with alcohol may cause profound sedation, respiratory depression, coma, and death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous ‎system (CNS) depressants, including ‎alcohol, may result in profound sedation, ‎respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "20293943-46ff-4345-1aa4-929b4e017a25#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The sufentanil boxed warning names alcohol among CNS depressants whose co-use with opioids may cause profound sedation, respiratory depression, coma and death.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "20293943-46ff-4345-1aa4-929b4e017a25#boxed_warning",
+        "title": "sufentanil: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20293943-46ff-4345-1aa4-929b4e017a25",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "20293943-46ff-4345-1aa4-929b4e017a25#drug_interactions",
+        "title": "sufentanil: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20293943-46ff-4345-1aa4-929b4e017a25",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Sufentanil and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no human study of this combination.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"sufentanil\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.615Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

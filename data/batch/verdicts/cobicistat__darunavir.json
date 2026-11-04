@@ -1,0 +1,34 @@
+{
+ "pair": "cobicistat__darunavir",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The Spanish quote names darunavir among CYP3A substrates with increased concentrations, and the English rendering is faithful."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The French quote says darunavir with cobicistat decreases creatinine clearance, and the English rendering is faithful."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "pair": "chlordiazepoxide__dihydrocodeine",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA chlordiazepoxide label says concomitant use of benzodiazepines, including chlordiazepoxide, and opioids may result in profound sedation, respiratory depression, coma and death.",
+      "quote": "Concomitant use of benzodiazepines, including chlordiazepoxide, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+      "sourceId": "9aba3135-00ff-47ba-b926-55eb16b361bf#warnings",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA label says combining benzodiazepines and opioids can significantly worsen opioid-related respiratory depression, because they act at GABA A and mu receptors.",
+      "quote": "When benzodiazepines and opioids are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists.",
+      "sourceId": "9aba3135-00ff-47ba-b926-55eb16b361bf#precautions",
+      "stance": "mechanism",
+      "outcome": "cns_depression"
+    }
+  ],
+  "headline": {
+    "text": "The FDA label says benzodiazepines including chlordiazepoxide, used with opioids, may cause profound sedation, respiratory depression, coma and death (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The label addresses opioids as a class and does not name dihydrocodeine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "It says benzodiazepines may significantly worsen opioid-related respiratory depression (c2).",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The label says benzodiazepines act at GABA A sites and opioids mainly at mu receptors.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"chlordiazepoxide\"[tiab] AND \"dihydrocodeine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

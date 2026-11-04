@@ -1,0 +1,20 @@
+{
+  "pair": "acalabrutinib__alpelisib",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acalabrutinib label section does not mention alpelisib, and the PubMed review found describes PI 3-kinase inhibitors in general; no study of the combination was found.",
+      "searched": [
+        "\"acalabrutinib\"[tiab] AND \"alpelisib\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

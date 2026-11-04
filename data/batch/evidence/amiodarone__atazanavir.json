@@ -1,0 +1,153 @@
+{
+  "card": {
+    "pair": "amiodarone__atazanavir",
+    "a": "amiodarone",
+    "b": "atazanavir",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label flags potentially life-threatening arrhythmias with amiodarone and ritonavir-boosted atazanavir.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA contraindication cited here specifically involves atazanavir with ritonavir.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The Spanish label identifies CYP3A inhibition as the interaction mechanism.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says atazanavir with ritonavir and amiodarone is contraindicated because of potentially serious or life-threatening cardiac arrhythmias.",
+        "quote": "Concomitant use of atazanavir with ritonavir and either quinidine or amiodarone is contraindicated due to the potential for serious or life-threatening reactions such as cardiac arrhythmias [see Contraindications (4) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "arrhythmia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The atazanavir table states atazanavir with ritonavir and amiodarone is contraindicated due to potential serious or life-threatening reactions such as arrhythmias.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish label attributes the amiodarone-atazanavir interaction to CYP3A inhibition.",
+        "quote": "El mecanismo de interacción de la amiodarona o de la lidocaína sistémica/atazanavir es la inhibición del CYP3A.",
+        "quoteEnglish": "The mechanism of the interaction of amiodarone or systemic lidocaine with atazanavir is CYP3A inhibition.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:80654#4.5"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish label states the amiodarone/atazanavir interaction mechanism is CYP3A inhibition, and the translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "4c149392-a4f0-4e2d-a13f-2b94810005de#drug_interactions",
+        "title": "amiodarone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c149392-a4f0-4e2d-a13f-2b94810005de",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#contraindications",
+        "title": "atazanavir: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions",
+        "title": "atazanavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:80654#4.5",
+        "title": "ATAZANAVIR TEVA 200 MG CAPSULAS DURAS EFG: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=80654&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "17615423",
+        "title": "Severe rhabdomyolysis and acute renal failure secondary to concomitant use of simvastatin, amiodarone, and atazanavir.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17615423/",
+        "citation": "1557-2625 20 4 2007 Jul-Aug Journal of the American Board of Family Medicine : JABFM J Am Board Fam Med",
+        "language": "en",
+        "design": "case_report"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amiodarone or Atazanavir, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amiodarone and Atazanavir, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The retrieved case involved simvastatin as a third drug and does not isolate this pair's effects.",
+        "searched": [
+          "\"amiodarone\"[tiab] AND \"atazanavir\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.642Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,59 @@
+{
+  "pair": "alcohol__perampanel",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA label says alcohol combined with perampanel significantly worsened mood and increased anger.",
+      "quote": "The combination of alcohol and perampanel significantly worsened mood and increased anger.",
+      "sourceId": "3c72a5f7-bb22-4c48-942a-543ca84ed5a9#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "mood_behavior_changes"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA label says concomitant alcohol and perampanel may increase CNS depression.",
+      "quote": "The concomitant use of perampanel and CNS depressants including alcohol may increase CNS depression.",
+      "sourceId": "3c72a5f7-bb22-4c48-942a-543ca84ed5a9#drug_interactions",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "cEU1",
+      "text": "The EMA perampanel label reports additive or supra-additive effects with alcohol on alertness and vigilance tasks in healthy subjects.",
+      "quote": "The effects of perampanel on tasks involving alertness and vigilance such as driving ability were additive or supra-additive to the effects of alcohol itself, as found in a pharmacodynamic interaction study in healthy subjects.",
+      "sourceId": "EU:EMEA/H/C/002434#4.5",
+      "stance": "increases_risk",
+      "outcome": "psychomotor_impairment"
+    }
+  ],
+  "headline": {
+    "text": "The FDA label says alcohol combined with perampanel significantly worsened mood and increased anger.",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The label reports worsened mood and increased anger with the combination.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "It also describes a possible increase in CNS depression with concomitant alcohol.",
+      "claimIds": [
+        "c2"
+      ]
+    },
+    {
+      "text": "The EMA perampanel label reports additive or supra-additive effects with alcohol on alertness and vigilance tasks in healthy subjects.",
+      "claimIds": [
+        "cEU1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "cns_depression",
+  "gaps": []
+}

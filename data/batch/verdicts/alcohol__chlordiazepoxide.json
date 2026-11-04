@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__chlordiazepoxide",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label says concomitant alcohol may have an additive effect on the impairment chlordiazepoxide can cause."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The abstract reports significantly higher blood and brain CDP levels in mice given CDP with ethanol, and the claim labels it a mouse finding."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

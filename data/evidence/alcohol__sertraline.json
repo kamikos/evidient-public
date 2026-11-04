@@ -1,0 +1,630 @@
+{
+  "card": {
+    "pair": "alcohol__sertraline",
+    "a": "alcohol",
+    "b": "sertraline",
+    "category": "cns_depression",
+    "depth": "limited",
+    "headline": {
+      "text": "The label notes no potentiation of alcohol effects in experiments but states combined use is not recommended",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Experiments in normal subjects found sertraline did not potentiate cognitive and psychomotor effects of alcohol.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The label states combined use of sertraline and alcohol is not recommended.",
+        "claimIds": [
+          "c2"
+        ]
+      },
+      {
+        "text": "In elderly volunteers, adding alcohol to sertraline did not change objective performance measures.",
+        "claimIds": [
+          "c4"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult combination trial measuring cognitive psychomotor impairment was retrieved.",
+        "searched": [
+          "sertraline combined with alcohol adults psychomotor performance"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Sertraline and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Sertraline did not potentiate alcohol cognitive and psychomotor effects in normal subjects.",
+        "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cognitive_psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "supports: The quote directly reports experiments in normal subjects finding sertraline did not potentiate alcohol's cognitive and psychomotor effects, matching the claim's population, co-exposure, and null direction.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The label states that combined use with alcohol is not recommended.",
+        "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "alcohol_combination_use",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "supports: The quote explicitly states that concomitant sertraline hydrochloride and alcohol use is not recommended, matching the claim and qualifying as an explicitly attributed label restriction for increases_risk.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "Elderly volunteers taking sertraline with moderate alcohol showed no additive psychomotor impairment.",
+        "quote": "A double-blind, placebo-controlled crossover study was conducted, investigating the effects of 9 days' administration of sertraline and mianserin on cognitive and psychomotor performance of elderly volunteers. To assess the effect of concomitant alcohol administration, alcohol (0.5 g/kg body weight) was given 6 hours after the last dose of each treatment. Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results. The results indicate that sertraline has a neutral psychomotor profile in the elderly and appears to have no additive depressant effects when taken with moderate amounts of alcohol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "2258380"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cognitive_psychomotor_impairment",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c4",
+        "text": "Elderly volunteers on sertraline with alcohol had no additive psychomotor effects.",
+        "quote": "Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results.",
+        "source": {
+          "kind": "pubmed",
+          "id": "2258380"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cognitive_psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "supports: The quote and its context report that adding alcohol to sertraline did not change objective performance and indicate no additive depressant effects in the elderly, matching the claim and no_effect_observed stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00179766-980b-44b0-99d3-1fee2bb27e37",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2258380",
+        "title": "The effects of sertraline on psychomotor performance in elderly volunteers.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2258380/",
+        "citation": "Hindmarch et al. · The Journal of clinical psychiatry 1990",
+        "design": "review",
+        "year": 1990,
+        "population": "elderly volunteers"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:53:10.659Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__sertraline",
+      "at": "2026-11-03T19:51:36.171Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7b67d71d081fd1b4d89239883",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cognitive_psychomotor_impairment",
+        "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+        "sourceId": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "no_effect_observed",
+        "text": "Sertraline did not potentiate alcohol cognitive and psychomotor effects in normal subjects."
+      },
+      "t": 12093
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "Sertraline did not potentiate alcohol cognitive and psychomotor effects in normal subjects.",
+        "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cognitive_psychomotor_impairment"
+      },
+      "t": 12093
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7b67d71d081fd1b4d89239883",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 12093
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7ba82777c8898013b667266f3",
+      "name": "record_claim",
+      "args": {
+        "outcome": "alcohol_combination_use",
+        "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+        "sourceId": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states that combined use with alcohol is not recommended."
+      },
+      "t": 12093
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states that combined use with alcohol is not recommended.",
+        "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "alcohol_combination_use"
+      },
+      "t": 12093
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7ba82777c8898013b667266f3",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 12093
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7be5f75a49901a7333071a74e",
+      "name": "search_pubmed",
+      "args": {
+        "query": "sertraline alcohol cognitive psychomotor effects human study"
+      },
+      "t": 12093
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7be5f75a49901a7333071a74e",
+      "summary": "search_pubmed completed: {\"query\":\"sertraline alcohol cognitive psychomotor effects human study\",\"pmids\":[\"26995298\",\"11463130\",\"2258380\"]}",
+      "t": 12719
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7bf9671789e782ebc29c01a05",
+      "name": "search_pubmed",
+      "args": {
+        "query": "sertraline combined with alcohol adults psychomotor performance"
+      },
+      "t": 12719
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7bf9671789e782ebc29c01a05",
+      "summary": "search_pubmed completed: {\"query\":\"sertraline combined with alcohol adults psychomotor performance\",\"pmids\":[]}",
+      "t": 13208
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7d4da7240ad36229300e2068d",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "11463130",
+          "2258380"
+        ]
+      },
+      "t": 19090
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7d4da7240ad36229300e2068d",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"11463130\",\"title\":\"Tianeptine: a review of its use in depressive disorders.\",\"journal\":\"CNS drugs\",\"year\":\"2001\",\"abstractText\":\"Tianeptine is an antidepressant agent with a novel neurochemical profile. It increases serotonin (5-hydroxytryptamine; 5-HT) uptake in the brain (in contrast with most antidepressant agents) and reduces stress-induced atrophy of neuronal dendrites. Like the selective serotonin reuptake inhibitors (SSRIs) and in contrast with most tricyclic antidepressant agents, tianeptine does not appear to be associated with adverse cognitive, psychomotor, sleep, cardiovascular or bodyweight effects and has a low propensity for abuse. Tianeptine has a comparatively favourable pharmacokinetic profile. It is not subject to first-pass hepatic metabolism, has high bioavailability and limited distribution, and is rapidly eliminated. While this offers advantages for tianeptine over the tricyclic antidepressant agents in terms of dose titration, treatment changes and potential drug interactions, its rapid elimination makes adherence to dosage schedules more important. Tianeptine differs from most antidepressants in that it is not primarily metabolised by the hepatic cytochrome P450 system, indicating less likelihood of drug-drug interactions; this is of particular interest for elderly patients. Tianeptine, in dosages of 25 to 50 mg/day, has been investigated in patients with major depression, depressed bipolar disorder, dysthymia or adjustment disorder. It has equivalent antidepressant efficacy to several classical antidepressant agents (amitriptyline, clomipramine, imipramine, mianserin) and the SSRIs fluoxetine (in most patients), paroxetine and sertraline. Comparison with maprotiline indicated superior efficacy for tianeptine but dothiepin appeared superior in another study. Extended treatment with tianeptine decreases the incidence of relapse/recurrence of depression. Tianeptine appears to be as effective as fluoxetine, sertraline, amitriptyline, clomipramine and mianserin and more effective than maprotiline in improving associated anxiety in patients with depressive disorders. Depression and anxiety symptoms in alcohol dependant patients also respond well to tianeptine. The adverse effects associated with tianeptine are similar in many respects to those of the SSRIs and minimal in comparison with the tricyclic antidepressants. The most common adverse effects are nausea, constipation, abdominal pain, headache, dizziness and changes in dreaming. Anticholinergic effects occur less often with tianeptine than with tricyclic agents. Hepatoxicity is rare. The dosage should be decreased in elderly patients and those with severe renal failure, but adjustment is not necessary in patients with alcoholism or hepatic impairment, or those undergoing haemodialysis.\\n\\nThe antidepressant efficacy and favourable tolerability and pharmacokinetic profiles of tianeptine in patients with depression, including those with associated anxiety, have been proven; the data indicate that it may have additional potential in specific subgroups of depressed patients such as the elderly and those with chronic alcoholism.\",\"publicationTypes\":[\"Journal Article\",\"Review\"],\"firstAuthor\":\"Wagstaff\",\"kind\":\"pubmed\",\"id\":\"11463130\",\"text\":\"Tianeptine is an antidepressant agent with a novel neurochemical profile. It increases serotonin (5-hydroxytryptamine; 5-HT) uptake in the brain (in contrast with most antidepressant agents) and reduces stress-induced atrophy of neuronal dendrites. Like the selective serotonin reuptake inhibitors (SSRIs) and in contrast with most tricyclic antidepressant agents, tianeptine does not appear to be associated with adverse cognitive, psychomotor, sleep, cardiovascular or bodyweight effects and has a low propensity for abuse. Tianeptine has a comparatively favourable pharmacokinetic profile. It is not subject to first-pass hepatic metabolism, has high bioavailability and limited distribution, and is rapidly eliminated. While this offers advantages for tianeptine over the tricyclic antidepressant agents in terms of dose titration, treatment changes and potential drug interactions, its rapid elimination makes adherence to dosage schedules more important. Tianeptine differs from most antidepressants in that it is not primarily metabolised by the hepatic cytochrome P450 system, indicating less likelihood of drug-drug interactions; this is of particular interest for elderly patients. Tianeptine, in dosages of 25 to 50 mg/day, has been investigated in patients with major depression, depressed bipolar disorder, dysthymia or adjustment disorder. It has equivalent antidepressant efficacy to several classical antidepressant agents (amitriptyline, clomipramine, imipramine, mianserin) and the SSRIs fluoxetine (in most patients), paroxetine and sertraline. Comparison with maprotiline indicated superior efficacy for tianeptine but dothiepin appeared superior in another study. Extended treatment with tianeptine decreases the incidence of relapse/recurrence of depression. Tianeptine appears to be as effective as fluoxetine, sertraline, amitriptyline, clomipramine and mianserin and more effective than maprotiline in improving associated anxiety in patients with depressive disorders. Depression and anxiety symptoms in alcohol dependant patients also respond well to tianeptine. The adverse effects associated with tianeptine are similar in many respects to those of the SSRIs and minimal in comparison with the tricyclic antidepressants. The most common adverse effects are nausea, constipation, abdominal pain, headache, dizziness and changes in dreaming. Anticholinergic effects occur less often with tianeptine than with tricyclic agents. Hepatoxicity is rare. The dosage should be decreased in elderly patients and those with severe renal failure, but adjustment is not necessary in patients with alcoholism or hepatic impairment, or those undergoing haemodialysis.\\n\\nThe antidepressant efficacy and favourable tolerability and pharmacokinetic profiles of tianeptine in patients with depression, including those with associated anxiety, have been proven; the data indicate that it may have additional potential in specific subgroups of depressed patients such as the elderly and those with chronic alcoholism.\"},{\"pmid\":\"2258380\",\"title\":\"The effects of sertraline on psychomotor performance in elderly volunteers.\",\"journal\":\"The Journal of clinical psychiatry\",\"year\":\"1990\",\"abstractText\":\"The psychopharmacologic effects of sertraline, a new antidepressant drug, are reviewed. A double-blind, placebo-controlled crossover study was conducted, investigating the effects of 9 days' administration of sertraline and mianserin on cognitive and psychomotor performance of elderly volunteers. The two antidepressants were given on a rising dose schedule for the first five days of treatment (sertraline 100 mg Day 1 and 2, 150 mg Days 3 and 4, and 200 mg Day 5; mianserin 10 mg Days 1 and 2, 20 mg Days 3 and 4, and 30 mg Day 5) with the highest dose (mianserin 30 mg and sertraline 200 mg) being intended for the rest of the study. To assess the effect of concomitant alcohol administration, alcohol (0.5 g/kg body weight) was given 6 hours after the last dose of each treatment. There was a severe intolerance to the effects of mianserin in this group of patients even at the lowest dose and, as many subjects were withdrawn, there was no formal analysis because of the missing data. However, the available evidence showed the expected sedative effects on a number of psychometric tests. Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results. The results indicate that sertraline has a neutral psychomotor profile in the elderly and appears to have no additive depressant effects when taken with moderate amounts of alcohol.\",\"publicationTypes\":[\"Journal Article\",\"Review\"],\"firstAuthor\":\"Hindmarch\",\"kind\":\"pubmed\",\"id\":\"2258380\",\"text\":\"The psychopharmacologic effects of sertraline, a new antidepressant drug, are reviewed. A double-blind, placebo-controlled crossover study was conducted, investigating the effects of 9 days' administration of sertraline and mianserin on cognitive and psychomotor performance of elderly volunteers. The two antidepressants were given on a rising dose schedule for the first five days of treatment (sertraline 100 mg Day 1 and 2, 150 mg Days 3 and 4, and 200 mg Day 5; mianserin 10 mg Days 1 and 2, 20 mg Days 3 and 4, and 30 mg Day 5) with the highest dose (mianserin 30 mg and sertraline 200 mg) being intended for the rest of the study. To assess the effect of concomitant alcohol administration, alcohol (0.5 g/kg body weight) was given 6 hours after the last dose of each treatment. There was a severe intolerance to the effects of mianserin in this group of patients even at the lowest dose and, as many subjects were withdrawn, there was no formal analysis because of the missing data. However, the available evidence showed the expected sedative effects on a number of psychometric tests. Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results. The results indicate that sertraline has a neutral psychomotor profile in the elderly and appears to have no additive depressant effects when taken with moderate amounts of alcohol.\"}]",
+      "t": 19457
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f81b1074338fcf48e95d87cc48",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cognitive_psychomotor_impairment",
+        "quote": "A double-blind, placebo-controlled crossover study was conducted, investigating the effects of 9 days' administration of sertraline and mianserin on cognitive and psychomotor performance of elderly volunteers. To assess the effect of concomitant alcohol administration, alcohol (0.5 g/kg body weight) was given 6 hours after the last dose of each treatment. Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results. The results indicate that sertraline has a neutral psychomotor profile in the elderly and appears to have no additive depressant effects when taken with moderate amounts of alcohol.",
+        "sourceId": "2258380",
+        "sourceKind": "pubmed",
+        "stance": "no_effect_observed",
+        "text": "Elderly volunteers taking sertraline with moderate alcohol showed no additive psychomotor impairment."
+      },
+      "t": 38160
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Elderly volunteers taking sertraline with moderate alcohol showed no additive psychomotor impairment.",
+        "quote": "A double-blind, placebo-controlled crossover study was conducted, investigating the effects of 9 days' administration of sertraline and mianserin on cognitive and psychomotor performance of elderly volunteers. To assess the effect of concomitant alcohol administration, alcohol (0.5 g/kg body weight) was given 6 hours after the last dose of each treatment. Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results. The results indicate that sertraline has a neutral psychomotor profile in the elderly and appears to have no additive depressant effects when taken with moderate amounts of alcohol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "2258380"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cognitive_psychomotor_impairment"
+      },
+      "t": 38160
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f81b1074338fcf48e95d87cc48",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 38160
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f8204873ebadf6e1a295791ed8",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "sertraline combined with alcohol adults psychomotor performance"
+        ],
+        "text": "No adult combination trial measuring cognitive psychomotor impairment was retrieved."
+      },
+      "t": 38160
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult combination trial measuring cognitive psychomotor impairment was retrieved.",
+        "searched": [
+          "sertraline combined with alcohol adults psychomotor performance"
+        ]
+      },
+      "t": 38160
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f8204873ebadf6e1a295791ed8",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 38160
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 38160
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 38161
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 38163
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "not_found",
+      "t": 38165
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "supports: The quote explicitly states that concomitant sertraline hydrochloride and alcohol use is not recommended, matching the claim and qualifying as an explicitly attributed label restriction for increases_risk.",
+      "model": "muse-wonder-1.0",
+      "t": 42105
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "supports: The quote directly reports experiments in normal subjects finding sertraline did not potentiate alcohol's cognitive and psychomotor effects, matching the claim's population, co-exposure, and null direction.",
+      "model": "muse-wonder-1.0",
+      "t": 42489
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 1 rejected claims",
+      "t": 42489
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f858df746197ceb8597623dc0e",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cognitive_psychomotor_impairment",
+        "quote": "Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results.",
+        "sourceId": "2258380",
+        "sourceKind": "pubmed",
+        "stance": "no_effect_observed",
+        "text": "Elderly volunteers on sertraline with alcohol had no additive psychomotor effects."
+      },
+      "t": 53119
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Elderly volunteers on sertraline with alcohol had no additive psychomotor effects.",
+        "quote": "Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results.",
+        "source": {
+          "kind": "pubmed",
+          "id": "2258380"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cognitive_psychomotor_impairment"
+      },
+      "t": 53119
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f858df746197ceb8597623dc0e",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 53119
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 53119
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "supports",
+      "rationale": "supports: The quote and its context report that adding alcohol to sertraline did not change objective performance and indicate no additive depressant effects in the elderly, matching the claim and no_effect_observed stance.",
+      "model": "muse-wonder-1.0",
+      "t": 60553
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 73216
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 4 card sentences against their claims; dropped 0.",
+      "t": 90517
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__sertraline",
+        "a": "alcohol",
+        "b": "sertraline",
+        "category": "cns_depression",
+        "depth": "limited",
+        "headline": {
+          "text": "The label notes no potentiation of alcohol effects in experiments but states combined use is not recommended",
+          "claimIds": [
+            "c1",
+            "c2"
+          ]
+        },
+        "reported": [
+          {
+            "text": "Experiments in normal subjects found sertraline did not potentiate cognitive and psychomotor effects of alcohol.",
+            "claimIds": [
+              "c1"
+            ]
+          },
+          {
+            "text": "The label states combined use of sertraline and alcohol is not recommended.",
+            "claimIds": [
+              "c2"
+            ]
+          },
+          {
+            "text": "In elderly volunteers, adding alcohol to sertraline did not change objective performance measures.",
+            "claimIds": [
+              "c4"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult combination trial measuring cognitive psychomotor impairment was retrieved.",
+            "searched": [
+              "sertraline combined with alcohol adults psychomotor performance"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "no_human_data",
+            "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Sertraline and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "Sertraline did not potentiate alcohol cognitive and psychomotor effects in normal subjects.",
+            "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "cognitive_psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "supports: The quote directly reports experiments in normal subjects finding sertraline did not potentiate alcohol's cognitive and psychomotor effects, matching the claim's population, co-exposure, and null direction.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "The label states that combined use with alcohol is not recommended.",
+            "quote": "Although Sertraline hydrochloride did not potentiate the cognitive and psychomotor effects of alcohol in experiments with normal subjects, the concomitant use of sertraline hydrochloride and alcohol is not recommended.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "alcohol_combination_use",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "supports: The quote explicitly states that concomitant sertraline hydrochloride and alcohol use is not recommended, matching the claim and qualifying as an explicitly attributed label restriction for increases_risk.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "Elderly volunteers taking sertraline with moderate alcohol showed no additive psychomotor impairment.",
+            "quote": "A double-blind, placebo-controlled crossover study was conducted, investigating the effects of 9 days' administration of sertraline and mianserin on cognitive and psychomotor performance of elderly volunteers. To assess the effect of concomitant alcohol administration, alcohol (0.5 g/kg body weight) was given 6 hours after the last dose of each treatment. Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results. The results indicate that sertraline has a neutral psychomotor profile in the elderly and appears to have no additive depressant effects when taken with moderate amounts of alcohol.",
+            "source": {
+              "kind": "pubmed",
+              "id": "2258380"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "cognitive_psychomotor_impairment",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c4",
+            "text": "Elderly volunteers on sertraline with alcohol had no additive psychomotor effects.",
+            "quote": "Single or multiple doses of sertraline did not affect objective measures of performance. The addition of alcohol did not affect these results.",
+            "source": {
+              "kind": "pubmed",
+              "id": "2258380"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "cognitive_psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "supports: The quote and its context report that adding alcohol to sertraline did not change objective performance and indicate no additive depressant effects in the elderly, matching the claim and no_effect_observed stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "00179766-980b-44b0-99d3-1fee2bb27e37#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00179766-980b-44b0-99d3-1fee2bb27e37",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "2258380",
+            "title": "The effects of sertraline on psychomotor performance in elderly volunteers.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2258380/",
+            "citation": "Hindmarch et al. · The Journal of clinical psychiatry 1990",
+            "design": "review",
+            "year": 1990,
+            "population": "elderly volunteers"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:53:10.659Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_advises_against",
+          "basis": [
+            "c1",
+            "c2"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 94488
+    }
+  ]
+}

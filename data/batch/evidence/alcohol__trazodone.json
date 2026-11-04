@@ -1,0 +1,123 @@
+{
+  "card": {
+    "pair": "alcohol__trazodone",
+    "a": "alcohol",
+    "b": "trazodone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says trazodone may increase alcohol's CNS-depressant effects.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "A small crossover study found further impairment of manual dexterity with the combination, while other measured effects changed little.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says trazodone may increase alcohol's CNS-depressant effects.",
+        "quote": "Trazodone hydrochloride tablets may enhance effects of alcohol",
+        "source": {
+          "kind": "fda_label",
+          "id": "5b9f0b60-0c25-4303-88f1-44bcb347bc49#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Under its CNS-depressants heading the label says trazodone may enhance the effects of alcohol.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A six-volunteer crossover study reported further impairment of manual dexterity when ethanol was combined with trazodone, with little additional effect on other measures.",
+        "quote": "In combination with either trazodone or amitriptyline, ethanol caused little additional effect except in the case of manual dexterity, which was further impaired.",
+        "source": {
+          "kind": "pubmed",
+          "id": "3725002"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The six-volunteer double-blind crossover abstract reports little additional effect from ethanol except further impaired manual dexterity.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "5b9f0b60-0c25-4303-88f1-44bcb347bc49#drug_interactions",
+        "title": "trazodone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b9f0b60-0c25-4303-88f1-44bcb347bc49",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "3725002",
+        "title": "Evaluation of possible interactions between ethanol and trazodone or amitriptyline.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3725002/",
+        "citation": "0302-282X 15 Suppl 1 1986 Neuropsychobiology Neuropsychobiology",
+        "language": "en",
+        "design": "controlled_trial"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6487494",
+        "title": "An evaluation of possible interactions between ethanol and trazodone or amitriptyline.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6487494/",
+        "citation": "0306-5251 18 4 1984 Oct British journal of clinical pharmacology Br J Clin Pharmacol",
+        "language": "en",
+        "design": "controlled_trial"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2248062",
+        "title": "Antidepressants, alcohol and psychomotor performance.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2248062/",
+        "citation": "0065-1591 360 1990 Acta psychiatrica Scandinavica. Supplementum Acta Psychiatr Scand Suppl",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Trazodone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.624Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

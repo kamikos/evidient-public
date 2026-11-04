@@ -1,0 +1,30 @@
+{
+  "pair": "acalabrutinib__dexlansoprazole",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Acalabrutinib label says to avoid co-administration with PPIs; dexlansoprazole is an oral PPI and the claim notes it is not named."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "Label states dose separation may not eliminate the PPI interaction due to their long-lasting effect."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

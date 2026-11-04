@@ -1,0 +1,5042 @@
+[
+  {
+    "key": "4e37bb2649359259",
+    "en": "Pharmacodynamic. prasugrel inhibits platelet aggregation while warfarin inhibits the coagulation system."
+  },
+  {
+    "key": "5a1e340ae34be43f",
+    "en": "Pharmacodynamic. ticagrelor inhibits platelet aggregation while warfarin inhibits the coagulation system."
+  },
+  {
+    "key": "f410b2e839705c14",
+    "en": "phenobarbital increases the metabolism of esomeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "c0458f01aa2b9eb8",
+    "en": "phenobarbital increases the metabolism of omeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "328297e86b1630ad",
+    "en": "febuxostat inhibits the enzyme xanthine oxidase, which is an inactivation pathway for theophylline."
+  },
+  {
+    "key": "d02c38c89f57945f",
+    "en": "febuxostat inhibits the enzyme xanthine oxidase/xanthine dehydrogenase, which is an important inactivation pathway for 6-mercaptopurine."
+  },
+  {
+    "key": "cd323a7167318886",
+    "en": "febuxostat inhibits the enzyme xanthine oxidase/xanthine dehydrogenase, which is an important inactivation pathway for azathioprine/6-mercaptopurine."
+  },
+  {
+    "key": "26fa662385392815",
+    "en": "fedratinib inhibits the metabolism of loperamide via CYP3A4 and possibly also the efflux of loperamide (including in the intestine) via P-glycoprotein."
+  },
+  {
+    "key": "158597683b7a9fb8",
+    "en": "phenobarbital induces the metabolism of siponimod via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "f1698e718cc6239a",
+    "en": "phenobarbital induces the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "770d0aac7ef711d6",
+    "en": "phenobarbital may induce the metabolism of erythromycin via CYP3A4."
+  },
+  {
+    "key": "d4479a8d791bd2f7",
+    "en": "phenobarbital may increase the metabolism of clobazam to an active metabolite, and possibly also the subsequent metabolism of the active metabolite."
+  },
+  {
+    "key": "14d3e34c7310a2ad",
+    "en": "phenobarbital may increase the metabolism of lomitapide via CYP3A4."
+  },
+  {
+    "key": "3978b8d5b27cb496",
+    "en": "phenobarbital may increase the metabolism of thyroid preparations. This has been shown for levothyroxine, but it is reasonable to assume that it also applies to liothyronine (triiodothyronine)."
+  },
+  {
+    "key": "bc5dbe616cad84cf",
+    "en": "phenobarbital increases the activity of, among other things, several CYP enzymes and P-glycoprotein."
+  },
+  {
+    "key": "210fd0e936f32429",
+    "en": "phenobarbital increases the metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "c480758f4635a236",
+    "en": "phenobarbital increases the metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "caad135cd834297f",
+    "en": "phenobarbital increases the metabolism of sirolimus via CYP3A4"
+  },
+  {
+    "key": "27bb19c3566149db",
+    "en": "phenobarbital increases the metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "159d8e3891cb2b22",
+    "en": "phenobarbital increases the metabolism of voriconazole via CYP3A4"
+  },
+  {
+    "key": "038b29c9613afc93",
+    "en": "phenobarbital increases the metabolism of warfarin via CYP2C9, CYP1A2 and CYP3A4"
+  },
+  {
+    "key": "4aadbfb709455986",
+    "en": "phenobarbital increases the metabolism of zidovudine via glucuronidating enzymes (UGT enzymes)."
+  },
+  {
+    "key": "c34a5d83199b4628",
+    "en": "phenobarbital increases the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "51f7a237ba73df32",
+    "en": "phenobarbital increases the metabolism of abemaciclib via CYP3A4."
+  },
+  {
+    "key": "916dce67cfed300d",
+    "en": "phenobarbital increases the metabolism of abrocitinib via CYP2C9/CYP2C19."
+  },
+  {
+    "key": "f130360f2a8d1e83",
+    "en": "phenobarbital increases the metabolism of acalabrutinib via CYP3A4."
+  },
+  {
+    "key": "603ac3b9af092148",
+    "en": "phenobarbital increases the metabolism of alectinib to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "1909bf5edaa01790",
+    "en": "phenobarbital increases the metabolism of amiodarone, primarily via CYP3A4."
+  },
+  {
+    "key": "8f04a794ed33af39",
+    "en": "phenobarbital increases the metabolism of apremilast via CYP3A4."
+  },
+  {
+    "key": "39bc43ecc1555c3c",
+    "en": "phenobarbital increases the metabolism of aripiprazole via CYP3A4"
+  },
+  {
+    "key": "b1dc5dbf79cbc5cd",
+    "en": "phenobarbital increases the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "22f18ef777085179",
+    "en": "phenobarbital increases the metabolism of avapritinib via CYP3A4."
+  },
+  {
+    "key": "997675ac4b831ac3",
+    "en": "phenobarbital increases the metabolism of bedaquiline via CYP3A4."
+  },
+  {
+    "key": "82202f5c39082a47",
+    "en": "phenobarbital increases the metabolism of bortezomib via CYP3A4."
+  },
+  {
+    "key": "04acdd34651535ac",
+    "en": "phenobarbital increases the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "ca509aeb9b796ea7",
+    "en": "phenobarbital increases the metabolism of brexpiprazole via CYP3A4."
+  },
+  {
+    "key": "08a934708135a738",
+    "en": "phenobarbital increases the metabolism of brivaracetam via CYP2C19."
+  },
+  {
+    "key": "f523d32725adb88f",
+    "en": "phenobarbital increases the metabolism of both risperidone and an active risperidone metabolite via CYP3A4"
+  },
+  {
+    "key": "56feb37bb4ffe784",
+    "en": "phenobarbital increases the metabolism of ceritinib via CYP3A4."
+  },
+  {
+    "key": "2da4520362e4cb33",
+    "en": "phenobarbital increases the metabolism of daridorexant via CYP3A4."
+  },
+  {
+    "key": "e2fb832c3f4b07de",
+    "en": "phenobarbital increases the metabolism of darolutamide via CYP3A4."
+  },
+  {
+    "key": "9d3f28fe22ee3503",
+    "en": "phenobarbital increases the metabolism of darunavir via CYP3A4."
+  },
+  {
+    "key": "18351ab7232d9ea2",
+    "en": "phenobarbital increases the metabolism of dasatinib via CYP3A4"
+  },
+  {
+    "key": "cb39ecf54d28daad",
+    "en": "phenobarbital increases the metabolism of the active metabolite of fesoterodine via CYP3A4"
+  },
+  {
+    "key": "5d8fa9ba3de07981",
+    "en": "phenobarbital increases the metabolism of diltiazem via CYP3A4"
+  },
+  {
+    "key": "80abd8cc858e1dac",
+    "en": "phenobarbital increases the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "3cc9d137bd1b6528",
+    "en": "phenobarbital increases the metabolism of eliglustat via CYP3A4."
+  },
+  {
+    "key": "4554042918a6714c",
+    "en": "phenobarbital increases the metabolism of encorafenib via CYP3A4."
+  },
+  {
+    "key": "ac6fcc28a220e41d",
+    "en": "phenobarbital increases the metabolism of entrectinib via CYP3A4."
+  },
+  {
+    "key": "acdfe4ad6555350f",
+    "en": "phenobarbital increases the metabolism of eplerenone via CYP3A4."
+  },
+  {
+    "key": "06773d189d424a34",
+    "en": "phenobarbital increases the metabolism of erlotinib via CYP3A4"
+  },
+  {
+    "key": "407b1a5fc056e727",
+    "en": "phenobarbital increases the metabolism of etoricoxib via CYP3A4."
+  },
+  {
+    "key": "066090a3c0e452e3",
+    "en": "phenobarbital increases the metabolism of etravirine via CYP3A4"
+  },
+  {
+    "key": "e2b22b4205dc7cda",
+    "en": "phenobarbital increases the metabolism of fedratinib via CYP3A4."
+  },
+  {
+    "key": "0c3d8328efa26729",
+    "en": "phenobarbital increases the metabolism of fexofenadine via CYP3A4 and efflux of fexofenadine via P-glycoprotein."
+  },
+  {
+    "key": "c8cbe466c420b33a",
+    "en": "phenobarbital increases the metabolism of felodipine via CYP3A4."
+  },
+  {
+    "key": "b0af85c507b6da8d",
+    "en": "phenobarbital increases the metabolism of fentanyl via CYP3A4."
+  },
+  {
+    "key": "f4b52490bfdb845d",
+    "en": "phenobarbital increases the metabolism of finerenone via CYP3A4."
+  },
+  {
+    "key": "8b886f31e6fed1ab",
+    "en": "phenobarbital increases the metabolism of gefitinib via CYP3A4"
+  },
+  {
+    "key": "704032f5371faba6",
+    "en": "phenobarbital increases the metabolism of glasdegib via CYP3A4."
+  },
+  {
+    "key": "1fc1c86f89b1d029",
+    "en": "phenobarbital increases the metabolism of glipizide via CYP2C9."
+  },
+  {
+    "key": "e7ef13f603bc2fec",
+    "en": "phenobarbital increases the metabolism of guanfacine via CYP3A4."
+  },
+  {
+    "key": "e60ed74e92a5798a",
+    "en": "phenobarbital increases the metabolism of haloperidol via CYP3A4."
+  },
+  {
+    "key": "4baa18b8a3dba99a",
+    "en": "phenobarbital increases the metabolism of hydrocortisone via CYP3A4."
+  },
+  {
+    "key": "4f634a40aca14fff",
+    "en": "phenobarbital increases the metabolism of ibrutinib via CYP3A4."
+  },
+  {
+    "key": "d325d46a418dc473",
+    "en": "phenobarbital increases the metabolism of ixazomib via CYP3A4."
+  },
+  {
+    "key": "d74c419c35a377d6",
+    "en": "phenobarbital increases the metabolism of imatinib via CYP3A4"
+  },
+  {
+    "key": "190a81885e38260b",
+    "en": "phenobarbital increases the metabolism of inactive clopidogrel to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "430b18a91f44885d",
+    "en": "phenobarbital increases the metabolism of irinotecan to inactive metabolites via CYP3A4 and also the metabolism of the active metabolite SN-38 via UGT1A1."
+  },
+  {
+    "key": "16a061e069268ff8",
+    "en": "phenobarbital increases the metabolism of isavuconazole via CYP3A4."
+  },
+  {
+    "key": "53118debf874064d",
+    "en": "phenobarbital increases the metabolism of itraconazole via CYP3A4"
+  },
+  {
+    "key": "023b9f4b3fabfea8",
+    "en": "phenobarbital increases the metabolism of cabotegravir via glucuronidating enzymes (UGT enzymes)."
+  },
+  {
+    "key": "c5bf70a11d6aea4e",
+    "en": "phenobarbital increases the metabolism of cabozantinib via CYP3A4."
+  },
+  {
+    "key": "bdc49742272921f5",
+    "en": "phenobarbital increases the metabolism of capmatinib via CYP3A4."
+  },
+  {
+    "key": "382d30e2c9f704ab",
+    "en": "phenobarbital increases the metabolism of cariprazine and its active metabolite via CYP3A4."
+  },
+  {
+    "key": "6b46c82d26a75318",
+    "en": "phenobarbital increases the metabolism of ketoconazole via CYP3A4"
+  },
+  {
+    "key": "e06ddf9d0e5d1711",
+    "en": "phenobarbital increases the metabolism of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "945c9abbae19eca1",
+    "en": "phenobarbital increases the metabolism of clonazepam via CYP3A4."
+  },
+  {
+    "key": "4063538419d56907",
+    "en": "phenobarbital increases the metabolism of cobimetinib via CYP3A4."
+  },
+  {
+    "key": "99e948e23b2cf34d",
+    "en": "phenobarbital increases the metabolism of lapatinib via CYP3A4"
+  },
+  {
+    "key": "9c8fb05b61a56673",
+    "en": "phenobarbital increases the metabolism of larotrectinib via CYP3A4."
+  },
+  {
+    "key": "dedd5b49e0472a6f",
+    "en": "phenobarbital increases the metabolism of lefamulin via CYP3A4."
+  },
+  {
+    "key": "a1ab63cd84d73a60",
+    "en": "phenobarbital increases the metabolism of lenacapavir via CYP3A4."
+  },
+  {
+    "key": "bc001c52a1696a25",
+    "en": "phenobarbital increases the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "33028145c717ed21",
+    "en": "phenobarbital increases the metabolism of letermovir via glucuronidating enzymes and possibly also increases elimination via transport pumps such as OATP1B1/3 and P-glycoprotein."
+  },
+  {
+    "key": "23d0c7995c7eb665",
+    "en": "phenobarbital increases the metabolism of lorlatinib via CYP3A4."
+  },
+  {
+    "key": "988934bf21553650",
+    "en": "phenobarbital increases the metabolism of macimorelin via CYP3A4."
+  },
+  {
+    "key": "2ac46a61ac1eeb90",
+    "en": "phenobarbital increases the metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "b13b9c684dbcfb90",
+    "en": "phenobarbital increases the metabolism of maribavir via CYP3A4."
+  },
+  {
+    "key": "1ea118ec0a71a015",
+    "en": "phenobarbital increases the metabolism of methadone via CYP3A4"
+  },
+  {
+    "key": "36afdfdede3f0f41",
+    "en": "phenobarbital increases the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "147f860d92b97cc4",
+    "en": "phenobarbital increases the metabolism of mianserin via CYP3A4 among others"
+  },
+  {
+    "key": "7601e04278da0250",
+    "en": "phenobarbital increases the metabolism of mirtazapine via CYP3A4."
+  },
+  {
+    "key": "8e4df2ef5f7c9080",
+    "en": "phenobarbital increases the metabolism of naloxegol via CYP3A4."
+  },
+  {
+    "key": "a956fd264d032297",
+    "en": "phenobarbital increases the metabolism of neratinib via CYP3A4."
+  },
+  {
+    "key": "53acc09e0709cadb",
+    "en": "phenobarbital increases the metabolism of nilotinib via CYP3A4"
+  },
+  {
+    "key": "b29ff2bdefd399ff",
+    "en": "phenobarbital increases the metabolism of nimodipine via CYP3A4"
+  },
+  {
+    "key": "e70da8b1ed591189",
+    "en": "phenobarbital increases the metabolism of ondansetron via CYP3A4."
+  },
+  {
+    "key": "d24045847b7f57ab",
+    "en": "phenobarbital increases the metabolism of osimertinib via CYP3A4."
+  },
+  {
+    "key": "43dd0adc4f98ebcd",
+    "en": "phenobarbital increases the metabolism of ospemifene via CYP2C9, CYP3A4 and possibly also CYP2C19."
+  },
+  {
+    "key": "d9ab28f4c9da19ee",
+    "en": "phenobarbital increases the metabolism of palbociclib via CYP3A4."
+  },
+  {
+    "key": "391fe6c2b43dd0fa",
+    "en": "phenobarbital increases the metabolism of panobinostat via CYP3A4."
+  },
+  {
+    "key": "857523e5db3b05da",
+    "en": "phenobarbital increases the metabolism of pemigatinib via CYP3A4."
+  },
+  {
+    "key": "d4742ff14d656652",
+    "en": "phenobarbital increases the metabolism of pretomanid via CYP3A4."
+  },
+  {
+    "key": "f8cf898736f00c5b",
+    "en": "phenobarbital increases the metabolism of propranolol via CYP2C19."
+  },
+  {
+    "key": "fd312af480b9157b",
+    "en": "phenobarbital increases the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "e6fd170c2c230be5",
+    "en": "phenobarbital increases the metabolism of relugolix via CYP3A4 and efflux of relugolix via P-glycoprotein."
+  },
+  {
+    "key": "04411fb519ef2b73",
+    "en": "phenobarbital increases the metabolism of rimegepant via CYP3A4."
+  },
+  {
+    "key": "683d542788346568",
+    "en": "phenobarbital increases the metabolism of ritonavir and the other anti-HIV drugs via CYP3A4."
+  },
+  {
+    "key": "4f1216de53d44aed",
+    "en": "phenobarbital increases the metabolism of rivaroxaban via CYP3A4"
+  },
+  {
+    "key": "70617b351f5b464c",
+    "en": "phenobarbital increases the metabolism of roflumilast via CYP3A4"
+  },
+  {
+    "key": "2468f0c82a78185c",
+    "en": "phenobarbital increases the metabolism of selpercatinib via CYP3A4."
+  },
+  {
+    "key": "8e2eafaba1e5cdf2",
+    "en": "phenobarbital increases the metabolism of selumetinib via CYP3A4."
+  },
+  {
+    "key": "b0ec7bdac17bc8a7",
+    "en": "phenobarbital increases the metabolism of sertindole via CYP3A4."
+  },
+  {
+    "key": "f54f493610db9546",
+    "en": "phenobarbital increases the metabolism of sildenafil via CYP3A4."
+  },
+  {
+    "key": "28e14388c5fa557a",
+    "en": "phenobarbital increases the metabolism of simvastatin via CYP3A4."
+  },
+  {
+    "key": "201e2f3cd004261b",
+    "en": "phenobarbital increases the metabolism of sonidegib via CYP3A4."
+  },
+  {
+    "key": "cd56b3347ebf98b8",
+    "en": "phenobarbital increases the metabolism of sotorasib via CYP3A4."
+  },
+  {
+    "key": "a74bd267056ef0b3",
+    "en": "phenobarbital increases the metabolism of sunitinib via CYP3A4"
+  },
+  {
+    "key": "9fb9f5974fafffda",
+    "en": "phenobarbital increases the metabolism of tadalafil via CYP3A4."
+  },
+  {
+    "key": "332367c4cb217c3c",
+    "en": "phenobarbital increases the metabolism of tasimelteon via CYP3A4."
+  },
+  {
+    "key": "bb4a1932e5a42733",
+    "en": "phenobarbital increases the metabolism of temsavir via CYP3A4 and possibly also P-glycoprotein."
+  },
+  {
+    "key": "2270b6b9fd69ab84",
+    "en": "phenobarbital increases the metabolism of terbinafine via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "d8a0764a5e8ed9bb",
+    "en": "phenobarbital increases the metabolism of tivozanib via CYP3A4."
+  },
+  {
+    "key": "c26747638d91bc38",
+    "en": "phenobarbital increases the metabolism of tofacitinib via CYP3A4."
+  },
+  {
+    "key": "2f306b6abe6b4dee",
+    "en": "phenobarbital increases the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "e076aed6996e5084",
+    "en": "phenobarbital increases the metabolism of trabectedin via CYP3A4."
+  },
+  {
+    "key": "2c3bef1a7a43d6ee",
+    "en": "phenobarbital increases the metabolism of tucatinib via CYP3A4 and possibly also CYP2C8."
+  },
+  {
+    "key": "23fae95c21ce7533",
+    "en": "phenobarbital increases the metabolism of ulipristal via CYP3A4."
+  },
+  {
+    "key": "454cefe3697ca88d",
+    "en": "phenobarbital increases the metabolism of venetoclax via CYP3A4."
+  },
+  {
+    "key": "0036ed5bdb21d796",
+    "en": "phenobarbital increases the metabolism of voxelotor via CYP3A4 and possibly also via other enzymes."
+  },
+  {
+    "key": "2f98374e81a69a70",
+    "en": "phenobarbital increases the metabolism of vortioxetine via CYP3A4."
+  },
+  {
+    "key": "31e288d9a506eaa9",
+    "en": "phenobarbital increases the metabolism of zanubrutinib via CYP3A4."
+  },
+  {
+    "key": "5a485e0af7403d1a",
+    "en": "phenobarbital increases efflux of nintedanib via P-glycoprotein."
+  },
+  {
+    "key": "66b57a23aa679aec",
+    "en": "fenofibrate inhibits the metabolism of warfarin via CYP2C9."
+  },
+  {
+    "key": "f62d1701852f477b",
+    "en": "phenylephrine increases blood pressure by causing vasoconstriction. This effect is usually limited by stimulation of the baroreceptors, which exert their inhibitory effect via cholinergic fibres in the vagus nerve. When atropine blocks this protective mechanism, the increase in blood pressure may be greater than expected. This could conceivably also occur when atropine is used as eye drops."
+  },
+  {
+    "key": "ced61a9429be8159",
+    "en": "phenylephrine increases blood pressure by causing vasoconstriction. This effect is usually limited by stimulation of the baroreceptors, which exert their inhibitory effect via cholinergic fibres in the vagus nerve. When atropine blocks this protective mechanism, the increase in blood pressure may be greater than expected. The effect has also been shown when phenylephrine is used as eye drops."
+  },
+  {
+    "key": "8f60e77187a7a6d2",
+    "en": "phenylephrine increases blood pressure by causing vasoconstriction. This effect is usually limited by stimulation of the baroreceptors, which exert their inhibitory effect via cholinergic fibres in the vagus nerve. When atropine blocks this protective mechanism, the increase in blood pressure may be very large."
+  },
+  {
+    "key": "a9fcc77f59e2c81b",
+    "en": "phenytoin increases the metabolism of albendazole sulfoxide."
+  },
+  {
+    "key": "1c02515db6e46e79",
+    "en": "phenytoin increases the metabolism of avanafil via CYP3A4."
+  },
+  {
+    "key": "99bb332ed677c1b1",
+    "en": "phenytoin increases the metabolism of bosutinib via CYP3A4."
+  },
+  {
+    "key": "e07c2f7483e59565",
+    "en": "phenytoin increases the metabolism of cobicistat and elvitegravir via CYP3A4."
+  },
+  {
+    "key": "be94ebefae7f57bc",
+    "en": "phenytoin increases the metabolism of lurasidone via CYP3A4."
+  },
+  {
+    "key": "a19bea82dc9f531a",
+    "en": "phenytoin increases the metabolism of regorafenib via CYP3A4. The combination should be avoided according to the summary of product characteristics for regorafenib."
+  },
+  {
+    "key": "7a9fd6a9dce42dd2",
+    "en": "phenytoin increases the metabolism of teriflunomide via CYP enzymes."
+  },
+  {
+    "key": "bfa0011c5cde8be9",
+    "en": "phenytoin inhibits the conversion of losartan to an active metabolite via CYP2C9"
+  },
+  {
+    "key": "5e9477421001d4f4",
+    "en": "phenytoin induces the metabolism of mirtazapine via CYP3A4 and CYP1A2."
+  },
+  {
+    "key": "26c973c70da4763e",
+    "en": "phenytoin induces the metabolism of buprenorphine via CYP3A4."
+  },
+  {
+    "key": "393beefaf9f0b95c",
+    "en": "phenytoin induces the metabolism of buspirone via CYP3A4."
+  },
+  {
+    "key": "d0658205deeadb69",
+    "en": "phenytoin induces the metabolism of diazepam; diazepam inhibits the metabolism of phenytoin via CYP2C9."
+  },
+  {
+    "key": "dc272e58ceb8d9a5",
+    "en": "phenytoin induces the metabolism of doxycycline."
+  },
+  {
+    "key": "02c24f18ddd37ee4",
+    "en": "phenytoin induces the metabolism of eletriptan via CYP3A4."
+  },
+  {
+    "key": "bd42246ed6782fe5",
+    "en": "phenytoin induces the metabolism of fludrocortisone via CYP3A4."
+  },
+  {
+    "key": "69d1bda74791ff7f",
+    "en": "phenytoin induces the metabolism of haloperidol via CYP3A4."
+  },
+  {
+    "key": "af5b9263b90e2fa0",
+    "en": "phenytoin induces the metabolism of cabergoline via CYP3A4."
+  },
+  {
+    "key": "a7bcac4d582ecd27",
+    "en": "phenytoin induces the metabolism of clonazepam via CYP3A4; clonazepam may possibly inhibit or induce the metabolism of phenytoin."
+  },
+  {
+    "key": "2c5f7a360dafe867",
+    "en": "phenytoin induces the metabolism of clozapine via CYP1A2."
+  },
+  {
+    "key": "147240f0aa363c2f",
+    "en": "phenytoin induces the metabolism of lamotrigine via glucuronidating enzymes."
+  },
+  {
+    "key": "9cdf3d7b072c780a",
+    "en": "phenytoin induces the metabolism of levetiracetam. It is uncertain why the concentration of phenytoin might increase."
+  },
+  {
+    "key": "aeb563adeb33a330",
+    "en": "phenytoin induces the metabolism of loratadine via CYP3A4."
+  },
+  {
+    "key": "3e1ab808d72f8f7f",
+    "en": "phenytoin induces the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "5a41d3ef74acf926",
+    "en": "phenytoin induces the metabolism of the active metabolite of oxcarbazepine; oxcarbazepine at high doses inhibits the metabolism of phenytoin via CYP2C9."
+  },
+  {
+    "key": "e544cc761c048d2d",
+    "en": "phenytoin induces the metabolism of sertindole."
+  },
+  {
+    "key": "9a7ba03c89c803eb",
+    "en": "phenytoin induces the metabolism of siponimod via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "8ada9232f75628e1",
+    "en": "phenytoin induces the metabolism of theophylline via CYP1A2; it is uncertain why theophylline might reduce the concentration of phenytoin."
+  },
+  {
+    "key": "e2123ef9a074aa7d",
+    "en": "phenytoin induces the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "90d4ae182675904b",
+    "en": "phenytoin induces the metabolism of topiramate; topiramate may possibly inhibit the metabolism of phenytoin via CYP2C19."
+  },
+  {
+    "key": "94efb2f08ecb0f82",
+    "en": "phenytoin induces the metabolism of tricyclic antidepressants via CYP2C19, CYP3A4 and CYP1A2. Metabolism via CYP2D6 is not affected."
+  },
+  {
+    "key": "650501aac19f3dc7",
+    "en": "phenytoin induces the metabolism of warfarin via CYP2C9. The initially increased concentration of warfarin in some cases may be due to an inhibitory effect of phenytoin on CYP2C9 in individuals with low metabolic capacity via this enzyme. Similarly, warfarin may possibly inhibit the metabolism of phenytoin."
+  },
+  {
+    "key": "0a890ab0f994c752",
+    "en": "phenytoin induces the metabolism of zolpidem via CYP3A4."
+  },
+  {
+    "key": "67e48ad731c7e414",
+    "en": "phenytoin may induce the metabolism of eszopiclone via CYP3A4."
+  },
+  {
+    "key": "8d8856512282e9e3",
+    "en": "phenytoin may induce the metabolism of zopiclone via CYP3A4."
+  },
+  {
+    "key": "6570883388dc9af7",
+    "en": "phenytoin may possibly induce the metabolism of paroxetine in some individuals."
+  },
+  {
+    "key": "d355e40cad9df6e9",
+    "en": "phenytoin may increase the metabolism of lomitapide via CYP3A4."
+  },
+  {
+    "key": "bd0c4b365dc5d2ca",
+    "en": "phenytoin may increase the metabolism of thyroid preparations. This has been shown for levothyroxine, but it is reasonable to assume that it also applies to liothyronine (triiodothyronine)."
+  },
+  {
+    "key": "ce68b902b7257444",
+    "en": "phenytoin reduces the bioavailability of ivabradine via increased CYP3A4 metabolism"
+  },
+  {
+    "key": "c28229c396ec29b8",
+    "en": "phenytoin increases the metabolism of diltiazem via CYP3A4."
+  },
+  {
+    "key": "a2f6cd4e2e8256f4",
+    "en": "phenytoin increases the metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "e0bcf1e6c91eeddb",
+    "en": "phenytoin increases the metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "55dc239a793ed8f6",
+    "en": "phenytoin increases the metabolism of posaconazole via CYP3A4"
+  },
+  {
+    "key": "65e682806aae764c",
+    "en": "phenytoin increases the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "32820b9badee04ba",
+    "en": "phenytoin increases the metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "c3ba5168edfaa87e",
+    "en": "phenytoin increases the metabolism of verapamil via CYP3A4."
+  },
+  {
+    "key": "891bc67332019c95",
+    "en": "phenytoin increases the metabolism of zidovudine via glucuronidating enzymes (UGT enzymes). It is unknown why the concentration of phenytoin might be affected."
+  },
+  {
+    "key": "82f8d7957b266e50",
+    "en": "phenytoin increases the metabolism of abemaciclib via CYP3A4."
+  },
+  {
+    "key": "bcf803603ce56a78",
+    "en": "phenytoin increases the metabolism of abrocitinib via CYP2C9/CYP2C19."
+  },
+  {
+    "key": "b727e6b69d71cd56",
+    "en": "phenytoin increases the metabolism of acalabrutinib via CYP3A4."
+  },
+  {
+    "key": "669d82ea84a0ef76",
+    "en": "phenytoin increases the metabolism of axitinib via CYP3A4."
+  },
+  {
+    "key": "e2b18b2b9247c31c",
+    "en": "phenytoin increases the metabolism of alectinib to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "a101413c9c876a19",
+    "en": "phenytoin increases the metabolism of alprazolam via CYP3A4."
+  },
+  {
+    "key": "f84240bf39992f7e",
+    "en": "phenytoin increases the metabolism of apremilast via CYP3A4."
+  },
+  {
+    "key": "753cfcaf1e96073b",
+    "en": "phenytoin increases the metabolism of atazanavir via CYP3A4"
+  },
+  {
+    "key": "5322f09a19622acd",
+    "en": "phenytoin increases the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "966c0174338a7614",
+    "en": "phenytoin increases the metabolism of avapritinib via CYP3A4."
+  },
+  {
+    "key": "c1c75b7d48872857",
+    "en": "phenytoin increases the metabolism of bedaquiline via CYP3A4."
+  },
+  {
+    "key": "b75cd654cbf0188b",
+    "en": "phenytoin increases the metabolism of bortezomib via CYP3A4."
+  },
+  {
+    "key": "f9e696ad6ce86a51",
+    "en": "phenytoin increases the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "59c38386db219b44",
+    "en": "phenytoin increases the metabolism of brexpiprazole via CYP3A4."
+  },
+  {
+    "key": "dd98f77433b2096c",
+    "en": "phenytoin increases the metabolism of brivaracetam via CYP2C19."
+  },
+  {
+    "key": "88beb4e7cd4b705f",
+    "en": "phenytoin increases the metabolism of both risperidone and an active risperidone metabolite via CYP3A4"
+  },
+  {
+    "key": "a0894ff9d39deb4a",
+    "en": "phenytoin increases the metabolism of ceritinib via CYP3A4. ceritinib may possibly inhibit the metabolism of phenytoin via CYP2C9."
+  },
+  {
+    "key": "033d17ba926aafc1",
+    "en": "phenytoin increases the metabolism of daridorexant via CYP3A4."
+  },
+  {
+    "key": "13db44c8878b7c6d",
+    "en": "phenytoin increases the metabolism of darolutamide via CYP3A4."
+  },
+  {
+    "key": "87869f288a969df6",
+    "en": "phenytoin increases the metabolism of darunavir via CYP3A4."
+  },
+  {
+    "key": "146860adbb589d90",
+    "en": "phenytoin increases the metabolism of dasatinib via CYP3A4"
+  },
+  {
+    "key": "c412d30654a2e417",
+    "en": "phenytoin increases the metabolism of the active metabolite of fesoterodine via CYP3A4"
+  },
+  {
+    "key": "f7fcbedb0246ed31",
+    "en": "phenytoin increases the metabolism of dolutegravir via the glucuronidating enzyme UGT1A1 and possibly also via CYP3A4."
+  },
+  {
+    "key": "4dc288d546c75b94",
+    "en": "phenytoin increases the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "eaa3d43df767d492",
+    "en": "phenytoin increases the metabolism of dutasteride via CYP3A4."
+  },
+  {
+    "key": "0a10e47f9b66f595",
+    "en": "phenytoin increases the metabolism of ebastine and the active metabolite carebastine via CYP3A4"
+  },
+  {
+    "key": "a55147f35f88908a",
+    "en": "phenytoin increases the metabolism of eliglustat via CYP3A4."
+  },
+  {
+    "key": "a918f41822ff0af7",
+    "en": "phenytoin increases the metabolism of encorafenib via CYP3A4."
+  },
+  {
+    "key": "33055a52fc1d4bd5",
+    "en": "phenytoin increases the metabolism of entrectinib via CYP3A4."
+  },
+  {
+    "key": "d49fa164eb2128de",
+    "en": "phenytoin increases the metabolism of eplerenone via CYP3A4."
+  },
+  {
+    "key": "a99ec1a099685155",
+    "en": "phenytoin increases the metabolism of erlotinib via CYP3A4"
+  },
+  {
+    "key": "07b662de60335d2a",
+    "en": "phenytoin increases the metabolism of erythromycin via CYP3A4. erythromycin may possibly inhibit the metabolism of phenytoin in individual patients."
+  },
+  {
+    "key": "1fe56418fd982693",
+    "en": "phenytoin increases the metabolism of esomeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "88b5d9cf9d475c92",
+    "en": "phenytoin increases the metabolism of etoricoxib via CYP3A4."
+  },
+  {
+    "key": "9a454f02e47902fe",
+    "en": "phenytoin increases the metabolism of etravirine via CYP3A4"
+  },
+  {
+    "key": "99cad4bd9b4ee532",
+    "en": "phenytoin increases the metabolism of fedratinib via CYP3A4."
+  },
+  {
+    "key": "5dd4d7b1669dc186",
+    "en": "phenytoin increases the metabolism of felodipine via CYP3A4."
+  },
+  {
+    "key": "25af16252cb5ed54",
+    "en": "phenytoin increases the metabolism of fentanyl via CYP3A4."
+  },
+  {
+    "key": "cc9c1900def1291f",
+    "en": "phenytoin increases the metabolism of finerenone via CYP3A4."
+  },
+  {
+    "key": "b131e307c7fd25aa",
+    "en": "phenytoin increases the metabolism of gefitinib via CYP3A4"
+  },
+  {
+    "key": "45d69e37a7d3abf1",
+    "en": "phenytoin increases the metabolism of gilteritinib via CYP3A4."
+  },
+  {
+    "key": "e52e4ecff1971c90",
+    "en": "phenytoin increases the metabolism of glasdegib via CYP3A4."
+  },
+  {
+    "key": "5c92394bc8d4d103",
+    "en": "phenytoin increases the metabolism of glimepiride via CYP2C9."
+  },
+  {
+    "key": "53b98b836f041bf2",
+    "en": "phenytoin increases the metabolism of glipizide via CYP2C9."
+  },
+  {
+    "key": "fe73eb6aa1322853",
+    "en": "phenytoin increases the metabolism of guanfacine via CYP3A4."
+  },
+  {
+    "key": "c2e265b59dc15fca",
+    "en": "phenytoin increases the metabolism of hydrocortisone via CYP3A4."
+  },
+  {
+    "key": "361bb76c70602c21",
+    "en": "phenytoin increases the metabolism of ibrutinib via CYP3A4."
+  },
+  {
+    "key": "28e97ff7adecd34a",
+    "en": "phenytoin increases the metabolism of ixazomib via CYP3A4."
+  },
+  {
+    "key": "fcec218edf0a1b66",
+    "en": "phenytoin increases the metabolism of imatinib via CYP3A4"
+  },
+  {
+    "key": "113b7cae5eeca4d7",
+    "en": "phenytoin increases the metabolism of inactive clopidogrel to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "ca799e1925ebc35f",
+    "en": "phenytoin increases the metabolism of irinotecan to inactive metabolites via CYP3A4 and also the metabolism of the active metabolite SN-38 via UGT1A1."
+  },
+  {
+    "key": "a8b8f4768e567a27",
+    "en": "phenytoin increases the metabolism of isavuconazole via CYP3A4."
+  },
+  {
+    "key": "c11e100f8d42b34e",
+    "en": "phenytoin increases the metabolism of itraconazole via CYP3A4"
+  },
+  {
+    "key": "dcc900782b897062",
+    "en": "phenytoin increases the metabolism of ivacaftor via CYP3A4."
+  },
+  {
+    "key": "0efb8e6bad810a2c",
+    "en": "phenytoin increases the metabolism of cabotegravir via glucuronidating enzymes (UGT enzymes)."
+  },
+  {
+    "key": "c89db096377be565",
+    "en": "phenytoin increases the metabolism of cabozantinib via CYP3A4."
+  },
+  {
+    "key": "c63dc40a7f3ff16b",
+    "en": "phenytoin increases the metabolism of canagliflozin via glucuronidating enzymes and efflux of canagliflozin via P-glycoprotein."
+  },
+  {
+    "key": "4b615635a9cb0a52",
+    "en": "phenytoin increases the metabolism of capmatinib via CYP3A4."
+  },
+  {
+    "key": "2074dd4fada474a8",
+    "en": "phenytoin increases the metabolism of cariprazine and its active metabolite via CYP3A4."
+  },
+  {
+    "key": "5de9d89089cb1a1e",
+    "en": "phenytoin increases the metabolism of ketoconazole via CYP3A4"
+  },
+  {
+    "key": "1919ad2cb0d31fce",
+    "en": "phenytoin increases the metabolism of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "3d89acc30f51c0d6",
+    "en": "phenytoin increases the metabolism of clobazam to an active metabolite but also inhibits further metabolism of the active metabolite. clobazam inhibits the metabolism of phenytoin."
+  },
+  {
+    "key": "c454ff60b8b8fcfc",
+    "en": "phenytoin increases the metabolism of cobimetinib via CYP3A4."
+  },
+  {
+    "key": "8d3714e48cea6b2f",
+    "en": "phenytoin increases the metabolism of crizotinib via CYP3A4."
+  },
+  {
+    "key": "4d29efb80ff44acf",
+    "en": "phenytoin increases the metabolism of quetiapine via CYP3A4."
+  },
+  {
+    "key": "4e98426ef7afbc04",
+    "en": "phenytoin increases the metabolism of lapatinib via CYP3A4"
+  },
+  {
+    "key": "d3da1f6b82f80073",
+    "en": "phenytoin increases the metabolism of larotrectinib via CYP3A4."
+  },
+  {
+    "key": "077d8f633bae5bee",
+    "en": "phenytoin increases the metabolism of lefamulin via CYP3A4."
+  },
+  {
+    "key": "0a3d2f20df077c67",
+    "en": "phenytoin increases the metabolism of lenacapavir via CYP3A4."
+  },
+  {
+    "key": "78deb15822cc0845",
+    "en": "phenytoin increases the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "e07202ab1fdfe903",
+    "en": "phenytoin increases the metabolism of letermovir via glucuronidating enzymes and possibly also increases elimination via transport pumps such as OATP1B1/3 and P-glycoprotein. letermovir may increase the metabolism of phenytoin via CYP2C9."
+  },
+  {
+    "key": "4f2ea19a8c6f1d3f",
+    "en": "phenytoin increases the metabolism of lorlatinib via CYP3A4."
+  },
+  {
+    "key": "ea8aef062eec3f13",
+    "en": "phenytoin increases the metabolism of macimorelin via CYP3A4."
+  },
+  {
+    "key": "4d5ad238b5c172f4",
+    "en": "phenytoin increases the metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "5fce48d871c499e2",
+    "en": "phenytoin increases the metabolism of maribavir via CYP3A4."
+  },
+  {
+    "key": "656b301337b2dc85",
+    "en": "phenytoin increases the metabolism of mebendazole."
+  },
+  {
+    "key": "ae6495ccd1086461",
+    "en": "phenytoin increases the metabolism of methadone via CYP3A4"
+  },
+  {
+    "key": "455027e9f351e54f",
+    "en": "phenytoin increases the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "6c020d0713210ea7",
+    "en": "phenytoin increases the metabolism of mianserin via CYP3A4."
+  },
+  {
+    "key": "cb25a82bbe18efbe",
+    "en": "phenytoin increases the metabolism of modafinil via CYP3A4, modafinil may inhibit the metabolism of phenytoin via CYP2C9 ."
+  },
+  {
+    "key": "b641112fc83c41be",
+    "en": "phenytoin increases the metabolism of naloxegol via CYP3A4."
+  },
+  {
+    "key": "24c5cec9e429c277",
+    "en": "phenytoin increases the metabolism of neratinib via CYP3A4."
+  },
+  {
+    "key": "c4ad15dcb1e56078",
+    "en": "phenytoin increases the metabolism of nilotinib via CYP3A4"
+  },
+  {
+    "key": "af0e5f8839d82c9e",
+    "en": "phenytoin increases the metabolism of nimodipine via CYP3A4"
+  },
+  {
+    "key": "722bef2d0893c676",
+    "en": "phenytoin increases the metabolism of omeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "d5d1e680d0f0148f",
+    "en": "phenytoin increases the metabolism of ondansetron via CYP3A4."
+  },
+  {
+    "key": "3cd374288c1d83fc",
+    "en": "phenytoin increases the metabolism of osimertinib via CYP3A4."
+  },
+  {
+    "key": "ae705d9158777cda",
+    "en": "phenytoin increases the metabolism of ospemifene via CYP2C9, CYP3A4 and possibly also CYP2C19."
+  },
+  {
+    "key": "0e55900881ce6975",
+    "en": "phenytoin increases the metabolism of palbociclib via CYP3A4."
+  },
+  {
+    "key": "8704e2d9ec6d8f2b",
+    "en": "phenytoin increases the metabolism of panobinostat via CYP3A4."
+  },
+  {
+    "key": "bdcc52ffc2d4665f",
+    "en": "phenytoin increases the metabolism of pemigatinib via CYP3A4."
+  },
+  {
+    "key": "d142c4497134b6d7",
+    "en": "phenytoin increases the metabolism of pioglitazone via CYP2C8 and possibly also CYP2C9/CYP3A4."
+  },
+  {
+    "key": "71b6ee98f966b21f",
+    "en": "phenytoin increases the metabolism of prednisolone via CYP3A4."
+  },
+  {
+    "key": "155035806b2a04e1",
+    "en": "phenytoin increases the metabolism of pretomanid via CYP3A4."
+  },
+  {
+    "key": "dc04b0502b8c7865",
+    "en": "phenytoin increases the metabolism of propranolol via CYP2C19."
+  },
+  {
+    "key": "6c899b667cd7ded1",
+    "en": "phenytoin increases the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "f25100531a9a3fc7",
+    "en": "phenytoin increases the metabolism of relugolix via CYP3A4 and efflux of relugolix via P-glycoprotein."
+  },
+  {
+    "key": "7dc6852b892e7cb3",
+    "en": "phenytoin increases the metabolism of repaglinide via CYP2C8 and CYP3A4."
+  },
+  {
+    "key": "794ad6f03dd6fe92",
+    "en": "phenytoin increases the metabolism of rimegepant via CYP3A4."
+  },
+  {
+    "key": "3d6c30b3167bd231",
+    "en": "phenytoin increases the metabolism of ritonavir and the other anti-HIV drugs via CYP3A4. ritonavir induces the metabolism of phenytoin via CYP2C9."
+  },
+  {
+    "key": "f017eef3a2f7a7dc",
+    "en": "phenytoin increases the metabolism of rivaroxaban via CYP3A4."
+  },
+  {
+    "key": "d368ca9041eeef75",
+    "en": "phenytoin increases the metabolism of roflumilast via CYP3A4"
+  },
+  {
+    "key": "4fac7d109214118e",
+    "en": "phenytoin increases the metabolism of ruxolitinib via CYP3A4."
+  },
+  {
+    "key": "224d3615678fe19b",
+    "en": "phenytoin increases the metabolism of saxagliptin via CYP3A4."
+  },
+  {
+    "key": "b8d1c173993be7e2",
+    "en": "phenytoin increases the metabolism of selpercatinib via CYP3A4."
+  },
+  {
+    "key": "3be5514ae70980f8",
+    "en": "phenytoin increases the metabolism of selumetinib via CYP3A4."
+  },
+  {
+    "key": "c0de3e7fdd27612c",
+    "en": "phenytoin increases the metabolism of sildenafil via CYP3A4."
+  },
+  {
+    "key": "f7e8ac74f975f10f",
+    "en": "phenytoin increases the metabolism of sirolimus via CYP3A4."
+  },
+  {
+    "key": "f70c557d24537e61",
+    "en": "phenytoin increases the metabolism of sonidegib via CYP3A4."
+  },
+  {
+    "key": "6282ed14d50fa674",
+    "en": "phenytoin increases the metabolism of sotorasib via CYP3A4."
+  },
+  {
+    "key": "b3457622e9d6205e",
+    "en": "phenytoin increases the metabolism of sunitinib via CYP3A4"
+  },
+  {
+    "key": "ffdfd718e4bc1cff",
+    "en": "phenytoin increases the metabolism of tadalafil via CYP3A4."
+  },
+  {
+    "key": "cf8a083f3bd68e97",
+    "en": "phenytoin increases the metabolism of tasimelteon via CYP3A4."
+  },
+  {
+    "key": "ee86b5fa240e22d1",
+    "en": "phenytoin increases the metabolism of temsavir via CYP3A4 and possibly also P-glycoprotein."
+  },
+  {
+    "key": "a60fe7f8b08d8e6e",
+    "en": "phenytoin increases the metabolism of terbinafine via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "2784fd704a26d1d9",
+    "en": "phenytoin increases the metabolism of tivozanib via CYP3A4."
+  },
+  {
+    "key": "74e8a712fa32c597",
+    "en": "phenytoin increases the metabolism of tofacitinib via CYP3A4."
+  },
+  {
+    "key": "3804423afce2e1f7",
+    "en": "phenytoin increases the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "c212a46f6ebf3487",
+    "en": "phenytoin increases the metabolism of trabectedin via CYP3A4."
+  },
+  {
+    "key": "88e6a9dd85455103",
+    "en": "phenytoin increases the metabolism of tucatinib via CYP3A4 and possibly also CYP2C8."
+  },
+  {
+    "key": "946753d6fb17e216",
+    "en": "phenytoin increases the metabolism of ulipristal via CYP3A4."
+  },
+  {
+    "key": "ddbd7b4b1333e1b3",
+    "en": "phenytoin increases the metabolism of upadacitinib via CYP3A4."
+  },
+  {
+    "key": "4a9fdb52ecc80c9b",
+    "en": "phenytoin increases the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "a3c3ec79629a002c",
+    "en": "phenytoin increases the metabolism of venetoclax via CYP3A4."
+  },
+  {
+    "key": "d22579f20f90e2e5",
+    "en": "phenytoin increases the metabolism of vismodegib via CYP enzymes (most probably mainly CYP2C9 and CYP3A4)."
+  },
+  {
+    "key": "d4cd15a3d9257058",
+    "en": "phenytoin increases the metabolism of vitamin D. In addition, the absorption of calcium from the intestine may be inhibited by phenytoin, which may further contribute to effects on the skeleton."
+  },
+  {
+    "key": "6cf9a9bf0d12f1e0",
+    "en": "phenytoin increases the metabolism of voxelotor via CYP3A4 and possibly also via other enzymes."
+  },
+  {
+    "key": "299e48a2265970ef",
+    "en": "phenytoin increases the metabolism of vortioxetine via CYP3A4."
+  },
+  {
+    "key": "19a33fe96cb0b0e4",
+    "en": "phenytoin increases the metabolism of zanubrutinib via CYP3A4."
+  },
+  {
+    "key": "515b199a55b72adf",
+    "en": "phenytoin increases efflux of nintedanib via P-glycoprotein."
+  },
+  {
+    "key": "413fe36bb1e71bdc",
+    "en": "phenytoin increases efflux of digoxin via P-glycoprotein in the intestinal wall, biliary tract and kidneys."
+  },
+  {
+    "key": "c926d1712ba75aac",
+    "en": "phenytoin increases efflux of sofosbuvir in the intestine via P-glycoprotein."
+  },
+  {
+    "key": "977c5d40462427ed",
+    "en": "finasteride inhibits the enzyme 5-alpha-reductase, which accounts for a large proportion of the first-pass metabolism of testosterone following oral intake."
+  },
+  {
+    "key": "fbf3cd167a217fd2",
+    "en": "Polyvalent cations bind vadadustat in the gastrointestinal tract and thereby reduce absorption."
+  },
+  {
+    "key": "f474a77cc2ff60ce",
+    "en": "fluconazole inhibits the metabolism of eletriptan via CYP3A4"
+  },
+  {
+    "key": "81cc7126078c06f2",
+    "en": "fluconazole inhibits the metabolism of irbesartan via CYP2C9."
+  },
+  {
+    "key": "b4680246191ea6b5",
+    "en": "fluconazole inhibits the metabolism of amitriptyline via CYP3A4"
+  },
+  {
+    "key": "7aad6f2705b1777d",
+    "en": "fluconazole inhibits the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "10aa650bb2158730",
+    "en": "fluconazole inhibits the metabolism of celecoxib."
+  },
+  {
+    "key": "28b0386740b0df38",
+    "en": "fluconazole inhibits the metabolism of darifenacin via CYP3A4"
+  },
+  {
+    "key": "360e528b0948fde7",
+    "en": "fluconazole inhibits the metabolism of dienogest via CYP3A4"
+  },
+  {
+    "key": "b4e427e3c8406e75",
+    "en": "fluconazole inhibits the metabolism of eplerenone via CYP3A4"
+  },
+  {
+    "key": "693fe4d67085116a",
+    "en": "fluconazole inhibits the metabolism of everolimus via CYP3A4"
+  },
+  {
+    "key": "4a37c1093ce7001d",
+    "en": "fluconazole inhibits the metabolism of cabergoline via CYP3A4"
+  },
+  {
+    "key": "ec7dccf45b905872",
+    "en": "fluconazole inhibits the metabolism of carbamazepine via CYP3A4"
+  },
+  {
+    "key": "eef78a0b2b5b79bd",
+    "en": "fluconazole inhibits the metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "4b3f7563e95f43aa",
+    "en": "fluconazole inhibits the metabolism of sirolimus via CYP3A4"
+  },
+  {
+    "key": "282aa48920e01e3f",
+    "en": "fluconazole inhibits the metabolism of solifenacin via CYP3A4"
+  },
+  {
+    "key": "26892d32b537bcdc",
+    "en": "fluconazole inhibits the metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "a61453f99b769c70",
+    "en": "fluconazole inhibits the metabolism of tipranavir via CYP3A4"
+  },
+  {
+    "key": "44c36ca1e193f3e1",
+    "en": "fluconazole inhibits the metabolism of alfuzosin via CYP3A4"
+  },
+  {
+    "key": "f355c6a11cbb2cbd",
+    "en": "fluconazole inhibits the metabolism of alprazolam via CYP3A4"
+  },
+  {
+    "key": "93f5339a7d48e1ab",
+    "en": "fluconazole inhibits the metabolism of amprenavir via CYP3A4."
+  },
+  {
+    "key": "8b70362697ab6f60",
+    "en": "fluconazole inhibits the metabolism of avatrombopag via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "2a5c1af3c9b89899",
+    "en": "fluconazole inhibits the metabolism of bosentan via CYP3A4 and CYP2C9."
+  },
+  {
+    "key": "6a095743942a056e",
+    "en": "fluconazole inhibits the metabolism of buspirone via CYP3A4"
+  },
+  {
+    "key": "02cf7c55b0833f1e",
+    "en": "fluconazole inhibits the metabolism of diazepam via CYP2C19."
+  },
+  {
+    "key": "86bcd59b492e0b70",
+    "en": "fluconazole inhibits the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "82b3ee9acc521aa8",
+    "en": "fluconazole inhibits the metabolism of ebastine and the active metabolite carebastine via CYP3A4"
+  },
+  {
+    "key": "e5ab10d3835c4672",
+    "en": "fluconazole inhibits the metabolism of felodipine via CYP3A4"
+  },
+  {
+    "key": "d9226abbed4f6d21",
+    "en": "fluconazole inhibits the metabolism of fentanyl via CYP3A4."
+  },
+  {
+    "key": "64a632c096a0ee58",
+    "en": "fluconazole inhibits the metabolism of phenytoin via CYP2C9. phenytoin may possibly induce the metabolism of fluconazole."
+  },
+  {
+    "key": "97034113dd7b7fdf",
+    "en": "fluconazole inhibits the metabolism of glimepiride via CYP2C9."
+  },
+  {
+    "key": "1e69d91cb92f006b",
+    "en": "fluconazole inhibits the metabolism of glipizide via CYP2C9."
+  },
+  {
+    "key": "0c985a256e0684ce",
+    "en": "fluconazole inhibits the metabolism of ivabradine via CYP3A4"
+  },
+  {
+    "key": "755b59a24cc6ba3b",
+    "en": "fluconazole inhibits the metabolism of quetiapine via CYP3A4."
+  },
+  {
+    "key": "5d016eb26ff28287",
+    "en": "fluconazole inhibits the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "e7d432846c194785",
+    "en": "fluconazole inhibits the metabolism of loperamide via CYP3A4."
+  },
+  {
+    "key": "318a9093b9672d41",
+    "en": "fluconazole inhibits the metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "0bd51e4d0ef6bcd0",
+    "en": "fluconazole inhibits the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "839562f6024d0dd4",
+    "en": "fluconazole inhibits the metabolism of nimodipine via CYP3A4."
+  },
+  {
+    "key": "cb4674f12d600358",
+    "en": "fluconazole inhibits the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "648b74b82053e689",
+    "en": "fluconazole inhibits the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "3347b9b293ab5667",
+    "en": "fluconazole inhibits the metabolism of sildenafil via CYP3A4"
+  },
+  {
+    "key": "67d5f46bd1f8a2e2",
+    "en": "fluconazole inhibits the metabolism of siponimod via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "ef9b77060668f403",
+    "en": "fluconazole inhibits the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "8790eb7f8fbc1eec",
+    "en": "fluconazole inhibits the metabolism of tadalafil via CYP3A4"
+  },
+  {
+    "key": "38833ca1679668e8",
+    "en": "fluconazole inhibits the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "94eb0628ca392fd5",
+    "en": "fluconazole inhibits the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "b687d9b13539c93a",
+    "en": "fluconazole inhibits the metabolism of vardenafil via CYP3A4"
+  },
+  {
+    "key": "53aee072472747b7",
+    "en": "fluconazole inhibits the metabolism of warfarin, primarily via CYP2C9 but also to some extent via CYP3A4."
+  },
+  {
+    "key": "86f34e23105672f4",
+    "en": "fluconazole inhibits the metabolism of nevirapine via CYP3A4."
+  },
+  {
+    "key": "a75456007d7ae2b0",
+    "en": "fluconazole inhibits the conversion of losartan to an active metabolite via CYP2C9."
+  },
+  {
+    "key": "27eb5d2a249767d8",
+    "en": "fluconazole at high doses inhibits the metabolism of apixaban via CYP3A4."
+  },
+  {
+    "key": "c21cd4a03d95448c",
+    "en": "fluconazole at high doses inhibits the metabolism of rivaroxaban via CYP3A4."
+  },
+  {
+    "key": "6a59f06f8d2e8c1e",
+    "en": "fluconazole may inhibit the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "7a14de3cbda9fef2",
+    "en": "fluoxetine inhibits the metabolism of carvedilol via CYP2D6."
+  },
+  {
+    "key": "b38f53b1ec25d111",
+    "en": "fluoxetine inhibits the metabolism of amitriptyline via CYP2D6 and CYP2C19."
+  },
+  {
+    "key": "fd6dcde287d69698",
+    "en": "fluoxetine inhibits the metabolism of atomoxetine via CYP2D6"
+  },
+  {
+    "key": "ae3ed13661a28971",
+    "en": "fluoxetine inhibits the metabolism of the active metabolite of fesoterodine via CYP2D6"
+  },
+  {
+    "key": "ea54e04608f81269",
+    "en": "fluoxetine inhibits the metabolism of clomipramine via CYP2C19, while both drugs inhibit serotonin reuptake"
+  },
+  {
+    "key": "155c472316666b11",
+    "en": "fluoxetine inhibits the metabolism of drugs via CYP2D6, but this metabolic pathway is relatively minor for mianserin."
+  },
+  {
+    "key": "55feae7891059ac5",
+    "en": "fluoxetine inhibits the metabolism of metoprolol via CYP2D6"
+  },
+  {
+    "key": "084b18cebab871b1",
+    "en": "fluoxetine inhibits the metabolism of risperidone via CYP2D6"
+  },
+  {
+    "key": "a58cf2808f96c3b4",
+    "en": "fluoxetine inhibits the metabolism of sertindole via CYP2D6"
+  },
+  {
+    "key": "a0b4f4adb381412c",
+    "en": "fluoxetine inhibits the metabolism of venlafaxine via CYP2D6, while both drugs inhibit serotonin reuptake."
+  },
+  {
+    "key": "c87fa755c9d9a293",
+    "en": "fluoxetine inhibits the metabolism of zuclopenthixol via CYP2D6"
+  },
+  {
+    "key": "4cccf9c5937819fb",
+    "en": "fluoxetine inhibits the metabolism of aripiprazole via CYP2D6."
+  },
+  {
+    "key": "e86d2e8f20ce936f",
+    "en": "fluoxetine inhibits the metabolism of flecainide via CYP2D6."
+  },
+  {
+    "key": "5ae4030769cb6f17",
+    "en": "fluoxetine inhibits the metabolism of carbamazepine via CYP3A4. carbamazepine may possibly induce the metabolism of fluoxetine via general enzyme induction."
+  },
+  {
+    "key": "3dfcbffaca39b50f",
+    "en": "fluoxetine inhibits the metabolism of clozapine."
+  },
+  {
+    "key": "75404cd934b00560",
+    "en": "fluoxetine inhibits the metabolism of codeine to an active metabolite (morphine) via CYP2D6."
+  },
+  {
+    "key": "addda75eafe60cb8",
+    "en": "fluoxetine inhibits the metabolism of tolterodine via CYP2D6"
+  },
+  {
+    "key": "b59e37dfcee70945",
+    "en": "fluoxetine inhibits the metabolism of tramadol to an active metabolite (O-desmethyltramadol) via CYP2D6. In addition, both drugs increase serotonergic activity."
+  },
+  {
+    "key": "62a24ecf6055d0fb",
+    "en": "fluoxetine inhibits the metabolism of tricyclic antidepressants via CYP2D6."
+  },
+  {
+    "key": "275191890d967034",
+    "en": "fluvoxamine inhibits the metabolism of diazepam via CYP2C19"
+  },
+  {
+    "key": "4ad82b717b0afd42",
+    "en": "fluvoxamine inhibits the metabolism of phenytoin via CYP2C19 and CYP2C9"
+  },
+  {
+    "key": "e225a97bc0fc302a",
+    "en": "fluvoxamine inhibits the metabolism of clopidogrel to an active metabolite via CYP2C19"
+  },
+  {
+    "key": "8be62521bf74c53c",
+    "en": "fluvoxamine inhibits the metabolism of clozapine via CYP1A2"
+  },
+  {
+    "key": "7e36144c465f5072",
+    "en": "fluvoxamine inhibits the metabolism of olanzapine via CYP1A2"
+  },
+  {
+    "key": "24f70d29cec6f99c",
+    "en": "fluvoxamine inhibits the metabolism of tizanidine via CYP1A2."
+  },
+  {
+    "key": "b221e2d10c36b92c",
+    "en": "fluvoxamine inhibits the metabolism of warfarin via CYP2C9 and partly CYP1A2, while SSRIs have an antiplatelet effect"
+  },
+  {
+    "key": "05e06ded45a5dae3",
+    "en": "fluvoxamine inhibits the metabolism of alprazolam."
+  },
+  {
+    "key": "6bb7ecab5b7478a0",
+    "en": "fluvoxamine inhibits the metabolism of buspirone."
+  },
+  {
+    "key": "1635fd4a0776d001",
+    "en": "fluvoxamine inhibits the metabolism of citalopram via CYP2C19."
+  },
+  {
+    "key": "52c3324422c32fbf",
+    "en": "fluvoxamine inhibits the metabolism of duloxetine via CYP1A2."
+  },
+  {
+    "key": "b2ddf1cc134ffd5c",
+    "en": "fluvoxamine inhibits the metabolism of escitalopram via CYP2C19."
+  },
+  {
+    "key": "ecc4677d35a343d5",
+    "en": "fluvoxamine inhibits the metabolism of esomeprazole via CYP1A2 and CYP2C19."
+  },
+  {
+    "key": "99c9fec095866c8c",
+    "en": "fluvoxamine inhibits the metabolism of caffeine via CYP1A2."
+  },
+  {
+    "key": "8c905e7bfa84f889",
+    "en": "fluvoxamine inhibits the metabolism of lansoprazole via CYP1A2 and CYP2C19."
+  },
+  {
+    "key": "5264aaaae184f0b5",
+    "en": "fluvoxamine inhibits the metabolism of mirtazapine, probably mainly via CYP1A2."
+  },
+  {
+    "key": "26322f6b2f7715ae",
+    "en": "fluvoxamine inhibits the metabolism of omeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "97deb393c10fc65d",
+    "en": "fluvoxamine inhibits the metabolism of pomalidomide via CYP1A2."
+  },
+  {
+    "key": "15e96db280c1535f",
+    "en": "fluvoxamine inhibits the metabolism of propranolol via CYP2C19."
+  },
+  {
+    "key": "91433c720d4c69a8",
+    "en": "fluvoxamine inhibits the metabolism of rabeprazole via CYP2C19."
+  },
+  {
+    "key": "2187fdece9c0822b",
+    "en": "fluvoxamine inhibits the metabolism of roflumilast via CYP1A2."
+  },
+  {
+    "key": "cfeeed5575366855",
+    "en": "fluvoxamine inhibits the metabolism of ropivacaine via CYP1A2."
+  },
+  {
+    "key": "123b61ffb57f1660",
+    "en": "fluvoxamine inhibits the metabolism of sildenafil via CYP3A4"
+  },
+  {
+    "key": "b4d19808596f2003",
+    "en": "fluvoxamine inhibits the metabolism of theophylline via CYP1A2."
+  },
+  {
+    "key": "bfa2b76908431ab0",
+    "en": "fluvoxamine inhibits the metabolism of tricyclic antidepressants via CYP2C19."
+  },
+  {
+    "key": "4cf0b8cdf36d02fc",
+    "en": "Delayed gastric emptying is an expected pharmacological effect of lixisenatide."
+  },
+  {
+    "key": "47a519eb1c994df3",
+    "en": "Phosphate binders inhibit the absorption of vadadustat due to complex formation in the intestine."
+  },
+  {
+    "key": "58ff2791db8f9ab6",
+    "en": "ginkgo increases the metabolism of proton pump inhibitors via CYP2C19."
+  },
+  {
+    "key": "c00de6e463fb77ee",
+    "en": "givosiran inhibits the metabolism of duloxetine via CYP1A2."
+  },
+  {
+    "key": "145eab8d2ae445b2",
+    "en": "givosiran inhibits the metabolism of clozapine via CYP1A2."
+  },
+  {
+    "key": "b7585e915c79e251",
+    "en": "givosiran inhibits the metabolism of codeine to an active metabolite (morphine) via CYP2D6."
+  },
+  {
+    "key": "e39943d62ef33a54",
+    "en": "givosiran inhibits the metabolism of caffeine via CYP1A2."
+  },
+  {
+    "key": "574ef33bb9e8dc93",
+    "en": "givosiran inhibits the metabolism of metoprolol via CYP2D6."
+  },
+  {
+    "key": "dcecf6e7d87d65ec",
+    "en": "givosiran inhibits the metabolism of olanzapine via CYP1A2."
+  },
+  {
+    "key": "7e7c95e98753bf14",
+    "en": "givosiran inhibits the metabolism of theophylline via CYP1A2."
+  },
+  {
+    "key": "d69bd47339222756",
+    "en": "givosiran inhibits the metabolism of tramadol to an active metabolite via CYP2D6."
+  },
+  {
+    "key": "53e0f5198bb70b72",
+    "en": "Mutual pharmacodynamic effects."
+  },
+  {
+    "key": "bc3d43a151fad15b",
+    "en": "Mutually affected metabolism via CYP3A4."
+  },
+  {
+    "key": "602a9f4f698c2b82",
+    "en": "Mutually increased metabolism"
+  },
+  {
+    "key": "58ff5ae171236854",
+    "en": "Mutually increased metabolism via CYP3A4"
+  },
+  {
+    "key": "24dc8a6fa5635c46",
+    "en": "Mutually increased metabolism via CYP3A4."
+  },
+  {
+    "key": "ff9b39aa3528062a",
+    "en": "Mutually increased metabolism."
+  },
+  {
+    "key": "a51cbcbd7616eb98",
+    "en": "Glucocorticoids inhibit the growth-promoting effects of somatropin. Growth hormone also reduces the conversion of cortisone to cortisol, and may reveal previously undetected central hypoadrenalism or render low replacement doses of glucocorticoids ineffective."
+  },
+  {
+    "key": "17d32f826c020cc4",
+    "en": "Glucocorticoids may increase blood glucose, increasing the need for antidiabetic drugs. The effect increases with higher glucocorticoid doses."
+  },
+  {
+    "key": "a4a97267960d4e75",
+    "en": "H2 antagonists increase the pH in the stomach and thereby reduce the solubility and absorption of itraconazole administered in base form."
+  },
+  {
+    "key": "9af25ca2993ba682",
+    "en": "H2 antagonists increase the pH in the stomach and thereby reduce the solubility and absorption of posaconazole administered in base form."
+  },
+  {
+    "key": "96a2eb058a2a4c79",
+    "en": "H2 blockers increase gastric pH, which reduces the absorption of rilpivirine."
+  },
+  {
+    "key": "952dad380911177b",
+    "en": "Inhibited inactivation of serotonin because both main inactivation pathways are blocked (synaptic reuptake and enzymatic breakdown). Since only MAO-B is blocked, and not MAO-A, which is the most important enzyme in the inactivation of serotonin, the risk of serotonin syndrome will be very small. At doses above 10 mg of selegiline, however, MAO-A may also be blocked, and the combination should then not be used. The combination is contraindicated in the summary of product characteristics for selegiline. The summary of product characteristics for rasagiline states that the combination can be used with caution."
+  },
+  {
+    "key": "9b4421d57235c7a4",
+    "en": "Inhibited inactivation of serotonin because both main inactivation pathways are blocked (synaptic reuptake and enzymatic breakdown). Since only MAO-B is blocked, and not MAO-A, which is the most important enzyme in the inactivation of serotonin, the risk of serotonin syndrome will be very small. At doses above 10 mg of selegiline, however, MAO-A may also be blocked, and the combination should then not be used. The combination is contraindicated in the summary of product characteristics for selegiline. The summary of product characteristics for rasagiline states that the combination can be used with caution (except that combinations with fluoxetine or fluvoxamine should be avoided)."
+  },
+  {
+    "key": "cf390fa534bbad13",
+    "en": "Inhibited inactivation of serotonin because both main inactivation pathways are blocked (synaptic reuptake and enzymatic breakdown). Since only MAO-B is blocked, and not MAO-A, which is the most important enzyme in the inactivation of serotonin, the risk of serotonin syndrome will be very small. At doses above 10 mg of selegiline, however, MAO-A may also be blocked, and the combination should then not be used. The combination is contraindicated in the summary of product characteristics for selegiline. The summary of product characteristics for rasagiline states that the combination can be used with caution."
+  },
+  {
+    "key": "13b67bee24167cd0",
+    "en": "Inhibited metabolism of axitinib via CYP3A4."
+  },
+  {
+    "key": "2a9f4e9511284ce9",
+    "en": "Inhibited metabolism of alfuzosin via CYP3A4."
+  },
+  {
+    "key": "8eb150120d044953",
+    "en": "Inhibited metabolism of alfuzosin via CYP3A4"
+  },
+  {
+    "key": "11850ff304bf222c",
+    "en": "Inhibited metabolism of alprazolam via CYP3A4"
+  },
+  {
+    "key": "c04852ccb34e73d2",
+    "en": "Inhibited metabolism of amiodarone via CYP3A4."
+  },
+  {
+    "key": "5db559b96def18da",
+    "en": "Inhibited metabolism of amitriptyline via CYP2D6."
+  },
+  {
+    "key": "0663ad3559428a9c",
+    "en": "Inhibited metabolism of amlodipine via CYP3A4; efflux of amlodipine via P-glycoprotein may also be affected."
+  },
+  {
+    "key": "f6245e67fd4e4670",
+    "en": "Inhibited metabolism of apixaban via CYP3A4 and possibly also inhibited efflux of apixaban via P-glycoprotein. (diltiazem is a relatively weak inhibitor of P-glycoprotein)."
+  },
+  {
+    "key": "96f0d05b08836433",
+    "en": "Inhibited metabolism of apixaban via CYP3A4 and inhibited efflux of apixaban via P-glycoprotein."
+  },
+  {
+    "key": "1bf993b01aaaf35b",
+    "en": "Inhibited metabolism of apixaban via CYP3A4."
+  },
+  {
+    "key": "57e28d361b479440",
+    "en": "Inhibited metabolism of asenapine via CYP1A2."
+  },
+  {
+    "key": "a23219e89d49d589",
+    "en": "Inhibited metabolism of atazanavir via CYP3A4"
+  },
+  {
+    "key": "cf538a5259eacaa5",
+    "en": "Inhibited metabolism of atomoxetine via CYP2D6."
+  },
+  {
+    "key": "88622b0b755b3b39",
+    "en": "Inhibited metabolism of atorvastatin via CYP3A4"
+  },
+  {
+    "key": "c98e013b282acb3a",
+    "en": "Inhibited metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "a65d5f7aad38ab3b",
+    "en": "Inhibited metabolism of avanafil via CYP3A4."
+  },
+  {
+    "key": "095d4a0a68417751",
+    "en": "Inhibited metabolism of avatrombopag via CYP3A4."
+  },
+  {
+    "key": "d71e0f452f0ab18a",
+    "en": "Inhibited metabolism of bosentan via CYP3A4"
+  },
+  {
+    "key": "3c20f75bbb52adbf",
+    "en": "Inhibited metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "1c433768770963bc",
+    "en": "Inhibited metabolism of bosutinib via CYP3A4."
+  },
+  {
+    "key": "f0aa9f49ef8a7ac3",
+    "en": "Inhibited metabolism of bosutinib via CYP3A4."
+  },
+  {
+    "key": "b46ffd2f94dfc561",
+    "en": "Inhibited metabolism of buprenorphine via CYP3A4."
+  },
+  {
+    "key": "afb0dc8427c691aa",
+    "en": "Inhibited metabolism of buspirone via CYP3A4"
+  },
+  {
+    "key": "7b4b387ac9b711d9",
+    "en": "Inhibited metabolism of cinacalcet via CYP3A4."
+  },
+  {
+    "key": "864d4dd163cc1ce4",
+    "en": "Inhibited metabolism of cinacalcet via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "84c051c5f9a0d8ec",
+    "en": "Inhibited metabolism of dabrafenib via CYP3A4"
+  },
+  {
+    "key": "a2fcc2bf19563e88",
+    "en": "Inhibited metabolism of darifenacin via CYP3A4"
+  },
+  {
+    "key": "474eaac0e6cc700d",
+    "en": "Inhibited metabolism of dasatinib via CYP3A4."
+  },
+  {
+    "key": "083d4c59449a1a5c",
+    "en": "Inhibited metabolism of dasatinib via CYP3A4."
+  },
+  {
+    "key": "3fff31ec24dc8b9b",
+    "en": "Inhibited metabolism of dasatinib via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "bc0af2d94a12f009",
+    "en": "Inhibited metabolism of dexamethasone via CYP3A4."
+  },
+  {
+    "key": "cbeb1a7035eb22b2",
+    "en": "Inhibited metabolism of dienogest via CYP3A4"
+  },
+  {
+    "key": "45a519428e7528a5",
+    "en": "Inhibited metabolism of diltiazem and possibly also of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "217ca0afd889f73d",
+    "en": "Inhibited metabolism of diltiazem via CYP3A4."
+  },
+  {
+    "key": "9dd3e33fbcf6987f",
+    "en": "Inhibited metabolism of docetaxel via CYP3A4."
+  },
+  {
+    "key": "c921586dd4ad74a2",
+    "en": "Inhibited metabolism of doxazosin via CYP3A4."
+  },
+  {
+    "key": "661f937ff141d1ac",
+    "en": "Inhibited metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "cf8ba061988c0826",
+    "en": "Inhibited metabolism of dronedarone."
+  },
+  {
+    "key": "a25149af14541da1",
+    "en": "Inhibited metabolism of ebastine via CYP3A4"
+  },
+  {
+    "key": "dfedb791b4f146df",
+    "en": "Inhibited metabolism of edoxaban via CYP3A4 and possibly also inhibited efflux of edoxaban via P-glycoprotein. (diltiazem is a relatively weak inhibitor of P-glycoprotein)."
+  },
+  {
+    "key": "b5e87dc8c0863cb5",
+    "en": "Inhibited metabolism of edoxaban via CYP3A4 and inhibited efflux of edoxaban via P-glycoprotein."
+  },
+  {
+    "key": "012d8502de899042",
+    "en": "Inhibited metabolism of eletriptan via CYP3A4"
+  },
+  {
+    "key": "ec5064099d7237e7",
+    "en": "Inhibited metabolism of eletriptan via CYP3A4."
+  },
+  {
+    "key": "634002b23822b3f2",
+    "en": "Inhibited metabolism of eliglustat via CYP2D6."
+  },
+  {
+    "key": "89feec28a093832d",
+    "en": "Inhibited metabolism of eplerenone via CYP3A4"
+  },
+  {
+    "key": "bba411dec568072e",
+    "en": "Inhibited metabolism of erlotinib via CYP3A4."
+  },
+  {
+    "key": "4e18ea018c33a925",
+    "en": "Inhibited metabolism of erlotinib via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "80f273be2ca0dafe",
+    "en": "Inhibited metabolism of erythromycin and diltiazem via CYP3A4. A study has shown a fivefold increased risk of sudden cardiac death when erythromycin is combined with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "acec06a25d05f575",
+    "en": "Inhibited metabolism of erythromycin and verapamil via CYP3A4. A study has shown a fivefold increased risk of sudden cardiac death when erythromycin is combined with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "4a292099a8a01d41",
+    "en": "Inhibited metabolism of erythromycin via CYP3A4. A study has shown a fivefold increased risk of sudden cardiac death when erythromycin is combined with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "ff1d312226b394ac",
+    "en": "Inhibited metabolism of esomeprazole via CYP2C19"
+  },
+  {
+    "key": "ee6a762340ce479b",
+    "en": "Inhibited metabolism of eszopiclone via CYP3A4."
+  },
+  {
+    "key": "10ba904b37a37ae8",
+    "en": "Inhibited metabolism of etoposide via CYP3A4."
+  },
+  {
+    "key": "829a50f490deab08",
+    "en": "Inhibited metabolism of everolimus via CYP3A4"
+  },
+  {
+    "key": "7c60ffebe92d36d5",
+    "en": "Inhibited metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "01a23f4def26a27e",
+    "en": "Inhibited metabolism of felodipine via CYP3A4"
+  },
+  {
+    "key": "a518490c13db66a7",
+    "en": "Inhibited metabolism of fentanyl via CYP3A4"
+  },
+  {
+    "key": "0f02e3935d6fc08b",
+    "en": "Inhibited metabolism of gefitinib via CYP3A4."
+  },
+  {
+    "key": "00a05e109edaec22",
+    "en": "Inhibited metabolism of gilteritinib via CYP3A4."
+  },
+  {
+    "key": "e97461a930ae6a41",
+    "en": "Inhibited metabolism of guanfacine via CYP3A4."
+  },
+  {
+    "key": "5a94c18864c35d11",
+    "en": "Inhibited metabolism of ibrutinib via CYP3A4."
+  },
+  {
+    "key": "8a43ad8180d39bc0",
+    "en": "Inhibited metabolism of imatinib via CYP3A4."
+  },
+  {
+    "key": "ce7c36c5f2bd5c52",
+    "en": "Inhibited metabolism of irinotecan to an inactive metabolite via CYP3A4. This leads to shunting of metabolism to the active metabolite SN-38."
+  },
+  {
+    "key": "f4a45a9ef2cb362b",
+    "en": "Inhibited metabolism of isavuconazole via CYP3A4."
+  },
+  {
+    "key": "6589021c401dbc24",
+    "en": "Inhibited metabolism of itraconazole via CYP3A4."
+  },
+  {
+    "key": "9b2672d09d5a4105",
+    "en": "Inhibited metabolism of itraconazole via CYP3A4. A study has shown a fivefold increased risk of sudden cardiac death when erythromycin is combined with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "f56e0f966fbf9b7b",
+    "en": "Inhibited metabolism of ivabradine via CYP3A4"
+  },
+  {
+    "key": "e2fcc3cf358bed41",
+    "en": "Inhibited metabolism of ivacaftor via CYP3A4."
+  },
+  {
+    "key": "5ff8533cc304aef4",
+    "en": "Inhibited metabolism of cabazitaxel via CYP3A4"
+  },
+  {
+    "key": "97d5268385290f8f",
+    "en": "Inhibited metabolism of cabazitaxel via CYP3A4"
+  },
+  {
+    "key": "253e36d987af4886",
+    "en": "Inhibited metabolism of cabazitaxel via CYP3A4."
+  },
+  {
+    "key": "d04531ada6cdd27f",
+    "en": "Inhibited metabolism of cabergoline via CYP3A4"
+  },
+  {
+    "key": "9d0772018f8fbdb8",
+    "en": "Inhibited metabolism of cabozantinib via CYP3A4."
+  },
+  {
+    "key": "a24432a6e414293e",
+    "en": "Inhibited metabolism of ketoconazole."
+  },
+  {
+    "key": "7e07b3f0463d6e0b",
+    "en": "Inhibited metabolism of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "2e5f66f039abe6b9",
+    "en": "Inhibited metabolism of clozapine via CYP1A2."
+  },
+  {
+    "key": "14efec21c9f1754a",
+    "en": "Inhibited metabolism of cobimetinib via CYP3A4."
+  },
+  {
+    "key": "9ae8b23e08e75f5c",
+    "en": "Inhibited metabolism of colchicine via CYP3A4 and also inhibited efflux into bile and the intestine via P-glycoprotein."
+  },
+  {
+    "key": "c0e24219a8e3d317",
+    "en": "Inhibited metabolism of colchicine via CYP3A4, possibly also inhibition of the efflux of colchicine into bile and the intestine via P-glycoprotein."
+  },
+  {
+    "key": "ca8f9ca17639a850",
+    "en": "Inhibited metabolism of quetiapine via CYP3A4"
+  },
+  {
+    "key": "c865e4b3c3261db6",
+    "en": "Inhibited metabolism of quetiapine via CYP3A4."
+  },
+  {
+    "key": "3a9ad04602f94d3b",
+    "en": "Inhibited metabolism of lansoprazole via CYP2C19."
+  },
+  {
+    "key": "d070ae89d2eb226f",
+    "en": "Inhibited metabolism of lapatinib via CYP3A4"
+  },
+  {
+    "key": "2a0ba4de2ee85864",
+    "en": "Inhibited metabolism of lapatinib via CYP3A4."
+  },
+  {
+    "key": "7322b329916d9196",
+    "en": "Inhibited metabolism of lercanidipine via CYP3A4"
+  },
+  {
+    "key": "dcc244f9ae36472e",
+    "en": "Inhibited metabolism of loxapine via CYP1A2."
+  },
+  {
+    "key": "bc85a5e8ea65f1bf",
+    "en": "Inhibited metabolism of loperamide via CYP3A4."
+  },
+  {
+    "key": "82fdfdefddeb3440",
+    "en": "Inhibited metabolism of lorlatinib via CYP3A4."
+  },
+  {
+    "key": "332e2b5f5fa7f80b",
+    "en": "Inhibited metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "583d230cb939e4bf",
+    "en": "Inhibited metabolism of lovastatin via CYP3A4."
+  },
+  {
+    "key": "32e9d7858321e967",
+    "en": "Inhibited metabolism of lurasidone via CYP3A4."
+  },
+  {
+    "key": "e5d6e19f88fa15af",
+    "en": "Inhibited metabolism of macitentan via CYP3A4."
+  },
+  {
+    "key": "262b2c72760e692b",
+    "en": "Inhibited metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "ae3fa648cef0d240",
+    "en": "Inhibited metabolism of methadone via CYP3A4."
+  },
+  {
+    "key": "6b0bfb13e7d4d655",
+    "en": "Inhibited metabolism of methadone via CYP3A4. Additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG) and increasing the risk of torsades de pointes arrhythmias. Average increases in QTc of around 20 ms have been reported with clarithromycin alone."
+  },
+  {
+    "key": "d1165405091a0ed8",
+    "en": "Inhibited metabolism of methadone via CYP3A4. In addition, additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG)."
+  },
+  {
+    "key": "1330c8db262a4eea",
+    "en": "Inhibited metabolism of metoprolol via CYP2D6."
+  },
+  {
+    "key": "9faa11c0453c51f4",
+    "en": "Inhibited metabolism of metoprolol via CYP2D6. Additive pharmacodynamic effects."
+  },
+  {
+    "key": "4c679aba1f8b5fca",
+    "en": "Inhibited metabolism of methylprednisolone via CYP3A4"
+  },
+  {
+    "key": "f603dbb613b95d3f",
+    "en": "Inhibited metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "d13ad2e327e1c6d6",
+    "en": "Inhibited metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "70eaa1e683d83427",
+    "en": "Inhibited metabolism of midostaurin via CYP3A4."
+  },
+  {
+    "key": "cb79bc23d84b5b1e",
+    "en": "Inhibited metabolism of midazolam via CYP3A4"
+  },
+  {
+    "key": "bda8b2b7afaba7d1",
+    "en": "Inhibited metabolism of nilotinib via CYP3A4"
+  },
+  {
+    "key": "a13a0ced8d32e415",
+    "en": "Inhibited metabolism of nilotinib via CYP3A4."
+  },
+  {
+    "key": "947e430ad6710847",
+    "en": "Inhibited metabolism of nilotinib via CYP3A4. Furthermore, additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG) and increasing the risk of torsades de pointes arrhythmias. Average increases in QTc of around 20 ms have been reported with clarithromycin alone."
+  },
+  {
+    "key": "bd782d0e4dfe2221",
+    "en": "Inhibited metabolism of nimodipine via CYP3A4"
+  },
+  {
+    "key": "b79003e8b88af82b",
+    "en": "Inhibited metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "5e2975718b7b6489",
+    "en": "Inhibited metabolism of omeprazole via CYP2C19."
+  },
+  {
+    "key": "e5ed2bca57fe43e4",
+    "en": "Inhibited metabolism of panobinostat via CYP3A4."
+  },
+  {
+    "key": "4ea61618211c8b83",
+    "en": "Inhibited metabolism of pantoprazole via CYP2C19."
+  },
+  {
+    "key": "81b70a501910d226",
+    "en": "Inhibited metabolism of pazopanib via CYP3A4."
+  },
+  {
+    "key": "9e0fcf401e299d3f",
+    "en": "Inhibited metabolism of pazopanib via CYP3A4."
+  },
+  {
+    "key": "25281547d43cf1ba",
+    "en": "Inhibited metabolism of pirfenidone via CYP1A2"
+  },
+  {
+    "key": "f6bdf25f2a5ce148",
+    "en": "Inhibited metabolism of ponatinib via CYP3A4."
+  },
+  {
+    "key": "ace02742afd67cd8",
+    "en": "Inhibited metabolism of posaconazole."
+  },
+  {
+    "key": "96b661c89f47dcde",
+    "en": "Inhibited metabolism of ranolazine via CYP3A4"
+  },
+  {
+    "key": "ad3107d4a17aa353",
+    "en": "Inhibited metabolism of regorafenib via CYP3A4. The combination should be avoided according to the summary of product characteristics for regorafenib."
+  },
+  {
+    "key": "e2c8268bf38ba60c",
+    "en": "Inhibited metabolism of repaglinide via CYP2C8, and possibly also inhibited efflux of repaglinide via the transport pump OATP (organic anion-transporting polypeptide)."
+  },
+  {
+    "key": "efac5ee4d08ad2c8",
+    "en": "Inhibited metabolism of ribociclib via CYP3A4."
+  },
+  {
+    "key": "5dc742f656ca862b",
+    "en": "Inhibited metabolism of ribociclib via CYP3A4. Additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG) and increasing the risk of torsades de pointes arrhythmias. The risk is particularly present with intravenous erythromycin. Average increases in QTc of 20-50 ms have been reported with intravenous erythromycin alone."
+  },
+  {
+    "key": "cf1289977b1d3f88",
+    "en": "Inhibited metabolism of ribociclib via CYP3A4. Additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG) and increasing the risk of torsades de pointes arrhythmias. Average increases in QTc of around 20 ms have been reported with clarithromycin alone."
+  },
+  {
+    "key": "2f726818bb4f93ec",
+    "en": "Inhibited metabolism of ribociclib via CYP3A4. In addition, additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG) and increasing the risk of torsades de pointes arrhythmias."
+  },
+  {
+    "key": "b611d48cbc4199fe",
+    "en": "Inhibited metabolism of riociguat via CYP3A4."
+  },
+  {
+    "key": "45e8b0f484454ad8",
+    "en": "Inhibited metabolism of riociguat via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "72ed7e8ca872d1e5",
+    "en": "Inhibited metabolism of rivaroxaban via CYP3A4 and possibly also inhibited efflux of rivaroxaban via P-glycoprotein. (diltiazem is a relatively weak inhibitor of P-glycoprotein)."
+  },
+  {
+    "key": "d141000c35425afd",
+    "en": "Inhibited metabolism of rivaroxaban via CYP3A4 and inhibited efflux of rivaroxaban via P-glycoprotein."
+  },
+  {
+    "key": "c59b0cb3eba06684",
+    "en": "Inhibited metabolism of saxagliptin via CYP3A4"
+  },
+  {
+    "key": "c2b0ffe45dc0d438",
+    "en": "Inhibited metabolism of salmeterol via CYP3A4"
+  },
+  {
+    "key": "98562587296e95cf",
+    "en": "Inhibited metabolism of salmeterol via CYP3A4."
+  },
+  {
+    "key": "4dc3b7858174a39b",
+    "en": "Inhibited metabolism of salmeterol via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "7ab324b4b2ca893f",
+    "en": "Inhibited metabolism of sertindole via CYP3A4"
+  },
+  {
+    "key": "c571a4c15c6ad94a",
+    "en": "Inhibited metabolism of sertindole via CYP3A4."
+  },
+  {
+    "key": "6752be7460e38611",
+    "en": "Inhibited metabolism of sildenafil via CYP3A4"
+  },
+  {
+    "key": "aa4d48fa170273f3",
+    "en": "Inhibited metabolism of sildenafil via CYP3A4."
+  },
+  {
+    "key": "2e1488945264ce6f",
+    "en": "Inhibited metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "60beaab6d4dbc14e",
+    "en": "Inhibited metabolism of simvastatin via CYP3A4."
+  },
+  {
+    "key": "3ce50f42ec07448e",
+    "en": "Inhibited metabolism of sirolimus via CYP3A4"
+  },
+  {
+    "key": "ec82983ae7c9c5f1",
+    "en": "Inhibited metabolism of sirolimus via CYP3A4."
+  },
+  {
+    "key": "21dd05442b6fd5ad",
+    "en": "Inhibited metabolism of solifenacin via CYP3A4"
+  },
+  {
+    "key": "bcb1ad3e745884a8",
+    "en": "Inhibited metabolism of sonidegib via CYP3A4."
+  },
+  {
+    "key": "0f44f72b88f1bd73",
+    "en": "Inhibited metabolism of sufentanil via CYP3A4."
+  },
+  {
+    "key": "e23179b0cbeb3089",
+    "en": "Inhibited metabolism of sunitinib via CYP3A4."
+  },
+  {
+    "key": "e9a136a25b38151f",
+    "en": "Inhibited metabolism of sunitinib via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "150384bf57a04b39",
+    "en": "Inhibited metabolism of tadalafil via CYP3A4"
+  },
+  {
+    "key": "7278043e15572e54",
+    "en": "Inhibited metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "3a1b956cda4954e2",
+    "en": "Inhibited metabolism of tacrolimus via CYP3A4."
+  },
+  {
+    "key": "21a7d28fce86275a",
+    "en": "Inhibited metabolism of tamsulosin via CYP3A4."
+  },
+  {
+    "key": "63bbb6b4fc55cf4b",
+    "en": "Inhibited metabolism of tasimelteon via CYP1A2."
+  },
+  {
+    "key": "06d17a5a1c24cc63",
+    "en": "Inhibited metabolism of tasimelteon via CYP3A4."
+  },
+  {
+    "key": "f80659a5b54264a7",
+    "en": "Inhibited metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "0da2add0a8ab628c",
+    "en": "Inhibited metabolism of ticagrelor via CYP3A4"
+  },
+  {
+    "key": "8bd49eb7fa918b27",
+    "en": "Inhibited metabolism of tolvaptan via CYP3A4"
+  },
+  {
+    "key": "d08cba30c9b31336",
+    "en": "Inhibited metabolism of trabectedin via CYP3A4."
+  },
+  {
+    "key": "e98f6ac645bb06f8",
+    "en": "Inhibited metabolism of triamcinolone via CYP3A4."
+  },
+  {
+    "key": "693f943fb19bb55d",
+    "en": "Inhibited metabolism of upadacitinib via CYP3A4."
+  },
+  {
+    "key": "c01ea72be4e94d37",
+    "en": "Inhibited metabolism of vardenafil via CYP3A4"
+  },
+  {
+    "key": "ba5f1a9e38e8fe62",
+    "en": "Inhibited metabolism of venetoclax via CYP3A4 (and also efflux of venetoclax in the intestinal wall and bile via P-glycoprotein)."
+  },
+  {
+    "key": "96d40c470ab172f4",
+    "en": "Inhibited metabolism of verapamil and possibly also of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "758f656aa7646553",
+    "en": "Inhibited metabolism of verapamil via CYP3A4."
+  },
+  {
+    "key": "815dd621b67aba48",
+    "en": "Inhibited metabolism of the vinca alkaloid via CYP3A4."
+  },
+  {
+    "key": "bb0f75293c160743",
+    "en": "Inhibited metabolism of vinorelbine via CYP3A4."
+  },
+  {
+    "key": "13667f99be5663ee",
+    "en": "Inhibited metabolism of voriconazole."
+  },
+  {
+    "key": "68fef72342c626aa",
+    "en": "Inhibited metabolism of warfarin via CYP3A4."
+  },
+  {
+    "key": "7d38792d40baafb9",
+    "en": "Inhibited metabolism of zidovudine."
+  },
+  {
+    "key": "ecfa5faa22f9ce6c",
+    "en": "Inhibited metabolism of zopiclone via CYP3A4."
+  },
+  {
+    "key": "dae7026f2c849c25",
+    "en": "Inhibited metabolism from oxybutynin to the active metabolite desethyloxybutynin."
+  },
+  {
+    "key": "a16c2848dd87c3b4",
+    "en": "Inhibited metabolism via CYP3A4."
+  },
+  {
+    "key": "4d2c7477c3403d71",
+    "en": "Inhibited renal excretion of methotrexate and active metabolites. This may be due both to generally impaired renal function (particularly in patients with pre-existing renal impairment) and to competition for tubular secretion."
+  },
+  {
+    "key": "063e4b2e7a77f0c8",
+    "en": "Inhibited renal excretion of pemetrexed, particularly in patients with pre-existing renal impairment."
+  },
+  {
+    "key": "6e7a9fcc2f58afdb",
+    "en": "Inhibited renal excretion of pemetrexed, particularly in patients with pre-existing renal impairment."
+  },
+  {
+    "key": "933ad5e568fa50f7",
+    "en": "Inhibited efflux of afatinib in the intestine via P-glycoprotein."
+  },
+  {
+    "key": "74c2eb2d59f1d428",
+    "en": "Inhibited efflux of colchicine into bile and the intestine via P-glycoprotein."
+  },
+  {
+    "key": "3f33e3c74f2fe9b0",
+    "en": "Inhibition of the metabolism of abemaciclib via CYP3A4."
+  },
+  {
+    "key": "39400cf593465b79",
+    "en": "Inhibition of the metabolism of abemaciclib via CYP3A4."
+  },
+  {
+    "key": "c40d69f7de0c5f51",
+    "en": "Inhibition of the metabolism of axitinib via CYP3A4."
+  },
+  {
+    "key": "5dcb7a2ea3e8c387",
+    "en": "Inhibition of the metabolism of amprenavir via CYP3A4."
+  },
+  {
+    "key": "4cc475b34aacbb48",
+    "en": "Inhibition of the metabolism of vardenafil via CYP3A4"
+  },
+  {
+    "key": "621b166451fcf798",
+    "en": "Inhibition of the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "33b50700be082c70",
+    "en": "Inhibition of the metabolism of avanafil via CYP3A4"
+  },
+  {
+    "key": "6c8386dca2977daf",
+    "en": "Inhibition of the metabolism of bedaquiline via CYP3A4."
+  },
+  {
+    "key": "b9b9441beb46428f",
+    "en": "Inhibition of the metabolism of bortezomib via CYP3A4."
+  },
+  {
+    "key": "5fa11ed1f6581ac9",
+    "en": "Inhibition of the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "a9b3d09767c19f01",
+    "en": "Inhibition of the metabolism of brexpiprazole via CYP2D6."
+  },
+  {
+    "key": "2a4dada851d0e5d4",
+    "en": "Inhibition of the metabolism of brexpiprazole via CYP3A4."
+  },
+  {
+    "key": "98d68af179363f20",
+    "en": "Inhibition of the metabolism of buprenorphine via CYP3A4."
+  },
+  {
+    "key": "0abd142f7998b9d7",
+    "en": "Inhibition of the metabolism of buspirone via CYP3A4"
+  },
+  {
+    "key": "22b1a574cce6ec9c",
+    "en": "Inhibition of the metabolism of cannabinoids via CYP3A4."
+  },
+  {
+    "key": "4ac3a12d8481b569",
+    "en": "Inhibition of the metabolism of cannabinoids."
+  },
+  {
+    "key": "5332e26a23955276",
+    "en": "Inhibition of the metabolism of ceritinib via CYP3A4."
+  },
+  {
+    "key": "59cde205f6d1001e",
+    "en": "Inhibition of the metabolism of darifenacin via CYP3A4"
+  },
+  {
+    "key": "0186cc0ac6370d12",
+    "en": "Inhibition of the metabolism of dexamethasone via CYP3A4."
+  },
+  {
+    "key": "9b4633f500307a6a",
+    "en": "Inhibition of the metabolism of dronedarone via CYP3A4"
+  },
+  {
+    "key": "6ca79bf5d0217269",
+    "en": "Inhibition of the metabolism of eletriptan via CYP3A4"
+  },
+  {
+    "key": "efc48253c04bfa6b",
+    "en": "Inhibition of the metabolism of encorafenib via CYP3A4."
+  },
+  {
+    "key": "5ecd491ac35bfb4d",
+    "en": "Inhibition of the metabolism of everolimus via CYP3A4 and reduced efflux of everolimus via P-glycoprotein."
+  },
+  {
+    "key": "2e8a11516266457a",
+    "en": "Inhibition of the metabolism of fentanyl via CYP3A4"
+  },
+  {
+    "key": "42f038f6f6e24ded",
+    "en": "Inhibition of the metabolism of ibrutinib via CYP3A4."
+  },
+  {
+    "key": "6b72e2469472c662",
+    "en": "Inhibition of the metabolism of ivabradine via CYP3A4."
+  },
+  {
+    "key": "1928d37b3945d95e",
+    "en": "Inhibition of the metabolism of ivacaftor via CYP3A4."
+  },
+  {
+    "key": "706ca3e33ff8446a",
+    "en": "Inhibition of the metabolism of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "c2c8ab9b282e5254",
+    "en": "Inhibition of the metabolism of crizotinib via CYP3A4."
+  },
+  {
+    "key": "49da06d918a336c4",
+    "en": "Inhibition of the metabolism of quetiapine via CYP3A4."
+  },
+  {
+    "key": "e56b974f45b418bd",
+    "en": "Inhibition of the metabolism of lenacapavir."
+  },
+  {
+    "key": "f79956a0782c48d1",
+    "en": "Inhibition of the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "7b151cf9a556ae3d",
+    "en": "Inhibition of the metabolism of maraviroc via CYP3A4."
+  },
+  {
+    "key": "8d7e1c873d9f714f",
+    "en": "Inhibition of the metabolism of methadone, most probably via CYP1A2 and/or other CYP enzymes."
+  },
+  {
+    "key": "de45451a33232e7e",
+    "en": "Inhibition of the metabolism of methylprednisolone via CYP3A4"
+  },
+  {
+    "key": "15cd10d673fbeaea",
+    "en": "Inhibition of the metabolism of midazolam via CYP3A4 and/or P-glycoprotein."
+  },
+  {
+    "key": "d1641c17f305b5c1",
+    "en": "Inhibition of the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "c2a5df79fca96a04",
+    "en": "Inhibition of the metabolism of mitapivat via CYP3A4."
+  },
+  {
+    "key": "f7bf7d7e1094bc75",
+    "en": "Inhibition of the metabolism of N-desmethylclobazam via CYP2C19; it is uncertain why the concentration of 7-hydroxy-cannabidiol increases."
+  },
+  {
+    "key": "c716e6da79a3b215",
+    "en": "Inhibition of the metabolism of naloxegol via CYP3A4."
+  },
+  {
+    "key": "9660636d35d399d8",
+    "en": "Inhibition of the metabolism of nimodipine via CYP3A4."
+  },
+  {
+    "key": "86e114a1d33b2019",
+    "en": "Inhibition of the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "fdc904ee30edd0d8",
+    "en": "Inhibition of the metabolism of perampanel via CYP3A4."
+  },
+  {
+    "key": "34974cefc46f5aa2",
+    "en": "Inhibition of the metabolism of pioglitazone via CYP2C8."
+  },
+  {
+    "key": "c159b6ec1577d617",
+    "en": "Inhibition of the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "c295718b2725f310",
+    "en": "Inhibition of the metabolism of rilpivirine via CYP3A4."
+  },
+  {
+    "key": "8bacfbbfb674bc28",
+    "en": "Inhibition of the metabolism of ruxolitinib via CYP3A4."
+  },
+  {
+    "key": "970016103a1b7102",
+    "en": "Inhibition of the metabolism of saxagliptin via CYP3A4."
+  },
+  {
+    "key": "21e2b6ba17c55ce3",
+    "en": "Inhibition of the metabolism of sildenafil via CYP3A4"
+  },
+  {
+    "key": "5875da4b503d96be",
+    "en": "Inhibition of the metabolism of sildenafil via CYP3A4."
+  },
+  {
+    "key": "cb74018b590e6160",
+    "en": "Inhibition of the metabolism of simvastatin via CYP3A4."
+  },
+  {
+    "key": "c552896fbf3866a0",
+    "en": "Inhibition of the metabolism of sirolimus via CYP3A4 and reduced efflux of sirolimus via P-glycoprotein."
+  },
+  {
+    "key": "71e0f1a8824010ab",
+    "en": "Inhibition of the metabolism of sonidegib via CYP3A4."
+  },
+  {
+    "key": "dfd227e6692177fc",
+    "en": "Inhibition of the metabolism of sunitinib via CYP3A4."
+  },
+  {
+    "key": "dcfe97781d695e69",
+    "en": "Inhibition of the metabolism of tadalafil via CYP3A4"
+  },
+  {
+    "key": "5cf59c50bfbec494",
+    "en": "Inhibition of the metabolism of tadalafil via CYP3A4."
+  },
+  {
+    "key": "8a2fe9363272d009",
+    "en": "Inhibition of the metabolism of tacrolimus via CYP3A4 and reduced efflux of tacrolimus via P-glycoprotein."
+  },
+  {
+    "key": "577c15f1670e13a7",
+    "en": "Inhibition of the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "cdf9a16e36883f35",
+    "en": "Inhibition of the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "90067ae23f69dbf5",
+    "en": "Inhibition of the metabolism of ulipristal via CYP3A4 shortly after starting ritonavir. Possible induction of the metabolism of ulipristal via other enzymes with long-term use of ritonavir."
+  },
+  {
+    "key": "46d73da41a21d98e",
+    "en": "Inhibition of the metabolism of ulipristal via CYP3A4."
+  },
+  {
+    "key": "477ce2a062ac9f9e",
+    "en": "Inhibition of the metabolism of vardenafil via CYP3A4"
+  },
+  {
+    "key": "b6b70fe9a728386d",
+    "en": "Inhibition of the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "0cd55f486b185bed",
+    "en": "Inhibition of the metabolism of vortioxetine via CYP2D6."
+  },
+  {
+    "key": "815f6f2cd07e3a16",
+    "en": "Inhibition of the breakdown of the active metabolite of selexipag via CYP2C8."
+  },
+  {
+    "key": "3bc4adee716eafed",
+    "en": "Inhibition of P-glycoprotein and possibly CYP3A4."
+  },
+  {
+    "key": "bdad65c57459976c",
+    "en": "Inhibition of the transport pump BCRP."
+  },
+  {
+    "key": "c99e0a1faa2a86ea",
+    "en": "Inhibition of the transport pumps OATP1A1, OATP1B3 and BCRP."
+  },
+  {
+    "key": "a41561ddf1982e18",
+    "en": "Inhibition of tubular secretion of methotrexate via the OAT system (organic anion transporters)."
+  },
+  {
+    "key": "04ef3c59c88fb787",
+    "en": "Inhibition of efflux of digoxin in the intestinal wall and renal tubules via P-glycoprotein."
+  },
+  {
+    "key": "027ee818bbfbf53a",
+    "en": "Inhibition of the efflux of colchicine into bile and the intestine via P-glycoprotein, as well as inhibited metabolism of colchicine via CYP3A4."
+  },
+  {
+    "key": "d00bdb634e8f58f5",
+    "en": "Inhibition of the efflux of talazoparib via P-glycoprotein in the renal tubules and possibly also in the intestinal wall."
+  },
+  {
+    "key": "c57fd21980ffdde3",
+    "en": "If the interaction exists at all, the mechanism is unknown."
+  },
+  {
+    "key": "a28420746036becc",
+    "en": "hydroxychloroquine inhibits the metabolism of metoprolol via CYP2D6."
+  },
+  {
+    "key": "1c7c498ecf2cbea5",
+    "en": "Hypokalaemia, which is a common adverse effect of loop diuretics, leads to increased effect/toxicity of digitalis with unchanged serum concentrations of the digitalis glycoside."
+  },
+  {
+    "key": "5c6674ab752fdc23",
+    "en": "Hypokalaemia, which is a common adverse effect of thiazide diuretics, leads to increased effect/toxicity of digitalis with unchanged serum concentrations of the digitalis glycoside."
+  },
+  {
+    "key": "1d710c4a8a69471f",
+    "en": "High gastric pH reduces the solubility of sonidegib and thus also the absorption of the drug."
+  },
+  {
+    "key": "f5e395127b16f72a",
+    "en": "High-dose antipsychotics may block the dopamine receptors stimulated by dopamine agonists."
+  },
+  {
+    "key": "db6f14818efc7469",
+    "en": "Unlike most other azole antifungals, voriconazole is not a significant inhibitor of P-glycoprotein. It is therefore unlikely that there will be any clinically significant increase in the concentration of colchicine."
+  },
+  {
+    "key": "8ccbee140c3b4be6",
+    "en": "Opposing pharmacodynamic effects to a greater or lesser extent (antipsychotics block the dopamine system, prolactin inhibitors stimulate the dopamine system)."
+  },
+  {
+    "key": "df222e31be4345bf",
+    "en": "In theory, mutual chemical inactivation occurs when an amino group on the aminoglycoside is acetylated while the beta-lactam ring of the penicillin is opened. This only has consequences for the aminoglycoside, since the reaction occurs 1:1 and the concentration of the aminoglycoside is much lower. Since this reaction occurs very slowly, in practice it only has consequences if the drugs are mixed before infusion, and possibly in patients with renal failure, since the drugs are in contact with each other in the body for longer and at higher concentrations."
+  },
+  {
+    "key": "6fd0cdb52d5f7094",
+    "en": "In theory, mutual chemical inactivation occurs when an amino group on the aminoglycoside is acetylated while the beta-lactam ring of the penicillin is opened. This only has consequences for the aminoglycoside, since the reaction occurs 1:1 and the concentration of the aminoglycoside is much lower. Since this reaction occurs very slowly, in practice it only has consequences if the drugs are mixed before infusion, and possibly in patients with renal failure, since the drugs are in contact with each other in the body for longer and perhaps also at higher concentrations."
+  },
+  {
+    "key": "23b79855ee2a99ba",
+    "en": "ibuprofen inhibits prostaglandin synthesis in the kidneys. This is important for normal renal function, particularly in individuals with pre-existing renal impairment."
+  },
+  {
+    "key": "c932a7a7697960a9",
+    "en": "ibuprofen may impair renal function in particularly susceptible individuals and possibly lead to increased levels of aminoglycosides."
+  },
+  {
+    "key": "76722df56c89639f",
+    "en": "imatinib inhibits the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "e3310230f35d5f1e",
+    "en": "The inactivation of adrenaline and other directly acting sympathomimetics (isoprenaline, noradrenaline) may be inhibited by the MAO inhibitor. Indirectly acting sympathomimetics such as ephedrine act by releasing noradrenaline in the synapses. The inactivation of the released noradrenaline is blocked by the MAO inhibitor. The interaction is therefore much stronger for indirectly acting sympathomimetics than for directly acting drugs. Indirectly acting sympathomimetics should be avoided."
+  },
+  {
+    "key": "3fdbf76cf0bbe13f",
+    "en": "The inactivation of the adrenergic drug depends on the enzyme COMT, which is inhibited by the COMT inhibitor."
+  },
+  {
+    "key": "c2db59106a1ab856",
+    "en": "The inactivation of dobutamine is inhibited by the MAO inhibitor."
+  },
+  {
+    "key": "e8a781a33ec5e4d8",
+    "en": "The inactivation of sympathomimetics may be inhibited by MAO inhibitors. The sympathomimetic effect may therefore become stronger. Nevertheless, it is difficult to see how an MAO-B inhibitor would have such a strong inhibitory effect on the inactivation of selective alpha-2-stimulating sympathomimetics administered locally in the eye that a significant increase in blood pressure could occur, particularly since MAO-A, rather than MAO-B, is involved in the inactivation of sympathomimetic substances."
+  },
+  {
+    "key": "7ad210c3fa0177c0",
+    "en": "The inactivation of sympathomimetics may be inhibited by MAO inhibitors. The sympathomimetic effect may therefore become stronger. Nevertheless, it is difficult to see how an MAO-B inhibitor would have such a strong inhibitory effect on the inactivation of selective alpha-2-stimulating sympathomimetics administered locally to the skin that a significant increase in blood pressure could occur, particularly since MAO-A, rather than MAO-B, is involved in the inactivation of sympathomimetic substances."
+  },
+  {
+    "key": "d5b5565d51645e52",
+    "en": "The inactivation of sympathomimetics may be inhibited by MAO inhibitors. The sympathomimetic effect may therefore become stronger. Nevertheless, it is difficult to see how a reversible MAO inhibitor would have such a strong inhibitory effect on the inactivation of selective alpha-2-stimulating sympathomimetics administered locally in the eye that a significant increase in blood pressure could occur."
+  },
+  {
+    "key": "13cada927fd5a082",
+    "en": "Indirectly acting sympathomimetics such as ephedrine act by releasing noradrenaline in the synapses. The inactivation of the released noradrenaline is blocked by the MAO inhibitor."
+  },
+  {
+    "key": "8d3f74a5681ac9d3",
+    "en": "Indirectly acting sympathomimetics act by releasing noradrenaline in the synapses. The inactivation of the released noradrenaline is blocked by the MAO inhibitor."
+  },
+  {
+    "key": "113f0f7cb2c6d528",
+    "en": "Induction of the metabolism of abacavir via CYP3A4."
+  },
+  {
+    "key": "f7a8ce247230ab24",
+    "en": "Induction of the metabolism of amprenavir via CYP3A4."
+  },
+  {
+    "key": "be4651a187869730",
+    "en": "Induction of the metabolism of atazanavir via CYP3A4."
+  },
+  {
+    "key": "2380b6ea3b590829",
+    "en": "Induction of the metabolism of bupropion via CYP3A4."
+  },
+  {
+    "key": "7c133bfac8302d8a",
+    "en": "Induction of the metabolism of midazolam via CYP3A4 in the intestine and liver. Strong induction of first-pass metabolism."
+  },
+  {
+    "key": "a45685b535f4e47d",
+    "en": "Induction of the metabolism of paracetamol in the liver, both to inactive metabolites and to the hepatotoxic metabolite NAPQI."
+  },
+  {
+    "key": "203f78d089baa300",
+    "en": "Induction of the metabolism of rilpivirine via CYP3A4."
+  },
+  {
+    "key": "0f648d8dc7f984cd",
+    "en": "Induction of the metabolism of sertraline via CYP3A4 and CYP2C19."
+  },
+  {
+    "key": "9873f114554d70c9",
+    "en": "Induction of the metabolism of vandetanib via CYP3A4."
+  },
+  {
+    "key": "d808543d133be40d",
+    "en": "Induction of the metabolism of vemurafenib via CYP3A4."
+  },
+  {
+    "key": "032fc6200a962a0d",
+    "en": "Induction of the metabolism of zidovudine via CYP3A4."
+  },
+  {
+    "key": "4608831409fa8e8a",
+    "en": "No evidence that inhibition of CYP3A4 (for example during concomitant treatment with erythromycin or other CYP3A4 inhibitors) affects the concentration of clozapine, but clear indications that a severe infection increases the concentration."
+  },
+  {
+    "key": "64477b5fab04ae41",
+    "en": "Initially, inhibition of CYP3A4, which is responsible for the metabolism of the less active warfarin enantiomer. Later, possibly induction of CYP2C9, which is responsible for the metabolism of the more active warfarin enantiomer. The net effect of simultaneous inhibition of CYP3A4 and possible induction of CYP2C9 during long-term use of the combination will be unpredictable."
+  },
+  {
+    "key": "d3844ea2d670131d",
+    "en": "Alcohol intake over time may lead to enzyme induction that will affect both the metabolism of warfarin and the metabolism of coagulation factors in the liver. In addition, other constituents of alcoholic beverages (beer, wine) could conceivably affect INR, but the mechanisms here are unclear."
+  },
+  {
+    "key": "a82083bf244b4a9d",
+    "en": "isavuconazole inhibits the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "2619f19e42127bba",
+    "en": "isavuconazole inhibits the metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "d85bcfa56456b83b",
+    "en": "isavuconazole inhibits the metabolism of lovastatin via CYP3A4."
+  },
+  {
+    "key": "1d391996c651a52e",
+    "en": "isavuconazole inhibits the metabolism of simvastatin via CYP3A4."
+  },
+  {
+    "key": "7d933ba51d19d019",
+    "en": "isavuconazole inhibits the metabolism of sirolimus via CYP3A4."
+  },
+  {
+    "key": "f2b5a48bd2ce93a2",
+    "en": "isavuconazole inhibits the metabolism of tacrolimus via CYP3A4."
+  },
+  {
+    "key": "309e472d51e4e2aa",
+    "en": "isavuconazole inhibits efflux of digoxin via P-glycoprotein in the intestine and renal tubules."
+  },
+  {
+    "key": "9ad3bd24fd41c55a",
+    "en": "isavuconazole inhibits efflux of metformin in the renal tubules."
+  },
+  {
+    "key": "2c83a6bce061a788",
+    "en": "isavuconazole increases the metabolism of bupropion via CYP2B6."
+  },
+  {
+    "key": "723a21586e8ee137",
+    "en": "isavuconazole increases the metabolism of cyclophosphamide via CYP2B6."
+  },
+  {
+    "key": "441a7f64f406163c",
+    "en": "itraconazole inhibits the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "8560f9898458eb37",
+    "en": "itraconazole inhibits the metabolism of dienogest via CYP3A4"
+  },
+  {
+    "key": "ed29dc2e7e67028f",
+    "en": "itraconazole inhibits the metabolism of dutasteride via CYP3A4"
+  },
+  {
+    "key": "ea4edb147d21a624",
+    "en": "itraconazole inhibits the metabolism of eplerenone via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "877711e0a38c815f",
+    "en": "itraconazole inhibits the metabolism of cabergoline via CYP3A4"
+  },
+  {
+    "key": "4d904e7c0a2a983a",
+    "en": "itraconazole inhibits the metabolism of carbamazepine via CYP3A4, while carbamazepine increases the metabolism of itraconazole via CYP3A4"
+  },
+  {
+    "key": "c337693426236c92",
+    "en": "itraconazole inhibits the metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "07e4e8c0d5117dad",
+    "en": "itraconazole inhibits the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "bb84366947693864",
+    "en": "itraconazole inhibits the metabolism of sirolimus via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "87f1425788206f1d",
+    "en": "itraconazole inhibits the metabolism of solifenacin via CYP3A4"
+  },
+  {
+    "key": "92e8a65410266d76",
+    "en": "itraconazole inhibits the metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "d23670da9dc79de5",
+    "en": "itraconazole inhibits the metabolism of alfuzosin via CYP3A4"
+  },
+  {
+    "key": "92869bf1e5c108cc",
+    "en": "itraconazole inhibits the metabolism of aliskiren via inhibition of P-glycoprotein transport in the intestinal wall"
+  },
+  {
+    "key": "ac9dcad1efbb62c8",
+    "en": "itraconazole inhibits the metabolism of alprazolam via CYP3A4"
+  },
+  {
+    "key": "0b156f3a58d62f93",
+    "en": "itraconazole inhibits the metabolism of apixaban via CYP3A4 and efflux of apixaban in the intestinal wall, bile and kidneys via P-glycoprotein."
+  },
+  {
+    "key": "2a40b191e699662d",
+    "en": "itraconazole inhibits the metabolism of aripiprazole via CYP3A4."
+  },
+  {
+    "key": "c1760c9a07c5a975",
+    "en": "itraconazole inhibits the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "b17aff70482832ce",
+    "en": "itraconazole inhibits the metabolism of budesonide via CYP3A4."
+  },
+  {
+    "key": "d676afefb94907a2",
+    "en": "itraconazole inhibits the metabolism of buprenorphine via CYP3A4."
+  },
+  {
+    "key": "1b0fe92cca9f0e59",
+    "en": "itraconazole inhibits the metabolism of buspirone via CYP3A4"
+  },
+  {
+    "key": "d95060f432a546dc",
+    "en": "itraconazole inhibits the metabolism of busulfan"
+  },
+  {
+    "key": "74c74bd3bd44165d",
+    "en": "itraconazole inhibits the metabolism of darifenacin via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "edde2850607f7393",
+    "en": "itraconazole inhibits the metabolism of dexamethasone via CYP3A4."
+  },
+  {
+    "key": "87b0c2ae9e57c8b5",
+    "en": "itraconazole inhibits the metabolism of the active metabolite of fesoterodine via CYP3A4"
+  },
+  {
+    "key": "7da30f45e4975bdb",
+    "en": "itraconazole inhibits the metabolism of the active metabolite desloratadine via CYP3A4. (The metabolism of loratadine is also inhibited, but since this is a prodrug, there are no clinical consequences)."
+  },
+  {
+    "key": "74c84a3f813c73a1",
+    "en": "itraconazole inhibits the metabolism of the less active warfarin enantiomer via CYP3A4."
+  },
+  {
+    "key": "827e3bf839490c3b",
+    "en": "itraconazole inhibits the metabolism of des-ciclesonide via CYP3A4."
+  },
+  {
+    "key": "a49ab1799e568cff",
+    "en": "itraconazole inhibits the metabolism of docetaxel via CYP3A4"
+  },
+  {
+    "key": "1c1276b23f571fd0",
+    "en": "itraconazole inhibits the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "d9f1db2bddc9e2f1",
+    "en": "itraconazole inhibits the metabolism of ebastine and the active metabolite carebastine via CYP3A4"
+  },
+  {
+    "key": "582135514299ffa8",
+    "en": "itraconazole inhibits the metabolism of edoxaban via CYP3A4 and efflux of edoxaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "029da898f27649e6",
+    "en": "itraconazole inhibits the metabolism of eletriptan via CYP3A4"
+  },
+  {
+    "key": "6df087383ff36748",
+    "en": "itraconazole inhibits the metabolism of everolimus via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "a1e3669eb5eb0578",
+    "en": "itraconazole inhibits the metabolism of felodipine via CYP3A4."
+  },
+  {
+    "key": "c8b81cc88e089a0f",
+    "en": "itraconazole inhibits the metabolism of fentanyl via CYP3A4."
+  },
+  {
+    "key": "b485cfdd5c0723c3",
+    "en": "itraconazole inhibits the metabolism of haloperidol via CYP3A4."
+  },
+  {
+    "key": "ccf8212b7db3453b",
+    "en": "itraconazole inhibits the metabolism of ivabradine via CYP3A4."
+  },
+  {
+    "key": "661764f0253493ee",
+    "en": "itraconazole inhibits the metabolism of clopidogrel to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "c458702c71068842",
+    "en": "itraconazole inhibits the metabolism of quetiapine via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "f4f2c2f92270c589",
+    "en": "itraconazole inhibits the metabolism of lapatinib via CYP3A4"
+  },
+  {
+    "key": "94bbf3df636b82d4",
+    "en": "itraconazole inhibits the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "9ec1b6fe5ef69d3a",
+    "en": "itraconazole inhibits the metabolism of loperamide via CYP3A4 and efflux of loperamide (including in the intestine) via P-glycoprotein."
+  },
+  {
+    "key": "8d88f5bbef29534f",
+    "en": "itraconazole inhibits the metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "e092df35d896031a",
+    "en": "itraconazole inhibits the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "7ba1424e9436eb4d",
+    "en": "itraconazole inhibits the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "2d8a3def2ccaca18",
+    "en": "itraconazole inhibits the metabolism of midazolam via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "06d392113dd1e042",
+    "en": "itraconazole inhibits the metabolism of nilotinib via CYP3A4"
+  },
+  {
+    "key": "22def443e822651a",
+    "en": "itraconazole inhibits the metabolism of nimodipine via CYP3A4."
+  },
+  {
+    "key": "e54cf2b3fafd1e8f",
+    "en": "itraconazole inhibits the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "692cc2abf8d7f0c8",
+    "en": "itraconazole inhibits the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "a883b815d06652d1",
+    "en": "itraconazole inhibits the metabolism of repaglinide via CYP3A4."
+  },
+  {
+    "key": "7e686e75c35f8f9a",
+    "en": "itraconazole inhibits the metabolism of rivaroxaban via CYP3A4 and efflux of rivaroxaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "a11f302cbae39c7b",
+    "en": "itraconazole inhibits the metabolism of sildenafil via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "45d4d229be96e9f5",
+    "en": "itraconazole inhibits the metabolism of tadalafil via CYP3A4"
+  },
+  {
+    "key": "5e962d767079f703",
+    "en": "itraconazole inhibits the metabolism of tamsulosin via CYP3A4."
+  },
+  {
+    "key": "706454dc09e342f7",
+    "en": "itraconazole inhibits the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "c127147e3cc1fb08",
+    "en": "itraconazole inhibits the metabolism of tolterodine via CYP3A4. For the inhibitor ketoconazole, this effect is marked (of the order of a doubling of the tolterodine concentration) in patients who lack the alternative metabolic pathway CYP2D6."
+  },
+  {
+    "key": "c00de5803689659d",
+    "en": "itraconazole inhibits the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "7e82b83bef6d3bcb",
+    "en": "itraconazole inhibits the metabolism of vardenafil via CYP3A4. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "40d2402b0381f5f1",
+    "en": "itraconazole inhibits the metabolism of venetoclax via CYP3A4 (and also efflux of venetoclax in the intestinal wall and bile via P-glycoprotein)."
+  },
+  {
+    "key": "43fc5ce14b14209a",
+    "en": "itraconazole inhibits efflux of digoxin via P-glycoprotein in the intestinal wall and renal tubules."
+  },
+  {
+    "key": "202f9f492aa6a812",
+    "en": "itraconazole inhibits the efflux of fidaxomicin in the intestine via P-glycoprotein. This may lead to systemic adverse effects, since fidaxomicin is intended to act locally in the intestine and is normally absorbed from the intestine in only very small amounts."
+  },
+  {
+    "key": "5a417d45b59a562f",
+    "en": "itraconazole may inhibit the metabolism of prednisolone via CYP3A4."
+  },
+  {
+    "key": "7ef4874720fea51e",
+    "en": "itraconazole increases the bioavailability of fexofenadine via inhibition of P-glycoprotein"
+  },
+  {
+    "key": "4ae5bd1f0331518e",
+    "en": "itraconazole increases the bioavailability of paroxetine via inhibition of P-glycoprotein"
+  },
+  {
+    "key": "dc93513004bf9fb9",
+    "en": "itraconazole inhibits the metabolism of sertindole via CYP3A4."
+  },
+  {
+    "key": "a9611cdb3e769fde",
+    "en": "ivacaftor is a weak inhibitor of P-glycoprotein, which pumps out digoxin in the intestinal wall and kidneys."
+  },
+  {
+    "key": "76a38deabd8b26b7",
+    "en": "ivosidenib inhibits the transport pump OAT3, which is important for the efflux of furosemide from the body."
+  },
+  {
+    "key": "4c75cb5d01bd5dfb",
+    "en": "ivosidenib inhibits the transport pumps OATP1B1 and OATP1B3, which are important for the efflux of atorvastatin, including in the liver."
+  },
+  {
+    "key": "e1636506362b0deb",
+    "en": "ivosidenib inhibits the transport pumps OATP1B1 and OATP1B3, which are important for the efflux of rosuvastatin, including in the liver."
+  },
+  {
+    "key": "ba34184c76f4ef9f",
+    "en": "ivosidenib inhibits the transport pumps OATP1B1 and OATP1B3, which are important for the efflux of simvastatin, including in the liver."
+  },
+  {
+    "key": "3cda46dbd75074ed",
+    "en": "Iron-binding agents may form chelates with aluminium, and although the affinity for aluminium is much lower than for iron, this could conceivably reduce the iron-binding effect."
+  },
+  {
+    "key": "e37dfaecd623b5ba",
+    "en": "Calcium channel blockers may inhibit calcium-mediated platelet aggregation. This is in addition to the effect of acetylsalicylic acid on platelet function."
+  },
+  {
+    "key": "0afa7335244a9ff2",
+    "en": "May possibly be due to furosemide inhibiting the renal excretion of aminoglycosides. Pharmacodynamic mechanisms may possibly also play a role, particularly with regard to ototoxicity."
+  },
+  {
+    "key": "efee79ebca37fd7f",
+    "en": "capmatinib inhibits the metabolism of duloxetine via CYP1A2."
+  },
+  {
+    "key": "b2b1894535c54c15",
+    "en": "capmatinib inhibits the metabolism of clozapine via CYP1A2."
+  },
+  {
+    "key": "1b02b69334b0f2ad",
+    "en": "capmatinib inhibits the metabolism of caffeine via CYP1A2."
+  },
+  {
+    "key": "f3ab4d0ab921247e",
+    "en": "capmatinib inhibits the metabolism of olanzapine via CYP1A2."
+  },
+  {
+    "key": "9e26fb8bcb6aa2c6",
+    "en": "capmatinib inhibits the metabolism of theophylline via CYP1A2."
+  },
+  {
+    "key": "615c3990b10b0531",
+    "en": "capmatinib inhibits efflux of digoxin in the renal tubules and intestine via P-glycoprotein."
+  },
+  {
+    "key": "5043ea64d5408509",
+    "en": "capmatinib inhibits efflux of colchicine via P-glycoprotein."
+  },
+  {
+    "key": "01bc1f3d3c5c3f0c",
+    "en": "capmatinib inhibits efflux of rosuvastatin via the transport pump BCRP."
+  },
+  {
+    "key": "a2a588b936ed7359",
+    "en": "carbamazepine induces the metabolism of buprenorphine via CYP3A4."
+  },
+  {
+    "key": "53fa5c201c5c93fb",
+    "en": "carbamazepine induces the metabolism of buspirone via CYP3A4."
+  },
+  {
+    "key": "7691b6be056fd3ba",
+    "en": "carbamazepine induces the metabolism of eletriptan via CYP3A4."
+  },
+  {
+    "key": "3ff30124560dee72",
+    "en": "carbamazepine induces the metabolism of phenytoin via CYP2C9. It is uncertain why the concentration of phenytoin might increase; this may be related to saturation of enzyme systems in some individuals. phenytoin induces the metabolism of carbamazepine via CYP3A4"
+  },
+  {
+    "key": "f89a7d7bc79a29b3",
+    "en": "carbamazepine induces the metabolism of fludrocortisone via CYP3A4."
+  },
+  {
+    "key": "1d828e882f30925d",
+    "en": "carbamazepine induces the metabolism of fluvoxamine via CYP1A2, fluvoxamine inhibits the metabolism of carbamazepine."
+  },
+  {
+    "key": "1250373283872084",
+    "en": "carbamazepine induces the metabolism of cabergoline via CYP3A4."
+  },
+  {
+    "key": "d7684037d1d53bf4",
+    "en": "carbamazepine induces the metabolism of clonazepam via CYP3A4."
+  },
+  {
+    "key": "e9e2dd3454cc3634",
+    "en": "carbamazepine induces the metabolism of levetiracetam. It is uncertain why the concentration of carbamazepine might increase."
+  },
+  {
+    "key": "15b10750116e70b7",
+    "en": "carbamazepine induces the metabolism of loratadine via CYP3A4."
+  },
+  {
+    "key": "79b435edbea9ea2b",
+    "en": "carbamazepine induces the metabolism of mianserin via CYP3A4 and other CYP enzymes."
+  },
+  {
+    "key": "b7f8bc7e2037a687",
+    "en": "carbamazepine induces the metabolism of the active metabolite of oxcarbazepine."
+  },
+  {
+    "key": "b081de49adb21b9b",
+    "en": "carbamazepine induces the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "4e17fec03a737911",
+    "en": "carbamazepine induces the metabolism of sertindole via CYP3A4."
+  },
+  {
+    "key": "763a307837d4c7d3",
+    "en": "carbamazepine induces the metabolism of sertraline via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "fc1d63595f5253c0",
+    "en": "carbamazepine induces the metabolism of siponimod via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "df0a0c2eb4da5959",
+    "en": "carbamazepine induces the metabolism of theophylline via CYP1A2. It is uncertain why the concentration of carbamazepine may fall; reduced absorption has been proposed."
+  },
+  {
+    "key": "ce4e52c764a9c18f",
+    "en": "carbamazepine induces the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "c3a1448a537aa811",
+    "en": "carbamazepine induces the metabolism of topiramate via, among others, CYP3A4."
+  },
+  {
+    "key": "00590b1dc9aa6081",
+    "en": "carbamazepine induces the metabolism of tricyclic antidepressants via CYP1A2, CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "e66b64d828c5b2e7",
+    "en": "carbamazepine induces the metabolism of zolpidem via CYP3A4."
+  },
+  {
+    "key": "f66b91bf7e039ad7",
+    "en": "carbamazepine induces the metabolism of zuclopenthixol via CYP3A4."
+  },
+  {
+    "key": "c2ccf1b124363250",
+    "en": "carbamazepine may possibly (based on a case report with etretinate) induce the metabolism of acitretin via CYP3A4."
+  },
+  {
+    "key": "6ed803cd061d2301",
+    "en": "carbamazepine may possibly (based on a case report with etretinate/acitretin) induce the metabolism of isotretinoin via CYP3A4. It is uncertain why isotretinoin may reduce the levels of carbamazepine."
+  },
+  {
+    "key": "e649ea35e6f8bee8",
+    "en": "carbamazepine may increase the metabolism of lomitapide via CYP3A4."
+  },
+  {
+    "key": "ce43a3c327d74b70",
+    "en": "carbamazepine may increase the metabolism of thyroid preparations. This has been shown for levothyroxine, but it is reasonable to assume that it also applies to liothyronine (triiodothyronine)."
+  },
+  {
+    "key": "6baaa49d54ab9c69",
+    "en": "carbamazepine reduces the bioavailability of ivabradine via increased CYP3A4 metabolism"
+  },
+  {
+    "key": "8581e3e4c53c362a",
+    "en": "carbamazepine increases the metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "fdffb1c854fc94c3",
+    "en": "carbamazepine increases the metabolism of clozapine via CYP1A2 and glucuronidation"
+  },
+  {
+    "key": "afa6d7536dca1dce",
+    "en": "carbamazepine increases the metabolism of quetiapine via CYP3A4"
+  },
+  {
+    "key": "d0ea3116b7b24364",
+    "en": "carbamazepine increases the metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "fbf04d39308d4fb1",
+    "en": "carbamazepine increases the metabolism of olanzapine via CYP1A2 and glucuronidation"
+  },
+  {
+    "key": "cab5f199d2a67eb7",
+    "en": "carbamazepine increases the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "8ab24ece5b7bbd10",
+    "en": "carbamazepine increases the metabolism of sirolimus via CYP3A4"
+  },
+  {
+    "key": "a5074787b5241cde",
+    "en": "carbamazepine increases the metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "c3e4ebe0ea7291de",
+    "en": "carbamazepine increases the metabolism of warfarin via CYP2C9, CYP1A2 and CYP3A4"
+  },
+  {
+    "key": "a0f398cbec802424",
+    "en": "carbamazepine increases the metabolism of zidovudine via glucuronidating enzymes (UGT enzymes)."
+  },
+  {
+    "key": "a9c66c85e17fd6ab",
+    "en": "carbamazepine increases the metabolism of abemaciclib via CYP3A4."
+  },
+  {
+    "key": "4229d2ca54c88cba",
+    "en": "carbamazepine increases the metabolism of abrocitinib via CYP2C9/CYP2C19."
+  },
+  {
+    "key": "6de3e1f60a731737",
+    "en": "carbamazepine increases the metabolism of acalabrutinib via CYP3A4."
+  },
+  {
+    "key": "7b89c5eb7b1b2d42",
+    "en": "carbamazepine increases the metabolism of axitinib via CYP3A4."
+  },
+  {
+    "key": "fee51296efe2fed9",
+    "en": "carbamazepine increases the metabolism of albendazole sulfoxide."
+  },
+  {
+    "key": "6d58ac202f9ba727",
+    "en": "carbamazepine increases the metabolism of alectinib to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "cce076c474761c1a",
+    "en": "carbamazepine increases the metabolism of alprazolam via CYP3A4"
+  },
+  {
+    "key": "62db7a614e909a7e",
+    "en": "carbamazepine increases the metabolism of amiodarone via CYP3A4, while amiodarone inhibits the metabolism of carbamazepine via CYP3A4"
+  },
+  {
+    "key": "9feb4556077b0567",
+    "en": "carbamazepine increases the metabolism of apremilast via CYP3A4."
+  },
+  {
+    "key": "4272d608395b3862",
+    "en": "carbamazepine increases the metabolism of aripiprazole and an active aripiprazole metabolite via CYP3A4."
+  },
+  {
+    "key": "2f05c412ef6323aa",
+    "en": "carbamazepine increases the metabolism of atazanavir via CYP3A4"
+  },
+  {
+    "key": "f3f868799fd46d7c",
+    "en": "carbamazepine increases the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "7d1cb3556f54cda1",
+    "en": "carbamazepine increases the metabolism of avanafil via CYP3A4."
+  },
+  {
+    "key": "8d5fa05dcaf95abe",
+    "en": "carbamazepine increases the metabolism of avapritinib via CYP3A4."
+  },
+  {
+    "key": "8cc67396498c20c7",
+    "en": "carbamazepine increases the metabolism of bedaquiline via CYP3A4."
+  },
+  {
+    "key": "f70c62a67bb4152f",
+    "en": "carbamazepine increases the metabolism of bortezomib via CYP3A4."
+  },
+  {
+    "key": "6015bebbe238bb4e",
+    "en": "carbamazepine increases the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "1ea966b0b17d719b",
+    "en": "carbamazepine increases the metabolism of bosutinib via CYP3A4."
+  },
+  {
+    "key": "bfdb754753aaf33d",
+    "en": "carbamazepine increases the metabolism of brexpiprazole via CYP3A4."
+  },
+  {
+    "key": "1b79bf434d053c5a",
+    "en": "carbamazepine increases the metabolism of brivaracetam via CYP2C19. brivaracetam inhibits the enzyme epoxide hydrolase, which is responsible for the metabolism of carbamazepine epoxide."
+  },
+  {
+    "key": "4079336bfb7684fa",
+    "en": "carbamazepine increases the metabolism of bupropion via CYP3A4."
+  },
+  {
+    "key": "33403a45908c2bbd",
+    "en": "carbamazepine increases the metabolism of both risperidone and an active risperidone metabolite via CYP3A4"
+  },
+  {
+    "key": "38b9c1a024bbee14",
+    "en": "carbamazepine increases the metabolism of ceritinib via CYP3A4."
+  },
+  {
+    "key": "95b5fe284623a189",
+    "en": "carbamazepine increases the metabolism of daridorexant via CYP3A4."
+  },
+  {
+    "key": "6e5753a9bdcf797c",
+    "en": "carbamazepine increases the metabolism of darolutamide via CYP3A4."
+  },
+  {
+    "key": "dd33b1233a4ea574",
+    "en": "carbamazepine increases the metabolism of darunavir via CYP3A4."
+  },
+  {
+    "key": "cb2b68169ea46305",
+    "en": "carbamazepine increases the metabolism of dasatinib via CYP3A4"
+  },
+  {
+    "key": "bf5f2649d11e6e29",
+    "en": "carbamazepine increases the metabolism of the active metabolite of fesoterodine via CYP3A4"
+  },
+  {
+    "key": "5f5d29ee7e98cc6b",
+    "en": "carbamazepine increases the metabolism of dolutegravir via the glucuronidating enzyme UGT1A1 and possibly also via CYP3A4."
+  },
+  {
+    "key": "70c0ae82e0a06d9e",
+    "en": "carbamazepine increases the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "2845c2a24890ed3b",
+    "en": "carbamazepine increases the metabolism of dutasteride via CYP3A4."
+  },
+  {
+    "key": "fe7f951354449fd8",
+    "en": "carbamazepine increases the metabolism of ebastine"
+  },
+  {
+    "key": "a60bf90fd23abe60",
+    "en": "carbamazepine increases the metabolism of eliglustat via CYP3A4."
+  },
+  {
+    "key": "622b990661397223",
+    "en": "carbamazepine increases the metabolism of encorafenib via CYP3A4."
+  },
+  {
+    "key": "87fda89c70811f98",
+    "en": "carbamazepine increases the metabolism of entrectinib via CYP3A4."
+  },
+  {
+    "key": "308f2ecf691dc6e7",
+    "en": "carbamazepine increases the metabolism of eplerenone via CYP3A4."
+  },
+  {
+    "key": "9f488e56afc681fc",
+    "en": "carbamazepine increases the metabolism of erlotinib via CYP3A4"
+  },
+  {
+    "key": "3ef5da510923c1a3",
+    "en": "carbamazepine increases the metabolism of esomeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "fcb8b12baec1b362",
+    "en": "carbamazepine increases the metabolism of eszopiclone via CYP3A4. Additive pharmacodynamic effects."
+  },
+  {
+    "key": "cb35f35c00a14624",
+    "en": "carbamazepine increases the metabolism of etoricoxib via CYP3A4."
+  },
+  {
+    "key": "981902cceb1f007a",
+    "en": "carbamazepine increases the metabolism of etravirine via CYP3A4"
+  },
+  {
+    "key": "42933ffd6a5dc3eb",
+    "en": "carbamazepine increases the metabolism of fedratinib via CYP3A4."
+  },
+  {
+    "key": "c27739b1cd12cae7",
+    "en": "carbamazepine increases the metabolism of fexofenadine via CYP3A4 and efflux of fexofenadine via P-glycoprotein."
+  },
+  {
+    "key": "e6383d4948b8e244",
+    "en": "carbamazepine increases the metabolism of felodipine via CYP3A4"
+  },
+  {
+    "key": "69465ee370dacbfa",
+    "en": "carbamazepine increases the metabolism of fentanyl via CYP3A4"
+  },
+  {
+    "key": "e25b7d37d493f534",
+    "en": "carbamazepine increases the metabolism of finerenone via CYP3A4."
+  },
+  {
+    "key": "2c595a0891aa7f53",
+    "en": "carbamazepine increases the metabolism of gefitinib via CYP3A4"
+  },
+  {
+    "key": "6089711760057c96",
+    "en": "carbamazepine increases the metabolism of gilteritinib via CYP3A4."
+  },
+  {
+    "key": "53259eb09d027f68",
+    "en": "carbamazepine increases the metabolism of glasdegib via CYP3A4."
+  },
+  {
+    "key": "6be875007e26d40c",
+    "en": "carbamazepine increases the metabolism of glimepiride via CYP2C9."
+  },
+  {
+    "key": "358de78362385fe7",
+    "en": "carbamazepine increases the metabolism of glipizide via CYP2C9."
+  },
+  {
+    "key": "6e06dc6e17a6cbc3",
+    "en": "carbamazepine increases the metabolism of guanfacine via CYP3A4."
+  },
+  {
+    "key": "edc78e7f89c5e814",
+    "en": "carbamazepine increases the metabolism of haloperidol via CYP3A4"
+  },
+  {
+    "key": "c1ed63d8dd4f9d5c",
+    "en": "carbamazepine increases the metabolism of hydrocortisone via CYP3A4."
+  },
+  {
+    "key": "b63651b879c9d91a",
+    "en": "carbamazepine increases the metabolism of ibrutinib via CYP3A4."
+  },
+  {
+    "key": "aaf05dd2346642a4",
+    "en": "carbamazepine increases the metabolism of ixazomib via CYP3A4."
+  },
+  {
+    "key": "430da53fa390fc6f",
+    "en": "carbamazepine increases the metabolism of imatinib via CYP3A4"
+  },
+  {
+    "key": "8ac8f19774000c08",
+    "en": "carbamazepine increases the metabolism of inactive clopidogrel to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "ecb4cfc8331756ac",
+    "en": "carbamazepine increases the metabolism of irinotecan to inactive metabolites via CYP3A4 and also the metabolism of the active metabolite SN-38 via UGT1A1."
+  },
+  {
+    "key": "78f1098bcb893567",
+    "en": "carbamazepine increases the metabolism of isavuconazole via CYP3A4. isavuconazole may possibly inhibit the metabolism of carbamazepine."
+  },
+  {
+    "key": "aa709465d8a5f6d5",
+    "en": "carbamazepine increases the metabolism of ivacaftor via CYP3A4."
+  },
+  {
+    "key": "9ea0c00903111a44",
+    "en": "carbamazepine increases the metabolism of cabotegravir via glucuronidating enzymes (UGT enzymes)."
+  },
+  {
+    "key": "f243cfc3aea6156b",
+    "en": "carbamazepine increases the metabolism of cabozantinib via CYP3A4."
+  },
+  {
+    "key": "ba1a408721646a80",
+    "en": "carbamazepine increases the metabolism of canagliflozin via glucuronidating enzymes and efflux of canagliflozin via P-glycoprotein."
+  },
+  {
+    "key": "fa363e2ad5d69722",
+    "en": "carbamazepine increases the metabolism of capmatinib via CYP3A4."
+  },
+  {
+    "key": "59e11a98e31f09d1",
+    "en": "carbamazepine increases the metabolism of cariprazine and its active metabolite via CYP3A4."
+  },
+  {
+    "key": "37fc458013d1fd04",
+    "en": "carbamazepine increases the metabolism of clobazam. clobazam increases the metabolism of carbamazepine."
+  },
+  {
+    "key": "f4d38ec03aab36c7",
+    "en": "carbamazepine increases the metabolism of chloramphenicol."
+  },
+  {
+    "key": "091237b078c264da",
+    "en": "carbamazepine increases the metabolism of cobicistat and elvitegravir via CYP3A4."
+  },
+  {
+    "key": "4cf15f975e46e388",
+    "en": "carbamazepine increases the metabolism of cobimetinib via CYP3A4."
+  },
+  {
+    "key": "89803f696527d16f",
+    "en": "carbamazepine increases the metabolism of crizotinib via CYP3A4."
+  },
+  {
+    "key": "16693742136f2926",
+    "en": "carbamazepine increases the metabolism of lapatinib via CYP3A4"
+  },
+  {
+    "key": "a419b1f4a1c3f454",
+    "en": "carbamazepine increases the metabolism of larotrectinib via CYP3A4."
+  },
+  {
+    "key": "31162a34284c0b5d",
+    "en": "carbamazepine increases the metabolism of lefamulin via CYP3A4."
+  },
+  {
+    "key": "a57fc4b83ca29ffe",
+    "en": "carbamazepine increases the metabolism of lenacapavir via CYP3A4."
+  },
+  {
+    "key": "ac07c963c853d936",
+    "en": "carbamazepine increases the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "c262beaad01e8703",
+    "en": "carbamazepine increases the metabolism of letermovir via glucuronidating enzymes and possibly also increases elimination via transport pumps such as OATP1B1/3 and P-glycoprotein."
+  },
+  {
+    "key": "b359b0cc6e873900",
+    "en": "carbamazepine increases the metabolism of lorlatinib via CYP3A4."
+  },
+  {
+    "key": "95ccf3532a976606",
+    "en": "carbamazepine increases the metabolism of lurasidone via CYP3A4."
+  },
+  {
+    "key": "5474416504114e89",
+    "en": "carbamazepine increases the metabolism of macimorelin via CYP3A4."
+  },
+  {
+    "key": "ee35a9054096e866",
+    "en": "carbamazepine increases the metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "17a6208ab52fd262",
+    "en": "carbamazepine increases the metabolism of maribavir via CYP3A4."
+  },
+  {
+    "key": "11ada74ccf22f84a",
+    "en": "carbamazepine increases the metabolism of mebendazole."
+  },
+  {
+    "key": "14c0a9f350ed03d1",
+    "en": "carbamazepine increases the metabolism of methadone via CYP3A4"
+  },
+  {
+    "key": "0319da0ac4e26b83",
+    "en": "carbamazepine increases the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "b3dffb991ceb101e",
+    "en": "carbamazepine increases the metabolism of mirtazapine via CYP3A4."
+  },
+  {
+    "key": "79c7ff3a0c91cd86",
+    "en": "carbamazepine increases the metabolism of naloxegol via CYP3A4."
+  },
+  {
+    "key": "d5d9badfe139d7ae",
+    "en": "carbamazepine increases the metabolism of neratinib via CYP3A4."
+  },
+  {
+    "key": "db200037e46ab8f3",
+    "en": "carbamazepine increases the metabolism of nilotinib via CYP3A4"
+  },
+  {
+    "key": "52462546e0a22d12",
+    "en": "carbamazepine increases the metabolism of nimodipine via CYP3A4"
+  },
+  {
+    "key": "803f94e000f270ef",
+    "en": "carbamazepine increases the metabolism of omeprazole via CYP2C19 and CYP3A4."
+  },
+  {
+    "key": "2be594925a4fe537",
+    "en": "carbamazepine increases the metabolism of ondansetron via CYP3A4."
+  },
+  {
+    "key": "d45d356cefa3802b",
+    "en": "carbamazepine increases the metabolism of osimertinib via CYP3A4."
+  },
+  {
+    "key": "91761909012aba59",
+    "en": "carbamazepine increases the metabolism of ospemifene via CYP2C9, CYP3A4 and possibly also CYP2C19."
+  },
+  {
+    "key": "73d637215b1f3f6f",
+    "en": "carbamazepine increases the metabolism of palbociclib via CYP3A4."
+  },
+  {
+    "key": "4c04655a377c419d",
+    "en": "carbamazepine increases the metabolism of panobinostat via CYP3A4."
+  },
+  {
+    "key": "f9b5be21fe408206",
+    "en": "carbamazepine increases the metabolism of pemigatinib via CYP3A4."
+  },
+  {
+    "key": "c82a1c613f85f58d",
+    "en": "carbamazepine increases the metabolism of pioglitazone via CYP2C8 and possibly also CYP2C9/CYP3A4."
+  },
+  {
+    "key": "fcb873ed1afcb286",
+    "en": "carbamazepine increases the metabolism of prednisolone via CYP3A4."
+  },
+  {
+    "key": "54b70972c1435e39",
+    "en": "carbamazepine increases the metabolism of pretomanid via CYP3A4."
+  },
+  {
+    "key": "712267303a9f8203",
+    "en": "carbamazepine increases the metabolism of propranolol via CYP2C19."
+  },
+  {
+    "key": "ebc9685f54a3356b",
+    "en": "carbamazepine increases the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "c3a7249c35fd21cf",
+    "en": "carbamazepine increases the metabolism of regorafenib via CYP3A4. The combination should be avoided according to the summary of product characteristics for regorafenib."
+  },
+  {
+    "key": "730c80f8ebf85974",
+    "en": "carbamazepine increases the metabolism of relugolix via CYP3A4 and efflux of relugolix via P-glycoprotein."
+  },
+  {
+    "key": "416b867acabd95ab",
+    "en": "carbamazepine increases the metabolism of repaglinide via CYP2C8 and CYP3A4."
+  },
+  {
+    "key": "0af46872b1d1c498",
+    "en": "carbamazepine increases the metabolism of rimegepant via CYP3A4."
+  },
+  {
+    "key": "a96dd3c0021eb87a",
+    "en": "carbamazepine increases the metabolism of rivaroxaban via CYP3A4"
+  },
+  {
+    "key": "07f833cfeee7fdc1",
+    "en": "carbamazepine increases the metabolism of roflumilast via CYP3A4 (50-60 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "39ed99c9728fc033",
+    "en": "carbamazepine increases the metabolism of ruxolitinib via CYP3A4."
+  },
+  {
+    "key": "62bf21dde14e871f",
+    "en": "carbamazepine increases the metabolism of saxagliptin via CYP3A4."
+  },
+  {
+    "key": "8479559feb42afeb",
+    "en": "carbamazepine increases the metabolism of selpercatinib via CYP3A4."
+  },
+  {
+    "key": "7ff2953650b4a88e",
+    "en": "carbamazepine increases the metabolism of selumetinib via CYP3A4."
+  },
+  {
+    "key": "6156730bff7f469a",
+    "en": "carbamazepine increases the metabolism of sildenafil via CYP3A4."
+  },
+  {
+    "key": "e489fa204a343ca6",
+    "en": "carbamazepine increases the metabolism of sonidegib via CYP3A4."
+  },
+  {
+    "key": "a3c2595fc066c832",
+    "en": "carbamazepine increases the metabolism of sotorasib via CYP3A4."
+  },
+  {
+    "key": "80b3827fe076ef85",
+    "en": "carbamazepine increases the metabolism of sunitinib via CYP3A4"
+  },
+  {
+    "key": "f6f9ccaabd4d1d8e",
+    "en": "carbamazepine increases the metabolism of tadalafil via CYP3A4."
+  },
+  {
+    "key": "b589070186d8e4c9",
+    "en": "carbamazepine increases the metabolism of tasimelteon via CYP3A4."
+  },
+  {
+    "key": "ccff3d96d3412e2f",
+    "en": "carbamazepine increases the metabolism of temsavir via CYP3A4 and possibly also P-glycoprotein."
+  },
+  {
+    "key": "93310ca0a6f5e022",
+    "en": "carbamazepine increases the metabolism of terbinafine via CYP2C9 and CYP3A4."
+  },
+  {
+    "key": "2df7f4dda3d0e1bb",
+    "en": "carbamazepine increases the metabolism of teriflunomide via CYP enzymes."
+  },
+  {
+    "key": "cb456f17f3fc2a16",
+    "en": "carbamazepine increases the metabolism of tivozanib via CYP3A4."
+  },
+  {
+    "key": "c6e114a7cde4e56e",
+    "en": "carbamazepine increases the metabolism of tofacitinib via CYP3A4."
+  },
+  {
+    "key": "091d8692dec11330",
+    "en": "carbamazepine increases the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "61611a24b930d77e",
+    "en": "carbamazepine increases the metabolism of trabectedin via CYP3A4."
+  },
+  {
+    "key": "825864b79283ac67",
+    "en": "carbamazepine increases the metabolism of tucatinib via CYP3A4 and possibly also CYP2C8. tucatinib may increase the concentration of carbamazepine via inhibition of CYP3A4."
+  },
+  {
+    "key": "fe49ce5ee55b7e78",
+    "en": "carbamazepine increases the metabolism of ulipristal via CYP3A4."
+  },
+  {
+    "key": "f139866559e11e3a",
+    "en": "carbamazepine increases the metabolism of upadacitinib via CYP3A4."
+  },
+  {
+    "key": "816a370c08154c72",
+    "en": "carbamazepine increases the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "49568b77c0f20b79",
+    "en": "carbamazepine increases the metabolism of venetoclax via CYP3A4."
+  },
+  {
+    "key": "06d7732a6145fa5c",
+    "en": "carbamazepine increases the metabolism of vismodegib via CYP enzymes (most probably mainly CYP2C9 and CYP3A4)."
+  },
+  {
+    "key": "7511a74fc1d89394",
+    "en": "carbamazepine increases the metabolism of vitamin D."
+  },
+  {
+    "key": "3fa9bfe10d2333c6",
+    "en": "carbamazepine increases the metabolism of voxelotor via CYP3A4 and possibly also via other enzymes."
+  },
+  {
+    "key": "76de100a05e38278",
+    "en": "carbamazepine increases the metabolism of vortioxetine via CYP3A4."
+  },
+  {
+    "key": "2ab6a7966463bf73",
+    "en": "carbamazepine increases the metabolism of zanubrutinib via CYP3A4."
+  },
+  {
+    "key": "dd0a3f86f9f0513d",
+    "en": "carbamazepine increases the metabolism of ziprasidone via CYP3A4."
+  },
+  {
+    "key": "052a0c838aacad1e",
+    "en": "carbamazepine increases the metabolism of zopiclone via CYP3A4. Additive pharmacodynamic effects."
+  },
+  {
+    "key": "2ba7f0e6889c59c5",
+    "en": "carbamazepine probably increases the metabolism of doxycycline"
+  },
+  {
+    "key": "d6e0d9dec4a961a8",
+    "en": "carbamazepine increases efflux of nintedanib via P-glycoprotein."
+  },
+  {
+    "key": "f0cdb228205460a5",
+    "en": "carbamazepine increases efflux of sofosbuvir in the intestine via P-glycoprotein."
+  },
+  {
+    "key": "d1d6900dbbe9ffaf",
+    "en": "carvedilol is a non-selective beta-receptor antagonist and may block beta-2 agonists in the bronchi"
+  },
+  {
+    "key": "aafd519c7c5fbfdf",
+    "en": "carvedilol inhibits efflux of digoxin via P-glycoprotein in the intestinal wall, biliary tract and kidneys."
+  },
+  {
+    "key": "030ada46a8009429",
+    "en": "ketoconazole inhibits the metabolism of imatinib via CYP3A4."
+  },
+  {
+    "key": "938165dde1beba94",
+    "en": "ketoconazole inhibits the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "d545b6cf7cc88fc6",
+    "en": "ketoconazole inhibits the metabolism of darifenacin via CYP3A4"
+  },
+  {
+    "key": "bcfbdabc8e77678e",
+    "en": "ketoconazole inhibits the metabolism of dienogest and estradiol via CYP3A4"
+  },
+  {
+    "key": "500c9997448bf954",
+    "en": "ketoconazole inhibits the metabolism of dutasteride via CYP3A4"
+  },
+  {
+    "key": "68b2e04cf2db83ac",
+    "en": "ketoconazole inhibits the metabolism of eplerenone via CYP3A4"
+  },
+  {
+    "key": "e4a3e0b6b32383e7",
+    "en": "ketoconazole inhibits the metabolism of erlotinib via CYP3A4"
+  },
+  {
+    "key": "352939badafd8296",
+    "en": "ketoconazole inhibits the metabolism of everolimus via CYP3A4"
+  },
+  {
+    "key": "7a2e1e0e29cf49c8",
+    "en": "ketoconazole inhibits the metabolism of cabergoline via CYP3A4"
+  },
+  {
+    "key": "e4d95f0227c401b8",
+    "en": "ketoconazole inhibits the metabolism of carbamazepine via CYP3A4, while carbamazepine increases the metabolism of ketoconazole via CYP3A4"
+  },
+  {
+    "key": "e6021d6143a9a591",
+    "en": "ketoconazole inhibits the metabolism of quetiapine via CYP3A4"
+  },
+  {
+    "key": "9bdab22e36afb9b4",
+    "en": "ketoconazole inhibits the metabolism of lovastatin via CYP3A4"
+  },
+  {
+    "key": "205c9058873c0491",
+    "en": "ketoconazole inhibits the metabolism of sertindole via CYP3A4."
+  },
+  {
+    "key": "125463b5492dec4c",
+    "en": "ketoconazole inhibits the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "cbccd964243d8166",
+    "en": "ketoconazole inhibits the metabolism of sirolimus via CYP3A4"
+  },
+  {
+    "key": "b7d7404649b8911d",
+    "en": "ketoconazole inhibits the metabolism of solifenacin via CYP3A4"
+  },
+  {
+    "key": "b1241ed00c6f1541",
+    "en": "ketoconazole inhibits the metabolism of tacrolimus via CYP3A4"
+  },
+  {
+    "key": "95ad6f37c4b6ef3c",
+    "en": "ketoconazole inhibits the metabolism of ziprasidone via CYP3A4"
+  },
+  {
+    "key": "df219d326900af46",
+    "en": "ketoconazole inhibits the metabolism of alfuzosin via CYP3A4"
+  },
+  {
+    "key": "38ff520afd20ed23",
+    "en": "ketoconazole inhibits the metabolism of alprazolam via CYP3A4"
+  },
+  {
+    "key": "4b86080c2762f7ff",
+    "en": "ketoconazole inhibits the metabolism of apixaban via CYP3A4 and efflux of apixaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "cce142ca93518fcd",
+    "en": "ketoconazole inhibits the metabolism of aripiprazole via CYP3A4."
+  },
+  {
+    "key": "2b93de7273c7a949",
+    "en": "ketoconazole inhibits the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "7d2f2c52f7bd8f65",
+    "en": "ketoconazole inhibits the metabolism of budesonide via CYP3A4."
+  },
+  {
+    "key": "52dfcca2d52467a7",
+    "en": "ketoconazole inhibits the metabolism of buprenorphine via CYP3A4."
+  },
+  {
+    "key": "6b2d0465e98557eb",
+    "en": "ketoconazole inhibits the metabolism of buspirone via CYP3A4"
+  },
+  {
+    "key": "510b477b71b2286d",
+    "en": "ketoconazole inhibits the metabolism of cinacalcet via CYP3A4, increased risk of adverse effects"
+  },
+  {
+    "key": "d154c393090b7010",
+    "en": "ketoconazole inhibits the metabolism of dexamethasone via CYP3A4."
+  },
+  {
+    "key": "b91241ab6f14f45c",
+    "en": "ketoconazole inhibits the metabolism of the active metabolite of fesoterodine via CYP3A4"
+  },
+  {
+    "key": "8a6f89bd5b8ca36e",
+    "en": "ketoconazole inhibits the metabolism of the active metabolite desloratadine via CYP3A4. (The metabolism of loratadine is also inhibited, but since this is a prodrug, there are no clinical consequences)."
+  },
+  {
+    "key": "7318c9f7e8bffce8",
+    "en": "ketoconazole inhibits the metabolism of des-ciclesonide via CYP3A4."
+  },
+  {
+    "key": "331cd13eb89af934",
+    "en": "ketoconazole inhibits the metabolism of docetaxel via CYP3A4"
+  },
+  {
+    "key": "5d303cd379077615",
+    "en": "ketoconazole inhibits the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "69f1443931deef94",
+    "en": "ketoconazole inhibits the metabolism of donepezil via CYP3A4"
+  },
+  {
+    "key": "e7bbb2f199f5e751",
+    "en": "ketoconazole inhibits the metabolism of ebastine and the active metabolite carebastine via CYP3A4"
+  },
+  {
+    "key": "c9cb0475566ddaee",
+    "en": "ketoconazole inhibits the metabolism of edoxaban via CYP3A4 and efflux of edoxaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "e9c9f0980dd3ddec",
+    "en": "ketoconazole inhibits the metabolism of eletriptan via CYP3A4"
+  },
+  {
+    "key": "104da6d5739ef93c",
+    "en": "ketoconazole inhibits the metabolism of etoricoxib via CYP3A4"
+  },
+  {
+    "key": "47d5868d883a7b0a",
+    "en": "ketoconazole inhibits the metabolism of felodipine via CYP3A4."
+  },
+  {
+    "key": "272fca5eb471eecf",
+    "en": "ketoconazole inhibits the metabolism of fentanyl via CYP3A4."
+  },
+  {
+    "key": "98f53f009d58586f",
+    "en": "ketoconazole inhibits the metabolism of fingolimod via CYP3A4."
+  },
+  {
+    "key": "f591030d24f20f39",
+    "en": "ketoconazole inhibits the metabolism of ivabradine via CYP3A4"
+  },
+  {
+    "key": "e3bb4c34c079fea3",
+    "en": "ketoconazole inhibits the metabolism of clobazam via CYP3A4 to N-desmethylclobazam."
+  },
+  {
+    "key": "3a9107b78def1232",
+    "en": "ketoconazole inhibits the metabolism of clopidogrel to an active metabolite via CYP3A4."
+  },
+  {
+    "key": "872274e5bdd5f84c",
+    "en": "ketoconazole inhibits the metabolism of lapatinib via CYP3A4"
+  },
+  {
+    "key": "274a8d21df893cf5",
+    "en": "ketoconazole inhibits the metabolism of lercanidipine via CYP3A4."
+  },
+  {
+    "key": "ea5c924a8d448376",
+    "en": "ketoconazole inhibits the metabolism of loperamide via CYP3A4 and efflux of loperamide (including in the intestine) via P-glycoprotein."
+  },
+  {
+    "key": "83c9b6f34bc9516c",
+    "en": "ketoconazole inhibits the metabolism of maraviroc via CYP3A4"
+  },
+  {
+    "key": "353dae30ac0c9b3f",
+    "en": "ketoconazole inhibits the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "c42d71b31217b778",
+    "en": "ketoconazole inhibits the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "0e0e3c28aafaff61",
+    "en": "ketoconazole inhibits the metabolism of nilotinib via CYP3A4"
+  },
+  {
+    "key": "673d3c0c93e10b0c",
+    "en": "ketoconazole inhibits the metabolism of nimodipine via CYP3A4."
+  },
+  {
+    "key": "dba68dda95104bdd",
+    "en": "ketoconazole inhibits the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "5fe7b6226bd6e031",
+    "en": "ketoconazole inhibits the metabolism of paricalcitol."
+  },
+  {
+    "key": "d3e6ace25d5ddce2",
+    "en": "ketoconazole inhibits the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "5ff4edd342ee2186",
+    "en": "ketoconazole inhibits the metabolism of rivaroxaban via CYP3A4 and efflux of rivaroxaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "c3bf9750a47d8030",
+    "en": "ketoconazole inhibits the metabolism of saxagliptin via CYP3A4."
+  },
+  {
+    "key": "9cdc0c6f105823c1",
+    "en": "ketoconazole inhibits the metabolism of sildenafil via CYP3A4"
+  },
+  {
+    "key": "aa935f3189846bb0",
+    "en": "ketoconazole inhibits the metabolism of tadalafil via CYP3A4"
+  },
+  {
+    "key": "44a47a7a01fa37cc",
+    "en": "ketoconazole inhibits the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "f0bcc97d9cedf880",
+    "en": "ketoconazole inhibits the metabolism of tolterodine via CYP3A4. This effect is marked (of the order of a doubling of the tolterodine concentration) in patients who lack the alternative metabolic pathway CYP2D6."
+  },
+  {
+    "key": "d7d068bc54c366ff",
+    "en": "ketoconazole inhibits the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "e893fe6677dc4953",
+    "en": "ketoconazole inhibits the metabolism of vardenafil via CYP3A4"
+  },
+  {
+    "key": "8f5bef0fec690622",
+    "en": "ketoconazole inhibits the metabolism of venetoclax via CYP3A4 (and also efflux of venetoclax in the intestinal wall and bile via P-glycoprotein)."
+  },
+  {
+    "key": "067169fe01fe3bf8",
+    "en": "ketoconazole inhibits the metabolism of venlafaxine via CYP3A4"
+  },
+  {
+    "key": "d8ecf2eaf58c0afb",
+    "en": "ketoconazole inhibits the metabolism of warfarin, mainly of the less active warfarin enantiomer via CYP3A4."
+  },
+  {
+    "key": "3bfa0daf4d14a0ca",
+    "en": "ketoconazole inhibits efflux of prucalopride via P-glycoprotein."
+  },
+  {
+    "key": "a1dd78c4852be5ac",
+    "en": "ketoconazole inhibits efflux of digoxin via P-glycoprotein in the intestinal wall and renal tubules."
+  },
+  {
+    "key": "34b26d0e29251a92",
+    "en": "ketoconazole inhibits the efflux of fidaxomicin in the intestine via P-glycoprotein. This may lead to systemic adverse effects, since fidaxomicin is intended to act locally in the intestine and is normally absorbed from the intestine in only very small amounts."
+  },
+  {
+    "key": "94224453f176d30f",
+    "en": "ketoconazole may inhibit the enzyme aldehyde dehydrogenase, which leads to accumulation of acetaldehyde when alcohol is consumed."
+  },
+  {
+    "key": "6101eb6eaf0a5ab5",
+    "en": "ketoconazole may inhibit the metabolism of prednisolone via CYP3A4."
+  },
+  {
+    "key": "f8ce62a0c1df255e",
+    "en": "ketoconazole increases the absorption of fexofenadine"
+  },
+  {
+    "key": "6b80751cfb4e3a37",
+    "en": "ketoconazole increases the concentration of aliskiren via inhibition of P-glycoprotein"
+  },
+  {
+    "key": "a44cc10eb95e6b2e",
+    "en": "clarithromycin inhibits the metabolism of atorvastatin via CYP3A4."
+  },
+  {
+    "key": "f1f276ef7b0ec80a",
+    "en": "clarithromycin inhibits the metabolism of darifenacin via CYP3A4."
+  },
+  {
+    "key": "359bbae2c1519104",
+    "en": "clarithromycin inhibits the metabolism of dienogest via CYP3A4"
+  },
+  {
+    "key": "fa2c744cff1a7940",
+    "en": "clarithromycin inhibits the metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "256f8d0e9940ca9a",
+    "en": "clarithromycin inhibits the metabolism of cabergoline via CYP3A4."
+  },
+  {
+    "key": "32f7ff14502ec47f",
+    "en": "clarithromycin inhibits the metabolism of lovastatin via CYP3A4."
+  },
+  {
+    "key": "f1c73f5ee42b2581",
+    "en": "clarithromycin inhibits the metabolism of simvastatin via CYP3A4"
+  },
+  {
+    "key": "187f95f6b6336af0",
+    "en": "clarithromycin inhibits the metabolism of sirolimus via CYP3A4"
+  },
+  {
+    "key": "04cf4565059dde02",
+    "en": "clarithromycin inhibits the metabolism of solifenacin via CYP3A4."
+  },
+  {
+    "key": "d87c52b442e8a8de",
+    "en": "clarithromycin inhibits the metabolism of tacrolimus via CYP3A4."
+  },
+  {
+    "key": "1d2420e021edfd52",
+    "en": "clarithromycin inhibits the metabolism of alprazolam via CYP3A4."
+  },
+  {
+    "key": "92edc2fe0416430c",
+    "en": "clarithromycin inhibits the metabolism of apixaban via CYP3A4 and probably also efflux of apixaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "7c69ba1d1a3b145b",
+    "en": "clarithromycin inhibits the metabolism of bosentan via CYP3A4."
+  },
+  {
+    "key": "f6e6cebc1b2f7a7f",
+    "en": "clarithromycin inhibits the metabolism of buspirone via CYP3A4."
+  },
+  {
+    "key": "b730b6f5fa399eaf",
+    "en": "clarithromycin inhibits the metabolism of dexamethasone via CYP3A4."
+  },
+  {
+    "key": "c4b9810985d04cbf",
+    "en": "clarithromycin inhibits the metabolism of the active metabolite desloratadine via CYP3A4. (The metabolism of loratadine is also inhibited, but since this is a prodrug, there are no clinical consequences)."
+  },
+  {
+    "key": "fa1691c99dbcb7a0",
+    "en": "clarithromycin inhibits the metabolism of the less active warfarin enantiomer via CYP3A4."
+  },
+  {
+    "key": "6cb25a5fb15d7432",
+    "en": "clarithromycin inhibits the metabolism of docetaxel via CYP3A4."
+  },
+  {
+    "key": "cc55b148135325d0",
+    "en": "clarithromycin inhibits the metabolism of ebastine and the active metabolite carebastine via CYP3A4"
+  },
+  {
+    "key": "a8ea2e89923f0322",
+    "en": "clarithromycin inhibits the metabolism of edoxaban via CYP3A4 and probably also efflux of edoxaban in the intestinal wall, bile and kidneys via P-glycoprotein."
+  },
+  {
+    "key": "fc91f0f7f3d63b40",
+    "en": "clarithromycin inhibits the metabolism of eletriptan via CYP3A4."
+  },
+  {
+    "key": "e4ee13a31b8b9b3c",
+    "en": "clarithromycin inhibits the metabolism of eplerenone via CYP3A4."
+  },
+  {
+    "key": "5756cd4e8c4580f3",
+    "en": "clarithromycin inhibits the metabolism of fexofenadine via CYP3A4."
+  },
+  {
+    "key": "7d22300a545e4c31",
+    "en": "clarithromycin inhibits the metabolism of felodipine via CYP3A4."
+  },
+  {
+    "key": "faae7c4e09104370",
+    "en": "clarithromycin inhibits the metabolism of ivabradine via CYP3A4"
+  },
+  {
+    "key": "9a2e4dc125ec1b40",
+    "en": "clarithromycin inhibits the metabolism of carbamazepine via CYP3A4, while carbamazepine increases the metabolism of clarithromycin via CYP3A4."
+  },
+  {
+    "key": "5d0add1586b6d6c6",
+    "en": "clarithromycin inhibits the metabolism of quetiapine via CYP3A4."
+  },
+  {
+    "key": "406b6c6a65e645b7",
+    "en": "clarithromycin inhibits the metabolism of lercanidipine via CYP3A4"
+  },
+  {
+    "key": "ca43f1f49c866fbc",
+    "en": "clarithromycin inhibits the metabolism of loperamide via CYP3A4 and efflux of loperamide (including in the intestine) via P-glycoprotein."
+  },
+  {
+    "key": "45f3f24f83e8185e",
+    "en": "clarithromycin inhibits the metabolism of maraviroc via CYP3A4."
+  },
+  {
+    "key": "d299bb56e1a73666",
+    "en": "clarithromycin inhibits the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "b4f48aff5c105077",
+    "en": "clarithromycin inhibits the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "c918f4e944dcbc66",
+    "en": "clarithromycin inhibits the metabolism of nimodipine via CYP3A4."
+  },
+  {
+    "key": "daa2f4db87de0107",
+    "en": "clarithromycin inhibits the metabolism of oxycodone via CYP3A4."
+  },
+  {
+    "key": "91818d04e57d06c0",
+    "en": "clarithromycin inhibits the metabolism of omeprazole via CYP3A4."
+  },
+  {
+    "key": "bf54997ccaa9e523",
+    "en": "clarithromycin inhibits the metabolism of ranolazine via CYP3A4."
+  },
+  {
+    "key": "961f33bfcd25cebc",
+    "en": "clarithromycin inhibits the metabolism of rivaroxaban via CYP3A4 and probably also efflux of rivaroxaban in the intestinal wall, bile and kidneys via P-glycoprotein."
+  },
+  {
+    "key": "5dc527e20e2331a1",
+    "en": "clarithromycin inhibits the metabolism of sertindole via CYP3A4. In addition, additive effects in prolonging cardiac repolarisation (increasing the QT interval on ECG) and increasing the risk of torsades de pointes arrhythmias. Average increases in QTc of around 20 ms have been reported with clarithromycin alone."
+  },
+  {
+    "key": "e3ac56b833d08014",
+    "en": "clarithromycin inhibits the metabolism of sildenafil via CYP3A4"
+  },
+  {
+    "key": "5a1fdfe49a377be8",
+    "en": "clarithromycin inhibits the metabolism of tadalafil via CYP3A4"
+  },
+  {
+    "key": "843bed1e3bc6dcbf",
+    "en": "clarithromycin inhibits the metabolism of ticagrelor via CYP3A4."
+  },
+  {
+    "key": "3f2a1de38e7701bc",
+    "en": "clarithromycin inhibits the metabolism of tipranavir via CYP3A4."
+  },
+  {
+    "key": "115ad294741da9a9",
+    "en": "clarithromycin inhibits the metabolism of tolvaptan via CYP3A4."
+  },
+  {
+    "key": "27ccb223ea3eaca4",
+    "en": "clarithromycin inhibits the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "ae1aa7d092ffb232",
+    "en": "clarithromycin inhibits the uptake of montelukast into hepatocytes via OATP and the metabolism of montelukast via CYP3A4."
+  },
+  {
+    "key": "2b15ead8122294f3",
+    "en": "clarithromycin may possibly inhibit the metabolism of budesonide via CYP3A4."
+  },
+  {
+    "key": "d482ba20311a1b84",
+    "en": "clarithromycin may possibly inhibit the metabolism of fluticasone via CYP3A4."
+  },
+  {
+    "key": "11f38c879579a6a8",
+    "en": "clarithromycin inhibits the metabolism of dronedarone via CYP3A4."
+  },
+  {
+    "key": "5a2288e5fd286f62",
+    "en": "clarithromycin inhibits the efflux of fidaxomicin in the intestine via P-glycoprotein. This may lead to systemic adverse effects, since fidaxomicin is intended to act locally in the intestine and is normally absorbed from the intestine in only very small amounts."
+  },
+  {
+    "key": "6fdc911e81475d13",
+    "en": "clarithromycin inhibits the metabolism of fentanyl via CYP3A4"
+  },
+  {
+    "key": "2d5c09fef5de060b",
+    "en": "clomipramine may inhibit platelet function via serotonergic mechanisms."
+  },
+  {
+    "key": "16567a2d7c2b702c",
+    "en": "clopidogrel inhibits the metabolism of repaglinide via CYP2C8."
+  },
+  {
+    "key": "08b7654e37f77740",
+    "en": "clopidogrel inhibits the metabolism of tucatinib via CYP2C8."
+  },
+  {
+    "key": "f99328020a400ec4",
+    "en": "clopidogrel inhibits metabolism from bupropion to hydroxybupropion via CYP2B6."
+  },
+  {
+    "key": "c1782d3e35f7d5ac",
+    "en": "The active metabolite of clopidogrel inhibits the metabolism of paclitaxel via CYP2C8."
+  },
+  {
+    "key": "25b504b384300619",
+    "en": "clozapine has anticholinergic properties and may thereby counteract the effect of the increased acetylcholine level in the brain produced by cholinesterase inhibitors"
+  },
+  {
+    "key": "9be48f3a06896ea1",
+    "en": "clozapine may increase blood glucose, increasing the need for antidiabetic drugs."
+  },
+  {
+    "key": "18fc68581f13588b",
+    "en": "cobicistat inhibits CYP3A4."
+  },
+  {
+    "key": "ab52319a286120b0",
+    "en": "cobicistat inhibits the metabolism of apixaban via CYP3A4 and efflux of apixaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "0963c4c9c6eff992",
+    "en": "cobicistat inhibits the metabolism of des-ciclesonide via CYP3A4."
+  },
+  {
+    "key": "fde3a480b769397b",
+    "en": "cobicistat inhibits the metabolism of budesonide via CYP3A4."
+  },
+  {
+    "key": "e81a24bc1b1151ee",
+    "en": "cobicistat inhibits the metabolism of fentanyl via CYP3A4."
+  },
+  {
+    "key": "3f601aab302188b7",
+    "en": "cobicistat inhibits the metabolism of codeine to an active metabolite (morphine) via CYP2D6."
+  },
+  {
+    "key": "ff89fb5d025fcfe9",
+    "en": "cobicistat inhibits the metabolism of rivaroxaban via CYP3A4 and efflux of rivaroxaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "3ae096c111c92a83",
+    "en": "cobicistat inhibits the metabolism of tramadol to an active metabolite (O-desmethyltramadol) via CYP2D6."
+  },
+  {
+    "key": "cf4111e21dedb76a",
+    "en": "cobicistat inhibits the metabolism of venetoclax via CYP3A4."
+  },
+  {
+    "key": "156db8f5ca61900f",
+    "en": "cobicistat inhibits efflux of edoxaban in the intestinal wall and bile via P-glycoprotein."
+  },
+  {
+    "key": "8fe08ddc8254e2a2",
+    "en": "Coenzyme Q10 has a molecular structure very similar to vitamin K. It could therefore conceivably have vitamin K-like properties. The variation in effect may possibly be due to varying amounts of coenzyme Q10 in different preparations."
+  },
+  {
+    "key": "6c612a0a75ab35a1",
+    "en": "caffeine inhibits the metabolism of theophylline via CYP1A2. In addition, small amounts of theophylline are produced during the metabolism of ingested caffeine. Additive pharmacodynamic effects are also conceivable in patients who experience adverse effects."
+  },
+  {
+    "key": "f66e165492b55ad3",
+    "en": "Cholinergic stimulation acts additively with dopamine blockade in the striatum and increases the risk of extrapyramidal symptoms."
+  },
+  {
+    "key": "ed330107a8c0d14a",
+    "en": "Cholinesterase inhibitors increase acetylcholine levels at the motor endplate."
+  },
+  {
+    "key": "250cc969a8076b49",
+    "en": "The combination is contraindicated in the summary of product characteristics for carbamazepine on the basis that carbamazepine has a chemical structural similarity to tricyclic antidepressants. Tricyclic antidepressants combined with MAO inhibitors increase the risk of serotonin syndrome, and must therefore not be combined. However, this is not due to the chemical structure of tricyclic antidepressants, but because this drug class, unlike carbamazepine, inhibits serotonin reuptake. There is therefore no theoretical basis for avoiding this combination. Furthermore, combination treatment with MAO inhibitors has been given without any cases of serotonin syndrome being observed."
+  },
+  {
+    "key": "89c68ec37522b5be",
+    "en": "Complex mechanism. Inhibition of CYP3A4 reduces production of the inactive metabolite of irinotecan, and thereby causes shunting to the active metabolite SN-38. The effect of ritonavir on UGT1A1, which is responsible for the inactivation of SN-38, is uncertain; it is possible that the activity of UGT1A1 may increase."
+  },
+  {
+    "key": "459749a287fbe0e9",
+    "en": "Complex formation with elvitegravir in the intestinal lumen, leading to reduced absorption."
+  },
+  {
+    "key": "123f0422f704902c",
+    "en": "Complex formation in the intestine with reduced absorption of hydroxychloroquine."
+  },
+  {
+    "key": "02dd4a73d2ff2593",
+    "en": "Components of antacids may reduce the absorption of sotalol."
+  },
+  {
+    "key": "6cb2be684f8adafd",
+    "en": "Components of antacids form complexes with dexamethasone and thereby limit absorption"
+  },
+  {
+    "key": "1332c0619aeb1984",
+    "en": "Components of antacids form complexes with digoxin and thereby limit absorption"
+  },
+  {
+    "key": "cc3217a059242c48",
+    "en": "Components of antacids form complexes with fexofenadine and thereby limit absorption."
+  },
+  {
+    "key": "b17198a6a75a76df",
+    "en": "Components of antacids form complexes with gabapentin and thereby limit absorption"
+  },
+  {
+    "key": "37fb36e9f8f0450f",
+    "en": "Components of antacids form complexes with quinolones and thereby limit absorption"
+  },
+  {
+    "key": "552fb7e6254e93cf",
+    "en": "Components of antacids form complexes with propranolol and thereby limit absorption"
+  },
+  {
+    "key": "ead28ceb939b8162",
+    "en": "Components of antacids form complexes with tetracyclines and thereby reduce absorption"
+  },
+  {
+    "key": "10770f6107a9f6a4",
+    "en": "Components of antacids probably form complexes with naproxen and may possibly limit absorption"
+  },
+  {
+    "key": "3e22894c326cfbe5",
+    "en": "Competition for tubular secretion in the kidneys. A low dose of acetylsalicylic acid is not considered to cause any significant inhibition of the excretion of methotrexate."
+  },
+  {
+    "key": "12bce34cf1cb86f7",
+    "en": "quetiapine has anticholinergic properties and may thereby counteract the effect of the increased acetylcholine level in the brain produced by cholinesterase inhibitors"
+  },
+  {
+    "key": "2913007a79ea17fd",
+    "en": "lanreotide may lower blood glucose, reducing the need for antidiabetic drugs, or possibly increase blood glucose, increasing the need for antidiabetic drugs."
+  },
+  {
+    "key": "196b4e710d247e96",
+    "en": "lansoprazole inhibits the metabolism of clopidogrel to an active metabolite via CYP2C19. The effect is dose-dependent and relatively small when low doses of lansoprazole are used (see also the section \"Alternative drugs\")."
+  },
+  {
+    "key": "af020d5742f4accd",
+    "en": "lapatinib inhibits P-glycoprotein (shown by an interaction with the P-glycoprotein substrate digoxin), so the efflux of apixaban in the intestinal wall, bile and kidneys via P-glycoprotein will probably also be affected."
+  },
+  {
+    "key": "0d5afc876f2ec645",
+    "en": "lapatinib inhibits P-glycoprotein (shown by an interaction with the P-glycoprotein substrate digoxin), so the efflux of edoxaban in the intestinal wall, bile and kidneys via P-glycoprotein will probably also be affected."
+  },
+  {
+    "key": "7990bac2066c84d0",
+    "en": "lapatinib inhibits P-glycoprotein (shown by an interaction with the P-glycoprotein substrate digoxin), so the efflux of rivaroxaban in the intestinal wall, bile and kidneys via P-glycoprotein will probably also be affected."
+  },
+  {
+    "key": "6eac17802491bb40",
+    "en": "lapatinib inhibits efflux of digoxin in the intestinal wall and renal tubules via P-glycoprotein."
+  },
+  {
+    "key": "317bceaef34149c3",
+    "en": "The active metabolite of leflunomide, teriflunomide, may inhibit the metabolism of warfarin via CYP2C9. It is uncertain why reduced INR has been reported; a pharmacodynamic interaction may be suspected."
+  },
+  {
+    "key": "90f3586c49681ef5",
+    "en": "letermovir inhibits the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "55e11b28768e4863",
+    "en": "letermovir inhibits the metabolism of sirolimus via CYP3A4."
+  },
+  {
+    "key": "a9e06a50e7c6e4a6",
+    "en": "letermovir inhibits the metabolism of statins via CYP3A4 and the transport of statins via transport pumps such as OATP1B1/3."
+  },
+  {
+    "key": "064253bc0416e578",
+    "en": "letermovir inhibits the metabolism of statins via CYP3A4 and the transport of statins via transport pumps such as OATP1B1/3."
+  },
+  {
+    "key": "0b30ac57463597bc",
+    "en": "letermovir inhibits the metabolism of tacrolimus via CYP3A4."
+  },
+  {
+    "key": "0ac9008e554f351d",
+    "en": "letermovir may possibly increase the efflux of digoxin in the intestine and renal tubules via P-glycoprotein."
+  },
+  {
+    "key": "da5dbcbb47b7ae1f",
+    "en": "letermovir increases the metabolism of voriconazole via CYP2C19."
+  },
+  {
+    "key": "549744badff4ede0",
+    "en": "letermovir increases the metabolism of warfarin via CYP2C19."
+  },
+  {
+    "key": "6ec45a3971ae6f1a",
+    "en": "letermovir increases efflux of edoxaban in the intestine and bile via P-glycoprotein."
+  },
+  {
+    "key": "e06c6acdde477f03",
+    "en": "Liver enzymes that metabolise phenobarbital depend on folic acid to function normally. (Enzyme activity is reduced in folic acid deficiency)."
+  },
+  {
+    "key": "0135a0a7a43a6ac0",
+    "en": "Liver enzymes that metabolise phenytoin depend on folic acid to function normally. (Enzyme activity is reduced in folic acid deficiency)."
+  },
+  {
+    "key": "200990a69a404f50",
+    "en": "lomitapide inhibits the metabolism of warfarin."
+  },
+  {
+    "key": "80528a2cb00c6f9b",
+    "en": "lorlatinib may increase the metabolism of cariprazine and its active metabolite via CYP3A4."
+  },
+  {
+    "key": "6566417dc4abb7df",
+    "en": "lorlatinib increases the metabolism of simvastatin via CYP3A4."
+  },
+  {
+    "key": "2c2e398a1ce27800",
+    "en": "lorlatinib increases the metabolism of abrocitinib via CYP2C9/CYP2C19."
+  },
+  {
+    "key": "930e77c0a663711e",
+    "en": "lorlatinib increases the metabolism of acalabrutinib via CYP3A4."
+  },
+  {
+    "key": "e631b450f9851b0a",
+    "en": "lorlatinib increases the metabolism of atorvastatin via CYP3A4"
+  },
+  {
+    "key": "dbf6006ee16f21b5",
+    "en": "lorlatinib increases the metabolism of avapritinib via CYP3A4."
+  },
+  {
+    "key": "833f5834066e9804",
+    "en": "lorlatinib increases the metabolism of daridorexant via CYP3A4."
+  },
+  {
+    "key": "dd05eb7de5362a29",
+    "en": "lorlatinib increases the metabolism of entrectinib via CYP3A4."
+  },
+  {
+    "key": "cae47283204411a3",
+    "en": "lorlatinib increases the metabolism of finerenone via CYP3A4."
+  },
+  {
+    "key": "c2d68cc6d1219e07",
+    "en": "lorlatinib increases the metabolism of glasdegib via CYP3A4."
+  },
+  {
+    "key": "c7ffc16398f5f07d",
+    "en": "lorlatinib increases the metabolism of capmatinib via CYP3A4."
+  },
+  {
+    "key": "528f48f535a717af",
+    "en": "lorlatinib increases the metabolism of lefamulin via CYP3A4."
+  },
+  {
+    "key": "39f693eb18eb1aa5",
+    "en": "lorlatinib increases the metabolism of lenacapavir via CYP3A4."
+  },
+  {
+    "key": "8c4b5c68533f0754",
+    "en": "lorlatinib increases the metabolism of maribavir via CYP3A4."
+  },
+  {
+    "key": "1b8122d32d80249e",
+    "en": "lorlatinib increases the metabolism of neratinib via CYP3A4."
+  },
+  {
+    "key": "c3c6ed0f88ac7b89",
+    "en": "lorlatinib increases the metabolism of pemigatinib via CYP3A4."
+  },
+  {
+    "key": "1ca2a0b4fc78c12f",
+    "en": "lorlatinib increases the metabolism of pretomanid via CYP3A4."
+  },
+  {
+    "key": "ccef00347264da4c",
+    "en": "lorlatinib increases the metabolism of relugolix via CYP3A4 and efflux of relugolix via P-glycoprotein."
+  },
+  {
+    "key": "885875e217627bd8",
+    "en": "lorlatinib increases the metabolism of rimegepant via CYP3A4."
+  },
+  {
+    "key": "8dcf77bed5b447d5",
+    "en": "lorlatinib increases the metabolism of tivozanib via CYP3A4."
+  },
+  {
+    "key": "f4a223fb36069d7b",
+    "en": "lorlatinib increases the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "8ed9cf0bccddb651",
+    "en": "lovastatin may inhibit the metabolism of warfarin, either via CYP2C9 or via other CYP enzymes."
+  },
+  {
+    "key": "72f9750ba965c4bb",
+    "en": "magnesium binds quinolones in the intestine."
+  },
+  {
+    "key": "27c95ff19c1a4204",
+    "en": "magnesium binds tetracyclines in the intestine."
+  },
+  {
+    "key": "351c87010780323e",
+    "en": "magnesium may reduce the absorption of sotalol."
+  },
+  {
+    "key": "1fd91cf2573e23c3",
+    "en": "maribavir inhibits the enzyme required for activation of ganciclovir to produce an antiviral effect. The combination is contraindicated in the summary of product characteristics for maribavir."
+  },
+  {
+    "key": "001ba8a95a7de387",
+    "en": "The mechanism behind the paradoxical increase in blood pressure during concomitant treatment is unknown. The mechanism behind the withdrawal reaction is increased levels of circulating catecholamines (a 20-fold increase has been described). When the beta receptors are blocked, the alpha effect will dominate and produce net vasoconstriction with an associated increase in blood pressure."
+  },
+  {
+    "key": "cbd3fdf926038ee6",
+    "en": "Most probably additive pharmacodynamic effects, but an increased concentration of docetaxel may also play a role."
+  },
+  {
+    "key": "aaacc92cb9a0ee31",
+    "en": "Most probably additive pharmacodynamic effects, but the exact mechanism is unknown."
+  },
+  {
+    "key": "c31d9d1eada10af4",
+    "en": "Most probably additive pharmacodynamic effects, but some fibrates may also inhibit P-glycoprotein, which is important for the transport of colchicine into bile/the intestine."
+  },
+  {
+    "key": "c942fd58d65e760b",
+    "en": "Most probably additive pharmacodynamic effects."
+  },
+  {
+    "key": "63f27cdbdbcaabdd",
+    "en": "Most probably diclofenac-induced renal impairment, which will reduce the excretion of digoxin. This may also explain the large variations in the degree of interaction, depending on the patient's pre-existing renal function."
+  },
+  {
+    "key": "bf4bbc5763059e97",
+    "en": "Most probably inhibition of the metabolism of phenobarbital and an increase in the metabolism of chloramphenicol."
+  },
+  {
+    "key": "7749107de41245c0",
+    "en": "Most probably inhibition of the metabolism of phenytoin via CYP2C9 and an increase in the metabolism of chloramphenicol."
+  },
+  {
+    "key": "923e4919fe6f2caa",
+    "en": "Most probably enzyme induction with prolonged alcohol intake, possibly also a component of reduced absorption of doxycycline from the intestine."
+  },
+  {
+    "key": "c704ad07d9a30826",
+    "en": "Most probably the mechanism is that calcium is involved in the release of acetylcholine at the neuromuscular endplate, and that this effect is inhibited by calcium channel blockers. This will therefore act additively with the cholinesterase-inhibiting effect of muscle relaxants."
+  },
+  {
+    "key": "a0ac025b9655316b",
+    "en": "Most probably atorvastatin inhibits, to some extent, the efflux of digoxin via P-glycoprotein in the intestinal wall, biliary tract and kidneys."
+  },
+  {
+    "key": "ee40a3a8e85662a7",
+    "en": "Most probably darunavir inhibits the efflux of digoxin via P-glycoprotein in the intestinal wall, biliary tract and kidneys."
+  },
+  {
+    "key": "3d137c06ed1e1b19",
+    "en": "Most probably capecitabine and/or the active metabolite fluorouracil inhibit the metabolism of warfarin via CYP2C9."
+  },
+  {
+    "key": "abc6e8fc41b2baca",
+    "en": "Most probably medroxyprogesterone inhibits the metabolism of warfarin."
+  },
+  {
+    "key": "6a0e64d0ec9e41ff",
+    "en": "Most probably paritaprevir and possibly also ritonavir inhibit the uptake of rosuvastatin into liver cells via the transport pump OATP1B1; BCRP may possibly also be inhibited."
+  },
+  {
+    "key": "3cce959750610122",
+    "en": "Most probably ticlopidine inhibits the metabolism of theophylline."
+  },
+  {
+    "key": "7ac759f646a3f525",
+    "en": "Most probably inhibited metabolism of doxorubicin/metabolites via CYP3A4 or inhibited efflux of doxorubicin/metabolites via P-glycoprotein."
+  },
+  {
+    "key": "73183706d0d7e991",
+    "en": "Most probably inhibited metabolism of tacrolimus via CYP3A4."
+  },
+  {
+    "key": "3c8215a1bfa8406f",
+    "en": "Most probably inhibited efflux of digoxin via P-glycoprotein."
+  },
+  {
+    "key": "1e2e4dbb752ffdaf",
+    "en": "Most probably inhibition of the metabolism of propranolol."
+  },
+  {
+    "key": "d7c951ec1261d945",
+    "en": "Most probably ibuprofen-induced renal impairment, which will reduce the excretion of digoxin. This may also explain the large variations in the degree of interaction between studies, depending on which populations have been studied."
+  },
+  {
+    "key": "4444f72de822eda6",
+    "en": "Most probably smoking can induce the metabolism of haloperidol."
+  },
+  {
+    "key": "34651af0eaac6485",
+    "en": "Most probably reduced efflux of digoxin in the intestine and renal tubules via inhibition of P-glycoprotein."
+  },
+  {
+    "key": "a073dc387bed516c",
+    "en": "Most probably increased metabolism of carvedilol via CYP2C9 and increased efflux of carvedilol via P-glycoprotein, including in the intestine."
+  },
+  {
+    "key": "0e15c9a3b0186f63",
+    "en": "methadone inhibits the conversion of codeine to the active metabolite morphine via CYP2D6 (and also inhibits further metabolism via UGT2B7 to active morphine-6-glucuronide)."
+  },
+  {
+    "key": "8b43b34ec303f8e2",
+    "en": "methadone inhibits the conversion of tramadol to an active metabolite via CYP2D6."
+  },
+  {
+    "key": "c935a32eac7019b3",
+    "en": "metoclopramide blocks the dopamine receptors stimulated by bromocriptine (opposing pharmacodynamic mechanisms)."
+  },
+  {
+    "key": "f6a612a71ae64f9f",
+    "en": "metoclopramide blocks the dopamine receptors stimulated by dopamine agonists (opposing pharmacodynamic mechanisms)."
+  },
+  {
+    "key": "8f7d15b438e95da4",
+    "en": "metoclopramide increases the passage of digoxin through the intestine. With digoxin capsules or tablets that dissolve rapidly, this effect will be modest, but with digoxin tablets that dissolve more slowly, there may be a risk that the tablet passes through the intestine before all the active substance has been released."
+  },
+  {
+    "key": "db5eaf5532713624",
+    "en": "metronidazole inhibits the metabolism of phenytoin, primarily via CYP2C9"
+  },
+  {
+    "key": "93d330378cdf682b",
+    "en": "metronidazole inhibits the metabolism of fluorouracil."
+  },
+  {
+    "key": "a68ee1efcda28ae7",
+    "en": "metronidazole inhibits the metabolism of warfarin, primarily via CYP2C9."
+  },
+  {
+    "key": "f531227cd3b1ca20",
+    "en": "metronidazole may possibly inhibit the enzyme acetaldehyde dehydrogenase, which metabolises acetaldehyde to acetic acid. In addition, inhibition of other enzymes may also be involved. Both the underlying mechanism and the magnitude of the risk of clinical effects are debated. The frequency of clinical effects has varied between 0 % and 100 % in different studies."
+  },
+  {
+    "key": "ecc27edb9e8fdb05",
+    "en": "methylphenidate releases, among other things, noradrenaline in the synapses. The inactivation of the released noradrenaline is blocked by the MAO inhibitor."
+  },
+  {
+    "key": "073dc5747369ed64",
+    "en": "miconazole inhibits the metabolism of phenytoin via CYP2C9."
+  },
+  {
+    "key": "2e4f93a2917a2b16",
+    "en": "miconazole inhibits the metabolism of warfarin, mainly via CYP2C9."
+  },
+  {
+    "key": "b0fae01bf2ecf6dd",
+    "en": "Mild osteomalacia may occur as an adverse effect of some antiepileptic drugs. acetazolamide may intensify this effect by increasing urinary calcium excretion. The mechanism behind the possible reduction in the concentration of primidone/phenobarbital is unknown, but reduced absorption has been proposed."
+  },
+  {
+    "key": "c3bda767e28b0bf5",
+    "en": "Mild osteomalacia may occur as an adverse effect of some antiepileptic drugs. acetazolamide may intensify this effect by increasing urinary calcium excretion. The mechanism behind the possible increase in the concentration of phenytoin is unknown."
+  },
+  {
+    "key": "9086c57b523fb3b8",
+    "en": "Mild osteomalacia may occur as an adverse effect of some antiepileptic drugs. acetazolamide may intensify this effect by increasing urinary calcium excretion. The mechanism behind the possible increase in the concentration of carbamazepine is unknown."
+  },
+  {
+    "key": "b3fa79b36b28b6ad",
+    "en": "mirabegron inhibits the metabolism of flecainide via CYP2D6."
+  },
+  {
+    "key": "e4cce365f06f91cc",
+    "en": "mirabegron inhibits the metabolism of codeine to an active metabolite (morphine) via CYP2D6."
+  },
+  {
+    "key": "91d76e713426b3fa",
+    "en": "mirabegron inhibits the metabolism of tramadol to an active metabolite (O-desmethyltramadol) via CYP2D6."
+  },
+  {
+    "key": "f0abf54f10a9e8fe",
+    "en": "modafinil inhibits the metabolism of proton pump inhibitors via CYP2C19."
+  },
+  {
+    "key": "2fd10953b763d723",
+    "en": "modafinil may inhibit the metabolism of warfarin via CYP2C9 (data based on in vitro studies performed by the manufacturer of modafinil). At the same time, modafinil is an inducer of CYP3A4, which is responsible for the metabolism of the less active warfarin enantiomer."
+  },
+  {
+    "key": "dd16f37bef3a639a",
+    "en": "modafinil may increase the metabolism of cariprazine and its active metabolite via CYP3A4."
+  },
+  {
+    "key": "1970d1ba7a0b370c",
+    "en": "modafinil may increase the metabolism of letermovir via glucuronidating enzymes and possibly also increases elimination via transport pumps such as OATP1B1/3 and P-glycoprotein."
+  },
+  {
+    "key": "fffc1feda923dcb8",
+    "en": "modafinil increases the metabolism of quetiapine via CYP3A4."
+  },
+  {
+    "key": "35ceb07ed3308fda",
+    "en": "modafinil increases the metabolism of midazolam via CYP3A4."
+  },
+  {
+    "key": "2718be3e836f29e1",
+    "en": "modafinil increases the metabolism of risperidone and its active metabolite via CYP3A4."
+  },
+  {
+    "key": "a41500030f4ce3e8",
+    "en": "Opposing pharmacodynamic effects (antipsychotics block the dopamine system, prolactin inhibitors stimulate the dopamine system)."
+  },
+  {
+    "key": "04d2664db6915c37",
+    "en": "Possible additive pharmacodynamic effect on bleeding tendency via inhibition of platelet function and of the coagulation system, respectively."
+  },
+  {
+    "key": "47af4dc616da465a",
+    "en": "Possible mutually increased metabolism via CYP3A4."
+  },
+  {
+    "key": "e36d0f6e711474ec",
+    "en": "Possible inhibition of the metabolism of alitretinoin via CYP3A4."
+  },
+  {
+    "key": "28159736f9d8f42c",
+    "en": "Possible inhibition of the metabolism of itraconazole via CYP3A4."
+  },
+  {
+    "key": "43c167e5d6d1e52b",
+    "en": "Possible inhibition of the metabolism of verapamil via CYP3A4."
+  },
+  {
+    "key": "5066cfe086edca4a",
+    "en": "Possible inhibition of the metabolism of apixaban, rivaroxaban and edoxaban via CYP3A4."
+  },
+  {
+    "key": "91928930e2ed853d",
+    "en": "Possible inhibition of the metabolism of dexamethasone via CYP3A4."
+  },
+  {
+    "key": "05b917092d09e221",
+    "en": "Possible inhibition of the metabolism of everolimus via CYP3A4."
+  },
+  {
+    "key": "7f9e358a4dc28f20",
+    "en": "Possible inhibition of the metabolism of lovastatin via CYP3A4."
+  },
+  {
+    "key": "44248e1cd3d17586",
+    "en": "Possible inhibition of the metabolism of methylprednisolone via CYP3A4."
+  },
+  {
+    "key": "dc3227dee5492810",
+    "en": "Possible inhibition of the metabolism of prednisone/prednisolone via CYP3A4."
+  },
+  {
+    "key": "d1c882069f7fbefe",
+    "en": "Possible inhibition of the metabolism of simvastatin via CYP3A4."
+  },
+  {
+    "key": "4c774e2d68db2ab9",
+    "en": "Possible inhibition of the metabolism of sirolimus via CYP3A4."
+  },
+  {
+    "key": "f8a309db5df9d95a",
+    "en": "Possible inhibition of the metabolism of tacrolimus via CYP3A4."
+  },
+  {
+    "key": "a49fa9d60fb95f9f",
+    "en": "Possible inhibition of the metabolism of vardenafil via CYP3A4."
+  },
+  {
+    "key": "389fea95aadde30c",
+    "en": "Possible inhibition of metabolism from inactive desogestrel to active etonogestrel. According to the summary of product characteristics for berotralstat, this is because berotralstat is a weak inhibitor of CYP2C9, which is reportedly responsible for this conversion. However, this is based on an in vitro study from 1998, and a later study in humans found no evidence that CYP2C9 is involved in the activation of desogestrel to etonogestrel. It is therefore difficult to imagine this interaction having any clinical relevance. In view of the clear warning in the summary of product characteristics for berotralstat, it is nevertheless difficult to allow the combination."
+  }
+]

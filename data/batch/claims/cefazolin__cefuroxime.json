@@ -1,0 +1,20 @@
+{
+  "pair": "cefazolin__cefuroxime",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The PubMed records study each antibiotic separately, with other agents, or in vitro; none reports a cefazolin and cefuroxime combination.",
+      "searched": [
+        "\"cefazolin\"[tiab] AND \"cefuroxime\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

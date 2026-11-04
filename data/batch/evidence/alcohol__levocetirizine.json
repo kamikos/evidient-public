@@ -1,0 +1,113 @@
+{
+  "card": {
+    "pair": "alcohol__levocetirizine",
+    "a": "alcohol",
+    "b": "levocetirizine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The label describes possible additional impairment when alcohol is combined with levocetirizine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcohol combined with levocetirizine may further reduce alertness and impair central nervous system performance.",
+        "quote": "Concurrent use of levocetirizine dihydrochloride with alcohol or other central nervous system depressants should be avoided because additional reductions in alertness and additional impairment of central nervous system performance may occur.",
+        "source": {
+          "kind": "fda_label",
+          "id": "60ae7e0e-281c-40a3-a0d3-259b843ddaaa#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says concurrent alcohol use should be avoided because additional reductions in alertness and CNS impairment may occur.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "60ae7e0e-281c-40a3-a0d3-259b843ddaaa#warnings_and_cautions",
+        "title": "levocetirizine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=60ae7e0e-281c-40a3-a0d3-259b843ddaaa",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60073608#4.5",
+        "title": "LEVOCETIRIZINE KRKA 5 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60073608/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28622592",
+        "title": "Second generation H1 - antihistamines interaction with food and alcohol-A systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28622592/",
+        "citation": "1950-6007 93 2017 Sep Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie Biomed Pharmacother",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36047012",
+        "title": "in- silico in-vivo Repurposing levocetirizine hydrochloride loaded into cationic ceramide/phospholipid composite (CCPCs) for management of alopecia: central composite design optimization,andstudies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36047012/",
+        "citation": "1521-0464 29 1 2022 Dec Drug delivery Drug Deliv",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Levocetirizine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study reporting this combination's effects.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"levocetirizine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.586Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

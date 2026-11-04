@@ -1,0 +1,84 @@
+{
+  "card": {
+    "pair": "alcohol__cenobamate",
+    "a": "alcohol",
+    "b": "cenobamate",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA cenobamate label describes possible additive effects with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label includes alcohol in its warning about additive effects with CNS depressants.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA cenobamate label says concomitant alcohol use may have additive CNS depressant effects.",
+        "quote": "Concomitant use with other CNS depressants or alcohol may have additive effects.",
+        "source": {
+          "kind": "fda_label",
+          "id": "565c2126-57ae-4e29-b443-723bbe7e2072#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states that concomitant use with other CNS depressants or alcohol may have additive effects, in a section on somnolence.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "565c2126-57ae-4e29-b443-723bbe7e2072#warnings_and_cautions",
+        "title": "cenobamate: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=565c2126-57ae-4e29-b443-723bbe7e2072",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Cenobamate and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.555Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

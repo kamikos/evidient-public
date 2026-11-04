@@ -1,0 +1,191 @@
+{
+  "card": {
+    "pair": "alprazolam__buprenorphine",
+    "a": "alprazolam",
+    "b": "buprenorphine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA alprazolam boxed warning describes profound sedation, respiratory depression, coma and death with opioids such as buprenorphine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The warning applies through the benzodiazepine and opioid classes.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The buprenorphine label attributes the combination risk to additive pharmacological effects.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA alprazolam boxed warning says benzodiazepines with opioids, including buprenorphine, may cause profound sedation, respiratory depression, coma and death.",
+        "quote": "Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The alprazolam boxed warning covers benzodiazepines with opioids, and buprenorphine is an opioid.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA buprenorphine label attributes increased respiratory depression, profound sedation, coma and death with benzodiazepines to additive pharmacological effects.",
+        "quote": "Due to additive pharmacologic effects, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, increases the risk of respiratory depression, profound sedation, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The buprenorphine interaction table attributes increased respiratory depression, profound sedation, coma and death with benzodiazepines to additive pharmacologic effects.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#boxed_warning",
+        "title": "alprazolam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=563e09db-2f3d-4ce8-b356-ae44477be6d0",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#warnings_and_cautions",
+        "title": "alprazolam: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=563e09db-2f3d-4ce8-b356-ae44477be6d0",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "563e09db-2f3d-4ce8-b356-ae44477be6d0#drug_interactions",
+        "title": "alprazolam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=563e09db-2f3d-4ce8-b356-ae44477be6d0",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions",
+        "title": "buprenorphine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions",
+        "title": "buprenorphine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60549391#4.4",
+        "title": "TEMGESIC 0,2 mg, comprimé sublingual: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60549391/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60549391#4.5",
+        "title": "TEMGESIC 0,2 mg, comprimé sublingual: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60549391/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40738617",
+        "title": "Urinary metabolic ratio of pain management and substance abuse treatment drugs: Reference intervals.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40738617/",
+        "citation": "1551-7489 21 7 2025 Special Supplement: Data and Analysis of Apr Million Drug Samples Journal of opioid management J Opioid Manag",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40738618",
+        "title": "Urinary metabolic ratio of pain management and substance abuse treatment drugs: Drug-drug interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40738618/",
+        "citation": "1551-7489 21 7 2025 Special Supplement: Data and Analysis of Apr Million Drug Samples Journal of opioid management J Opioid Manag",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31482303",
+        "title": "Prediction of Drug-Drug Interactions Between Opioids and Overdosed Benzodiazepines Using Physiologically Based Pharmacokinetic (PBPK) Modeling and Simulation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31482303/",
+        "citation": "1179-6901 19 3 2019 Sep Drugs in R&D Drugs R D",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Alprazolam or Buprenorphine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Alprazolam and Buprenorphine, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.637Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

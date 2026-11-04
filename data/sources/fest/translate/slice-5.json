@@ -1,0 +1,5547 @@
+[
+ {
+  "key": "feee93a6ce54f258",
+  "kind": "mechanism",
+  "nb": "Mulig hemming av nedbrytningen fra sorafenib til den aktive N-oksid-metabolitten via CYP3A4."
+ },
+ {
+  "key": "0e8e83ac3313eb9a",
+  "kind": "mechanism",
+  "nb": "Mulig hemming av p-glykoprotein av krizotinib."
+ },
+ {
+  "key": "fca4973d8a654f61",
+  "kind": "mechanism",
+  "nb": "Mulig hemming av utpumpingen av digoksin via p-glykoprotein i tarmen og i nyretubuli."
+ },
+ {
+  "key": "347baf9ea771df6f",
+  "kind": "mechanism",
+  "nb": "Mulig hemming eller induksjon av utpumping av digoksin i tarmvegg og nyretubuli via p-glykoprotein."
+ },
+ {
+  "key": "08bfb2877084ca1f",
+  "kind": "mechanism",
+  "nb": "Mulig lett hemming av metabolismen av glipizid via CYP2C9."
+ },
+ {
+  "key": "52e00ad75e00042d",
+  "kind": "mechanism",
+  "nb": "Mulig nedsatt absorpsjon av vitamin K siden kolestipol eventuelt kan binde vitamin K i tarmen."
+ },
+ {
+  "key": "ab32394967948dbd",
+  "kind": "mechanism",
+  "nb": "Mulig redusert metabolisme av lonafarnib via CYP3A4."
+ },
+ {
+  "key": "dd28374a96087288",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av efavirenz via CYP2B6 og CYP3A4. Mulig nedusert metabolisme via CYP2B6 initialt."
+ },
+ {
+  "key": "ac3e3adb139132b8",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av everolimus via CYP3A4."
+ },
+ {
+  "key": "6abbb2d3f07b912b",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av gestagener via CYP3A4."
+ },
+ {
+  "key": "a9f7de7ac237167e",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av gestagener."
+ },
+ {
+  "key": "e8e52823c77bb8ae",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av levonorgestrel mest trolig via induksjon av glukuroniderende enzymer."
+ },
+ {
+  "key": "d1e3d6b876cf5bfb",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av progestogener via CYP3A4 (basert på in vitro-data som tyder på at olaparib kan ha en svakt enzyminduserende effekt)."
+ },
+ {
+  "key": "0622dea6ec987e85",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av progestogener, mest sannsynlig via induksjon av glukuroniderende enzymer."
+ },
+ {
+  "key": "0c2cde194d3092ac",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av progestogener."
+ },
+ {
+  "key": "6e40f07438acfed5",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av sirolimus via CYP3A4."
+ },
+ {
+  "key": "8dfdaedbe123200e",
+  "kind": "mechanism",
+  "nb": "Mulig økt metabolisme av takrolimus via CYP3A4."
+ },
+ {
+  "key": "0a1c44952b39f060",
+  "kind": "mechanism",
+  "nb": "Mulig økt utpumping av digoksin via p-glykoprotein."
+ },
+ {
+  "key": "b4b40573cef0e440",
+  "kind": "mechanism",
+  "nb": "Mulige additive farmakodynamiske effekter. Risikoen er hovedsakelig basert på teoretiske overveielser, og er ikke bekreftet i systematiske studier."
+ },
+ {
+  "key": "755d5616bfb36960",
+  "kind": "mechanism",
+  "nb": "Muligens økt metabolisme av everolimus via CYP3A4 og økt utpumping av everolimus via p-glykoprotein."
+ },
+ {
+  "key": "40228fb7391bc6f2",
+  "kind": "mechanism",
+  "nb": "Muligens økt metabolisme av nerandomilast via CYP3A4."
+ },
+ {
+  "key": "ba17946013d5ac67",
+  "kind": "mechanism",
+  "nb": "Muligens økt metabolisme av sirolimus via CYP3A4 og økt utpumping av sirolimus via p-glykoprotein."
+ },
+ {
+  "key": "934468a00209fa53",
+  "kind": "mechanism",
+  "nb": "Muligens økt metabolisme av takrolimus via CYP3A4 og økt utpumping av takrolimus via p-glykoprotein."
+ },
+ {
+  "key": "ec5b75d7c93541e3",
+  "kind": "mechanism",
+  "nb": "Naltrekson er en opioidreseptorantagonist, og motvirker således opioidenes stimulerende effekt på denne reseptoren."
+ },
+ {
+  "key": "f9a9ef49c85819f2",
+  "kind": "mechanism",
+  "nb": "Naproksen hemmer utpumpingen av apiksaban i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "a9f2d1ef60b4a916",
+  "kind": "mechanism",
+  "nb": "Nedsatt absorpsjon av atazanavir på grunn av økt pH i ventrikkel"
+ },
+ {
+  "key": "31cd2cd903a61167",
+  "kind": "mechanism",
+  "nb": "Nedsatt konsentrajon av den aktive tamoksifenmetabolitten endoksifen (50-60 prosent) via CYP2D6-hemming"
+ },
+ {
+  "key": "0825bdc1f9277a69",
+  "kind": "mechanism",
+  "nb": "Nedsatt konsentrajon av den aktive tamoksifenmetabolitten endoksifen på grunn av hemming av CYP2D6 (50-60 % basert på data med andre kraftige hemmere av CYP2D6)."
+ },
+ {
+  "key": "46cd90fe2e9a496f",
+  "kind": "mechanism",
+  "nb": "Nedsatt metabolimse av fenytoin via CYP2C19."
+ },
+ {
+  "key": "aa4c084bfecaee28",
+  "kind": "mechanism",
+  "nb": "Nedsatt metabolisme av isavukonazol via CYP3A4, eventuelt også indusert metabolisme av isavukonazol via andre enzymer."
+ },
+ {
+  "key": "06ebb5543d37c7ce",
+  "kind": "mechanism",
+  "nb": "Nedsatt metabolisme av pitolisant via CYP2D6."
+ },
+ {
+  "key": "b98e66cf9d50c540",
+  "kind": "mechanism",
+  "nb": "Nedsatt renal ekskresjon av digoksin via p-glykoprotein."
+ },
+ {
+  "key": "db94df951d9b0935",
+  "kind": "mechanism",
+  "nb": "Nedsatt renal utskillelse av pemetreksted på grunn av aminoglykosidenes nefrotoksiske effekter."
+ },
+ {
+  "key": "aba10854b855f8e7",
+  "kind": "mechanism",
+  "nb": "Nedsatt transport av eribulin via P-glykoprotein, bl.a. ut i tarm"
+ },
+ {
+  "key": "b5415adc09369648",
+  "kind": "mechanism",
+  "nb": "Nedsatt transport av linagliptin via p-glykoprotein initialt. Eventuelt senere en mulig induksjon av andre enzymer enn CYP3A4."
+ },
+ {
+  "key": "498732b3e4b9e901",
+  "kind": "mechanism",
+  "nb": "Nedsatt transport av linagliptin via P-glykoprotein, bl.a. ut i tarm"
+ },
+ {
+  "key": "c8d094321d3e8067",
+  "kind": "mechanism",
+  "nb": "Nevirapin induserer metabolismen av itrakonazol via CYP3A4."
+ },
+ {
+  "key": "57d265ff973b6de0",
+  "kind": "mechanism",
+  "nb": "Nevirapin induserer metabolismen av ketokonazol via CYP3A4."
+ },
+ {
+  "key": "bb55d9ee99bfb401",
+  "kind": "mechanism",
+  "nb": "Nevirapin induserer metabolismen av klaritromycin via CYP3A4. Klaritromycin hemmer metabolismen av nevirapin via CYP3A4."
+ },
+ {
+  "key": "777259e6835d30a9",
+  "kind": "mechanism",
+  "nb": "Nevirapin induserer metabolismen av zidovudin via CYP3A4. I tillegg en mulig additiv benmargssupprimerende effekt."
+ },
+ {
+  "key": "484c12163ee57493",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av abrocitinib via CYP2C9/CYP2C19."
+ },
+ {
+  "key": "160cfba7e1462d84",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av atorvastatin via CYP3A4"
+ },
+ {
+  "key": "4f12406626a40cd8",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av daridoreksant via CYP3A4."
+ },
+ {
+  "key": "1a6ba852cd0f8a88",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av dolutegravir via det glukuroniderende enzymet UGT1A1 og eventuelt også via CYP3A4."
+ },
+ {
+  "key": "85230ad5713254fa",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av entrektinib via CYP3A4."
+ },
+ {
+  "key": "43c83977105193c7",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av finerenon via CYP3A4."
+ },
+ {
+  "key": "f3ee57c7199e0808",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av glasdegib via CYP3A4."
+ },
+ {
+  "key": "f13acef41fa8967d",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av kapmatinib via CYP3A4."
+ },
+ {
+  "key": "34b80b83206333b7",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av lenakapavir via CYP3A4."
+ },
+ {
+  "key": "d281f5b40b17161a",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av maribavir via CYP3A4."
+ },
+ {
+  "key": "21f2b6264aea141b",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av neratinib via CYP3A4."
+ },
+ {
+  "key": "a3f447290b67af5e",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av pemigatinib via CYP3A4."
+ },
+ {
+  "key": "22169a4b40b6ddd2",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av relugoliks via CYP3A4 og utpumpingen av relugoliks via p-glykoprotein."
+ },
+ {
+  "key": "6784147946523eaa",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av rimegepant via CYP3A4."
+ },
+ {
+  "key": "0ecaeb9c526e5a2a",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av tivozanib via CYP3A4."
+ },
+ {
+  "key": "01f3e31eabaa7767",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av vardenafil via CYP3A4."
+ },
+ {
+  "key": "893a630090eadf5c",
+  "kind": "mechanism",
+  "nb": "Nevirapin øker metabolismen av zanubrutinib via CYP3A4."
+ },
+ {
+  "key": "d813da7588dcf348",
+  "kind": "mechanism",
+  "nb": "NSAID-preparater kan hemme nyrefunksjonen hos spesielt disponerte individer og eventuelt føre til økte nivåer av aminoglykosider."
+ },
+ {
+  "key": "ac43788ec8dd0fc0",
+  "kind": "mechanism",
+  "nb": "NSAID-preparater, inklusive koksiber kan hemme nyrefunksjonen hos spesielt disponerte individer og eventuelt føre til økte nivåer av aminoglykosider."
+ },
+ {
+  "key": "290ca535c56a97b6",
+  "kind": "mechanism",
+  "nb": "NSAIDs hemmer blodplateaggregering og kan derved forsterke effekten av koagulasjonshemmeren. I noen sammenhenger er blødningsrisikoen vist å øke (for eksempel i RE-LY-studien, der  blødningsrisikoen for dabigatran økte med 50 % når NSAID ble gitt samtidig). I andre sammenhenger (for direkte faktor Xa-hemmere) er ingen klinisk relevant økning i blødningstiden observert i kliniske studier. I epidemiologske studier har risikoen vært økt ved bruk av NSAIDs sammen med alle typer direktevirkende orale antikoagulantia (DOAK). For eksempel ble det i en dansk kohortstudie funnet en fordobling til firedobling i risikoen for alle typer blødninger som førte til sykehusinnleggelse (intrakranialt, gastrointestinalt, thorakalt/i luftveiene, samt i urinveiene) når NSAIDs ble brukt sammen med DOAK, sammenlignet med DOAK-bruk alene. Risikoøkningen var lavest for ibuprofen og høyest for naproksen. Risikoøkningen tilsvarte en ekstra blødning for hvert 36. behandlingsår med NSAIDs."
+ },
+ {
+  "key": "848a152773554f33",
+  "kind": "mechanism",
+  "nb": "NSAIDs hemmer blodplateaggregering og kan derved forsterke effekten av warfarin på koagulasjonskaskaden (NB! Interaksjon med NSAIDs vil normalt sett ikke fanges opp ved INR-måling)"
+ },
+ {
+  "key": "5daf817ff01b8b56",
+  "kind": "mechanism",
+  "nb": "NSAIDs hemmer prostaglandinsyntesen i nyrene. Denne er viktig for normal nyrefunksjon, ikke minst hos eldre og hos pasienter med allerede nedsatt nyrefunksjon."
+ },
+ {
+  "key": "940fee2ae34995dd",
+  "kind": "mechanism",
+  "nb": "NSAIDs-preparater vil kunne redusere nyrefunksjonen, noe som fører til økt risiko for laktacidose av metformin."
+ },
+ {
+  "key": "a3b95efd3e6d4035",
+  "kind": "mechanism",
+  "nb": "Når  inaktiveringsveiene for katekolaminer både via COMT, MAO-A og MAO-B er blokkert, vil dette teoretisk sett øke risikoen for hypertensive effekter. Produsentene av COMT-hemmere angir at samtidig bruk av en MAO-A-hemmer er kontraindisert hvis pasienten også bruker en MAO-B-hemmer."
+ },
+ {
+  "key": "aa336694e09bc5e0",
+  "kind": "mechanism",
+  "nb": "Oksarbazepin kan øke metabolismen av kabotegravir via glukuroniderende enzymer (UGT-enzymer)."
+ },
+ {
+  "key": "896543db7453ed3a",
+  "kind": "mechanism",
+  "nb": "Okskarbazepin kan øke ADH-nivåene, tiazider øker den renale utskillelsen av natrium"
+ },
+ {
+  "key": "631678f4d74a2b9c",
+  "kind": "mechanism",
+  "nb": "Okskarbazepin kan øke metabolismen av dolutegravir via det glukuroniderende enzymet UGT1A1 og eventuelt også via CYP3A4."
+ },
+ {
+  "key": "20b948cd675733d0",
+  "kind": "mechanism",
+  "nb": "Okskarbazepin øker metabolismen av ulipristal via CYP3A4."
+ },
+ {
+  "key": "b33075ac87b047a1",
+  "kind": "mechanism",
+  "nb": "Oktreotid hemmer den blodsukkerøkende effekten av veksthormon og glukagon. Dermed reduseres insulinbehovet ved type 1-diabetes. Oktreotid motvirker effekten av sulfonylureapreparater på insulinsekresjonen i pankreas ved type 2-diabetes."
+ },
+ {
+  "key": "f0efa40a34e12a4e",
+  "kind": "mechanism",
+  "nb": "Olanzapin har antikolinerge egenskaper og kan derved motvirke effekten av det økte acetylkolinnivået i hjernen som kolinesterasehemmere gir"
+ },
+ {
+  "key": "3ba1697d2670b8a8",
+  "kind": "mechanism",
+  "nb": "Olanzapin kan øke blodsukkeret slik at behovet for antidiabetika blir større."
+ },
+ {
+  "key": "f01ae69a1b01dbee",
+  "kind": "mechanism",
+  "nb": "Omeprazol hemmer metabolisme av diazepam via CYP2C19."
+ },
+ {
+  "key": "ebe761e76280fa26",
+  "kind": "mechanism",
+  "nb": "Omeprazol hemmer metabolisme av moklobemid via CYP2C19"
+ },
+ {
+  "key": "c72226d34a894c58",
+  "kind": "mechanism",
+  "nb": "Omeprazol hemmer metabolismen av citalopram/escitalopram via CYP2C19."
+ },
+ {
+  "key": "217b3e3acc293e44",
+  "kind": "mechanism",
+  "nb": "Omeprazol hemmer metabolismen av escitalopram via CYP2C19."
+ },
+ {
+  "key": "2208934e111aba74",
+  "kind": "mechanism",
+  "nb": "Omeprazol hemmer metabolismen av klopidogrel til aktiv metabolitt via CYP2C19."
+ },
+ {
+  "key": "5b5daeb92f341aa8",
+  "kind": "mechanism",
+  "nb": "Omeprazol hemmer metabolismen av N-desmetylklobazam via CYP2C19."
+ },
+ {
+  "key": "433ba7af9b11e49f",
+  "kind": "mechanism",
+  "nb": "Omeprazol kan potensielt indusere metabolismen av klozapin via CYP1A2. Hos røykere er CYP1A2 allerede indusert og det forventes ingen tilleggseffekt av omeprazol."
+ },
+ {
+  "key": "a4e78819cb2110b3",
+  "kind": "mechanism",
+  "nb": "Oppløsning av itrakonazolbase fra oral formulering reduseres ved økt pH i ventrikkelen"
+ },
+ {
+  "key": "bf5c5a3f4053ad34",
+  "kind": "mechanism",
+  "nb": "Oppløsning av ketokonazolbase fra oral formulering reduseres ved økt pH i ventrikkelen"
+ },
+ {
+  "key": "1b38da212f4898f2",
+  "kind": "mechanism",
+  "nb": "Oritavancin fører til falsk forhøyede aPTT-verdier."
+ },
+ {
+  "key": "a8c3ed268e31c6ff",
+  "kind": "mechanism",
+  "nb": "Orlistat kan redusere absorpsjonen av antivirale midler fra tarmen."
+ },
+ {
+  "key": "b3ca1d58070c26b8",
+  "kind": "mechanism",
+  "nb": "Orlistat reduserer absorpsjonen av amiodaron fra tarmen."
+ },
+ {
+  "key": "fed166e87ccbdc9d",
+  "kind": "mechanism",
+  "nb": "Orlistat reduserer absorpsjonen av lamotrigin fra tarmen."
+ },
+ {
+  "key": "c9770adcc863bcb9",
+  "kind": "mechanism",
+  "nb": "Orlistat reduserer absorpsjonen av tyroksin fra tarmen."
+ },
+ {
+  "key": "d093dc0343699172",
+  "kind": "mechanism",
+  "nb": "Orlistat reduserer absorpsjonen av vitamin D (og andre fettløselige vitaminer) fra tarmen."
+ },
+ {
+  "key": "78b08011fd022598",
+  "kind": "mechanism",
+  "nb": "Orlistat reduserer absorpsjonen av vitamin K fra tarmen. Dermed vil effekten av warfarin bli kraftigere."
+ },
+ {
+  "key": "069acf90c5605b0f",
+  "kind": "mechanism",
+  "nb": "Oxkarbazepin induserer metabolismen av lamotrigin via glukuroniderende enzymer. Usikker hvorfor konsentrasjonen av oxkarbazepin eventuelt øker."
+ },
+ {
+  "key": "e4848df8a80d94de",
+  "kind": "mechanism",
+  "nb": "Oxkarbazepin induserer metabolismen av levetirazetam."
+ },
+ {
+  "key": "4d92e9b5d9becd06",
+  "kind": "mechanism",
+  "nb": "Paltusotin kan hemme metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "3c7a1ef5bfb7c1bf",
+  "kind": "mechanism",
+  "nb": "Paltusotin kan hemme metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "0c0a113843e616b0",
+  "kind": "mechanism",
+  "nb": "Paltusotin kan hemme metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "837ea662e9309f27",
+  "kind": "mechanism",
+  "nb": "Paratyroideahormonene kan øke konsentrasjonen av kalsium i plasma, noe som fører til økt risiko for bivirkninger/toksistet av digoksin selv om ikke plasmakonsentrasjonen av digoksin øker."
+ },
+ {
+  "key": "dfdb8af1577439ac",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metablolismen av karvedilol via CYP2D6."
+ },
+ {
+  "key": "2682eb10b6ff9a64",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av amitriptylin og aktiv metabolitt (nortriptylin) via CYP2D6."
+ },
+ {
+  "key": "509111e28c383d02",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av atomoksetin via CYP2D6"
+ },
+ {
+  "key": "83721c58e5cf4df6",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av darifenacin via CYP2D6."
+ },
+ {
+  "key": "77e860a615e34799",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av den aktive metabolitten av fesoterodin via CYP2D6"
+ },
+ {
+  "key": "1cde7084159df8a0",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av galantamin via CYP2D6."
+ },
+ {
+  "key": "f7262623da104d61",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av legemidler via CYP2D6, men denne metabolismeveien er relativt beskjeden for mianserin."
+ },
+ {
+  "key": "3bcacfa8f2ed93c0",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av metoprolol via CYP2D6"
+ },
+ {
+  "key": "115c458d86e6da57",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av risperidon via CYP2D6"
+ },
+ {
+  "key": "8976bcd922537198",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av sertindol via CYP2D6"
+ },
+ {
+  "key": "e3a84369a87de115",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolisme av zuklopentiksol via CYP2D6"
+ },
+ {
+  "key": "71be655c1a406c7f",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolismen av aripiprazol via CYP2D6."
+ },
+ {
+  "key": "274b5fe25488f048",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolismen av flekainid via CYP2D6."
+ },
+ {
+  "key": "58b1a8f66239d23b",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolismen av kodein til aktiv metabolitt (morfin) via CYP2D6."
+ },
+ {
+  "key": "44e5df37dc66d86d",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolismen av tramadol til aktiv metabolitt (O-desmetyltramadol) via CYP2D6. I tillegg øker begge legemidlene serotonerg aktivitet."
+ },
+ {
+  "key": "ab1d2cea17356a9f",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolismen av trisykliske antidepressiva via CYP2D6."
+ },
+ {
+  "key": "7238d15075251e2e",
+  "kind": "mechanism",
+  "nb": "Paroksetin hemmer metabolismen av venlafaksin via CYP2D6, samtidig som begge legemidlene hemmer reopptak av serotonin."
+ },
+ {
+  "key": "7b171569d7603179",
+  "kind": "mechanism",
+  "nb": "Paroksetin kan eventuelt hemme metabolismen av klozapin."
+ },
+ {
+  "key": "775c5526c00d3ab5",
+  "kind": "mechanism",
+  "nb": "Pasienter som behandles med ACE-hemmere er avhengige av et fungerende prostaglandinsystem i nyrene for normal filtrasjon og optimal blodtrykkseffekt."
+ },
+ {
+  "key": "ebd69ce9bf05f793",
+  "kind": "mechanism",
+  "nb": "Patiromerkalsium binder ciprafloksacin i tarmen og hindrer dermed absorpsjonen av ciprafloksacin."
+ },
+ {
+  "key": "d650b277be41de2e",
+  "kind": "mechanism",
+  "nb": "Patiromerkalsium binder levotyroksin i tarmen og hindrer dermed absorpsjonen av levotyroksin."
+ },
+ {
+  "key": "74dd33c4ebec4819",
+  "kind": "mechanism",
+  "nb": "Patiromerkalsium binder metformin i tarmen og hindrer dermed absorpsjonen av metformin."
+ },
+ {
+  "key": "ee62ad57d7286d13",
+  "kind": "mechanism",
+  "nb": "Pegvisomant kan senke blodsukkeret slik at behovet for antidiabetika blir mindre."
+ },
+ {
+  "key": "2a0c4a6fb15e9fd3",
+  "kind": "mechanism",
+  "nb": "Peroralt kalsium og magnesium danner kompleksbindinger med dolutegravir i tarmen og reduserer dermed absorpsjonen av dolutegravir."
+ },
+ {
+  "key": "8e9faf4ac6f59d12",
+  "kind": "mechanism",
+  "nb": "Pirtobutrinib hemmer metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "2bc4f93f7fcc7c9f",
+  "kind": "mechanism",
+  "nb": "Pirtobutrinib hemmer metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "63113e0c82c01877",
+  "kind": "mechanism",
+  "nb": "Pirtobutrinib hemmer metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "6b1e372ef8f3d39d",
+  "kind": "mechanism",
+  "nb": "Pitolisant øker metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "69a395599e601e30",
+  "kind": "mechanism",
+  "nb": "Pitolisant øker metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "cc91b5dd9193777a",
+  "kind": "mechanism",
+  "nb": "Pitolisant øker metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "dfaa9b1353aa3d46",
+  "kind": "mechanism",
+  "nb": "Platehemmere hemmer blodplateaggregering og kan derved forsterke effekten av koagulasjonshemmeren. I noen sammenhenger er blødningsrisikoen vist å øke (for eksempel for dabigatran i RE-LY-studien). I andre sammenhenger (for direkte faktor Xa-hemmere) er ingen klinisk relevant økning i blødningstiden observert. Til tross for dette er det rimelig å anbefale samme grad av forsiktighet ved kombinasjon med platehemmere, inklusive acetylsalisylsyre, både for direkte trombinhemmere og for direkte faktor Xa-hemmere. I preparatomtalen for Eliquis er samtidig bruk av de kraftigste platehemmerne, som klopidogrel, prasugrel og ticagrelor, kontraindiserte. I preparatomtalen for Zontivity heter det at samtidig bruk med perorale antiokoagulantia bør unngås. Hos pasienter med nylig gjennomgått perkutan koronar intervensjon (PCI) eller nylig innlagt, stent samt atrieflimmer eller venøs tromboembolisme vil det være indikasjon for kombinasjonsbehandling."
+ },
+ {
+  "key": "bcf7e15476b045da",
+  "kind": "mechanism",
+  "nb": "Platehemmere hemmer blodplateaggregering og kan derved forsterke effekten av koagulasjonshemmeren. I noen sammenhenger er blødningsrisikoen vist å øke (for eksempel i RE-LY-studien, der blødningsrisikoen for dabigatran økte til inntil det dobbelte når acetylsalisylsyre, klopidogrel eller andre platehemmere ble gitt samtidig). Også i studier med direkte faktor Xa-hemmere som rivaroksaban er kombinasjonen med acetylsalisylsyre vist å øke blødningsrisikoen."
+ },
+ {
+  "key": "bf0745686b0377a1",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolisme av dienogest via CYP3A4"
+ },
+ {
+  "key": "75a77e4e394d3d21",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolisme av dutasterid via CYP3A4"
+ },
+ {
+  "key": "e6c6d4ee6d4c0a91",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolisme av solifenacin via CYP3A4"
+ },
+ {
+  "key": "2f045abf2a5c2bca",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av alfuzosin via CYP3A4"
+ },
+ {
+  "key": "2af98bf6ee6a5434",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av alprazolam via CYP3A4"
+ },
+ {
+  "key": "84f1473b19bc80f3",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av amprenavir via CYP3A4."
+ },
+ {
+  "key": "852d7167b36908c9",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av apiksaban via CYP3A4 og utpumpingen av apiksaban i tarmvegg og galle via p-glykoprotein."
+ },
+ {
+  "key": "4d7525456e14f677",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av apiksaban via CYP3A4 og utpumpingen av rivaroksaban i tarmvegg og galle via p-glykoprotein."
+ },
+ {
+  "key": "bd2e6d30d32c2514",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av atorvastatin via CYP3A4."
+ },
+ {
+  "key": "478cfe0e363e6d02",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av bosentan via CYP3A4."
+ },
+ {
+  "key": "2ac31e1b553ef6b5",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av budesonid via CYP3A4."
+ },
+ {
+  "key": "321538a5a871fbe8",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av buprenorfin via CYP3A4."
+ },
+ {
+  "key": "60dcc9a78bd132ee",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av buspiron via CYP3A4"
+ },
+ {
+  "key": "2b0959bdf7350b52",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av darifenacin via CYP3A4"
+ },
+ {
+  "key": "4f62fa40ebd3ef22",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av deksametason via CYP3A4."
+ },
+ {
+  "key": "abe931e50a83f6e9",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av den aktive metabolitten av fesoterodin via CYP3A4"
+ },
+ {
+  "key": "0ae27a0dd4f84ee6",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av den aktive metabolitten desloratadin via CYP3A4. (Også metabolismen av loratadin hemmes, men siden dette er en prodrug, får det ingen kliniske konsekvenser)."
+ },
+ {
+  "key": "2dd042a43bf24819",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av des-ciklenosid via CYP3A4."
+ },
+ {
+  "key": "3e0fd4943deecf9b",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av docetaxel via CYP3A4."
+ },
+ {
+  "key": "5d8aa9fcbf8776a9",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av donedaron via CYP3A4."
+ },
+ {
+  "key": "bcec14f0bdb52f1d",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av ebastin og den aktive metabolitten karebastin via CYP3A4"
+ },
+ {
+  "key": "6a1c761e48f4680f",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av edoksaban via CYP3A4 og utpumpingen av edoksaban i tarmvegg og galle via p-glykoprotein."
+ },
+ {
+  "key": "406311a0ecc31ad1",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av eletriptan via CYP3A4"
+ },
+ {
+  "key": "9db9d8450964f2df",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av eplerenon via CYP3A4"
+ },
+ {
+  "key": "adc5e4f393599e39",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "9d0c2f393e134806",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av felodipin via CYP3A4."
+ },
+ {
+  "key": "7fbb0fe5a99431af",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av fentanyl via CYP3A4."
+ },
+ {
+  "key": "d1e48fa82cb9923d",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av ivabradin via CYP3A4"
+ },
+ {
+  "key": "de6b0d3de2fb9588",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av kabergolin via CYP3A4"
+ },
+ {
+  "key": "2a9da94c3ea21e16",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av karbamazepin via CYP3A4, mens karbamazepin øker metabolisme av posakonazol via glukuronidering"
+ },
+ {
+  "key": "6cdf4eb7659a2647",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av kvetiapin via CYP3A4."
+ },
+ {
+  "key": "51553139faf0d3ba",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av lerkanidipin via CYP3A4."
+ },
+ {
+  "key": "de0b820c16a309c4",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av loperamid via CYP3A4 og utpumping av loperamid (bl.a. i tarm) via p-glykoprotein."
+ },
+ {
+  "key": "3f1818ae78f4c086",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av lovastatin via CYP3A4"
+ },
+ {
+  "key": "e74e5eef59068eaa",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av maraviroc via CYP3A4"
+ },
+ {
+  "key": "e1fe26987dc37331",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av metylprednisolon via CYP3A4."
+ },
+ {
+  "key": "4d711a36db034c7d",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av midazolam via CYP3A4."
+ },
+ {
+  "key": "9f0145d5e08a4925",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av nilotinib via CYP3A4"
+ },
+ {
+  "key": "029d399d5a0f097a",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av nimodipin via CYP3A4."
+ },
+ {
+  "key": "1419a24c9f93580a",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av oksykodon via CYP3A4."
+ },
+ {
+  "key": "92fda62129324a5a",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av ranolazin via CYP3A4."
+ },
+ {
+  "key": "403ba9ee0425ab7c",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av sildenafil via CYP3A4"
+ },
+ {
+  "key": "c078ae6cffcbbd54",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av simvastatin via CYP3A4"
+ },
+ {
+  "key": "f69c875ac562fc47",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av sirolimus via CYP3A4"
+ },
+ {
+  "key": "ce309ae289adea77",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av tadalafil via CYP3A4"
+ },
+ {
+  "key": "79b7a44d31735754",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av takrolimus via CYP3A4"
+ },
+ {
+  "key": "43dc7cb877047711",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av tikagrelor via CYP3A4."
+ },
+ {
+  "key": "04e078645a245237",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av tolterodin via CYP3A4. For hemmeren ketokonazol er denne effekten er tydelig (i størrelsesorden en fordobling av tolterodinkonsentrasjonen) hos pasienter som mangler den alternative metaboliseringsveien CYP2D6."
+ },
+ {
+  "key": "0e495b0a80c8458b",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av tolvaptan via CYP3A4."
+ },
+ {
+  "key": "31d97a558fc1831c",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av vardenafil via CYP3A4"
+ },
+ {
+  "key": "6b3f0e5ee84b8468",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer metabolismen av venetoklaks via CYP3A4."
+ },
+ {
+  "key": "4ef7a30a1294a13f",
+  "kind": "mechanism",
+  "nb": "Posakonazol hemmer utpumpingen av digoksin via p-glykoprotein i tarmvegg og nyretubuli."
+ },
+ {
+  "key": "3dcb87fc006fed41",
+  "kind": "mechanism",
+  "nb": "Propranolol er en ikke-selektiv betareseptorantagonist og kan blokkere for beta-2-agonister i bronkiene"
+ },
+ {
+  "key": "cf12aa7c3bacb325",
+  "kind": "mechanism",
+  "nb": "Propranolol hemmer metablolismen av lidokain. Det er usikkert om den underliggende årsaken er en reduksjon i leverblodlow eller en direkte hemming av leverenzymaktiviteten."
+ },
+ {
+  "key": "b5c4e5a07a4da202",
+  "kind": "mechanism",
+  "nb": "Protonpumpehemmere gir økt pH i magesekken og reduserer derved oppløselighet og absorpsjon av itrakonazol som administreres i baseform."
+ },
+ {
+  "key": "8e003ce6f90af2a4",
+  "kind": "mechanism",
+  "nb": "Protonpumpehemmere gir økt pH i magesekken og reduserer derved oppløselighet og absorpsjon av ketokonazol som administreres i baseform."
+ },
+ {
+  "key": "4d097dd74c402fc3",
+  "kind": "mechanism",
+  "nb": "Protonpumpehemmere gir økt pH i magesekken og reduserer derved oppløselighet og absorpsjon av posakonazol som administreres i baseform."
+ },
+ {
+  "key": "a6117239f0477706",
+  "kind": "mechanism",
+  "nb": "Protonpumpehemmere øker pH i ventrikkelen, noe som reduserer absorpsjonen av rilpivirin."
+ },
+ {
+  "key": "d16bcb1c4cc0788e",
+  "kind": "mechanism",
+  "nb": "Raloksifen øker mest trolig konsentrasjonen av visse koagulasjonsfaktorer."
+ },
+ {
+  "key": "5b96825653bcd52c",
+  "kind": "mechanism",
+  "nb": "Ranolazin hemmer metabolismen av simvastatin via CYP3A4."
+ },
+ {
+  "key": "155ef54827f32321",
+  "kind": "mechanism",
+  "nb": "Redusert absorpsjon av vitamin K fra tarmen."
+ },
+ {
+  "key": "edfe6496bad9ec43",
+  "kind": "mechanism",
+  "nb": "Redusert bakterieflora i tarmen kan medføre redusert syntese av vitamin K og derved økt warfarineffekt."
+ },
+ {
+  "key": "21bcc97d1dacb599",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av abrocitinib via CYP2C9/CYP2C19."
+ },
+ {
+  "key": "e3aa0d8053c848d0",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av adagrasib via CYP3A4."
+ },
+ {
+  "key": "762d7e86a59e31d8",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av afikamten via CYP2C9 og CYP3A4."
+ },
+ {
+  "key": "91ff07cbcb93542a",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av afikamten via CYP2C9 og delvis CYP3A4."
+ },
+ {
+  "key": "c190b64afa0d1e10",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av afikamten via CYP2C9, CYP2C19 og delvis CYP3A4."
+ },
+ {
+  "key": "6c694e57a80d08e2",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av akalabrutinib via CYP3A4."
+ },
+ {
+  "key": "b2277e35ee844d93",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av alektinib til aktiv metabolitt via CYP3A4."
+ },
+ {
+  "key": "3dab740bc6bd142e",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av atogepant via CYP3A4."
+ },
+ {
+  "key": "3dde4aabda4bffbe",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av avapritinib via CYP3A4."
+ },
+ {
+  "key": "3ee966e5c6769645",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av brigatinib via CYP3A4."
+ },
+ {
+  "key": "30557357d387db03",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av daridoreksant via CYP3A4."
+ },
+ {
+  "key": "36e09f7dcdfb1459",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av darolutamid via CYP3A4, eventuelt også redusert utpumping av darolutamid via p-glykoprotein."
+ },
+ {
+  "key": "642bb98240d41a00",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av den aktive fostamatinib-metabolitten via CYP3A4."
+ },
+ {
+  "key": "343ae3adfc0b5cd8",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av duvelisib via CYP3A4."
+ },
+ {
+  "key": "37e5092adab93f01",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av eliglustat via CYP2D6."
+ },
+ {
+  "key": "f03ee38192687880",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av eliglustat via CYP3A4."
+ },
+ {
+  "key": "f512ad2668e9fdb1",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av entrektinib via CYP3A4."
+ },
+ {
+  "key": "3be802851de19990",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av erdafitnib via CYP2C9 og CYP3A4."
+ },
+ {
+  "key": "c230c56eaae042ad",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av erdafitnib via CYP3A4."
+ },
+ {
+  "key": "4f2192a80f320e85",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av esomeprazol via CYP3A4."
+ },
+ {
+  "key": "3d452bc593d58cb9",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av fedratinib pga. kombinert hemming av CYP3A4 og CYP2C19."
+ },
+ {
+  "key": "6aa708d945d66c1e",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av fedratinib via CYP3A4."
+ },
+ {
+  "key": "3a5647fca3cf6bcf",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av fedratinib via CYP3A4. Redusert utpumping av fedratinib via p-glykoprotein/redusert metabolisme av fedratinib via CYP3A4."
+ },
+ {
+  "key": "d762f72e87e833a1",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av fenobarbital via hemming av CYP2C19."
+ },
+ {
+  "key": "e165d8c50e7252da",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av finerenon via CYP3A4."
+ },
+ {
+  "key": "db1ac3190a0e113f",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av fingolimod via CYP3A4."
+ },
+ {
+  "key": "ad503c07814fa2f4",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av futibatinib via CYP3A4."
+ },
+ {
+  "key": "b86013aea8dbb8e4",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av gladsegib via CYP3A4."
+ },
+ {
+  "key": "cad98df9945972e9",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av glasdegib via CYP3A4."
+ },
+ {
+  "key": "f4fa689a63cce81b",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av glukokortikoidet via CYP3A4."
+ },
+ {
+  "key": "2dc4023d10537fa9",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ivosidenib via CYP3A4, økt metabolisme av itrakonazol via CYP3A4."
+ },
+ {
+  "key": "ffdac40e65ff878d",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ivosidenib via CYP3A4, økt metabolisme av ketokonazol via CYP3A4."
+ },
+ {
+  "key": "34c3855796e700a3",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ivosidenib via CYP3A4."
+ },
+ {
+  "key": "b96e9d79031fe030",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ivosidenib via CYP3A4. Dessuten additive effekter i form av å forlenge hjertets repolarisering (øke QT-tiden i EKG)."
+ },
+ {
+  "key": "116731cdfff3bce0",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ivosidenib via CYP3A4. I tillegg additive effekter i form av å forlenge hjertets repolarisering (øke QT-tiden i EKG) og øke risikoen for torsades de pointes-arytmier. Risikoen er særlig til stede ved bruk av erytromycin intravenøst. Ved bruk av intravenøst erytromycin alene har gjennomsnittlige økninger i QTc på 20-50 ms vært rapportert."
+ },
+ {
+  "key": "9b376eb68d204a0a",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av kapivaserib via CYP3A4."
+ },
+ {
+  "key": "89106d401be83046",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av kapivasertib via CYP3A4."
+ },
+ {
+  "key": "920426491584ec3a",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av kapmatinib via CYP3A4."
+ },
+ {
+  "key": "be0cc3f493e3711a",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av kariprazin og aktiv metabolitt via CYP3A4."
+ },
+ {
+  "key": "f671d5ae3294f605",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av kvizartinib via CYP3A4."
+ },
+ {
+  "key": "e960f6df07862ed2",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av larotrektinib via CYP3A4."
+ },
+ {
+  "key": "1f7421e2c3d6ec3b",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lefamulin via CYP3A4."
+ },
+ {
+  "key": "55ad46d9380836a4",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lefamulin via CYP3A4. Additive effekter i form av å forlenge hjertets repolarisering (øke QT-tiden i EKG) og øke risikoen for torsades de pointes-arytmier."
+ },
+ {
+  "key": "d4df8913a00d343f",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lefamulin via CYP3A4. Additive effekter i form av å forlenge hjertets repolarisering (øke QT-tiden i EKG) og øke risikoen for torsades de pointes-arytmier. Ved bruk av lefamulin alene er det påvist en gjennnomsnittlig økning i QTc-tiden på 11 msek. Samtidig var det 18 % som fikk en QTc-økning på minst 30 msek og 1,7 % som fikk en QTc-økning på minst 60 msek."
+ },
+ {
+  "key": "b6f1d154209f424c",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lefamulin via CYP3A4. I tillegg additive effekter i form av å forlenge hjertets repolarisering (øke QT-tiden i EKG) og øke risikoen for torsades de pointes-arytmier."
+ },
+ {
+  "key": "11123f22287cee69",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lomitapid via CYP3A4."
+ },
+ {
+  "key": "4b47fecb2f8b9436",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lonafarnib via CYP3A4."
+ },
+ {
+  "key": "91b53f7c0349991f",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av lurbinektedin via CYP3A4."
+ },
+ {
+  "key": "edd81915e058f276",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av mavakamten via CYP2C19."
+ },
+ {
+  "key": "7444cc06849f836b",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av mavakamten via CYP3A4 og CYP2C19."
+ },
+ {
+  "key": "9573cd5590e76293",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av mavakamten via CYP3A4."
+ },
+ {
+  "key": "81a14132dbb208a8",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av metoprolol via CYP2D6."
+ },
+ {
+  "key": "d9398391c006e0ab",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av midazolam via CYP3A4."
+ },
+ {
+  "key": "2c22db1661aa1222",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av naldemedin via CYP3A4."
+ },
+ {
+  "key": "622064b6c6828382",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av nerandomilast via CYP3A4."
+ },
+ {
+  "key": "7c96d4c47e807425",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av neratinib via CYP3A4."
+ },
+ {
+  "key": "801c5b324b180706",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av nirogacestat via CYP3A4."
+ },
+ {
+  "key": "d2e9e5b90c8da093",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av olaparib via CYP3A4."
+ },
+ {
+  "key": "965ad530dd2c7f3e",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av omaveloksolon via CYP3A4."
+ },
+ {
+  "key": "6ff0c312840dc510",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av omeprazol via CYP3A4."
+ },
+ {
+  "key": "586a5d7dd8191d88",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ospemifen via CYP2C9, CYP2C19 og eventuelt også CYP3A4."
+ },
+ {
+  "key": "e9942d30b7a09001",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av palbociklib via CYP3A4."
+ },
+ {
+  "key": "b9c53e6991275f48",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av pemigatinib via CYP3A4."
+ },
+ {
+  "key": "8ff5bfb8aeba6140",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av pioglitazon via CYP2C8."
+ },
+ {
+  "key": "bb3baddce9673382",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av pirfenidon via CYP1A2."
+ },
+ {
+  "key": "57dc8e44dfefc2cf",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av pralsetinib via CYP3A4."
+ },
+ {
+  "key": "d9826db0ec5344fb",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av repaglinid via CYP2C8."
+ },
+ {
+  "key": "c909f48cbc5e3570",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av repotrektinib via CYP3A4."
+ },
+ {
+  "key": "6dcc3dfcb6bf7c2d",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av resmetirom via CYP2C8."
+ },
+ {
+  "key": "027f7703b85cc9df",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av rimegepant via CYP3A4."
+ },
+ {
+  "key": "4238e1f328d76f20",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av ripretinib via CYP3A4."
+ },
+ {
+  "key": "87874a11709c4def",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av selumetinib pga. kombinert hemming av CYP3A4 og CYP2C19."
+ },
+ {
+  "key": "16467467bc73e602",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av selumetinib via CYP2C19."
+ },
+ {
+  "key": "4760bb26e82bed1a",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av selumetinib via CYP3A4."
+ },
+ {
+  "key": "e93a76eec4a597f4",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av seperkatinib via CYP3A4."
+ },
+ {
+  "key": "a8fccb19fc921851",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av simvastatin via CYP3A4."
+ },
+ {
+  "key": "dd0cd948582eef37",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av sparsentan via CYP3A4."
+ },
+ {
+  "key": "846a3535ba59d26d",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av tepotinib via CYP3A4 kombinert med redusert utpumping av tepotinib via p-glykoprotein."
+ },
+ {
+  "key": "c94ff68ab3bf7aae",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av tetrabenazin/deutetrabenazin via CYP2D6."
+ },
+ {
+  "key": "149a463de6ca4fdd",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av timolol via CYP2D6."
+ },
+ {
+  "key": "f6610c47ae845f31",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av tofacitinib pga. kombinert hemming av CYP3A4 og CYP2C19."
+ },
+ {
+  "key": "6750655192dd7aca",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av tofacitinib via CYP3A4, dessuten additive farmakodynamiske effekter."
+ },
+ {
+  "key": "771e8435b470de62",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av tofacitinib via CYP3A4."
+ },
+ {
+  "key": "3800763d62fb3ece",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av tovorafenib via CYP2C8."
+ },
+ {
+  "key": "9246cc67c1860650",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av trazodon via CYP3A4."
+ },
+ {
+  "key": "f6f61fd67735fabd",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av venetoklaks via CYP3A4."
+ },
+ {
+  "key": "4a52270b38eccb63",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av voklosporin via CYP3A4."
+ },
+ {
+  "key": "5c83a67c6ee3a484",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av voklosporin via CYP4F2/CYP3A4."
+ },
+ {
+  "key": "227afeaa6a456282",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av voklosporin via CYP4F2/CYP3A4. Dessuten en additiv faramkodynamisk økt risiko for bradykardi."
+ },
+ {
+  "key": "1d8dc0b8e3d4572a",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av voklosporin via CYP4F2/CYP3A4. Dessuten en mulig additiv faramkodynamisk økt risiko for bradykardi."
+ },
+ {
+  "key": "d529239187ebcd59",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av vorasindenib via CYP1A2."
+ },
+ {
+  "key": "fa5346f04c6a8266",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av zanubrutinib via CYP3A4."
+ },
+ {
+  "key": "a5fdd1ec56f4eb31",
+  "kind": "mechanism",
+  "nb": "Redusert metabolisme av zuranolon via CYP3A4."
+ },
+ {
+  "key": "87f607cce3c89c74",
+  "kind": "mechanism",
+  "nb": "Redusert transport av statiner fra plasma til leveren via transportpumpene OATP1B1, OATP1B3 og BCRP."
+ },
+ {
+  "key": "e03b8422875b684f",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av digoksin i tarm og nyretubuli via hemming av p-glykoprotein."
+ },
+ {
+  "key": "b453d309f4d8861a",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av digoksin i tarm og nyretubuli via p-glykoprotein."
+ },
+ {
+  "key": "effaa02badebe9b3",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av digoksin i tarmvegg og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "81c6529753491798",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av digoksin via p-glykoprotein i tarm og nyrer."
+ },
+ {
+  "key": "37635d4fc4555170",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av nintedanib via p-glykoprotein."
+ },
+ {
+  "key": "3ffcc35a12b7456f",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av relugoliks via p-glykoprotein, i hovedsak i tarmveggen."
+ },
+ {
+  "key": "ba64f47909cd2f4b",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av relugoliks via p-glykoprotein, i hovedsak i tarmveggen. Også hemming av CYP3A4 kan bidra."
+ },
+ {
+  "key": "95989d79af2d6b42",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av rosuvastatin bl.a. i lever/galle via transportpumpen BCRP."
+ },
+ {
+  "key": "1b3893ac586738fe",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av rosuvastatin via transportpumpen BCRP."
+ },
+ {
+  "key": "877d7795b54cdaca",
+  "kind": "mechanism",
+  "nb": "Redusert utpumping av sulfasalazin via transportpumpen BCRP."
+ },
+ {
+  "key": "1170f9ab33062a33",
+  "kind": "mechanism",
+  "nb": "Redusert utskillese av rosuvastatin via ulike tramsportpumper."
+ },
+ {
+  "key": "43368596e20035f7",
+  "kind": "mechanism",
+  "nb": "Repotrektinib øker metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "e53c8500be058b86",
+  "kind": "mechanism",
+  "nb": "Repotrektinib øker metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "307589ded5b97a8a",
+  "kind": "mechanism",
+  "nb": "Repotrektinib øker metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "6eb71333fa47f27b",
+  "kind": "mechanism",
+  "nb": "Ribosiklib hemmer metabolismen av fentanyl via CYP3A4"
+ },
+ {
+  "key": "70a60d7276effb21",
+  "kind": "mechanism",
+  "nb": "Ribosiklib hemmer metabolismen av venetoklaks via CYP3A4."
+ },
+ {
+  "key": "5d6ea59808757a3b",
+  "kind": "mechanism",
+  "nb": "Rilpivirin er en hemmer av p-glykoptotein. Dermed hemmes utpumping av digoksin via p-glykoprotein"
+ },
+ {
+  "key": "e0d2c21141e953ff",
+  "kind": "mechanism",
+  "nb": "Risikoen for torsade de pointes utløst av klasse I- og III-antiarytmika kan være økt hos pasienter med bradykardi."
+ },
+ {
+  "key": "6daabc85b0efee05",
+  "kind": "mechanism",
+  "nb": "Risperidon blokkerer de  dopaminreseptorene som dopaminagonisten skal stimulere."
+ },
+ {
+  "key": "7300d994f4d513db",
+  "kind": "mechanism",
+  "nb": "Ritoanavir hemmer metabolismen av loperamid via CYP3A4 og utpumping av loperamid (bl.a. i tarm) via p-glykoprotein."
+ },
+ {
+  "key": "a545e7a785fad4e8",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolisme av quetiapin via CYP3A4."
+ },
+ {
+  "key": "ab296b337997d856",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolisme av takrolimus via CYP3A4."
+ },
+ {
+  "key": "ed3beadcd213350d",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av alfuzosin via CYP3A4."
+ },
+ {
+  "key": "c0826e102df83675",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av alprazolam via CYP3A4."
+ },
+ {
+  "key": "44b02d02994db10d",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av amlodipin via CYP3A4, evt. påvirkes også utpumpingen via p-glykoprotein."
+ },
+ {
+  "key": "1806589b201ab47d",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av apiksaban via CYP3A4 og utpumpingen av apiksaban i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "347ba5ade70d23b2",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av atorvastatin via CYP3A4. I tilegg kan opptak i levercellene reduseres via en hemming av transportproteinet OATP1B1."
+ },
+ {
+  "key": "10abc57cdb7d7116",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av avanafil via CYP3A4"
+ },
+ {
+  "key": "c5c3bb3b60594b96",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av bosentan via CYP3A4."
+ },
+ {
+  "key": "ac980ae78bfdede7",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av budesonid via CYP3A4."
+ },
+ {
+  "key": "3013b7b9223be868",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av buprenorfin via CYP3A4."
+ },
+ {
+  "key": "aecd9dd25297a58b",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av buspiron via CYP3A4"
+ },
+ {
+  "key": "98af4b54c03cf178",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av darifenacin via CYP3A4."
+ },
+ {
+  "key": "245bed9a7749170f",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av deksametason via CYP3A4. Mulig induksjon av ritonavirmetabolismen."
+ },
+ {
+  "key": "a0236f5c970058f4",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av den aktive metabolitten av fesoterodin via CYP3A4."
+ },
+ {
+  "key": "bab2df007b12c0fd",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av den aktive metabolitten desloratadin via CYP3A4. (Også metabolismen av loratadin hemmes, men siden dette er en prodrug, får det ingen kliniske konsekvenser)."
+ },
+ {
+  "key": "9e32056b9b30bbd3",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av den aktive metabolitten til ciklesonid (desciklenosid) via CYP3A4."
+ },
+ {
+  "key": "5a6c9b76ffb16a2c",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av dienogest via CYP3A4."
+ },
+ {
+  "key": "23cf2e8a436f1141",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av docetaksel via CYP3A4."
+ },
+ {
+  "key": "efeacac00c0c7bc2",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av donedaron via CYP3A4."
+ },
+ {
+  "key": "35526bafcc6ca033",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av dutasterid via CYP3A4."
+ },
+ {
+  "key": "e5a1ec9b0e913670",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av ebastin og den aktive metabolitten karebastin via CYP3A4."
+ },
+ {
+  "key": "751a917bb126ab34",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av edoksaban via CYP3A4 og utpumpingen av edoksaban i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "d36368f7fb47bc75",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av eletriptan via CYP3A4."
+ },
+ {
+  "key": "67568e732accbf12",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av eplerenon via CYP3A4."
+ },
+ {
+  "key": "2fc8d8b4b3cdc8b1",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "7b1ce7f852f87922",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av feksofenadin via CYP3A4."
+ },
+ {
+  "key": "cc1e44aa5b8461c7",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av felodipin via CYP3A4."
+ },
+ {
+  "key": "14ee8dbbc3b47783",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av fentanyl via CYP3A4."
+ },
+ {
+  "key": "de27772e510139f4",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av itrakonazol via CYP3A4. Itrakonazol kan øke konsentrasjonen av anti-HIV-midlene."
+ },
+ {
+  "key": "802196c7088ee2b2",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av ivabradin via CYP3A4"
+ },
+ {
+  "key": "1b36891b0913d737",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av kabergolin via CYP3A4."
+ },
+ {
+  "key": "a7ceb02c6c50248b",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av karbamazepin via CYP3A4, mens karbamazepin øker metabolismen av ritonavir og de andre anti-HIV-midlene via CYP3A4."
+ },
+ {
+  "key": "e4f8ff62dc7f9d89",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av ketkonazol via CYP3A4. Ketokonazol kan øke konsentrasjonen av anti-HIV-midlene."
+ },
+ {
+  "key": "590c0870cd4587f4",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av lapatinib via CYP3A4."
+ },
+ {
+  "key": "703f10684f637842",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av lerkanidipin via CYP3A4."
+ },
+ {
+  "key": "6e5c463f32f85f55",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av lovastatin via CYP3A4. I tilegg kan opptak i levercellene eventuelt reduseres via en hemming av transportproteinet OATP1B1."
+ },
+ {
+  "key": "9c60a492d13bee58",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av maraviroc via CYP3A4"
+ },
+ {
+  "key": "175d72cbf2600b71",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av maraviroc via CYP3A4."
+ },
+ {
+  "key": "b81c4b8e1e27677d",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av metadon via CYP3A4, men kan også indusere metabolismen av metadon, trolig via økt aktivitet av CYP2B6, og også øke renal clearance ved langtidsbruk."
+ },
+ {
+  "key": "a8af653703bc5139",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av metylprednisolon via CYP3A4."
+ },
+ {
+  "key": "4e29631b05551758",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av midazolam via CYP3A4."
+ },
+ {
+  "key": "5250b4e64d115f29",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av nilotinib via CYP3A4"
+ },
+ {
+  "key": "5ab962d407fb668f",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av nimodipin via CYP3A4."
+ },
+ {
+  "key": "1c7fa61813909e03",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av oksykodon via CYP3A4."
+ },
+ {
+  "key": "7563d4ebb719c3da",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av posakonazol via CYP3A4. Posakonazol kan øke konsentrasjonen av anti-HIV-midlene."
+ },
+ {
+  "key": "8950321414b4d72c",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av ranolazin via CYP3A4."
+ },
+ {
+  "key": "2389cc7d47fa356e",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av repaglinid via CYP3A4."
+ },
+ {
+  "key": "9a5c8f3e66113475",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av rivaroksaban via CYP3A4 og utpumpingen av rivaroksaban i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "29e3ca9a989be1b8",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av salmeterol via CYP3A4."
+ },
+ {
+  "key": "91aebee77572768f",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av sertindol via CYP3A4."
+ },
+ {
+  "key": "0da449b50c4a5572",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av sildenafil via CYP3A4."
+ },
+ {
+  "key": "ce3d237c663455e9",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av simvastatin via CYP3A4. I tilegg kan opptak i levercellene eventuelt reduseres via en hemming av transportproteinet OATP1B1."
+ },
+ {
+  "key": "c8576b0864e28b7d",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "65b00cf3830e44b7",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av solifenacin via CYP3A4"
+ },
+ {
+  "key": "76f80b3aa9eef02a",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av tadalafil via CYP3A4"
+ },
+ {
+  "key": "c7ceab22a67dd858",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av tikagrelor via CYP3A4."
+ },
+ {
+  "key": "bee8904b948d3418",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av tolterodin via CYP3A4. For hemmeren ketokonazol blir denne effekten er tydelig (i størrelsesorden en fordobling av tolterodinkonsentrasjonen) hos pasienter som mangler den alternative metaboliseringsveien CYP2D6."
+ },
+ {
+  "key": "899b48c4981f3662",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av tolvaptan via CYP3A4."
+ },
+ {
+  "key": "f4bd2abeb7319883",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av vardenafil via CYP3A4"
+ },
+ {
+  "key": "2d46b8270de3c49c",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av venetoklaks via CYP3A4."
+ },
+ {
+  "key": "ef2bacbf4ff02d91",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av verapamil via CYP3A4."
+ },
+ {
+  "key": "24cd52175a8c1c17",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av vinkristin via CYP3A4"
+ },
+ {
+  "key": "c6f07434e09d836a",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av voklosporin via CYP3A4."
+ },
+ {
+  "key": "ed204c821384bfd7",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av vorikonazol via CYP3A4. Ved kronisk behandling vil metabolismen av vorikonazol induseres via andre CYP-enzymer, i hovedsak CYP2C19. Hos langsomme metabolisører via CYP2C19 vil det ikke oppstå noen enzyminduksjon, og hemmingen via CYP3A4 vil være den eneste interaksjonsmekanismen. Induksjonseffekten er i tillegg avhengig av ritonavirdosen. Vorikonazol kan føre til nedsatt metabolisme av anti-HIV-midlene."
+ },
+ {
+  "key": "7ca6d635bbfaf0cc",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer metabolismen av zolpidem via CYP3A4."
+ },
+ {
+  "key": "ae0b4f5052b3887c",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer utpumping av afatinib i tarmen via p-glykoprotein."
+ },
+ {
+  "key": "c3b3340748393caa",
+  "kind": "mechanism",
+  "nb": "Ritonavir hemmer utpumpingen av digoksin via p-glykoprotein i tarmvegg, galleveier og nyrer."
+ },
+ {
+  "key": "b10845ea81b94804",
+  "kind": "mechanism",
+  "nb": "Ritonavir induserer metabolismen av bupropion via CYP2B6."
+ },
+ {
+  "key": "dd06f5cfe79a6590",
+  "kind": "mechanism",
+  "nb": "Ritonavir induserer metabolismen av olanzapin via CYP1A2."
+ },
+ {
+  "key": "55f7c9ad0e1c87aa",
+  "kind": "mechanism",
+  "nb": "Ritonavir induserer metabolismen av teofyllin via CYP1A2."
+ },
+ {
+  "key": "00a4cc2f0edaeaf2",
+  "kind": "mechanism",
+  "nb": "Ritonavir kan øke metabolismen av tyroksin via glukuroniderende enzymer."
+ },
+ {
+  "key": "50285e149aaf7a4b",
+  "kind": "mechanism",
+  "nb": "Ritonavir øker metabolismen av albenazol."
+ },
+ {
+  "key": "34e91680d8190648",
+  "kind": "mechanism",
+  "nb": "Ritonavir øker metabolismen av esomprazol via CYP2C19."
+ },
+ {
+  "key": "a9284a8520f9622c",
+  "kind": "mechanism",
+  "nb": "Ritonavir øker metabolismen av mebendazol."
+ },
+ {
+  "key": "68bdb3732feda3e4",
+  "kind": "mechanism",
+  "nb": "Ritonavir øker metabolismen av omprazol via CYP2C19."
+ },
+ {
+  "key": "acf80287eac54d8c",
+  "kind": "mechanism",
+  "nb": "Rizatriptan og sumatriptan (og til en viss grad almotriptan og zolmitriptan), metaboliseres av enzymet MAO-A, som hemmes av moklobemid. I tillegg mulige additive farmakodynamiske effekter mellom alle triptaner og moklobemid."
+ },
+ {
+  "key": "49ed7b7bd0b41ea2",
+  "kind": "mechanism",
+  "nb": "Rukaparib hemmer metabolismen av warfarin via CYP2C9."
+ },
+ {
+  "key": "1709e0808c6b42d2",
+  "kind": "mechanism",
+  "nb": "Rukaparib kan hemme metabolismen av fenytoin via CYP2C9."
+ },
+ {
+  "key": "50bfc7b0f6232a9b",
+  "kind": "mechanism",
+  "nb": "Rundt 10 % i befolkningen har en tarmbakterieflora som metaboliserer digitalisglykosider. Hos disse vil makrolider føre til en kraftig økning i digitalisnivåene på grunn av inaktivering av bakteriene. I tillegg kan makrolider, som en mer generell effekt, hemme utpumping av digoksin via p-glykoprotein i tarmvegg, galleganger og nyrer (gjelder fremfor alt erytromycin og klaritromycin)."
+ },
+ {
+  "key": "4063ad79df3aaee9",
+  "kind": "mechanism",
+  "nb": "Røykeabstinens kan øke opioidbehovet, trolig pga. økt smertepersepsjon."
+ },
+ {
+  "key": "b9b8b27e03e68ae8",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av agomelatin via CYP1A2."
+ },
+ {
+  "key": "310acd8c557e5022",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av cinacalcet via CYP1A2."
+ },
+ {
+  "key": "a9ecdb91e3450981",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av den minst aktive warfarinenantiomeren R-warfarin via CYP1A2."
+ },
+ {
+  "key": "b12ca7f012303b40",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av duloksetin via CYP1A2."
+ },
+ {
+  "key": "3b362833e1cf7393",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av erlotinib via CYP1A2."
+ },
+ {
+  "key": "48de0fac6cd643c7",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av fluvoksamin via CYP1A2."
+ },
+ {
+  "key": "76c41223604a738a",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av klozapin via CYP1A2."
+ },
+ {
+  "key": "72fc49b9ad1209e6",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av koffein via CYP1A2."
+ },
+ {
+  "key": "18637530ad9fc603",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av oksazepam via CYP1A2."
+ },
+ {
+  "key": "7a8da1a0299986ef",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av olanzapin via CYP1A2."
+ },
+ {
+  "key": "a3617b2befac7f91",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av pirfenidon via CYP1A2."
+ },
+ {
+  "key": "ad092747f82b3823",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av rasagilin via CYP1A2."
+ },
+ {
+  "key": "c0060250cd9f688b",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av ropinirol via CYP1A2."
+ },
+ {
+  "key": "e612ac0b1de41bd4",
+  "kind": "mechanism",
+  "nb": "Røyking induserer metabolismen av teofyllin via CYP1A2."
+ },
+ {
+  "key": "f4b0be76528fa485",
+  "kind": "mechanism",
+  "nb": "Røyking induserer trolig metabolismen av propranolol. Nikotin har farmakodynamiske effekter i form av økt hjerterytme og blodtrykk."
+ },
+ {
+  "key": "7e0c6b7633a735de",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av antacida som inneholder aluminium-, kalsium- og magnesiumforbindelser hemmer absorpsjonen av rosuvastatin"
+ },
+ {
+  "key": "478203d155d097a6",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av ciprofloksacin hemmer absorpsjonen av tyroksin"
+ },
+ {
+  "key": "32c4e145a4c211c1",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av kolesevelam hemmer absorpsjonen av sulfonylureamidler."
+ },
+ {
+  "key": "cc24fcac32e07ad7",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av kolesevelam hemmer absorpsjonen av thyreoideapreparater"
+ },
+ {
+  "key": "e915f05d7149f246",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av kolestyramin (og trolig også andre resiner) hemmer absorpsjonen av paracetamol."
+ },
+ {
+  "key": "e452323661718690",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av tyroksin og legemidler som foreligger som salter, i all hovedsak karbonatsalter som kalsiumkarbonat og magnesiumkarbonat, hemmer absorpsjonen av tyroksin ved lav pH. Det er usikkert om det er kationene (kalium, magnesium etc.) eller anionet (karbonatet) som er den direkte årsaken til dette. Det er rimelig å anta at det samme kan skje for liotyronin, selv om dette ikke er dokumentert og omfanget er usikkert."
+ },
+ {
+  "key": "6185d3ecf57cd835",
+  "kind": "mechanism",
+  "nb": "Samtidig inntak av tyroksin og legemidler som foreligger som salter, i all hovedsak karbonatsalter som magnesiumkarbonat, hemmer absorpsjonen av tyroksin ved lav pH. Det er usikkert om det er kationene (kalium, magnesium etc.) eller anionet (karbonatet) som er den direkte årsaken til dette. Det er rimelig å anta at det samme kan skje for liotyronin, selv om dette ikke er dokumentert og omfanget er usikkert."
+ },
+ {
+  "key": "14f4cc7d0f6fde4e",
+  "kind": "mechanism",
+  "nb": "Se preparatomtale for Zynteglo og spesiallitteratur."
+ },
+ {
+  "key": "197621c2a112ee8c",
+  "kind": "mechanism",
+  "nb": "Sederende antihistaminer, inkludert hydroksyzin, har antikolinerge egenskaper og kan derved motvirke effekten av det økte acetylkolinnivået i hjernen som kolinesterasehemmere gir."
+ },
+ {
+  "key": "c1666f3a11d505d4",
+  "kind": "mechanism",
+  "nb": "Sevelamer binder kinoloner i tarmen."
+ },
+ {
+  "key": "3fa50e9140e9a3da",
+  "kind": "mechanism",
+  "nb": "Sevelamer kan binde furosemid i tarmen slik at absorpsjonen reduseres."
+ },
+ {
+  "key": "4bd374c768f077c2",
+  "kind": "mechanism",
+  "nb": "Sevelamer kan binde levotyroksin i tarmen slik at absorpsjonen reduseres."
+ },
+ {
+  "key": "02873a5198e610db",
+  "kind": "mechanism",
+  "nb": "Sevelamer kan binde takrolimus i tarmen slik at absorpsjonen reduseres."
+ },
+ {
+  "key": "75844ad16a41671b",
+  "kind": "mechanism",
+  "nb": "Siden bupropion hemmer reopptak av dopamin og noradrenlin fra synapser i CNS, mens MAO-hemmere hemmer enzymatisk nedbrytning av de samme stoffene, kan det være en risiko for ekstra høye nivåer av dopamin og noradrenlin."
+ },
+ {
+  "key": "84ebdd35c518c8cf",
+  "kind": "mechanism",
+  "nb": "Simvastatin kan hemme metabolismen av warfarin, trolig via hemming av andre CYP-enzymer enn CYP2C9. Personer som har genetisk bestemt nedsatt warfarinmetabolisme via CYP2C9 (noen prosent i befolkningen, vist for bærere av varianten CYP2C9*3) vil kunne få en sterkere interaksjon med warfarin med klart økte INR-verdier."
+ },
+ {
+  "key": "71605d133fbdd306",
+  "kind": "mechanism",
+  "nb": "Skyldes mest trolig at paracetamol reduserer konsentrasjonen av visse koagulasjonsfaktorer."
+ },
+ {
+  "key": "8d4336939b801f25",
+  "kind": "mechanism",
+  "nb": "Solriamfetol virker trolig bl.a. ved å hemme reopptak av noradrenalin og dopamin fra synsapsene. Inaktiveringen av den delen av dette noradrenalinet (og dopaminet) som ville ha blitt inaktivert ved metabolisme katalysert av enzymet monoamin oksidase (MAO), kan teoretisk sett blokkeres av MAO-hemmeren. Effekten forventes å være liten for moklobemid, men produsenten av solriamfetol kontraindiserer samtidig bruk med alle MAO-hemmere under pågående behandling og i 14 dager etter avsluttet behandling med MAO-hemmeren."
+ },
+ {
+  "key": "bbfd666cecc5df90",
+  "kind": "mechanism",
+  "nb": "Solriamfetol virker trolig bl.a. ved å hemme reopptak av noradrenalin og dopamin fra synsapsene. Inaktiveringen av den delen av dette noradrenalinet (og dopaminet) som ville ha blitt inaktivert ved metabolisme katalysert av enzymet monoamin oksidase (MAO), kan teoretisk sett blokkeres av MAO-hemmeren. Produsenten av solriamfetol kontraindiserer samtidig bruk med alle MAO-hemmere under pågående behandling og i 14 dager etter avsluttet behandling med MAO-hemmeren."
+ },
+ {
+  "key": "e7e70151ccea2392",
+  "kind": "mechanism",
+  "nb": "Somatistatinreseptoragonister kan påvirke sekresjon av insulin og glukosehomeostasen."
+ },
+ {
+  "key": "a29d8cac53b77c08",
+  "kind": "mechanism",
+  "nb": "Somatropin kan redusere insulinfølsomheten."
+ },
+ {
+  "key": "7e3444f903db2667",
+  "kind": "mechanism",
+  "nb": "Sonidegib kan hemme metabolismen av warfarin via CYP2C9."
+ },
+ {
+  "key": "5d739926c730b423",
+  "kind": "mechanism",
+  "nb": "Sotalol er en ikke-selektiv betareseptorantagonist og kan blokkere for beta-2-agonister i bronkiene"
+ },
+ {
+  "key": "8f61b973741f2f5f",
+  "kind": "mechanism",
+  "nb": "Sotorasib hemmer utpumping av digoksin i tarmvegg og nyretubuli via p-glykoprotein"
+ },
+ {
+  "key": "dcef08f161942072",
+  "kind": "mechanism",
+  "nb": "Sotorasib øker metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "772ec7b123adcd89",
+  "kind": "mechanism",
+  "nb": "Sotorasib øker metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "c61f0d9def16395d",
+  "kind": "mechanism",
+  "nb": "Sotorasib øker metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "d4fdb30845efff0f",
+  "kind": "mechanism",
+  "nb": "SSRI kan hemme trombocyttfunksjonen via serotonerge mekanismer."
+ },
+ {
+  "key": "7960f3290a740850",
+  "kind": "mechanism",
+  "nb": "SSRI kan øke ADH-nivåene, tiazider øker den renale utskillelsen av natrium."
+ },
+ {
+  "key": "c3ddf37743390aad",
+  "kind": "mechanism",
+  "nb": "SSRIer hemmer blodplateaggregering og kan derved forsterke effekten av warfarin på koagulasjonskaskaden (NB! Interaksjonen vil normalt sett ikke fanges opp ved INR-måling)"
+ },
+ {
+  "key": "100d9dedf94d824c",
+  "kind": "mechanism",
+  "nb": "Stiripentol hemmer metabolismen av fenobarbital, fenobarbital induserer metabolismen av stiripentol via bl.a. CYP3A4."
+ },
+ {
+  "key": "ba2be586bfea922d",
+  "kind": "mechanism",
+  "nb": "Stiripentol hemmer metabolismen av fenytoin via CYP2C9, fenytoin induserer metabolismen av stiripentol via bl.a. CYP3A4."
+ },
+ {
+  "key": "135cd5eda9f58d9f",
+  "kind": "mechanism",
+  "nb": "Stiripentol hemmer metabolismen av karbamazepin via CYP3A4, karbamazepin induserer metabolismen av stiripentol via bl.a. CYP3A4."
+ },
+ {
+  "key": "5b0ff50417298e12",
+  "kind": "mechanism",
+  "nb": "Stiripentol hemmer metabolismen av klobazam og aktiv metabolitt. Usikkert hvorfor konsentrasjonen av stiripentol øker."
+ },
+ {
+  "key": "1b6bb047f81a0787",
+  "kind": "mechanism",
+  "nb": "Studie har vist at protonpumpehemmere reduserer absorpsjonshastigheten av ulipristal, men absorpsjonsgraden er tilnærmet uforandret"
+ },
+ {
+  "key": "99ddd42fe7dbf813",
+  "kind": "mechanism",
+  "nb": "Sugammadeks binder gestagener i plasma og reduserer dermed konsentrasjonen av fritt (virksomt) gestagen."
+ },
+ {
+  "key": "f29f8777932e6889",
+  "kind": "mechanism",
+  "nb": "Sulfasalazin hemmer metabolisme av azatioprins aktive metabolitt (merkaptopurin)"
+ },
+ {
+  "key": "106b4de1c6f6af51",
+  "kind": "mechanism",
+  "nb": "Sulfasalazin hemmer metabolisme av merkaptopurin"
+ },
+ {
+  "key": "d1882251808873cf",
+  "kind": "mechanism",
+  "nb": "Sulfasalazin reduserer oral biotilgjengelighet av digoksin (molekylær mekansime uklar)."
+ },
+ {
+  "key": "7fb446ca739e3316",
+  "kind": "mechanism",
+  "nb": "Tekovirimat antas å øke metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "106fa4a3bd699bda",
+  "kind": "mechanism",
+  "nb": "Tekovirimat antas å øke metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "31ce322a8de15f41",
+  "kind": "mechanism",
+  "nb": "Tekovirimat antas å øke metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "e2663cca1758ccfd",
+  "kind": "mechanism",
+  "nb": "Tekvirimat hemmer metabolismen av esomeprazol via CYP2C19."
+ },
+ {
+  "key": "71db9abef4be474d",
+  "kind": "mechanism",
+  "nb": "Tekvirimat hemmer metabolismen av omeprazol via CYP2C19."
+ },
+ {
+  "key": "48a6820dc88d73e0",
+  "kind": "mechanism",
+  "nb": "Tekvirimat hemmer metabolismen av repaglinid via CYP2C8."
+ },
+ {
+  "key": "61bdfaf341665569",
+  "kind": "mechanism",
+  "nb": "Tendensen til økt metablisme av klobazam skyldes mest trolig induksjon av CYP3A4. Det økte konsentrajonen av N-desmetylklobazam skyldes mest trolig en kombinasjonen av økt produksjon fra klobazam og i tillegg (og viktigst) hemmet metabolisme av N-desmetylklobazam via CYP2C19 ."
+ },
+ {
+  "key": "3be108af6fc97ffb",
+  "kind": "mechanism",
+  "nb": "Terbinafin  hemmer metabolismen av tramadol til aktiv metabolitt (O-desmetyltramadol) via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin."
+ },
+ {
+  "key": "f6a51383deb067a8",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av amitriptylin og den aktive metabolitten nortriptylin via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin."
+ },
+ {
+  "key": "30ad0594a91f627b",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av aripiprazol via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "eb579f9235b17e1e",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av atomoksetin via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "71e300d649dd7fef",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av den aktive metabolitten av fesoterodin via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "010e8c64918cfc3e",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av doksepin via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "b2dbea326242d271",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av metoprolol via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "36a4d70a5fe6fb26",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av paroksetin via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "09ff4ee46cd1844c",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av risperidon via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "436d8e38d7c791fa",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av sertindol via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "327cb4ebdc267f15",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av venlafaksin via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin."
+ },
+ {
+  "key": "4f83a2b91a2e8466",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolisme av zuklopentiksol via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin"
+ },
+ {
+  "key": "24759914a8807942",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolismen av flekainid via CYP2D6."
+ },
+ {
+  "key": "0c5248dd8151680a",
+  "kind": "mechanism",
+  "nb": "Terbinafin hemmer metabolismen av kodein til aktiv metabolitt (morfin) via CYP2D6. Hemmingen vil vedvare uker/måneder etter seponering av terbinafin."
+ },
+ {
+  "key": "e5bdbd3200550dff",
+  "kind": "mechanism",
+  "nb": "Teriflunomid hemmer transportpumpen OATP1B1, som pupmer statiner inn i leverecellene. Dermed vil nivåene av statiner bli høyere i plasma, men lavere på virkstedet i leveren. Dette kan føre til en økt risiko for bivirkninger samtidig som effekten på kolesterolsenkningen kan bli mindre. Effekten vil trolig være størst for pravastatin, simvastatin, lovastatin og rosuvastatin, og mindre for atorvastatin og fluvastatin."
+ },
+ {
+  "key": "30a7e88827a75cac",
+  "kind": "mechanism",
+  "nb": "Teriflunomid kan hemme metabolismen av warfarin via CYP2C9. Usikkert hvorfor redusert INR er beskrevet; en farmakodynamisk interaksjon kan mistenkes."
+ },
+ {
+  "key": "ef0c67998cb87f7b",
+  "kind": "mechanism",
+  "nb": "Teriflunomid øker metabolismen av koffein via CYP1A2."
+ },
+ {
+  "key": "2d5b0dbba84d553c",
+  "kind": "mechanism",
+  "nb": "Tiazider hemmer utskillelsen av kalsium via nyrene, vitamin D øker opptaket av kalsium fra tarmen."
+ },
+ {
+  "key": "7026359ad3dcd1a3",
+  "kind": "mechanism",
+  "nb": "Tiazider kan øke blodsukkeret, trolig ved å hemme insulinfrisettingen fra pancreas, slik at behovet for antidiabetika blir større."
+ },
+ {
+  "key": "5b09654f5350f8d9",
+  "kind": "mechanism",
+  "nb": "Tibolon stimulerer til vekst av tumorceller ved brystkreft. Tibolon er kontraindisert til alle pasienter som har gjennomgått brystkreft, uansett om de behandles med antiøstrogener eller ikke."
+ },
+ {
+  "key": "84fbb6f9a6a822ee",
+  "kind": "mechanism",
+  "nb": "Tibolon stimulerer til vekst av tumorceller ved brystkreft. Tibolon er kontraindisert til alle pasienter som har gjennomgått brystkreft, uansett om de behandles med aromatasehemmere eller ikke."
+ },
+ {
+  "key": "4f7a29e6463729c0",
+  "kind": "mechanism",
+  "nb": "Tikagrelor hemmer metabolismen av simvastatin via CYP3A4."
+ },
+ {
+  "key": "8a4bbf1304c004bf",
+  "kind": "mechanism",
+  "nb": "Tikagrelor hemmer trolig utpupming av digoksin via p-glykoprotein i tarm og nyrer."
+ },
+ {
+  "key": "5ae4a0414af7f593",
+  "kind": "mechanism",
+  "nb": "Tiklopidin hemmer metabolismen av fenytoin via CYP2C9 og CYP2C19."
+ },
+ {
+  "key": "901a1b25ab319976",
+  "kind": "mechanism",
+  "nb": "Tiklopidin hemmer metabolismen av ketamin via CYP2B6."
+ },
+ {
+  "key": "b60d567b4c508271",
+  "kind": "mechanism",
+  "nb": "Tiklopidin hemmer metabolismen av metadon via CYP2B6."
+ },
+ {
+  "key": "eee0f1e482001af4",
+  "kind": "mechanism",
+  "nb": "Tiklopidin hemmer metabolismen av tramadol via CYP2B6."
+ },
+ {
+  "key": "7f9373dfbac94bbd",
+  "kind": "mechanism",
+  "nb": "Tiklopidin hemmer metabolismen fra bupropion til hydroksybupropion via CYP2B6."
+ },
+ {
+  "key": "ce9b495f7429cc25",
+  "kind": "mechanism",
+  "nb": "Tipranavir hemmer metabolisme av lovastatin via CYP3A4."
+ },
+ {
+  "key": "cddbb167839bb99c",
+  "kind": "mechanism",
+  "nb": "To mulige mekanismer er foreslått: 1. Protonpumpehemmere kan øke absorpsjonen av digoksin på grunn av økt pH i ventrikkelen. 2. Protonpumpehemmere kan hemme utpumpingen av digoksin i tarm og nyretubuli via p-glykoprotein."
+ },
+ {
+  "key": "3bac816513a34801",
+  "kind": "mechanism",
+  "nb": "Tovorafenib øker metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "1a36a9451a512fec",
+  "kind": "mechanism",
+  "nb": "Tovorafenib øker metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "af3765a47441459c",
+  "kind": "mechanism",
+  "nb": "Tovorafenib øker metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "b4e5712849988c4b",
+  "kind": "mechanism",
+  "nb": "Trimetoprim er en folatantagonist og kan forsterke effekten av metotreksat"
+ },
+ {
+  "key": "56191661361d9632",
+  "kind": "mechanism",
+  "nb": "Trimetoprim hemmer metabolismen av dapson, trolig via CYP2C8."
+ },
+ {
+  "key": "87a151530b4d90ec",
+  "kind": "mechanism",
+  "nb": "Trimetoprim hemmer metabolismen av repaglinid via CYP2C8."
+ },
+ {
+  "key": "77e08dafcf2e1338",
+  "kind": "mechanism",
+  "nb": "Trimetoprim hemmer utpumpingen av metformin i nyretubuli."
+ },
+ {
+  "key": "c076c54af91510e6",
+  "kind": "mechanism",
+  "nb": "Trimetoprim hemmer utskillelse av lamivudin via transportpumper som organiske kationtransportører i nyrene. Sulfakomponenten i trimetoprim/sulfametoksazol er ikke involvert i interaksjonen."
+ },
+ {
+  "key": "372c7d52999d3752",
+  "kind": "mechanism",
+  "nb": "Trimetoprim reduserer renal ekskresjon av digoksin, muligens via hemming av organsiske kationtransportører (OCT) i nyretubuli."
+ },
+ {
+  "key": "d1902a19af22f159",
+  "kind": "mechanism",
+  "nb": "Trimetoprim-sulfa hemmer metabolisme av fenytoin, primært via CYP2C9"
+ },
+ {
+  "key": "67efe5ce6cf60a80",
+  "kind": "mechanism",
+  "nb": "Trisykliske antidepressiva blokkerer en viktig inaktiveringsvei for adrenalin; opptak i nerveterminaler."
+ },
+ {
+  "key": "26e0180510b17f7c",
+  "kind": "mechanism",
+  "nb": "Trisykliske antidepressiva har antikolinerge egenskaper og kan derved motvirke effekten av det økte acetylkolinnivået i hjernen som kolinesterasehemmere gir"
+ },
+ {
+  "key": "ad6668b10e4789b7",
+  "kind": "mechanism",
+  "nb": "Trisykliske antidepressiva kan ha effekt på metabolismen og opptaket av sirkulerende aminer. Det er likevel vanskelig å se at denne effekten vil være så kraftig  at signifikant blodtrykksstigning kan oppstå."
+ },
+ {
+  "key": "0c33afddfe87fd11",
+  "kind": "mechanism",
+  "nb": "Trolig en kombinasjon av gjensidig hemmet metabolisme via CYP3A4 og hemming av p-glykoprotein."
+ },
+ {
+  "key": "04848f49da33e4bd",
+  "kind": "mechanism",
+  "nb": "Trolig en kombinasjon av hemmet metabolisme via CYP3A4 og hemming av p-glykoprotein."
+ },
+ {
+  "key": "db5cbb9bd1e6c6c6",
+  "kind": "mechanism",
+  "nb": "Trolig er flere mekasnimer involvert. En sentral mekanisme er at amiodaron hemmer metabolismen av flekainid. I tillegg mulige additive farmakodynamiske effekter."
+ },
+ {
+  "key": "9aabff1fee45e5cd",
+  "kind": "mechanism",
+  "nb": "Trolig hemming av metabolismen av metadon, usikkert hvilket enzym(-er) som er involvert."
+ },
+ {
+  "key": "8a033716f39ed2d5",
+  "kind": "mechanism",
+  "nb": "Trolig hemming av metabolismen av stiripentol."
+ },
+ {
+  "key": "7e926a7746541515",
+  "kind": "mechanism",
+  "nb": "Tukatinib hemmer metabolismen av loperamid via CYP3A4 og til muligens også utpumping av loperamid (bl.a. i tarm) via p-glykoprotein."
+ },
+ {
+  "key": "a0b8e5b376c325d2",
+  "kind": "mechanism",
+  "nb": "Tukatinib hemmer transportpumpen p-glykoprotein og enzymet CYP3A4."
+ },
+ {
+  "key": "433e573bbce6132a",
+  "kind": "mechanism",
+  "nb": "Tukatinib hemmer transportpumpen p-glykoprotein."
+ },
+ {
+  "key": "147fa00223140552",
+  "kind": "mechanism",
+  "nb": "Ukjent"
+ },
+ {
+  "key": "7b6bcf3231667a34",
+  "kind": "mechanism",
+  "nb": "Ukjent farmakokinetisk mekanisme. I tillegg kan det forekomme additive farmakodynamiske effekter, siden også tigesyklin alene kan øke INR (rapportert hos 1/100 - 1/1000 hos alle som behandles)."
+ },
+ {
+  "key": "f2d30f349c7c173d",
+  "kind": "mechanism",
+  "nb": "Ukjent mekanisme"
+ },
+ {
+  "key": "31feabdb847474d8",
+  "kind": "mechanism",
+  "nb": "Ukjent mekanisme."
+ },
+ {
+  "key": "272a2d1cbe29f159",
+  "kind": "mechanism",
+  "nb": "Ukjent mekanisme. Hemming av metabolismen av fenytoin er foreslått."
+ },
+ {
+  "key": "a2c8946fe7574265",
+  "kind": "mechanism",
+  "nb": "Ukjent mekanisme. Hemming av metabolismen til warfarin er foreslått, men dette er høyst usikkert."
+ },
+ {
+  "key": "c02abafe8bcbe720",
+  "kind": "mechanism",
+  "nb": "Ukjent mekanisme. Muligens hemming av metabolismen av kvetiapin."
+ },
+ {
+  "key": "e838681369a6ceda",
+  "kind": "mechanism",
+  "nb": "Ukjent mekanisme. Trolig ikke via en økning av konsentrasjonen av warfarin."
+ },
+ {
+  "key": "e95594f103bb1db4",
+  "kind": "mechanism",
+  "nb": "Ukjent."
+ },
+ {
+  "key": "ac959df42986d598",
+  "kind": "mechanism",
+  "nb": "Ukjent. Det kan være flere mekanismer, både farmakokinetiske og farmakodynamiske, involvert."
+ },
+ {
+  "key": "a4fefc3e7850cd27",
+  "kind": "mechanism",
+  "nb": "Ukjent. Mest trolig additive farmakodynamiske effekter."
+ },
+ {
+  "key": "9d6cc21707c0e29e",
+  "kind": "mechanism",
+  "nb": "Ukjent. Redusert absorpsjon av takrolimus har vært foreslått."
+ },
+ {
+  "key": "4129abcf5dc44b33",
+  "kind": "mechanism",
+  "nb": "Uklar mekanisme. Det er mulig at testosteron øker insulinsensitivitetn, selv om androgener ofte blir ansett å kunne redusere glukosetoleransen."
+ },
+ {
+  "key": "78c095ef14305ead",
+  "kind": "mechanism",
+  "nb": "Uklar mekanisme. Flere teorier er fremsatt, blant annet at ACE-hemmere bedrer insulinfølsomheten og/eller øker glukosemetabolismen."
+ },
+ {
+  "key": "df094634057f345e",
+  "kind": "mechanism",
+  "nb": "Urinveisspasmolytika er muskarinantagonister og kan motvirke effekten av det økte acetylkolinnivået i hjernen som kolinesterasehemmere gir."
+ },
+ {
+  "key": "55adb7aa84ee715f",
+  "kind": "mechanism",
+  "nb": "Uselektive betablokkere motvirker de adrenerge mekanismene som fører til økt blodsukker via glukosefrigjøring fra leveren ved hypoglykemi. Betablokkere hemmer de adrenerge symptomene som oppstår via stimulering av betareseptorer ved hypoglykemi. Uselektive betablokkere vil via blokade av beta-2-reseptorer kunne gi hypertensjon ved hypoglykemi fordi den vasokonstriksjonen som adrenalin gir via stimulering av alfareseptorer ikke lenger balanseres av den vasodilatasjonen som stimulering av beta-2-reseptorer ellers ville ha gitt. Uselektive betablokkere kan også hemme den frigjøringen av insulin som sulfonylureapreparatene gir i pankreas."
+ },
+ {
+  "key": "1317777127624791",
+  "kind": "mechanism",
+  "nb": "Usikker farmakokinetisk mekanisme. Teofyllin og -derivater kan motvirke terapeutiske effektene av alprazolam via farmakodynamiske mekanismer."
+ },
+ {
+  "key": "ea7643764c2e013a",
+  "kind": "mechanism",
+  "nb": "Usikker mekaminsme."
+ },
+ {
+  "key": "7fdd434946a91828",
+  "kind": "mechanism",
+  "nb": "Usikker mekamisme."
+ },
+ {
+  "key": "02ec031a088f7d01",
+  "kind": "mechanism",
+  "nb": "Usikker mekamisme. Det er mulig at disulfiram hemmer metabolismen av warfarin, selv om man ikke fant en slik effekt i en studie. En annen forelått mekanisme er at disulfram hemmer omdannelsen fra protrombin til trombin ved å binde metallioner som er nødvendig for å katalysere denne prosessen."
+ },
+ {
+  "key": "bc17cf1e00354b1c",
+  "kind": "mechanism",
+  "nb": "Usikker mekamisme. Kan være både farmakodynamisk (påvirkning på koagulasjonsfaktorer) og farmakokinetisk (påvirkning på nivåene av warfarin)."
+ },
+ {
+  "key": "6982df147faca089",
+  "kind": "mechanism",
+  "nb": "Usikker mekamisme. Mest trolig kan celekoksib hemme metabolismen av warfarin via CYP2C9. Famakodyamisk mulighet for magesår av COX-2-hemmere, noe som øker blødningsrisikoen fra ventrikkelen ved samtidig bruk av warfarin."
+ },
+ {
+  "key": "47af6669365f93b1",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme - kan være både farmkokinetisk og farmakodynamisk."
+ },
+ {
+  "key": "3310315bbd63d245",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme."
+ },
+ {
+  "key": "1be91159937fbcc3",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Både GABA-antagonisme og induksjon av metabolismen av antispileptika er foreslått."
+ },
+ {
+  "key": "15daef3703e38cc3",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Det er imidlertid kjent at alkohol hemmer glukoneogenesen, slik at kroppens evne til å motregulere hypoglykemianfall (for eksempel forårsaket av insulin og sulfonylureapreparater) vil være nedsatt under alkoholpåvirkning."
+ },
+ {
+  "key": "15d17f38a5e1392d",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Det er også usikkert om de toksiske effektene skyldes økte nivåer av acetazolamid, salisylat, eller begge. Flere mekanismer er foreslått, inklusive økte nivåer av fritt acetazolamid pga. fortrenging fra plasmaproteiner, og økte nivåer av salisylat i hjernen på grunn av mer uionisert salisylsyre i plasma når pH affiseres av acetazolamid."
+ },
+ {
+  "key": "a0206dba10878350",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Det var vært foreslått at protonpumpehemmere hemmer CYP3A5 (og eventuelt også p-glykoprotein). Effekten av protonpumpehemmere blir kraftigere hvis pasienten har nedsatt eller manglende enzymaktivitet via CYP2C19, siden takrolimus da blir mer avhengig av CYP3A5 for å bli brutt ned."
+ },
+ {
+  "key": "9738a7da321bb5bd",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Effekten går i motsatt retning av det man skulle forvente."
+ },
+ {
+  "key": "6819c47e0840013c",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. En foreslått forklaring er at tibolon reduserer nivåene av vitamin K-avhengige koagulasjonsfaktorer."
+ },
+ {
+  "key": "a39c373df5b87d84",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. En teori er hemming av en hydrogenion-avhengig transportmekanisme for metotreksat og aktiv metabolitt i nyretubuli. En annen teori er konkurranse om binding til et protein (BCRP) som påvirker utskillelsen av metotreksat og metabolitt i nyrene"
+ },
+ {
+  "key": "b214ee1e1ca8efa7",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. For tacrolimus er økte nivåer av acetaldehyd og økt frigjøring av vasoaktive peptider lokalt i huden er foreslått."
+ },
+ {
+  "key": "2666dea318149ca3",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Foreslåtte mekanismer er hemmet metabolisme eller renal ekskresjon av cyklofosfamids aktive metabolitter."
+ },
+ {
+  "key": "1682bc38509eed34",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Hydroksyklorokin kan muligens både øke utskillsen av insulin fra pankreas og hemme nedbrytningen av insulin."
+ },
+ {
+  "key": "0c41a1beed3331f1",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Hydroksyklorokin kan muligens hemme utpumpingen av digoksin via p-glykoprotein i tarmvegg, galleveier og nyrer, men fortrening fra vevsbindingen til digoksin i perifere vev er også en mulighet."
+ },
+ {
+  "key": "825bc01b488714f9",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Kan for eksempel skyldes gjensidig nedsatt levermetabolisme på grunn av redusert leverblodflow."
+ },
+ {
+  "key": "65ec5d55c5f8a572",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest sannsynlig enzyminduksjon og/eller ev. økt utpumping av paroksetin via p-glykoprotein."
+ },
+ {
+  "key": "055220678dcc26de",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest sannsynlig kan amloipin hemme metabolismen av takrolimus via CYP3A5."
+ },
+ {
+  "key": "20c46d42e69e5a00",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig en farmakodynamisk effekt."
+ },
+ {
+  "key": "cf6096087933d291",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig en hemming av metabolismen av takrolimus."
+ },
+ {
+  "key": "1bd0136159d26093",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig hemmer diltiazem utpumpingen av digoksin via p-glykoprotein i tarmvegg, galleveier og nyrer, selv om dette ikke er entydig dokumentert."
+ },
+ {
+  "key": "4d4a7134648a12b4",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig hemmer fluorouracil metabolismen av warfarin via CYP2C9."
+ },
+ {
+  "key": "95c5c3f08aee258c",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig hemmer tamoksifen metabolismen av warfarin via CYP2C9."
+ },
+ {
+  "key": "aed39b0b6dcfd33c",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig induserer røyking metabolismen av flekainid."
+ },
+ {
+  "key": "849a0128def4dd19",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mest trolig kan sulfonylureapreparatene, i alle fall glibenklamid, hemme CYP2C9 hos visse, følsomme individer."
+ },
+ {
+  "key": "1099e557e25295dd",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Mulig hemmet metabolisme av warfarin hos noen individer."
+ },
+ {
+  "key": "95bac09fd0013be9",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens hemmer akarbose absorpsjonen av digoksin fra mage/tarm-kanalen."
+ },
+ {
+  "key": "3809930534034f03",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens nedsatt kolinesteraseaktivitet."
+ },
+ {
+  "key": "6d50fb5ee550bae3",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens redusert absorpsjon av metformin i tarmen."
+ },
+ {
+  "key": "e4b57d324ff5f2e8",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens redusert metabolisme av fenytoin via hemming av CYP2C9."
+ },
+ {
+  "key": "51c2c1abdc68d8ef",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens skyldes det at allopurinols blokkerende effekt på xantin oksidase også vil hemme metabolismen  av metylxantiner som teofyllin."
+ },
+ {
+  "key": "c7c096bd359b994f",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens økt metablisme av lamotrigin via induksjon av UGT1A4."
+ },
+ {
+  "key": "82b18abe9bf4ec66",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens økt metabolisme av metylfenidat."
+ },
+ {
+  "key": "f6fced51d59b77aa",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Muligens økt metabolisme av progestogener."
+ },
+ {
+  "key": "c702a51dbf5d54b5",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Nedsatt produksjon av vitamin K fra tarmbakterier pga. antibiotikabruken er det mest trolige. Det er videre mulig at inntak av vitamin K via kosten vil være lavere ved pågående infeksjoner, og at dette også vil spille inn. Til sist kan antibiotika i seg selv øke INR hos enkelte pasienter via en direkte effekt på koagulasjonssystemet, noe som er vist for tetrasykliner."
+ },
+ {
+  "key": "cc8708f3042892ea",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Produsenten har forslått fortrengning av warfarin fra proteinbindingsstedet, men det dreier seg mer trolig om hemming av metabolismen av warfarin."
+ },
+ {
+  "key": "aeaac0610c918e3c",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Økt absorpsjon av warfarin, nedsatt metabolisme av warfarin og nedsatt inntak av vitamin K-holdig føde pga. bivikninger av ifosfamid (kvalme, nedsatt appetitt) har alle vært foreslått."
+ },
+ {
+  "key": "121c314b41647b5d",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Økt metabolisme av warfarin er foreslått."
+ },
+ {
+  "key": "360c81a8e53debcc",
+  "kind": "mechanism",
+  "nb": "Usikker mekanisme. Økte nivåer av acetaldehyd og økt frigjøring av vasoaktive peptider lokalt i huden er foreslått."
+ },
+ {
+  "key": "92ca9a44b6ac8a00",
+  "kind": "mechanism",
+  "nb": "Usikker. Mulig at langtidsbruk av fenytoin øker nivåene av acetykolin ved morotisk endeplate, men kan også skyldes økt metabolisme av nevromuskulære blokkere pga. induksjon av CYP-enzymer."
+ },
+ {
+  "key": "4ea6c13436187e8f",
+  "kind": "mechanism",
+  "nb": "Usikker. Mulig at langtidsbruk av karbamazepin øker nivåene av acetykolin ved morotisk endeplate, men kan også skyldes økt metabolisme av nevromuskulære blokkere pga. induksjon av CYP-enzymer."
+ },
+ {
+  "key": "6935bd711368a0be",
+  "kind": "mechanism",
+  "nb": "Usikker. Mulig at naproksen via hemming av glukuroniderende enzymer (UGT) reduserer metabolsmen av febuksostat."
+ },
+ {
+  "key": "93ead22900d6d30f",
+  "kind": "mechanism",
+  "nb": "Usikker. Mulig gjensidig hemming av p-glykoprotein, eventuelt også via additive farmakodynamiske effekter på muskelceller."
+ },
+ {
+  "key": "d402df1d82d898bf",
+  "kind": "mechanism",
+  "nb": "Usikker. Muligens  hemmet metabolisme i lever eller redusert utpumping av takrolimus via p-glykoprotein."
+ },
+ {
+  "key": "e668fc9fa09075d2",
+  "kind": "mechanism",
+  "nb": "Usikkert, trolig redusert absorpsjon av patusotin."
+ },
+ {
+  "key": "a650c3b59dfe4fb2",
+  "kind": "mechanism",
+  "nb": "Usikkert, trolig samvirkende farmakodynamiske effekter."
+ },
+ {
+  "key": "0104dbc50dfb5edd",
+  "kind": "mechanism",
+  "nb": "Usikkert; muligens hemmet metabolisme av SN-38 via UGT1A1."
+ },
+ {
+  "key": "9697b29fc20a887f",
+  "kind": "mechanism",
+  "nb": "Usikkker mekanisme. Teofyllin metaboliseres i hovedsak av CYP1A2, som klartitromycin ikke hemmer. Muligens kan den underliggende infeksjonen ha bidratt til den nedsatte metabolismen av teofyllin i enkelte tilfeller."
+ },
+ {
+  "key": "ff96286a4f2b04d6",
+  "kind": "mechanism",
+  "nb": "Usikre mekanismer. Hemming av metabolismen av det trisykliske midlet er foreslått, men kan ikke forklare alle effektene."
+ },
+ {
+  "key": "dff48c75854abda7",
+  "kind": "mechanism",
+  "nb": "Uvisst hvorfor sertralin hos noen individer kan øke kosentrasjonen av fenytoin. Fenytoin induserer metabolismen av sertralin via CYP2C19 og CYP3A4."
+ },
+ {
+  "key": "9cd389c14c1d1576",
+  "kind": "mechanism",
+  "nb": "Vadadustat hemmer transportpumpen BCRP, som  har betydning for utpumping av rosuvastatin bl.a. i tarmvegg og lever."
+ },
+ {
+  "key": "081865305212ea6f",
+  "kind": "mechanism",
+  "nb": "Vadadustat hemmer transportpumpen BCRP, som  har betydning for utpumping av simvastatin bl.a. i tarmvegg og lever."
+ },
+ {
+  "key": "133c5b931b7834c1",
+  "kind": "mechanism",
+  "nb": "Vadadustat hemmer transportpumpen BCRP, som  har betydning for utpumping av sulfasalazin bl.a. i tarmvegg og lever."
+ },
+ {
+  "key": "c52400ae828f9e53",
+  "kind": "mechanism",
+  "nb": "Vadadustat hemmer transportpumpen BCRP, som  har betydning for utpumping av topotekan bl.a. i tarmvegg og lever."
+ },
+ {
+  "key": "f6870d7cab25b9c1",
+  "kind": "mechanism",
+  "nb": "Vadadustat hemmer transportpumpen OAT3, som  har betydning for utpumping av furosemid fra kroppen."
+ },
+ {
+  "key": "01f9a0a3d60aa308",
+  "kind": "mechanism",
+  "nb": "Vadadustat kan hemme CYP2C9."
+ },
+ {
+  "key": "ee2cb84ef02b6d02",
+  "kind": "mechanism",
+  "nb": "Ved denne kombniasjonen blokkeres både MAO-A og MAO-B. Dermed kan ikke tyramin (som finnes i visse typer mat og dikke) brytes ned. Tyramin er er krafitg vasopressor. Kombinasjonen er kontraindisert i preparaomtalen til rasagilin og selegilin."
+ },
+ {
+  "key": "628f61420f919b19",
+  "kind": "mechanism",
+  "nb": "Ved hypotyreose er de vitamin K-avhengige koagulasjonsfaktorene relativt ufølsomme for warfarin, derfor trengs det en høyere warfarindose for å få effekt. Når behandling med tyreoideahormoner startes opp, vil følsomheten for warfarin øke og warfarindosen må reduseres."
+ },
+ {
+  "key": "381c7fb83a87d96f",
+  "kind": "mechanism",
+  "nb": "Ved økt sympatikusaktivitet, som ved hypertyreose, reduseres effekten av digitalisglykosider. I tillegg vil tyroksin økte aktiviteten til p-glykoprotein, som pumper ut digoksin i tarmvegg, galleveier og nyrer."
+ },
+ {
+  "key": "ae5f16b46a7b7854",
+  "kind": "mechanism",
+  "nb": "Vemurafenib hemmer metabolismen av koffein via CYP1A2."
+ },
+ {
+  "key": "ab32d8f409c3ed9f",
+  "kind": "mechanism",
+  "nb": "Vemurafenib hemmer metabolismen av teofyllin via CYP1A2."
+ },
+ {
+  "key": "5149e8c87eed6ed0",
+  "kind": "mechanism",
+  "nb": "Vemurafenib hemmer metabolismen av warfarin via CYP1A2 (som er en metabolismevei som kun står for en liten andel av totalclearance for warfarin)."
+ },
+ {
+  "key": "54159c985f34e9f7",
+  "kind": "mechanism",
+  "nb": "Venetoklaks kan hemme utpumpingen av digoksin i tarmvegg og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "c2fff9477ce65ef7",
+  "kind": "mechanism",
+  "nb": "Venetoklaks kan hemme utpumpingen av everolimus bl.a. i tarmveggen via p-glykoprotein."
+ },
+ {
+  "key": "6b29ccf339be8c19",
+  "kind": "mechanism",
+  "nb": "Venetoklaks kan hemme utpumpingen av sirolimus bl.a. i tarmveggen via p-glykoprotein."
+ },
+ {
+  "key": "731cf61d8af94daa",
+  "kind": "mechanism",
+  "nb": "Venlafaksin hemmer blodplateaggregering og kan derved forsterke effekten av warfarin på koagulasjonskaskaden (NB! Interaksjonen vil normalt sett ikke fanges opp ved INR-måling)."
+ },
+ {
+  "key": "27bf4d8ab7f0e582",
+  "kind": "mechanism",
+  "nb": "Venlafaksin hemmer metabolismen av haloperidol, trolig via CYP2D6, og kan også til en viss grad hemme renal clearance av haloperidol."
+ },
+ {
+  "key": "4f592e46fc415a7a",
+  "kind": "mechanism",
+  "nb": "Venlafaksin kan hemme trombocyttfunksjonen via serotonerge mekanismer."
+ },
+ {
+  "key": "e2ff0f1138645483",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer CYP3A4 som er ansvarlig for metabolisme av atorvastatin. Det er imidlertid ikke utført interaksjonsstudier som evaluerer effekten av verapamil på atorvastatin."
+ },
+ {
+  "key": "42bd2fd41dad71cd",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av dienogest via CYP3A4"
+ },
+ {
+  "key": "5a1dc554ef0f3b10",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av eplerenon via CYP3A4"
+ },
+ {
+  "key": "8ae320f25b103e8e",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av everolimus via CYP3A4"
+ },
+ {
+  "key": "8dd53547e3f7d3e8",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av kabergolin via CYP3A4"
+ },
+ {
+  "key": "22ee6808e270bc85",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av karbamazepin via CYP3A4, mens karbamazepin øker metabolisme av verapamil via CYP3A4"
+ },
+ {
+  "key": "7907a1ac3d3e4c7f",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av lovastatin via CYP3A4"
+ },
+ {
+  "key": "2feaeb8ccc67af97",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av sertindol via CYP3A4."
+ },
+ {
+  "key": "1244e16197495f09",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av simvastatin via CYP3A4"
+ },
+ {
+  "key": "4fea862e766d7a7c",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av sirolimus via CYP3A4"
+ },
+ {
+  "key": "e92428212c775187",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av solifenacin via CYP3A4"
+ },
+ {
+  "key": "69e4e50536a3f0e2",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolisme av takrolimus via CYP3A4"
+ },
+ {
+  "key": "1e21074cf727c61e",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av alprazolam via CYP3A4"
+ },
+ {
+  "key": "e51940ef16b126c0",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av avatrombopag via CYP3A4, samt utpumping via transportpumpen p-glykoprotein."
+ },
+ {
+  "key": "6848e237eeb01fae",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av bosentan via CYP3A4."
+ },
+ {
+  "key": "196acefea594e323",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av buspiron via CYP3A4"
+ },
+ {
+  "key": "e5de7137142b4cae",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av darifenacin via CYP3A4"
+ },
+ {
+  "key": "f4f7ae02c6aa8d16",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av dutasterid via CYP3A4"
+ },
+ {
+  "key": "0a3c913de3f1d027",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av eletriptan via CYP3A4"
+ },
+ {
+  "key": "991607202ffab3ee",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av fentanyl via CYP3A4"
+ },
+ {
+  "key": "ecbba54e69df2d43",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av ivabradin via CYP3A4"
+ },
+ {
+  "key": "60c95b7b7bf95fe0",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av kvetiapin via CYP3A4."
+ },
+ {
+  "key": "4bbf96e7aa3b9bc6",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av lerkanidipin via CYP3A4."
+ },
+ {
+  "key": "e13514052d001906",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av loperamid via CYP3A4 og utpumping av loperamid (bl.a. i tarm) via p-glykoprotein."
+ },
+ {
+  "key": "06cd03ae1d1a83b7",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av loratadin via CYP3A4."
+ },
+ {
+  "key": "608a67cdc6628460",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av maraviroc via CYP3A4"
+ },
+ {
+  "key": "71198b1c920446b5",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av midazolam via CYP3A4."
+ },
+ {
+  "key": "d5fd2bb280fb0c16",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av nimodipin via CYP3A4."
+ },
+ {
+  "key": "464ef8c0941bd1cc",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av oksykodon via CYP3A4."
+ },
+ {
+  "key": "63a4fc1aa13869c1",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av ranolazin via CYP3A4."
+ },
+ {
+  "key": "ca8708b12197fff8",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av sildenafil via CYP3A4"
+ },
+ {
+  "key": "12077ff5b502ad05",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av tadalafil via CYP3A4"
+ },
+ {
+  "key": "8da78fe1dea8bb73",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av teofyllin og andre xantinderivater via CYP3A4."
+ },
+ {
+  "key": "bad2938c3a3200dd",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av tikagrelor via CYP3A4."
+ },
+ {
+  "key": "c6f40ce9eb5e4897",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av tolvaptan via CYP3A4."
+ },
+ {
+  "key": "babaa5365b431808",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer metabolismen av vardenafil via CYP3A4"
+ },
+ {
+  "key": "89edb1db2f68ae13",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer utpumpingen av apiksaban i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "394848631a5e4ad6",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer utpumpingen av digoksin via p-glykoprotein i tarmvegg, galleveier og nyrer."
+ },
+ {
+  "key": "543e5430bdece352",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer utpumpingen av edoksaban i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "2891fc45ce2beea7",
+  "kind": "mechanism",
+  "nb": "Verapamil hemmer utpumpingen av rivaroksaban i i tarmvegg, galle og nyrer via p-glykoprotein."
+ },
+ {
+  "key": "3b2cdedfb800ee1a",
+  "kind": "mechanism",
+  "nb": "Verapamil øker absorpsjonen av feksofenadin via hemming av P-glykoprotein"
+ },
+ {
+  "key": "1e721b9f5eb189ad",
+  "kind": "mechanism",
+  "nb": "Verapamil øker konsentrasjonen av aliskiren via hemming av P-glykoprotein"
+ },
+ {
+  "key": "4d117b9bb92ef290",
+  "kind": "mechanism",
+  "nb": "Vitamin E i høye doser kan redusere nivåene av vitamin K-avhengige koagulasjonsfaktorer."
+ },
+ {
+  "key": "cf4ba044dba6dc9a",
+  "kind": "mechanism",
+  "nb": "Vokseletor kan hemme metabolismen av legemidler via CYP3A4. Effekten forventes å være relativt svak."
+ },
+ {
+  "key": "5077ac07b968bf04",
+  "kind": "mechanism",
+  "nb": "Vorasindenib øker metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "3705751b678eaa12",
+  "kind": "mechanism",
+  "nb": "Vorasindenib øker metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "869d82595190f438",
+  "kind": "mechanism",
+  "nb": "Vorasindenib øker metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "b8313d9f7418a38e",
+  "kind": "mechanism",
+  "nb": "Vorasindenib øker metabolismen av warfarin via CYP2C9 og CYP3A4."
+ },
+ {
+  "key": "064c83937823a696",
+  "kind": "mechanism",
+  "nb": "Vorikonazol er en svak hemmer av p-glykotprotein in vitro, slik at utpumpingen av apiksaban i tarmvegg, galle og nyrer via p-glykoprotein trolig påvirkes i liten grad. Derimot vil hemmingen av metabolismen av apiksaban via CYP3A4 via CYP3A4 være betydelig."
+ },
+ {
+  "key": "f179ab7fa89f73df",
+  "kind": "mechanism",
+  "nb": "Vorikonazol er en svak hemmer av p-glykotprotein in vitro, slik at utpumpingen av edoksaban i tarmvegg, galle og nyrer via p-glykoprotein trolig påvirkes i liten grad. Derimot vil hemmingen av metabolismen av edoksaban via CYP3A4 være betydelig."
+ },
+ {
+  "key": "13749677e6bb4f01",
+  "kind": "mechanism",
+  "nb": "Vorikonazol er en svak hemmer av p-glykotprotein in vitro, slik at utpumpingen av rivaroksaban i tarmvegg, galle og nyrer via p-glykoprotein trolig påvirkes i liten grad. Derimot vil hemmingen av metabolismen av rivaroksaban via CYP3A4 være betydelig."
+ },
+ {
+  "key": "ba0687572bd3749f",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av atorvastatin via CYP3A4."
+ },
+ {
+  "key": "7f0555d5bea7ecd5",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av darifenacin via CYP3A4"
+ },
+ {
+  "key": "512c1c21bc34c95e",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av diazepam via CYP2C19"
+ },
+ {
+  "key": "f4240693eadd8f02",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av dienogest via CYP3A4"
+ },
+ {
+  "key": "ce3a1350ca4d9be8",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av diklofenak via CYP2C9"
+ },
+ {
+  "key": "31020a2edbab48bd",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av dutasterid via CYP3A4"
+ },
+ {
+  "key": "8338b0c9f1869ab2",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av eplerenon via CYP3A4"
+ },
+ {
+  "key": "2cab3b4d979492a8",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av everolimus via CYP3A4"
+ },
+ {
+  "key": "939cae89ce43e460",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av fenytoin via CYP2C9/19, mens fenytoin øker metabolisme av vorikonazol via CYP2C19/3A4"
+ },
+ {
+  "key": "1f24576e32e2d7db",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av glimepirid, primært via CYP2C9."
+ },
+ {
+  "key": "63715622d73b1f72",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av kabergolin via CYP3A4"
+ },
+ {
+  "key": "bf8387a8576dfcca",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av lovastatin via CYP3A4"
+ },
+ {
+  "key": "8197a0080ac78a52",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av meloksikam via CYP2C9 og CYP3A4"
+ },
+ {
+  "key": "82350d711b3cf50b",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av simvastatin via CYP3A4"
+ },
+ {
+  "key": "077b5a3588f6bed9",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av sirolimus via CYP3A4"
+ },
+ {
+  "key": "01ab120b54c99db4",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av solifenacin via CYP3A4"
+ },
+ {
+  "key": "0c51653f07db692b",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolisme av takrolimus via CYP3A4"
+ },
+ {
+  "key": "b61c6581f0a53263",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av alfuzosin via CYP3A4"
+ },
+ {
+  "key": "6a67ee38090e7c1a",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av alprazolam via CYP3A4"
+ },
+ {
+  "key": "338d3fcbb81a4223",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av bosentan via CYP3A4."
+ },
+ {
+  "key": "c277f8b18e33d6f1",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av budesonid via CYP3A4."
+ },
+ {
+  "key": "c64fee9bed5989c7",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av buprenorfin via CYP3A4."
+ },
+ {
+  "key": "0000cc33f7147b36",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av buspiron via CYP3A4"
+ },
+ {
+  "key": "c317964d95d31e1a",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av deksametason via CYP3A4."
+ },
+ {
+  "key": "0f76c5670f1db001",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av den aktive metabolitten av fesoterodin via CYP3A4"
+ },
+ {
+  "key": "5be6f263ba68d9eb",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av den aktive metabolitten desloratadin via CYP3A4. (Også metabolismen av loratadin hemmes, men siden dette er en prodrug, får det ingen kliniske konsekvenser)."
+ },
+ {
+  "key": "19f5178d327c0b63",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av des-ciklenosid via CYP3A4."
+ },
+ {
+  "key": "06d0373068d3da5a",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av docetaxel via CYP3A4"
+ },
+ {
+  "key": "ebc514efbaeaf0b5",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av donedaron via CYP3A4."
+ },
+ {
+  "key": "80b07c7e6235e58b",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av ebastin og den aktive metabolitten karebastin via CYP3A4"
+ },
+ {
+  "key": "8cbce0de4eb51aaf",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av eletriptan via CYP3A4"
+ },
+ {
+  "key": "edf79400746ab6fc",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av esomeprazol via CYP2C19 og CYP3A4, mens esomeprazol hemmer metabolismen av vorikonazol via CYP2C19."
+ },
+ {
+  "key": "73da4aadd688a357",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av etorikoksib via CYP3A4"
+ },
+ {
+  "key": "bf4cbe2da6f580d7",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av felodipin via CYP3A4."
+ },
+ {
+  "key": "540d2789a9007bcd",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av fentanyl via CYP3A4."
+ },
+ {
+  "key": "c983ef1a84f724d7",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av glipzid, primært via CYP2C9"
+ },
+ {
+  "key": "f554f9b0a3750a40",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av ivabradin via CYP3A4"
+ },
+ {
+  "key": "4cf712cf8f7f227a",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av karbamazepin via CYP3A4, mens karbamazepin øker metabolismen av vorikonazol via CYP3A4."
+ },
+ {
+  "key": "727349a7e8f408ee",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av kvetiapin via CYP3A4."
+ },
+ {
+  "key": "6675dacaad28bf46",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av lapatinib via CYP3A4"
+ },
+ {
+  "key": "a3ab2cb88623fe19",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av lerkanidipin via CYP3A4."
+ },
+ {
+  "key": "4ddcce92b84ec9a0",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av loperamid via CYP3A4."
+ },
+ {
+  "key": "bce2ed9558ec69f1",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av maraviroc via CYP3A4"
+ },
+ {
+  "key": "594d8728b831acb3",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av metylprednisolon via CYP3A4."
+ },
+ {
+  "key": "77b1d61baddf1e0e",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av nilotinib via CYP3A4"
+ },
+ {
+  "key": "65a0dcf89a26a2e9",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av oksykodon via CYP3A4."
+ },
+ {
+  "key": "ef01a5f3ddfd9ab6",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av omeprazol via CYP2C19 og CYP3A4, mens omeprazol hemmer metabolismen av vorikonazol via CYP2C19."
+ },
+ {
+  "key": "8d03bd0952e79bff",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av ranolazin via CYP3A4."
+ },
+ {
+  "key": "4a64e0b04d1afba2",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av sildenafil via CYP3A4"
+ },
+ {
+  "key": "2a467397371111dc",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av tadalafil via CYP3A4"
+ },
+ {
+  "key": "e075f29e194d3db7",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av tikagrelor via CYP3A4."
+ },
+ {
+  "key": "b768686466a7fb07",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av tolterodin via CYP3A4. For hemmeren ketokonazol er denne effekten er tydelig (i størrelsesorden en fordobling av tolterodinkonsentrasjonen) hos pasienter som mangler den alternative metaboliseringsveien CYP2D6."
+ },
+ {
+  "key": "64cdfa6ef9b196f4",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av vardenafil via CYP3A4"
+ },
+ {
+  "key": "e364676ed2d3129b",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av venetoklaks via CYP3A4."
+ },
+ {
+  "key": "f791fda3b5c67258",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av warfarin, primært via CYP2C9"
+ },
+ {
+  "key": "6c28de02e3bfffea",
+  "kind": "mechanism",
+  "nb": "Vorikonazol hemmer metabolismen av zolpidem via CYP3A4."
+ },
+ {
+  "key": "836e67d699122ff5",
+  "kind": "mechanism",
+  "nb": "Vorikonazol kan hemme utpumpingen av digoksin via p-glykoprotein i tarmvegg og nyretubuli. Vorikonazol er en svak hemmer av p-glykotprotein in vitro, slik at økningen i digoksinkonsentrasjon trolig vil være mindre enn ved samtidig bruk av ketokonazol, itrakonzol og posakonazol."
+ },
+ {
+  "key": "7cd017bfb261ad22",
+  "kind": "mechanism",
+  "nb": "Vorkonazol hemmer metabolismen av tolvaptan via CYP3A4."
+ },
+ {
+  "key": "87923794af3295d5",
+  "kind": "mechanism",
+  "nb": "Vortioksetin kan øke ADH-nivåene, tiazider øker den renale utskillelsen av natrium."
+ },
+ {
+  "key": "afddeface67d2f87",
+  "kind": "mechanism",
+  "nb": "Zanubrutinib øker metabolismen av everolimus via CYP3A4."
+ },
+ {
+  "key": "65514e4cc24325ed",
+  "kind": "mechanism",
+  "nb": "Zanubrutinib øker metabolismen av sirolimus via CYP3A4."
+ },
+ {
+  "key": "b9275b68aecce138",
+  "kind": "mechanism",
+  "nb": "Zanubrutinib øker metabolismen av takrolimus via CYP3A4."
+ },
+ {
+  "key": "c9a1b37347c53d0d",
+  "kind": "mechanism",
+  "nb": "Økt absorpsjon av ivermectin ved samtidig inntak av alkohol."
+ },
+ {
+  "key": "cfda8e7b7a98bee8",
+  "kind": "mechanism",
+  "nb": "Økt absorpsjon av raltegravir ved forhøyet pH i ventrikkelen."
+ },
+ {
+  "key": "fea5c3a4592b9829",
+  "kind": "mechanism",
+  "nb": "Økt metablisme av karbamazepin via induksjon av CYP3A4."
+ },
+ {
+  "key": "957dc28d7ed7d317",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av  zopiklon via CYP3A4."
+ },
+ {
+  "key": "9bd13eb7a6353ac5",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av abirateron via CYP3A4."
+ },
+ {
+  "key": "389101bf83e2037a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av adagrasib via CYP3A4."
+ },
+ {
+  "key": "441973b77992f3c2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av afikamten via CYP2C9 og CYP3A4."
+ },
+ {
+  "key": "89ec74e907c4eb5c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av alprazolam via CYP3A4"
+ },
+ {
+  "key": "b4f6e14ea51130d2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av amlodipin via CYP3A4."
+ },
+ {
+  "key": "04002bfe225e0faa",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av apiksaban via CYP3A4"
+ },
+ {
+  "key": "c0951e93ab2134a2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av apiksaban via CYP3A4 ."
+ },
+ {
+  "key": "e516497fb2281645",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av apixaban via CYP3A4"
+ },
+ {
+  "key": "820211f9e38daaac",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av atazanavir via CYP3A4"
+ },
+ {
+  "key": "ec01907e34d4f539",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av atogepant via CYP3A4."
+ },
+ {
+  "key": "7f54d39fb929b5ec",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av atorvastatin via CYP3A4."
+ },
+ {
+  "key": "3f2f599950f8037a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av av den aktive fostamatinib-metabolitten via CYP3A4."
+ },
+ {
+  "key": "3e8d7c445ec30492",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av av letermovir via glukuroniderende enzymer og øker eventuelt også eliminasjonen via transportpumper som OATP1B1/3 og p-glykoprotein."
+ },
+ {
+  "key": "032751e89f0bbd4a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av avanafil via CYP3A4."
+ },
+ {
+  "key": "7d9907e78263f062",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av avatrombopag via CYP2C9 og CYP3A4."
+ },
+ {
+  "key": "e8cffe7499a904a0",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av barbiturater via CYP3A4."
+ },
+ {
+  "key": "db67e9386c98e0f4",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av barbiturater via CYP3A4. Økt metabolisme av enzalutamid via CYP2C8."
+ },
+ {
+  "key": "59a10b3c3abb3a01",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av bosentan via CYP3A4"
+ },
+ {
+  "key": "e8e3dd1bd1081c45",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av bosutinib via CYP3A4"
+ },
+ {
+  "key": "c3d9ac57002287b6",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av brekspiprazol via CYP3A4."
+ },
+ {
+  "key": "8b19cc91ec85e955",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av brigatinib via CYP3A4."
+ },
+ {
+  "key": "ba1ee3b7f895bc3d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av buspiron via CYP3A4"
+ },
+ {
+  "key": "c6b2dd2511bff584",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ciklesonid via CYP3A4"
+ },
+ {
+  "key": "478cda920b125c14",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av dabrafenib via CYP3A4."
+ },
+ {
+  "key": "a3f35dc3b2076486",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av darifenacin via CYP3A4"
+ },
+ {
+  "key": "61b6b4b598089b24",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av darunavir via CYP3A4."
+ },
+ {
+  "key": "72b399d2a5d04414",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av deksametason via CYP3A4."
+ },
+ {
+  "key": "c0a9a0ad3efb507f",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av den aktive metabolitten av fesoterodin via CYP3A4"
+ },
+ {
+  "key": "6e201e9d27d433a9",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av dienogest via CYP3A4"
+ },
+ {
+  "key": "324badc5b73ca851",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av dienogest via CYP3A4."
+ },
+ {
+  "key": "7298d0d447d88a7d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av dihydroartemisinin via UGT1A9."
+ },
+ {
+  "key": "4cb540e6875ac604",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av docetaksel via CYP3A4."
+ },
+ {
+  "key": "0792b91ff690abc1",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av docetaxel via CYP3A4."
+ },
+ {
+  "key": "93db5b431ee29abd",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av doravirin via CYP3A4."
+ },
+ {
+  "key": "188f22dd22eeefd2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av dronedaron via CYP3A4"
+ },
+ {
+  "key": "ee825007a6cf2048",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av duvelisib via CYP3A4."
+ },
+ {
+  "key": "5a2ba63fff6f592e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ebastin via CYP3A4"
+ },
+ {
+  "key": "dda9f65f61520fcf",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av edoksaban via CYP3A4 til aktive metabolitter, økt utpumping av edoksaban via p-glykoprotein."
+ },
+ {
+  "key": "3857c44da8a4e2c2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av eletriptan via CYP3A4"
+ },
+ {
+  "key": "25d3ee9dc7ee3aeb",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av enkorafenib via CYP3A4."
+ },
+ {
+  "key": "bfaa6fb7ca5fceab",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av eplerenon via CYP3A4"
+ },
+ {
+  "key": "598508dd4b5cb91f",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av eravasyklin via CYP3A4."
+ },
+ {
+  "key": "15ad7b065f4d2c03",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av erdafitinib via CYP3A4."
+ },
+ {
+  "key": "eb420412f28a7298",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av erytromycin via CYP3A4."
+ },
+ {
+  "key": "e3593e09f7b82597",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av eszopiklon via CYP3A4."
+ },
+ {
+  "key": "806e02f32032b7b2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av etoposid via CYP3A4."
+ },
+ {
+  "key": "d65ea5d74b9b5af3",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av etorikoksib via CYP3A4."
+ },
+ {
+  "key": "d73ab1edfbd8d2d3",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av etravirin via CYP3A4."
+ },
+ {
+  "key": "d746d3b37169c50c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av etravirin via CYP3A4. Dessuten additive farmakodynamiske effekter."
+ },
+ {
+  "key": "2ea07b80ec3157ab",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av everolimus via CYP3A4"
+ },
+ {
+  "key": "ef20f46f934268f6",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av everolimus via CYP3A4."
+ },
+ {
+  "key": "0795ec19dd372d37",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av felodipin via CYP3A4"
+ },
+ {
+  "key": "016ebde727689b49",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av fenytoin via CYP2C9."
+ },
+ {
+  "key": "f82b0eeacde850c1",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av fenytoin via CYP2C9. Økt metabolisme av enzalutamid via CYP2C8."
+ },
+ {
+  "key": "6efe5511fb29bb4e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av fingolimod via CYP3A4."
+ },
+ {
+  "key": "0b1f2c3aa8627123",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av frukvintinib via CYP3A4 og andre CYP-enzymer."
+ },
+ {
+  "key": "9c2b2a945357bbd4",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av futibatinib via CYP3A4."
+ },
+ {
+  "key": "45243461c1d61dae",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ganaksolon via CYP3A4."
+ },
+ {
+  "key": "b2ad5860489ec9d7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av hydrokortison via CYP3A4."
+ },
+ {
+  "key": "fa93d598485538d2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ibrutinib via CYP3A4."
+ },
+ {
+  "key": "c04bcb4daed7a0b1",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av iksazomib via CYP3A4."
+ },
+ {
+  "key": "bec1510dd1654b04",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av irinotekan til inaktive metabolitter via CYP3A4 og også av den aktive metabolitten SN-38 via UGT1A1."
+ },
+ {
+  "key": "339c7a07f417d265",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av isavukonazol via CYP3A4."
+ },
+ {
+  "key": "2532f004fb49f669",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av itrakonazol via CYP3A4."
+ },
+ {
+  "key": "64edc863b67d002d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av itrakonazol, nedsatt metabolisme av dabrafenib via CYP3A4."
+ },
+ {
+  "key": "c278bacf1293fa4e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ivabradin via CYP3A4"
+ },
+ {
+  "key": "a3bc77fabe8292ae",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ivakaftor via CYP3A4."
+ },
+ {
+  "key": "97c838f6df80c99c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ivosidenib via CYP3A4 og muligens også økt metabolisme av fenytoin via CYP2C9."
+ },
+ {
+  "key": "294f267acb2077b8",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ivosidenib via CYP3A4."
+ },
+ {
+  "key": "07e137f52857459e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kabacitaxel via CYP3A4"
+ },
+ {
+  "key": "db726a94f1e9a6d2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kabazitaksel via CYP3A4"
+ },
+ {
+  "key": "c9bef589cff2295d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kabazitaxel via CYP3A4"
+ },
+ {
+  "key": "60e7648aa7c17297",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kabergolin via CYP3A4"
+ },
+ {
+  "key": "8812bda322b11992",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kapivasertib via CYP3A4."
+ },
+ {
+  "key": "bd1d802cc475fc56",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av karbamazepin via CYP3A4."
+ },
+ {
+  "key": "90bf76ca96ade532",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av karbamazepin via CYP3A4. Økt metabolisme av enzalutamid via CYP2C8."
+ },
+ {
+  "key": "1b34d1f37e2968a2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kariprazin og aktiv metabolitt via CYP3A4."
+ },
+ {
+  "key": "56726f36a41f2e1a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ketokonazol via CYP3A4"
+ },
+ {
+  "key": "80e7dba8103d8678",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ketokonazol, nedsatt metabolisme av dabrafenib via CYP3A4"
+ },
+ {
+  "key": "5851bcfa0f9b5198",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av klaritromycin via CYP3A4."
+ },
+ {
+  "key": "14ed9cae55688da3",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av klaritromycin via CYP3A4. Nedsatt metabolisme av etravirin via CYP3A4.."
+ },
+ {
+  "key": "45286e313eb339f7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av klindamycin via CYP3A4."
+ },
+ {
+  "key": "1533e38d842a5b88",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av klozapin via CYP1A2"
+ },
+ {
+  "key": "0ced5890d5c9b52b",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kobicistat og elvitegravir via CYP3A4."
+ },
+ {
+  "key": "c1eac44a32e6fbd0",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kobicistat/elvitegravir via CYP3A4, hemmet metabolisme av darbrafenib via CYP3A4."
+ },
+ {
+  "key": "d15d5eb1fc4ae442",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kobicistat/elvitegravir via CYP3A4."
+ },
+ {
+  "key": "3253febee4b65e11",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kobimetinib via CYP3A4."
+ },
+ {
+  "key": "d251555fd6b5c665",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kolkisin via CYP3A4 og økt utpumping i galle/tarm via p-glykoprotein."
+ },
+ {
+  "key": "c10ad405c993c8bf",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kortison/kortisol via CYP3A4."
+ },
+ {
+  "key": "3ad86a55feb7af53",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kvetiapin via CYP3A4"
+ },
+ {
+  "key": "02936f0de1985be7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av kvizartinib via CYP3A4."
+ },
+ {
+  "key": "c6bcbd368be20da2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lakosamid via CYP2C19 og andre CYP-enzymer."
+ },
+ {
+  "key": "73a5fe277ddd49d4",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lamotrigin pga. induksjon av UGT-enzymer."
+ },
+ {
+  "key": "e34646f6169415fb",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lamotrigin via glukuroniderende enzymer."
+ },
+ {
+  "key": "fa892c94836092ab",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lanzoprazol via CYP2C19."
+ },
+ {
+  "key": "76ef4616d5129db3",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lapatinib via CYP3A4"
+ },
+ {
+  "key": "d2c4c3890e3e45b8",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lazertinib via CYP3A4."
+ },
+ {
+  "key": "c14269ae812c3fac",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lerkanidipin via CYP3A4"
+ },
+ {
+  "key": "55d5863302c24772",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av levonorgestrel via CYP3A4 og eventuelt også via glukuroniderende enzymer."
+ },
+ {
+  "key": "34508f09a2310ee2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lomitapid via CYP3A4."
+ },
+ {
+  "key": "c81274c8491816dc",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lonafarnib via CYP3A4."
+ },
+ {
+  "key": "13c0973b0d2c6e11",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av loperamid via CYP3A4 og eventuelt også økt utpumping av loperamid via p-glykoprotein, bl.a. i tarm."
+ },
+ {
+  "key": "60be01e41551395e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lorlatinib via CYP3A4."
+ },
+ {
+  "key": "065c2ba071693c0f",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lovastatin via CYP3A4"
+ },
+ {
+  "key": "b20e194e87acd51f",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lovastatin via CYP3A4."
+ },
+ {
+  "key": "f29989752bad692f",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av lurbinektedin via CYP3A4."
+ },
+ {
+  "key": "f83dbe42a66e308e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av macimorelin via CYP3A4."
+ },
+ {
+  "key": "8164c162867f634d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av macitentan via CYP3A4."
+ },
+ {
+  "key": "2e1a922682592a90",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av maraviroc via CYP3A4."
+ },
+ {
+  "key": "f520a28ee9d49759",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av marvairoc via CYP3A4"
+ },
+ {
+  "key": "545730d6eb4c1cdc",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av mavakamten via CYP3A4."
+ },
+ {
+  "key": "9dcde1373db5585e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av metadon via CYP3A4."
+ },
+ {
+  "key": "0b45586110473b87",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av metylprednisolon via CYP3A4"
+ },
+ {
+  "key": "6d60466c7d02be63",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av mianserin via CYP3A4."
+ },
+ {
+  "key": "f6a7ef026a77bdc2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av midazolam via CYP3A4."
+ },
+ {
+  "key": "0810419208022b4a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av midostaurin via CYP3A4."
+ },
+ {
+  "key": "f08240af287ce628",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av mirtazapin via CYP3A4."
+ },
+ {
+  "key": "7fe3b4620f68f30a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av mitapivat via CYP3A4."
+ },
+ {
+  "key": "39663e9077f470ac",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av momelotinib via CYP3A4."
+ },
+ {
+  "key": "9e0f9c03ab518039",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av naldemedin via CYP3A4."
+ },
+ {
+  "key": "14f96eda95eef5c4",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av naloksegol via CYP3A4."
+ },
+ {
+  "key": "8fc603b2284d6806",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av nerandomilast via CYP3A4."
+ },
+ {
+  "key": "db3c825552d7e204",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av nilotinib via CYP3A4"
+ },
+ {
+  "key": "151c76bd33fcc251",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av nimodipin via CYP3A4"
+ },
+ {
+  "key": "23dbbe02db2f236a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av nirogacestat via CYP3A4."
+ },
+ {
+  "key": "8d62e2fe9abaa40a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av nomegestrol via CYP3A4"
+ },
+ {
+  "key": "f22df0e57e41c008",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av nomegestrol via CYP3A4."
+ },
+ {
+  "key": "4a3dd1e16d6d7da9",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av olaparib via CYP3A4."
+ },
+ {
+  "key": "57e040ad03a6b6f6",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av olaprib via CYP3A4."
+ },
+ {
+  "key": "26e1546eeb6d8ef6",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av omaveloksolon via CYP3A4."
+ },
+ {
+  "key": "ce0b039123441dc5",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ondansetron via CYP3A4."
+ },
+ {
+  "key": "6bd7a7a024cd2544",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av osimertinib via CYP3A4."
+ },
+ {
+  "key": "674bba38c3178fb8",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av paklitaxel via CYP3A4."
+ },
+ {
+  "key": "8c3e108dca20e74b",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av palbociklib via CYP3A4."
+ },
+ {
+  "key": "0b645c2f5b91627a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av paltusotin via CYP3A4 m.fl."
+ },
+ {
+  "key": "d1f61c9ebdf65894",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av pantoprazol via CYP2C19."
+ },
+ {
+  "key": "9f98ebf2e339d438",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av pazopanib via CYP3A4."
+ },
+ {
+  "key": "331195d371455bb7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av perampanel, hemmet metabolisme av okskarbazepin."
+ },
+ {
+  "key": "799dfd8333c3ffbc",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av perampanel."
+ },
+ {
+  "key": "1c6ef917f2c3a134",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av pirtobrutinib via CYP3A4."
+ },
+ {
+  "key": "6f30c054d7ead211",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av pitolisant via CYP3A4."
+ },
+ {
+  "key": "98f5ea2de6673d5c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av posakonazol via CYP3A4"
+ },
+ {
+  "key": "fe7bd06bb9d32ad3",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av posakonazol, nedsatt metabolisme av dabrafenib via CYP3A4"
+ },
+ {
+  "key": "bd13c2ba3cc0eed9",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av pralsetinib via CYP3A4."
+ },
+ {
+  "key": "33d88cd3faab4b91",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av prednison/prednisolon via CYP3A4."
+ },
+ {
+  "key": "311e067766bb3ac2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av progestogener via CYP3A4 og eventuelt også via glukuroniderende enzymer."
+ },
+ {
+  "key": "4cd7a4bff8f720bc",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av progestogener."
+ },
+ {
+  "key": "ec90c15dea8ee69e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av progestogenet via CYP3A4."
+ },
+ {
+  "key": "865a742c3373a7af",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av raltegravir via enzymet UGT1A1."
+ },
+ {
+  "key": "20b974f7a2b99d31",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ranolazin via CYP3A4"
+ },
+ {
+  "key": "44c530491446073d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av repotrektinib via CYP3A4."
+ },
+ {
+  "key": "b0f088e1458772a3",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ribosiklib via CYP3A4."
+ },
+ {
+  "key": "37dbfa404e1e9ae8",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ripretinib via CYP3A4."
+ },
+ {
+  "key": "52c324557850f501",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ritonavir, hemmet metabolisme av dabrafenib via CYP3A4"
+ },
+ {
+  "key": "4b85de6218b06bd7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av rivaroksaban via CYP3A4 og økt utpumping av rivaroksaban i tarmvegg og galle via p-glykoprotein."
+ },
+ {
+  "key": "8dfb8c6e88e2c9db",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av roflumilast via CYP3A4."
+ },
+ {
+  "key": "074fbd42cbd11b2c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av saksagliptin via CYP3A4"
+ },
+ {
+  "key": "dfc67901467a727c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sertindol via CYP3A4"
+ },
+ {
+  "key": "c34a0b48a63c40a7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sildenafil via CYP3A4"
+ },
+ {
+  "key": "a91533b3ef4f0a65",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sildenafil via CYP3A4."
+ },
+ {
+  "key": "c0837489254fd731",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av simvastatin via CYP3A4"
+ },
+ {
+  "key": "b42374e82d72ec01",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sirolimus via CYP3A4"
+ },
+ {
+  "key": "eea394bb7fb8e272",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sirolimus via CYP3A4."
+ },
+ {
+  "key": "2aff42889ae4a4a2",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av solifenacin via CYP3A4"
+ },
+ {
+  "key": "5a33b4d3d8a2bc6c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sonedigib via CYP3A4."
+ },
+ {
+  "key": "ffe432329c2eb09a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sorafenib via CYP3A4."
+ },
+ {
+  "key": "f88935ea68b12fc9",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av sparsentan via CYP3A4."
+ },
+ {
+  "key": "27adf638f79e37ef",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tadalafil via CYP3A4"
+ },
+ {
+  "key": "71d60d4a2f8e2a0c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av takrolimus via CYP3A4"
+ },
+ {
+  "key": "b90c855c66f5f4f5",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av takrolimus via CYP3A4."
+ },
+ {
+  "key": "3c5d21c7fdff647b",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tapentadol via glukuroniderende enzymer (UGT)"
+ },
+ {
+  "key": "ae95502c74eb377e",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tepotinib via CYP3A4 kombinert med økt utpumping av tepotinib via p-glykoprotein."
+ },
+ {
+  "key": "7333332a5cfebd1c",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av teriflunomid."
+ },
+ {
+  "key": "6a7dc3e0ca6a2431",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tetrahydocannabinol og cannabidiol."
+ },
+ {
+  "key": "8afd407c8301cdfc",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tetrahydocannabinol og cannabidiol. Additive farmakodynamiske effetker."
+ },
+ {
+  "key": "a98cbf5172acc01b",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tetrahydocannabinol og cannabidiol. I tillegg kan cannabidiol muligens hemme metabolismen av fenytoin via CYP2C9."
+ },
+ {
+  "key": "e8e27c6212867d11",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ticagrelor via CYP3A4"
+ },
+ {
+  "key": "96cba79d4d194e9d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tikagrelor via CYP3A4"
+ },
+ {
+  "key": "1077503ae2bf6a18",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tolvaptan via CYP3A4"
+ },
+ {
+  "key": "66119baef0c006e7",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tovorafenib via CYP2C8."
+ },
+ {
+  "key": "95ee2492029ad332",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av trabektedin via CYP3A4."
+ },
+ {
+  "key": "12fa1cee81e780f9",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av tramadol og aktiv metabolitt via CYP3A4."
+ },
+ {
+  "key": "8b4ece932f39cfd1",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av trazodon og aktiv metabolitt via CYP3A4."
+ },
+ {
+  "key": "5253702880be661a",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av ulipristal via CYP3A4."
+ },
+ {
+  "key": "dca230a4d4687ce8",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av vardenafil via CYP3A4"
+ },
+ {
+  "key": "fb9409f13b3793eb",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av vardenafil via CYP3A4."
+ },
+ {
+  "key": "ffe1e60a150dad03",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av venetoklaks via CYP3A4."
+ },
+ {
+  "key": "9b82eb4d707e0b84",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av vitamin D."
+ },
+ {
+  "key": "de1e34aeeb921c8d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av voklosporin via CYP3A4."
+ },
+ {
+  "key": "42e9bb94f5f4b424",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av vorikonazol via CYP3A4"
+ },
+ {
+  "key": "3bd734208dcb6205",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av vortikosetin via CYP3A4"
+ },
+ {
+  "key": "2a3175cd60a04815",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av warfarin via CYP2C9"
+ },
+ {
+  "key": "88b6b09bc0824119",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av warfarin via CYP2C9 og CYP3A4."
+ },
+ {
+  "key": "e305a6c268d95f00",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av warfarin via CYP2C9 og eventuelt også CYP3A4."
+ },
+ {
+  "key": "e812e910b0530f60",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av warfarin via CYP2C9."
+ },
+ {
+  "key": "9f66ebecb2495f8d",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av warfarin via CYP3A4 og muligens også CYP2C9."
+ },
+ {
+  "key": "348b296a36418ed0",
+  "kind": "mechanism",
+  "nb": "Økt metabolisme av zuranolon via CYP3A4."
+ },
+ {
+  "key": "da9cedcc52dac981",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av bosutinib."
+ },
+ {
+  "key": "ca5e366efaf99720",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av ceritinib."
+ },
+ {
+  "key": "420431fb494ee54c",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av dakomitinib."
+ },
+ {
+  "key": "29421beaf319856f",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av dasatanib."
+ },
+ {
+  "key": "0ad513875d96c271",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av erlotinib."
+ },
+ {
+  "key": "9d6bbb3779e19fa0",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av gefitinib."
+ },
+ {
+  "key": "704a0455fc4b5df2",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av lapatinib."
+ },
+ {
+  "key": "170b59e652f69773",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av neratinib."
+ },
+ {
+  "key": "67d2853aeb92617f",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av nilotinib."
+ },
+ {
+  "key": "46cdf9cf34fc79fa",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av pazopanib."
+ },
+ {
+  "key": "53257953da9d2590",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av pemgatnib."
+ },
+ {
+  "key": "577a7f140bc3f82b",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av riociguat."
+ },
+ {
+  "key": "d3b47ad61041a4b4",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjon av sotorasib."
+ },
+ {
+  "key": "6d5b966437738bf8",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjonen av mitapivat."
+ },
+ {
+  "key": "30ce6c19c3a5a8ef",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og dermed også absorpsjonen av nirogacestat."
+ },
+ {
+  "key": "e7828a2105119b17",
+  "kind": "mechanism",
+  "nb": "Økt pH i magesekken reduserer løseligheten og vil dermed også kunne redusere absorpsjonen av mitapivat."
+ },
+ {
+  "key": "0d679517b7f02b3c",
+  "kind": "mechanism",
+  "nb": "Økt pH i ventrikkelen kan redusere absorpsjonen av levotyroksin."
+ },
+ {
+  "key": "6e315dbd52f6662a",
+  "kind": "mechanism",
+  "nb": "Økt pH reduserer absorpsjonen av atazanavir."
+ },
+ {
+  "key": "748a79b2d8a53c50",
+  "kind": "mechanism",
+  "nb": "Økt renal utskilling av paliperidon pga. stimulering av p-glykoprotein i nyrene"
+ },
+ {
+  "key": "afb456f4865942af",
+  "kind": "mechanism",
+  "nb": "Økt transport av eribulin via P-glykoprotein, bl.a. ut i tarm"
+ },
+ {
+  "key": "0e70ceaa46586213",
+  "kind": "mechanism",
+  "nb": "Økt transport av linagliptin via P-glykoprotein, bl.a. ut i tarm"
+ },
+ {
+  "key": "24415a1cdc4d73bd",
+  "kind": "mechanism",
+  "nb": "Økt utpumping av berotralstat via transportpumpene p-glykoprotein og BCRP."
+ },
+ {
+  "key": "880f84a321b24e4e",
+  "kind": "mechanism",
+  "nb": "Økt utpumping av digoksin via p-glykoprotein."
+ },
+ {
+  "key": "988e05feec2ef33d",
+  "kind": "mechanism",
+  "nb": "Økt utpumping av edoksaban via p-glykoprotein, økt metabolisme av edoksaban via CYP3A4 til aktive metabolitter."
+ },
+ {
+  "key": "7e7bd917dcc11d1e",
+  "kind": "mechanism",
+  "nb": "Østradiol kan øke metabolismen av lamotrigin via UGT1A4."
+ },
+ {
+  "key": "a0b64a5fc13303f6",
+  "kind": "mechanism",
+  "nb": "Østrogener kan redusere effekten av somatropin."
+ },
+ {
+  "key": "168be416cf1fb374",
+  "kind": "mechanism",
+  "nb": "Østrogener stimulerer til vekst av tumorceller ved brystkreft. Menopausal hormonsubstitusjonsbehandling (HRT) er i utgangspunktet kontraindisert til alle pasienter som har gjennomgått brystkreft, uansett om de behandles med antiøstrogener eller ikke. Unntaksvis kan østrogener gis vaginalt etter en grundig nytte-/risikovurdering foretatt av spesialist."
+ },
+ {
+  "key": "ae94d41c3a05d06c",
+  "kind": "mechanism",
+  "nb": "Østrogener stimulerer til vekst av tumorceller ved brystkreft. Menopausal hormonsubstitusjonsbehandling (HRT) er kontraindisert til alle pasienter som har gjennomgått brystkreft, uansett om de behandles med aromatasehemmere eller ikke."
+ },
+ {
+  "key": "4ac8bdc05bc791e8",
+  "kind": "mechanism",
+  "nb": "Årsaken er mest trolig farmakodynamisk (additiv levertoksisitet), men det kan også eventuelt være en farmakokinetisk komponent (delvis forhøyet konsentrasjon av metotreksat er påvist i en studie)."
+ },
+ {
+  "key": "56db42334f588e8f",
+  "kind": "situation",
+  "nb": "At kombinasjonen bør unngås, gjelder bare når midazolam gis peroralt. Ved intravenøs bruk av midazolam eller bukkal administrasjon i forbindelse med krampeanfall vil interaksjonen være langt mindre uttalt, men variabel, og doseøkning kan være nødvendig."
+ },
+ {
+  "key": "721606b4f67b1dcd",
+  "kind": "situation",
+  "nb": "At midlene ikke skal kombineres, gjelder kun for pasienter som er langsomme omsettere via CYP2C19 eller hvis pasienten også samtidig bruker en sterk hemmer av CYP2C19 (flukonazol i mer enn en engangsdose, tiklopidin eller fluvoksamin)."
+ },
+ {
+  "key": "9e5214b632c072ec",
+  "kind": "situation",
+  "nb": "Budesonid kan gis ved behandling med Paxlovid for covid-19, men bør unngås ved langtidsbehandling med ritonavir."
+ },
+ {
+  "key": "75c278bc4aa26d97",
+  "kind": "situation",
+  "nb": "Bør ikke kombineres ved behandling av Dravets syndrom."
+ },
+ {
+  "key": "84cbe5758b192a16",
+  "kind": "situation",
+  "nb": "Ciklesonid kan gis ved behandling med Paxlovid for covid-19."
+ },
+ {
+  "key": "e573f61477f25cd9",
+  "kind": "situation",
+  "nb": "Doseendring kan være påkrevet hos pasienter med lang QT-tid"
+ },
+ {
+  "key": "c0aff2bbd40420d8",
+  "kind": "situation",
+  "nb": "Gjeder bare ibuprofen brukt til behandling av persisterende ductus arteriosus hos nyfødte (preparatet Pedea)."
+ },
+ {
+  "key": "e6fd6f1b5dee09f2",
+  "kind": "situation",
+  "nb": "Gjelder bare betaagonister brukt peroralt/intravenøst, ikke betaagonister brukt til inhalasjon."
+ },
+ {
+  "key": "d07a17c9aab1b0eb",
+  "kind": "situation",
+  "nb": "Gjelder bare for preparater med adrenalintilsetning."
+ },
+ {
+  "key": "ed0e6ca078d0e660",
+  "kind": "situation",
+  "nb": "Gjelder bare hos ikke-røykere."
+ },
+ {
+  "key": "d2c5672fb651f926",
+  "kind": "situation",
+  "nb": "Gjelder bare kronisk bruk av glukokortikoider; ikke akutt kortvarig bruk."
+ },
+ {
+  "key": "ebea68b03ce1c0cd",
+  "kind": "situation",
+  "nb": "Gjelder bare midazolam gitt peroralt. Når midazolam gis intravenøst eller bukkalt i forbindelse med krampeanfall kan trolig vanlig midazolamdose gis."
+ },
+ {
+  "key": "95ae105c7ae16ec7",
+  "kind": "situation",
+  "nb": "Gjelder bare når midazolam gis peroralt. Ved intravenøs bruk av midazolam eller bukkal administrasjon i forbindelse med krafpeanfall er etter alt å dømme interaksjonen så liten av den kan ses bort fra, og midazolam kan gis som vanlig."
+ },
+ {
+  "key": "f2698eb5e23136ed",
+  "kind": "situation",
+  "nb": "Gjelder bare når ritonavir gis samtidig og hos pasienter med nedsatt nyrefunksjon."
+ },
+ {
+  "key": "6c05c9d4a4bff421",
+  "kind": "situation",
+  "nb": "Gjelder bare når systemiske infeksjoner (infeksjoner utenfor tarmen) skal behandles. Ved behandling av ormeinfeksjoner lokalt i tarmen er det den lokale effekten som er viktig, og da har graden av systemisk metabolisme ingen betydning for effekten."
+ },
+ {
+  "key": "b4158d76fe79b6ed",
+  "kind": "situation",
+  "nb": "Gjelder bare når testosteron gis peroralt."
+ },
+ {
+  "key": "8d834867272d0eb9",
+  "kind": "situation",
+  "nb": "Gjelder bare når ulipristal brukes over lengre tid (preparatet Esyma), ikke når ulipristal brukes som nødprevensjon i engangsdose (preparatet ellaOne)"
+ },
+ {
+  "key": "e0319050f5be6622",
+  "kind": "situation",
+  "nb": "Gjelder bare når ulipristal brukes over lengre tid (preparatet Esyma), ikke når ulipristal brukes som nødprevensjon i engangsdose (preparatet ellaOne)."
+ },
+ {
+  "key": "ae537cdb89e53f91",
+  "kind": "situation",
+  "nb": "Gjelder bare peroral bruk av ciprofloksacin."
+ },
+ {
+  "key": "458b7135d01f780f",
+  "kind": "situation",
+  "nb": "Gjelder bare tabletter/kapsler med umiddelbar frisetting, ikke depottabletter/-kapsler eller tabletter/kasplser med modifisert frisetting (som de fleste preparatene på markedet i dag har)."
+ },
+ {
+  "key": "0299cd609a480b0b",
+  "kind": "situation",
+  "nb": "Gjelder bare trombinhemmere og faktor Xa-hemmere som gis peroralt. Midler som gis som infusjon/injeksjon, som argatroban, bivalirudin og lepirudin, kan kombineres med warfarin under nøye overvåkning."
+ },
+ {
+  "key": "fca016c87a4d109b",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av glukagondoser som er langt høyere enn de som vanligvis brukes klinisk i dag."
+ },
+ {
+  "key": "8669b59f34714478",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av hydrokortison (kortisol) i tablettform."
+ },
+ {
+  "key": "9f3a916187a99771",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av høye doser trimetoprim (10-20 mg/kg kroppsvekt/døgn) i behandlingen av Pneumocystis jirovecii og liknende infeksjoner. Ingen tiltak nødvendig ved bruk av trimetoprim i vanlige doser ved for eksempel urinveisinfeksjoner."
+ },
+ {
+  "key": "dfa00236306fc34f",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av høye, antiinflammatoriske doser acetylsalisylsyre."
+ },
+ {
+  "key": "f0a72b6e36790745",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av posakonazol mikstur, ikke posakonazol enterotabletter eller infusjonsvæske."
+ },
+ {
+  "key": "4829273d2800579f",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av ruksolitinib tabletter, ikke ved lokalbehandling med krem."
+ },
+ {
+  "key": "b50d7e60307cd004",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av store doser vitamin E  (300-400 mg/d eller mer)."
+ },
+ {
+  "key": "09759428cc0156f6",
+  "kind": "situation",
+  "nb": "Gjelder bare ved bruk av trimetoprim over lengre tid enn noen få dager, og hos eldre pasienter."
+ },
+ {
+  "key": "50406ecba2d0c320",
+  "kind": "situation",
+  "nb": "Gjelder bare ved escitalopram doser over 10 mg."
+ },
+ {
+  "key": "a75c64295aa18e5a",
+  "kind": "situation",
+  "nb": "Gjelder bare ved inntak av digoksin tabletter, ikke ved bruk av mikstur eller injeksjonsvæske"
+ },
+ {
+  "key": "11d874c4815dd8fd",
+  "kind": "situation",
+  "nb": "Gjelder bare ved langtidsbehandling med etytromycin, ved korttidsbehandling er det ingen fare for interaksjon."
+ },
+ {
+  "key": "c9ef686da5d1dd31",
+  "kind": "situation",
+  "nb": "Gjelder bare ved langtidsbehandling med klaritromycin, ved korttidsbehandling er det ingen fare for interaksjon."
+ },
+ {
+  "key": "8761ca0fb123dcfc",
+  "kind": "situation",
+  "nb": "Gjelder bare ved langtidsbruk av protonpumpehemmere (mer enn 2-6 måneder)."
+ },
+ {
+  "key": "919f49b69e62181b",
+  "kind": "situation",
+  "nb": "Gjelder bare ved peroral bruk av ketamin, ikke ved parenteral administrasjon."
+ },
+ {
+  "key": "c4e9ad0a2e7a6a07",
+  "kind": "situation",
+  "nb": "Gjelder bare ved peroralt inntak av tetrasykliner, ikke ved intravenøs administrasjon."
+ },
+ {
+  "key": "7e34782c9736629f",
+  "kind": "situation",
+  "nb": "Gjelder bare ved simvastatindoser høyere enn 40 mg/d. Ved simvastatindoser opp til og med 40 mg/d kan kombinasjonen gis."
+ },
+ {
+  "key": "3fcbb6e0f5887a25",
+  "kind": "situation",
+  "nb": "Gjelder bare ved simvastatindoser over 40 mg/døgn"
+ },
+ {
+  "key": "d32466d0a5804f27",
+  "kind": "situation",
+  "nb": "Gjelder bare ved systemisk bruk av fluorouracil og ikke ved lokalbehandling med fluorouracil på huden."
+ },
+ {
+  "key": "abcccb39e703f060",
+  "kind": "situation",
+  "nb": "Gjelder bredspektrede antibiotika gitt peroralt"
+ },
+ {
+  "key": "b2b60fc1f7652f32",
+  "kind": "situation",
+  "nb": "Gjelder esketamin brukt som nesespray (preparatet Spravato)."
+ },
+ {
+  "key": "e06d8f28ccb2acc0",
+  "kind": "situation",
+  "nb": "Gjelder hos eldre pasienter."
+ },
+ {
+  "key": "9d8ed2a3c6c1b99a",
+  "kind": "situation",
+  "nb": "Gjelder hos eldre/skrøpelige pasienter og ellers hos pasienter med allerede nedsatt eller med risiko for nedsatt nyrefuksjon."
+ },
+ {
+  "key": "cac3568839f4dc68",
+  "kind": "situation",
+  "nb": "Gjelder hos eldre/skrøpelige pasienter og ellers hos pasienter med allerede nedsatt eller med risiko for nedsatt nyrefuksjon. Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "30be801646b0eb71",
+  "kind": "situation",
+  "nb": "Gjelder hos eldre/skrøpelige personer."
+ },
+ {
+  "key": "a3a5bb8d459197f3",
+  "kind": "situation",
+  "nb": "Gjelder hos pasienter med nedsatt nyrefunksjon."
+ },
+ {
+  "key": "ae70e9ccec6388e8",
+  "kind": "situation",
+  "nb": "Gjelder hos pasienter med nedsatt nyrefunksjon. Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "cfff7058f71d5a8e",
+  "kind": "situation",
+  "nb": "Gjelder hos pasienter som dessuten har andre risikofaktorer for å utvikle torsades de pointes-arytmier, som for eksempel eksisterende proarytmiske tilstander, hjertesvikt og elektrolyttforstyrrelser (hypokalemi, hypomagnesemi)."
+ },
+ {
+  "key": "27b2bf0df388b24f",
+  "kind": "situation",
+  "nb": "Gjelder hos pasienter som dessuten har andre risikofaktorer for å utvikle torsades de pointes-arytmier, som for eksempel eksisterende proarytmiske tilstander, hjertesvikt og elektrolyttforstyrrelser (hypokalemi, hypomagnesemi). Gjelder ikke klasse IB-antiarytmika som lidokain og meksiletin, og heller ikke klasse IC-antiarytmikumet propafenon."
+ },
+ {
+  "key": "136b83ced83a2d90",
+  "kind": "situation",
+  "nb": "Gjelder hovedsakelig hos eldre pasienter."
+ },
+ {
+  "key": "f9c1848aa0cfc3e2",
+  "kind": "situation",
+  "nb": "Gjelder hvis cisplatin gis før paklitaksel."
+ },
+ {
+  "key": "399f9895c7a3bb89",
+  "kind": "situation",
+  "nb": "Gjelder hvis dolutegravir og etravirin kombineres uten at ritonavir-forsterket atazanavir, darunavir eller lopinavir inngår i kombinasjonen."
+ },
+ {
+  "key": "755954205a4623a0",
+  "kind": "situation",
+  "nb": "Gjelder i en periode på 12 timer etter dosering av oritavancin."
+ },
+ {
+  "key": "e22719b6ccb43f29",
+  "kind": "situation",
+  "nb": "Gjelder i en periode på 120 timer etter dosering av oritavancin."
+ },
+ {
+  "key": "def724b312dbf310",
+  "kind": "situation",
+  "nb": "Gjelder i forbindelse med røykestopp."
+ },
+ {
+  "key": "2b72ffbd149d76b6",
+  "kind": "situation",
+  "nb": "Gjelder i forbindelse med røykestopp. Det er effekten av å slutte å røyke som gir interaksjonen og ikke behandlingen med røykavvenningspreparatet."
+ },
+ {
+  "key": "008554b512d66dd7",
+  "kind": "situation",
+  "nb": "Gjelder i hovedsak når digoksin gis peroralt."
+ },
+ {
+  "key": "60e756ac46c2f614",
+  "kind": "situation",
+  "nb": "Gjelder ikke bruk av heparin til skylling av venekatetere. Gjelder ikke selseksipag."
+ },
+ {
+  "key": "295e11e37303bba1",
+  "kind": "situation",
+  "nb": "Gjelder ikke de første dagene etter oppstart av warfarin hos en pasient som allerede bruker et heparin. Gjelder ikke bruk av heparin til skylling av venekatetere."
+ },
+ {
+  "key": "ce88b2b1d15bd68b",
+  "kind": "situation",
+  "nb": "Gjelder ikke klasse IB-antiarytmika som lidokain og meksiletin, og heller ikke klasse IC-antiarytmikumet propafenon."
+ },
+ {
+  "key": "c52b63007b95b9a0",
+  "kind": "situation",
+  "nb": "Gjelder ikke klozapin og i liten grad kvetiapin."
+ },
+ {
+  "key": "95dade8704738c99",
+  "kind": "situation",
+  "nb": "Gjelder ikke kortvarig bruk, for eksempel i forbindelse med anestesi/kirurgi etc."
+ },
+ {
+  "key": "e6524e6579ff423f",
+  "kind": "situation",
+  "nb": "Gjelder ikke kortvarig bruk, for eksempel i forbindelse med anestesi/kirurgi etc. Gjelder ellers hos eldre/skrøpelige personer."
+ },
+ {
+  "key": "af5f581d2be9aa81",
+  "kind": "situation",
+  "nb": "Gjelder ikke levonorgestrel til intrauterin bruk (\"gestagenspiral\") og heller ikke medroksyprogesteron til depotinjeksjoner."
+ },
+ {
+  "key": "9908520ad0705888",
+  "kind": "situation",
+  "nb": "Gjelder ikke levonorgestrel til intrauterin bruk (\"gestagenspiral\")."
+ },
+ {
+  "key": "d852af28e999367d",
+  "kind": "situation",
+  "nb": "Gjelder ikke levonorgestrel til intrauterin bruk (gestagenspiral) og heller ikke medroksyprogesteron til depotinjeksjoner."
+ },
+ {
+  "key": "847efe876015c32b",
+  "kind": "situation",
+  "nb": "Gjelder ikke levonorgestrel til intrauterin bruk (gestagenspiral)."
+ },
+ {
+  "key": "67cac5764fad038a",
+  "kind": "situation",
+  "nb": "Gjelder ikke nortriptylin."
+ },
+ {
+  "key": "5f91220ff9937a38",
+  "kind": "situation",
+  "nb": "Gjelder ikke nødvendigvis alle statiner (se under)."
+ },
+ {
+  "key": "fdc6c1c8d8853f3e",
+  "kind": "situation",
+  "nb": "Gjelder ikke nødvendigvis ritonavir i seg selv, men midler som kombineres med ritonavir."
+ },
+ {
+  "key": "47699404150c5655",
+  "kind": "situation",
+  "nb": "Gjelder ikke selseksipag."
+ },
+ {
+  "key": "59acbc4afb3ecf93",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved bruk av adrenalin på vital indikasjon."
+ },
+ {
+  "key": "aead483c44fc206c",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved engangsbruk av flukonazol."
+ },
+ {
+  "key": "a4a4394d6c8a9125",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved engangsbruk av flukonazol. Ved flergangsbruk av flukonazol bør kombinasjonen unngås ved oppstart i dosetitreingsfasen med venetoklaks, senere kan kombinasjonen brukes forutsatt at venetoklaksdosen reduseres (se under \"Dosetilpasning\")"
+ },
+ {
+  "key": "447e82f31c3260c6",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "bfc96b95c6e2fc92",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved sporadisk bruk av acetylsalisylsyre. Merk for øvrig informasjon under \"Monitorering\"."
+ },
+ {
+  "key": "41d8c56592dc9a98",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved sporadisk bruk av NSAIDs. Merk for øvrig informasjon under \"Monitorering\". Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "13fcdfd25fcf74fc",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved sporadisk kombinasjonsbruk. Merk for øvrig informasjon under \"Monitorering\"."
+ },
+ {
+  "key": "e72211217e22b1b8",
+  "kind": "situation",
+  "nb": "Gjelder ikke ved transdermal administrasjon av buprenorfin."
+ },
+ {
+  "key": "3229eb038908b93a",
+  "kind": "situation",
+  "nb": "Gjelder inntak av større mengder alkohol."
+ },
+ {
+  "key": "7e6760335b668471",
+  "kind": "situation",
+  "nb": "Gjelder intravenøs bruk av lidokain."
+ },
+ {
+  "key": "2497a815d535ec32",
+  "kind": "situation",
+  "nb": "Gjelder kun ved bruk av analgetiske (høye) doser acetylsalicylsyre."
+ },
+ {
+  "key": "811391ca48527a27",
+  "kind": "situation",
+  "nb": "Gjelder kun ved systemisk behandling med glukokortikoider i farmakologiske doser; gjelder ikke ved substitusjonsbehandling eller lokalbehandling."
+ },
+ {
+  "key": "ec7ab588daae14ef",
+  "kind": "situation",
+  "nb": "Gjelder kun ved systemisk behandling med glukokortikoider i farmakologiske doser; gjelder ikke ved substitusjonsbehandling eller lokalbehandling. Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "82e92ad63812c64a",
+  "kind": "situation",
+  "nb": "Gjelder kun ved systemisk bruk av kloramfenikol, ikke ved lokal bruk i for eksempel øyet."
+ },
+ {
+  "key": "8714cd50fae44a3d",
+  "kind": "situation",
+  "nb": "Gjelder langsomme CYP2D6-metabolisører (ca. 7 % i befolkningen)."
+ },
+ {
+  "key": "4fc91ea196571d72",
+  "kind": "situation",
+  "nb": "Gjelder legemidler i gruppen \"andre antihyperensiver\" som er endotelinreseprtorantagonister, som for eksempel bosentan og ambrisentan."
+ },
+ {
+  "key": "a4c2346f2e16eedd",
+  "kind": "situation",
+  "nb": "Gjelder levenorgestrel i dosen 1,5 mg brukt som nødprevensjon."
+ },
+ {
+  "key": "4bab8b5a1553e009",
+  "kind": "situation",
+  "nb": "Gjelder når ivakaftor gis alene og ikke i fast kombinasjon med andre CFTR-modulatorer."
+ },
+ {
+  "key": "39e095a53101339e",
+  "kind": "situation",
+  "nb": "Gjelder når ivakaftor gis alene og ikke i fast kombinasjon med andre CFTR-modulatorer. Gjelder ved dosering av flukonazol oftere enn en gang i uken, og ikke ved engangsbruk av flukonazol."
+ },
+ {
+  "key": "216c5c228dc88fa4",
+  "kind": "situation",
+  "nb": "Gjelder når ivakaftor gis alene og ikke i fast kombinasjon med andre virkestoffer som øker CFTR-aktiviteten."
+ },
+ {
+  "key": "19fe7160f0a8e720",
+  "kind": "situation",
+  "nb": "Gjelder når ivakaftor ikke gis i kombinasjon med lumakaftor."
+ },
+ {
+  "key": "ba86a69458e76e97",
+  "kind": "situation",
+  "nb": "Gjelder når ketokonazol brukes systemisk, ikke når det brukes lokalt."
+ },
+ {
+  "key": "d5f15fe3321bcd06",
+  "kind": "situation",
+  "nb": "Gjelder når midazolam gis peroralt. Ved parenteral bruk av midazolam kan midlene kombineres."
+ },
+ {
+  "key": "57770b2aff2b3a5d",
+  "kind": "situation",
+  "nb": "Gjelder når nimodipin gis peroralt. Trolig minimal interaksjonsrisiko når nimodipin gis interavenøst."
+ },
+ {
+  "key": "0ca8e351ee309981",
+  "kind": "situation",
+  "nb": "Gjelder når ondansetron gis peroralt."
+ },
+ {
+  "key": "84fb4639633a7921",
+  "kind": "situation",
+  "nb": "Gjelder pasienter med forhøyet utgangsrisiko for gastritt/ulcus etc., samt pasienter med stort alkoholinntak over tid."
+ },
+ {
+  "key": "9a2e010232713050",
+  "kind": "situation",
+  "nb": "Gjelder pasienter med forhøyet utgangsrisiko for gastritt/ulcus etc., samt pasienter med stort alkoholinntak over tid. Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "9d4ce6b221730df4",
+  "kind": "situation",
+  "nb": "Gjelder peroral bruk av midazolam."
+ },
+ {
+  "key": "a7313bab55265f1c",
+  "kind": "situation",
+  "nb": "Gjelder peroral bruk av oksykodon."
+ },
+ {
+  "key": "74576caf906ee0ba",
+  "kind": "situation",
+  "nb": "Gjelder peroralt inntak av furosemid, ikke parenteral bruk."
+ },
+ {
+  "key": "2e9aed6f84632a08",
+  "kind": "situation",
+  "nb": "Gjelder peroralt inntak av paracetamol."
+ },
+ {
+  "key": "a886bbda2d23f75e",
+  "kind": "situation",
+  "nb": "Gjelder preparater som inneholder magnesiumkarbonat, og ikke preparater som kun inneholder andre magnesiumsalter, som ”Nycoplus Magnesium”."
+ },
+ {
+  "key": "13771a0d249187dd",
+  "kind": "situation",
+  "nb": "Gjelder spesielt antipsykotika med sederende effekter."
+ },
+ {
+  "key": "430bdb1b80eed57c",
+  "kind": "situation",
+  "nb": "Gjelder spesielt ved bruk av erytromycin intravenøst."
+ },
+ {
+  "key": "66c0b2ca70429a58",
+  "kind": "situation",
+  "nb": "Gjelder trolig kun ved systemisk bruk av høye doser glukokortikoider (i størrelsesorden 500-1000 mg metylprednisolon eller tilsvarende for andre glukokortikoider)."
+ },
+ {
+  "key": "18c07f8519aa5eb1",
+  "kind": "situation",
+  "nb": "Gjelder uansett ved intravenøs administrasjon av erytromycin. Gjelder ved peroral administrasjon særlig hos pasienter som dessuten har andre risikofaktorer for å utvikle torsades de pointes-arytmier, som for eksempel eksisterende proarytmiske tilstander, hjertesvikt og elektrolyttforstyrrelser (hypokalemi, hypomagnesemi)."
+ },
+ {
+  "key": "2fae6d063daa13ec",
+  "kind": "situation",
+  "nb": "Gjelder uansett ved intravenøs administrasjon av erytromycin. Gjelder ved peroral administrasjon særlig hos pasienter som dessuten har andre risikofaktorer for å utvikle torsades de pointes-arytmier, som for eksempel eksisterende proarytmiske tilstander, hjertesvikt og elektrolyttforstyrrelser (hypokalemi, hypomagnesemi). Gjelder ikke klasse IB-antiarytmika som lidokain og meksiletin, og heller ikke klasse IC-antiarytmikumet propafenon."
+ },
+ {
+  "key": "732a1703390810c1",
+  "kind": "situation",
+  "nb": "Gjelder ved amitriptylindoser større eller lik 75 mg daglig."
+ },
+ {
+  "key": "d0b008d3f6dc193d",
+  "kind": "situation",
+  "nb": "Gjelder ved atorvastatindoser over 20 mg/døgn"
+ },
+ {
+  "key": "a9f1cb29b9d2a6aa",
+  "kind": "situation",
+  "nb": "Gjelder ved atorvastatindoser over 40 mg daglig."
+ },
+ {
+  "key": "2abbb4d2633bd693",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser acetylsalisylsyre for analgesi/antiinflammasjon. Gjelder ikke dipryridamol. Gjelder ikke selseksipag."
+ },
+ {
+  "key": "0e0bceeaf0448986",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser dronedaron."
+ },
+ {
+  "key": "604c548b1b0e3086",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser metotreksat intravenøst som kreftbehandling sammen med høye (analgetiske) doser acetylsalisylsyre. Ved bruk av lave doser metotreksat til injeksjon eller peroralt som immunsuppressiv behandling (for eksempel ved revmatoid artritt eller psoriasis), kan midlene kombineres hvis forholdsregler tas. Ingen forholdsregler er nødvendig ved bruk av lavdose acetylsalisylsyre som platehemming."
+ },
+ {
+  "key": "4c55519d96b318bc",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser metotreksat intravenøst som kreftbehandling. Ved bruk av lave doser metotreksat til injeksjon eller peroralt som immunsuppressiv behandling (for eksempel ved revmatoid artritt eller psoriasis), kan midlene kombineres hvis forholdsregler tas."
+ },
+ {
+  "key": "f119ca984d7ab22f",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser metotreksat intravenøst som kreftbehandling. Ved bruk av lave doser metotreksat til injeksjon eller peroralt som immunsuppressiv behandling (for eksempel ved revmatoid artritt eller psoriasis), kan midlene kombineres hvis forholdsregler tas. Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "e10420ab05a10ff3",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser metotreksat intravenøst som kreftbehandling. Ved bruk av lave doser metotreksat til injeksjon eller peroralt som immunsuppressiv behandling (for eksempel ved revmatoid artritt eller psoriasis), kan midlene kombineres uten videre."
+ },
+ {
+  "key": "8346c3f3cb4f9ea8",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av høye doser protonpumpehemmere hos eldre pasienter."
+ },
+ {
+  "key": "1b37c88d2bb5f234",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av kombinasjonen i to uker eller mer."
+ },
+ {
+  "key": "771b3b7ec79e8605",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av lave doser metotreksat peroralt eller til injeksjon 1-2 ganger per uke som immunsuppressiv behandling ved for eksempel revmatoid artritt og psoriasis, sammen med høye (analgetiske) doser acetylsalisylsyre. Ved bruk av høye doser metotreksat til kreftbehandling bør kombinasjonen med høye (analgetiske) doser acetylsalisylsyre unngås. Ingen forholdsregler er nødvendig ved bruk av lavdose acetylsalisylsyre som platehemming."
+ },
+ {
+  "key": "b8edf0555823d3ee",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av lave doser metotreksat peroralt eller til injeksjon 1-2 ganger per uke som immunsuppressiv behandling ved for eksempel revmatoid artritt og psoriasis, sammen med lave doser acetylsalisylsyre brukt som platehemmer. Ved bruk av høye (analgetiske) doser acetylsalisylsyre, se separat interaksjonsvarsel."
+ },
+ {
+  "key": "ff2b29acb7c55ff0",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av lave doser metotreksat peroralt eller til injeksjon 1-2 ganger per uke som immunsuppressiv behandling ved for eksempel revmatoid artritt og psoriasis, spesielt ved samtidig nedsatt nyrefunksjon. Ved bruk av høye doser metotreksat til kreftbehandling bør kombinasjonen unngås. Gjelder ikke ved lokal bruk av NSAIDs."
+ },
+ {
+  "key": "3d20b49165500650",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av lave doser metotreksat peroralt eller til injeksjon 1-2 ganger per uke som immunsuppressiv behandling ved for eksempel revmatoid artritt og psoriasis. Ved bruk av høye doser metotreksat til kreftbehandling bør kombinasjonen unngås."
+ },
+ {
+  "key": "0ffad43a6757d4a7",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av lave doser metotreksat peroralt eller til injeksjon 1-2 ganger per uke som immunsuppressiv behandling ved for eksempel revmatoid artritt og psoriasis. Ved bruk av høye doser metotreksat til kreftbehandling bør pasienten følges opp med tanke på økt risiko for benmargsdepresjon og andre toksiske effekter."
+ },
+ {
+  "key": "ae91efd1c7c4a5f7",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av medroksyprogesteron i høye doser, som ved cancer."
+ },
+ {
+  "key": "549241d90bb45c8b",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av mikonazol intraoralt. Gjelder også ved bruk av mikonazol krem over store hudområder, ikke minst på intertrigosteder med skadet hud, eller vaginalt."
+ },
+ {
+  "key": "5a6de2f7f2f891d6",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av peroralt nimodipin. Ved bruk av parenteralt nimodipin kan midlene kombineres hvis forholdsregler tas."
+ },
+ {
+  "key": "a5c19f18fc3fd9b5",
+  "kind": "situation",
+  "nb": "Gjelder ved bruk av tiazider i høye doser (50-100 mg daglig eller mer),"
+ },
+ {
+  "key": "1cd5730f217ebe83",
+  "kind": "situation",
+  "nb": "Gjelder ved dosering av flukonazol oftere enn en gang i uken, og ikke ved engangsbruk av flukonazol."
+ },
+ {
+  "key": "25bde2ecca9787db",
+  "kind": "situation",
+  "nb": "Gjelder ved dosering av flukonazol oftere enn en gang i uken, og ikke ved engangsdosering av flukonazol."
+ },
+ {
+  "key": "e22185d1c6fd57b8",
+  "kind": "situation",
+  "nb": "Gjelder ved dosering av flukonazol oftere enn en gang i uken, samtidig som nimoripin gis peroralt. Trolig minimal interaksjonsrisiko når nimodipin gis interavenøst eller ved engangsdosering av flukonazol."
+ },
+ {
+  "key": "65ac3f35ed68d693",
+  "kind": "situation",
+  "nb": "Gjelder ved fluvoksamindoser større eller lik 100 mg daglig."
+ },
+ {
+  "key": "5b7b83a18edc3325",
+  "kind": "situation",
+  "nb": "Gjelder ved høye  (analgetiske) doser acetylsalisylsyre."
+ },
+ {
+  "key": "063ec7064e9b8574",
+  "kind": "situation",
+  "nb": "Gjelder ved lovastatindoser over 20 mg/døgn"
+ },
+ {
+  "key": "e0d1675b1d97b645",
+  "kind": "situation",
+  "nb": "Gjelder ved lovastatindoser over 40 mg/døgn."
+ },
+ {
+  "key": "900dd3436006a059",
+  "kind": "situation",
+  "nb": "Gjelder ved metoprololdoser over 100 mg/døgn."
+ },
+ {
+  "key": "4d40d5841c34963d",
+  "kind": "situation",
+  "nb": "Gjelder ved oppstart og i dosetitreringsfasen med venetoklaks."
+ },
+ {
+  "key": "48097d41c966f2b3",
+  "kind": "situation",
+  "nb": "Gjelder ved oppstart og i dosetitreringsfasen med venetoklaks. Senere kan midlene kombineres forutsatt at venetoklaksdosen reduseres betydelig (se under \"Dosetilpasning\")."
+ },
+ {
+  "key": "8d94adcdd2c71491",
+  "kind": "situation",
+  "nb": "Gjelder ved paracetmoldoser på 3 g/døgn eller mer over flere dager."
+ },
+ {
+  "key": "03e553f36820b91c",
+  "kind": "situation",
+  "nb": "Gjelder ved perampaneldoser på 12 mg/d eller mer, samt ved peroralt innrak av progestogenet, ikke ved lokalbehandling."
+ },
+ {
+  "key": "82a0b8f1729e6179",
+  "kind": "situation",
+  "nb": "Gjelder ved perampaneldoser på 12 mg/d eller mer. Gjelder ikke levonorgestrel til intrauterin bruk (\"gestagenspiral\") uansett perampaneldose."
+ },
+ {
+  "key": "582a05ef02bd7d36",
+  "kind": "situation",
+  "nb": "Gjelder ved peroral bruk av nimodipin. Ved intravenøs bruk av nimodipin kan midlene kombineres."
+ },
+ {
+  "key": "f45e6c468a2d6967",
+  "kind": "situation",
+  "nb": "Gjelder ved peroralt innrak av progestogenet, ikke ved lokalbehandling."
+ },
+ {
+  "key": "adca1fdeaf76a439",
+  "kind": "situation",
+  "nb": "Gjelder ved peroralt inntak av magnesium og kinoloner."
+ },
+ {
+  "key": "ce41babe58b8c57c",
+  "kind": "situation",
+  "nb": "Gjelder ved peroralt inntak av magnesium og tetrasykliner."
+ },
+ {
+  "key": "606f995860f9c0af",
+  "kind": "situation",
+  "nb": "Gjelder ved peroralt inntak av magnesium."
+ },
+ {
+  "key": "eb42c607ba63bf60",
+  "kind": "situation",
+  "nb": "Gjelder ved peroralt inntak."
+ },
+ {
+  "key": "ec51571cd9bf5d33",
+  "kind": "situation",
+  "nb": "Gjelder ved simvastatindoser over 20 mg/døgn"
+ },
+ {
+  "key": "3f16a057097eee47",
+  "kind": "situation",
+  "nb": "Gjelder ved simvastatindoser over 40 mg/døgn"
+ },
+ {
+  "key": "862799a09147845b",
+  "kind": "situation",
+  "nb": "Gjelder ved store alkoholinntak over tid."
+ },
+ {
+  "key": "0e0fc9879a557e22",
+  "kind": "situation",
+  "nb": "Gjelder ved stort alkoholinntak over tid."
+ },
+ {
+  "key": "a8c3f9946a454ea8",
+  "kind": "situation",
+  "nb": "Gjelder ved tramadoldoser på 150 mg/døgn eller mer."
+ },
+ {
+  "key": "efaf42ccf2638e91",
+  "kind": "situation",
+  "nb": "Hvis det ikke er mulig å unngå kombinasjonen, må dosen av propranolol justeres."
+ },
+ {
+  "key": "696832028f511c8a",
+  "kind": "situation",
+  "nb": "Hvis ikke kombinasjonen kan unngås, må dosen av everolimus reduseres og pasienten følges svært nøye opp."
+ },
+ {
+  "key": "614d7965177fdf5f",
+  "kind": "situation",
+  "nb": "Hvis ikke kombinasjonen kan unngås, må dosen av sirolimus reduseres og pasienten følges svært nøye opp."
+ },
+ {
+  "key": "d3b9f1c7037c8449",
+  "kind": "situation",
+  "nb": "Hvis ikke kombinasjonen kan unngås, må dosen av takrolimus reduseres og pasienten følges svært nøye opp."
+ },
+ {
+  "key": "99b77dbc5b3a50d1",
+  "kind": "situation",
+  "nb": "Hvis kombinasjonen ikke kan unngås og pasienter bruker ribosiklib i doser på 400 mg/d eller mer, må dosen av ribosiklib reduseres."
+ },
+ {
+  "key": "12a8486e72807b73",
+  "kind": "situation",
+  "nb": "Hvis kombinasjonen ikke kan unngås, må dosen av olaparib reduseres."
+ },
+ {
+  "key": "45d1d2c1b9ddcbc1",
+  "kind": "situation",
+  "nb": "Hvis kombinasjonen må gis, må det forventes at dosen av sildenafil må økes betydelig for å få effekt."
+ },
+ {
+  "key": "9f3d5520f6a49d11",
+  "kind": "situation",
+  "nb": "Ifølge preparatomtalen for eszopiklon er kombinasjonen av eszopiklon og potente hemmere av CYP3A4 kontraindisert hos eldre. En tilsvarende kontraindikasjon finnes ikke i preparatomtalen for \"søsterpreparatet\" zopiklon, uten at det er noe farmakologisk rasjonale bak denne forskjellen."
+ },
+ {
+  "key": "7dd1784c9f32af89",
+  "kind": "situation",
+  "nb": "Interaksjonen er bare aktuell for preparatet Ryeqo, som brukes hos kvinner, og ikke for preparatet Orgovyx, som utelukkende brukes hos menn."
+ },
+ {
+  "key": "44c2bbbd602e2a87",
+  "kind": "situation",
+  "nb": "Interaksjonen gjelder ved peroral bruk av midazolam. Når midazolam gis intravenøst, er neppe noen stor dosereduksjon nødvendig. Som enkeltdose gitt bukkalt i forbindelse med krampeanfall kan vanlig midazolamdose gis."
+ },
+ {
+  "key": "e718d76dc8cbc708",
+  "kind": "situation",
+  "nb": "Interaksjonen gjelder ved peroral og intravenøs bruk av midazolam. Som enkeltdose gitt bukkalt i forbindelse med krampeanfall kan vanlig midazolamdose gis."
+ },
+ {
+  "key": "26e7554addc129c0",
+  "kind": "situation",
+  "nb": "Interaksjonsteksten gjelder når timolol er gitt som øyedråper"
+ },
+ {
+  "key": "56bb593745a3aa51",
+  "kind": "situation",
+  "nb": "Kan kombineres hvis det er påkrevet og pasienten overvåkes nøye."
+ },
+ {
+  "key": "943f0bbb819e899a",
+  "kind": "situation",
+  "nb": "Kan kombineres hvis det er påkrevet og pasienten overvåkes."
+ },
+ {
+  "key": "11c4a437532e1e81",
+  "kind": "situation",
+  "nb": "Kombinasjonen eliglustat og itrakonazol er kontraindisert hos pasienter som i tillegg bruker en sterk hemmer av CYP2D6 (bupropion, cinacalcet, fluoksetin, mirabegron, paroksetin, terbinafin), siden konsentrasjonen av eliglustat da kan øke 25 ganger. Kombinasjonen er også kontraindisert hos pasienter som er langsomme metabolisører for CYP2D6."
+ },
+ {
+  "key": "a032811fdc915f2f",
+  "kind": "situation",
+  "nb": "Kombinasjonen eliglustat og ketokonazol er kontraindisert hos pasienter som i tillegg bruker en sterk hemmer av CYP2D6 (bupropion, cinacalcet, fluoksetin, mirabegron, paroksetin, terbinafin), siden konsentrasjonen av eliglustat da kan øke 25 ganger. Kombinasjonen er også kontraindisert hos pasienter som er langsomme metabolisører for CYP2D6."
+ },
+ {
+  "key": "a849d03dd8879e98",
+  "kind": "situation",
+  "nb": "Kombinasjonen eliglustat og kobicistat er kontraindisert hos pasienter som i tillegg bruker en sterk hemmer av CYP2D6 (bupropion, cinacalcet, fluoksetin, mirabegron, paroksetin, terbinafin), siden konsentrasjonen av eliglustat da kan øke 25 ganger. Kombinasjonen er også kontraindisert hos pasienter som er langsomme metabolisører for CYP2D6."
+ },
+ {
+  "key": "0a03ef092d6c87f3",
+  "kind": "situation",
+  "nb": "Kombinasjonen eliglustat og psakonazol er kontraindisert hos pasienter som i tillegg bruker en sterk hemmer av CYP2D6 (bupropion, cinacalcet, fluoksetin, mirabegron, paroksetin, terbinafin), siden konsentrasjonen av eliglustat da kan øke 25 ganger. Kombinasjonen er også kontraindisert hos pasienter som er langsomme metabolisører for CYP2D6."
+ },
+ {
+  "key": "95180f1fe1d512af",
+  "kind": "situation",
+  "nb": "Kombinasjonen eliglustat og ritonavir er kontraindisert hos pasienter som i tillegg bruker en sterk hemmer av CYP2D6 (bupropion, cinacalcet, fluoksetin, mirabegron, paroksetin, terbinafin), siden konsentrasjonen av eliglustat da kan øke inntil 25 ganger. Kombinasjonen er også kontraindisert hos pasienter som er langsomme metabolisører for CYP2D6."
+ },
+ {
+  "key": "7502c141071e28b2",
+  "kind": "situation",
+  "nb": "Kombinasjonen eliglustat og vorikonazol er kontraindisert hos pasienter som i tillegg bruker en sterk hemmer av CYP2D6 (bupropion, cinacalcet, fluoksetin, mirabegron, paroksetin, terbinafin), siden konsentrasjonen av eliglustat da kan øke 25 ganger. Kombinasjonen er også kontraindisert hos pasienter som er langsomme metabolisører for CYP2D6."
+ },
+ {
+  "key": "373e61c1a1e36284",
+  "kind": "situation",
+  "nb": "Kombinasjonen med statinet bør unngås når pasienten også behandles med ciklosporin."
+ },
+ {
+  "key": "99292647a4adcc2b",
+  "kind": "situation",
+  "nb": "Merk informasjon under \"Dosetilpasning\""
+ },
+ {
+  "key": "96ce3dda6e92f67d",
+  "kind": "situation",
+  "nb": "Midazolam gitt peroralt bør unngås. Når midazolam gis intravenøst, bør dosen reduseres. Som enkeltdose gitt bukkalt i forbindelse med krampeanfall kan trolig vanlig midazolamdose gis."
+ },
+ {
+  "key": "ac6a57ec4175cf3b",
+  "kind": "situation",
+  "nb": "Om kombinasjonen bør unngås eller ikke, avhenger av hvilke øvrige midler kobicstat kombineres med."
+ },
+ {
+  "key": "5776c0baff72a82e",
+  "kind": "situation",
+  "nb": "Prednisolon/prednison kan gis uten spesielle foholdsregler ved behandling med Paxlovid for covid-19 ."
+ },
+ {
+  "key": "ee73420ec23ef580",
+  "kind": "situation",
+  "nb": "Særlig oppfølging nødvendig ved intravenøs administrasjon av azitromycin. Ved peroral administrasjon av azitromycin er pasienter som dessuten har andre risikofaktorer for å utvikle torsades de pointes-arytmier, som for eksempel eksisterende proarytmiske tilstander, hjertesvikt og elektrolyttforstyrrelser (hypokalemi, hypomagnesemi) mest utsatt."
+ },
+ {
+  "key": "987ddae284901084",
+  "kind": "situation",
+  "nb": "Særlig oppfølging nødvendig ved intravenøs administrasjon av erytromycin. Ved peroral administrasjon av erytromycin er pasienter som dessuten har andre risikofaktorer for å utvikle torsades de pointes-arytmier, som for eksempel eksisterende proarytmiske tilstander, hjertesvikt og elektrolyttforstyrrelser (hypokalemi, hypomagnesemi) mest utsatt."
+ },
+ {
+  "key": "29fd66e86b57297b",
+  "kind": "situation",
+  "nb": "Ufraksjonert heparin kan likevel brukes i lave doser for å holde venøse eller arterielle katetere åpne, eller i forbindelse med kateterablasjon for atrieflimmer."
+ },
+ {
+  "key": "727a0e72ee5f21cc",
+  "kind": "situation",
+  "nb": "Ved bruk av midzolam gitt peroralt som premedikasjon bør dosen reduseres. Når midazolam gis intravenøst eller som enkeltdose bukkalt i forbindelse med krampeanfall kan vanlig midazolamdose gis."
+ },
+ {
+  "key": "299447f4e0044b26",
+  "kind": "sourceBasis",
+  "nb": "Indirekte data"
+ },
+ {
+  "key": "7ae2b51b2b3a2ead",
+  "kind": "sourceBasis",
+  "nb": "Interaksjonsstudier"
+ },
+ {
+  "key": "09a7d46854ff75f2",
+  "kind": "sourceBasis",
+  "nb": "Interaksjonsstudier og kasusrapporter"
+ },
+ {
+  "key": "e4505bd8376a5c7a",
+  "kind": "sourceBasis",
+  "nb": "Kasusrapporter"
+ }
+]

@@ -1,0 +1,20 @@
+{
+  "pair": "clonazepam__difelikefalin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "The clonazepam label sections describe opioid co-use in general terms without naming difelikefalin; no controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"clonazepam\"[tiab] AND \"difelikefalin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

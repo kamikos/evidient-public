@@ -1,0 +1,21 @@
+{
+  "pair": "adalimumab__ciclesonide",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "does_not_support",
+      "rationale": "The label's 'concomitant immunosuppressants (such as corticosteroids)' refers to immunosuppressive therapy, and inhaled/intranasal ciclesonide is not clearly within that class, so the quote does not establish infection risk for this pair."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "does_not_support"
+    },
+    {
+      "path": "reported.0",
+      "support": "does_not_support"
+    }
+  ]
+}

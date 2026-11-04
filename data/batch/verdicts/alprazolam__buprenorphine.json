@@ -1,0 +1,30 @@
+{
+  "pair": "alprazolam__buprenorphine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The alprazolam boxed warning covers benzodiazepines with opioids, and buprenorphine is an opioid."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The buprenorphine interaction table attributes increased respiratory depression, profound sedation, coma and death with benzodiazepines to additive pharmacologic effects."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

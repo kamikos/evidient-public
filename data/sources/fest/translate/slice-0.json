@@ -1,0 +1,4157 @@
+[
+ {
+  "key": "3133a2fb15062237",
+  "kind": "consequence",
+  "nb": " Økt konsentrasjon av teofyllin (inntil 2-3 ganger) ved røykestopp. Hos eldre ser forskjellene ut til å være mindre enn hos yngre og  mindre enn de tallene som her er angitt."
+ },
+ {
+  "key": "8000a987ddc42c22",
+  "kind": "consequence",
+  "nb": "Antagonistisk effekt"
+ },
+ {
+  "key": "a4d728137103105a",
+  "kind": "consequence",
+  "nb": "Anti-HIV-midler må unngås fra minst en måned før mobilisering av stamceller til minst 7 dager etter infusjon av Zynteglo."
+ },
+ {
+  "key": "48c9fc03dea55c7d",
+  "kind": "consequence",
+  "nb": "Basert på data med den kraftige enzyminduktoren rifampicin forventes en betydelig reduksjon (kanskje inntil 80 % nedgang) i konsentrasjonen av zopiklon. Minimale endringer forventes i konsentrasjonen av karbamazepin og den aktive metabolitten karbamazepin-epoksid. Hvis pasienten bruker zopiklon fra før og starter opp med karbamazepin vil det være en økt risiko for for sentralnervøse bivirkninger/ugunstige kognitive effekter de første dagene, før induksjonseffekten kommer."
+ },
+ {
+  "key": "687cfc8f7bd0658d",
+  "kind": "consequence",
+  "nb": "Behandling med jernchelatorer må avbrytes 7 dager før oppstart av myeloablativ kondisjonering. Ved bruk av jernchelatorer de første seks månedene etter infusjon av Zynteglo, bør ikke-myelosuppressive chelatorer velges fremfor chelatorer som kan gi myelosuppresjon."
+ },
+ {
+  "key": "3061d62f8f90782e",
+  "kind": "consequence",
+  "nb": "Betydelig nedsatt INR."
+ },
+ {
+  "key": "825a89d460b30b83",
+  "kind": "consequence",
+  "nb": "Betydelig nedsatt konsentrasjon av bosutinib (mer enn 90 % reduksjon vist med den kraftige enzyminduktoren rifampicin), med terapisvikt som resultat."
+ },
+ {
+  "key": "e6b47930d854691a",
+  "kind": "consequence",
+  "nb": "Betydelig nedsatt konsentrasjon av erytromycin."
+ },
+ {
+  "key": "a65a8e911a3123c5",
+  "kind": "consequence",
+  "nb": "Betydelig nedsatt konsentrasjon av erytromycin. Det er usikkert om konsentrasjonen av fenytoin påvirkes. Selv om det finnes studier som ikke viser noen påvirkning på fenytoinkonsentrasjonen, kan det ikke utelukkes at enkeltindivider kan få økt konsentrasjon av fenytoin."
+ },
+ {
+  "key": "8a8b2d19f5ba2bae",
+  "kind": "consequence",
+  "nb": "Betydelig økt blødningsrisiko, inklusive økt risiko for fatal cerebral blødning. I en studie med streptokinase økte risikoen for død fra 19 % uten samtidig bruk av acetylsalisylsyre til 34 % ved samtidig bruk av acetylsalislysyre, i all hovedsak pga. cerebrale blødninger. Tilsvarende er vist i en nyere studie med alteplase, der risikoen for intracerebral blødning økte fra 1,6 % til 4,3 %."
+ },
+ {
+  "key": "a2a49cbba252fd95",
+  "kind": "consequence",
+  "nb": "Betydelig økt konsentrasjon av bosutinib."
+ },
+ {
+  "key": "8d0c436c97d95198",
+  "kind": "consequence",
+  "nb": "Bronkokonstringerende effekt (gjelder fremfor alt uselektive betablokkere som proporanolol of timolol)."
+ },
+ {
+  "key": "a22dfad0ec723bd7",
+  "kind": "consequence",
+  "nb": "Bruk av hormonelle prevensjonsmidler er urasjonelt siden Ryeqo virker antikonseptivt i seg selv. Kombinasjonen er kontraindisert i preparatomtalen for Ryeqo. For informasjon om ikke-hormonell prevensjon i forbindelse med bruk av Ryeqo hos kvinner i fertil alder, se preparatomtalen for Ryeqo."
+ },
+ {
+  "key": "40127f0cc86c5a1b",
+  "kind": "consequence",
+  "nb": "Delvis gjensidig nedsatt effekt."
+ },
+ {
+  "key": "9bad6e4ab2288acb",
+  "kind": "consequence",
+  "nb": "Dempet disulfiram/etanolreaksjon."
+ },
+ {
+  "key": "54e442db1c4e5eb8",
+  "kind": "consequence",
+  "nb": "Dosebehovet av lamotrigin vil anslagsvis være dobbelt så høyt i kombinasjon med karbamazepin."
+ },
+ {
+  "key": "4e39be6ce6d6ef33",
+  "kind": "consequence",
+  "nb": "Doseøkning av antidiabetika kan bli nødvendig."
+ },
+ {
+  "key": "81bed42f38dff38d",
+  "kind": "consequence",
+  "nb": "Effekten på maraviroc-konsentrasjonen er avhengig av hvilket tredje middel som gis.  Se spesifikke doseringsanvisninger i preparatomtalen for etravirin."
+ },
+ {
+  "key": "f2275493763572c2",
+  "kind": "consequence",
+  "nb": "En økning i konsentrasjonen av tetrahydrocannabinol (80 %) og cannabidiol (to ganger) er vist for den kraftige enzymhemmeren ketokonazol. Flukonazol er imidlertid en svakere hemmer enn ketokonazol av CYP3A4, som i hovedsak står for metabolismen av cannabidiol, men en kraftigere hemmer enn ketokonazol av CYP2C9, som står for metabolismen av tetrahydocannabinol. En vil derfor forvente at økningen i konsentrasjonen kan bli større enn nevnt over for tetrahydrocannabinol, men mindre enn nevnt over for cannabidiol."
+ },
+ {
+  "key": "a61ca5be5b1a2a1e",
+  "kind": "consequence",
+  "nb": "Etravirin kan påvirke nivåene av en rekke midler som kombineres med ritonavir. Dette er til dels lite undersøkt og det gis motstridende anbefalinger i ulike kilder. Det er postulert en redusert konsentrasjon av ombitasvir og paritaprevir (gjelder kombinasjonspreparater som inneholder disse virkestoffene)."
+ },
+ {
+  "key": "a1262690c3540835",
+  "kind": "consequence",
+  "nb": "Eventuell risiko for blodtrykksstigning."
+ },
+ {
+  "key": "a9c2c5a02627b0fd",
+  "kind": "consequence",
+  "nb": "Eventuell risiko for blodtrykksstigning. Eventuelt også nedsatt effekt på reduksjonen av øyetrykket."
+ },
+ {
+  "key": "ee4c58c6e3ea941d",
+  "kind": "consequence",
+  "nb": "Eventuelt økt omdannelse til aktive metabolitter av cyklofosfamid, mulig økt effekt av cyklofosfamid."
+ },
+ {
+  "key": "fcf9ee3035549551",
+  "kind": "consequence",
+  "nb": "Eventuelt økt omdannelse til aktive metabolitter av ifosfamid, mulig økt effekt av ifosfamid."
+ },
+ {
+  "key": "1e71a3089fd215b8",
+  "kind": "consequence",
+  "nb": "Falsk forhøyede testresultater for aPTT i inntil 120 timer etter dosering av oritavancin. Derfor kan ikke aPTT brukes for å styre doseringen av heparin. I følge preraratomtalen for oritvancin er bruk av intravenøs ufraksjonert heparin kontraindisert i 120 timer (5 dager) etter bruk av oritavancin."
+ },
+ {
+  "key": "7bb1bb9b8df146f7",
+  "kind": "consequence",
+  "nb": "Falsk forhøyede testresultater for INR i inntil 12 timer etter dosering av oritavancin. Derfor kan ikke INR brukes for å styre doseringen av warfarin i denne tidsperioden."
+ },
+ {
+  "key": "c76f1a04aec36c63",
+  "kind": "consequence",
+  "nb": "Forsinket absorpsjon av paracetamol når midlet tas 1-4 timer etter administrasjon av lisexenatid."
+ },
+ {
+  "key": "ce57a11417d41641",
+  "kind": "consequence",
+  "nb": "Forventet nedsatt konsentrasjon av loratadin (ukjent omfang, siden loratadin er en produg har dette ingen klinisk betydning), usikker effekt på den aktive metabolitten desloratadin."
+ },
+ {
+  "key": "79d96766d36decb8",
+  "kind": "consequence",
+  "nb": "Forverrelse av diabetes."
+ },
+ {
+  "key": "208c07f07b4f98e1",
+  "kind": "consequence",
+  "nb": "Forverret Parkinsons sykdom eller utvikling av parkinsonistiske bivirkninger av metoklopramid."
+ },
+ {
+  "key": "36a1a4b656a862a7",
+  "kind": "consequence",
+  "nb": "Gjensidig nedsatt effekt."
+ },
+ {
+  "key": "49d81fefdb1e199d",
+  "kind": "consequence",
+  "nb": "Gjensidig nedsatte effekter."
+ },
+ {
+  "key": "539ed8306965eaad",
+  "kind": "consequence",
+  "nb": "Gjensidig økt konsentrasjon (20-30 %), beskjedne additive nedsatte effekter på inotropi."
+ },
+ {
+  "key": "ccdf2cca42d9bf35",
+  "kind": "consequence",
+  "nb": "Gjensidig økt konsentrasjon."
+ },
+ {
+  "key": "4bc49e116fefcce3",
+  "kind": "consequence",
+  "nb": "Gjenstidig påvirket konsentrasjon, i hovedsak en lett redusert konsentrasjon (effekt avhengig av hvilke andre midler som gis i tillegg til efavirenz og ritonavir)"
+ },
+ {
+  "key": "e8cc99890cfffb35",
+  "kind": "consequence",
+  "nb": "Hemmet omdannelse fra kodein til morfin, mulig nedsatt effekt av kodein"
+ },
+ {
+  "key": "3cc10bdeacc7d238",
+  "kind": "consequence",
+  "nb": "Hemmet omdannelse fra tramadol til aktiv metabolitt, mulig nedsatt effekt av tramadol"
+ },
+ {
+  "key": "0758524a009b7098",
+  "kind": "consequence",
+  "nb": "I en studie er økt  konsentrasjon av kloramfenikol påvist, i en annen studie er nedsatt konsentrasjon påvist. Begge studiene er imidlertid kraftig kritisert på metodologisk grunnlag, og funnene er svært usikre. Andre studier påviser ingen interaksjon."
+ },
+ {
+  "key": "92131c1c923d5566",
+  "kind": "consequence",
+  "nb": "I en studie på friske forspøkspersoner ble det funnet en økt konsentrasjon av midostaurin (ca. 10 ganger) og aktive metabolitter (3-4 ganger) ved samtidig bruk av den kraftige CYP3A4-hemmeren ketonozazol. Betydelig lavere påvirkning er vist hos pasienter med den i utgangspunktet like kraftige enzymhemmeren itrakonazol. Disse motstridende resultatene er overraskende og kan ikke forklares ut fra de resultatene som er presentert i preparatomtalen for midostaurin. I tilegg viste en klinisk studie på ca. 200 pasienter at konsentrasjonen av midostaurin kun økte med 40-50 % ved samtidig behandling med sterke CYP3A4-hemmere."
+ },
+ {
+  "key": "ac256dd4f446bc30",
+  "kind": "consequence",
+  "nb": "I en studie på friske forspøkspersoner ble det funnet en økt konsentrasjon av midostaurin (ca. 10 ganger) og aktive metabolitter (3-4 ganger) ved samtidig bruk av ketonozazol. Betydelig lavere påvirkning er vist hos pasienter med den i utgangspunktet like kraftige enzymhemmeren itrakonazol. Disse motstridende resultatene er overraskende og kan ikke forklares ut fra de resultatene som er presentert i preparatomtalen for midostaurin. I tilegg viste en klinisk studie på ca. 200 pasienter at konsentrasjonen av midostaurin kun økte med 40-50 % ved samtidig behandling med sterke CYP3A4-hemmere."
+ },
+ {
+  "key": "0e0f8d0f82acf8db",
+  "kind": "consequence",
+  "nb": "I en studie sank konsetrasjonen av apiksaban med 20 % ved samtidig behandling med takrolimus. Dette er så lite at det kan ses bort fra."
+ },
+ {
+  "key": "0d4c5b0f195e10d5",
+  "kind": "consequence",
+  "nb": "I preparatomalen til pirfenidon anbefales det at røyking bør unngås under behandling med pirfenidon, og at pasientene bør oppfordres til å slutte å røyke. Hvis pasienten er optimalt dosert med pirfenidon og så slutter å røyke, vil konsentrasjon av pirfenidon øke (anslagsvis rundt en fordobling), med økt risiko for bivirkninger."
+ },
+ {
+  "key": "b517ee5bde3dbda3",
+  "kind": "consequence",
+  "nb": "Ifølge data som er basert på in vitro-studier fra produsenten av bikalutamid, kan INR øke."
+ },
+ {
+  "key": "cf398db29c4fd8be",
+  "kind": "consequence",
+  "nb": "Ifølge preparatomtalen til berotralstat nedsatt konsentrasjon av den aktive desogetrel-metabolitten etonogestrel med risiko for redusert antikonseptiv effekt."
+ },
+ {
+  "key": "8f740689d53f7db0",
+  "kind": "consequence",
+  "nb": "Ingen endring i INR eller i konsentrasjonen av warfarin i en kontrollert studie. På den annen sider foreligger det epidemiologiske studier på COX-2-hemmere som gruppe der det er beskrvet økt risiko for blødning fra øvre gastrointestinaltraktus."
+ },
+ {
+  "key": "138edcb11ed5675f",
+  "kind": "consequence",
+  "nb": "Ingen endring i INR i kontrollerte studier. På den annen sider foreligger det en lang rekke enkelttilfeller der økt INR er beskrevet. Det foreligger også epidemiologiske studier på COX-2-hemmere som gruppe der det er beskrvet økt risiko for blødning fra øvre gastrointestinaltraktus."
+ },
+ {
+  "key": "236fbfcb381efb71",
+  "kind": "consequence",
+  "nb": "Ingen endring i INR i to mer systematiske studier. På den annen sider foreligger det kasusrapporter der økt INR er beskrevet."
+ },
+ {
+  "key": "4dc4db883a46d6ce",
+  "kind": "consequence",
+  "nb": "Ingen fare for serotonergt syndrom, til tross for at kombinasjonen kontraindisert i preparatomtalen til karbamazepin."
+ },
+ {
+  "key": "81d76eba8d193936",
+  "kind": "consequence",
+  "nb": "Ingen signifikant øking i  konsentrasjonen av glipizid i en studie, men en mulig ekstra blodsukkersenkende effekt ble observert."
+ },
+ {
+  "key": "561531665034b679",
+  "kind": "consequence",
+  "nb": "Initialt i noen tilfeller økt konsentrasjon av warfarin med økt INR.  Senere i alle tilfeller nedsatt konsentrasjon av warfarin (i gjennomsnitt 30 %), redusert INR. I noen tilfeller økt konsentrasjonen av fenytoin."
+ },
+ {
+  "key": "0d7d9b075aca600b",
+  "kind": "consequence",
+  "nb": "Interaksjonsstudier har ikke vist klinisk relevant endring i konsentrasjonen av atorvastatin ved samtidig bruk av amlodipin."
+ },
+ {
+  "key": "c44867f25a06a70a",
+  "kind": "consequence",
+  "nb": "Intoleransesyndrom (en ønsket terapeutisk effekt, men effekten er også observert etter inntak av matvarer og drikkevarer som anses for å være alokoholfrie)."
+ },
+ {
+  "key": "b3f05bdeef546fab",
+  "kind": "consequence",
+  "nb": "Kan gi økt antikoagulasjonsaffekt med økt INR pga nedsatt produksjon/absorpsjon av vitamin K i tarmen."
+ },
+ {
+  "key": "26b3cb061bf5c3e1",
+  "kind": "consequence",
+  "nb": "Kan gi økt antikoagulasjonseffekt med økt INR."
+ },
+ {
+  "key": "17d275488547da91",
+  "kind": "consequence",
+  "nb": "Kobicistat kan eventuelt hemme metabolismen av ritonavir ytterligere. Det samme gjelder midler som inngår i kombinasjonspreparater med ritonavir."
+ },
+ {
+  "key": "3db3399598fb1757",
+  "kind": "consequence",
+  "nb": "Kombinasjonen kan teoretisk sett forårsake uforutsigbar monoaminerg dysregulering med svingninger i nivåene av serotonin, dopamin og noradrenalin og tilhørende risko for  alvorlige nevropsykiatriske bivrikninger og autonom instabillitet (kramper, konfusjon, agitrasjon, takykardi, hypertensjon/hypotensjon m.v). Kombinasjonen er kontraindisert i preparatomtalene for tetrabenazin/deutetrabenazin."
+ },
+ {
+  "key": "6bda3f561941b3fb",
+  "kind": "consequence",
+  "nb": "Manglende antihypertensiv effekt av klonidin, i visse tilfeller risiko for alvorlig hypertensjon. Ukjent interaksjonseffekt ved bruk til migreneprofylakse."
+ },
+ {
+  "key": "53ef22c09a058df9",
+  "kind": "consequence",
+  "nb": "Mulig endret konsentrasjon av digoksin."
+ },
+ {
+  "key": "c3d2b17892fb04ad",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt absorpsjon av naproxen."
+ },
+ {
+  "key": "80560169909ef63f",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt absorpsjon av tyroksin (tegn på hypotyreose beskrevet etter oppstart med orlistat hos en pasient)."
+ },
+ {
+  "key": "52029f49107c933b",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt absorpsjon av ulipristal"
+ },
+ {
+  "key": "e54ab6d8f33f3e0c",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt absorpsjon av vitamin D og -analoger."
+ },
+ {
+  "key": "a959543146532eea",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt antiarytmisk effekt av adenosin."
+ },
+ {
+  "key": "788ac0a2101a3030",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt effekt av antiepileptika (vist i kasuistikker for valproat og fenytoin)."
+ },
+ {
+  "key": "0ab053d403935bb6",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt effekt av paracetamol"
+ },
+ {
+  "key": "d285648f4b70880a",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt effekt av penicilliner. En slik effekt har vært vist i to mer enn 50 år gamle studier ved pneumokokk-menigitt og skarlagensfeber. Man har derimot ikke kunnet vise noen slik effekt ved pneumokokk-pneumoni. Til tross for denne sparsomt dokumenterte effekten (som dessuten kun er vist ved tilstander der tetresykliner uansett ikke brukes), fraråder noen legemiddelprodusenter samtidig bruk på generell basis."
+ },
+ {
+  "key": "89a3012f531365bc",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt effekt av prevensjonsmidlet . Produsenten av vorasindenib sier at man bruke en barrieremetode under hele behandlingen med vorasindenib og i minst 2 måneder etterpå."
+ },
+ {
+  "key": "34290a0d505c2f67",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt effekt av warfarin (vist i kasuistikker), ingen signifikant effekt i en klinisk studie."
+ },
+ {
+  "key": "d96d95c919ae5207",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt effekt av warfarin med lett redusert INR."
+ },
+ {
+  "key": "5c7059bdaf128ef8",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av acitretin."
+ },
+ {
+  "key": "453fc5f5381e986a",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av aminoglykosidet (inntil 10-20 % hos pasienter med nyresvikt)."
+ },
+ {
+  "key": "de3a3d1349e33d9a",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av barbituratet, mulig nedsatt konsentrasjon av efavirenz."
+ },
+ {
+  "key": "f80c91a1e23744ec",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av det antivirale midlet (vist for efavirenz og lopinaivr)."
+ },
+ {
+  "key": "40101a4366363bd1",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av digoksin (inntil 40 % reduksjon er beskrevet, den største nedgangen er sett ved inntak av \"langsomt oppløsbare\" digoksintabletter)."
+ },
+ {
+  "key": "cd3ecf895bb26b7b",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av digoksin (motstridende data; betydelig reduksjon i enkelrapporter, en gjennomsnittlig reduksjon på 40 % i en studie; ingen endring i andre studier)."
+ },
+ {
+  "key": "bf1492dc4b0a7826",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av efavirenz og enzalutamid."
+ },
+ {
+  "key": "ff145e918f1cfeef",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av efavirenz, evenuelt økt konsentrasjon av efavirenz initialt."
+ },
+ {
+  "key": "d7cbf88c0038a639",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av everolimus (ukjent omfang)."
+ },
+ {
+  "key": "c45d248c002c1d76",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av everolmus (ukjent omfang)."
+ },
+ {
+  "key": "789895a51e3caffe",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av fenobarbital, økt kramperisiko. Behandling med primidon/fenobarbital kan redusere nivået av folsyre og øker behovet for tilskudd."
+ },
+ {
+  "key": "c91320c680adb79a",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av fenytoin, mulig nedsatt konsentrasjon av efavirenz."
+ },
+ {
+  "key": "a6a22a486b410700",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av gestagenet; mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk (gestagenspiral) kan brukes."
+ },
+ {
+  "key": "30ecae9c079f794b",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av gestagenet; mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes."
+ },
+ {
+  "key": "04ec2ba02d1b56c1",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av lamotrigin (20-30 %). Mulig økt konsentrasjon av olanzapin (20-30 %)."
+ },
+ {
+  "key": "0d04ceab4c5c1472",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av lamotrigin, mulig økt kramperisiko (økt krampefrekvens vist i en kasusrapport)."
+ },
+ {
+  "key": "38c50722e7079e44",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av levonorgestrel, mulig redusert antikonsepsjonseffekt."
+ },
+ {
+  "key": "ec9ca28e7a125e85",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av macimorelin med risiko for falsk positivt testresultat (feilaktig for liten økning i veksthormon-nivåene)."
+ },
+ {
+  "key": "ae12d21c5f7fcca7",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av mitapivat. Effekten er usikker."
+ },
+ {
+  "key": "76aace2ab66de7a7",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av paroxetin (motstridende data)."
+ },
+ {
+  "key": "cd8e7811a8e363fd",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av progestogenet; mulig redusert antikonsepsjonseffekt. I preparatomtalen til erdafitinib heter det at kombinasjonen bør unngås.Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes."
+ },
+ {
+  "key": "8619068d7c0351d4",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av progestogenet; mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes."
+ },
+ {
+  "key": "55abfa172f33a4c2",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av progestogenet; mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes. Etter avsluttet behandling med ritonavirpreparatet vil det ta tiden for resten av inneværende menstrasjonssyklus pluss en hel menstruasjonssyklus til før effekten av det perorale antikonsepsjonamidlet vil være tilbake til det opprinnelige."
+ },
+ {
+  "key": "eec6a301830c61b9",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av progestogenet; mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes. I preparatomtalen til pitolisant heter det at kombinasjonen bør unngås."
+ },
+ {
+  "key": "f634da2bae8df10e",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av progestogenet; mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes. I preparatomtalen til sotorasib heter det at barrieremetoden bør brukes i tillegg."
+ },
+ {
+  "key": "321f3bc78925ce49",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av progestogenet."
+ },
+ {
+  "key": "89b2f15da622a5a6",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av protonpumpehemmeren (30-40 % reduksjon vist for omeprazol)"
+ },
+ {
+  "key": "71581d2e632b30b5",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av rufinamid (20-30 %) i følge en studie. Ingen signifikant påvirkning i følge preparatomtalen for rufinamid."
+ },
+ {
+  "key": "16e4cd4360c38448",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av sirolimus (ukjent omfang)."
+ },
+ {
+  "key": "14fe2b56f461c1c3",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av takrolimus (ukjent omfang)."
+ },
+ {
+  "key": "ee14d2b3bf5a4979",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt konsentrasjon av trisykliske antidepressiva (vist for desipramin), Nedsatt krampeterskel pga. tricykliske antidepressivas farmakodynamiske egenskaper."
+ },
+ {
+  "key": "7def0afe95f7dafd",
+  "kind": "consequence",
+  "nb": "Mulig nedsatt kosentrasjon av digoksin. I en studie ble det imidlert kun påvist en nedgang i konsentrasjonen på 10-20 %, noe som er neglisjebart."
+ },
+ {
+  "key": "59d2fee1cf3cc132",
+  "kind": "consequence",
+  "nb": "Mulig risiko for alvorlige sentralnervøse bivirkninger, inklusive serotonergt syndrom."
+ },
+ {
+  "key": "5d9b6d56a30ddb0a",
+  "kind": "consequence",
+  "nb": "Mulig risiko for blodtrykksfall ved samtidig inntak av alkohol (vist i noen studier, ikke i andre).  Jevnlig bruk av alkohol over tid kan føre til økt blodtrykk og motvirke den antihypertensive effekten av betablokkere."
+ },
+ {
+  "key": "2a078634259d8417",
+  "kind": "consequence",
+  "nb": "Mulig risiko for blodtrykksfall ved samtidig inntak av alkohol.  Jevnlig bruk av alkohol over tid kan føre til økt blodtrykk og motvirke den antihypertensive effekten av ACE-hemmere."
+ },
+ {
+  "key": "a242ce5d535539f8",
+  "kind": "consequence",
+  "nb": "Mulig risiko for blodtrykksfall ved samtidig inntak av alkohol. Jevnlig bruk av alkohol over tid kan føre til økt blodtrykk og motvirke den antihypertensive effekten av AT II-antagonister."
+ },
+ {
+  "key": "81b7449bbd4608ee",
+  "kind": "consequence",
+  "nb": "Mulig risiko for blodtrykksfall ved samtidig inntak av alkohol. Jevnlig bruk av alkohol over tid kan føre til økt blodtrykk og motvirke den antihypertensive effekten av diuretika."
+ },
+ {
+  "key": "27c375eff9771ded",
+  "kind": "consequence",
+  "nb": "Mulig risiko for blodtrykksfall ved samtidig inntak av alkohol. Jevnlig bruk av alkohol over tid kan føre til økt blodtrykk og motvirke den antihypertensive effekten av kalsiumantagonister."
+ },
+ {
+  "key": "cdd015922a1e2986",
+  "kind": "consequence",
+  "nb": "Mulig risiko for blodtrykksfall ved samtidig inntak av alkohol. Jevnlig bruk av alkohol over tid kan føre til økt blodtrykk og motvirke den antihypertensive effekten av legemidlene."
+ },
+ {
+  "key": "3ac21773251d6c6c",
+  "kind": "consequence",
+  "nb": "Mulig risiko for intoleransesyndom (antabusliknende). Prodsenten av preparatet Dropizol fraråder samtidig bruk, men basert på alkoholmengden man får i seg ved vanlig dosering samt usikkerheten om hvorvidt metronidazol i det hele tatt har denne effekten, vil kombinert inntak trolig være uproblematisk."
+ },
+ {
+  "key": "7549d8a88d63c6a8",
+  "kind": "consequence",
+  "nb": "Mulig risiko for intoleransesyndrom (disulfiramlignende). Symptomene kan være ubehagelige, men er ikke farlige."
+ },
+ {
+  "key": "3516bd8b6c882127",
+  "kind": "consequence",
+  "nb": "Mulig risiko for serotonergt syndrom. Dette er rapportert en sjelden gang når fentanyl kombineres med SSRI-preparater, men sett i forhold til alle som bruker fentanyl og serotonerge antidepressiva samtidig er risikoen så liten at den i praksis kan ses bort fra."
+ },
+ {
+  "key": "9ca37b067ecb2e05",
+  "kind": "consequence",
+  "nb": "Mulig risiko for serotonergt syndrom. Dette er rapportert en sjelden gang når fentayl kombineres med SSRI, men sett i forhold til alle som bruker kombinasjonen fentanyl og et legemiddel som hemmer reopptak av serotonin, er risikoen så liten at den i praksis kan ses bort fra."
+ },
+ {
+  "key": "7fef8508e965a049",
+  "kind": "consequence",
+  "nb": "Mulig risiko for serotonergt syndrom. Dette er rapportert en sjelden gang, men sett i forhold til alle som bruker denne kombinasjonen, er risikoen så liten at den i praksis kan ses bort fra."
+ },
+ {
+  "key": "95bc4c56444c8999",
+  "kind": "consequence",
+  "nb": "Mulig økt  konsentrasjon av everolmus (ukjent omfang)."
+ },
+ {
+  "key": "6ef12d34eb80793b",
+  "kind": "consequence",
+  "nb": "Mulig økt  konsentrasjon av sirolimus (ukjent omfang)."
+ },
+ {
+  "key": "b424d07f90c6c553",
+  "kind": "consequence",
+  "nb": "Mulig økt  konsentrasjon av takrolimus (ukjent omfang)."
+ },
+ {
+  "key": "03398b139137a13b",
+  "kind": "consequence",
+  "nb": "Mulig økt blødningsrisiko, selv om kontrollerte studier ikke har kunnet påvise dette. De motstridende dataene kan skyldes at det er brukt ulike typer og doser av ginkgo-preparatene."
+ },
+ {
+  "key": "7d44514e408097be",
+  "kind": "consequence",
+  "nb": "Mulig økt blødningsrisiko, selv om kontrollerte studier ikke har kunnet påvise dette. De motstridende dataene kan skyldes at det er brukt ulike typer og doser av ginkgo-preparatene. Ginkgo-produkter bør ikke brukes av pasienter som bruker warfarin."
+ },
+ {
+  "key": "aefed10cc60493ae",
+  "kind": "consequence",
+  "nb": "Mulig økt blødningsrisiko."
+ },
+ {
+  "key": "27bbb0bd4d189b35",
+  "kind": "consequence",
+  "nb": "Mulig økt effekt av klopidogrel med økt blødningsrisiko. Tillegg av enzyminduktoren rifampicin til klopidogrel har vist seg å redusere plateaggregasjonen ytterligere, men det er usikkert om denne reduksjonen er klinisk signifikant. Det er også rapportert tilfeller der pasienter som hadde liten platehemmende effekt av klopidogrel i utgangspunktet (var klassifisert som non-respondere) fikk økt den platehemmende effekten av klopidogrel slik at den kom opp i normalområdet etter tillegg av rifampicin."
+ },
+ {
+  "key": "bd782baae7c0bd60",
+  "kind": "consequence",
+  "nb": "Mulig økt eller nedsatt konsentrasjon av warfarin (usikkert omfang), mulig økt eller nedsatt INR."
+ },
+ {
+  "key": "ca1fa1874560197e",
+  "kind": "consequence",
+  "nb": "Mulig økt hemning av blodplatefunksjonen, mulig økt risiko for gastrointestinal blødning (motstridende data)."
+ },
+ {
+  "key": "a2ca8006e9d0aff2",
+  "kind": "consequence",
+  "nb": "Mulig økt hypoglykemisk effekt ved samtidig bruk av betablokkere og insulin (gjelder trolig i første rekke uselektive betabokkere). Effekten har ikke vært mulig å påvise i systematiske (kasus-kontroll-)studier. Uselektive betablokkere kan til en viss grad redusere de vanlige (adrenerge) varselsymptomene ved hypoglykemi, men i stedet føre til kraftig økt blodtrykk. I tillegg kan uselektive betablokkere muligens redusere effekten av sulfonylureapreparater."
+ },
+ {
+  "key": "21583d19e3ae52c6",
+  "kind": "consequence",
+  "nb": "Mulig økt INR (motstridende kasusrapporter)."
+ },
+ {
+  "key": "22af449af2a1391d",
+  "kind": "consequence",
+  "nb": "Mulig økt INR pga nedsatt absorpsjon av vitamin K (usikkert om effekten er klinisk relevant)."
+ },
+ {
+  "key": "f5c5287568ff9a4a",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrajon av digoksin."
+ },
+ {
+  "key": "8ef81a0b9138cf99",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrajon av everolimus."
+ },
+ {
+  "key": "b33f3348c1cb8235",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrajon av sirolimus."
+ },
+ {
+  "key": "b12d503bbc392514",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrajon av takrolimus."
+ },
+ {
+  "key": "124a1ea5249b4f53",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av amisulprid (en fordobling i en studie, men disse resultatene vurderes som usikre)."
+ },
+ {
+  "key": "f7d02995979b3b67",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av atorvastatin, økt risiko for bivirkninger (muskelsmerter; rabdomyolyse)."
+ },
+ {
+  "key": "b1a0d766154f6acb",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av budesonid i enkelttilfeller, selv om systematiske studier med komibniasjonen inhalasjonssterioder og makrolidantibiotika ikke har vist noen økning i systemisk steroidkonsentrasjon."
+ },
+ {
+  "key": "7ee5dab3d3948cf5",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av cyklofosfamids aktive metabolitter (0-100%,  i gjennomsnitt 40%), inntil tredobbelt økt risiko for alvorlig benmargssuppresjon."
+ },
+ {
+  "key": "1a3088a5568e275a",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av den aktive metabolitten sirolimus (usikkert omfang)."
+ },
+ {
+  "key": "5dcc3038abbdfb91",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av den aktive metabolitten til ciklesonid i enkelttilfeller, selv om systematiske studier med komibniasjonen inhalasjonssterioder og makrolidantibiotika ikke har vist noen økning i systemisk steroidkonsentrasjon."
+ },
+ {
+  "key": "e8eb6ddfc111a107",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av digoksin."
+ },
+ {
+  "key": "081ded0a4411b5e2",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av everolimus (ukjent omfang)."
+ },
+ {
+  "key": "134a7ea31c0bbc84",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av everolimus (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "24d218597250e825",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av everolimus."
+ },
+ {
+  "key": "db405be5829f3aee",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av faktor Xa-hemmeren (usikkert hvor stor effekten vil bli).."
+ },
+ {
+  "key": "4b61b6c0c204bcfc",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av fenytoin"
+ },
+ {
+  "key": "191135229fb8210a",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av fluoxetin (en kasuistikk med forvirring og delir hos en 53-årig mann; usikkert om det skyldes interaksjonen eller den underliggende luftveisinfeksjonen)."
+ },
+ {
+  "key": "78d316fd0fce3be6",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av haloperidol (i gjennomsnitt 30 %; maksimum 120 % i en studie; ingen effekt i en annen studie)."
+ },
+ {
+  "key": "70a70d76ee3ab87a",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av kolkisin."
+ },
+ {
+  "key": "aba8b15640ccea64",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av lidokain (motstridende data)."
+ },
+ {
+  "key": "8822fc338d392480",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av linagliptin (i gjennomsnitt 4-5 ganger etter enkeltdose ritonavir, usikker effekt ved gjentatt dosering)."
+ },
+ {
+  "key": "341b8bae77f5ea1b",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av lovastatin (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "67447c6cbbc20330",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av metotreksat, mulig økt risiko for benmargsdepresjon og andre toksiske effekter."
+ },
+ {
+  "key": "5e0b00a722c0358e",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av metylprednisolon (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "aa41bfd21bb6be63",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av midazolam (3-4 ganger ved peroral bruk, trolig langt mindre ved intravenøs bruk av midazolam)."
+ },
+ {
+  "key": "440d5f4e4326c225",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av oksybutynin (10-20% for oksybutynin + aktiv metabolitt etter peroral dosering av oksybutynin); trolig enda mindre påvirkning ved bruk av oksybutynin transdermalt."
+ },
+ {
+  "key": "f713b350f2bdf611",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av panobinostat."
+ },
+ {
+  "key": "386161cba949b104",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av pemetreksed, mulig økt toksisitet."
+ },
+ {
+  "key": "247820aef2cb508a",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av rosuvastatin (usikkert omfang)."
+ },
+ {
+  "key": "b9201ab8feb63b75",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av simvastatin (usikkert hvor stor effekten vil bli).."
+ },
+ {
+  "key": "89a554825e27ff23",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av sirolimus (ukjent omfang)."
+ },
+ {
+  "key": "b93f352b2559891d",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av sirolimus (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "9f7f3c13a520bd2f",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av sirolimus (usikkert omfang)."
+ },
+ {
+  "key": "59880040e092e0cf",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av sirolimus."
+ },
+ {
+  "key": "8e7d300f929a1cec",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av sorafenib. En studie hos friske forsøkspersoner viste ingen signifikant økning i sorafenibkonsentrasjonen ved samtidig bruk av (en ukjent dose) ketokonazol, men på den annen side er sorafenib et substrat for CYP3A4, og det finnes kasuistikker der vorikonazol og posakonazol er vist å hemme nedbrytningen fra sorafenib til N-oksid-metabolitten, også med en økning i sorafenibkonsentrasjonen."
+ },
+ {
+  "key": "2da6ad51896d681b",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av takrolimus (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "4b53d4722bc41b06",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av takrolimus."
+ },
+ {
+  "key": "99bfcaa07097077a",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av teofyllin (20 %)"
+ },
+ {
+  "key": "4063971a60edc060",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av teofyllin (inntil ca. 30 % i studier der svært høye koffeindoser er brukt; lavere og ingen klinisk signifikant påvirkning av teofyllinkonsentrasjonen ved inntak av mer normale mengder koffein, for eksempel via kaffe eller andre koffeinholdige drikkevarer)."
+ },
+ {
+  "key": "0fded375844f3046",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av trisykliske antidepressiva (vist for imipramin). Både gunstige effekter (bedret terapieffekt) og ugunstige effekter (bivirkninger) er rapportert. En rekke studer og kasuistikker med til dels motstridende data eksisterer."
+ },
+ {
+  "key": "de38f79d7f15d0dd",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av vardenafil (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "a64dd1b24cea99dd",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av verapamil."
+ },
+ {
+  "key": "ed372d36e2c9834b",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av vinorelbin (usikkert hvor stor effekten vil bli), mulig økt risiko for nevrologiske bivirkninger inklusive perifer nevropati (som vist for vinblastin)."
+ },
+ {
+  "key": "37075ffb5e3df59c",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av vorikonazol intialt, etter hvert nedsatt konsentrasjon av vorikonazol (fremfor alt ved kronisk behandling med høye doser ritonavir, der en mer enn 80 % reduksjon i vorikonazolkonsentrasjonen er beskrevet). Denne effekten er avhengig av pasientens genetiske status for CYP2C19 (se også under). Konsentrasjonen av de midlene som brukes sammen med ritonavir i faste kombinasjoner kan øke (rundt en fordobling av konsetrasjonen av paritaprevir, en mindre økning for dasabuvir, ingen økning for ombitasvir er vist for ketokonazol)."
+ },
+ {
+  "key": "6c72afec027feaa0",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av warfarin, mulig økt INR."
+ },
+ {
+  "key": "6602bac6b9743e2e",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av warfarin, økt INR (lite og delvis motstridende data). Noe data antyder en økning ved samtidig bruk av glibenklamid, en studie med glimepirid fant ingen  signifikant økning, mens glipizid ikke er studert."
+ },
+ {
+  "key": "44b68e20568eb129",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av warfarin, økt INR (usikre og motstridende data). Omlegging av kosten samtidig med oppstart med statinbehandling, med lavere inntak av vegetabilsk fett som er rikt på vitamin K, vil også øke INR."
+ },
+ {
+  "key": "87557be3ab8d52d0",
+  "kind": "consequence",
+  "nb": "Mulig økt konsentrasjon av warfarin, økt INR. Omlegging av kosten samtidig med oppstart med statinbehandling, med lavere inntak av vegetabilsk fett som er rikt på vitamin K, vil også øke INR."
+ },
+ {
+  "key": "cb4a559ca6908c43",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Kombinasjonen er kontraindisert i preparomtalen for citalopram."
+ },
+ {
+  "key": "24bc587602875146",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Kombinasjonen er kontraindisert i preparomtalen for citalopram. I tillegg er kombinasjonen lite rasjonell sett i et farmodynamisk perspektiv."
+ },
+ {
+  "key": "8af1e871be3ee3e3",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Kombinasjonen er kontraindisert i preparomtalen for escitalopram."
+ },
+ {
+  "key": "256c4692509a9ad7",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Kombinasjonen er kontraindisert i preparomtalen for escitalopram. I tillegg er kombinasjonen lite rasjonell sett i et farmodynamisk perspektiv."
+ },
+ {
+  "key": "ee6662cf60aa4f72",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Tilsvarende kombinasjoner er kontraindisert i preparomtalen for citalopram, men med tanke på den svake effekten av metadon, ikke minst ved doser på under 100 mg/d, bør det være mulig å kombinere midlene så lenge man følger opp med EKG-målinger."
+ },
+ {
+  "key": "fdae43e0efc6a995",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Tilsvarende kombinasjoner er kontraindisert i preparomtalen for citalopram."
+ },
+ {
+  "key": "45deddd76abd42fc",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Tilsvarende kombinasjoner er kontraindisert i preparomtalen for escitalopram, men med tanke på den svake effekten av metadon, ikke minst ved doser på under 100 mg/d, bør det være mulig å kombinere midlene så lenge man følger opp med EKG-målinger."
+ },
+ {
+  "key": "da7b1e3d9a42f28e",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for alvorlige arytmier. Tilsvarende kombinasjoner er kontraindisert i preparomtalen for escitalopram."
+ },
+ {
+  "key": "5e63a931d0bdda6d",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for bivirkninger av mianserin. Ingen holdepunkter for signifikant økning i plasmakonsentrasjonen av mianserin."
+ },
+ {
+  "key": "ba72659224faa02e",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for bivirkninger, inklusive serotonergt syndrom."
+ },
+ {
+  "key": "8c3b7ef713cf902c",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for bradykardi"
+ },
+ {
+  "key": "059fa7f43842f17f",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for gastrointestinal blødning (inntil en tredobling til femdobling i risikoen i noen studier med SSRI, ingen risikoøkning i andre studier med SSRI, data på vortikosetin foreligger ikke)."
+ },
+ {
+  "key": "109e65f7c8137657",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for gastrointestinal blødning (inntil en tredobling til femdobling i risikoen i noen studier, ingen risikoøkning i andre studier)."
+ },
+ {
+  "key": "f32d6e68f5ecb9ff",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for gastrointestinal blødning (inntil en tredobling til femdobling i risikoen i noen studier, ingen til beskjeden risikoøkning i andre studier)."
+ },
+ {
+  "key": "0b47eca49b7009f5",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for hypertensive effekter ved inntak av visse matvarer."
+ },
+ {
+  "key": "6f9715e8358ecf76",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for hypertensjon og arytmier (skyldes adrenalinkomponenten). Dette er imidlertid bare dokumentert i eldre kasuistikker der adrenalinmengden har vært høyere enn den er i dag. Det er derfor usikkert om det i det hele tatt er noen økt risiko med dagens preparater. Likevel kan man ikke helt utelukke en økt risiko hvis midletaksidentelt blir gitt intravasalt."
+ },
+ {
+  "key": "69aecacca52e4315",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for hypertensjon og arytmier (skyldes adrenalinkomponenten). Dette er imidlertid bare dokumentert i eldre kasuistikker der adrenalinmengden har vært høyere enn den er i dag. Det er derfor usikkert om det i det hele tatt er noen økt risiko."
+ },
+ {
+  "key": "e0541f89cb5bbcdb",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for hypertensjon."
+ },
+ {
+  "key": "79cdb2e9bc243af4",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for hypertensjon. Det er usikkert hvor stor blodtrykksøkningen kan bli, men det kan potensielt dreie seg om en kraftig effekt."
+ },
+ {
+  "key": "497bd7eb1c388481",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for hyponatremi."
+ },
+ {
+  "key": "d5a6a08be32e09b9",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for laktacidose, særlig ved på forhånd potensielt redusert nyrefunksjon."
+ },
+ {
+  "key": "0d1d929b1bbb4ecb",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for levertoksisitet. Preparatomtalene for metotreksat og isotretinoin angir at pasientene må overvåkes med tanke på kliniske symptomer og tegn på levertoksisitet."
+ },
+ {
+  "key": "d2158a8ea9f99302",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for nedsatt nyrefunksjon."
+ },
+ {
+  "key": "921904e22ed35018",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for nefrotoksisitet (nefrotoksisitet er beskrevet i et lite antall kasusrapporter, mens en slik effekt ikke har vært mulig å påvise i systematiske studier)."
+ },
+ {
+  "key": "939d0eea3405bf08",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for nefrotoksistet (vist for ibuprofen)"
+ },
+ {
+  "key": "e850429f75b92a35",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for serotonerge bivirkninger."
+ },
+ {
+  "key": "09fe1cf54f964d2d",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for serotonergt syndrom, gjelder primært ved tramadoldoser på 150 mg/d eller mer."
+ },
+ {
+  "key": "33944e4bce27dcc2",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for serotonergt syndrom."
+ },
+ {
+  "key": "337ca2d62b1f34fe",
+  "kind": "consequence",
+  "nb": "Mulig økt risiko for toksiske sentralnervøse toksiske effekter, inklusive alvorlig blodtrykksstigning/hypertensiv krise."
+ },
+ {
+  "key": "72bebf571c660af0",
+  "kind": "consequence",
+  "nb": "Mulig økt systemisk konsentrasjon av glukokortikoidet, risiko for systemiske bivirkninger."
+ },
+ {
+  "key": "3db7db246957c704",
+  "kind": "consequence",
+  "nb": "Muligens noe økt blødningsrisiko."
+ },
+ {
+  "key": "559a6a9fd31b05e1",
+  "kind": "consequence",
+  "nb": "Muligens noe økt blødningstendens, selv om dette ikke ble påvist i en systematisk studie."
+ },
+ {
+  "key": "6442fe56dc9f01ca",
+  "kind": "consequence",
+  "nb": "Muligens redusert konsentrasjon av everolimus (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "931e52a6008390ca",
+  "kind": "consequence",
+  "nb": "Muligens redusert konsentrasjon av sirolimus (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "28c7993c0c243f71",
+  "kind": "consequence",
+  "nb": "Muligens redusert konsentrasjon av takrolimus (usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "b0ead82ef1e05d9a",
+  "kind": "consequence",
+  "nb": "Muligens økt konsentrasjon av etanol (20-30 % i en studie, ingen effekt i en annen studie)"
+ },
+ {
+  "key": "3d3c2266793ff9a4",
+  "kind": "consequence",
+  "nb": "Muligens økt konsentrasjon av metotreksat."
+ },
+ {
+  "key": "d0bc0840620a8bf0",
+  "kind": "consequence",
+  "nb": "Nedsatt  konsentrasjon av everolmus (ukjent omfang)."
+ },
+ {
+  "key": "f010f47830557f66",
+  "kind": "consequence",
+  "nb": "Nedsatt  konsentrasjon av oxkarbazepins aktive metabolitt (40 %). Minimal påvirkning av karbamazepinkonsentrajonen."
+ },
+ {
+  "key": "304a633b751ce9ae",
+  "kind": "consequence",
+  "nb": "Nedsatt absoprsjon av tetrasykliner (90 % reduksjon for tetrasyklin, trolig langt mindre reduksjon for doksysyklin - basert på data med kalsium kanskje i størrelsesorden 20-30 % reduksjon for doksysyklin)."
+ },
+ {
+  "key": "adfc1fb549431985",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av atazanavir."
+ },
+ {
+  "key": "6a843fbb497dbc86",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av deksametason (75 %; vist for magnesium)"
+ },
+ {
+  "key": "4a660b94a028f5c7",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av digoksin (svært variabel effekt)"
+ },
+ {
+  "key": "5e7f7b1db7a05727",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av eltrombopag (60-80 %)."
+ },
+ {
+  "key": "770796eab45c2ae5",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av eltrombopag (må tas med minst 4 timers intervall)."
+ },
+ {
+  "key": "6b5d9fc6eb8dfef8",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av feksofenadin (40 %)."
+ },
+ {
+  "key": "2263dc6dadebed2b",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av furosemid (opphevet diuretisk effekt i en kasuistikk)."
+ },
+ {
+  "key": "b239af4ee4a1d146",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av gabapentin (40-50 %)."
+ },
+ {
+  "key": "465b16fc32830866",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av hydroksyklorokin (20-50 % reduksjon er vist for klorokin)."
+ },
+ {
+  "key": "534a895f405dbf2e",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av kinoloner (10-80 %)"
+ },
+ {
+  "key": "81873142bcb28b39",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av kinoloner (en reduksjon på 40-50 % er vist for ciprofloksacin ved samtidig inntak; trolig vil effekten være den samme på øvrige kinoloner)."
+ },
+ {
+  "key": "96648906e60e5088",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av kinoloner. Ved samtidig administrasjon: 60-90 % reduksjon for ciprofloksacin, 20-30 % reduksjon for levofloksacin, 80-90 % reduksjon for norfloksacin, 30-40 % reduksjon for ofloksacin (i noen av studiene er magnesium kombinert med alunimium). Ved adminstrasjon med minst to timers intervall eller mer er det ingen reduksjon i absorpsjonen."
+ },
+ {
+  "key": "5e4cdc989550cbdc",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av levotyroksin (50 % reduksjon i konsentrasjonen i en studie med samtidig inntak av levotyroksin og sevelamer). Økte nivåer av TSH ble påvist i en annen studie."
+ },
+ {
+  "key": "8054a36c5378ce35",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av levotyroksin (gjennomsnittlig 30% i interaksjonsstudie med kalsium, men svært liten effekt hos noen pasienter), mulig økt risiko for terapisvikt (hypotyreose). Det er stor variasjon fra individ til individ hvor kraftig interaksjonen er, hos mange vil effekten være beskjeden. Det kan ikke utelukkes at man kan få redusert absorpsjon også for liotyronin."
+ },
+ {
+  "key": "aec27a5f94b7373b",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av levotyroksin (gjennomsnittlig 30% i interaksjonsstudie, men svært liten effekt hos noen pasienter), mulig økt risiko for terapisvikt (hypotyreose). Det er stor variasjon fra individ til individ hvor kraftig denne interaksjonen er, hos mange vil effekten være beskjeden.  Det finnes ikke tilsvarende studier på liotyronin, men det kan ikke utelukkes at man kan få redusert absorpsjon også for dette legemidlet."
+ },
+ {
+  "key": "f10be3d16f367b08",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av levotyroksinnatrium, økt risiko for terapisvikt (hypotyreose)"
+ },
+ {
+  "key": "52e2e0e0c09fb961",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av paracetamol (gjennomsnittlig 60% i interaksjonsstudie med kolestyramin)."
+ },
+ {
+  "key": "b0e9a65d51f22ae5",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av propranolol (40-60 %)"
+ },
+ {
+  "key": "921aa28901e910e3",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av ranitidin (30 %)"
+ },
+ {
+  "key": "4ed9e5141d12fd84",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av sulfonylureamidlene (gjennomsnittlig 30-40% i interaksjonsstudie med glibenklamid, noe mindre for glipizid og glimepirid)."
+ },
+ {
+  "key": "8d4696720ea7c9cf",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av takrolimus (60 % reduksjon i konsentrasjonen i en kasuistikk)."
+ },
+ {
+  "key": "6e8b2879b94f5cdd",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av tetrasykliner (inntil 50-100 %)"
+ },
+ {
+  "key": "c52605085a26644f",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av thyreoideapreparater (vist for levotyroksin med gjennomsnittlig 50% i interaksjonsstudie), økt risiko for terapisvikt (hypotyreose)"
+ },
+ {
+  "key": "2f37877a7182a056",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av tipranavir (30 %)"
+ },
+ {
+  "key": "f717bdedcba9ddeb",
+  "kind": "consequence",
+  "nb": "Nedsatt absorpsjon av vadadustat (usikkert omfang)."
+ },
+ {
+  "key": "47eb79692a4d90c9",
+  "kind": "consequence",
+  "nb": "Nedsatt analgetisk effekt av tramadol, nedsatt antiemetisk effekt av 5-HT3-antagonisten. I studier har det vært nødvendig å øke tramadoldosen  med fra 30-40 % og opp til det dobbelte til tredobbelte for å opprettholde den analgetiske effekten. Da har også pasienten fått mer kvalme. Interaksjonen er dokumentert for ondansetron, men er trolig en gruppeeffekt av 5-HT3-antagonister."
+ },
+ {
+  "key": "7bdbb15d75d37d61",
+  "kind": "consequence",
+  "nb": "Nedsatt antihypertensiv effekt, økt risiko for nyresvikt og forverret hjertesvikt."
+ },
+ {
+  "key": "8332abe22d527c6a",
+  "kind": "consequence",
+  "nb": "Nedsatt bronkodilatasjon av beta-2-agonister, økt sannsynlighet for terapisvikt. Karvedilol er kontraindisert ved astma/kols."
+ },
+ {
+  "key": "538d211425166786",
+  "kind": "consequence",
+  "nb": "Nedsatt bronkodilatasjon av beta-2-agonister, økt sannsynlighet for terapisvikt. Propranolol er kontraindisert ved astma/kols."
+ },
+ {
+  "key": "099fe54ee68884b2",
+  "kind": "consequence",
+  "nb": "Nedsatt bronkodilatasjon av beta-2-agonister, økt sannsynlighet for terapisvikt. Sotalol er kontraindisert ved astma/kols."
+ },
+ {
+  "key": "703dc50e3c8240e1",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av ACE-hemmere, økt risiko for nyresvikt. Gjelder særlig hos eldre og hos pasienter med på forhånd nedsatt nyrefunksjon."
+ },
+ {
+  "key": "4a66cab8db845df5",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av antriøstrogenet, økt risiko for residiv i brystkreft."
+ },
+ {
+  "key": "aeeb1ae80b5d8900",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av aromatasehemmeren, økt risiko for residiv i brystkreft."
+ },
+ {
+  "key": "0e9c981065466ec2",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av bromokriptin"
+ },
+ {
+  "key": "1b86c97c9c8769e7",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av digitalisglykosider, trolig mest for digoksin."
+ },
+ {
+  "key": "ee9d6e611c003dcb",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av jernbindende stoffer."
+ },
+ {
+  "key": "80a9beea2d4537c3",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av metylfenidat i kasusrapporter, men ikke i systematiske studier."
+ },
+ {
+  "key": "4f9d123b52d3ef79",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av opioider."
+ },
+ {
+  "key": "514bd1bf78c49193",
+  "kind": "consequence",
+  "nb": "Nedsatt effekt av vitamin D."
+ },
+ {
+  "key": "9594f4180fa06fb3",
+  "kind": "consequence",
+  "nb": "Nedsatt eller i sjeldne tilfeller økt konsentrasjon av fenytoin (usikkert hvor stort omfanget vil være). Epileptiske anfall er rapportert; dette kan skyldes både en nedsatt konsentrajon av fenytoin og farmakodynamisk effekt i form av at ciprofloksacin senker krampeterskelen."
+ },
+ {
+  "key": "12095feba0a468bf",
+  "kind": "consequence",
+  "nb": "Nedsatt kolinerg aktivering av kolinesterasehemmere, økt sannsynlighet for terapisvikt og risiko for delir/forvirring"
+ },
+ {
+  "key": "06e8ee70170b8028",
+  "kind": "consequence",
+  "nb": "Nedsatt kolinerg aktivering av kolinesterasehemmere, økt sannsynlighet for terapisvikt og risiko for delir/forvirring."
+ },
+ {
+  "key": "7563b145b3ba2af7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon (20 %) eller svært sjelden økt konsentrasjon av karbamazepin. Mulig økt konsentrasjon av fenobarbital, fremfor alt hos barn."
+ },
+ {
+  "key": "b4f322b62b124160",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon (gjennomsnittlig >90% i interaksjonsstudie) av itrakonazol, økt risiko for terapisvikt"
+ },
+ {
+  "key": "6bc9c6b273df9e3b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon (inntil 60-70 %) eller sjeldnere ingen påvirkning eller økt konsentrasjon av fenytoin, økt konsentrasjon av fenobarbital (kan være forbigående)."
+ },
+ {
+  "key": "58d0611a7a1e4a47",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av  lefamulin (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Kombinasjonen er kontraindisert i preparatomtalen til lefamulin."
+ },
+ {
+  "key": "2356ea66b96db229",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av  lefamulin (inntil 70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Kombinasjonen er kontraindisert i preparatomtalen til lefamulin."
+ },
+ {
+  "key": "55fc32758325a073",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av  lefamulin (inntil 70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Tilsvarende kombinasjoner er kontraindisert i preparatomtalen til lefamulin."
+ },
+ {
+  "key": "4a8eaeb0c8244f06",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av  lerkanidipin (kanskje i størrelsesorden minst 60 % reduksjon basert på data med andre enzyminduktorer og andre kalsiumblokkere),  risiko for terapisvikt."
+ },
+ {
+  "key": "8b786e9595fcaabc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av abacavir (40 %)"
+ },
+ {
+  "key": "854bd7e072cb3491",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av abemaciklib (ca. 80 % basert på data med den kraftige enzyminduktoren rifampicin), risiko for opphevet effekt."
+ },
+ {
+  "key": "c25a4aebf1624e8f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av abirateron (50-60 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "c39f6a101d4314c2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av abirateron (inntil 50-60 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "c8c954a83b4d0461",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av abrocitinib og aktiv metabolitt (i størrelsesorden 50-60 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "1c7656e46d8dc8b5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av abrocitinib og aktiv metabolitt (i størrelsesorden 50-60 %)."
+ },
+ {
+  "key": "951eb59dd3e84aeb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av adagrasib (90-95 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "cea0f1956dcbc023",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av adagrasib (inntil 90-95 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "d554cb433181d6ef",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av afikamten (ca 50 % reduksjon)."
+ },
+ {
+  "key": "babe99edffdac2f9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av afikamten (inntil 50 % reduksjon, vist for karbamazepin)."
+ },
+ {
+  "key": "b658dc11d99eeedd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av afikamten (usikkert omfang men trolig betydelig)."
+ },
+ {
+  "key": "2edc53f965bea7c4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av akalabrutinib (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til akalabrutinib er det angitt at kombinasjonen skal unngås."
+ },
+ {
+  "key": "2c44eae821a704b5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av akalabrutinib (inntil 70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til akalabrutinib er det angitt at kombinasjon med sterke enzyminduktorer skal unngås."
+ },
+ {
+  "key": "bd3fff0ca058ef20",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aksitinib (ca. 80 % i interaksjonsstudie med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "aa167781effb5104",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktiv metabolitt av kodein, risiko for nedsatt analgetisk effekt av kodein (fremfor alt med tanke på at pasienter som bruker metadon allerede har utviklet opioidtoleranse)."
+ },
+ {
+  "key": "fe5592579c500cde",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktiv metabolitt av tramadol, risiko for nedsatt anagetisk effekt av tramadol (fremfor alt med tanke på at pasienter som bruker metadon allerede har utviklet opioidtoleranse)."
+ },
+ {
+  "key": "84c6f2766f0c5c24",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktiv metabolitt av tramadol, økt risiko for terapisvikt (manglende analgetisk effekt). I en studie ble konsentrasjonen av aktiv metabolitt ble redusert med mer enn 60 %. Samtidig økte konsentrasjonen av tramadol til mer enn det dobbelte."
+ },
+ {
+  "key": "fe3da8f9cde32404",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktiv metabolitt av tramadol, økt risiko for terapisvikt (manglende smertedempning). Samtidig økt risiko for serotonergt syndrom gjennom farmakodynamisk interaksjon"
+ },
+ {
+  "key": "226756d4d858d593",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktiv metabolitt, økt risiko for redusert klinisk effekt av klopidogrelbehandling"
+ },
+ {
+  "key": "c4a6c619fef00fd5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktivert ganciklovir."
+ },
+ {
+  "key": "494cde59982f56c5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aktivert valganciklovir."
+ },
+ {
+  "key": "d3fc0170e5749bcf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av albendazol (30-40 %), tolig tilsvarende effekt på den aktive albedazolmetabolitten albendazol-sulfoksid."
+ },
+ {
+  "key": "39346fd734352c52",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alektinib (i størrelsesorden 70 % basert på data med den kraftige enzyminduktoren rifampicin). Men økt konsentrasjon av den aktive metabolitten M4 (ca. 80 %). For summen av disse to vil dette tilsvare en liten reduksjon i konsentrasjon (ca. 20 %)."
+ },
+ {
+  "key": "583ffc982b9e979e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alektinib (inntil 70 % basert på data med den kraftige enzyminduktoren rifampicin). Men økt konsentrasjon av den aktive metabolitten M4 (inntil 80 %). For summen av disse to vil dette tilsvare en liten reduksjon i konsentrasjon (kanskje i størrelsesorden ca. 20 %)."
+ },
+ {
+  "key": "d49b2dd7ac155ae0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alprazolam"
+ },
+ {
+  "key": "e659e320f4a0828a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alprazolam (50-60 % basert på data med karbamazepin)."
+ },
+ {
+  "key": "975cae081e664286",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alprazolam (gjennomsnittlig 60% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "74661bf2cd5eae8b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alprazolam (minst 50 % i følge en studie, men resultatene er usikre siden pasientene ikke var randomiserte). Nedsatt sedativ/anxiolytisk effekt av alprazolam."
+ },
+ {
+  "key": "4cc69b9e07d2c1c4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av alprazolam."
+ },
+ {
+  "key": "e0a231ae8a8540cf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av amiodaron (20-30 %)."
+ },
+ {
+  "key": "83a55ea942515db8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av amiodaron (i størrelsesorden 50 % basert med data med den kraftige enzyminduktoren fenytoin)."
+ },
+ {
+  "key": "0b13ccda063cf46f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av amiodaron, økt risiko for terapisvikt. Økt konsentrasjon av karbamazepin, økt risiko for bivirkninger"
+ },
+ {
+  "key": "676e594a6bfebe23",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av amlodipin."
+ },
+ {
+  "key": "8b69fc5b17eecc16",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av amprenavir (i gjennomsnitt 40 %)."
+ },
+ {
+  "key": "90a2f330fbeb0d3b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av amprenavir."
+ },
+ {
+  "key": "025a680610bd5fa6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av apiksaban (anslagsvis 30-40 % basert på en modelleringsstudie)."
+ },
+ {
+  "key": "5a3063ac0da1da78",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av apiksaban (i størrelsesorden 50-60 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "dbd750b68f7ab4c5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av apiksaban (kanskje inntil 50-60 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "63349eb92cfa3173",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av apixaban (i størrelsesorden 50-60 % basert på data med den kraftige induktoren rifamicin)."
+ },
+ {
+  "key": "da6a9ddad58fe8ec",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av apremilast (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med nedsatt effekt som resultat."
+ },
+ {
+  "key": "2a5c18b29c75567b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aripiprazol og aktiv metabolitt (60-70% i interaksjonsstudier), økt risiko for mangelfull effekt"
+ },
+ {
+  "key": "51962dd8ed759e63",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av aripiprazol og aktiv metabolitt (anslagsvis 60-70%), økt risiko for mangelfull effekt"
+ },
+ {
+  "key": "4b83bf794697556f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atazanavir"
+ },
+ {
+  "key": "f220531a6c01242f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atazanavir (70-80 %)."
+ },
+ {
+  "key": "db29271ea04a8b3f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atazanavir (i gjennomsnitt 30-40 %)"
+ },
+ {
+  "key": "9296386809a03f94",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atazanavir, økt risiko for terapisvikt (gjelder også i kombinasjon med CYP3A4-hemmeren ritonavir)"
+ },
+ {
+  "key": "2a306e356700a3a2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atogepant (60 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "591f761924f1fb6c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atorvastatin (gjennomsnittlig 40-50 % i interaksjonsstudier basert på data med enzyminduktoren efavirenz), økt risiko for terapisvikt."
+ },
+ {
+  "key": "e7d36fa70d398374",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atorvastatin (gjennomsnittlig 40-50 % i interaksjonsstudier), økt risiko for terapisvikt."
+ },
+ {
+  "key": "806cae2d8df67be0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atorvastatin (gjennomsnittlig 80% basert på data med den kraftige emzyminduktoren rifampicin), økt risiko for terapisvikt."
+ },
+ {
+  "key": "aa5a4668ea8d97af",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av atorvastatin (i gjennomsnitt 40 %)."
+ },
+ {
+  "key": "3e5d08589ed41913",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av avapritinib (90-95 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til avapritinib er det angitt at kombinasjonen skal unngås."
+ },
+ {
+  "key": "c691d9ae53f97fe1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av avapritinib (inntil 90-95 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til avapritinib er det angitt at kombinasjonen skal unngås."
+ },
+ {
+  "key": "e8fad7a2e19bfcb0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av avatrombopag (30-40 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "3c16683f3be2a164",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av barbituratet"
+ },
+ {
+  "key": "1cb068f9ec6fcf79",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av barbituratet, nedsatt konsentrasjon av dabrafenib"
+ },
+ {
+  "key": "ddbab3298c65d406",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bedakvilin (50-60 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "80d09abb05c25244",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av berotralstat (usikkert omfang). I preparatomtalen til berotralstat anbefales ikke samtidig bruk."
+ },
+ {
+  "key": "3b5b023811dc0e87",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bortezomib (40-50 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "7d77a14438049ccd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bosentan"
+ },
+ {
+  "key": "14bfd7781770ee60",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bosentan (i størrelsesorden 50-60 % basert på data med enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "4d888de90752c43c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bosutinib (i gjennomsnitt 70-80 % for protonpumpehemmere ved samtidig inntak, trolig en viss effekt også ved samtidig inntak av antacida)"
+ },
+ {
+  "key": "bddc5b98e937008d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bosutinib (i gjennomsnitt 70-80 % for protonpumpehemmere ved samtidig inntak, trolig opp mot samme reduksjon for H2-antagonister)"
+ },
+ {
+  "key": "b29d7b6313c4b451",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bosutinib (i gjennomsnitt 70-80 % ved samtidig inntak)."
+ },
+ {
+  "key": "7969d3cf6ecb6601",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bosutinib (mer enn 90 % reduksjon vist med den kraftige enzyminduktoren rifampicin), med terapisvikt som resultat."
+ },
+ {
+  "key": "2d3a6798d78c4692",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brekspiprazol (70-80 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "f29966e7926f1916",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brigatinib (80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt."
+ },
+ {
+  "key": "cafa55dc79e13c12",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brigatinib (ca. 50 % basert farmakokinetiske simuleringsdata med moderate induktorer av CYP3A4)."
+ },
+ {
+  "key": "00739b7f58148932",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brigatinib (inntil 50 % basert farmakokinetiske simuleringsdata med moderate induktorer av CYP3A4)."
+ },
+ {
+  "key": "cc576d2408df215d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brivaracetam (40-60 % basert på data med andre sterke enzyminduktorer)."
+ },
+ {
+  "key": "68c2b8a490abe306",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brivaracetam (40-60 %), økt konsentrasjon av den aktive karbamazpinmetabolitten karbamazepinepoksid (40-100 % avhengig av brivaracetamdosen)."
+ },
+ {
+  "key": "bae2153b1923ddd1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av brivaracetam (40-60 %)."
+ },
+ {
+  "key": "743053c3c4b28e19",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av buprenorfin."
+ },
+ {
+  "key": "f5411e2bbc879e0b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bupropion (40-50 %)."
+ },
+ {
+  "key": "71b8645750d6b072",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bupropion (50-60 %); i hovedsak vist for ritonavir i kombinasjon med lopinavir."
+ },
+ {
+  "key": "7a39ea96cab06273",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bupropion (50-60 %)."
+ },
+ {
+  "key": "342cdadc87817e82",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av bupropion (90 %), men økt konsetrasjon av den aktive metabolitten hydroksybupropion (50 %). Usikkert hvilken klinisk nettoeffekt dette gir."
+ },
+ {
+  "key": "328bef49daddb953",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av buspiron"
+ },
+ {
+  "key": "2fe8537fb064e0fb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av buspiron (ca. 90 % basert på data med andre enzyminduktorer), mangelfull effekt av buspiron."
+ },
+ {
+  "key": "e13919ed3e7783d9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av busulfan (10-20 %)."
+ },
+ {
+  "key": "66afedb088496f41",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ceritinib (70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Dessuten mulig økt konsentrasjon av fenytoin."
+ },
+ {
+  "key": "bd066c0b4a495212",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ceritinib (i gjennomsnitt 70-80 % for protonpumpehemmere ved samtidig inntak, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "51b8cd7148b518bf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ceritinib (i gjennomsnitt 70-80 % for protonpumpehemmere ved samtidig inntak, trolig opp mot samme reduksjon for H2-antagonister)"
+ },
+ {
+  "key": "75a3acd682f88b8a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ceritinib (i gjennomsnitt 70-80 % ved samtidig inntak)."
+ },
+ {
+  "key": "2ea5fb312f784569",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ceritininb (70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt."
+ },
+ {
+  "key": "dae5451ff0c980bb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ceritininb (inntil 70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt."
+ },
+ {
+  "key": "b88c35df666a4ece",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ciklesonid"
+ },
+ {
+  "key": "5961ea612cf9d0e8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ciprafloksacin (ukjent omfang)."
+ },
+ {
+  "key": "993f672b46a6fdf3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av citalopram (30 %)"
+ },
+ {
+  "key": "384058977996a073",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av cyklofosfamid (usikkert hvor stor reduksjonen vil bli)."
+ },
+ {
+  "key": "59dfb2b83d7646b2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dabrafenib"
+ },
+ {
+  "key": "9f6963bf50d604e2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dabrafenib, nedsatt konsentrasjon av fenytoin"
+ },
+ {
+  "key": "fa94ae5ec69fc304",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dabrafenib."
+ },
+ {
+  "key": "0789511c3a0b09a4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dakomitinib (i gjennomsnitt 30-40 % ved samtidig inntak av protonpumpehemmere, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "4a449ac90f13cb8c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dakomitinib (i gjennomsnitt 30-40 % ved samtidig inntak; vist for rabeprazol)."
+ },
+ {
+  "key": "086e29e14252f807",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dakomitinib (trolig relativt liten reduksjon)."
+ },
+ {
+  "key": "3f4753f620ddf4f0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av daridoreksant (60 prosent reduksjon basert på data med den moderate enzyminduktoren efavirenz, trolig betydelig større reduksjon her med en langt kraftigere enzyminduktor)."
+ },
+ {
+  "key": "a15d9270a0e1b24b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av daridoreksant (ca. 60 prosent basert på data med den moderate enzyminduktoren efavirenz)."
+ },
+ {
+  "key": "a2c6ede3fb1746ea",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av daridoreksant (ca. 60 prosent)."
+ },
+ {
+  "key": "aad5bc7bacc5771d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av darifenacin"
+ },
+ {
+  "key": "3bed6c2292878134",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av darolutamid (70-75 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt."
+ },
+ {
+  "key": "fabe5b84c59dd107",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av darunavir. Produsenten av darunavir fraråder generelt sett samtidig bruk med kraftige enzyminduktorer."
+ },
+ {
+  "key": "00b62d15dfd0a545",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av darunavir. Produsenten av darunavir fraråder på generel basis samtidig bruk med kraftige enzyminduktorer."
+ },
+ {
+  "key": "0248698154ff7956",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av darunavir. Produsenten av darunavir fraråder samtidig bruk med andre kraftige enzymhemmere."
+ },
+ {
+  "key": "16f4fe6bc6ff12bd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dasatinib (80% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "216a38b033337186",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dasatinib (i gjennomsnitt 50-60 % ved samtidig inntak av H2-antagonister, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "01a2b9be7733bf50",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dasatinib (i gjennomsnitt 50-60 % ved samtidig inntak)."
+ },
+ {
+  "key": "f26a7a7166dc0be4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dasatinib (i gjennomsnitt 50-60 %, vist ved samtidig bruk av H2-blokkere)."
+ },
+ {
+  "key": "6bea63a2499ccf6e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dasatinib, økt risiko for terapisvikt"
+ },
+ {
+  "key": "968f2539ad20da9d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av deksametason"
+ },
+ {
+  "key": "a0ecaec45f40d4ce",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av deksametason (50-70 % reduksjon kan forventes). Falsk negativ deksametason-suppresjonstest."
+ },
+ {
+  "key": "b289111e5df6aa72",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av deksametason (mer enn 50 % reduksjon kan forventes). Falsk negativ deksametason-suppresjonstest."
+ },
+ {
+  "key": "5f4b66307fa0e4df",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av deksametason (mer enn 50 % reduksjon kan forventes). Falskt negativ deksametason-suppresjonstest, risiko for Addison-krise ved substitusjonsbehandling med deksametason."
+ },
+ {
+  "key": "6368920949dd29d3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive albendazolmetabolitten albendazol-sulfoksid (50-60 %)."
+ },
+ {
+  "key": "c2b622c313309ffd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive albendazolmetabolitten albendazol-sulfoksid (60-70 %)."
+ },
+ {
+  "key": "9b6573ca3bf53e39",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive fostamatinib-metabolitten (70-80% basert på data med den sterke enzyminduktoren rifampicin). Risiko for opphevet effekt av fostamatinib. I preparatomtalen til fostamatinib angis det at kombinert bruk med ikke anbefales."
+ },
+ {
+  "key": "b281fe71993ca4c1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive fostamatinib-metabolitten (inntil 70-80% basert på data med den sterke enzyminduktoren rifampicin). Risiko for opphevet effekt av fostamatinib. I preparatomtalen til fostamatinib angis det at kombinert bruk med ikke anbefales."
+ },
+ {
+  "key": "e6b78bd3fb238d35",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive fostamatinib-metabolitten (inntil 70-80% basert på data med den sterke enzyminduktoren rifampicin). Risiko for opphevet effekt av fostamatinib. I preparatomtalen til fostamatinib angis det at kombinert bruk med tilsvarende kombinasjoner ikke anbefales."
+ },
+ {
+  "key": "f112a4a7fee8ce98",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive kodeinmetabolitten morfin, risiko for terapisvikt av kodeinbehandling (manglende analgetisk effekt)."
+ },
+ {
+  "key": "116db3171c0439a4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive kodeinmetabolitten morfin, økt risiko for terapisvikt av kodeinbehandling (manglende smertedempning)."
+ },
+ {
+  "key": "13b9b9a7c942a13a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive metabolitten dihydroartemisinin (ukjent omfang, interaksjonen er kun basert på teoretiske betraktninger). Ifølge preparatomtalen til artesunat skal kombinasjonsbehnadling med sterke UGT-induktorer unngås hvis mulig."
+ },
+ {
+  "key": "426c96a383c48c5b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive metabolitten O-desmetyltramadol, økt risiko for terapisvikt av tramadol (manglende analgetisk effekt)."
+ },
+ {
+  "key": "467fffd7a44cbbce",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive metabolitten O-desmetyltramadol, økt risiko for terapisvikt av tramadol (manglende analgetisk effekt). Samtidig økt risiko for serotonergt syndrom gjennom farmakodynamisk interaksjon"
+ },
+ {
+  "key": "6234665ddaf63035",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive metabolitten O-desmetyltramadol, økt risiko for terapisvikt av tramadol (manglende smertelinding)."
+ },
+ {
+  "key": "138fe9ac78e56af8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive metabolitten prednisolon (30-50 %)."
+ },
+ {
+  "key": "01771b3da37bdb27",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive metabolitten prednisolon (kanskje i størrelsesorden 30-50 %)."
+ },
+ {
+  "key": "43099432a025753c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive tamoksifenmetabolitten endoksifen, økt mortalitetsrisiko ved tamoksifenbehandling mot brystkreft"
+ },
+ {
+  "key": "274a6a92de215bfe",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av den aktive tramadolmetabolitten O-desmetyltramadool (gjennomsnittlig 70% i interaksjonsstudier med den kraftige CYP2D6-hemmeren paroksetin), økt risiko for terapisvikt (manglende smertedempning)."
+ },
+ {
+  "key": "0a0d18f528c50483",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dienogest"
+ },
+ {
+  "key": "3668dbc2e2bbdbe2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dienogest."
+ },
+ {
+  "key": "63427718e757734f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av digitoksin (50 % ifølge en studie, ingen effekt ifølge en annen studie). Effekten på digoksinkonsentrasjonen er usikker, men en nedsatt konsentrasjon kan ikke utelukkes."
+ },
+ {
+  "key": "bdd31735a94f0207",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av digoksin (12 % i en studie)."
+ },
+ {
+  "key": "24ecef99c8a1cf72",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av digoksin (25%)."
+ },
+ {
+  "key": "13e5266910fa4bc9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av digoksin (basert på data med enzyminduktoren rifampicin kan en reduksjon på kanskje 15-50 % i digoksinkonsentrasjonen forventes)."
+ },
+ {
+  "key": "7175e3fc03b3c6e6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av digoksin."
+ },
+ {
+  "key": "7a9bdffc174ddb18",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av diltiazem (gjennomsnittlig 60-70 % i interaksjonsstudie)."
+ },
+ {
+  "key": "a4aff415f6d2d356",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av diltiazem, økt risiko for terapisvikt."
+ },
+ {
+  "key": "05548c173fdb23aa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av docetaksel."
+ },
+ {
+  "key": "dbf342af5ccfcfa6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av docetaxel."
+ },
+ {
+  "key": "7f14923a4fa3932a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av doksycyklin, konsentrasjonen faller under vanlige MIC-verdier store deler av døgnet."
+ },
+ {
+  "key": "21a8554b28619ca8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av doksysyklin (konsentrajonen synker under vanlig aksepterte MIC-verdier ved vanlig dosering av doksysyklin). Ingen effekt på doksysyklinkonsentrasjonen ved inntak av alkohol hos ikke-alkoholikere."
+ },
+ {
+  "key": "f96e63e0f1a7cc99",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (50-60 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "cce782c39b7bdec0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (50-60 % basert på data med enzyminduktoren efavirenz)."
+ },
+ {
+  "key": "d41700a949bf11bf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (50-60 %; gjelder når tipranavir er gitt sammen med ritonavir)."
+ },
+ {
+  "key": "33879b43dba0f114",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (50-60 %)."
+ },
+ {
+  "key": "ed527be59577fc12",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (70-80 %)"
+ },
+ {
+  "key": "33a511b69cc04dbe",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (70-80 %). Når ritonavir gis samtidig, påvirkes konsentrasjonen av dolutegravir langt mindre (for eksempel 25 % reduksjon sammen med darunavir/ritonavir og etravirin og 10 % økning sammen med lopinavir/ritonavir og etravirin)."
+ },
+ {
+  "key": "be8e11b8e7c3837d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dolutegravir (usikkert hvor kraftig reduksjonen vil bli, men trolig vil den bli mindre enn for karbamazepin, som er en kraftigere enzyminduktor)."
+ },
+ {
+  "key": "e53acd997077b82f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av doravirin (ca. 90 % basert på data med den kraftige induktoren rifampicin) med opphevet effekt som resultat. Kombinasjonen er kontraindisert i preparatomtalen til doravirin."
+ },
+ {
+  "key": "39e9934e3e046bcf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av doravirin (i størrelsesorden 50-90 % basert på data med den kraftige induktoren rifampicin) med risiko for nedsatt eller opphevet effekt som resultat."
+ },
+ {
+  "key": "55b0ccb6bb78a82d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av doravirin (i størrelsesorden 50-90 % basert på data med den kraftige induktoren rifampicin) med risiko for opphevet effekt som resultat. Kombinasjonen er kontraindisert i preparatomtalen til doravirin."
+ },
+ {
+  "key": "32bd9484f623fd5c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dronedaron"
+ },
+ {
+  "key": "c2a73f291084e588",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dronedaron (i størrelsesorden 80 % basert på data med den kraftige enzyminduktoren rifamipcin)."
+ },
+ {
+  "key": "2d1000cae1fccf95",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av dutasterid."
+ },
+ {
+  "key": "0dd03f0d60ac7f69",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av duvelisib (30-40 % basert på den moderate enzyminduktoren etravirin)."
+ },
+ {
+  "key": "ca1ffb830d26e24f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av duvelisib (30-40 %)."
+ },
+ {
+  "key": "c7cb67e28822e7cc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av duvelisib (80-90 % basert på den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "f11d3570b2e26994",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ebastin"
+ },
+ {
+  "key": "f38d8f223e777d0e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ebastins aktive metabolitt (karebastin)."
+ },
+ {
+  "key": "a72ae51e33338d0b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av edoksaban (usikkert omfang)."
+ },
+ {
+  "key": "72998992d6070831",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av edoksaban, trolig økt kosentrasjon av edoksabans aktive metabolitter. Nettoeffekten av dette er usikker."
+ },
+ {
+  "key": "0c3bd0d25ed9ac75",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av edoksaban, økt kosentrasjon av edoksabans aktive metabolitter. Nettoeffekten av dette er usikker, men i en studie med den kraftige enzyminduktoren rifampicin er det ikke vist forskjeller i protrombintid og APTT."
+ },
+ {
+  "key": "e90831179bdfff0f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eletriptan"
+ },
+ {
+  "key": "b4243297c0bc9244",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eletriptan."
+ },
+ {
+  "key": "744f3157897538de",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eliglustat (85-95 % basert på data med den kraftige enzyminduktoren rifampicin) med opphevet effekt av eliglustat som resultat."
+ },
+ {
+  "key": "a72116e64aec403e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eltrombopag (10-20 %, vist for ritonavir kombinert med lopinavir)."
+ },
+ {
+  "key": "f3edfedc97789cd5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av elvitegravir (40-50 %)."
+ },
+ {
+  "key": "1b0c80a7742db98a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av enkorafenib (ukjent omfang, mren trolig betydelig) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "67022c05315f43e7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av enkorafenib (ukjent omfang) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "a3e909d667c1abf8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av entrektinib (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til entrektinib anbefales det at kombinasjonen unngås."
+ },
+ {
+  "key": "8f77464233debf35",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av entrektinib (inntil 70-80 % basert på data med den kraftige enzyminduktoren rifampicin). I preparatomtalen til entrektinib anbefales det at denne typen kombinasjoner unngås."
+ },
+ {
+  "key": "3adb29d9cf4c9dc8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av entrektinib (inntil 70-80 % basert på data med den kraftige enzyminduktoren rifampicin). I preparatomtalen til entrektinib anbefales det at denne typen kombinasjoner unngås. unngås."
+ },
+ {
+  "key": "2aa55a7ace85428c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av entrektinib (inntil 70-80 % basert på data med den kraftige enzyminduktoren rifampicin). I preparatomtalen til entrektinib anbefales det at kombinasjonen unngås."
+ },
+ {
+  "key": "df0cde2bc93555ba",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eplerenon"
+ },
+ {
+  "key": "5c25f13cad5a9de0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eplerenon."
+ },
+ {
+  "key": "9561970779ab9427",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eravasyklin (30-40 % basert på tall med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "6e76e8d00124953c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erdafitinib (30-40  %)."
+ },
+ {
+  "key": "4fd6180588a76a40",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erdafitinib (30-40 % for rifampicin basert på tall med den sterke enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "1dca7ff5f8241e15",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erdafitinib (kanskje i størrelsesorden 20 % basert på tall med den sterke enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "8db665f5478b172c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eribulin"
+ },
+ {
+  "key": "c5373f5235156310",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erlotinib (i gjennomsnitt 30-40 % ved samtidig inntak)."
+ },
+ {
+  "key": "d0d433a173270c57",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erlotinib (i gjennomsnitt 40-50 % ved samtidig inntak av H2-antagonister, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "55ae220ad57dc7c7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erlotinib (i gjennomsnitt 40-50 % ved samtidig inntak)."
+ },
+ {
+  "key": "d56deb59e6ba6acf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erlotinib (i gjennomsnitt ca. 50 % ved samtidig inntak av protonpumpehemmere/H2-antagonister, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "bd1331d414cbf803",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av erlotinib, økt risiko for terapisvikt"
+ },
+ {
+  "key": "e05e4a3f046726b9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av escitalopram (30 %)"
+ },
+ {
+  "key": "be079fe175c7cfec",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av esomeprazol (30-40 % basert på studier med omeprazol) og av ritonavir (20-30 %)."
+ },
+ {
+  "key": "1baff9e2f4ba2950",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av esomeprazol (en reduksjon på 80-90 % er vist for omeprazol)."
+ },
+ {
+  "key": "bfc8ca5fa4814f03",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av esomeprazol (kanskje en halvering basert på data med den kraftige enzyminduktoren johannesurt)."
+ },
+ {
+  "key": "0e8a4ac9a1d01c22",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av eszopiklon (ca. 80 % basert på data med zopiklon og den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "c48268d7bf13f5d9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etelkalsetid (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Kombinasjonen frarådes hvis mulig i preparatomtalen for iksazomib."
+ },
+ {
+  "key": "0a1665a51c99001a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etoposid (i gjennomsnitt 40-50%)."
+ },
+ {
+  "key": "f5cbe7d6276194aa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etoposid."
+ },
+ {
+  "key": "715a49c44e2b13fa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etorikoksib (60-70 % basert på data med den kraftige enzyminduktoren rifampicin), risiko for terapisvikt."
+ },
+ {
+  "key": "cd97b4a4bc0a0506",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etravirin (40%, vist i kombinasjon med ritonavir)."
+ },
+ {
+  "key": "56724f7b1ea414f2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etravirin (70-80 %). Bortsett fra dette også eventuelt økt risiko for toksiske effekter uten samtidige terapimessige fordeler."
+ },
+ {
+  "key": "8bade48f62a7fe78",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etravirin (i gjennomsnitt 70-80%,  vist i kombinasjon med ritonavir)."
+ },
+ {
+  "key": "c88d95c7001e6c85",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etravirin, økt risiko for terapisvikt"
+ },
+ {
+  "key": "2e8683d91bf85f91",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av etravirin."
+ },
+ {
+  "key": "b30ac3dd752bee34",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av everolimus"
+ },
+ {
+  "key": "8cc46c90f30adefb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av everolimus (det er usikkert hvor stor effekten vil bli)."
+ },
+ {
+  "key": "0dcf89d6135687cd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av everolimus, økt risiko for terapisvikt."
+ },
+ {
+  "key": "f74d5c2c967dbcbc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av everolmus (ukjent omfang, kanskje inntil 30 % reduksjon). Ifølge preparatomtalen til brigatinib bør kombinasjonen unngås. Dette synes imidlertid svært strengt."
+ },
+ {
+  "key": "96047006bb9a7716",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fedratinib (ca. 50 %). I preparatomtalen til fedratinib heter det at kombinasjonen skal unngås."
+ },
+ {
+  "key": "6f9544cbdf27df67",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fedratinib (ca. 80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til fedratinib heter det at kombinasjonen skal unngås."
+ },
+ {
+  "key": "767fff49b6644803",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fedratinib (inntil 80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til fedratinib heter det at kombinasjonen skal unngås."
+ },
+ {
+  "key": "eaec23cc5ead154d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av feksofenadin (30 %)."
+ },
+ {
+  "key": "a805fc985df8bb5f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av feksofenadin (variasjoner fra 10 - 80 % basert på data med andre sterke induktorer av CYP3A4/p-glykoprotein)."
+ },
+ {
+  "key": "82505cddb3ab99cb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av felodipin"
+ },
+ {
+  "key": "ed31fcd900dff2d9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av felodipin (gjennomsnittlig >90% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "04551696ce32e2be",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av felodipin (gjennomsnittlig >90% i interaksjonsstudie), økt risiko for terapisvikt."
+ },
+ {
+  "key": "bed73133ca99819c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fentanyl, risiko for mangelfull smertedempende effekt (vist for rifampicin, en annen CYP3A4-induser)"
+ },
+ {
+  "key": "5a56ef867964ff56",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fentanyl, risiko for mangelfull smertedempende effekt (vist for rifampicin, en annen CYP3A4-induser)."
+ },
+ {
+  "key": "86241725be27ee96",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fenytoin"
+ },
+ {
+  "key": "991b266238e3d5e6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fenytoin (20-50 %), økt kramperisiko. Behandling med fenytoin reduserer nivået av folsyre og øker behovet for tilskudd."
+ },
+ {
+  "key": "0e7a5355e982b841",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fenytoin (i gjennomsnitt 30 %)"
+ },
+ {
+  "key": "b1819ac52191506e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fenytoin (opptil 30 %)"
+ },
+ {
+  "key": "e63bfd6a46fa386f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fenytoin. Etanol kan senke krampeterskelen i forbindelse med abstinens."
+ },
+ {
+  "key": "dfd2fdd6867a130c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fesoterodin (80 % i kombinasjon med den kraftige enzyminduktoren rifampicin), risiko for terapisvikt."
+ },
+ {
+  "key": "fea8e29de02cd373",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fesoterodin, økt risiko for terapisvikt"
+ },
+ {
+  "key": "699956771c08cbf2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av finerenon (usikkert omgang, men nedgangen forventes å bli betydelig, med sterkt redusert eller opphevet effekt av finerenon som resultat)."
+ },
+ {
+  "key": "edc31ea4a3611ea1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fingolimod (40 % basert på data med den kraftige enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "15b84b1b214b0885",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fingolimod (40 %)."
+ },
+ {
+  "key": "5e5a4850958e0c04",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fingolimod (inntil 40 % basert på data med den kraftige enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "00ae0935a42d9da4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fludrokortison (75-95 %).  Hos en pasient måtte dosen av fludrokortison 4-dobles, hos en annen måtte dosen  av fludrokortison 10-20-dobles."
+ },
+ {
+  "key": "14d7e4c10ef93e8e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fludrokortison."
+ },
+ {
+  "key": "91eb0f50f53dbf81",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av fluvoksamin (inntil 30 %) hos røykere sammenliknet med hos ikke-røykere. Økt konsentrasjon av fluvoksamin (inntil 50 %) ved røykestopp. Det er effekten av å slutte å røyke som gir interaksjonen og ikke behandlingen med røykavvenningspreparatet."
+ },
+ {
+  "key": "296e8c65eca45cb1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av frukvintinib (60-70  % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "10fad83e28f88d85",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av frukvintinib (inntil 60-70  % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "79691fc7d563ba59",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av furosemid (gjennomsnittlig 30% i interaksjonsstudie)."
+ },
+ {
+  "key": "2fe9e1301073198a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av futibatinib (60-70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "3a81e480c2003b69",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av futibatinib (inntil 60-70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "8c3c5eae56f5da1b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ganaksolon (60-70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "ae55571c18929bdd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ganaksolon (inntil 60-70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt."
+ },
+ {
+  "key": "2211fb3334f20cd7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av gefitinib (i gjennomsnitt 40-50 % ved samtidig inntak av H2-blokkere, trolig omtrent det samme for protonpumpehemmere)."
+ },
+ {
+  "key": "357e93a3e6d95f31",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av gefitinib (i gjennomsnitt 40-50 % ved samtidig inntak)."
+ },
+ {
+  "key": "2a158a4cbf76bf8e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av gefitinib, økt risiko for mangelfull effekt"
+ },
+ {
+  "key": "9c06295e28198b9d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av gilteritinib (ca. 70 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "de651c69c354f06a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av glasdegib (i størrelsesorden 70 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "b274520ac4ed1a3d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av glasdegib (i størrelsesorden rundt 50-60 % basert på data med den moderate enzyminduktoren efavirenz)."
+ },
+ {
+  "key": "17b76de99d3fb200",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av glasdegib (i størrelsesorden rundt 50-60 %)."
+ },
+ {
+  "key": "dcc94c9be869530c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av glimepirid (30-40 % basert på data med andre enzyminduktorer)."
+ },
+ {
+  "key": "2e8164961518e4ec",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av glimepirid (30-40 % basert på interaksjonstuder med andre enzyminduktorer)."
+ },
+ {
+  "key": "7e5b8d285f30e554",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av glipizid (20-30 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "57d8f0dc5f6d96ac",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av guanfacin (70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt/opphevet effekt."
+ },
+ {
+  "key": "a47738c64b884386",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av haloperidol (anslagsvis 50 %)."
+ },
+ {
+  "key": "a8dbaee6dc37528b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av haloperidol (gjennomsnittlig rundt 50% i interaksjonsstudier; varierer mye med karbamazepindose), økt risiko for terapisvikt"
+ },
+ {
+  "key": "6c679ffbc838fb08",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av haloperidol (inntil 30-40 %) hos røykere sammenliknet med hos ikke-røykere. Økt konsentrasjon av haloperidol ( inntil 50 %) ved røykestopp. Det er effekten av å slutte å røyke som gir interaksjonen og ikke behandlingen med røykavvenningspreparatet."
+ },
+ {
+  "key": "99e9ee1b6fe8cb7b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av haloperidol, økt risiko for terapisvikt."
+ },
+ {
+  "key": "0f2d11b7bf7b62eb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av hydrokortison (kanskje anslagsvis i størrelsesorden 50 %)."
+ },
+ {
+  "key": "718b4702b40417dc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ibrutinib (inntil 90 % basert på data med den kraftige enzyminduktoren rifampicin) og risiko for opphevet effekt."
+ },
+ {
+  "key": "32de4cad9b91bcd4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ibrutinib (minst 90 % basert på data med den kraftige enzyminduktoren rifampicin)  og opphevet effekt."
+ },
+ {
+  "key": "3a60638b8fdc3dbd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ibrutinib (minst 90 % basert på data med den kraftige enzyminduktoren rifampicin) og opphevet effekt."
+ },
+ {
+  "key": "fd83827dcda924c2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ibrutinib."
+ },
+ {
+  "key": "17227e459dd80ac0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av iksazomib (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Kombinasjonen frarådes hvis mulig i preparatomtalen for iksazomib."
+ },
+ {
+  "key": "04a68b6b556c5881",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av imatinib (ca. 70% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "1aca49d8f5ec1846",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av imatinib, økt risiko for terapisvikt"
+ },
+ {
+  "key": "926e080efde24f45",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av irinotekan og den aktive metabolitten SN-38 (sprikende data for ulike enzyminduktorer, anslagsvis 25-75 % reduksjon i nivåene av SN-38)."
+ },
+ {
+  "key": "e167359c4949db83",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av isavukonazol (inntil 90 % basert på den kraftige enzyminduktoren rifampicin) med risiko for mangelfull effekt. Denne typen kombinasjoner er kontraindisert i preparatomtalen for isuvakonazol."
+ },
+ {
+  "key": "ee0553677640fedc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av isavukonazol (inntil 90 % basert på den kraftige enzyminduktoren rifampicin) med risiko for mangelfull effekt. Kombinasjonen er kontraindisert i preparatomtalen for isuvakonazol."
+ },
+ {
+  "key": "a843572166e2083e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av isavukonazol (inntil 90 % basert på den kraftige enzyminduktoren rifampicin) med risiko for mangelfull effekt. Mulig økt konsentrasjon av karbanazepin. Kombinasjonen er kontraindisert i preparatomtalen for isuvakonazol."
+ },
+ {
+  "key": "a3e9a929f4dbe5bf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av isavukonazol (usikkert omfang). Ifølge preparatomtalen for isuvakonazol er kombinasjonen kontraindisert, men siden etravirin er en relativt svak hemmer av CYP3A4, virker det lite sannsynlig at konsentrasjonen av isavukonazol vil bil så lav at effekten helt vil opphøre."
+ },
+ {
+  "key": "370f28cde543f42a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av itrakonazol"
+ },
+ {
+  "key": "86b0c28aee59b4bb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av itrakonazol (60 %)"
+ },
+ {
+  "key": "092c2d6fc3a9d3dc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av itrakonazol (gjennomsnittlig 40 % i interaksjonsstudie)."
+ },
+ {
+  "key": "0004978f749c1532",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av itrakonazol, økt konsentrasjon av dabrafenib"
+ },
+ {
+  "key": "bfc0a39c97ec146b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av itrakonazol, økt risiko for terapisvikt"
+ },
+ {
+  "key": "a768c42f55af100b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivabradin"
+ },
+ {
+  "key": "449f5971a5c24ec8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivabradin (gjennomsnittlig 70% i interaksjonsstudie), økt risiko for terapisvikt."
+ },
+ {
+  "key": "bba29df962066106",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivabradin (gjennomsnittlig 80% i interaksjonsstudie), økt risiko for terapisvikt."
+ },
+ {
+  "key": "8ebae18ed84c01b8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivabradin, økt risiko for terapisvikt."
+ },
+ {
+  "key": "94f9e49558354e23",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivakaftor (90% basert på data med den kraftige CYP3A4-induktoren rifampicin)."
+ },
+ {
+  "key": "f5022c960b84b320",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivakaftor (inntil 90% basert på data med den kraftige CYP3A4-induktoren rifampicin)."
+ },
+ {
+  "key": "fd7b44d709e1de8d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivosidenib (usikkert omfang). Kombinasjoner med sterke CYP3A4-induktorer er kontraindisert i preparatomtalen til ivosidenib."
+ },
+ {
+  "key": "c6d2d0359c4cd03a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ivosidenib (usikkert omfang). Kombinasjoner med sterke CYP3A4-induktorer er kontraindisert i preparatomtalen til ivosidenib. I tillegg mulig nedsatt konsentrsajon av fenytoin."
+ },
+ {
+  "key": "de6eae01f310d095",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabacitaxel"
+ },
+ {
+  "key": "499524acdb4f4eb0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabazitaksel"
+ },
+ {
+  "key": "02971e31d67ca454",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabazitaxel"
+ },
+ {
+  "key": "40ed04c66346f2ef",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabergolin"
+ },
+ {
+  "key": "0bdfbf54629b64aa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabergolin."
+ },
+ {
+  "key": "8b48ae87c07e3f5c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabotegravir (ca 60 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "144a128f2bb4cc0f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabotegravir (usikkert omfang, men trolig relativt beskjedent)."
+ },
+ {
+  "key": "ca7b4d914806e735",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kabozantinib (70-80 % basert på den kraftige enzyminduktoren rifampicin) med risiko for mangelfull effekt."
+ },
+ {
+  "key": "590b9d24aa17ed1d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kanagliflozin (50 % basert på data med enzyminduktoren rifampicin)"
+ },
+ {
+  "key": "efd8947551030f56",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kapivasertib (40-50 % basert på data med den sterke enzyminduktoren enzalutamid)."
+ },
+ {
+  "key": "fc26f29c82e8bb78",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kapivasertib (40-50 %)."
+ },
+ {
+  "key": "f20c8b006f751205",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kapmatinib (60-70% basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "fe3c2e6d83caf67f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kapmatinib (inntil 60-70% basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "940ac7fdb97f6937",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av karbamazepin"
+ },
+ {
+  "key": "9a49eff28944089f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av karbamazepin (10-30 %) og den aktive metabolitten karbamazepin-epoksid (20-40 %). Størst effekt ved høye doser isotretinoin. Mulig nedsatt konsentrasjon av isotretinoin."
+ },
+ {
+  "key": "30a629bc41513d15",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av karbamazepin (20-30 %). Nedsatt konsentrasjon av efavirenz (30-40%)"
+ },
+ {
+  "key": "1e97144c55942144",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av karbamazepin (20-40 %). I de fleste tilfeller er effekten så lav at det ikke har noen klinisk betydning, men hos visse personer kan reduksjonen bli signifikant. Reduksjonen i konsentrasjon kan være kraftigere ved høye senobamatdoser."
+ },
+ {
+  "key": "6b4754867f66adb4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av karbamazepin, nedsatt konsentrasjon av dabrafenib"
+ },
+ {
+  "key": "e0b3af3ef0c9d1f5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kariprazin og aktiv metabolitt (usikkert omfang, men trolig betydelig)."
+ },
+ {
+  "key": "c7425ac8eae88bf4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kariprazin og aktiv metabolitt (usikkert omfang)."
+ },
+ {
+  "key": "9dc0f0c6abc309d4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av karvedilol (60-70 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "f2fccd7adc242465",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ketokonazol"
+ },
+ {
+  "key": "475c0c83e96dfd58",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ketokonazol (gjennomsnittlig 70 % i interaksjonsstudie)"
+ },
+ {
+  "key": "3fdf326cdae4ae06",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ketokonazol, økt konsentrasjon av dabrafeninb (50-60 %)"
+ },
+ {
+  "key": "14ba3498713f1290",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ketokonazol, økt risiko for terapisvikt"
+ },
+ {
+  "key": "4aaa58568e5c14ec",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ketokonazol."
+ },
+ {
+  "key": "d95d9baec6dfd11f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klaritromycin (30-40 %), økt konsentrasjon av nevirapin."
+ },
+ {
+  "key": "b33a4c2362371497",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klaritromycin (i gjennomsnitt 40%)."
+ },
+ {
+  "key": "95667e9a13403c3e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klaritromycin (i gjennomsnitt 40%).  Økt konsentrasjon av etravirin (i gjennomsnitt 40%)."
+ },
+ {
+  "key": "e34842c5dafe60f1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klaritromycin, risiko for terpisvikt. Basert på data fra andre kraftige induktorer av CYP3A4 kan man regne med at konsentrajonen av klaritromycin vil synke med rundt 90 %."
+ },
+ {
+  "key": "df327a71fba03d12",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klaritromycin. Basert på data fra andre kraftige induktorer av CYP3A4 kan man regne med at konsentrajonen av klaritromycin vil synke med inntil 90 %."
+ },
+ {
+  "key": "42b5a9a05e26b8cb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klaritromycin. Basert på data fra andre kraftige induktorer av CYP3A4 kan man regne med at konsentrajonen av klaritromycin vil synke med rundt 90 %."
+ },
+ {
+  "key": "9a1e4cac4ee14738",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klindamycin (70-90 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "539a3387645da80c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klobazam (varierer fra en liten effekt til 60 % reduksjon), i tilegg nedsatt konsentrasjon av den aktive metabolitten N-desmetylklobazam (varierer fra en liten effekt til 30 % reduksjon)."
+ },
+ {
+  "key": "83fb197f068a22fd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klobazam, økt konsentrasjon av den aktive metabolitten N-desmetylklobazam; økt konsentrasjon av fenytoin."
+ },
+ {
+  "key": "8c26d0d113c65a38",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klobazam, økt konsentrasjon av den aktive metabolitten N-desmetylklobazam. Nedsatt konsentrasjon av karbamazepin (inntil 50 % i en studie), økt konsentrasjon av karbamazepin-metabolitten karbamazepin-epoksid."
+ },
+ {
+  "key": "1ea7a0f6ab85c159",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klonazepam (20-40 %)"
+ },
+ {
+  "key": "f7a7cdbc52d89652",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klonazepam (50 %), Nedsatt, økt eller uforandret konsentrasjon av fenytoin."
+ },
+ {
+  "key": "7d4cc4caa4c85cac",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klonazepam (varierende grad av reduksjon i ulike studier)."
+ },
+ {
+  "key": "65956712e8f6fe37",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klopidogrels aktive metabolitt (20-30 % basert på studier med ketokonazol), nedsatt platehemmende effekt påvist (basert på data for ketokonazol) hos friske forsøkspersoner."
+ },
+ {
+  "key": "8c0e74043a5a808d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klopidogrels aktive metabolitt (20-30 %), nedsatt platehemmende effekt påvist hos friske forsøkspersoner (hos 3 av 4 ble platehemmingen såpass mye redusert at de kunne klassifiseres som \"non-respondere\")."
+ },
+ {
+  "key": "c104a7d070cb8e91",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klopidogrels aktive metabolitt, nedsatt platehemmende effekt påvist hos friske forsøkspersoner (denne effekten ble bare sett hos de som ikke hadde aktivt CYP3A5, men dette gjelder de aller fleste i norsk og vesteuropeisk befolkning)."
+ },
+ {
+  "key": "d84e220e24e6766c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klopidogrels aktive metabolitt, risiko for nedsatt antitrombotisk effekt av klopidogrel. Den kliniske relevansen av interaksjonen er usikker og kontroversiell. Den aktive klopidogrelmetabolitten reduseres med inntil 40-50 % for omeprazol og esomeprazol og en del mindre for lanzoprazol og pantoprazol. Effekten er større jo høyere dosen av protonpumpehemmeren er. Dette fører til en redusert platehemmende effekt målt i blodprøver fra friske forsøkspersoner og pasienter. Det er imidlertid inkonsistente data når det gjelder den kliniske relevansen i forhold til kardiovaskulære endepunkter og mortalitet. Noen meta-analyser har funnet en generell økning av kardiovaskulære hendelser på inntil 30-40 % i ved kombinasjonsbruk. Andre meta-analyser har ikke funnet en slik risikoøkning. Dette kan skyldes at påvirkningen får større betydning jo høyere risikoen for trombotiske hendelser er i utgangspunktet, som etter perkutan koronar intervensjon. Det er ikke påvist noen økt mortalitet."
+ },
+ {
+  "key": "2fcdfc59c43153d4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kloramfenikol (40-50 % med den kraftige enzyminduktoren fenobarbital, 70-95 % med den kraftige enzyminduktoren rifampicin). Betydelig risiko for subterapeutiske nivåer av kloramfenikol."
+ },
+ {
+  "key": "3a7aeba91b2ff03f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klozapin (20-90 % i kasuistikker)."
+ },
+ {
+  "key": "4edf30849d70362d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klozapin (gjennomsnittlig 50% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "ba7273ea6ec6d4a7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klozapin (i gjennomsnitt 50-60 %)"
+ },
+ {
+  "key": "83f08b3db3db9e6f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klozapin (inntil 40 % i kasuistikker med omeprazol)."
+ },
+ {
+  "key": "284c0995f942fa72",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av klozapin (inntil 40 % i kasuistikker)"
+ },
+ {
+  "key": "e961936e06873206",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kobicistat"
+ },
+ {
+  "key": "681ebe7335caf605",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kobicistat og elvitregravir, sterkt redusert eller opphevet anti-HIV-effekt."
+ },
+ {
+  "key": "0dfba769bdd006d2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kobicistat og elvitregravir, sterkt redusert eller opphevet anti-HIV-effekt. Økt konsentrasjon av karbamazepin."
+ },
+ {
+  "key": "7ebdc9f936484499",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kobimetinib (trolig betydelig) med risiko for mangelfull effekt."
+ },
+ {
+  "key": "8014723f79e1eaaf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av koffein (50 %), vist for den aktive leflunomidmetabolitten teriflunomid."
+ },
+ {
+  "key": "b71b814c12ddd8eb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av koffein (50 %)."
+ },
+ {
+  "key": "b20ccc17e330f868",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av koffein (anslagsvis rundt 50 %) hos røykere sammenliknet med hos ikke-røykere. Økt konsentrasjon av koffein (anslagsvis rundt en fordobling) ved røykestopp. Det er effekten av å slutte å røyke som gir interaksjonen og ikke behandlingen med røykavvenningspreparatet."
+ },
+ {
+  "key": "c7ab84be3a013115",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kolkisin (ukjent omfang)."
+ },
+ {
+  "key": "91a6a11260ea2b50",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kortison/kortisol (usikkert omfang, men effekten er påvist i rapporter med de kraftige enzyminduktorene rifampicin og fenobarbital)."
+ },
+ {
+  "key": "d0e6e4aabab56700",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kortison/kortisol (usikkert omfang, men effekten er påvist i rapporter med rifampicin og fenobarbital)."
+ },
+ {
+  "key": "6e98aba730423f7b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av krizotinib (80-90 % i interaksjonsstudie med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "cfc85e119977e22a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvetiapin"
+ },
+ {
+  "key": "a3549435e870a39a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvetiapin (20-60 %)."
+ },
+ {
+  "key": "b07d7263cb83cdf5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvetiapin (40-50 %)"
+ },
+ {
+  "key": "2a80b141d6245518",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvetiapin (80 %)"
+ },
+ {
+  "key": "89fe10064f055ae6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvetiapin (gjennomsnittlig 90% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "5042cbdea9c18f3f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvetiapin."
+ },
+ {
+  "key": "1997fddfbd3f2819",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvizartinib (ukjent omfang)."
+ },
+ {
+  "key": "28ea37694bee003d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvizartinib og aktiv metabolitt (minst 90 % reduksjon i konsentrasjonen må forventes basert på tall med den sterke CYP3A4-induktoren efavirenz)."
+ },
+ {
+  "key": "01e87f6cc15426d4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av kvizartinib og aktiv metabolitt (minst 90 % reduksjon i konsentrasjonen)."
+ },
+ {
+  "key": "b9adff22f2a42cd2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (20-30 %)"
+ },
+ {
+  "key": "43114521666092b4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (20-50 %, størst reduksjon ved høye seonobamatdoser)."
+ },
+ {
+  "key": "85ff28b5d90c5552",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (30-40 %)."
+ },
+ {
+  "key": "5dcee2b68ab6b610",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (50 %; vist for lopinavir i kombinasjon med ritonavir)"
+ },
+ {
+  "key": "cdbed6d3b9f217fd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (50-70 %)."
+ },
+ {
+  "key": "6deadc9c114554e0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (i gjennomsnitt 30-40 %, men med variasjoner fra ingen effekt til 70 %). Usikker effekt på konsentrasjon av oxkarbazepin, muligens en liten økning og eventuelt en tilsvarendre reduksjon i konsentrasjonen av den aktive metabolitten monohydroksykarbazepin."
+ },
+ {
+  "key": "044eb79c1584cf02",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (i størrelsesorden 40-50 % basert på interaksjoner med andre sterke enzyminduktorer)."
+ },
+ {
+  "key": "3951292b2551f53d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lamotrigin (inntil 50 % reduksjon). Ingen påvirkning av konsentrasjonen av fenobarbital."
+ },
+ {
+  "key": "97d0e4bafd53d226",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lanzoprazol (for omeprazol er det vist en reduksjon på 70 %)."
+ },
+ {
+  "key": "d2ea8c578ba88bd6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lanzoprazol (usikkert omfang, men kan være betydelig)."
+ },
+ {
+  "key": "e06cfb46d20c743d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lapatinib"
+ },
+ {
+  "key": "6ce0f10cdc0842a7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lapatinib (gjennomsnittlig 70% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "82803394f931e833",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lapatinib (i gjennomsnitt ca. 30 % ved samtidig inntak av protonpumpehemmere/H2-antagonister, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "46bd3a0bb36caafc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lapatinib (i gjennomsnitt ca. 30 % ved samtidig inntak)."
+ },
+ {
+  "key": "bb17cdfec83e4daa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lapatinib, økt risiko for terapisvikt"
+ },
+ {
+  "key": "85fb84f912c05ba4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av larotrektinib (80 % basert på data med den kraftige enzyminduktoren rifampicin). I preparatomtalen til larotrektinib heter det at kombinasjonen skal unngås."
+ },
+ {
+  "key": "be3a8a84b207566d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lazertinib (80-90 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "ab0f9026a9452ffe",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lefamulin (70-80 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. Kombinasjonen er kontraindisert i preparatomtalen til lefamulin."
+ },
+ {
+  "key": "80ca15812b1c376e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lenakapavir (50-60 % basert på data med den moderat sterke induktoren efavienz)."
+ },
+ {
+  "key": "3108b9a04fb46e9c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lenakapavir (50-60 %)."
+ },
+ {
+  "key": "c466717496470837",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lenakapavir (80-90 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "e3e5d31264987799",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lenakapavir (kanskje inntil 50-60 % basert på data med den moderat sterke induktoren efavienz)."
+ },
+ {
+  "key": "cead0b7ad3ba3305",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lerkanidipin"
+ },
+ {
+  "key": "41842e2d1e26586e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av letemovir (usikkert omfang). Effekten forventes å være størst når letermovir gis peroralt og uten ciklosporin."
+ },
+ {
+  "key": "d8a99772b904cd60",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av letemovir (usikkert omfang). Effekten forventes å være størst når letermovir gis peroralt og uten ciklosporin. Eventuelt kan også konsentrasjonen av fenytoin reduseres."
+ },
+ {
+  "key": "58faae1ef0dbb1de",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av letrozol (i gjennomsnitt 30-40 %, variasjon fra 0 % til 70 % i en studie)."
+ },
+ {
+  "key": "2ee8b80dcb60bc7b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levetiracetam (20-30 %). Økt konsentrasjon av karbamazepin hoe enkeltpasienter, men ikke i systematiske studier."
+ },
+ {
+  "key": "7e369691927cc954",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levetiracetam (30 %). Mulig økt konsetrasjon av fenytoin (mostridende data)."
+ },
+ {
+  "key": "7363c2fe14ce114c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levetiracetam (30-40 %)"
+ },
+ {
+  "key": "5b9bb1e2adc0214d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levonorgestrel, (30-40 %), redusert antikonsepsjonseffekt."
+ },
+ {
+  "key": "fc22cd4b9d99e72f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levonorgestrel, (30-50 % basert på data med andre kraftige induktorer), redusert antikonsepsjonseffekt."
+ },
+ {
+  "key": "75b0305ee7f8dafe",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levonorgestrel, (30-50 %), redusert antikonsepsjonseffekt."
+ },
+ {
+  "key": "ca03b08611141a24",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levonorgestrel, (40 % i en interaksjonsstudie), redusert antikonsepsjonseffekt."
+ },
+ {
+  "key": "51fceef7ced13d73",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levonorgestrel, (inntil 30-50 % basert på data med andre kraftige induktorer), redusert antikonsepsjonseffekt."
+ },
+ {
+  "key": "ca3281051be8a40a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levotyroksin (motstridene data og beskjeden effekt i de fleste studiene, ingen effekt i studier med korttidsbruk av protonpumpehemmerne)."
+ },
+ {
+  "key": "863da9562e182876",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av levotyroksin (ukjent omfang)."
+ },
+ {
+  "key": "ac84df1dc416db7d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av linagliptin"
+ },
+ {
+  "key": "29ed165e488b3c86",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av linagliptin (i størrelsesorden 40 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "756e1e0b0143aa16",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lomitapid (ukjent omfang)"
+ },
+ {
+  "key": "8b34c412e45dae20",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lomitapid."
+ },
+ {
+  "key": "595b02694c35def1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lonafarnib (90-100% basert på data med den sterke enzyminduktoren rifampicin). Opphevet effekt av lonafarnib. I preparatomtalen til lonafarnib angis det at kombinasjonen skal unngås."
+ },
+ {
+  "key": "2dda9748a07ab6b1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lonarfa (inntil 90-100% basert på data med den sterke enzyminduktoren rifampicin). Risiko for opphevet effekt av lonafarnib. I preparatomtalen til lonafarnib angis det at kombinasjonen skal unngås."
+ },
+ {
+  "key": "22af876ee3b4ffd0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av loperamid"
+ },
+ {
+  "key": "33438febc330e788",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av loperamid (50 %)."
+ },
+ {
+  "key": "978ed00d452b683a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av loperamid."
+ },
+ {
+  "key": "af40bd87e5618c44",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lopinavir (i gjennomsnitt 80 %; gjelder for kombinsajonspreparater som inneholder dette virkestoffet); økt konsentrasjon av paritaprevir (indirekte data; gjelder for kombinsajonspreparater som inneholder dette virkestoffet)."
+ },
+ {
+  "key": "4d6528cd26ecbe07",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lorlatinib (80-90 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I tillegg er det sett en økning i nivåene av levernezymene ALAT og ASAT. Kombinasjoner med sterke enzyminduktorer er kontraindisert i preparatomtalen til lorlatinib."
+ },
+ {
+  "key": "94f8035f561ff8ed",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lorlatinib (ukjent omfang)."
+ },
+ {
+  "key": "214c1a9a47edbc65",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av losartans aktive metabolitt (20 %)"
+ },
+ {
+  "key": "a657b40db2ef8a54",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av losartans aktive metabolitt (ca. 40% i interaksjonsstudier)."
+ },
+ {
+  "key": "6731fe5c0bf44c7a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av losartans aktive metabolitt (gjennomsnittlig 60% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "27623741a6d980ed",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av losartans aktive metabolitt, økt risiko for terapisvikt"
+ },
+ {
+  "key": "3dee02ce7c061be5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lovastatin"
+ },
+ {
+  "key": "45e6ff118f548984",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lovastatin (40 %), ingen tydelig effekt på lipidprofil."
+ },
+ {
+  "key": "e6513fbc675b1da1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lovastatin (anslagsvis 60-70 % basert på data med lorlatinib kombinert med det følsomme CYP3A4-substratet midazolam, og den effekten som er beskrevet av induktoren efavirenz på konsentrasjonen av simvastatin); redusert kolesterolsenkende effekt."
+ },
+ {
+  "key": "87d7fcfb5d5e883e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lovastatin, økt risiko for terapisvikt"
+ },
+ {
+  "key": "ca41f649572fa310",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lurasidon (80 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "687b4ad2dcf37a89",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lurasidon (80 % basert på data med den kraftige enzyminduktoren rifampicin). Kombinasjon med sterke enzyminduktorer er kontraindisert i preparatomtalen for lurasidon."
+ },
+ {
+  "key": "c06785ccace3481d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lurasidon (80 % basert på data med den kraftige enzyminduktoren rifampicin). Kombinasjonen er kontraindisert i preparatomtalen for lurasidon."
+ },
+ {
+  "key": "94df9b11cbaa8dd2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av lurbinektedin. En reduksjon på 20 % ble sett ved samtidig bruk av den moderate induktoren bosentan. Dette er under det som regnes som å ha klinisk betydning. Med samtidig bruk av sterke induktorer (som her) kan forventes en større nedgang i lurbinektedin-konsentrasjonen."
+ },
+ {
+  "key": "b10b6931640e97f3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av macitentan (80 % basert på data med den sterke induktoren rifampicin), betydelig risiko for opphevet effekt av macitentan."
+ },
+ {
+  "key": "15756318ebca6322",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av maraviroc"
+ },
+ {
+  "key": "86d090248e4dfc18",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av maraviroc (i gjennomsnitt 50%)"
+ },
+ {
+  "key": "ab12edda187c0b54",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av maraviroc, økt risiko for terapisvikt"
+ },
+ {
+  "key": "da61ae71c7cd8df9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av maribavir (ca. 60 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "4e6efc8dde4107ee",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av maribavir (inntil 60 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "b8b6204b896af8ff",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mavakamten (ukjent omfang)."
+ },
+ {
+  "key": "e2441e6e789de8fa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mebendazol (40-50 %)."
+ },
+ {
+  "key": "881523a1178fb611",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mebendazol (ca. 50-70 % basert på en studie med andre kraftige induktorer)."
+ },
+ {
+  "key": "d0d555de9dc11e90",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mebendazol (ca. 50-70 % i en studie)."
+ },
+ {
+  "key": "a52e663e33ddf330",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metadon (20-30 %)."
+ },
+ {
+  "key": "e1972196d1a04b48",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metadon (50-60 %)."
+ },
+ {
+  "key": "2e13af1a2f1df5aa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metadon (i gjennsomnitt inntil 40 %), nedsatt konsentrasjon av amprenavir (i gjennomsnitt 30 %)"
+ },
+ {
+  "key": "9e19505a71a161ce",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metadon (rundt 50 %)."
+ },
+ {
+  "key": "0b926e973e6a9a41",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metadon i noen studier, økt konsentrasjon av metadon i andre studier, ingen effekt i atter andre studier; således motstridende data. Disse resultatene kan muligens skyldes en hemmende effekt på metabolismen av metadon initialt og en induserende effekt ved langtidsbruk."
+ },
+ {
+  "key": "91402c4bf2a4d15b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metadon, økt risiko for mangelfull effekt (abstinenssymptomer)"
+ },
+ {
+  "key": "0cb0ac5ca2aa8d7e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metformin (10-15 %)."
+ },
+ {
+  "key": "f0472e2d6176ac66",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metformin (ukjent omfang)."
+ },
+ {
+  "key": "103681f8371b44d9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metoprolol (30-40 %, vist for pentobarbital)."
+ },
+ {
+  "key": "22fe37c17a325260",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metronidazol (30-70 %)."
+ },
+ {
+  "key": "bae5ebb4763a9fa0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av metylprednisolon (gjennomsnittlig 30-70 % i interaksjonsstudier med ulike kraftige induktorer), økt risiko for terapisvikt."
+ },
+ {
+  "key": "4f7648b85ab343d1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mianserin (50-80 %)."
+ },
+ {
+  "key": "da9883d0d1220c45",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mianserin (50-90 % basert på data med den kraftige enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "f64119c564b15478",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mianserin (betydelig reduksjon i kasuistikker)."
+ },
+ {
+  "key": "96a31d9926c0c64d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av midazolam (>90 %) ved peroral bruk av midazolam. Midazolam som administreres intravenøst eller bukkalt påvirkes i mindre grad (anslagsvis 20-25 % reduksjon i plasmakonsentrasjon, men effekten vil være variabel)."
+ },
+ {
+  "key": "0d18a05595528d84",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av midazolam (30-40 % ved midazolam p.o.; 15-20 % ved midazolam i.v.)"
+ },
+ {
+  "key": "ef1a3666bfd2f25f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av midazolam (50 %) ved peroral bruk av midazolam. Sannsynligvis minimal påvirkning ved intravenøs bruk av midazolam og når midazolam administreres bukkalt som enkeldoser som anfallsstoppende behandling ved krampeanfall."
+ },
+ {
+  "key": "5ef7aceb9dba5ee8",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av midostaurin (minst 90 %) og en aktiv metabolitt (ca. 60 %) basert på data med den kraftige enzyminduktoren rifampicin. Kombinasjonen er kontraindisert i preparatomtalen for Rydapt."
+ },
+ {
+  "key": "e44a66c5c9890605",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av midostaurin (minst 90 %) og en aktiv metabolitt (ca. 60 %) basert på data med den kraftige enzyminduktoren rifampicin. Kombinasjonen med CYP3A4-induktorer er kontraindisert i preparatomtalen for Rydapt."
+ },
+ {
+  "key": "596e376a00110396",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mirtazapin (50 %)."
+ },
+ {
+  "key": "43b631c1f2c73c59",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mirtazapin (60-70 %)."
+ },
+ {
+  "key": "3972f159561a02b7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mirtazapin. Basert på data fra andre kraftige induktorer av CYP3A4, kan man regne med at konsentrajonen av mirtazapin vil synke med 40-70 %."
+ },
+ {
+  "key": "58a8dae6cd9ef54d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mitapivat (90 % eller mer basert på tall med den sterke induktoren rifampicin), risiko for sterkt nedsatt eller opphevet effekt av mitapivat. Ifølge preparatomtalen for mitapivat bør kombinasjoner med CYP3A4-induktorer unngås."
+ },
+ {
+  "key": "a9768628624a4ff0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mitapivat (kanskje i størrelesorden 50-90 % basert på tall med den sterke induktoren rifampicin), risiko for nedsatt eller opphevet effekt av mitapivat. Ifølge preparatomtalen for mitapivat bør kombinasjoner med CYP3A4-induktorer unngås."
+ },
+ {
+  "key": "cea730b3048dd85f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av mitapivat. Det er usikkert hvor kraftig effekten er."
+ },
+ {
+  "key": "10a4130048f7d03d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av modafinil (30-40 %, vist for r-enantiomeren armodafinil) og karbamazepin (20-30  %)."
+ },
+ {
+  "key": "41fa030e1bbd9dec",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av modafinil (kanskje i størrelsesorden 30-40 % basert på data med andre enzyminduktorer), mulig økt konsentrasjon av fenytoin (usikkert omfang, data basert på in vitro-studier utført av produsenten av modafnil)."
+ },
+ {
+  "key": "3b599a41c6676b7b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av momelotinib (40-50 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "298ffed68d84195c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av momelotinib (inntil 40-50 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "f103185906844f90",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av montelukast (30-40 %)."
+ },
+ {
+  "key": "94a54794cc68b414",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av morfin, økt risiko for terapisvikt av kodeinbehandling (manglende smertedempning)."
+ },
+ {
+  "key": "8cb8df7fd093e35c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av morfin, økt risiko for terapisvikt av kodeinbehandling (manglende smertelinding)."
+ },
+ {
+  "key": "d8235cb88ec96d81",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av naldemedin (80-90 % basert på den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "0f8c3ce553cb4f4c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av naldemedin (inntil 80-90 % basert på den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "4042ca69d2a6ef26",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av naloksegol (90 % basert på data med den kraftige enzyminduktoren rifampicin)  og opphevet effekt."
+ },
+ {
+  "key": "6bf6e44e8cc5bfd6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av naloksegol (90 % basert på data med den kraftige enzyminduktoren rifampicin) og opphevet effekt."
+ },
+ {
+  "key": "e2f8f85c9bffa084",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nerandomilast (ca. 40 % basert på data med den moderat sterke enzyminduktoren bosentan)."
+ },
+ {
+  "key": "d388b96c8f9b638c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nerandomilast (ca. 40 %)."
+ },
+ {
+  "key": "5d1fda202cc120ad",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nerandomilast (ca. 50 % basert på data med den sterke enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "5d18f142c828e9ed",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nerandomilast (ca. 50 %)."
+ },
+ {
+  "key": "8e3738f8ed1e0d78",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nerandomilast (usikkert omfang)."
+ },
+ {
+  "key": "fb2276aaef300cc5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av neratinib (85-90 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "ae1f0e1e1f0162aa",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av neratinib (i gjennomsnitt 50 % ved samtidig inntak)."
+ },
+ {
+  "key": "0f12b43ad397009e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av neratinib (i gjennomsnitt 70 % ved samtidig inntak)."
+ },
+ {
+  "key": "907992e2f02127b0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av neratinib (i gjennomsnitt ca. 50 % ved samtidig inntak av protonpumpehemmere/H2-antagonister, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "d7d6bdb1827385ac",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av neratinib (i størrelsesorden 50-70 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "d7e2afac68b042f6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nilotinib"
+ },
+ {
+  "key": "8f4224a04bba941a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nilotinib, økt risiko for terapisvikt"
+ },
+ {
+  "key": "e33e4a74793d1e2e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nimodipin"
+ },
+ {
+  "key": "dfc0f7ef3698977b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nimodipin (gjennomsnittlig 80-90% i interaksjonsstudier), økt risiko for terapisvikt. Kombinasjonen er kontraindisert i SPC for Nimotop."
+ },
+ {
+  "key": "d362f07d6e02b755",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nintedanib (50 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "5347225f47e8012c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nintedanib."
+ },
+ {
+  "key": "c00f31cd25ec474c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nirogacestat (usikkert omfang)."
+ },
+ {
+  "key": "7606c3ceba61811c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nirogacestat (usikkert omgang)."
+ },
+ {
+  "key": "feda6cf5b8738851",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nomegestrol"
+ },
+ {
+  "key": "554b3897374ac7f2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av nomegestrol."
+ },
+ {
+  "key": "61ac997a385f4fc2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av oksazepam (inntil 30-40 %) hos røykere sammenliknet med hos ikke-røykere. Økt konsentrasjon av oksazepam (inntil 50 %) ved røykestopp. Det er effekten av å slutte å røyke som gir interaksjonen og ikke behandlingen med røykavvenningspreparatet."
+ },
+ {
+  "key": "a4cbf1b8a98d2245",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av oksykodon (80-90 % ved peroral administrasjon av oksykodon, 50-60 % ved parenteral administrasjon basert på data med andre kraftige induktorer av CYP3A4)."
+ },
+ {
+  "key": "cd028a3a2e6fbb77",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av oksykodon (80-90 % ved peroral administrasjon av oksykodon, 50-60 % ved parenteral administrasjon)."
+ },
+ {
+  "key": "b6d208c81241d799",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av oksykodon (inntil 80-90 % ved peroral administrasjon av oksykodon, 50-60 % ved parenteral administrasjon basert på data med andre kraftige induktorer av CYP3A4)."
+ },
+ {
+  "key": "38a79cf0e5fad095",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av oksykodon."
+ },
+ {
+  "key": "754decf42e48de4d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av olanzapin (50-60 %)"
+ },
+ {
+  "key": "3e9b830ef1171952",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av olanzapin (gjennomsnittlig rundt 50% interaksjonsstudier), økt risiko for terapisvikt"
+ },
+ {
+  "key": "eaf66306de5d116a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av olaparib (inntil 80-90 % reduksjon basert på data med den sterke enzyminduktoren rifampicin, trolig noe mindre her), risiko for opphevet effekt av olaparib."
+ },
+ {
+  "key": "20b383afba5f988d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av olaparib (inntil 80-90 % reduksjon basert på data med den sterke enzyminduktoren rifampicin), stor risiko for opphevet effekt av olaparib."
+ },
+ {
+  "key": "4bdb1ed6bf395693",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av omaveloksolon (usikkert omfang, men trolig betydelig)."
+ },
+ {
+  "key": "5278ead1926dc34a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av omeprazol (30-40 %) og av ritonavir (20-30 %)."
+ },
+ {
+  "key": "8678987f518d66c7",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av omeprazol (80-90 %)."
+ },
+ {
+  "key": "29528e072ee6202d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av omeprazol (kanskje en halvering basert på data med den kraftige enzyminduktoren johannesurt)."
+ },
+ {
+  "key": "183f5ee093b073e5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ondansetron"
+ },
+ {
+  "key": "d0b8c593e3135888",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ondansetron (60-70 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "2f57fc31347ab9f5",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av osimertinib (i gjennomsnitt ca. 80 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "90387a69fc17ef0b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ospemifen (50-60 % basert på data med den kraftige enzyminduktoren rifampicin) med med risiko for nedsatt effekt som resultat."
+ },
+ {
+  "key": "ff6492a1102c10df",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ospemifen (50-60 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for nedsatt effekt som resultat."
+ },
+ {
+  "key": "6370bd6dba5f39c9",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av oxkarbazepins aktive metabolitt 30-40 %); økt konsentrasjon av fenytoin (opptil 40 % ved oxkarbazepindoser på over 1200 mg/d, langt mindre ved lavere doser)."
+ },
+ {
+  "key": "cc99345121fd324e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paklitaxel (i gjennomsnitt 40-50 %)."
+ },
+ {
+  "key": "bf31622fd150b332",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av palbociklib (80-90 % basert på data med den kraftige enzyminduktoren rifampicin) med betydelig risiko for opphevet effekt."
+ },
+ {
+  "key": "4a025c21ae2d031f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paliperidon (i gjennomsnitt 50 %)"
+ },
+ {
+  "key": "ce7bd157b52a0a1c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paltusotin (20-40 %)"
+ },
+ {
+  "key": "012ec9420dac5b0c",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paltusotin (ca. 70 % basert på den kraftige enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "532176d29a946013",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paltusotin (ca. 70 %)."
+ },
+ {
+  "key": "5e7b44029abaaa0a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paltusotin (inntil 70 % basert på den kraftige enzyminduktoren karbamazepin)."
+ },
+ {
+  "key": "45b08ea223bb2fe1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av panobinostat (usikkert hvor stor effekten vil bli) med risiko for nedsatt/opphevet effekt."
+ },
+ {
+  "key": "29c2dac6106209ef",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pantoprazol (for omeprazol er det vist en reduksjon på 70 %)."
+ },
+ {
+  "key": "5a010c0406448675",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pantoprazol (usikkert omfang, men kan være betydelig)."
+ },
+ {
+  "key": "1b9e3d9039c40f27",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paracetamol (40 %), økt konsentrasjon av den levertoksiske metabolitten NAPQI."
+ },
+ {
+  "key": "e0e59abd81752880",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av paroksetin (40 %)"
+ },
+ {
+  "key": "b73f4c411927c96a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pazopanib (i gjennomsnitt ca. 40 % ved samtidig inntak av protonpumpehemmere/H2-antagonister, trolig en viss effekt også ved samtidig inntak av antacida)."
+ },
+ {
+  "key": "4d760306af7e5e54",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pazopanib (i gjennomsnitt ca. 40 % ved samtidig inntak)."
+ },
+ {
+  "key": "73401839e8f02d0b",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pazopanib."
+ },
+ {
+  "key": "0feb0df6dd13c1bb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pemgatinib (i gjennomsnitt 30-40 % ved samtidig inntak, men 1/3 av pasientene fikk en kraftig reduksjon i pemgatinib-konsentrasjonen ved samtidig bruk av esomeprazol)."
+ },
+ {
+  "key": "fb0a77878547b9cc",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pemigatinib (85-90 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "fb85783a859095a1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pemigatinib (i størrelsesorden 50-70 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "b60ba66995669913",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av perampanel (50 %), økt konsentrasjon av okskarbazepin (30 %; den aktive metabolitten monohyroksykarbazepin ikke undersøkt)."
+ },
+ {
+  "key": "cd207a71d992c3c4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av perampanel (50 %)."
+ },
+ {
+  "key": "e361ce3e7759dd2a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av perampanel (50-70 % basert på data med fenytoin og karbamazepin)."
+ },
+ {
+  "key": "c5d21726cf99c566",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av perampanel (60-70 %)."
+ },
+ {
+  "key": "b0536dccc9ea0af2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pioglitazon (50-60 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "69675cb9369ee835",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pirtobrutinib (ca. 70 % basert på den sterke enzyminduktoren rifampicin). Ifølge preparatomalen til pirtrobrutinib før kombinasjoner med sterke induktorer av CYP3A4 hvis mulig unngås."
+ },
+ {
+  "key": "15cbec5a3e5fc5bb",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pitolisant (ca. 50 % basert på data med den krafitge enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "41344090c7f04404",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av posakonazol"
+ },
+ {
+  "key": "3ed310e489b73459",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av posakonazol (40 %, vist for cimetidin)"
+ },
+ {
+  "key": "d4d17828cc12f971",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av posakonazol (gjennomsnittlig 50% i interaksjonsstudie)"
+ },
+ {
+  "key": "d832a35fbc115c87",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av posakonazol (gjennomsnittlig 50% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "22ea09c08c70bba2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av posakonazol, økt konsentrasjon av dabrafenib"
+ },
+ {
+  "key": "9d10a693be291510",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av posakonazol."
+ },
+ {
+  "key": "d99630796fe29913",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pralsetinib (ca. 70 % basert på data med den sterke enzyminduktoren rifampicin)"
+ },
+ {
+  "key": "ef56a45c12c81bc6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pralsetinib (inntil 70 % basert på data med den sterke enzyminduktoren rifampicin)"
+ },
+ {
+  "key": "17b24811b3e4832e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av prednisolon (30-50%)."
+ },
+ {
+  "key": "aba607d59efb6664",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av prednisolon (gjennomsnittlig 30-50% i interaksjonsstudier), økt risiko for terapisvikt."
+ },
+ {
+  "key": "39e47eb0e751ed96",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av prednisolon (gjennomsnittlig 50% i interaksjonsstudie), økt risiko for terapisvikt"
+ },
+ {
+  "key": "9d368aeaa81f1795",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av prednison/prednisolon (ca. 30-60 % i rapporter med de kraftige enzyminduktorene rifampicin/karbamazepin/fenobarbital)."
+ },
+ {
+  "key": "55dbb530c8a6b423",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pretomanid (30-40 %). I preparatomtalen til pretomanid anbefales det at kombinasjonen unngås."
+ },
+ {
+  "key": "5553c86affd75d2f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pretomanid (60-70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til pretomanid anbefales det at kombinasjonen unngås."
+ },
+ {
+  "key": "6ae4af0cfc09a5f1",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av pretomanid (inntil 60-70 % basert på data med den kraftige enzyminduktoren rifampicin) med risiko for opphevet effekt. I preparatomtalen til pretomanid anbefales det at denne typen kombinasjoner unngås."
+ },
+ {
+  "key": "94421eb202106713",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progesteronet (30-40 %)."
+ },
+ {
+  "key": "27007a0a09296233",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progesteronet i minipiller (30-40 %), noe tilsvarende kan også gjelde her."
+ },
+ {
+  "key": "24ef43e5a477d2df",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progesteronet i minipiller (30-40 %)."
+ },
+ {
+  "key": "5e6750894ca7acda",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (30-40%, vist for levonorgestrel); redusert antikonsepsjonseffekt.  Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes."
+ },
+ {
+  "key": "c2deb48469faf5ff",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (30-40%, vist for levonorgestrel)."
+ },
+ {
+  "key": "9678cc8a30c7f0ee",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (30-50 % vist for levomorgestrel); redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes, men sistnevnte bør gis hver 10. uke."
+ },
+ {
+  "key": "21ac3e0ce2980ab4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (30-50 % vist for levonorgestrel)."
+ },
+ {
+  "key": "6658d2c430c3e189",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (40 % i en interaksjonsstudie med levonorgestrel), usikker klinsk relevans."
+ },
+ {
+  "key": "605fcec100af9868",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (ca. 20 % vist for levomorgestrel); mulig redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk kan brukes."
+ },
+ {
+  "key": "e22e07fcc24f9fc6",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet (ukjent omgang, men kan være betydelig), redusert effekt."
+ },
+ {
+  "key": "31e3cdd534911a54",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet, risiko for uønsket graviditet. (Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes, men sistnevnte bør gis hver 10. uke)"
+ },
+ {
+  "key": "21af3ea4d02aef90",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet; redusert antikonsepsjonseffekt (levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes, men sistnevnte bør gis hver 10. uke."
+ },
+ {
+  "key": "218015ef1a84e44e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av progestogenet; redusert antikonsepsjonseffekt. Levonorgestrel til intrauterin bruk og medroksyprogesteron til depotinjeksjoner kan brukes, men sistnevnte bør gis hver 10. uke."
+ },
+ {
+  "key": "f7098cc06a950a98",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av propranolol (60-80 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "a3be3b7b82d58726",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av raltegravir (40 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "099baaf5d8738658",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av raltegravir (i gjennomsnitt 36 % i en farmakokinetisk studie)."
+ },
+ {
+  "key": "e75e5b829c34088e",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ranolazin"
+ },
+ {
+  "key": "d97283f06f1465cf",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ranolazin (i størrelsesorden 90 % eller mer basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "7319138e68d8c2d4",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av regorafenib, økt konsentrasjon av  den aktive metabolitten M-5, ingen påvirkning av konsentrasjonen av den aktive metabolitten M-2. Uforutsigbar nettoeffekt på virkningen av regorafenib."
+ },
+ {
+  "key": "3187bd30bf1fd926",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av relugoliks (50-60 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "582329a47adf5529",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av relugoliks (inntil 50-60 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "45a38f498cbe23f0",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av repaglinid (kanskje i størrelsesorden 30-80 % basert på data med den kraftige enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "e8a45bd44f828574",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av repotrektinib (inntil 90 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "30ba318e70efd537",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av repotrektinib (minst 90 % basert på data med den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "c62c55b332cdeb25",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ribosiklib (basert på data med den kraftige enzyminduktoren rifampicin vil nedgangen være på 80-90 %, med betydelig risiko for opphevet terapieffekt)."
+ },
+ {
+  "key": "d68335715b5effc3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ribosiklib (ca. 70 %, risiko for opphevet terapieffekt)."
+ },
+ {
+  "key": "d360f315e39d0a96",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rilpivirin (40 %; vist for omeprazol), betydelig risiko for mangelfull effekt av rilpivirin."
+ },
+ {
+  "key": "1db3aef8f213158d",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rilpivirin (70-80 %, vist for famotidin), betydelig risiko for mangelfull effekt av rilpivirin."
+ },
+ {
+  "key": "b3e1fe949a2479f3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rilpivirin (indirekte data),  risiko for mangelfull effekt."
+ },
+ {
+  "key": "0ea8d79722dac510",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rilpivirin, betydelig risiko for manglende effekt."
+ },
+ {
+  "key": "e6e2f32f6363d52f",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rilpivirin, risiko for mangelfull effekt."
+ },
+ {
+  "key": "b4f9c37d983a1328",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rimegepant (ca. 80 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "049d44e5917e7005",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av rimegepant (inntil 80 % basert på data med den kraftige induktoren rifampicin)."
+ },
+ {
+  "key": "ae067679e72137f2",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av riociugat (30-40 %; vist for antacida)."
+ },
+ {
+  "key": "39b1393db1a55e93",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av riociugat (30-40 %)."
+ },
+ {
+  "key": "b6e1a811394fdacd",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ripretinib (30-40 % basert på den moderate enzyminduktoren etravirin)."
+ },
+ {
+  "key": "d13cb234998831a3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ripretinib (80-90 % basert på den sterke enzyminduktoren rifampicin)."
+ },
+ {
+  "key": "16649dbf64aa6712",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av risperidon (ca. 50 %) og den aktive metabolitten 9-hydroksyrisperidon (20-30 %)."
+ },
+ {
+  "key": "ebe5dcacf8eb8cc3",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av risperidon og aktiv metabolitt (anslagsvis 60-80%), økt risiko for mangelfull effekt"
+ },
+ {
+  "key": "1457c9f790ed757a",
+  "kind": "consequence",
+  "nb": "Nedsatt konsentrasjon av ritonavir (og midler som lopinavir, ombitasvir, paritraprevir og dasabuvir når noen av disse brukes samtidig), økt risiko for terapisvikt. Basert på data med karbamazepin, kan man forventa at konsentrajonen av anti-HIV-midlene kan bli redusert med mellom 30 % og 70 % med betydelig risiko for terapisvikt."
+ }
+]

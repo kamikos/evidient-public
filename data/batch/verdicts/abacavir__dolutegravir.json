@@ -1,0 +1,30 @@
+{
+  "pair": "abacavir__dolutegravir",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Dolutegravir label states liver injury leading to transplant was reported with TRIUMEQ, which contains both abacavir and dolutegravir."
+    },
+    {
+      "id": "c2",
+      "support": "partial",
+      "rationale": "The review describes low interaction potential of the DTG-ABC-3TC co-formulation with other drugs, not anything about abacavir and dolutegravir affecting each other, and it is a review opinion rather than an observed no-effect finding."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "does_not_support"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

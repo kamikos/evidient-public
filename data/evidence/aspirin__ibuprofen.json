@@ -1,0 +1,720 @@
+{
+  "card": {
+    "pair": "aspirin__ibuprofen",
+    "a": "aspirin",
+    "b": "ibuprofen",
+    "category": "efficacy",
+    "depth": "limited",
+    "headline": {
+      "text": "Ibuprofen interferes with low-dose aspirin antiplatelet activity",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states ibuprofen interferes with low-dose aspirin antiplatelet activity, which may increase cardiovascular events in patients taking low-dose aspirin for cardioprotection.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "text": "The label states concurrent aspirin and ibuprofen increases the risk of serious gastrointestinal events.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "Ibuprofen aspirin interference presumably involves interaction at platelet cyclooxygenase-1.",
+        "claimIds": [
+          "c5"
+        ]
+      }
+    ],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aspirin or Ibuprofen, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aspirin and Ibuprofen, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states ibuprofen interferes with low-dose aspirin antiplatelet activity.",
+        "quote": "Pharmacodynamic studies have demonstrated interference with the antiplatelet activity of aspirin when ibuprofen 400 mg, given three times daily, is administered with enteric­-coated low-dose aspirin. The interaction exists even following a once-daily regimen of ibuprofen 400 mg, particularly when ibuprofen is dosed prior to aspirin. The interaction is alleviated if immediate-release low-dose aspirin is dosed at least 2 hours prior to a once-daily regimen of ibuprofen; however, this finding cannot be extended to enteric-coated low-dose aspirin [see Clinical Pharmacology/Pharmacodynamics ]. Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "antiplatelet_interference",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports, because the quoted label text explicitly states pharmacodynamic studies demonstrated ibuprofen interference with low-dose aspirin antiplatelet activity and warns of a possible increased cardiovascular risk from that co-exposure.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The label states interference may increase cardiovascular events in cardioprotection aspirin users.",
+        "quote": "Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cardiovascular_risk",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports, as the label explicitly states ibuprofen's interference with aspirin's antiplatelet effect may increase cardiovascular event risk in patients taking low-dose aspirin for cardioprotection, matching the claimed population, direction, and uncertainty.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The label states concurrent aspirin with ibuprofen increases serious GI events risk.",
+        "quote": "The concurrent use of aspirin and an NSAID, such as ibuprofen, increases the risk of serious gastrointestinal (GI) events [ see Warnings ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "gi_bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that concurrent aspirin and ibuprofen, named as an NSAID example, increases the risk of serious GI events, matching the claim's co-exposure, direction, and risk-level certainty and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "Human platelet tests showed ibuprofen also attenuated aspirin antiplatelet effect.",
+        "quote": "4-Methylaminoantipyrine (MAA), the active metabolite of dipyrone, largely attenuated or even completely abolished the inhibition of arachidonic acid-induced platelet aggregation, thromboxane formation and P-selectin expression by aspirin. Similar results were obtained for other pyrazolinones, as well as for the conventional NSAIDs ibuprofen and naproxen.",
+        "source": {
+          "kind": "pubmed",
+          "id": "17944992"
+        },
+        "stance": "increases_risk",
+        "outcome": "antiplatelet_interference",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support: The quote reports ibuprofen attenuating aspirin's platelet inhibition in tests without reporting an increased clinical risk or a label restriction for the combination, so it does not match the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c5",
+        "text": "Ibuprofen aspirin interference presumably involves platelet COX-1 interaction.",
+        "quote": "Anti-inflammatory analgesics, including ibuprofen and naproxen, are known to interfere with the antiplatelet effect of aspirin, presumably as a result of a drug-drug interaction at the level of platelet cyclooxygenase-1 (COX-1).",
+        "source": {
+          "kind": "pubmed",
+          "id": "17944992"
+        },
+        "stance": "mechanism",
+        "outcome": "antiplatelet_interference",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly attributes ibuprofen's interference with aspirin's antiplatelet effect to a presumed platelet COX-1 drug-drug interaction, matching the claim's pair, direction, mechanism, and hedged certainty.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "00872852-680a-41b3-901b-b991b12a176d#warnings",
+        "title": "Warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00872852-680a-41b3-901b-b991b12a176d",
+        "citation": "FDA label · Warnings",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "00872852-680a-41b3-901b-b991b12a176d#precautions",
+        "title": "Precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00872852-680a-41b3-901b-b991b12a176d",
+        "citation": "FDA label · Precautions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "17944992",
+        "title": "Pyrazolinone analgesics prevent the antiplatelet effect of aspirin and preserve human platelet thromboxane synthesis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17944992/",
+        "citation": "Hohlfeld et al. · Journal of thrombosis and haemostasis : JTH 2008",
+        "design": "other",
+        "year": 2008
+      }
+    ],
+    "generatedAt": "2026-11-03T19:55:47.745Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "aspirin__ibuprofen",
+      "at": "2026-11-03T19:54:32.889Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00872852-680a-41b3-901b-b991b12a176d#clinical_pharmacology",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00872852-680a-41b3-901b-b991b12a176d#clinical_pharmacology"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00872852-680a-41b3-901b-b991b12a176d#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00872852-680a-41b3-901b-b991b12a176d#drug_interactions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00872852-680a-41b3-901b-b991b12a176d#warnings",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00872852-680a-41b3-901b-b991b12a176d#warnings"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00872852-680a-41b3-901b-b991b12a176d#precautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00872852-680a-41b3-901b-b991b12a176d#precautions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa6d2576f4b91180bcf49e76ad",
+      "name": "record_claim",
+      "args": {
+        "outcome": "antiplatelet_interference",
+        "quote": "Pharmacodynamic studies have demonstrated interference with the antiplatelet activity of aspirin when ibuprofen 400 mg, given three times daily, is administered with enteric­-coated low-dose aspirin. The interaction exists even following a once-daily regimen of ibuprofen 400 mg, particularly when ibuprofen is dosed prior to aspirin. The interaction is alleviated if immediate-release low-dose aspirin is dosed at least 2 hours prior to a once-daily regimen of ibuprofen; however, this finding cannot be extended to enteric-coated low-dose aspirin [see Clinical Pharmacology/Pharmacodynamics ]. Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+        "sourceId": "00872852-680a-41b3-901b-b991b12a176d#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states ibuprofen interferes with low-dose aspirin antiplatelet activity."
+      },
+      "t": 14935
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states ibuprofen interferes with low-dose aspirin antiplatelet activity.",
+        "quote": "Pharmacodynamic studies have demonstrated interference with the antiplatelet activity of aspirin when ibuprofen 400 mg, given three times daily, is administered with enteric­-coated low-dose aspirin. The interaction exists even following a once-daily regimen of ibuprofen 400 mg, particularly when ibuprofen is dosed prior to aspirin. The interaction is alleviated if immediate-release low-dose aspirin is dosed at least 2 hours prior to a once-daily regimen of ibuprofen; however, this finding cannot be extended to enteric-coated low-dose aspirin [see Clinical Pharmacology/Pharmacodynamics ]. Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "antiplatelet_interference"
+      },
+      "t": 14935
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa6d2576f4b91180bcf49e76ad",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 14935
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa739e7658b2dd0c360733ea06",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cardiovascular_risk",
+        "quote": "Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+        "sourceId": "00872852-680a-41b3-901b-b991b12a176d#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states interference may increase cardiovascular events in cardioprotection aspirin users."
+      },
+      "t": 14935
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states interference may increase cardiovascular events in cardioprotection aspirin users.",
+        "quote": "Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cardiovascular_risk"
+      },
+      "t": 14935
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa739e7658b2dd0c360733ea06",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 14935
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa77d87247abb948dc24ba7fa0",
+      "name": "record_claim",
+      "args": {
+        "outcome": "gi_bleeding",
+        "quote": "The concurrent use of aspirin and an NSAID, such as ibuprofen, increases the risk of serious gastrointestinal (GI) events [ see Warnings ].",
+        "sourceId": "00872852-680a-41b3-901b-b991b12a176d#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states concurrent aspirin with ibuprofen increases serious GI events risk."
+      },
+      "t": 14936
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "The label states concurrent aspirin with ibuprofen increases serious GI events risk.",
+        "quote": "The concurrent use of aspirin and an NSAID, such as ibuprofen, increases the risk of serious gastrointestinal (GI) events [ see Warnings ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "gi_bleeding"
+      },
+      "t": 14936
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa77d87247abb948dc24ba7fa0",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 14936
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa7b2f7555a6967bd661a14be0",
+      "name": "search_pubmed",
+      "args": {
+        "query": "aspirin ibuprofen antiplatelet interaction thromboxane human study"
+      },
+      "t": 14936
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa7b2f7555a6967bd661a14be0",
+      "summary": "search_pubmed completed: {\"query\":\"aspirin ibuprofen antiplatelet interaction thromboxane human study\",\"pmids\":[\"28293429\",\"24075938\",\"18814431\",\"17944992\",\"14564311\"]}",
+      "t": 15168
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa7c95768b94cf7bd01c462572",
+      "name": "search_pubmed",
+      "args": {
+        "query": "aspirin ibuprofen coadministration cardiovascular gastrointestinal events adults"
+      },
+      "t": 15168
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa7c95768b94cf7bd01c462572",
+      "summary": "search_pubmed completed: {\"query\":\"aspirin ibuprofen coadministration cardiovascular gastrointestinal events adults\",\"pmids\":[\"29673465\"]}",
+      "t": 15736
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa96257764b33fb196a67a797a",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "14564311",
+          "17944992"
+        ]
+      },
+      "t": 22513
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa96257764b33fb196a67a797a",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"14564311\",\"title\":\"Selective COX-2 inhibition and cardiovascular effects: a review of the rofecoxib development program.\",\"journal\":\"American heart journal\",\"year\":\"2003\",\"abstractText\":\"See related Editorials on pages 561 and 563. Cyclo-oxygenase-2 (COX-2) inhibitors appear to alter the balance of vasoactive eicosanoids (prostacyclin and thromboxane) and to suppress the inflammatory mediators implicated in the progression of atherogenesis and ischemic myocardial injury. Neutral, harmful, and beneficial cardiovascular (CV) effects have all been postulated to result from these changes. Investigations conducted with rofecoxib, a selective COX-2 inhibitor, have substantially contributed to our understanding of this scientific area. Rofecoxib had little or no effect on platelet aggregation or platelet-derived thromboxane synthesis but reduced systemic prostacyclin synthesis by 50% to 60%. These findings prompted extensive analyses of CV thrombotic events within the rofecoxib development program. Among 5435 osteoarthritis trial participants, similar rates of CV thrombotic events were reported with rofecoxib, placebo, and comparator, nonselective NSAIDs (ibuprofen, diclofenac, and nabumetone). In the VIGOR gastrointestinal outcomes trial of >8000 patients, naproxen (an NSAID with aspirin-like sustained antiplatelet effects throughout its dosing interval) was associated with a significantly lower risk of CV events than was rofecoxib. A subsequent pooled analysis from 23 studies (including VIGOR) encompassing multiple disease states and including more than 14,000 patient-years at risk also demonstrated that rofecoxib was not associated with excess CV thrombotic events compared with either placebo or nonnaproxen NSAIDs. Again, naproxen appeared to be the outlier, suggesting a cardioprotective benefit of naproxen. Finally, among the predominantly elderly, male population participating in Alzheimer trials, both rofecoxib- and placebo-treated patients had similar rates of CV thrombotic events. The totality of data is not consistent with an increased CV risk among patients taking rofecoxib.\",\"publicationTypes\":[\"Journal Article\",\"Review\"],\"firstAuthor\":\"Weir\",\"kind\":\"pubmed\",\"id\":\"14564311\",\"text\":\"See related Editorials on pages 561 and 563. Cyclo-oxygenase-2 (COX-2) inhibitors appear to alter the balance of vasoactive eicosanoids (prostacyclin and thromboxane) and to suppress the inflammatory mediators implicated in the progression of atherogenesis and ischemic myocardial injury. Neutral, harmful, and beneficial cardiovascular (CV) effects have all been postulated to result from these changes. Investigations conducted with rofecoxib, a selective COX-2 inhibitor, have substantially contributed to our understanding of this scientific area. Rofecoxib had little or no effect on platelet aggregation or platelet-derived thromboxane synthesis but reduced systemic prostacyclin synthesis by 50% to 60%. These findings prompted extensive analyses of CV thrombotic events within the rofecoxib development program. Among 5435 osteoarthritis trial participants, similar rates of CV thrombotic events were reported with rofecoxib, placebo, and comparator, nonselective NSAIDs (ibuprofen, diclofenac, and nabumetone). In the VIGOR gastrointestinal outcomes trial of >8000 patients, naproxen (an NSAID with aspirin-like sustained antiplatelet effects throughout its dosing interval) was associated with a significantly lower risk of CV events than was rofecoxib. A subsequent pooled analysis from 23 studies (including VIGOR) encompassing multiple disease states and including more than 14,000 patient-years at risk also demonstrated that rofecoxib was not associated with excess CV thrombotic events compared with either placebo or nonnaproxen NSAIDs. Again, naproxen appeared to be the outlier, suggesting a cardioprotective benefit of naproxen. Finally, among the predominantly elderly, male population participating in Alzheimer trials, both rofecoxib- and placebo-treated patients had similar rates of CV thrombotic events. The totality of data is not consistent with an increased CV risk among patients taking rofecoxib.\"},{\"pmid\":\"17944992\",\"title\":\"Pyrazolinone analgesics prevent the antiplatelet effect of aspirin and preserve human platelet thromboxane synthesis.\",\"journal\":\"Journal of thrombosis and haemostasis : JTH\",\"year\":\"2008\",\"abstractText\":\"Anti-inflammatory analgesics, including ibuprofen and naproxen, are known to interfere with the antiplatelet effect of aspirin, presumably as a result of a drug-drug interaction at the level of platelet cyclooxygenase-1 (COX-1).\\n\\nWe studied whether dipyrone, which has recently been reported to inhibit COX isoforms by a mechanism different from conventional non-steroidal anti-inflammatory drugs (NSAIDs), also interferes with the antiplatelet effect of aspirin.\\n\\nArachidonic acid- and collagen-induced aggregation, as well as thromboxane formation, were measured in human platelet-rich plasma. Platelet P-selectin expression was determined by flow cytometry and cell-free COX enzyme activity was quantified by luminol-enhanced luminescence of human platelet microsomes. In addition, computerized docking was performed based on the crystal structure of COX-1.\\n\\n4-Methylaminoantipyrine (MAA), the active metabolite of dipyrone, largely attenuated or even completely abolished the inhibition of arachidonic acid-induced platelet aggregation, thromboxane formation and P-selectin expression by aspirin. Similar results were obtained for other pyrazolinones, as well as for the conventional NSAIDs ibuprofen and naproxen. Moreover, MAA attenuated the effect of aspirin on COX activity of platelet microsomes, suggesting a competition with aspirin at the COX-1 enzyme. This was confirmed by docking studies, which revealed that MAA forms a strong hydrogen bond with serine 530 within the COX-1, thereby preventing enzyme acetylation by aspirin.\\n\\nThis study demonstrates for the first time that dipyrone and other pyrazolinones have a high potential to attenuate or prevent the antiplatelet effect of aspirin. This should be considered if pyrazolinone analgesics are administered to patients with cardiovascular disease requiring antiplatelet aspirin therapy.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Hohlfeld\",\"kind\":\"pubmed\",\"id\":\"17944992\",\"text\":\"Anti-inflammatory analgesics, including ibuprofen and naproxen, are known to interfere with the antiplatelet effect of aspirin, presumably as a result of a drug-drug interaction at the level of platelet cyclooxygenase-1 (COX-1).\\n\\nWe studied whether dipyrone, which has recently been reported to inhibit COX isoforms by a mechanism different from conventional non-steroidal anti-inflammatory drugs (NSAIDs), also interferes with the antiplatelet effect of aspirin.\\n\\nArachidonic acid- and collagen-induced aggregation, as well as thromboxane formation, were measured in human platelet-rich plasma. Platelet P-selectin expression was determined by flow cytometry and cell-free COX enzyme activity was quantified by luminol-enhanced luminescence of human platelet microsomes. In addition, computerized docking was performed based on the crystal structure of COX-1.\\n\\n4-Methylaminoantipyrine (MAA), the active metabolite of dipyrone, largely attenuated or even completely abolished the inhibition of arachidonic acid-induced platelet aggregation, thromboxane formation and P-selectin expression by aspirin. Similar results were obtained for other pyrazolinones, as well as for the conventional NSAIDs ibuprofen and naproxen. Moreover, MAA attenuated the effect of aspirin on COX activity of platelet microsomes, suggesting a competition with aspirin at the COX-1 enzyme. This was confirmed by docking studies, which revealed that MAA forms a strong hydrogen bond with serine 530 within the COX-1, thereby preventing enzyme acetylation by aspirin.\\n\\nThis study demonstrates for the first time that dipyrone and other pyrazolinones have a high potential to attenuate or prevent the antiplatelet effect of aspirin. This should be considered if pyrazolinone analgesics are administered to patients with cardiovascular disease requiring antiplatelet aspirin therapy.\"}]",
+      "t": 22873
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2facaa470e6a076098ce4438f91",
+      "name": "record_claim",
+      "args": {
+        "outcome": "antiplatelet_interference",
+        "quote": "4-Methylaminoantipyrine (MAA), the active metabolite of dipyrone, largely attenuated or even completely abolished the inhibition of arachidonic acid-induced platelet aggregation, thromboxane formation and P-selectin expression by aspirin. Similar results were obtained for other pyrazolinones, as well as for the conventional NSAIDs ibuprofen and naproxen.",
+        "sourceId": "17944992",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Human platelet tests showed ibuprofen also attenuated aspirin antiplatelet effect."
+      },
+      "t": 37930
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Human platelet tests showed ibuprofen also attenuated aspirin antiplatelet effect.",
+        "quote": "4-Methylaminoantipyrine (MAA), the active metabolite of dipyrone, largely attenuated or even completely abolished the inhibition of arachidonic acid-induced platelet aggregation, thromboxane formation and P-selectin expression by aspirin. Similar results were obtained for other pyrazolinones, as well as for the conventional NSAIDs ibuprofen and naproxen.",
+        "source": {
+          "kind": "pubmed",
+          "id": "17944992"
+        },
+        "stance": "increases_risk",
+        "outcome": "antiplatelet_interference"
+      },
+      "t": 37930
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2facaa470e6a076098ce4438f91",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 37930
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2face9673fc9916b914feb9c0a4",
+      "name": "record_claim",
+      "args": {
+        "outcome": "antiplatelet_interference",
+        "quote": "Anti-inflammatory analgesics, including ibuprofen and naproxen, are known to interfere with the antiplatelet effect of aspirin, presumably as a result of a drug-drug interaction at the level of platelet cyclooxygenase-1 (COX-1).",
+        "sourceId": "17944992",
+        "sourceKind": "pubmed",
+        "stance": "mechanism",
+        "text": "Ibuprofen aspirin interference presumably involves platelet COX-1 interaction."
+      },
+      "t": 37930
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "Ibuprofen aspirin interference presumably involves platelet COX-1 interaction.",
+        "quote": "Anti-inflammatory analgesics, including ibuprofen and naproxen, are known to interfere with the antiplatelet effect of aspirin, presumably as a result of a drug-drug interaction at the level of platelet cyclooxygenase-1 (COX-1).",
+        "source": {
+          "kind": "pubmed",
+          "id": "17944992"
+        },
+        "stance": "mechanism",
+        "outcome": "antiplatelet_interference"
+      },
+      "t": 37930
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2face9673fc9916b914feb9c0a4",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 37930
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 46358
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 46358
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 46360
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 46362
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 46363
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote explicitly states that concurrent aspirin and ibuprofen, named as an NSAID example, increases the risk of serious GI events, matching the claim's co-exposure, direction, and risk-level certainty and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 49970
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "matched",
+      "t": 49970
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "Supports, as the label explicitly states ibuprofen's interference with aspirin's antiplatelet effect may increase cardiovascular event risk in patients taking low-dose aspirin for cardioprotection, matching the claimed population, direction, and uncertainty.",
+      "model": "muse-wonder-1.0",
+      "t": 50459
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "Supports, because the quoted label text explicitly states pharmacodynamic studies demonstrated ibuprofen interference with low-dose aspirin antiplatelet activity and warns of a possible increased cardiovascular risk from that co-exposure.",
+      "model": "muse-wonder-1.0",
+      "t": 52276
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "does_not_support",
+      "rationale": "does_not_support: The quote reports ibuprofen attenuating aspirin's platelet inhibition in tests without reporting an increased clinical risk or a label restriction for the combination, so it does not match the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 52765
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c5",
+      "support": "supports",
+      "rationale": "The quote explicitly attributes ibuprofen's interference with aspirin's antiplatelet effect to a presumed platelet COX-1 drug-drug interaction, matching the claim's pair, direction, mechanism, and hedged certainty.",
+      "model": "muse-wonder-1.0",
+      "t": 53662
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 61410
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 4 card sentences against their claims; dropped 0.",
+      "t": 74856
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "aspirin__ibuprofen",
+        "a": "aspirin",
+        "b": "ibuprofen",
+        "category": "efficacy",
+        "depth": "limited",
+        "headline": {
+          "text": "Ibuprofen interferes with low-dose aspirin antiplatelet activity",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states ibuprofen interferes with low-dose aspirin antiplatelet activity, which may increase cardiovascular events in patients taking low-dose aspirin for cardioprotection.",
+            "claimIds": [
+              "c1",
+              "c2"
+            ]
+          },
+          {
+            "text": "The label states concurrent aspirin and ibuprofen increases the risk of serious gastrointestinal events.",
+            "claimIds": [
+              "c3"
+            ]
+          }
+        ],
+        "mechanism": [
+          {
+            "text": "Ibuprofen aspirin interference presumably involves interaction at platelet cyclooxygenase-1.",
+            "claimIds": [
+              "c5"
+            ]
+          }
+        ],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "no_human_data",
+            "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Aspirin or Ibuprofen, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Aspirin and Ibuprofen, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states ibuprofen interferes with low-dose aspirin antiplatelet activity.",
+            "quote": "Pharmacodynamic studies have demonstrated interference with the antiplatelet activity of aspirin when ibuprofen 400 mg, given three times daily, is administered with enteric­-coated low-dose aspirin. The interaction exists even following a once-daily regimen of ibuprofen 400 mg, particularly when ibuprofen is dosed prior to aspirin. The interaction is alleviated if immediate-release low-dose aspirin is dosed at least 2 hours prior to a once-daily regimen of ibuprofen; however, this finding cannot be extended to enteric-coated low-dose aspirin [see Clinical Pharmacology/Pharmacodynamics ]. Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00872852-680a-41b3-901b-b991b12a176d#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "antiplatelet_interference",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports, because the quoted label text explicitly states pharmacodynamic studies demonstrated ibuprofen interference with low-dose aspirin antiplatelet activity and warns of a possible increased cardiovascular risk from that co-exposure.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "The label states interference may increase cardiovascular events in cardioprotection aspirin users.",
+            "quote": "Because there may be an increased risk of cardiovascular events due to the interference of ibuprofen with the antiplatelet effect of aspirin, for patients taking low-dose aspirin for cardioprotection who require analgesics, consider use of an NSAID that does not interfere with the antiplatelet effect of aspirin, or non-NSAID analgesics, where appropriate.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00872852-680a-41b3-901b-b991b12a176d#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cardiovascular_risk",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports, as the label explicitly states ibuprofen's interference with aspirin's antiplatelet effect may increase cardiovascular event risk in patients taking low-dose aspirin for cardioprotection, matching the claimed population, direction, and uncertainty.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "The label states concurrent aspirin with ibuprofen increases serious GI events risk.",
+            "quote": "The concurrent use of aspirin and an NSAID, such as ibuprofen, increases the risk of serious gastrointestinal (GI) events [ see Warnings ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "00872852-680a-41b3-901b-b991b12a176d#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "gi_bleeding",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that concurrent aspirin and ibuprofen, named as an NSAID example, increases the risk of serious GI events, matching the claim's co-exposure, direction, and risk-level certainty and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c4",
+            "text": "Human platelet tests showed ibuprofen also attenuated aspirin antiplatelet effect.",
+            "quote": "4-Methylaminoantipyrine (MAA), the active metabolite of dipyrone, largely attenuated or even completely abolished the inhibition of arachidonic acid-induced platelet aggregation, thromboxane formation and P-selectin expression by aspirin. Similar results were obtained for other pyrazolinones, as well as for the conventional NSAIDs ibuprofen and naproxen.",
+            "source": {
+              "kind": "pubmed",
+              "id": "17944992"
+            },
+            "stance": "increases_risk",
+            "outcome": "antiplatelet_interference",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support: The quote reports ibuprofen attenuating aspirin's platelet inhibition in tests without reporting an increased clinical risk or a label restriction for the combination, so it does not match the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c5",
+            "text": "Ibuprofen aspirin interference presumably involves platelet COX-1 interaction.",
+            "quote": "Anti-inflammatory analgesics, including ibuprofen and naproxen, are known to interfere with the antiplatelet effect of aspirin, presumably as a result of a drug-drug interaction at the level of platelet cyclooxygenase-1 (COX-1).",
+            "source": {
+              "kind": "pubmed",
+              "id": "17944992"
+            },
+            "stance": "mechanism",
+            "outcome": "antiplatelet_interference",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly attributes ibuprofen's interference with aspirin's antiplatelet effect to a presumed platelet COX-1 drug-drug interaction, matching the claim's pair, direction, mechanism, and hedged certainty.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "00872852-680a-41b3-901b-b991b12a176d#warnings",
+            "title": "Warnings",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00872852-680a-41b3-901b-b991b12a176d",
+            "citation": "FDA label · Warnings",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "fda_label",
+            "id": "00872852-680a-41b3-901b-b991b12a176d#precautions",
+            "title": "Precautions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00872852-680a-41b3-901b-b991b12a176d",
+            "citation": "FDA label · Precautions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "17944992",
+            "title": "Pyrazolinone analgesics prevent the antiplatelet effect of aspirin and preserve human platelet thromboxane synthesis.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17944992/",
+            "citation": "Hohlfeld et al. · Journal of thrombosis and haemostasis : JTH 2008",
+            "design": "other",
+            "year": 2008
+          }
+        ],
+        "generatedAt": "2026-11-03T19:55:47.745Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 74856
+    }
+  ]
+}

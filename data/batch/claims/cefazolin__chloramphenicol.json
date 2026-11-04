@@ -1,0 +1,39 @@
+{
+  "pair": "cefazolin__chloramphenicol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The French cefazolin label says antagonistic effects were observed in vitro between cefazolin and bacteriostatic antibiotics, chloramphenicol among them.",
+      "quote": "Il convient de prendre en compte le potentiel d’effets antagonistes observés in vitro avec les antibiotiques ayant une action bactériostatique (p. ex. les tétracyclines, les sulfamides, l’érythromycine, le chloramphénicol) lorsque ces antibiotiques sont administrés conjointement à la céfazoline.",
+      "quoteEnglish": "The potential for antagonistic effects observed in vitro with antibiotics having a bacteriostatic action (e.g. tetracyclines, sulfonamides, erythromycin, chloramphenicol) when these antibiotics are administered together with cefazolin should be taken into account.",
+      "sourceId": "FR:60461151#4.5",
+      "stance": "increases_risk",
+      "outcome": "reduced_effect"
+    }
+  ],
+  "headline": {
+    "text": "The French cefazolin label mentions in vitro antagonism with bacteriostatic antibiotics including chloramphenicol (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French label names chloramphenicol among bacteriostatic antibiotics with in vitro antagonism when given with cefazolin.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "efficacy",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"cefazolin\"[tiab] AND \"chloramphenicol\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

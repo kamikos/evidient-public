@@ -1,0 +1,28 @@
+{
+  "inn": "adapalene",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "63066469",
+  "product": "DIFFERINE 0,1 %, gel",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63066469/extrait",
+  "retrievedAt": "2026-11-03T23:08:57.309Z",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-03; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "36c509cd9ae2e4ceab1e24e720daf247310f0d52f60cba74b7c4de7369a37cd0",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\nCe médicament contient du parahydroxybenzoate de méthyle (E218) et peut provoquer des réactions allergiques (éventuellement retardées).\n\nCe médicament contient du propylèneglycol et peut provoquer des irritations cutanées.\n\nPrécautions d'emploi\n\nSi une réaction de type réaction d'hypersensibilité ou une irritation sévère apparaissent, l'utilisation du gel devra être interrompue provisoirement voire définitivement.\n\nEn cas d'application accidentelle sur les muqueuses (yeux, bouche, narines) ou sur les plaies ouvertes, rincer soigneusement à l'eau tiède.\n\nDu fait, du caractère légèrement irritant du gel, l'usage concomitant de produits cosmétiques nettoyants astringents et d'agents desséchants ou irritants (tels que produits parfumés ou alcoolisés) est à éviter.\n\nLe gel d'adapalène appliqué le soir peut être également utilisé avec d'autres traitements antiacnéiques appliqués le matin, par exemple, des lotions à l'érythromycine (4 %) ou à la clindamycine (1 %) ou des gels aqueux au peroxyde de benzoyle à des concentrations allant jusqu'à 10 %.\n\nL'exposition au soleil et aux lampes à ultraviolet provoque une irritation supplémentaire. Eviter en conséquence une exposition pendant le traitement dans toute la mesure du possible.\n\nLe traitement pourra cependant être poursuivi si l'exposition solaire est réduite au minimum (protection par le port d'un chapeau et l'utilisation d’une crème écran solaire) et le rythme des applications ajusté.\n\nEn cas d'exposition exceptionnelle au soleil (une journée à la mer par exemple), ne pas appliquer la veille, le jour même et le lendemain.\n\nSi une exposition préalable a entraîné des brûlures (\"coup de soleil\"), attendre un complet rétablissement avant d'entreprendre le traitement.\n\nDifférine gel contient du parahydroxybenzoate de méthyle (E218) pouvant causer des réactions allergiques potentiellement retardées.\n\nCe médicament contient également 40mg de propylène glycol (E1520) dans chaque gramme ce qui équivaut à 4% p/p et peut causer une irritation cutanée.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63066469/extrait#tabpanel-rcp-panel",
+      "sha256": "b73f5ed20c39f4977891b9e78769a8d2cf007e9f4eeb1a00d9067e23ebc9e6b6"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nL'adapalène est stable à l'oxygène et à la lumière et chimiquement non réactif. L'utilisation de l'adapalène avec d'autres médicaments topiques anti-acnéiques, comme par exemple le phosphate de clindamycine ou le peroxyde de benzoyle ne produit pas de dégradation mutuelle.\n\nL'adapalène étant faiblement absorbé par la peau, l'interaction avec des médicaments administrés par voie systémique est donc peu probable.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63066469/extrait#tabpanel-rcp-panel",
+      "sha256": "49f58f4628e1bc4e1c8199a851a6dc560afbbfec2fb26ff4d3fecaf6a74e3874"
+    }
+  ],
+  "documentUpdatedAt": "2026-11-03"
+}

@@ -1,0 +1,139 @@
+{
+  "card": {
+    "pair": "alcohol__promethazine",
+    "a": "alcohol",
+    "b": "promethazine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says promethazine may intensify or prolong alcohol's sedative effects.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies alcohol among depressants whose sedative action promethazine may increase.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says promethazine may increase, prolong, or intensify alcohol's sedative action.",
+        "quote": "Promethazine hydrochloride tablets, USP may increase, prolong, or intensify the sedative action of other central-nervous-system depressants, such as alcohol",
+        "source": {
+          "kind": "fda_label",
+          "id": "bae9c9c1-107f-0fcb-e053-2a95a90a75b2#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The promethazine label states it may increase, prolong or intensify the sedative action of CNS depressants such as alcohol.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "bae9c9c1-107f-0fcb-e053-2a95a90a75b2#warnings",
+        "title": "promethazine: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bae9c9c1-107f-0fcb-e053-2a95a90a75b2",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "bae9c9c1-107f-0fcb-e053-2a95a90a75b2#precautions",
+        "title": "promethazine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bae9c9c1-107f-0fcb-e053-2a95a90a75b2",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:68921769#4.4",
+        "title": "PHENERGAN 2 %, crème: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68921769/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24951898",
+        "title": "Bioelectrochemical sensing of promethazine with bamboo-type multiwalled carbon nanotubes dispersed in calf-thymus double stranded DNA.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24951898/",
+        "citation": "1878-562X 99 2014 Oct Bioelectrochemistry (Amsterdam, Netherlands) Bioelectrochemistry",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "369039",
+        "title": "The interaction between alcohol, chlorpropamide and phenformin in a severe combined poisoning: case report.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/369039/",
+        "citation": "0249-6402 1 4 1978 Jul Toxicological European research. Recherche europeenne en toxicologie Toxicol Eur Res",
+        "language": "en",
+        "design": "controlled_trial"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38527052",
+        "title": "Codeine and promethazine: Exploratory study on \"lean\" or \"sizzurp\"&#xa0;using national survey data and an online forum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38527052/",
+        "citation": "1932-6203 19 3 2024 PloS one PLoS One",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32885849",
+        "title": "Enantioseparation and molecular modeling study of eight psychoactive drugs on a coated polysaccharide-based chiral stationary phase.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32885849/",
+        "citation": "1522-2683 41 24 2020 Dec Electrophoresis Electrophoresis",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Promethazine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.609Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

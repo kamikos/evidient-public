@@ -1,0 +1,136 @@
+{
+  "card": {
+    "pair": "alcohol__theophylline",
+    "a": "alcohol",
+    "b": "theophylline",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label says a single large alcohol dose decreases theophylline clearance for up to 24 hours.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label specifies a dose of 3 mL/kg of whiskey.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The interaction described in the label is reduced theophylline clearance.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says a single large alcohol dose, 3 mL/kg of whiskey, decreases theophylline clearance for up to 24 hours.",
+        "quote": "A single large dose of alcohol (3 mL/kg of whiskey) decreases theophylline clearance for up to 24 hours.",
+        "source": {
+          "kind": "fda_label",
+          "id": "5e64036a-ee3e-42e7-9e59-881f88a4e298#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The interaction table states a single large dose of alcohol (3 mL/kg whiskey) decreases theophylline clearance for up to 24 hours.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "5e64036a-ee3e-42e7-9e59-881f88a4e298#precautions",
+        "title": "theophylline: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e64036a-ee3e-42e7-9e59-881f88a4e298",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5e64036a-ee3e-42e7-9e59-881f88a4e298#drug_interactions",
+        "title": "theophylline: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e64036a-ee3e-42e7-9e59-881f88a4e298",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9700019",
+        "title": "Drug diffusion and binding in ionizable interpenetrating networks from poly(vinyl alcohol) and poly(acrylic acid).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9700019/",
+        "citation": "0939-6411 46 1 1998 Jul European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V Eur J Pharm Biopharm",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "4042465",
+        "title": "Theophylline pharmacokinetics in adolescent females following coadministration of oral contraceptives.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4042465/",
+        "citation": "0147-958X 8 3 1985 Clinical and investigative medicine. Medecine clinique et experimentale Clin Invest Med",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20859793",
+        "title": "Pharmacokinetics and metabolism of natural methylxanthines in animal and man.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20859793/",
+        "citation": "0171-2004 200 2011 Handbook of experimental pharmacology Handb Exp Pharmacol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28903068",
+        "title": "The influence of hydroalcoholic media on the performance of Grewia polysaccharide in sustained release tablets.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28903068/",
+        "citation": "1873-3476 532 1 2017 Oct 30 International journal of pharmaceutics Int J Pharm",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Theophylline and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.619Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

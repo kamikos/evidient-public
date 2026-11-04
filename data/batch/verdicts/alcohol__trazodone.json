@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__trazodone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Under its CNS-depressants heading the label says trazodone may enhance the effects of alcohol."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The six-volunteer double-blind crossover abstract reports little additional effect from ethanol except further impaired manual dexterity."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

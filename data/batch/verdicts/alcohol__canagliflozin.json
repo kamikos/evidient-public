@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__canagliflozin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The canagliflozin warning lists alcohol abuse among precipitating conditions for ketoacidosis in SGLT2-inhibitor users."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

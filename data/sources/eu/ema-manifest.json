@@ -1,0 +1,112 @@
+{
+  "inputs": [
+    {
+      "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json",
+      "file": "data/raw/eu-more/9f636001f7ac40035c9b28566cb498a7aa596002e262447ff0111eee13a9b54d.json",
+      "sha256": "30bd1f242361f5b3bf40944d7012dce1c3fa8adf092c5be9691fde24096d52e9",
+      "retrievedAt": "2026-11-04T18:12:01.168Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/report/documents-output-epar_documents_json-report_en.json",
+      "file": "data/raw/eu-more/41359c1580c5a10e40519738ad09780cc7b7d2eff30f752505e9a17f723067a1.json",
+      "sha256": "47cbbf9c0b4729c8c885fbfb86adb95cf5fda320be8e4765190fce849e4abe15",
+      "retrievedAt": "2026-11-04T18:12:01.853Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/lyrica-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/af0b5869f99103d726867c8be8a2576888e1d98a88d290c74516d7bf7ffd13a5.pdf",
+      "sha256": "b911bddbab432f8a0fcedb9c67537bff55e0bf53d314c31c88869bca834605af",
+      "retrievedAt": "2026-11-04T18:12:02.349Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/eliquis-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/627b6727150a8a582a02eff8cefcfce504d7d7e6029c445ae9afae73c26765b4.pdf",
+      "sha256": "2c0830820630062f4840bfa3480c75f2e906f4d88046edf420c3e31195b50b2d",
+      "retrievedAt": "2026-11-04T18:12:02.925Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/cymbalta-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/0ef4be00f9ef56e68ed7c0507b3f4d599dff70be54fbcb1a0fffe91b5e52cc3c.pdf",
+      "sha256": "a3b2a486f9b4069e76d38032cad9e45c893ee290991d9c0e8b3ea325ef1c101c",
+      "retrievedAt": "2026-11-04T18:12:03.632Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/abilify-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/a2913e1ffa6aef50ce0913a57f6a40ff04d088b9c85bc16e601ab6516514f35b.pdf",
+      "sha256": "48ec4699460ea38cacf1c891061adc75be0cb67e5657869eb4f756b4f121c005",
+      "retrievedAt": "2026-11-04T18:12:04.346Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/champix-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/782907138006b9762a4e685610d6e51b7fb671507bbe9bce94eeea2c37847e1e.pdf",
+      "sha256": "512fd3657f567938fdb59e3cf59c59c6c8e3323f46db8617dff61b0f88e2f1f0",
+      "retrievedAt": "2026-11-04T18:12:05.114Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/fycompa-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/52ae5b5bc6a22d87de03a86c8357ca4461b723eeb295aae958ca881526905ca4.pdf",
+      "sha256": "b5542bbc20a489b9730fd4bf2ab7b210c2adb03b3f707d2db6edd804a3f94228",
+      "retrievedAt": "2026-11-04T18:12:05.795Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/quviviq-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/8241847e52be0558ba9884221331cb53f7a2a84094812c856b3c742966b9c52c.pdf",
+      "sha256": "5355155af856aafb53e689e2fbc2ec06efe5415b8ac06dc050f95e8259efdb63",
+      "retrievedAt": "2026-11-04T18:12:06.189Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ziagen-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/18ad1f0e6cec4b97b8db1dc10c2f75e58471c01cac1df6dffd1cf33207ce6ae7.pdf",
+      "sha256": "5ae0e9d13123c9bc32a3fb0e0e28b30666a7ec0ca822b9a0f255860ec60bcfbd",
+      "retrievedAt": "2026-11-04T18:12:06.799Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/zytiga-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/65d4d62d400275970062d6be158c90f62ee67f125cdd9c062c72cfed4845f7bc.pdf",
+      "sha256": "1cd8edc18fae83339cc466c58b27be12ff13a584e8ad30419a21aea3ec2adf1f",
+      "retrievedAt": "2026-11-04T18:12:07.885Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/amgevita-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/2f190f9d9208d36a084f7a6e1b9c2d72e684a6cf3b6026b79d7188758c5d8e69.pdf",
+      "sha256": "e60d722f3b6745489b45f5c78ae97b6371cdaa2129d753a34a831ca4ba40a8b5",
+      "retrievedAt": "2026-11-04T18:12:08.736Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/rasilez-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/21593ce834c25ff162b3c9cc8ed2d02fa0f40fb8608a5fca23df073d0b5ac88c.pdf",
+      "sha256": "4518ee1f6936dd9da7c06dbb3fa8bed38b206400f5cb767391af486f27614e43",
+      "retrievedAt": "2026-11-04T18:12:09.765Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/erleada-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/e79770116e1142b635f39e1d2ca71bc667adaa3814f35e15b0ba5739e8ca3ca9.pdf",
+      "sha256": "0e855910bdce0fdee217ba5d06d9b56e25e15ba99cd5eb9f6069185d820c69fe",
+      "retrievedAt": "2026-11-04T18:12:10.245Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/targretin-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/d0be3a423c3ea37b85940585666769a2c4487a2e4102af5ae0fada37945dc807.pdf",
+      "sha256": "3bf4d2f2fd7cbd6812f185953fbdb6223f58862715009080d9c1b2058c9f08b5",
+      "retrievedAt": "2026-11-04T18:12:10.783Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/buprenorphine-neuraxpharm-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/cbf6c8c9acd680f81ba91e35da63443dea718daf007d24cbdd4412d06980aeed.pdf",
+      "sha256": "e68c475092f759bc429d059d39d02a6e406468c90f698d250084485d780a60d2",
+      "retrievedAt": "2026-11-04T18:12:11.633Z"
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/buccolam-epar-product-information_en.pdf",
+      "file": "data/raw/eu-more/5f8a5f31d8910b1d7409f556d6c4ce3918c29534843869f5d5c953f1e2fb0866.pdf",
+      "sha256": "aca1e2a5d7d25b6e4740ff0245eafab8569c638d4fe76a1ae7ccc9e3ddb17e4d",
+      "retrievedAt": "2026-11-04T18:12:12.225Z"
+    }
+  ],
+  "failures": [
+    {
+      "inn": "buprenorphine",
+      "error": "Error: Incomplete EMA SmPC boundaries"
+    }
+  ]
+}

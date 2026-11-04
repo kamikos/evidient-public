@@ -1,0 +1,168 @@
+{
+  "card": {
+    "pair": "buprenorphine__chlordiazepoxide",
+    "a": "buprenorphine",
+    "b": "chlordiazepoxide",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA buprenorphine label says concomitant use with benzodiazepines increases the risk of overdose, respiratory depression and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA chlordiazepoxide label says use with opioids may result in profound sedation, respiratory depression, coma and death.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The chlordiazepoxide label says benzodiazepines act at GABA A sites and opioids primarily at mu receptors.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA buprenorphine label says concomitant use with benzodiazepines or other CNS depressants increases the risk of overdose, respiratory depression and death.",
+        "quote": "Concomitant use of buprenorphine and benzodiazepines or other CNS depressants increases the risk of adverse reactions including overdose, respiratory depression, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The buprenorphine label quote states exactly that benzodiazepine co-use increases overdose, respiratory depression and death.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA chlordiazepoxide label says concomitant use of benzodiazepines, including chlordiazepoxide, and opioids may cause profound sedation, respiratory depression, coma and death.",
+        "quote": "Concomitant use of benzodiazepines, including chlordiazepoxide, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9aba3135-00ff-47ba-b926-55eb16b361bf#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The chlordiazepoxide label quote matches the claim; \"may cause\" faithfully renders \"may result in\".",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The chlordiazepoxide label states benzodiazepines act at GABA A sites and opioids mainly at mu receptors.",
+        "quote": "Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9aba3135-00ff-47ba-b926-55eb16b361bf#precautions"
+        },
+        "stance": "mechanism",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote states the GABA A and mu receptor sites verbatim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions",
+        "title": "buprenorphine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions",
+        "title": "buprenorphine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "9aba3135-00ff-47ba-b926-55eb16b361bf#boxed_warning",
+        "title": "chlordiazepoxide: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9aba3135-00ff-47ba-b926-55eb16b361bf",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "9aba3135-00ff-47ba-b926-55eb16b361bf#warnings",
+        "title": "chlordiazepoxide: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9aba3135-00ff-47ba-b926-55eb16b361bf",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "9aba3135-00ff-47ba-b926-55eb16b361bf#precautions",
+        "title": "chlordiazepoxide: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9aba3135-00ff-47ba-b926-55eb16b361bf",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Buprenorphine or Chlordiazepoxide, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Buprenorphine and Chlordiazepoxide, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"buprenorphine\"[tiab] AND \"chlordiazepoxide\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.673Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

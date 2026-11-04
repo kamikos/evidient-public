@@ -1,0 +1,47 @@
+{
+  "pair": "cobicistat__colchicine",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA cobicistat label says coadministration with colchicine is contraindicated in patients with renal or hepatic impairment because of potential serious or life-threatening reactions.",
+      "quote": "Coadministration with colchicine is contraindicated in patients with renal and/or hepatic impairment due to potential for serious and/or life-threatening reactions.",
+      "sourceId": "3784c35c-e87f-410c-900b-8fd6313c6010#drug_interactions",
+      "stance": "increases_risk",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "c2",
+      "text": "The Spanish cobicistat label says colchicine plasma concentrations may increase when given with cobicistat and colchicine doses may need to be reduced.",
+      "quote": "Las concentraciones plasmáticas de colchicina pueden aumentar al administrarse de forma concomitante con cobicistat. Puede ser necesario reducir las dosis de colchicina.",
+      "quoteEnglish": "Colchicine plasma concentrations may increase when administered concomitantly with cobicistat. It may be necessary to reduce colchicine doses.",
+      "sourceId": "ES:113872001#4.5",
+      "stance": "increases_risk",
+      "outcome": "increased_exposure"
+    }
+  ],
+  "headline": {
+    "text": "The FDA label contraindicates colchicine with cobicistat in patients with renal or hepatic impairment (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The Spanish label says colchicine concentrations may rise with cobicistat and doses may need reducing (c2).",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"cobicistat\"[tiab] AND \"colchicine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

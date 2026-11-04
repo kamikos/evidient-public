@@ -1,0 +1,132 @@
+{
+  "card": {
+    "pair": "abacavir__atazanavir",
+    "a": "abacavir",
+    "b": "atazanavir",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The Spanish atazanavir label says abacavir exposure is not expected to change significantly with atazanavir.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish atazanavir label says coadministration of abacavir and atazanavir is not expected to significantly change abacavir exposure.",
+        "quote": "No se espera que la coadministración de abacavir y atazanavir altere significativamente la exposición de abacavir.",
+        "quoteEnglish": "Coadministration of abacavir and atazanavir is not expected to significantly alter abacavir exposure.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:80654#4.5"
+        },
+        "stance": "uncertain",
+        "outcome": "altered_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish atazanavir label states verbatim that abacavir exposure is not expected to change significantly with atazanavir; the translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions",
+        "title": "atazanavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:80654#4.5",
+        "title": "ATAZANAVIR TEVA 200 MG CAPSULAS DURAS EFG: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=80654&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "22811264",
+        "title": "Antiretroviral neurotoxicity.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22811264/",
+        "citation": "1538-2443 18 5 2012 Oct Journal of neurovirology J Neurovirol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35847492",
+        "title": "Approved HIV reverse transcriptase inhibitors in the past decade.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35847492/",
+        "citation": "2211-3835 12 4 2022 Apr Acta pharmaceutica Sinica. B Acta Pharm Sin B",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "17550060",
+        "title": "Anti-HIV drugs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17550060/",
+        "citation": "0302-6469 69 2 2007 Verhandelingen - Koninklijke Academie voor Geneeskunde van Belgie Verh K Acad Geneeskd Belg",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20735258",
+        "title": "Efavirenz versus boosted atazanavir or zidovudine and abacavir in antiretroviral treatment-naive, HIV-infected subjects: week 48 data from the Altair study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20735258/",
+        "citation": "1537-6591 51 7 2010 Oct 1 Clinical infectious diseases : an official publication of the Infectious Diseases Society of America Clin Infect Dis",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_no_interaction",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Abacavir or Atazanavir, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Abacavir and Atazanavir, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search; the Altair trial compared separate regimens.",
+        "searched": [
+          "\"abacavir\"[tiab] AND \"atazanavir\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.516Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

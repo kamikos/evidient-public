@@ -1,0 +1,28 @@
+{
+  "inn": "ketoconazole",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60034936",
+  "product": "KETOCONAZOLE BIOGARAN 2 %, gel en sachet-dose",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60034936/extrait",
+  "retrievedAt": "2026-11-04T08:44:13.480Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "b5cabe9a9ac836322182f216ea5d1b0969d38b10e3fc65d699a53bf13b13be44",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nLors de l’utilisation de KETOCONAZOLE BIOGARAN chez des patients ayant reçu un traitement prolongé par des dermocorticoïdes, il est recommandé d’arrêter progressivement la corticothérapie sur une période de 2 à 3 semaines afin d’éviter tout potentiel effet rebond.\n\nEviter le contact avec les yeux. En cas de contact accidentel avec l'œil, rincer à l'eau.\n\nCe médicament contient 540 mg de laurylsulfate de sodium par sachet-dose. Le laurylsulfate de sodium peut provoquer des réactions cutanées locales (comme une sensation de piqûre ou de brûlure) ou augmenter les réactions cutanées causées par d'autres produits lorsqu’ils sont appliqués sur la même zone.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60034936/extrait#tabpanel-rcp-panel",
+      "sha256": "201422096af26734439dfa5fb338100b7c505ef38ddf1415c55d5ad8517efb68"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nÉtant donné la faible exposition systémique du kétoconazole après application de KETOCOZANOLE BIOGARAN, il est peu probable que des interactions médicamenteuses soient cliniquement significatives.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60034936/extrait#tabpanel-rcp-panel",
+      "sha256": "d99619d2be524b44f21400aa56892943cc8b9e6d3fff873891ceaa192b48870b"
+    }
+  ]
+}

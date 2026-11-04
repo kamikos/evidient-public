@@ -1,0 +1,1 @@
+{"pair":"alcohol__insulin-lispro","judge":"claude-opus-5-5","claims":[{"id":"c1","support":"supports","rationale":"The label lists alcohol among drugs that may increase or decrease the blood glucose lowering effect of insulin lispro."}],"sentences":[{"path":"headline","support":"supports"},{"path":"reported.0","support":"supports"}]}

@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__ketoconazole",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The precautions text reports exceptional cases of a disulfiram-like reaction to alcohol with the listed symptoms."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

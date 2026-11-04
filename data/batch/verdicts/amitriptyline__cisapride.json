@@ -1,0 +1,21 @@
+{
+  "pair": "amitriptyline__cisapride",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The contraindication says amitriptyline should not be given with cisapride due to potential increased QT interval and arrhythmia risk."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "pair": "abacavir__darunavir",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The darunavir label section on drugs without clinically significant interactions names abacavir with no dosage adjustment for darunavir/ritonavir."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "French label says no interaction is expected between abacavir (non-CYP450 metabolism) and boosted darunavir; translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,3254 @@
+[
+  {
+    "key": "2eae080f7e4d0120",
+    "en": "Increased concentration of flecainide (around 20-30 % has been shown in studies with paroxetine, but given that genetically absent CYP2D6 enzyme activity causes an increase of 70 %, it can be expected that the increase on starting cinacalcet may also be somewhat higher than 20-30 %)."
+  },
+  {
+    "key": "79e57428fb2270a9",
+    "en": "Increased concentration of flecainide (around 20-30 % has been shown in studies with paroxetine, but given that genetically absent CYP2D6 enzyme activity causes an increase of 70 %, it can be expected that the increase on starting terbinafine may also be somewhat higher than 20-30 %)."
+  },
+  {
+    "key": "7293229d3832a709",
+    "en": "Increased concentration of flecainide (around 20-30 % has been shown in studies with the potent enzyme inhibitor paroxetine, but given that genetically absent CYP2D6 enzyme activity causes an increase of 70 %, it can be expected that the increase on starting bupropion may also be somewhat higher than 20-30%). If the patient also stops smoking when starting bupropion, this will cause a further increase in the flecainide concentration."
+  },
+  {
+    "key": "132f6e162cf89aa6",
+    "en": "Increased concentration of flecainide (around 20-30 % has been shown in studies with paroxetine, but given that genetically absent CYP2D6 enzyme activity causes an increase of 70 %, it can be expected that the increase on starting fluoxetine may also be somewhat higher than 20-30 %). Possible increased risk of QT prolongation on ECG."
+  },
+  {
+    "key": "3bf1efc02625d100",
+    "en": "Increased concentration of flecainide (around 20-30 % has been shown in studies, but given that genetically absent CYP2D6 enzyme activity causes an increase of 70 %, it can be expected that the increase on starting paroxetine may also be somewhat higher than 20-30%). Increased risk of QT prolongation on ECG (on average 10-20 msec in one study)."
+  },
+  {
+    "key": "5125a94168697f5b",
+    "en": "Increased concentration of fluorouracil (30-40 %), risk of toxic effects without an obvious improvement in therapeutic effect."
+  },
+  {
+    "key": "490afa6a58c3afaa",
+    "en": "Increased concentration of furosemide (2-fold)."
+  },
+  {
+    "key": "3a65bcb2f67e3e27",
+    "en": "Increased concentration of furosemide (only a 10 % increase in AUC, but a 40-50 % increase in Cmax)."
+  },
+  {
+    "key": "0c3ae4c3fc066edc",
+    "en": "Increased concentration of futibatinib (40-50 % based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "3a200433d2f58482",
+    "en": "Increased concentration of futibatinib (40-50 %)."
+  },
+  {
+    "key": "871761ccd9b174b2",
+    "en": "Increased concentration of galantamine (40 %), possible increased risk of nausea and vomiting."
+  },
+  {
+    "key": "663d63e9d8e33a07",
+    "en": "Increased concentration of galantamine (on average 30 % in an interaction study)"
+  },
+  {
+    "key": "46719900ba023713",
+    "en": "Increased concentration of gefitinib (on average 80%)."
+  },
+  {
+    "key": "4c02634d8cc12f28",
+    "en": "Increased concentration of gefitinib (uncertain extent)."
+  },
+  {
+    "key": "65f91378383a3ee6",
+    "en": "Increased concentration of gefitinib."
+  },
+  {
+    "key": "6b6d8eb821815918",
+    "en": "Increased concentration of gilteritinib (perhaps up to around a doubling based on data with the enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "c4dfde1c1371b1bd",
+    "en": "Increased concentration of gilteritinib (perhaps up to around a doubling based on data with the enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "1c54296792fcf85d",
+    "en": "Increased concentration of gilteritinib (perhaps around a doubling)."
+  },
+  {
+    "key": "1bcc45b95d216050",
+    "en": "Increased concentration of glasdegib (2-3-fold)."
+  },
+  {
+    "key": "588735ee4e4a2ac0",
+    "en": "Increased concentration of glasdegib (in the order of 2-3-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "8f1d100b963a86ec",
+    "en": "Increased concentration of glimepiride (on average 2-3-fold in an interaction study), increased risk of hypoglycaemia."
+  },
+  {
+    "key": "db02f0eeb192d050",
+    "en": "Increased concentration of glimepiride, increased risk of hypoglycaemia."
+  },
+  {
+    "key": "752f043dc3e97f82",
+    "en": "Increased concentration of glipizide (approximately 50 %), increased risk of hypoglycaemia."
+  },
+  {
+    "key": "b39166496e208486",
+    "en": "Increased concentration of glipizide, increased risk of hypoglycaemia"
+  },
+  {
+    "key": "c12f42bf58e4ab25",
+    "en": "Increased concentration of guanfacine (3-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "93d2c12e9fe9a98a",
+    "en": "Increased concentration of guanfacine (3-fold)."
+  },
+  {
+    "key": "5f2b08084e9fe9bd",
+    "en": "Increased concentration of guanfacine (the magnitude of the effect is uncertain, possibly the concentration may increase to around twice the level)."
+  },
+  {
+    "key": "1005cb59ee9d59a3",
+    "en": "Increased concentration of guanfacine (the magnitude of the effect is uncertain, possibly the concentration may increase to around up to twice the level)."
+  },
+  {
+    "key": "338deed465227c0c",
+    "en": "Increased concentration of haloperidol (70 %)."
+  },
+  {
+    "key": "34f63ab925ab2846",
+    "en": "Increased concentration of haloperidol (on average 50-80 % in interaction studies, up to a 3-fold increase in patients with genetically determined reduced metabolism via CYP2D6)."
+  },
+  {
+    "key": "aaec97940b43cdd4",
+    "en": "Increased concentration of ibrutinib (5-15-fold based on data from simulation studies and studies with the potent enzyme inhibitor ketoconazole, perhaps around half as much for fluconazole, at least at fluconazole doses of 200 mg/d and higher)."
+  },
+  {
+    "key": "5ecad76cacf297fc",
+    "en": "Increased concentration of ibrutinib (5-15-fold based on data from simulation studies and studies with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "9e28e7b0d027e0c4",
+    "en": "Increased concentration of ibrutinib (approximately 25-fold)."
+  },
+  {
+    "key": "ff0ea4e97b607f87",
+    "en": "Increased concentration of ibrutinib (perhaps up to 5-15-fold based on data from simulation studies and studies with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "a87b48565d83d140",
+    "en": "Increased concentration of ibrutinib (the magnitude of the effect is uncertain, but probably substantial)."
+  },
+  {
+    "key": "0d602989cd03114c",
+    "en": "Increased concentration of ibrutinib (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "a90342a62305816b",
+    "en": "Increased concentration of ibrutinib (uncertain extent)."
+  },
+  {
+    "key": "604f582ef2969b5c",
+    "en": "Increased concentration of imatinib (on average 40 % in an interaction study)"
+  },
+  {
+    "key": "39c4c5716cb96af7",
+    "en": "Increased concentration of imatinib (on average 40 % based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "2578d3afb272c06a",
+    "en": "Increased concentration of irbesartan (60 % in an interaction study)."
+  },
+  {
+    "key": "812f1d175f824c50",
+    "en": "Increased concentration of irinotecan (uncertain extent)."
+  },
+  {
+    "key": "f0747b5554ed5e50",
+    "en": "Increased concentration of irinotecan's active metabolite SN-38 (on average 2-3-fold; shown for lopinavir in combination with ritonavir)."
+  },
+  {
+    "key": "781778869164eca1",
+    "en": "Increased concentration of irinotecan's active metabolite SN-38."
+  },
+  {
+    "key": "7baa0c10f8cf5879",
+    "en": "Increased concentration of irinotecan's active metabolite SN-38 (70-120 %)"
+  },
+  {
+    "key": "d931dad32f33aa6a",
+    "en": "Increased concentration of isavuconazole (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "394892113c415d30",
+    "en": "Increased concentration of isavuconazole (2-fold or more), at high ritonavir doses (over 400 mg/d) the concentration of isavuconazole may also be reduced."
+  },
+  {
+    "key": "f04158cf06b76f52",
+    "en": "Increased concentration of isavuconazole (5-6-fold)."
+  },
+  {
+    "key": "29501464f5940db9",
+    "en": "Increased concentration of isavuconazole (up to 5-6-fold based on data with the strong CYP3A4 inhibitor ketoconazole)."
+  },
+  {
+    "key": "61258438069b2fbd",
+    "en": "Increased concentration of itraconazole (30-40 %). Possible increased risk of QT prolongation and serious arrhythmias."
+  },
+  {
+    "key": "18bc5a1954724e43",
+    "en": "Increased concentration of itraconazole (80-90 %)."
+  },
+  {
+    "key": "7b3224d5e4b9c8bd",
+    "en": "Increased concentration of itraconazole and possibly also cobicistat/elvitegravir."
+  },
+  {
+    "key": "8858a4c82d9fb438",
+    "en": "Increased concentration of itraconazole. Based on data from studies with ketoconazole, a 2-3-fold increase can be expected. The concentration of ritonavir may also increase, but perhaps above all those of the agents used with ritonavir in fixed combinations (around a doubling of the concentration of paritaprevir, a smaller increase for dasabuvir, no increase for ombitasvir has been shown in combination with ketoconazole)."
+  },
+  {
+    "key": "fd1315c24c0b9f34",
+    "en": "Increased concentration of ivabradine (2-3-fold in an interaction study (SPC)), increased risk of adverse effects (bradycardia)."
+  },
+  {
+    "key": "4fd02f034c85472b",
+    "en": "Increased concentration of ivabradine (2-3-fold in an interaction study with other CYP3A4 inhibitors), increased risk of adverse effects (bradycardia)."
+  },
+  {
+    "key": "7396dadd5b391091",
+    "en": "Increased concentration of ivabradine (7-8-fold based on data with the strong inhibitor ketoconazole), increased risk of adverse effects/toxic effects."
+  },
+  {
+    "key": "c36d44b01ef7fba3",
+    "en": "Increased concentration of ivabradine (7-8-fold based on data with the strong inhibitor ketoconazole), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for ivabradine."
+  },
+  {
+    "key": "1859847f6aa10ba5",
+    "en": "Increased concentration of ivabradine (7-8-fold in an interaction study (SPC)), increased risk of adverse effects (bradycardia). The combination is contraindicated in the SPC for Procoralan."
+  },
+  {
+    "key": "bb624bbe0164ce0b",
+    "en": "Increased concentration of ivabradine (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "ae4ee538b207a708",
+    "en": "Increased concentration of ivabradine (uncertain extent)."
+  },
+  {
+    "key": "6071d0ef00cece8a",
+    "en": "Increased concentration of ivabradine, increased risk of adverse effects (bradycardia)."
+  },
+  {
+    "key": "24bdd99d37befb30",
+    "en": "Increased concentration of ivabradine, increased risk of adverse effects (bradycardia). The combination is contraindicated in the SPC for Procoralan."
+  },
+  {
+    "key": "8d5da832f1b9386e",
+    "en": "Increased concentration of ivabradine. Based on data with other potent inhibitors of CYP3A4, there is reason to believe that the concentration may increase several-fold."
+  },
+  {
+    "key": "fb687b7d853ea8fb",
+    "en": "Increased concentration of ivacaftor (8-15-fold based on data with the potent CYP3A4 inhibitors ketoconazole and itraconazole)."
+  },
+  {
+    "key": "510f9a5f730fe6cf",
+    "en": "Increased concentration of ivacaftor (8-9-fold)."
+  },
+  {
+    "key": "5bba8bc1bb481537",
+    "en": "Increased concentration of ivacaftor (approximately 15-fold)."
+  },
+  {
+    "key": "1e4dcdc37bb43c5a",
+    "en": "Increased concentration of ivacaftor (approximately 3-fold based on data with the CYP3A4 inhibitor fluconazole)."
+  },
+  {
+    "key": "84c8d022c8ff3d62",
+    "en": "Increased concentration of ivacaftor (approximately 3-fold)."
+  },
+  {
+    "key": "e734b82ad9de6f4a",
+    "en": "Increased concentration of ivosidenib (2-3-fold based on data with the strong CYP3A4 inhibitor itraconazole)."
+  },
+  {
+    "key": "63376e3021c572a5",
+    "en": "Increased concentration of ivosidenib (2-3-fold based on data with the strong CYP3A4 inhibitor itraconazole). Possible reduced concentration of ketoconazole."
+  },
+  {
+    "key": "e25460d9cf23e12e",
+    "en": "Increased concentration of ivosidenib (2-3-fold). Possible reduced concentration of itraconazole."
+  },
+  {
+    "key": "ece244ee7d9d08e2",
+    "en": "Increased concentration of ivosidenib (up to 2-3-fold based on data with the strong CYP3A4 inhibitor itraconazole)."
+  },
+  {
+    "key": "4fdd6e71697e0d3a",
+    "en": "Increased concentration of ivosidenib (up to 2-3-fold based on data with the strong CYP3A4 inhibitor itraconazole). In addition, increased risk of QT prolongation on ECG."
+  },
+  {
+    "key": "d10d7668bb599dec",
+    "en": "Increased concentration of cabazitaxel (probably to a relatively modest extent, but still enough to increase the risk of adverse effects/toxic effects)."
+  },
+  {
+    "key": "662c13d6f24589b0",
+    "en": "Increased concentration of cabazitaxel (probably to a relatively modest extent, but still enough to increase the risk of adverse effects/toxic effects)."
+  },
+  {
+    "key": "151f2e89f7fb127b",
+    "en": "Increased concentration of cabazitaxel (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "43d29eb398873584",
+    "en": "Increased concentration of cabazitaxel (20-30 % based on a study with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "5da2ccd4fd5ab7ba",
+    "en": "Increased concentration of cabazitaxel (20-30 %)."
+  },
+  {
+    "key": "95bceb38b80d30bc",
+    "en": "Increased concentration of cabazitaxel (up to 20-30 % based on a study with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "05c57c3e826cab12",
+    "en": "Increased concentration of cabergoline (based on data with other inhibitors of cabergoline metabolism, the concentration must be expected to increase in the order of 2-3-fold), increased risk of adverse effects (dizziness, confusion)"
+  },
+  {
+    "key": "d598e4def2d02b35",
+    "en": "Increased concentration of cabergoline (based on data with other inhibitors of cabergoline metabolism, the concentration must be expected to increase in the order of 2-3-fold), increased risk of adverse effects (dizziness, confusion)."
+  },
+  {
+    "key": "81d63df71268bc85",
+    "en": "Increased concentration of cabergoline (based on data with other potent enzyme inhibitors, the concentration must be expected to increase in the order of 2-3-fold), increased risk of adverse effects (dizziness, confusion, etc.)."
+  },
+  {
+    "key": "be513adf32d36161",
+    "en": "Increased concentration of cabergoline (on average 2-3-fold in an interaction study), increased risk of adverse effects (dizziness, confusion)."
+  },
+  {
+    "key": "3c46753fea625cfc",
+    "en": "Increased concentration of cabergoline (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "4d3639364da39f45",
+    "en": "Increased concentration of cabergoline (uncertain extent)."
+  },
+  {
+    "key": "f655baea79433532",
+    "en": "Increased concentration of cabozantinib (30-40 % based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "e73ef360b99787dc",
+    "en": "Increased concentration of cabozantinib (30-40 %)."
+  },
+  {
+    "key": "2134379389ff3d1e",
+    "en": "Increased concentration of cabozantinib (the magnitude of the effect is uncertain, the increase will probably be less than 30 %)."
+  },
+  {
+    "key": "e9dd93d5e144a636",
+    "en": "Increased concentration of capivasertib (estimated at around a doubling based on data with the strong CYP3A4 inhibitor itraconazole)."
+  },
+  {
+    "key": "2f9e973b8272da0d",
+    "en": "Increased concentration of capivasertib (estimated at around a doubling)."
+  },
+  {
+    "key": "2df2da3a850599b7",
+    "en": "Increased concentration of capivasertib (uncertain extent, but based on the strong CYP3A4 inhibitor itraconazole causing around a doubling in concentration, the increase will be smaller here)."
+  },
+  {
+    "key": "60bf5422a6a8e265",
+    "en": "Increased concentration of capmatinib (40-50 % based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "0d048ab5d3ab83b6",
+    "en": "Increased concentration of capmatinib (40-50 %)."
+  },
+  {
+    "key": "da33f9351df952f5",
+    "en": "Increased concentration of cabazitaxel (uncertain extent)."
+  },
+  {
+    "key": "a595d2e567cab5b1",
+    "en": "Increased concentration of carbamazepine (10-30 %), increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of ritonavir (and lopinavir, ombitasvir, paritaprevir and dasabuvir when any of these are used concomitantly), increased risk of therapeutic failure. The concentration of the anti-HIV agents may be reduced by between 30 % and 70 %."
+  },
+  {
+    "key": "de1034254e247ab5",
+    "en": "Increased concentration of carbamazepine (2-3-fold in a case report), increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of voriconazole, increased risk of therapeutic failure. The combination is contraindicated in the SPC for Vfend."
+  },
+  {
+    "key": "0868ae60b95733c7",
+    "en": "Increased concentration of carbamazepine (2-3-fold in case reports), increased risk of adverse effects (dizziness, coordination difficulties)"
+  },
+  {
+    "key": "9ce5c107f6a01237",
+    "en": "Increased concentration of carbamazepine (20-30 % on average in interaction studies; up to 4-fold in case reports), increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of erythromycin, increased risk of therapeutic failure."
+  },
+  {
+    "key": "304c6028c24103a4",
+    "en": "Increased concentration of carbamazepine (50 % in a case report)."
+  },
+  {
+    "key": "3ccf31a5e4a350af",
+    "en": "Increased concentration of carbamazepine (50-100 % in some individuals), reduced concentration of fluvoxamine."
+  },
+  {
+    "key": "0c4db1aa8a005c45",
+    "en": "Increased concentration of carbamazepine (on average 1,3-fold in an interaction study), increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of ketoconazole, increased risk of therapeutic failure"
+  },
+  {
+    "key": "b6f39bee58fe1184",
+    "en": "Increased concentration of carbamazepine (on average 1,5-fold in an interaction study), increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of verapamil, increased risk of therapeutic failure"
+  },
+  {
+    "key": "3c7a5f8eca5edd11",
+    "en": "Increased concentration of carbamazepine (on average 40-100 % in interaction studies), increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of clarithromycin, increased risk of therapeutic failure. Based on data from other potent inducers of CYP3A4, the concentration of clarithromycin can be expected to fall by around 90 %."
+  },
+  {
+    "key": "c6f3897d83cac21e",
+    "en": "Increased concentration of carbamazepine (in the order of a doubling or more), reduced concentration of stiripentol (60-70 % based on data with other enzyme inducers)."
+  },
+  {
+    "key": "2072535b29ea6785",
+    "en": "Increased concentration of carbamazepine (up to 30-60 %, conflicting data), possible reduced concentration of fluoxetine."
+  },
+  {
+    "key": "ebe825fdb2ca5db5",
+    "en": "Increased concentration of carbamazepine, increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of diltiazem, increased risk of therapeutic failure"
+  },
+  {
+    "key": "2ffa76e43bd41fce",
+    "en": "Increased concentration of carbamazepine, increased risk of adverse effects (dizziness, coordination difficulties). Reduced concentration of itraconazole, increased risk of therapeutic failure"
+  },
+  {
+    "key": "a0c789842093bb92",
+    "en": "Increased concentration of carbamazepine, increased risk of adverse effects. Reduced concentration of posaconazole, increased risk of therapeutic failure"
+  },
+  {
+    "key": "f31a4cf85ba74284",
+    "en": "Increased concentration of cariprazine (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "3df7bb33df60135e",
+    "en": "Increased concentration of cariprazine and active metabolite (in the order of a doubling based on data with the potent inhibitor ketoconazole, possibly more with long-term treatment due to accumulation of active cariprazine metabolite)."
+  },
+  {
+    "key": "e7590df007127864",
+    "en": "Increased concentration of cariprazine and active metabolite (in the order of a doubling, possibly more with long-term treatment with ketoconazole due to accumulation of active cariprazine metabolite)."
+  },
+  {
+    "key": "a95a5550f8ce05a6",
+    "en": "Increased concentration of carvedilol (50-100 %)."
+  },
+  {
+    "key": "13492c80934abbec",
+    "en": "Increased concentration of carvedilol (on average 2-3-fold, but with large individual variations)."
+  },
+  {
+    "key": "1ccdf0282a892c9f",
+    "en": "Increased concentration of ketamine (2-3-fold with oral use of ketamine)."
+  },
+  {
+    "key": "e45009fdcffd1012",
+    "en": "Increased concentration of ketamine,"
+  },
+  {
+    "key": "849296494dc20fe8",
+    "en": "Increased concentration of ketoconazole (on average 2-3-fold in interaction studies). The concentration of ritonavir may also increase, but perhaps above all those of the agents used with ritonavir in fixed combinations (around a doubling of the concentration of paritaprevir, a smaller increase for dasabuvir, no increase for ombitasvir)."
+  },
+  {
+    "key": "b1b2b1a0b5dde73c",
+    "en": "Increased concentration of ketoconazole and possibly also cobicistat/elvitegravir."
+  },
+  {
+    "key": "2bd50c4f54e936bf",
+    "en": "Increased concentration of clarithromycin (60 %)."
+  },
+  {
+    "key": "8aea0ab729dc289e",
+    "en": "Increased concentration of clarithromycin."
+  },
+  {
+    "key": "f4986d5e02ff92de",
+    "en": "Increased concentration of clarithromycin. Possible increased risk of QT prolongation and serious arrhythmias."
+  },
+  {
+    "key": "247eefb44f34b0a4",
+    "en": "Increased concentration of clobazam (50-60 %), reduced concentration of the active metabolite N-desmethylclobazam (15 %), no change in their sum."
+  },
+  {
+    "key": "e02f5ccf624968f7",
+    "en": "Increased concentration of clobazam and the active metabolite N-desmethylclobazam (from 30-40 % up to a doubling), increased concentration of stiripentol (20-30 %). The large differences in the effect on clobazam and N-desmethylclobazam may possibly depend on which third antiepileptic is also used, if any."
+  },
+  {
+    "key": "7fa7284c5b813c86",
+    "en": "Increased concentration of clomipramine; the effect may possibly last a very long time (months) after discontinuation of terbinafine (indirect data)"
+  },
+  {
+    "key": "c8aa62334e6ea7a2",
+    "en": "Increased concentration of clozapine (2-4-fold) with increased risk of adverse effects on smoking cessation."
+  },
+  {
+    "key": "b2b6598416b3801c",
+    "en": "Increased concentration of clozapine (30 % on average in one study, no effect in other studies)."
+  },
+  {
+    "key": "6c8054ff9eb0cc57",
+    "en": "Increased concentration of clozapine (30-80 %; up to a 5-fold increase in case reports)."
+  },
+  {
+    "key": "6ed4c7a53acd0deb",
+    "en": "Increased concentration of clozapine (conflicting data, up to 5-fold in case reports). Increased risk of adverse effects"
+  },
+  {
+    "key": "ba7e042bcd1c85a8",
+    "en": "Increased concentration of clozapine in case reports, but this is in all probability due to the underlying infection and not the treatment with erythromycin. An interaction study in healthy subjects found no effect of erythromycin on the clozapine concentration."
+  },
+  {
+    "key": "92d524a25289074a",
+    "en": "Increased concentration of clozapine, may possibly become clinically significant in patients with very large variations in caffeine intake."
+  },
+  {
+    "key": "3bf3151121dc1c85",
+    "en": "Increased concentration of clozapine, increased risk of adverse effects. The effect depends on the fluvoxamine dose. At a fluvoxamine dose of 25 mg/d, the concentration of clozapine increases 1,2-4,7-fold (on average 2-3-fold). At a fluvoxamine dose of 50 mg/d, the concentration of clozapine increases 1,7-8,5-fold (on average 4-5-fold). At a fluvoxamine dose of 100 mg/d, the concentration of clozapine increases 3-11-fold (on average 7-8-fold)."
+  },
+  {
+    "key": "6b7f351e79a2d9f6",
+    "en": "Increased concentration of cobimetinib (up to 7-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "8e4da249d28f7d59",
+    "en": "Increased concentration of cobimetinib (up to 7-fold)."
+  },
+  {
+    "key": "70e16736d7031654",
+    "en": "Increased concentration of cobimetinib (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "6a58365af83c2610",
+    "en": "Increased concentration of cobimetinib (uncertain extent)."
+  },
+  {
+    "key": "61052e29f054c969",
+    "en": "Increased concentration of caffeine (2-3-fold)."
+  },
+  {
+    "key": "83cb57f676702413",
+    "en": "Increased concentration of caffeine (50-100 %)."
+  },
+  {
+    "key": "ab4de6bee604363f",
+    "en": "Increased concentration of caffeine (up to 5-fold)."
+  },
+  {
+    "key": "7a4ebcfbd829a4f4",
+    "en": "Increased concentration of colchicine (2-3-fold based on data with the potent enzyme inhibitor ketoconazole - in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of serious adverse effects. Fatal cases in which colchicine was combined with CYP3A4/P-glycoprotein inhibitors have been reported."
+  },
+  {
+    "key": "21280e5cbfe85283",
+    "en": "Increased concentration of colchicine (2-3-fold based on data with the potent enzyme inhibitor ketoconazole - in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of fatal toxicity including pancytopenia."
+  },
+  {
+    "key": "069dd499b1461da6",
+    "en": "Increased concentration of colchicine (2-3-fold based on data with the potent enzyme inhibitor ketoconazole - in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of toxic effects. Combinations with similarly sensitive substrates are contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "716ce55e81743fad",
+    "en": "Increased concentration of colchicine (3-4-fold or more, especially in patients with impaired renal function), risk of fatal toxicity including pancytopenia."
+  },
+  {
+    "key": "6576053feafcf453",
+    "en": "Increased concentration of colchicine (4-5-fold - in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of serious adverse effects. Fatal cases in which colchicine was combined with CYP3A4/P-glycoprotein inhibitors have been reported."
+  },
+  {
+    "key": "5fe1e804702ac8fe",
+    "en": "Increased concentration of colchicine (estimated at 2-3-fold, in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of serious adverse effects. Fatal cases in which colchicine was combined with CYP3A4/P-glycoprotein inhibitors have been reported."
+  },
+  {
+    "key": "2ec9af64e6d87b40",
+    "en": "Increased concentration of colchicine (on average 2-3-fold - in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of serious adverse effects. Fatal cases in which colchicine was combined with CYP3A4/P-glycoprotein inhibitors have been reported."
+  },
+  {
+    "key": "2366623cbcb10b9d",
+    "en": "Increased concentration of colchicine (on average 2-3-fold based on data with the potent enzyme inhibitor ketoconazole - in patients with impaired renal function the increase in colchicine concentration may be even greater), risk of serious adverse effects. Fatal cases in which colchicine was combined with CYP3A4/P-glycoprotein inhibitors have been reported."
+  },
+  {
+    "key": "b64291c69e2ce1b7",
+    "en": "Increased concentration of colchicine (on average a 40 % increase in one study), increased risk of serious adverse effects."
+  },
+  {
+    "key": "2096f0424641c1c3",
+    "en": "Increased concentration of colchicine (on average a 50-60 % increase in one study), increased risk of serious adverse effects."
+  },
+  {
+    "key": "c3b82984a72e0f3d",
+    "en": "Increased concentration of colchicine (the magnitude of the effect is uncertain, but there is a theoretically increased risk of serious toxicity including pancytopenia)."
+  },
+  {
+    "key": "0155947ebcb15530",
+    "en": "Increased concentration of colchicine (uncertain extent but probably substantial), risk of serious adverse effects. Fatal cases in which colchicine was combined with P-glycoprotein inhibitors have been reported."
+  },
+  {
+    "key": "d10f39e6ec62f783",
+    "en": "Increased concentration of crizotinib (3-4-fold)."
+  },
+  {
+    "key": "2fd518bf045454b6",
+    "en": "Increased concentration of crizotinib (estimated at 3-4-fold based on data with the potent CYP3A4 inhibitor ketoconazole)."
+  },
+  {
+    "key": "ec774963af253b7b",
+    "en": "Increased concentration of crizotinib."
+  },
+  {
+    "key": "4283ec12d69c2175",
+    "en": "Increased concentration of quetiapine (in the order of 2-3-fold based on data with the enzyme inhibitor erythromycin), increased risk of adverse effects. Drugs that inhibit CYP3A4 are contraindicated in the summary of product characteristics for quetiapine."
+  },
+  {
+    "key": "e37a02a65fa49431",
+    "en": "Increased concentration of quetiapine (on average 2-3-fold in an interaction study), increased risk of adverse effects. The combination is contraindicated in the SPC for Seroquel."
+  },
+  {
+    "key": "6ae6693309e239ac",
+    "en": "Increased concentration of quetiapine (in the order of 2-3-fold based on data with the enzyme inhibitor erythromycin), increased risk of adverse effects. Combinations with all azole antifungals are contraindicated in the summary of product characteristics for Seroquel, but this is based on a much greater effect than this in combination with ketoconazole). Since the effect on quetiapine concentration is expected to be relatively small when fluconazole is used as a single dose, it should nevertheless be possible to use fluconazole in this way, at least as long as the quetiapine dose is low."
+  },
+  {
+    "key": "d1d622386fdec070",
+    "en": "Increased concentration of quetiapine (up to 2-3-fold, uncertain data)."
+  },
+  {
+    "key": "c634f36aa60089aa",
+    "en": "Increased concentration of quetiapine (the magnitude of the effect is uncertain, but probably substantial)."
+  },
+  {
+    "key": "85b5ec71d0ea2727",
+    "en": "Increased concentration of quetiapine (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "82fd44e33165c085",
+    "en": "Increased concentration of quetiapine (uncertain extent, but probably substantial). The combination is contraindicated in the summary of product characteristics for atazanavir."
+  },
+  {
+    "key": "4605835047c99fee",
+    "en": "Increased concentration of quetiapine (uncertain extent)."
+  },
+  {
+    "key": "6cd5ee82c4b3b2f0",
+    "en": "Increased concentration of quetiapine, (5-8-fold increase based on studies with the potent enzyme inhibitor ketoconazole), with a risk of toxic effects. The combination is contraindicated in the summary of product characteristics for quetiapine."
+  },
+  {
+    "key": "6beea9974add5ce7",
+    "en": "Increased concentration of quetiapine, (5-8-fold increase based on studies with the potent enzyme inhibitor ketoconazole), with a risk of toxic effects. The combination with inhibitors of CYP3A4 is contraindicated in the summary of product characteristics for quetiapine."
+  },
+  {
+    "key": "e0179e68e0e8b95b",
+    "en": "Increased concentration of quetiapine, (5-8-fold increase) with a risk of toxic effects. The combination is contraindicated in the summary of product characteristics for quetiapine."
+  },
+  {
+    "key": "68cb9d897fc30ead",
+    "en": "Increased concentration of quizartinib (2-fold shown for the strong CYP3A4 inhibitor ketoconazole), together with a small reduction (approximately 20 %) in the concentration of the active metabolite AC886."
+  },
+  {
+    "key": "ae35442e4bdad3b0",
+    "en": "Increased concentration of quizartinib (2-fold), together with a small reduction (approximately 20 %) in the concentration of the active metabolite AC886."
+  },
+  {
+    "key": "298ea9918e20da72",
+    "en": "Increased concentration of lamivudine. An increase of 40-50 % has been described at a trimethoprim dosage of 160 mg/d. With higher trimethoprim doses, the increase may probably be much greater."
+  },
+  {
+    "key": "2fc89cb69b48ee99",
+    "en": "Increased concentration of lamotrigine (up to 100 % in case reports), no effect in a systematic study."
+  },
+  {
+    "key": "eb84d612d6408f92",
+    "en": "Increased concentration of lansoprazole (uncertain extent, but based on studies with omeprazole, the increase may be substantial after repeated dosing with fluconazole)."
+  },
+  {
+    "key": "d2120ed75cf4ddfd",
+    "en": "Increased concentration of lansoprazole (2-4-fold depending on CYP2C19 genotype)."
+  },
+  {
+    "key": "ab923b2ea73aa4bc",
+    "en": "Increased concentration of lapatinib"
+  },
+  {
+    "key": "7bf1da3c815b6b7c",
+    "en": "Increased concentration of lapatinib (3-4-fold based on data with other potent inhibitors), increased risk of adverse effects."
+  },
+  {
+    "key": "da088b3d3aeb82a0",
+    "en": "Increased concentration of lapatinib (on average 3,6-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "e2c2149ce0c41312",
+    "en": "Increased concentration of lapatinib (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "c1e72254b3eb6813",
+    "en": "Increased concentration of lapatinib (uncertain extent)."
+  },
+  {
+    "key": "273575e6691b7891",
+    "en": "Increased concentration of lapatinib, increased risk of adverse effects"
+  },
+  {
+    "key": "c83cd911afec799b",
+    "en": "Increased concentration of lapatinib."
+  },
+  {
+    "key": "03c1bd551cc12e5e",
+    "en": "Increased concentration of larotrectinib (4-5-fold based on data with the potent CYP3A4 inhibitor itraconazole). The summary of product characteristics for larotrectinib states that the larotrectinib dose is to be halved during concomitant treatment with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "85d0a40f15f253db",
+    "en": "Increased concentration of larotrectinib (4-5-fold). The summary of product characteristics for larotrectinib states that the larotrectinib dose is to be halved during concomitant treatment with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "908c0e9bf81db8a6",
+    "en": "Increased concentration of larotrectinib (up to 4-5-fold based on data with the potent CYP3A4 inhibitor itraconazole)."
+  },
+  {
+    "key": "40247f40846d5382",
+    "en": "Increased concentration of lefamulin (2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole). In addition, increased risk of serious arrhythmias."
+  },
+  {
+    "key": "05dfa31e5f4043cf",
+    "en": "Increased concentration of lefamulin (2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole). The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "071fb01638a1a561",
+    "en": "Increased concentration of lefamulin (2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole). Increased risk of QT prolongation on ECG resulting in serious arrhythmias. The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "984c7cfd4aef9530",
+    "en": "Increased concentration of lefamulin (2-3-fold). The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "8691a0f4b6d234d1",
+    "en": "Increased concentration of lefamulin (up to 2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole)."
+  },
+  {
+    "key": "1ff2b4b321d7507e",
+    "en": "Increased concentration of lefamulin (up to 2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole). The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "9e8a8952626d50bc",
+    "en": "Increased concentration of lefamulin (up to 2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole). Combinations with CY3A4 inhibitors are contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "98559b06ed54650c",
+    "en": "Increased concentration of lefamulin (up to 2-3-fold based on data with the potent CYP3A4 inhibitor ketoconazole). Increased risk of QT prolongation on ECG resulting in serious arrhythmias."
+  },
+  {
+    "key": "9d55c262fa6bef27",
+    "en": "Increased concentration of lenacapavir (up to 2-4-fold depending on which other agents cobicistat is combined with. For example, the increase in lenacapavir concentration will be approximately 4-fold when cobicistat is combined with atazanavir, whereas the increase will be around 2-fold when cobicistat is combined with darunavir)."
+  },
+  {
+    "key": "91dfa3e3965f94ae",
+    "en": "Increased concentration of lercanidipine (uncertain extent)."
+  },
+  {
+    "key": "54216effd8b159d5",
+    "en": "Increased concentration of lercanidipine (approximately 15-fold based on the potent CYP3A4 inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "94800754fc120a71",
+    "en": "Increased concentration of lercanidipine (the magnitude of the effect is uncertain, but it is not unlikely that it may be in the order of up to a 5-fold to 10-fold increase in concentration)."
+  },
+  {
+    "key": "22cf9001ee2e829d",
+    "en": "Increased concentration of lercanidipine (the magnitude of the effect is uncertain, but it is not unlikely that it may be in the order of a 5-fold to 10-fold increase in concentration, at least at fluconazole doses of 200 mg/d and higher)."
+  },
+  {
+    "key": "e83d4079a6056638",
+    "en": "Increased concentration of lercanidipine (the magnitude of the effect is uncertain, but it is not unlikely that it may be in the order of a 5-fold to 10-fold increase in concentration)."
+  },
+  {
+    "key": "5842040bb9396390",
+    "en": "Increased concentration of lercanidipine (the magnitude of the effect is uncertain, but it is not unlikely that it may be in the order of a 5-fold to 15-fold increase in concentration)."
+  },
+  {
+    "key": "bc11b214b1425d86",
+    "en": "Increased concentration of lercanidipine (on average 15-fold in an interaction study), increased risk of adverse effects (palpitations, ankle oedema, facial flushing)."
+  },
+  {
+    "key": "3225b7cbf192a458",
+    "en": "Increased concentration of lercanidipine (up to around 15-fold based on the potent CYP3A4 inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "28b55f8ac3bc84b4",
+    "en": "Increased concentration of lercanidipine (the magnitude of the effect is uncertain, but probably substantial)."
+  },
+  {
+    "key": "c8c062f8b0ff4527",
+    "en": "Increased concentration of lercanidipine (uncertain extent)."
+  },
+  {
+    "key": "ca6be4a5e385ca07",
+    "en": "Increased concentration of lidocaine (20-30 %)."
+  },
+  {
+    "key": "25ed9d366690b081",
+    "en": "Increased concentration of linagliptin"
+  },
+  {
+    "key": "9a279abd84229879",
+    "en": "Increased concentration of loxapine."
+  },
+  {
+    "key": "0ea878991c006ce6",
+    "en": "Increased concentration of lomitapide (2-fold) with simultaneous intake - no effect if the agents are taken 12 hours apart."
+  },
+  {
+    "key": "289fc39d7a57ec7c",
+    "en": "Increased concentration of lomitapide (25-30-fold based on data with the potent enzyme inhibitor ketoconazole, probably somewhat less with concomitant use of moderate inhibitors, but still perhaps in the order of a 10-fold increase)."
+  },
+  {
+    "key": "34ce5622e13e86e4",
+    "en": "Increased concentration of lomitapide (25-30-fold based on data with the potent enzyme inhibitor ketoconazole, probably somewhat less with concomitant use of moderate inhibitors, but still perhaps in the order of a 10-15-fold increase, at least at fluconazole doses of 200 mg/d and higher)."
+  },
+  {
+    "key": "8a84ff00a3024a8e",
+    "en": "Increased concentration of lomitapide (25-30-fold based on data with the potent enzyme inhibitor ketoconazole, probably somewhat less with concomitant use here, but still perhaps in the order of a 10-fold increase)."
+  },
+  {
+    "key": "694c1fb085e00bab",
+    "en": "Increased concentration of lomitapide (25-30-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "3badad25cf7947de",
+    "en": "Increased concentration of lomitapide (25-30-fold)."
+  },
+  {
+    "key": "a1e7721951dd1ef2",
+    "en": "Increased concentration of lomitapide (uncertain extent)."
+  },
+  {
+    "key": "72be36682c98c011",
+    "en": "Increased concentration of lonafarnib (5-6-fold). The combination is contraindicated in the summary of product characteristics for lonafarnib."
+  },
+  {
+    "key": "6f146038b89285da",
+    "en": "Increased concentration of lonafarnib (the magnitude of the increase is uncertain)."
+  },
+  {
+    "key": "99ab95a253b0543e",
+    "en": "Increased concentration of lonafarnib. The combination is contraindicated in the summary of product characteristics for lonafarnib."
+  },
+  {
+    "key": "266c9af40f9f37da",
+    "en": "Increased concentration of loperamide"
+  },
+  {
+    "key": "cd317c6e7ca56d14",
+    "en": "Increased concentration of loperamide (2-3-fold)."
+  },
+  {
+    "key": "8ac43a49ee10e500",
+    "en": "Increased concentration of loperamide (estimated at 3-4-fold)."
+  },
+  {
+    "key": "11e8a3527921b8e2",
+    "en": "Increased concentration of loperamide (on average 4-fold based on data with the potent enzyme inhibitor itraconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "1e9bd0c205058a48",
+    "en": "Increased concentration of loperamide (on average 4-fold in an interaction study), increased risk of adverse effects."
+  },
+  {
+    "key": "69ad6af27e956acb",
+    "en": "Increased concentration of loperamide (on average 5-fold in an interaction study), increased risk of adverse effects."
+  },
+  {
+    "key": "0093809da32b9a71",
+    "en": "Increased concentration of loperamide (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "3fe73463b8fed9a1",
+    "en": "Increased concentration of loperamide (uncertain extent)."
+  },
+  {
+    "key": "e288a1515521f487",
+    "en": "Increased concentration of loperamide, increased risk of adverse effects"
+  },
+  {
+    "key": "e1f2f06c28beaca0",
+    "en": "Increased concentration of loperamide, increased risk of adverse effects."
+  },
+  {
+    "key": "bbb4191461ea025b",
+    "en": "Increased concentration of loperamide."
+  },
+  {
+    "key": "211d9815e2cfe618",
+    "en": "Increased concentration of lorlatinib (40-50 % based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "025c7fc8af456d06",
+    "en": "Increased concentration of lorlatinib (40-50 %)."
+  },
+  {
+    "key": "1ad568d333150552",
+    "en": "Increased concentration of lovastatin (30-40 % or more)."
+  },
+  {
+    "key": "4d629feea8309168",
+    "en": "Increased concentration of lovastatin (40-90% based on data with simvastatin), increased risk of adverse effects (muscle pain; rhabdomyolysis)."
+  },
+  {
+    "key": "cd97d0c37f9cafe9",
+    "en": "Increased concentration of lovastatin (on average 3-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "7e55245baee3e071",
+    "en": "Increased concentration of lovastatin (on average 3-4-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "a828abf795478236",
+    "en": "Increased concentration of lovastatin (on average 8-22-fold in interaction studies), increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in the SPC for Mevacor."
+  },
+  {
+    "key": "af5c0484675d6949",
+    "en": "Increased concentration of lovastatin (on average at least 3-4-fold in interaction studies with other CYP3A4 inhibitors), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "adc707b4339a1f5f",
+    "en": "Increased concentration of lovastatin (in an interaction study with simvastatin, the simvastatin concentration increased by 70 %; the increase will probably be approximately the same for lovastatin), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "71353ccae15e289f",
+    "en": "Increased concentration of lovastatin (in the order of 2-4-fold based on data with simvastatin)."
+  },
+  {
+    "key": "ee4b87c70e4d945d",
+    "en": "Increased concentration of lovastatin (probably a several-fold increase in concentration), increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in, among others, the summaries of product characteristics for Mevacor and Viekirax."
+  },
+  {
+    "key": "93b756f431ca55ac",
+    "en": "Increased concentration of lovastatin (unknown extent, but probably enough to increase the risk of muscular adverse effects)."
+  },
+  {
+    "key": "364c13dea9e45062",
+    "en": "Increased concentration of lovastatin (the magnitude of the effect is uncertain, but probably substantial, perhaps in the order of a 4-5-fold increase)."
+  },
+  {
+    "key": "510e0f61f86ba25e",
+    "en": "Increased concentration of lovastatin (the magnitude of the effect is uncertain, but probably substantial)."
+  },
+  {
+    "key": "9c3879e73280d009",
+    "en": "Increased concentration of lovastatin (uncertain extent, but probably substantial). The combination is contraindicated in the summary of product characteristics for atazanavir."
+  },
+  {
+    "key": "cf145df1cfa38463",
+    "en": "Increased concentration of lovastatin (uncertain extent, but probably at least as much as for atorvastatin, where the increase is 3-4-fold when letermovir is given without ciclosporin. If ciclosporin is also used, the lovastatin concentration will probably be extremely high)."
+  },
+  {
+    "key": "f6b031aabe0dc47d",
+    "en": "Increased concentration of lovastatin, increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "82de13be56c68cf7",
+    "en": "Increased concentration of lovastatin, increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in the SPC for Mevacor."
+  },
+  {
+    "key": "cf6ded7aaa9af798",
+    "en": "Increased concentration of lovastatin, increased risk of myopathy/rhabdomyolysis."
+  },
+  {
+    "key": "e0eb0f46336254a9",
+    "en": "Increased concentration of lovastatin. The combination is contraindicated in the summary of product characteristics for Striblid."
+  },
+  {
+    "key": "7f39a7041071d4b4",
+    "en": "Increased concentration of lurasidone (4-5-fold or more). The combination is contraindicated in the summary of product characteristics for lurasidone."
+  },
+  {
+    "key": "38e003c9f63f448f",
+    "en": "Increased concentration of lurasidone (approximately 2-2,5-fold based on data with the enzyme inhibitor diltiazem)."
+  },
+  {
+    "key": "0c4d23cc1f8a4175",
+    "en": "Increased concentration of lurasidone (approximately 2-3-fold based on data with other CYP3A4 inhibitors)."
+  },
+  {
+    "key": "6777d353c33782c0",
+    "en": "Increased concentration of lurasidone (approximately 2-3-fold)."
+  },
+  {
+    "key": "dbb8d1ef618e042f",
+    "en": "Increased concentration of lurasidone (in the order of 8-10-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "09816bf058c5e610",
+    "en": "Increased concentration of lurasidone (in the order of 8-10-fold based on data with the potent enzyme inhibitor ketoconazole). The combination is contraindicated in the summary of product characteristics for lurasidone."
+  },
+  {
+    "key": "8cadebe90e390806",
+    "en": "Increased concentration of lurasidone (in the order of 8-10-fold based on data with the potent enzyme inhibitor ketoconazole). Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended. The combination is contraindicated in the summary of product characteristics for lurasidone."
+  },
+  {
+    "key": "869ac89d2c24d1cf",
+    "en": "Increased concentration of lurasidone (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "cb813f3740340d10",
+    "en": "Increased concentration of lurasidone (uncertain extent, but probably substantial). The combination is contraindicated in the summary of product characteristics for atazanavir."
+  },
+  {
+    "key": "4897b70f36c8726b",
+    "en": "Increased concentration of lurasidone (uncertain extent)."
+  },
+  {
+    "key": "36d356e3b12229a6",
+    "en": "Increased concentration of lurbinectedin (approximately 3-fold based on data with the strong enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "110150ebea338630",
+    "en": "Increased concentration of lurbinectedin (approximately 3-fold)."
+  },
+  {
+    "key": "76b5552a100909f7",
+    "en": "Increased concentration of lurbinectedin (unknown extent, but perhaps estimated to be in the order of a doubling based on data with the strong enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "0b6d3f8b569c16c2",
+    "en": "Increased concentration of macitentan (estimated at 2-3-fold based on data with the strong inhibitor ketoconazole), somewhat reduced concentration of the active metabolite of macitentan."
+  },
+  {
+    "key": "b687333509a4ae52",
+    "en": "Increased concentration of macitentan (estimated at 2-3-fold), somewhat reduced concentration of the active metabolite of macitentan."
+  },
+  {
+    "key": "24cc9c25cf510d5c",
+    "en": "Increased concentration of maraviroc (3-4-fold when lopinavir is given in combination with ritonavir, probably approximately the same effect for other combinations with ritonavir)."
+  },
+  {
+    "key": "a5ab5ce4026b06c9",
+    "en": "Increased concentration of maraviroc (3-4-fold; 4-5-fold when atazanavir is given in combination with ritonavir)."
+  },
+  {
+    "key": "32e753b3704cdfec",
+    "en": "Increased concentration of maraviroc (4-5-fold when darunavir is given in combination with ritonavir)"
+  },
+  {
+    "key": "07f965e9c5046f40",
+    "en": "Increased concentration of maraviroc (on average 5-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "923c2c4b87e540ef",
+    "en": "Increased concentration of maraviroc (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "443a7628ca1a4809",
+    "en": "Increased concentration of maraviroc (uncertain extent), increased risk of adverse effects"
+  },
+  {
+    "key": "b2ac6277c1aeeeeb",
+    "en": "Increased concentration of maraviroc, increased risk of adverse effects"
+  },
+  {
+    "key": "4cde3fee6569c0fb",
+    "en": "Increased concentration of maraviroc, increased risk of adverse effects."
+  },
+  {
+    "key": "95a17ca4dfb70509",
+    "en": "Increased concentration of maraviroc (on average 5-fold in an interaction study with the potent CYP3A4 inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "de96e2475587db6f",
+    "en": "Increased concentration of mavacamten (40-50 % in patients who are normal metabolisers via CYP2D6)."
+  },
+  {
+    "key": "457fb221ea48d357",
+    "en": "Increased concentration of mavacamten (approximately 20 % in patients who are normal metabolisers via CYP2C19, will be higher in patients with reduced metabolism via CYP2C19)."
+  },
+  {
+    "key": "e143991efcf5d66b",
+    "en": "Increased concentration of mavacamten (approximately 60 % in normal metabolisers via CYP2C19 in combination with the strong CYP3A4 inhibitor itraconazole, the concentration will increase substantially more in poor metabolisers via CYP2C19)."
+  },
+  {
+    "key": "2e4c355b352319a8",
+    "en": "Increased concentration of mavacamten (approximately 60 % in normal metabolisers via CYP2C19, the concentration will increase substantially more in poor metabolisers via CYP2C19)."
+  },
+  {
+    "key": "c42eb160221bed23",
+    "en": "Increased concentration of mavacamten (unknown extent)."
+  },
+  {
+    "key": "018d3a2db4f01f7f",
+    "en": "Increased concentration of mavacamten (uncertain extent)."
+  },
+  {
+    "key": "2adf7b6c915031a3",
+    "en": "Increased concentration of meloxicam (on average 50% in an interaction study)."
+  },
+  {
+    "key": "dbf9a5e14d3d7047",
+    "en": "Increased concentration of memantine, increased risk of adverse effects (such as dizziness, headache, constipation)."
+  },
+  {
+    "key": "5f4e3582f0d04df6",
+    "en": "Increased concentration of mercaptopurine's active metabolites."
+  },
+  {
+    "key": "caf51c963990b656",
+    "en": "Increased concentration of methadone (20 % for the active enantiomer R-methadone, 60 % for the inactive enantiomer S-methadone)."
+  },
+  {
+    "key": "5f26d0da519c5e2e",
+    "en": "Increased concentration of methadone (20-30 %) demonstrated after 6 weeks in one study, later the concentration fell again. No increased risk of methadone adverse effects was observed in those who also received sertraline."
+  },
+  {
+    "key": "30290d9f717482f3",
+    "en": "Increased concentration of methadone (20-80 %)."
+  },
+  {
+    "key": "e006e21d11ef2b11",
+    "en": "Increased concentration of methadone (30-40 % in one study)."
+  },
+  {
+    "key": "70a018038e7c8ab0",
+    "en": "Increased concentration of methadone (50 % increase in the concentration of R-methadone, which accounts for most of the clinical effect; 100 % increase in the concentration of S-methadone, which accounts for most of the QT-prolonging effect of methadone)."
+  },
+  {
+    "key": "3bf4a60fd3163171",
+    "en": "Increased concentration of methadone (in a study with the potent CYP3A4 inhibitor voriconazole, a 50 % increase in the concentration of R-methadone, which accounts for most of the clinical effect, was found; a 100 % increase in the concentration of S-methadone, which accounts for most of the QT-prolonging effect of methadone)."
+  },
+  {
+    "key": "51d3a88344bdeb30",
+    "en": "Increased concentration of methadone (in a study with the potent CYP3A4 inhibitor voriconazole, a 50 % increase in the concentration of R-methadone, which accounts for most of the clinical effect, was found; a 100 % increase in the concentration of S-methadone, which accounts for most of the QT-prolonging effect of methadone). In addition, increased risk of QT prolongation on ECG."
+  },
+  {
+    "key": "b2914a4060754801",
+    "en": "Increased concentration of methadone (uncertain extent)."
+  },
+  {
+    "key": "8a90db733f146db6",
+    "en": "Increased concentration of metformin (20 %)."
+  },
+  {
+    "key": "f78cac5ffbc17b4a",
+    "en": "Increased concentration of metformin (30-40 %)"
+  },
+  {
+    "key": "a1c01e151391fa59",
+    "en": "Increased concentration of metformin (30-40 %)."
+  },
+  {
+    "key": "c41f0a0d6bf98aeb",
+    "en": "Increased concentration of metformin (50-60 %)."
+  },
+  {
+    "key": "b869b095a2d90133",
+    "en": "Increased concentration of metformin (uncertain extent)."
+  },
+  {
+    "key": "fbfe24f272eb20f2",
+    "en": "Increased concentration of metoprolol (2-fold)."
+  },
+  {
+    "key": "ee0be8e2261023e0",
+    "en": "Increased concentration of metoprolol (60 % based on data with the CYP2D6 substrate dextromethorphan)."
+  },
+  {
+    "key": "09ead47b426cc172",
+    "en": "Increased concentration of metoprolol (60-70 %)."
+  },
+  {
+    "key": "0b1a8060811fb529",
+    "en": "Increased concentration of metoprolol (80 %)."
+  },
+  {
+    "key": "4339e7bc663a80aa",
+    "en": "Increased concentration of metoprolol (from 60 % to more than a doubling depending on the dronedarone dose), increased negative inotropic effect."
+  },
+  {
+    "key": "2947b73691fb12ee",
+    "en": "Increased concentration of metoprolol (on average 2-fold in an interaction study), increased risk of adverse effects (low pulse, fatigue, dizziness)"
+  },
+  {
+    "key": "8f07e602b51971fe",
+    "en": "Increased concentration of metoprolol (on average 3-fold in an interaction study), increased risk of adverse effects (low pulse, fatigue, dizziness)"
+  },
+  {
+    "key": "21c863c89957e705",
+    "en": "Increased concentration of metoprolol (on average 6-fold in an interaction study), increased risk of adverse effects (low pulse, fatigue, dizziness)"
+  },
+  {
+    "key": "4e44ea8e0e0fbecc",
+    "en": "Increased concentration of metoprolol (in the order of 80 % depending on CYP2D6 genotype). In addition, risk of additive cardiodepressant effects."
+  },
+  {
+    "key": "a7185b8575501367",
+    "en": "Increased concentration of metoprolol (in the order of a doubling or more based on data with other potent enzyme inhibitors)."
+  },
+  {
+    "key": "b47db89a360bc94d",
+    "en": "Increased concentration of metoprolol (uncertain extent, a 2-3-fold increase shown for the CYP2D6 substrate dextromethorphan)."
+  },
+  {
+    "key": "775c711b13b9648a",
+    "en": "Increased concentration of metoprolol (uncertain extent, but in a study with higher mirabegron doses than currently recommended, the increase in concentration was 3-4-fold). At mirabegron doses of 50 mg/d, the increase in metoprolol concentration will probably be smaller than this."
+  },
+  {
+    "key": "404d49cd6706d077",
+    "en": "Increased concentration of metoprolol (uncertain extent; perhaps a 50-100 % increase based on data on the effect on desipramine)."
+  },
+  {
+    "key": "6040c8510ac5141f",
+    "en": "Increased concentration of metoprolol (uncertain extent)."
+  },
+  {
+    "key": "fd31ab167e2a8a98",
+    "en": "Increased concentration of metoprolol, increased risk of adverse effects (low pulse, fatigue, dizziness)"
+  },
+  {
+    "key": "3ac0b0149c936ff7",
+    "en": "Increased concentration of metoprolol (the magnitude of the increase is unknown, but it is probably substantial)."
+  },
+  {
+    "key": "3a260d42102bd978",
+    "en": "Increased concentration of methotrexate"
+  },
+  {
+    "key": "e51919119e8a673d",
+    "en": "Increased concentration of methotrexate (30-40 % based on studies with high-dose acetylsalicylic acid), increased risk of bone marrow suppression and other toxic effects."
+  },
+  {
+    "key": "feeb84b06aa3824a",
+    "en": "Increased concentration of methotrexate (30-40 % based on studies with high-dose acetylsalicylic acid), increased risk of bone marrow suppression. The risk is greatest in patients with reduced renal function. It is probably modest in patients with normal renal function who do not use a methotrexate dose higher than standard (7,5-15 mg/week). Use of folic acid will probably reduce the risk further."
+  },
+  {
+    "key": "3e474ca08527203b",
+    "en": "Increased concentration of methotrexate (30-40 % based on studies with high-dose acetylsalicylic acid), increased risk of bone marrow suppression. The risk is greatest in patients with reduced renal function. It is probably minimal in patients with normal renal function who do not use a methotrexate dose higher than standard (7,5-15 mg/week). Use of folic acid will probably reduce the risk further."
+  },
+  {
+    "key": "dad2ae2865861143",
+    "en": "Increased concentration of methotrexate (30-40 %), increased risk of bone marrow suppression. The risk is greatest in patients with reduced renal function. It is probably modest in patients with normal renal function who do not use a methotrexate dose higher than standard (7,5-15 mg/week). Use of folic acid will probably reduce the risk further."
+  },
+  {
+    "key": "8dcc6a0d3300815e",
+    "en": "Increased concentration of methotrexate (30-40 %), increased risk of, among other things, bone marrow suppression and other toxic effects."
+  },
+  {
+    "key": "80a92e6afd5eef6e",
+    "en": "Increased concentration of methotrexate (on average 50 % in one study; no difference in a population pharmacokinetic study)."
+  },
+  {
+    "key": "9ebe80ed08a0cd05",
+    "en": "Increased concentration of methotrexate, risk of bone marrow suppression (a number of case reports involving various penicillins, although the effect has not been as clear in more systematic studies). The consequences have been most serious with high-dose methotrexate treatment, but there are also reports of toxic effects in combination with oral low-dose methotrexate treatment (7,5 to 15 mg per week)."
+  },
+  {
+    "key": "fb76148effd927ff",
+    "en": "Increased concentration of methylprednisolone (2-3-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "aa96e47b7a0ebe5e",
+    "en": "Increased concentration of methylprednisolone (2-3-fold)."
+  },
+  {
+    "key": "185b3147284c60c8",
+    "en": "Increased concentration of methylprednisolone (estimated 50-100 % increase based on studies with the similarly potent enzyme inhibitors diltiazem and erythromycin)."
+  },
+  {
+    "key": "ad914d01f12441ba",
+    "en": "Increased concentration of methylprednisolone (estimated from a 50 % increase up to a tripling based on studies with the enzyme inhibitors diltiazem, erythromycin and ketoconazole)."
+  },
+  {
+    "key": "8e228a27bfdd8c92",
+    "en": "Increased concentration of methylprednisolone (from an average 50 % increase in one study to more than a doubling in another study)."
+  },
+  {
+    "key": "7173663c289877ea",
+    "en": "Increased concentration of methylprednisolone (an increase in the order of 2-3-fold can be expected based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "846431ce9e3f5d3d",
+    "en": "Increased concentration of methylprednisolone (in the order of 2-3-fold)."
+  },
+  {
+    "key": "d5adad8d8b530bab",
+    "en": "Increased concentration of methylprednisolone (up to a doubling)."
+  },
+  {
+    "key": "e2522ab290414fa0",
+    "en": "Increased concentration of methylprednisolone."
+  },
+  {
+    "key": "30ff33abf945ab9a",
+    "en": "Increased concentration of midazolam (10-20-fold increase with oral use of midazolam, probably much less with parenteral use of midazolam)."
+  },
+  {
+    "key": "ff7a991ab2f72fb4",
+    "en": "Increased concentration of midazolam (12-fold with oral use of midazolam, 3-4-fold with intravenous use of midazolam)."
+  },
+  {
+    "key": "2649913f0101d595",
+    "en": "Increased concentration of midazolam (2-3-fold with midazolam p.o.; 20-40% with midazolam i.v.)"
+  },
+  {
+    "key": "41f7efd31efcea8e",
+    "en": "Increased concentration of midazolam (2-4-fold with midazolam p.o.; 20-50% with midazolam i.v.)"
+  },
+  {
+    "key": "21a7607fc272d0d4",
+    "en": "Increased concentration of midazolam (2-5-fold with midazolam p.o.; probably substantially less with midazolam i.v.)"
+  },
+  {
+    "key": "348149728334b899",
+    "en": "Increased concentration of midazolam (20-30-fold with midazolam p.o.)"
+  },
+  {
+    "key": "bf8e009584a40c9f",
+    "en": "Increased concentration of midazolam (3-4-fold with oral use of midazolam, substantially less with parenteral use)."
+  },
+  {
+    "key": "83269cd17c99aa9d",
+    "en": "Increased concentration of midazolam (3-4-fold) with oral use. With intravenous or buccal use of midazolam, the increase is probably much smaller than this."
+  },
+  {
+    "key": "546222f39639044b",
+    "en": "Increased concentration of midazolam (3-6-fold increase with oral use of midazolam depending somewhat on the ribociclib dose, much smaller effect with intravenous use of midazolam)."
+  },
+  {
+    "key": "3425be9a2bcb2da8",
+    "en": "Increased concentration of midazolam (4-5-fold with midazolam p.o.)"
+  },
+  {
+    "key": "31aa7840fb21af98",
+    "en": "Increased concentration of midazolam (40-50 % with i.v. administration of midazolam, 2-3-fold with p.o. administration of midazolam)."
+  },
+  {
+    "key": "9263aa5b04bc6f8e",
+    "en": "Increased concentration of midazolam (5-6-fold with midazolam p.o.)"
+  },
+  {
+    "key": "353d68f71b76cd37",
+    "en": "Increased concentration of midazolam (5-6-fold increase with oral use, much smaller effect with intravenous use)."
+  },
+  {
+    "key": "99cf19c79c0a6897",
+    "en": "Increased concentration of midazolam (50 % with oral use of midazolam, probably substantially smaller increase with intravenous use of midazolam)."
+  },
+  {
+    "key": "adb831ad6b54eee0",
+    "en": "Increased concentration of midazolam (50 %) with oral use. With intravenous or buccal use of midazolam, the increase is probably minimal."
+  },
+  {
+    "key": "e0228890349f2d59",
+    "en": "Increased concentration of midazolam (6-10-fold with midazolam p.o., 2-3-fold with midazolam i.v.)"
+  },
+  {
+    "key": "fdfb21a54344b244",
+    "en": "Increased concentration of midazolam (60 % - probably applies to oral administration of midazolam, in which case the effect with intravenous use of midazolam will be much smaller)."
+  },
+  {
+    "key": "5c863d24064ca1a1",
+    "en": "Increased concentration of midazolam (7-8-fold increase with oral use of midazolam, much smaller effect with intravenous use of midazolam). The combination is contraindicated in the summary of product characteristics for lonafarnib - this contraindication is based on data with oral midazolam."
+  },
+  {
+    "key": "e7fcd49e2f888d5b",
+    "en": "Increased concentration of midazolam (8-16-fold with midazolam p.o., approximately 5-fold with midazolam i.v.)"
+  },
+  {
+    "key": "07f30668417f5d4d",
+    "en": "Increased concentration of midazolam (approximately 3-fold) with oral use."
+  },
+  {
+    "key": "21bdb5f89d2f4825",
+    "en": "Increased concentration of midazolam (approximately 50 %) with oral use."
+  },
+  {
+    "key": "1fad295888315d60",
+    "en": "Increased concentration of midazolam (on average 10-fold with midazolam p.o., approximately 3-4-fold with midazolam i.v.)"
+  },
+  {
+    "key": "df7095ee28213d05",
+    "en": "Increased concentration of midazolam (on average 4-fold with p.o. administration of midazolam, approximately 2-fold with midazolam i.v.)"
+  },
+  {
+    "key": "c74bfb4d48f9d73c",
+    "en": "Increased concentration of midazolam (on average 5-fold in interaction studies with both p.o. and i.v. administration of midazolam)."
+  },
+  {
+    "key": "d06e05ed0745b1e8",
+    "en": "Increased concentration of midazolam (on average 30%)."
+  },
+  {
+    "key": "6e85ee08976765bf",
+    "en": "Increased concentration of midazolam (up to 3-fold with i.v. use of midazolam, 2-8-fold with p.o. use)"
+  },
+  {
+    "key": "bdd79338ad3053d4",
+    "en": "Increased concentration of midazolam (uncertain extent, but probably substantial). The combination is contraindicated in the summary of product characteristics for atazanavir."
+  },
+  {
+    "key": "49d69c22bfed6f83",
+    "en": "Increased concentration of mirtazapine (3-4-fold in case reports)."
+  },
+  {
+    "key": "c0db98675dcfe124",
+    "en": "Increased concentration of mitapivat (4-5-fold based on data with the potent enzyme inhibitor itraconazole). According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inhibitors should be avoided. If this is not possible, the patient should be monitored for sleep difficulties. If sleep difficulties occur, the dose of mitapivat should be reduced as specified in the summary of product characteristics."
+  },
+  {
+    "key": "cdff30772d526183",
+    "en": "Increased concentration of mitapivat (4-5-fold). According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inhibitors should be avoided. If this is not possible, the patient should be monitored for sleep difficulties. If sleep difficulties occur, the dose of mitapivat should be reduced as specified in the summary of product characteristics."
+  },
+  {
+    "key": "9a5454784204311c",
+    "en": "Increased concentration of mitapivat (estimated at 4-5-fold based on data with the strong enzyme inhibitor itraconazole). According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inhibitors should be avoided. If this is not possible, the patient should be monitored for sleep difficulties. If sleep difficulties occur, the dose of mitapivat should be reduced as specified in the summary of product characteristics."
+  },
+  {
+    "key": "9a72cd4341471cbd",
+    "en": "Increased concentration of mitapivat (estimated at up to 2-3-fold based on data with the strong enzyme inhibitor itraconazole). According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inhibitors should be avoided."
+  },
+  {
+    "key": "aad2784fa2e07353",
+    "en": "Increased concentration of mitapivat (estimated at up to 2-3-fold based on data with the strong enzyme inhibitor itraconazole). According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inhibitors should be avoided. If this is not possible, the patient should be monitored for sleep difficulties. If sleep difficulties occur, the dose of mitapivat should be reduced as specified in the summary of product characteristics."
+  },
+  {
+    "key": "0dd69032b43e7837",
+    "en": "Increased concentration of mitapivat (estimated at up to 4-5-fold based on data with the strong enzyme inhibitor itraconazole). According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inhibitors should be avoided. If this is not possible, the patient should be monitored for sleep difficulties. If sleep difficulties occur, the dose of mitapivat should be reduced as specified in the summary of product characteristics."
+  },
+  {
+    "key": "1bd0f9c952621f22",
+    "en": "Increased concentration of moclobemide (on average 2-fold in an interaction study), increased risk of adverse effects. Moclobemide causes a corresponding increase in the concentration of esomeprazole, but this is considered unproblematic in clinical practice"
+  },
+  {
+    "key": "9adb5260d5ef9701",
+    "en": "Increased concentration of moclobemide (on average 2-fold in an interaction study), increased risk of adverse effects. Moclobemide causes a corresponding increase in the concentration of omeprazole, but this is considered unproblematic in clinical practice"
+  },
+  {
+    "key": "441e163d058cbc79",
+    "en": "Increased concentration of montelukast (2-3-fold)"
+  },
+  {
+    "key": "882befa089e827a3",
+    "en": "Increased concentration of naldemedine (approximately 3-fold based on data with the strong enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "418bcd26a5f65547",
+    "en": "Increased concentration of naldemedine (approximately 3-fold)."
+  },
+  {
+    "key": "ac387b85de225466",
+    "en": "Increased concentration of naldemedine (unknown extent)."
+  },
+  {
+    "key": "be498bcb6ccc6219",
+    "en": "Increased concentration of naloxegol (10-15-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "a26eab7d8c834574",
+    "en": "Increased concentration of naloxegol (2-3-fold based on figures with the moderate CYP3A4 inhibitor diltiazem)."
+  },
+  {
+    "key": "fbb5e11604206b7b",
+    "en": "Increased concentration of naloxegol (3-4-fold based on data with the moderately strong enzyme inducer diltiazem)."
+  },
+  {
+    "key": "03e96fc2fe05ef1a",
+    "en": "Increased concentration of naloxegol (3-4-fold)."
+  },
+  {
+    "key": "dd6a01db4dc2fcea",
+    "en": "Increased concentration of naloxegol (approximately 13-fold)."
+  },
+  {
+    "key": "aca23f809be9f951",
+    "en": "Increased concentration of nerandomilast (approximately 2-fold based on data with the strong enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "5612db4c2632e6c1",
+    "en": "Increased concentration of nerandomilast (approximately 2-fold)."
+  },
+  {
+    "key": "d5973ed4b6dc7c17",
+    "en": "Increased concentration of neratinib (4-5-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "9491ee8f20f22abb",
+    "en": "Increased concentration of neratinib (4-5-fold)."
+  },
+  {
+    "key": "858afebcedfeeb6d",
+    "en": "Increased concentration of neratinib (estimated to be in the order of 4-fold based on figures with the enzyme inhibitor verapamil)."
+  },
+  {
+    "key": "8b883754872aea57",
+    "en": "Increased concentration of neratinib (estimated to be in the order of 4-fold based on model-based predictions)."
+  },
+  {
+    "key": "a98ef30516edf412",
+    "en": "Increased concentration of neratinib (approximately 70 % based on model-based predictions)."
+  },
+  {
+    "key": "5326413781231003",
+    "en": "Increased concentration of nevirapine (possibly in the order of a doubling)."
+  },
+  {
+    "key": "7a27ac6a0c8c7661",
+    "en": "Increased concentration of nilotinib (on average 3-fold based on data with the potent enzyme inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "2e086194d137ed65",
+    "en": "Increased concentration of nilotinib (on average 3-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "b45421b9c467671d",
+    "en": "Increased concentration of nilotinib (perhaps up to a doubling based on the effect with the potent enzyme inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "bf20b07853a1eb8a",
+    "en": "Increased concentration of nilotinib (perhaps around a doubling based on the effect with the potent enzyme inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "6e17226050b189ad",
+    "en": "Increased concentration of nilotinib (perhaps around a doubling based on the effect with the potent enzyme inhibitor ketoconazole), increased risk of QT prolongation on ECG."
+  },
+  {
+    "key": "25072d95922800f9",
+    "en": "Increased concentration of nilotinib (the magnitude of the effect is uncertain, but perhaps in the order of 2-3-fold)."
+  },
+  {
+    "key": "71815cb265e2f62d",
+    "en": "Increased concentration of nilotinib (uncertain extent)."
+  },
+  {
+    "key": "580879b2d03d797f",
+    "en": "Increased concentration of nimodipine (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "7c11b14a706cebbe",
+    "en": "Increased concentration of nimodipine (the magnitude of the effect is uncertain). It may perhaps be an increase of up to twice to five times the level with oral nimodipine. With intravenous nimodipine, the degree of interaction will probably be much smaller than this."
+  },
+  {
+    "key": "e4e51ae97022d86f",
+    "en": "Increased concentration of nimodipine (uncertain extent)."
+  },
+  {
+    "key": "56f560a70bab1552",
+    "en": "Increased concentration of nimodipine. Based on data with other dihydropyridine analogues with a similar degree of first-pass metabolism, (felodipine, nifedipine) one must expect that the concentration may increase to twice to five times the level with oral nimodipine taken concomitantly with inhibitors of CYP3A4. With intravenous nimodipine, the degree of interaction will probably be much smaller than this."
+  },
+  {
+    "key": "17d59aad700b7ff4",
+    "en": "Increased concentration of nimodipine. Based on data with other dihydropyridine analogues with a similar degree of first-pass metabolism, (felodipine, nifedipine) one must expect that the concentration may increase to five times the level or more with oral nimodipine taken concomitantly with strong inhibitors of CYP3A4. With intravenous nimodipine, the degree of interaction will probably be much smaller than this."
+  },
+  {
+    "key": "940d76da02c87bfd",
+    "en": "Increased concentration of nimodipine. Based on data with other dihydropyridine analogues with a similar degree of first-pass metabolism, (felodipine, nifedipine) one must expect that the concentration may increase to five times the level or more with oral nimodipine taken concomitantly with strong inhibitors of CYP3A4. With intravenous nimodipine, the degree of interaction will probably be much smaller than this."
+  },
+  {
+    "key": "e31541f6e220027c",
+    "en": "Increased concentration of nintedanib (60 %)."
+  },
+  {
+    "key": "bea90f6b968d1ba6",
+    "en": "Increased concentration of nirogacestat (8-9-fold for the potent CYP3A4 inhibitor itraconazole, probably lower for moderate inhibitors as here, but still enough that the combination should be avoided)."
+  },
+  {
+    "key": "2f5265acfc861540",
+    "en": "Increased concentration of nirogacestat (8-9-fold, shown for the potent CYP3A4 inhibitor itraconazole)."
+  },
+  {
+    "key": "f26c928203a63446",
+    "en": "Increased concentration of nirogacestat (8-9-fold)."
+  },
+  {
+    "key": "f4a9f6fc2c822019",
+    "en": "Increased concentration of nitrazepam (on average 25% in an interaction study)"
+  },
+  {
+    "key": "a99ee8ecc032a335",
+    "en": "Increased concentration of oxycodone (2-3-fold with oral administration of oxycodone, 50% with parenteral administration has been shown for the potent CYP3A4 inhibitor itraconazole, an increase of the same order can be expected here)."
+  },
+  {
+    "key": "1146150c47a8877a",
+    "en": "Increased concentration of oxycodone (2-3-fold with oral administration of oxycodone, 50% with parenteral administration; all based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "c494cc8aa0ca48d7",
+    "en": "Increased concentration of oxycodone (2-3-fold with oral administration of oxycodone, 50% with parenteral administration)."
+  },
+  {
+    "key": "127f8fced214e919",
+    "en": "Increased concentration of oxycodone (2-3-fold with oral administration of oxycodone, probably less with parenteral administration)."
+  },
+  {
+    "key": "d639b8c1d0c91178",
+    "en": "Increased concentration of oxycodone (4-5-fold with oral administration of oxycodone, probably less with parenteral administration)."
+  },
+  {
+    "key": "87a0c66c210aec53",
+    "en": "Increased concentration of oxycodone (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "1cf477cfed11c957",
+    "en": "Increased concentration of olanzapine (50-100 %) with increased risk of adverse effects on smoking cessation."
+  },
+  {
+    "key": "fd8ffd7f059e6b0a",
+    "en": "Increased concentration of olanzapine (estimated at 50-100 %), increased risk of adverse effects"
+  },
+  {
+    "key": "6f38ff554aa426fe",
+    "en": "Increased concentration of olanzapine (on average around 2-fold in interaction studies), increased risk of adverse effects"
+  },
+  {
+    "key": "dd9775995f3d53fa",
+    "en": "Increased concentration of olaparib (2-3-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "6da83826f802a139",
+    "en": "Increased concentration of olaparib (2-3-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "45068740f1b75ca4",
+    "en": "Increased concentration of olaparib (2-3-fold)."
+  },
+  {
+    "key": "2b39ad00d5fe67e3",
+    "en": "Increased concentration of olaparib (a 2-3-fold increase has been shown for the potent enzyme inhibitor itraconazole, the increase will probably be somewhat smaller here)."
+  },
+  {
+    "key": "a6c6383a50b2f32c",
+    "en": "Increased concentration of olaparib (a 2-3-fold increase has been shown for the potent enzyme inhibitor itraconazole, the increase will probably be somewhat smaller here)."
+  },
+  {
+    "key": "1c08fc2df9e38566",
+    "en": "Increased concentration of omaveloxolone (20-30 % based on the moderately strong enzyme inhibitor verapamil)."
+  },
+  {
+    "key": "3c2264bfeefae0f0",
+    "en": "Increased concentration of omaveloxolone (20-30 %)."
+  },
+  {
+    "key": "17ca96c908ad8d0d",
+    "en": "Increased concentration of omaveloxolone (3-4-fold based on the strong enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "ff3a7e4cba557bab",
+    "en": "Increased concentration of omaveloxolone (3-4-fold)."
+  },
+  {
+    "key": "032c769a7fc4db49",
+    "en": "Increased concentration of omeprazole (2-3-fold)."
+  },
+  {
+    "key": "dbc6f3175ac2f4a9",
+    "en": "Increased concentration of omeprazole (2-4-fold depending on CYP2C19 genotype)"
+  },
+  {
+    "key": "fe94f41ef1fe9acf",
+    "en": "Increased concentration of omeprazole (40 %; shown for the active metabolite valdecoxib)"
+  },
+  {
+    "key": "a2857e4bd9eb0da7",
+    "en": "Increased concentration of omeprazole (6-7-fold after use of fluconazole 100 mg/d for 5 days; no effect after a single dose of 100 mg fluconazole)"
+  },
+  {
+    "key": "f5ee90bad325a051",
+    "en": "Increased concentration of omeprazole (70-80 %)"
+  },
+  {
+    "key": "e1192374960a1417",
+    "en": "Increased concentration of omeprazole (90 %)."
+  },
+  {
+    "key": "98f47c9d30990f66",
+    "en": "Increased concentration of ospemifene (2-3-fold)."
+  },
+  {
+    "key": "9bc0c1a11e11a38c",
+    "en": "Increased concentration of paclitaxel (on average 30%)."
+  },
+  {
+    "key": "94349eb2988220ce",
+    "en": "Increased concentration of paclitaxel (uncertain extent), increased risk of peripheral neuropathy as an adverse effect of paclitaxel. The increase in risk has varied between 2-fold and 12-fold in different studies."
+  },
+  {
+    "key": "8c1805639315eaf9",
+    "en": "Increased concentration of paclitaxel (uncertain extent)."
+  },
+  {
+    "key": "0b57dbe4ab1b84d8",
+    "en": "Increased concentration of palbociclib (80-90 % based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "665f6fb83c0c3569",
+    "en": "Increased concentration of palbociclib (80-90 %)."
+  },
+  {
+    "key": "8bcaec154e891617",
+    "en": "Increased concentration of panobinostat (80 % based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "28ac111fa6986e91",
+    "en": "Increased concentration of panobinostat (80 %)."
+  },
+  {
+    "key": "e03f711a258c75a2",
+    "en": "Increased concentration of pantoprazole (uncertain extent, but based on studies with omeprazole, the increase may be substantial after repeated dosing with fluconazole)."
+  },
+  {
+    "key": "b810e40967c60b83",
+    "en": "Increased concentration of panobinostat (uncertain extent)."
+  },
+  {
+    "key": "255a0e5a32452957",
+    "en": "Increased concentration of paricalcitol (approximately a doubling)."
+  },
+  {
+    "key": "8442a449d3e97472",
+    "en": "Increased concentration of paroxetine (on average 2-3-fold in an interaction study), increased risk of adverse effects (increased serotonergic activity)"
+  },
+  {
+    "key": "b46223e3753b8f49",
+    "en": "Increased concentration of paroxetine (on average 50 % in an interaction study)"
+  },
+  {
+    "key": "690b145921536118",
+    "en": "Increased concentration of paroxetine (up to 100%)."
+  },
+  {
+    "key": "ae1b97822ada2f0c",
+    "en": "Increased concentration of pazopanib (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "078b2de92c1be124",
+    "en": "Increased concentration of pazopanib (on average 50-60%)."
+  },
+  {
+    "key": "e953191bf74c0998",
+    "en": "Increased concentration of pazopanib (the magnitude of the effect is uncertain, but probably substantial)."
+  },
+  {
+    "key": "b100366fe3a81da7",
+    "en": "Increased concentration of pazopanib (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "1afa6baf77b1c161",
+    "en": "Increased concentration of pazopanib."
+  },
+  {
+    "key": "cdc5549ae418260a",
+    "en": "Increased concentration of pemigatinib (80-100 % based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "22251faa3d581cbd",
+    "en": "Increased concentration of pemigatinib (80-100 %)."
+  },
+  {
+    "key": "7b4cd73799c1ef6d",
+    "en": "Increased concentration of perampanel (20 %)."
+  },
+  {
+    "key": "ea98beffe335694a",
+    "en": "Increased concentration of pioglitazone (40-50 %)."
+  },
+  {
+    "key": "d85aad94ecff87a8",
+    "en": "Increased concentration of pioglitazone (50 %)."
+  },
+  {
+    "key": "958b64311492670c",
+    "en": "Increased concentration of pirfenidone (on average 4-fold)"
+  },
+  {
+    "key": "cd8ee4538dc4457a",
+    "en": "Increased concentration of pirfenidone (uncertain extent)"
+  },
+  {
+    "key": "033a6bf597b3552a",
+    "en": "Increased concentration of pitavastatin (uncertain extent, but probably at least as much as for atorvastatin, where the increase is 3-4-fold when letermovir is given without ciclosporin and probably even higher when ciclosporin is also used)."
+  },
+  {
+    "key": "19c0eae5533d23cf",
+    "en": "Increased concentration of pitolisant (around a doubling based on data with the strong CYP2D6 inhibitor paroxetine)."
+  },
+  {
+    "key": "b30da5a92844ab21",
+    "en": "Increased concentration of pitolisant (around a doubling)."
+  },
+  {
+    "key": "0a774680ce85eb72",
+    "en": "Increased concentration of pomalidomide (a doubling of the concentration has been shown when fluvoxamine was added in a study where the individuals used ketoconazole throughout to inhibit any metabolism via CYP3A4. The effect of fluvoxamine will probably be smaller when the patient has higher metabolic capacity via CYP3A4, but it is uncertain how much smaller the effect of fluvoxamine will be)."
+  },
+  {
+    "key": "d894a9e7ceda7b04",
+    "en": "Increased concentration of ponatinib (in the order of up to a doubling, data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "7530e9fe390c0089",
+    "en": "Increased concentration of posaconazole and possibly also cobicistat/elvitegravir (uncertain extent)."
+  },
+  {
+    "key": "84fe54cb6eaa461e",
+    "en": "Increased concentration of posaconazole. Based on data from studies with ketoconazole, a 2-3-fold increase can be expected. The concentration of ritonavir may also increase, but perhaps above all the concentration of the agents used with ritonavir in fixed combinations (around a doubling of the concentration of paritaprevir, a smaller increase for dasabuvir, no increase for ombitasvir has been shown for ketoconazole)."
+  },
+  {
+    "key": "1703ff0301aadc24",
+    "en": "Increased concentration of pralsetinib (3-4-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "5c795f4379bbf781",
+    "en": "Increased concentration of pralsetinib (3-4-fold based on data with the strong CYP3A4 inhibitor itraconazole)."
+  },
+  {
+    "key": "0dd99b0f94dc8d43",
+    "en": "Increased concentration of pralsetinib (3-4-fold)."
+  },
+  {
+    "key": "4912617a982b9c28",
+    "en": "Increased concentration of pralsetinib (uncertain extent)."
+  },
+  {
+    "key": "7734a6a056751f91",
+    "en": "Increased concentration of pravastatin (uncertain extent, but probably approximately as for atorvastatin, where the increase is 3-4-fold when letermovir is given without ciclosporin. If ciclosporin is also used, the rosuvastatin concentration will probably be extremely high)."
+  },
+  {
+    "key": "e8c1ba80000bc5b9",
+    "en": "Increased concentration of prednisolone (up to 50 % in some studies, very limited effect in other studies)."
+  },
+  {
+    "key": "1120c00d40255c5d",
+    "en": "Increased concentration of prednisolone (up to a doubling in some studies, very limited effect in other studies)."
+  },
+  {
+    "key": "79b32ef50163d1ec",
+    "en": "Increased concentration of prednisone/prednisolone (conflicting data; from no increase in some studies to a 20-60 % increase in other studies, all with various potent enzyme inhibitors such as ketoconazole, itraconazole, ritonavir and clarithromycin)."
+  },
+  {
+    "key": "f2e36f6c5c283d8f",
+    "en": "Increased concentration of propranolol (3-5-fold). Marked bradycardia with syncope has been reported."
+  },
+  {
+    "key": "1be557965051cfc9",
+    "en": "Increased concentration of propranolol (50-100 %) on smoking cessation. It is the effect of stopping smoking that causes the interaction and not the treatment with the smoking cessation preparation."
+  },
+  {
+    "key": "1d5447ff0b08d882",
+    "en": "Increased concentration of propranolol (uncertain extent). Marked bradycardia has been reported in one case."
+  },
+  {
+    "key": "916358bc9e50f914",
+    "en": "Increased concentration of proton pump inhibitors (30-40 % for omeprazole, probably approximately the same for other proton pump inhibitors)"
+  },
+  {
+    "key": "151ee0a85406423d",
+    "en": "Increased concentration of quetiapine (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the SPC for Seroquel and Viekirax."
+  },
+  {
+    "key": "114dd092f35eb8ff",
+    "en": "Increased concentration of rabeprazole (1,5-3-fold)"
+  },
+  {
+    "key": "d86f0d9da2e74277",
+    "en": "Increased concentration of raltegravir (3-4-fold; shown for omeprazole)."
+  },
+  {
+    "key": "bf8d50d9fb3e1af4",
+    "en": "Increased concentration of raltegravir (3-4-fold; shown for the proton pump inhibitor omeprazole)"
+  },
+  {
+    "key": "2d2ee7ba3d289762",
+    "en": "Increased concentration of ranolazine (2-fold)."
+  },
+  {
+    "key": "f380e25b15888b4b",
+    "en": "Increased concentration of ranolazine (3-4-fold), increased risk of adverse effects (nausea, dizziness, etc.)."
+  },
+  {
+    "key": "26e63d509a9b9bb9",
+    "en": "Increased concentration of ranolazine (50-100 %)."
+  },
+  {
+    "key": "5815d147632c5a4a",
+    "en": "Increased concentration of ranolazine (estimated at 2-4-fold based on data with other potent enzyme inhibitors)."
+  },
+  {
+    "key": "ce13d924ff20154b",
+    "en": "Increased concentration of ranolazine (in the order of 3-4-fold based on data with the potent inhibitor ketoconazole), increased risk of adverse effects (nausea, dizziness, etc.)."
+  },
+  {
+    "key": "c636fc8d03fa5dd4",
+    "en": "Increased concentration of ranolazine (in the order of 3-4-fold based on data with the potent inhibitor ketoconazole), increased risk of adverse effects (nausea, dizziness, etc.)."
+  },
+  {
+    "key": "9a8f69737baf9b02",
+    "en": "Increased concentration of ranolazine (in the order of up to 2-4-fold based on data with the potent inhibitor ketoconazole, perhaps around half as much with fluconazole, at least at doses of 200 mg/d and higher)."
+  },
+  {
+    "key": "f2b686d10039a6a6",
+    "en": "Increased concentration of ranolazine (perhaps in the order of a doubling based on data with the enzyme inhibitors verapamil and diltiazem)."
+  },
+  {
+    "key": "006abecb7e25918a",
+    "en": "Increased concentration of ranolazine (perhaps in the order of a doubling based on data with the enzyme inhibitors verapamil and diltiazem). Possibly also additive effects on the QT interval on ECG."
+  },
+  {
+    "key": "2bbb6c4fdb4f90cd",
+    "en": "Increased concentration of ranolazine (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "941c385ae88da267",
+    "en": "Increased concentration of ranolazine (uncertain extent)."
+  },
+  {
+    "key": "493e7ffd97e5efeb",
+    "en": "Increased concentration of rasagiline on smoking cessation (uncertain extent)."
+  },
+  {
+    "key": "c39fd7ccd6950bcb",
+    "en": "Increased concentration of rasagiline (up to a doubling)."
+  },
+  {
+    "key": "1fe82f50a347a748",
+    "en": "Increased concentration of regorafenib (30-40 %), reduced concentration of the active metabolites M-2 and M-5 (90 %). Unpredictable net effect on the action of regorafenib."
+  },
+  {
+    "key": "f753e33aa1084e70",
+    "en": "Increased concentration of regorafenib (uncertain extent)."
+  },
+  {
+    "key": "6b25fa1a64789b1e",
+    "en": "Increased concentration of regorafenib, reduced concentration of the active metabolites M-2 and M-5. Unpredictable net effect on the action of regorafenib."
+  },
+  {
+    "key": "b0f8222234ecfe56",
+    "en": "Increased concentration of relugolix (3-4-fold)."
+  },
+  {
+    "key": "5caf2f9ef248fcd3",
+    "en": "Increased concentration of relugolix (estimated at 3-4-fold based on data with the potent P-glycoprotein inhibitor (and moderate CYP3A4 inhibitor) erythromycin)."
+  },
+  {
+    "key": "0dbf84bf8b309152",
+    "en": "Increased concentration of relugolix (estimated at up to 3-4-fold based on data with the potent P-glycoprotein inhibitor (and moderate CYP3A4 inhibitor) erythromycin)."
+  },
+  {
+    "key": "3df560403671f950",
+    "en": "Increased concentration of repaglinide (2-3-fold, shown for the active leflunomide metabolite teriflunomide)."
+  },
+  {
+    "key": "4cafe7ddefd8ef08",
+    "en": "Increased concentration of repaglinide (2-3-fold)"
+  },
+  {
+    "key": "e1b79cfdacb1c19e",
+    "en": "Increased concentration of repaglinide (2-3-fold)."
+  },
+  {
+    "key": "0fa59e3d173c8f79",
+    "en": "Increased concentration of repaglinide (20-30 %)"
+  },
+  {
+    "key": "a21650dd066a69ee",
+    "en": "Increased concentration of repaglinide (3-5-fold); risk of hypoglycaemia. A fall in blood glucose concentration of up to 1 mmol/l has been seen in clinical studies."
+  },
+  {
+    "key": "7dddb7920e581845",
+    "en": "Increased concentration of repaglinide (40-50 %), a case of hypoglycaemia has been described in a case report."
+  },
+  {
+    "key": "140286eee2385a49",
+    "en": "Increased concentration of repaglinide (40-50 %). If gemfibrozil is also given as a third agent, the concentration of repaglinide will increase to 20 times the level."
+  },
+  {
+    "key": "b3209f2c72d94695",
+    "en": "Increased concentration of repaglinide (60 %)."
+  },
+  {
+    "key": "fd0d309e1ff91577",
+    "en": "Increased concentration of repaglinide (on average 40-50 % based on data with the potent inhibitor itraconazole). If the patient also has reduced metabolic capacity via CYP2C8 (either genetically or due to concomitant use of drugs that inhibit this enzyme), the increase will be much greater than this."
+  },
+  {
+    "key": "cd51822bf03d8c37",
+    "en": "Increased concentration of repaglinide (around a doubling)."
+  },
+  {
+    "key": "125a8c3a26a93cb1",
+    "en": "Increased concentration of repaglinide (uncertain extent)."
+  },
+  {
+    "key": "f5e445624b3655ac",
+    "en": "Increased concentration of repotrectinib (approximately 6-fold)."
+  },
+  {
+    "key": "4c9644a4601cc2fb",
+    "en": "Increased concentration of resmetirom (70 %, shown for the CYP2C8 inhibitor clopidogrel)."
+  },
+  {
+    "key": "47f6785d993b5a62",
+    "en": "Increased concentration of resmetirom (70 %)."
+  },
+  {
+    "key": "6c6280e7e128d681",
+    "en": "Increased concentration of ribociclib (3-4-fold based on the potent enzyme inhibitor ritonavir)."
+  },
+  {
+    "key": "befc4f21fcd1516c",
+    "en": "Increased concentration of ribociclib (3-4-fold based on the potent enzyme inhibitor ritonavir). In addition, increased risk of serious arrhythmias."
+  },
+  {
+    "key": "224cde455f82d556",
+    "en": "Increased concentration of ribociclib (3-4-fold)"
+  },
+  {
+    "key": "1959649363891da5",
+    "en": "Increased concentration of ribociclib (based on data with the enzyme inhibitor erythromycin, the increase in concentration will depend on the ribociclib dose, from a 30 % increase at high ribociclib doses to a doubling or more at low ribociclib doses)."
+  },
+  {
+    "key": "e6ef333fe531cb19",
+    "en": "Increased concentration of ribociclib (based on data with the enzyme inhibitor erythromycin, the increase in concentration will depend on the ribociclib dose, from a 30 % increase at high ribociclib doses to a doubling or more at low ribociclib doses). Increased risk of QT prolongation on ECG."
+  },
+  {
+    "key": "8c77b984be253ccb",
+    "en": "Increased concentration of ribociclib (the increase in concentration depends on the ribociclib dose, from a 30 % increase at high ribociclib doses to a doubling or more at low ribociclib doses). Increased risk of QT prolongation on ECG."
+  },
+  {
+    "key": "06e85a238769f501",
+    "en": "Increased concentration of rilpivirine (50 %)."
+  },
+  {
+    "key": "2b09a930bf805932",
+    "en": "Increased concentration of rilpivirine (50-60 % when ritonavir is given in combination with lopinavir; 2-fold when ritonavir is given in combination with darunavir; 3-4-fold when ritonavir is given in combination with ombitasvir and paritaprevir)."
+  },
+  {
+    "key": "1e338324e6a3ccc0",
+    "en": "Increased concentration of riluzole on smoking cessation."
+  },
+  {
+    "key": "7b0b1b1874466c4c",
+    "en": "Increased concentration of rimegepant (approximately 4-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "ff3f7885e029c765",
+    "en": "Increased concentration of rimegepant (approximately 4-fold based on data with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "2467b94a7f6ed68a",
+    "en": "Increased concentration of rimegepant (approximately 4-fold)."
+  },
+  {
+    "key": "8933e9c35608c891",
+    "en": "Increased concentration of rimegepant (approximately 80 %)."
+  },
+  {
+    "key": "13b1bd7cd07ae3be",
+    "en": "Increased concentration of rimegepant (perhaps around a doubling or more based on figures with other inhibitors of CYP3A4)."
+  },
+  {
+    "key": "2b2f8836fcfd3cbe",
+    "en": "Increased concentration of rimegepant (uncertain extent)."
+  },
+  {
+    "key": "8e4ac22fef48839b",
+    "en": "Increased concentration of riociguat (2-3-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "527c7e7ac7fcd525",
+    "en": "Increased concentration of riociguat (2-3-fold)."
+  },
+  {
+    "key": "a10537522625a027",
+    "en": "Increased concentration of riociguat (uncertain extent)."
+  },
+  {
+    "key": "fffe5c921a2c40ef",
+    "en": "Increased concentration of ripretinib (around a doubling based on data with the strong enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "d8eb6ad8611dd736",
+    "en": "Increased concentration of ripretinib (around a doubling)."
+  },
+  {
+    "key": "bb98c6e01340d7ea",
+    "en": "Increased concentration of risperidone (on average 70 % in an interaction study)."
+  },
+  {
+    "key": "c03617aeb6c23fc0",
+    "en": "Increased concentration of risperidone and the active metabolite 9-hydroxyrisperidone (up to a 50 % increase for the sum of the two, based on data with other inhibitors of CYP2D6)."
+  },
+  {
+    "key": "1489bd4f85b7c7df",
+    "en": "Increased concentration of risperidone and the sum of risperidone and active metabolite (3-4-fold and 1,3-1,8-fold, respectively, based on data with other enzyme inhibitors), increased risk of adverse effects."
+  },
+  {
+    "key": "d12f13fcd3139285",
+    "en": "Increased concentration of risperidone and the sum of risperidone and active metabolite (3-4-fold and 1,3-1,8-fold, respectively, in interaction studies), increased risk of adverse effects."
+  },
+  {
+    "key": "806d23da02da9f50",
+    "en": "Increased concentration of rivaroxaban (2-3-fold based on data with the potent inhibitor ketoconazole), increased risk of adverse effects (bleeding)."
+  },
+  {
+    "key": "7d4910c604fef5b1",
+    "en": "Increased concentration of rivaroxaban (2-3-fold based on data with the potent inhibitor ketoconazole), increased risk of adverse effects (bleeding). Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "5abe4b0ed197b6fd",
+    "en": "Increased concentration of rivaroxaban (2-3-fold), increased risk of adverse effects (bleeding)."
+  },
+  {
+    "key": "e0ee96cd92ee4c17",
+    "en": "Increased concentration of rivaroxaban (2-3-fold), increased risk of adverse effects (bleeding). The increase in concentration may also depend on which anti-HIV agents are used in addition to ritonavir. The combination is contraindicated in the summary of product characteristics for rivaroxaban."
+  },
+  {
+    "key": "d9131d562f4f0653",
+    "en": "Increased concentration of rivaroxaban (30-40 %). In patients with normal renal function this is not considered clinically relevant, but with concomitant impaired renal function the increase may be substantially greater (estimated at at least a doubling) and thus become clinically significant."
+  },
+  {
+    "key": "dec45c82c96e9467",
+    "en": "Increased concentration of rivaroxaban (40-60 %). In patients with normal renal function this is hardly clinically relevant, but with concomitant impaired renal function the increase may be greater and thus become clinically significant. The increase will also be greater if the patient additionally uses a drug that also inhibits P-glycoprotein, such as ciclosporin (in such cases a doubling or more of the rivaroxaban concentration can be expected). Some epidemiological studies have found an increase in bleeding risk with use of the combination compared with rivaroxaban alone, whereas other studies have not found this."
+  },
+  {
+    "key": "c5387c82fd84de18",
+    "en": "Increased concentration of rivaroxaban (50 %). With concomitant impaired renal function the increase may be greater."
+  },
+  {
+    "key": "34bd78ed3fad2961",
+    "en": "Increased concentration of rivaroxaban (perhaps around 30-40 % based on data with other inhibitors such as erythromycin). In patients with impaired renal function the increase may be substantially greater."
+  },
+  {
+    "key": "e8344f1f468db878",
+    "en": "Increased concentration of rivaroxaban (the magnitude of the increase is uncertain; the increase will probably be greatest in patients with impaired renal function). One epidemiological study demonstrated a 30 % increased risk of bleeding with use of the combination compared with rivaroxaban alone, another study demonstrated a 40-50 % increased risk of hospitalisation due to bleeding with use of the combination. Two other epidemiological studies have not been able to demonstrate any increase in bleeding risk."
+  },
+  {
+    "key": "936df46cf80ec8e1",
+    "en": "Increased concentration of rivaroxaban (uncertain extent, but probably somewhat less than for the interaction with ketoconazole/itraconazole/posaconazole)."
+  },
+  {
+    "key": "6f78eea0e67554f4",
+    "en": "Increased concentration of rivaroxaban (uncertain extent)."
+  },
+  {
+    "key": "b157a62c80e7b207",
+    "en": "Increased concentration of rivaroxaban (uncertain extent). Especially in patients with impaired renal function the increase in concentration may probably be substantial."
+  },
+  {
+    "key": "66fc2e1519a6be29",
+    "en": "Increased concentration of roflumilast (50-60 % for the active metabolite roflumilast-N-oxide)."
+  },
+  {
+    "key": "8897a02fe9980b5d",
+    "en": "Increased concentration of ropinirole (approximately 50 %) on smoking cessation."
+  },
+  {
+    "key": "b683d2fc901c1d4c",
+    "en": "Increased concentration of ropinirole (up to a doubling %)."
+  },
+  {
+    "key": "0181063556f91e35",
+    "en": "Increased concentration of ropivacaine (2-3-fold)."
+  },
+  {
+    "key": "0e244ea062f60c37",
+    "en": "Increased concentration of rosuvastatin (2-3-fold)"
+  },
+  {
+    "key": "704796585dc5754d",
+    "en": "Increased concentration of rosuvastatin (2-3-fold)."
+  },
+  {
+    "key": "e2fa816777a5b78c",
+    "en": "Increased concentration of rosuvastatin (30-50 % with clopidogrel 75 mg/d, up to a doubling with clopidogrel 300 mg/d)."
+  },
+  {
+    "key": "1cfa62745d71848f",
+    "en": "Increased concentration of rosuvastatin (40 %)."
+  },
+  {
+    "key": "cbff9122a8f47ae3",
+    "en": "Increased concentration of rosuvastatin (40-50 %)."
+  },
+  {
+    "key": "0535bfc77a692c96",
+    "en": "Increased concentration of rosuvastatin (80-90%)."
+  },
+  {
+    "key": "5cb81c0545fdc1b5",
+    "en": "Increased concentration of rosuvastatin (approximately 70 %)."
+  },
+  {
+    "key": "0df82f88b7a22d1e",
+    "en": "Increased concentration of rosuvastatin (approximately a doubling)."
+  },
+  {
+    "key": "575b0bac4bc2848e",
+    "en": "Increased concentration of rosuvastatin (on average 1,5-2-fold in interaction studies with ritonavir plus lopinavir and 2-3-fold in interaction studies with ritonavir plus ombitasvir/paritaprevir/dasabuvir)."
+  },
+  {
+    "key": "61ff6adfa9a92e58",
+    "en": "Increased concentration of rosuvastatin (uncertain extent)."
+  },
+  {
+    "key": "bfd32e13ce295642",
+    "en": "Increased concentration of ruxolitinib (20-30 % in an interaction study with the enzyme inhibitor erythromycin)."
+  },
+  {
+    "key": "2428898840b433c6",
+    "en": "Increased concentration of ruxolitinib (20-30 %)."
+  },
+  {
+    "key": "e51349105eff6cc1",
+    "en": "Increased concentration of ruxolitinib (90-100 %)."
+  },
+  {
+    "key": "362238d83a544553",
+    "en": "Increased concentration of ruxolitinib (estimated at a doubling based on data with the potent CYP3A4 inhibitor ketoconazole)."
+  },
+  {
+    "key": "b00c3af256093aec",
+    "en": "Increased concentration of saxagliptin (100 %), reduced concentration of the active metabolite of saxagliptin (30 %); uncertain net effect on blood glucose."
+  },
+  {
+    "key": "5d2ea6eb7e9f5f36",
+    "en": "Increased concentration of saxagliptin (2-3-fold), reduced concentration of the active metabolite of saxagliptin (90 %); uncertain net effect on blood glucose."
+  },
+  {
+    "key": "f56275dd40cfcd03",
+    "en": "Increased concentration of saxagliptin (perhaps in the order of 2-3-fold based on data with other inhibitors), reduced concentration of the active metabolite of saxagliptin; uncertain net effect on blood glucose."
+  },
+  {
+    "key": "124d92ec7bda8c33",
+    "en": "Increased concentration of saxagliptin (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "5b938e6a4f036cc3",
+    "en": "Increased concentration of saxagliptin (uncertain extent)."
+  },
+  {
+    "key": "cf1145faa18a4a22",
+    "en": "Increased concentration of salmeterol (15-20-fold based on data with the potent enzyme inhibitor ketoconazole), risk of serious systemic adverse effects."
+  },
+  {
+    "key": "6708c658db40995f",
+    "en": "Increased concentration of salmeterol (15-20-fold based on data with the potent enzyme inhibitor ketoconazole), increased risk of cardiovascular adverse effects (QT prolongation, palpitations and sinus tachycardia)."
+  },
+  {
+    "key": "cd6f3b0d83f3e174",
+    "en": "Increased concentration of salmeterol (15-20-fold), risk of serious systemic adverse effects."
+  },
+  {
+    "key": "27ba3dedfd6147fb",
+    "en": "Increased concentration of salmeterol (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "97fa1543fa6978a4",
+    "en": "Increased concentration of salmeterol (the magnitude of the effect is uncertain). The manufacturer of idelalisib recommends on theoretical grounds that the combination is not used."
+  },
+  {
+    "key": "9af37683dec4250f",
+    "en": "Increased concentration of salmeterol (uncertain extent)."
+  },
+  {
+    "key": "45a41f699c52e519",
+    "en": "Increased concentration of selumetinib (50 % based on data with the potent CYP3A4 inhibitor itraconazole). The summary of product characteristics for selumetinib recommends that the combination generally be avoided. If the combination cannot be avoided, the selumetinib dose is to be reduced according to a schedule specified in the summary of product characteristics for selumetinib."
+  },
+  {
+    "key": "c033f6f942321297",
+    "en": "Increased concentration of selumetinib (50 %). The summary of product characteristics for selumetinib recommends that the combination generally be avoided. If the combination cannot be avoided, the selumetinib dose is to be reduced according to a schedule specified in the summary of product characteristics for selumetinib."
+  },
+  {
+    "key": "3d25a7db3729b583",
+    "en": "Increased concentration of selumetinib (50-60 %). The summary of product characteristics for selumetinib recommends that the combination generally be avoided. If the combination cannot be avoided, the selumetinib dose is to be reduced according to a schedule specified in the summary of product characteristics for selumetinib."
+  },
+  {
+    "key": "7b03f0adc1996b58",
+    "en": "Increased concentration of selumetinib (estimated at 30-40 % based on theoretical data). The summary of product characteristics for selumetinib recommends that the combination generally be avoided. If the combination cannot be avoided, the selumetinib dose is to be reduced according to a schedule specified in the summary of product characteristics for selumetinib."
+  },
+  {
+    "key": "ee51a6b2576ab419",
+    "en": "Increased concentration of selumetinib (estimated at up to 30-40 % based on theoretical data). The summary of product characteristics for selumetinib recommends that the combination generally be avoided. If the combination cannot be avoided, the selumetinib dose is to be reduced according to a schedule specified in the summary of product characteristics for selumetinib."
+  },
+  {
+    "key": "f33a01ce7187de8c",
+    "en": "Increased concentration of selpercatinib (approximately 2-fold based on data with the potent CYP3A4 inhibitor ketoconazole)."
+  },
+  {
+    "key": "38e50399544f856f",
+    "en": "Increased concentration of selpercatinib (approximately 2-fold)."
+  },
+  {
+    "key": "dceed323d807ec11",
+    "en": "Increased concentration of sertindole (on average 2-3-fold in an interaction study), increased risk of adverse effects (QT prolongation)"
+  },
+  {
+    "key": "f793b8c7ece902f5",
+    "en": "Increased concentration of sertindole (the magnitude of the effect is uncertain). There is a risk that this may lead to QT prolongation with a danger of serious arrhythmias."
+  },
+  {
+    "key": "287f1b1f129ac859",
+    "en": "Increased concentration of sertindole (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "0d7064409ca34939",
+    "en": "Increased concentration of sertindole, increased risk of serious arrhythmias."
+  },
+  {
+    "key": "c4035e1711e6ff74",
+    "en": "Increased concentration of sertindole, increased risk of adverse effects (QT prolongation)"
+  },
+  {
+    "key": "3ca93f4977f9a4ef",
+    "en": "Increased concentration of sertindole, increased risk of adverse effects (QT prolongation)."
+  },
+  {
+    "key": "355fd3cc9b5eedac",
+    "en": "Increased concentration of sertindole, increased risk of adverse effects (QT prolongation on ECG)."
+  },
+  {
+    "key": "dac8f4885490615d",
+    "en": "Increased concentration of sildenafil (on average 10-fold in an interaction study), increased risk of adverse effects. The combination is contraindicated in the summaries of product characteristics for, among others, Revatio and Viekirax."
+  },
+  {
+    "key": "d44bb03772e4e050",
+    "en": "Increased concentration of sildenafil (on average 2-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "d876bad75f2e9291",
+    "en": "Increased concentration of sildenafil (on average 2-3-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "e4d4a8bb613ff7f8",
+    "en": "Increased concentration of sildenafil (on average 3-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "b3eaa3de2a84ae09",
+    "en": "Increased concentration of sildenafil (on average 40% in an interaction study)"
+  },
+  {
+    "key": "d579d45c60daa4e5",
+    "en": "Increased concentration of sildenafil (up to a 10-fold increase based on data with other potent inhibitors of CYP3A4), increased risk of adverse effects. The combination is contraindicated in the summary of product characteristics for Revatio."
+  },
+  {
+    "key": "567afe6e332b3ad5",
+    "en": "Increased concentration of sildenafil (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "c1a514170e588427",
+    "en": "Increased concentration of sildenafil (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "ce053f640a92156e",
+    "en": "Increased concentration of sildenafil (uncertain extent, but probably substantial). The combination is contraindicated in the summary of product characteristics for atazanavir when sildenafil is used for the indication pulmonary arterial hypertension."
+  },
+  {
+    "key": "8b42f74e905d7aa6",
+    "en": "Increased concentration of sildenafil (uncertain extent)."
+  },
+  {
+    "key": "ce4e33c25b8d2040",
+    "en": "Increased concentration of sildenafil, increased risk of adverse effects"
+  },
+  {
+    "key": "24d8446377dadf0e",
+    "en": "Increased concentration of sildenafil, increased risk of adverse effects. The combination is contraindicated in the SPC for Revatio."
+  },
+  {
+    "key": "7dc7ff625a2c6edc",
+    "en": "Increased concentration of sildenafil, increased risk of adverse effects. The combination is contraindicated in the SPC for Viagra and SPC for Revatio."
+  },
+  {
+    "key": "7c9a65989c397eb2",
+    "en": "Increased concentration of sildenafil. According to the summary of product characteristics for Stribild, the combination is contraindicated when sildenafil is used for the indication pulmonary hypertension, whereas sildenafil at a maximum dose of 25 mg within 48 hours can be used for the indication erectile dysfunction."
+  },
+  {
+    "key": "45cbaf2beb597f9d",
+    "en": "Increased concentration of simvastatin (2-fold for the active metabolite simvastatin acid), increased risk of adverse effects (muscle pain; rhabdomyolysis)."
+  },
+  {
+    "key": "a287755c868121d1",
+    "en": "Increased concentration of simvastatin (2-fold)."
+  },
+  {
+    "key": "07ddf5609aaf08ae",
+    "en": "Increased concentration of simvastatin (2-4-fold)."
+  },
+  {
+    "key": "3a4e929fa745448c",
+    "en": "Increased concentration of simvastatin (30-40 % or more)."
+  },
+  {
+    "key": "1b2b3d69be404260",
+    "en": "Increased concentration of simvastatin (40-60%)."
+  },
+  {
+    "key": "6395ecad2c629e61",
+    "en": "Increased concentration of simvastatin (40-90% in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)."
+  },
+  {
+    "key": "21de3ac0b4a63c4e",
+    "en": "Increased concentration of simvastatin (50-60 % in an interaction study)"
+  },
+  {
+    "key": "d1d0ffde15e9e43b",
+    "en": "Increased concentration of simvastatin (50-60%)."
+  },
+  {
+    "key": "b2aa34955bb7497d",
+    "en": "Increased concentration of simvastatin (70 %)."
+  },
+  {
+    "key": "64dea9e226bbffba",
+    "en": "Increased concentration of simvastatin (80-90%)."
+  },
+  {
+    "key": "58c934cf7d0e34b8",
+    "en": "Increased concentration of simvastatin (on average 10-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in the SPC for Zocor."
+  },
+  {
+    "key": "f4db6c6f82424364",
+    "en": "Increased concentration of simvastatin (on average 19-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in the SPC for Zocor."
+  },
+  {
+    "key": "87b386c9e94c7554",
+    "en": "Increased concentration of simvastatin (on average 2-5-fold in interaction studies with similarly potent CYP3A4 inhibitors), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "45d4785a9578dd16",
+    "en": "Increased concentration of simvastatin (on average 2-5-fold in interaction studies), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "66fac516e7e106e5",
+    "en": "Increased concentration of simvastatin (on average 3-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "65580a6b3d3997c0",
+    "en": "Increased concentration of simvastatin (on average 3-4-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "2754f207fbff4e31",
+    "en": "Increased concentration of simvastatin (on average 5-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in the SPC for Zocor."
+  },
+  {
+    "key": "7f5152d39eb6daac",
+    "en": "Increased concentration of simvastatin (on average 70% in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "cc6654d3bb7a72be",
+    "en": "Increased concentration of simvastatin (probably a several-fold increase in concentration), increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in, among others, the SPC for Zocor and Viekirax."
+  },
+  {
+    "key": "3348609f243c3794",
+    "en": "Increased concentration of simvastatin (the magnitude of the effect is uncertain, but probably substantial; perhaps in the order of a 4-5-fold increase)."
+  },
+  {
+    "key": "486ae787f480df26",
+    "en": "Increased concentration of simvastatin (the magnitude of the effect is uncertain, but probably substantial)."
+  },
+  {
+    "key": "4e25420de33dbc2f",
+    "en": "Increased concentration of simvastatin (the magnitude of the effect is uncertain, but probably substantial). The combination is contraindicated in the summary of product characteristics for lonafarnib."
+  },
+  {
+    "key": "469f9adc5bbc186d",
+    "en": "Increased concentration of simvastatin (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "e972fe9945f8d692",
+    "en": "Increased concentration of simvastatin (uncertain extent, but probably substantial). The combination is contraindicated in the summary of product characteristics for atazanavir."
+  },
+  {
+    "key": "807e30740e49569b",
+    "en": "Increased concentration of simvastatin (uncertain extent, but probably at least as much as for atorvastatin, where the increase is 3-4-fold when letermovir is given without ciclosporin. If ciclosporin is also used, the simvastatin concentration will probably be extremely high)."
+  },
+  {
+    "key": "3cb5770f59fae4b6",
+    "en": "Increased concentration of simvastatin (uncertain extent)."
+  },
+  {
+    "key": "a0da76bce43c1124",
+    "en": "Increased concentration of simvastatin, risk of rhabdomyolysis and renal failure. The combination is contraindicated in the summary of product characteristics for Striblid."
+  },
+  {
+    "key": "47b4701098d4dcda",
+    "en": "Increased concentration of simvastatin, increased risk of adverse effects (muscle pain; rhabdomyolysis)"
+  },
+  {
+    "key": "03101f8250adec82",
+    "en": "Increased concentration of simvastatin, increased risk of adverse effects (muscle pain; rhabdomyolysis). The combination is contraindicated in the SPC for Zocor."
+  },
+  {
+    "key": "0116bc23d71de4b5",
+    "en": "Increased concentration of simvastatin, increased risk of myopathy/rhabdomyolysis."
+  },
+  {
+    "key": "1ae4f1eee7fba311",
+    "en": "Increased concentration of simvastatin, increased risk of rhabdomyolysis."
+  },
+  {
+    "key": "f3303d19c7ef382e",
+    "en": "Increased concentration of siponimod (increase to twice the level shown with a fluconazole dose of 200 mg/d, probably less effect at lower fluconazole doses)."
+  },
+  {
+    "key": "3d794e1d9b65d4fb",
+    "en": "Increased concentration of sirolimus (uncertain extent)."
+  },
+  {
+    "key": "b7ee626f88aa7523",
+    "en": "Increased concentration of sirolimus (3-4-fold, probably even higher if ciclosporin is also used)."
+  },
+  {
+    "key": "6972e230f58a708d",
+    "en": "Increased concentration of sirolimus (80-90 %)."
+  },
+  {
+    "key": "d523841bf130cbeb",
+    "en": "Increased concentration of sirolimus (the magnitude of the effect is uncertain, but probably substantial, i.e. a several-fold increase in sirolimus concentration)."
+  },
+  {
+    "key": "11a9d555c77d9cf0",
+    "en": "Increased concentration of sirolimus (extremely marked effect, probably in the order of up to 35-40-fold), substantially increased risk of toxic effects."
+  },
+  {
+    "key": "ad0429f111733ec2",
+    "en": "Increased concentration of sirolimus (on average 1,6-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "abdb885afca08458",
+    "en": "Increased concentration of sirolimus (on average 11-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "8983c1a3c4412555",
+    "en": "Increased concentration of sirolimus (on average 2,2-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "cfa1f2fd8342f262",
+    "en": "Increased concentration of sirolimus (on average 4-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "5eed9c7c3dedb1b5",
+    "en": "Increased concentration of sirolimus (on average 60 % in an interaction study with the CYP3A4 inhibitor fedratinib), increased risk of adverse effects"
+  },
+  {
+    "key": "2d12f8a8aee2d614",
+    "en": "Increased concentration of sirolimus (on average 60 % in an interaction study with the CYP3A4 inhibitor tucatinib), increased risk of adverse effects"
+  },
+  {
+    "key": "f0e849f978dfa19b",
+    "en": "Increased concentration of sirolimus (on average 9-11-fold in interaction studies), increased risk of adverse effects. The combination is contraindicated in the SPC for Vfend."
+  },
+  {
+    "key": "54bddd082df8a235",
+    "en": "Increased concentration of sirolimus (on average approximately 9-fold in an interaction study, increased risk of adverse effects)"
+  },
+  {
+    "key": "56d029bab013bb3d",
+    "en": "Increased concentration of sirolimus (in the order of 5-10-fold), increased risk of adverse effects/toxic effects."
+  },
+  {
+    "key": "e83b23e81af621e6",
+    "en": "Increased concentration of sirolimus (unknown extent)."
+  },
+  {
+    "key": "681a27f334cd90bc",
+    "en": "Increased concentration of sirolimus (the magnitude of the effect is uncertain, but perhaps in the order of 4-fold)."
+  },
+  {
+    "key": "55fd3ad4e66e5132",
+    "en": "Increased concentration of sirolimus (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "4b29055a3dccb439",
+    "en": "Increased concentration of sirolimus (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "37894ed790c70634",
+    "en": "Increased concentration of sirolimus (uncertain extent)."
+  },
+  {
+    "key": "27fe2c7833b69d54",
+    "en": "Increased concentration of sirolimus, increased risk of adverse effects"
+  },
+  {
+    "key": "cda90b03fb96be43",
+    "en": "Increased concentration of sirolimus. Based on data with other potent inhibitors of CYP3A4, the concentration of sirolimus may increase several-fold."
+  },
+  {
+    "key": "bd5e0d4e9d442521",
+    "en": "Increased concentration of sofosbuvir (uncertain extent)."
+  },
+  {
+    "key": "3e9cbcee4024cd12",
+    "en": "Increased concentration of solifenacin"
+  },
+  {
+    "key": "55ee91ab5f5cd340",
+    "en": "Increased concentration of solifenacin (on average 2-3-fold in interaction studies), increased risk of adverse effects (anticholinergic; dry mouth, etc.). The combination is contraindicated in the SPC for Vesicare."
+  },
+  {
+    "key": "0632b3adaad23931",
+    "en": "Increased concentration of solifenacin (in the order of 2-3-fold based on data with the potent inhibitor ketoconazole), increased risk of adverse effects (anticholinergic effects such as dry mouth, etc.)"
+  },
+  {
+    "key": "aee18585cff7791a",
+    "en": "Increased concentration of solifenacin (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "c9dcb5b8a9e0de95",
+    "en": "Increased concentration of solifenacin (uncertain extent), increased risk of adverse effects (anticholinergic; dry mouth, etc.)"
+  },
+  {
+    "key": "8219187161a96a70",
+    "en": "Increased concentration of solifenacin (uncertain extent)."
+  },
+  {
+    "key": "781eabb0ad0f6a5e",
+    "en": "Increased concentration of solifenacin, increased risk of adverse effects (anticholinergic; dry mouth, etc.)"
+  },
+  {
+    "key": "a95c08fcf70fd76b",
+    "en": "Increased concentration of solifenacin, increased risk of adverse effects (anticholinergic; dry mouth, etc.)."
+  },
+  {
+    "key": "f2df7fe04b45d907",
+    "en": "Increased concentration of solifenacin, increased risk of adverse effects (anticholinergic; dry mouth, etc.). The combination is contraindicated in the SPC for Vesicare."
+  },
+  {
+    "key": "c5c587e361dffe40",
+    "en": "Increased concentration of sonidegib (2-3-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "691fd40378a98b51",
+    "en": "Increased concentration of sonidegib (2-3-fold)."
+  },
+  {
+    "key": "315cc0918f89fc10",
+    "en": "Increased concentration of sonidegib (the magnitude of the effect is uncertain; it will probably be less than a doubling)."
+  },
+  {
+    "key": "1d98dfae668c16d4",
+    "en": "Increased concentration of sparsentan (estimated at approximately 70 %)."
+  },
+  {
+    "key": "4f64f0b61075350c",
+    "en": "Increased concentration of sparsentan (approximately 2,5-3-fold based on figures with the potent enzyme inhibitor itraconazole)."
+  },
+  {
+    "key": "6cb67c96065d73ee",
+    "en": "Increased concentration of sparsentan (approximately 2,5-3-fold based on figures with the potent enzyme inhibitor itraconazole). A corresponding effect is expected with ritonavir and nirmatrelvir/ritonavir (Paxlovid)."
+  },
+  {
+    "key": "5023c5396809d3f8",
+    "en": "Increased concentration of sparsentan (approximately 2,5-3-fold based)."
+  },
+  {
+    "key": "9fada40b69e557a7",
+    "en": "Increased concentration of statins (a 2-3-fold increase in plasma concentration has been shown for rosuvastatin; varying degrees of increase can be expected for other statins)."
+  },
+  {
+    "key": "a02bc7a29483259f",
+    "en": "Increased concentration of statins (a 2-3-fold increase in plasma concentration has been shown for rosuvastatin; varying degrees of increase can be expected for other statins). The effect on rosuvastatin has been shown for the active leflunomide metabolite teriflunomide."
+  },
+  {
+    "key": "f7a9e0e4bb8b09e2",
+    "en": "Increased concentration of statins (a 50-60 % increase in plasma concentration has been shown for rosuvastatin; varying degrees of increase can be expected for other statins)."
+  },
+  {
+    "key": "c9127de61cc8ecc0",
+    "en": "Increased concentration of the statin. In one study, the increase in the concentration of rosuvastatin was 5-fold. Based on the statins' dependence on OATP1B1 for inactivation, one would assume that the increase in the concentration of simvastatin and lovastatin will be even greater, whereas the increase for atorvastatin may be somewhat greater, the increase for pravastatin may be in the same range as for rosuvastatin, whereas the increase for fluvastatin will be the smallest."
+  },
+  {
+    "key": "3e85946bbf3e49de",
+    "en": "Increased concentration of stiripentol (30-60 %)."
+  },
+  {
+    "key": "03cd661fa81fd832",
+    "en": "Increased concentration of sufentanil (uncertain extent)."
+  },
+  {
+    "key": "9cf22874bcf255d7",
+    "en": "Increased concentration of sulfasalazine (4-5-fold)."
+  },
+  {
+    "key": "ba86c53d0956ec00",
+    "en": "Increased concentration of sulfasalazine (unknown extent, but perhaps in the order of a doubling)."
+  },
+  {
+    "key": "aadc4f9d2fe02514",
+    "en": "Increased concentration of the sum of atorvastatin and active metabolite (on average 1,3-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)."
+  },
+  {
+    "key": "1372763c675955d9",
+    "en": "Increased concentration of the sum of atorvastatin and active metabolite (on average 1,8-fold in an interaction study), increased risk of adverse effects (muscle pain; rhabdomyolysis)."
+  },
+  {
+    "key": "917105f3720c5ec9",
+    "en": "Increased concentration of sunitinib (50 % based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "62036f3574ff06c4",
+    "en": "Increased concentration of sunitinib (50 %)."
+  },
+  {
+    "key": "ab58ced6c9992e14",
+    "en": "Increased concentration of sunitinib (uncertain extent)."
+  },
+  {
+    "key": "76356c3ccbf924c3",
+    "en": "Increased concentration of tadalafil (on average 2-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "ee38535930e58e91",
+    "en": "Increased concentration of tadalafil (uncertain effect but probably substantial - there has been an increase of between 2-fold and 16-fold in combination with other potent enzyme inhibitors)."
+  },
+  {
+    "key": "ced60f4825b9e855",
+    "en": "Increased concentration of tadalafil (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "701826471256e883",
+    "en": "Increased concentration of tadalafil (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. Combinations with similarly sensitive substrates are contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "b81e3a3bf0b7d33b",
+    "en": "Increased concentration of tadalafil (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "b5a7e8d42cb36be3",
+    "en": "Increased concentration of tadalafil (uncertain extent), increased risk of adverse effects."
+  },
+  {
+    "key": "8b4c1c5877192c35",
+    "en": "Increased concentration of tadalafil (uncertain extent)."
+  },
+  {
+    "key": "388cd6998191c8f1",
+    "en": "Increased concentration of tadalafil, increased risk of adverse effects"
+  },
+  {
+    "key": "9a43c2106a9482b9",
+    "en": "Increased concentration of tadalafil."
+  },
+  {
+    "key": "6026946b269536ca",
+    "en": "Increased concentration of tacrolimus (2-3-fold)."
+  },
+  {
+    "key": "d995c87864c86d72",
+    "en": "Increased concentration of tacrolimus (25-30 % in a study in kidney transplant recipients)."
+  },
+  {
+    "key": "fe0b833bc46d9514",
+    "en": "Increased concentration of tacrolimus (50 %)."
+  },
+  {
+    "key": "ef03f5592919ce5a",
+    "en": "Increased concentration of tacrolimus (50-60 %)."
+  },
+  {
+    "key": "f6b4202c93075131",
+    "en": "Increased concentration of tacrolimus (the magnitude of the effect is uncertain, but probably substantial, i.e. a several-fold increase in tacrolimus concentration)."
+  },
+  {
+    "key": "559eadd6e1c23440",
+    "en": "Increased concentration of tacrolimus (extremely marked effect, probably in the order of up to 50-100-fold), substantially increased risk of toxic effects."
+  },
+  {
+    "key": "61879414baea424a",
+    "en": "Increased concentration of tacrolimus (on average 1,2-1,6-fold in interaction studies), increased risk of adverse effects"
+  },
+  {
+    "key": "f6604f9321f5e067",
+    "en": "Increased concentration of tacrolimus (on average 1,5-3-fold in interaction studies), increased risk of adverse effects"
+  },
+  {
+    "key": "97c2e35fc94c7267",
+    "en": "Increased concentration of tacrolimus (on average 1,5-3-fold in interaction studies), increased risk of adverse effects."
+  },
+  {
+    "key": "f813134c5f9c66c8",
+    "en": "Increased concentration of tacrolimus (on average 2-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "a21b6c939dee6778",
+    "en": "Increased concentration of tacrolimus (on average 2-fold), increased risk of adverse effects"
+  },
+  {
+    "key": "49b2f093570c860b",
+    "en": "Increased concentration of tacrolimus (on average 3-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "a888db074ed8c823",
+    "en": "Increased concentration of tacrolimus (on average 4-5-fold in an interaction study, increased risk of adverse effects)"
+  },
+  {
+    "key": "a82aa36e909c91a5",
+    "en": "Increased concentration of tacrolimus (a tripling of the tacrolimus concentration has been reported in one case)."
+  },
+  {
+    "key": "9c7bc5824adb98c5",
+    "en": "Increased concentration of tacrolimus (on average 30%)."
+  },
+  {
+    "key": "ddc93f32282a9905",
+    "en": "Increased concentration of tacrolimus (the magnitude of the effect is uncertain, but perhaps in the order of 4-fold)."
+  },
+  {
+    "key": "5e66dbc4ddd691d2",
+    "en": "Increased concentration of tacrolimus (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "f4bcadb90923a4b8",
+    "en": "Increased concentration of tacrolimus (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "1797a3a770bb3077",
+    "en": "Increased concentration of tacrolimus (uncertain extent)."
+  },
+  {
+    "key": "6c5831c6cc0d42f1",
+    "en": "Increased concentration of tacrolimus, increased risk of adverse effects"
+  },
+  {
+    "key": "d1584a93426816a5",
+    "en": "Increased concentration of tacrolimus, increased risk of adverse effects."
+  },
+  {
+    "key": "524cc359419e56fc",
+    "en": "Increased concentration of tacrolimus. It must be expected that the concentration of tacrolimus will increase several-fold."
+  },
+  {
+    "key": "1e535bce6727e496",
+    "en": "Increased concentration of tacrolimus. The effect may vary from no increase up to a quadrupling of the tacrolimus concentration. The effect appears to be greatest in patients with a functioning CYP3A5 enzyme. Among ethnic Europeans, a large majority of the population has mutations that lead to a non-functioning CYP3A5 enzyme, and in these individuals no interaction of significance would be expected."
+  },
+  {
+    "key": "e959c5a8f562fe5f",
+    "en": "Increased concentration of tacrolimus. The effect varies greatly between individuals, which probably depends, among other things, on the patient's CYP2C19 genotype and possibly also the patient's CYP3A5 genotype. In liver transplant recipients, it has also been suggested that the donor liver's genotype is significant."
+  },
+  {
+    "key": "2adcfdd148662261",
+    "en": "Increased concentration of talazoparib (50-60%)."
+  },
+  {
+    "key": "bb7aa8661fdaa685",
+    "en": "Increased concentration of talazoparib (estimated at 50-60% based on data with the strong P-glycoprotein inhibitor itraconazole)."
+  },
+  {
+    "key": "2922d0b0410ce45f",
+    "en": "Increased concentration of tamsulosin (2-3-fold based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "37849488ff5b4492",
+    "en": "Increased concentration of tamsulosin (2-3-fold)."
+  },
+  {
+    "key": "772240bfb8df5e5b",
+    "en": "Increased concentration of tamsulosin (uncertain extent)."
+  },
+  {
+    "key": "bd63f8121f48da6b",
+    "en": "Increased concentration of tasimelteon (50 %)."
+  },
+  {
+    "key": "bdea665702a210a6",
+    "en": "Increased concentration of tasimelteon (7-fold or more)."
+  },
+  {
+    "key": "90bcb6c61f9280af",
+    "en": "Increased concentration of tasimelteon (uncertain extent, but may be substantial)."
+  },
+  {
+    "key": "7a3dfe932388b46a",
+    "en": "Increased concentration of theophylline (100 % in a case report)."
+  },
+  {
+    "key": "7ae0b3cf5888bf51",
+    "en": "Increased concentration of theophylline (2-4-fold)."
+  },
+  {
+    "key": "2129bdbbf4a28b4d",
+    "en": "Increased concentration of theophylline (20-30 % in some studies, no effect in other studies)."
+  },
+  {
+    "key": "d8ab19d46c3228f7",
+    "en": "Increased concentration of theophylline (30-50 % with intake of 250 mg disulfiram per day, 50-100 % with intake of 500 mg disulfiram per day)."
+  },
+  {
+    "key": "d086e34bea924767",
+    "en": "Increased concentration of theophylline (40-50 %)."
+  },
+  {
+    "key": "4d0aac16e6741b52",
+    "en": "Increased concentration of theophylline (on average 20-30% in interaction studies)"
+  },
+  {
+    "key": "294226b56b837fd9",
+    "en": "Increased concentration of theophylline (on average 20-30% in some interaction studies, other studies show no change)"
+  },
+  {
+    "key": "be0bfc73a4f15aee",
+    "en": "Increased concentration of theophylline (on average 30 %, variations from no increase to over a 90 % increase in one study), increased risk of adverse effects."
+  },
+  {
+    "key": "c21555aa0f99ee70",
+    "en": "Increased concentration of theophylline (on average 50-100 % in interaction studies; much more in individual patients (deaths due to theophylline intoxication have been described in a few patients))."
+  },
+  {
+    "key": "912a9af12952b9f7",
+    "en": "Increased concentration of theophylline (usually 0-20 %; occasionally substantially more)."
+  },
+  {
+    "key": "9f588196ec6bb3bc",
+    "en": "Increased concentration of theophylline."
+  },
+  {
+    "key": "bb2cba8b1a81ecaf",
+    "en": "Increased concentration of tepotinib (uncertain extent)."
+  },
+  {
+    "key": "6c0daed926cbbc09",
+    "en": "Increased concentration of testosterone after oral administration (2-3-fold)."
+  },
+  {
+    "key": "48c74d894b1bd63c",
+    "en": "Increased concentration of testosterone after oral administration (50 % to 3-fold depending on the dutasteride dose)."
+  },
+  {
+    "key": "df9ffdfe6a705151",
+    "en": "Increased concentration of tetrahydrocannabinol (80 %) and cannabidiol (two-fold) (shown for the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "21d7325150d06b28",
+    "en": "Increased concentration of tetrahydrocannabinol (80 %) and cannabidiol (two-fold)."
+  },
+  {
+    "key": "dfc69025c51a686f",
+    "en": "Increased concentration of ticagrelor (2-3-fold), unchanged concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "4db8f273b1af0653",
+    "en": "Increased concentration of ticagrelor (7-8-fold based on data with the potent enzyme inhibitor ketoconazole), reduced concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "02042d9da086aee1",
+    "en": "Increased concentration of ticagrelor (7-8-fold), reduced concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "0f642b7ca3940c42",
+    "en": "Increased concentration of ticagrelor (based on data with other potent inhibitors, the concentration can be expected to increase by 2 to 8-fold, at least at fluconazole doses of 200 mg/d and higher), unchanged or reduced concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "274f81907f3fd42d",
+    "en": "Increased concentration of ticagrelor (based on data with the potent inhibitor ketoconazole, the concentration can be expected to increase up to 7-8-fold), reduced concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "4f4ceb9711f664d0",
+    "en": "Increased concentration of ticagrelor (based on data with the potent inhibitor ketoconazole, the concentration can be expected to increase 7-8-fold), reduced concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "149a55f54fdd06ae",
+    "en": "Increased concentration of ticagrelor (based on data with the potent inhibitor ketoconazole, the concentration can be expected to increase 7-8-fold), reduced concentration of ticagrelor's active metabolite. Because of the long half-life of itraconazole, the interaction may persist for 1-2 weeks after treatment with itraconazole has ended."
+  },
+  {
+    "key": "d32eea63e185b2f2",
+    "en": "Increased concentration of ticagrelor (based on data with diltiazem, the concentration can be expected to increase 2-3-fold), unchanged concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "6dd48d1e8d129e6f",
+    "en": "Increased concentration of ticagrelor (perhaps 2-3-fold based on data with other CYP3A4 inhibitors), unchanged concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "c2510f4cf3f52515",
+    "en": "Increased concentration of ticagrelor (the magnitude of the effect is uncertain, perhaps in the order of somewhere between a 2-fold and 8-fold increase)."
+  },
+  {
+    "key": "53545a67973cc0aa",
+    "en": "Increased concentration of ticagrelor (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "f812030514bb6e07",
+    "en": "Increased concentration of ticagrelor (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. The combination is contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "02e03ae601dd2850",
+    "en": "Increased concentration of ticagrelor (uncertain extent)."
+  },
+  {
+    "key": "6adbc455b5a89af5",
+    "en": "Increased concentration of tipranavir (60-70 %). Possible increased concentration of clarithromycin (shown for tipranavir in combination with ritonavir)."
+  },
+  {
+    "key": "7751421f6a102487",
+    "en": "Increased concentration of tipranavir (on average 50% in an interaction study)."
+  },
+  {
+    "key": "dd664c779e4933ab",
+    "en": "Increased concentration of tizanidine (10-fold), risk of marked sedation and hypotension."
+  },
+  {
+    "key": "fbbdca66fd2e5c19",
+    "en": "Increased concentration of tizanidine (30-40-fold)"
+  },
+  {
+    "key": "1f7600e39e7a4809",
+    "en": "Increased concentration of ticagrelor (based on data with the potent inhibitor ketoconazole, the concentration can be expected to increase 7-8-fold), reduced concentration of ticagrelor's active metabolite."
+  },
+  {
+    "key": "14a59575f08adb07",
+    "en": "Increased concentration of tofacitinib (estimated at 20-30 %), risk of increased immunosuppression and increased risk of infection."
+  },
+  {
+    "key": "de16df902024965a",
+    "en": "Increased concentration of tofacitinib (estimated at 70-80 %)."
+  },
+  {
+    "key": "ff8a5356a698cfb6",
+    "en": "Increased concentration of tofacitinib (in the order of a doubling based on data with the potent enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "861d4ef946652974",
+    "en": "Increased concentration of tofacitinib (in the order of a doubling)."
+  },
+  {
+    "key": "f7d37c6198d1c21e",
+    "en": "Increased concentration of tofacitinib (uncertain extent, perhaps in the order of 50 %)."
+  },
+  {
+    "key": "291f3435d80dc9a9",
+    "en": "Increased concentration of tolterodine (2-fold based on data with the potent inhibitor ketoconazole) in poor CYP2D6 metabolisers."
+  },
+  {
+    "key": "a3641d2c31e7dd8c",
+    "en": "Increased concentration of tolterodine (2-fold based on data with the potent inhibitor ketoconazole)."
+  },
+  {
+    "key": "1497e7a0938a9a3c",
+    "en": "Increased concentration of tolterodine (2-fold)."
+  },
+  {
+    "key": "3a1b770aad387698",
+    "en": "Increased concentration of tolterodine and active metabolite (80-90% in an interaction study)."
+  },
+  {
+    "key": "085cdd669ed1fb32",
+    "en": "Increased concentration of tolvaptan"
+  },
+  {
+    "key": "2de76d6df136fe8a",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold for potent inhibitors of CYP3A4, possibly somewhat less for diltiazem)."
+  },
+  {
+    "key": "13cc95d90d285440",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold for potent inhibitors of CYP3A4, possibly somewhat less for erythromycin)."
+  },
+  {
+    "key": "7b6cad7eafcc405c",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold for potent inhibitors of CYP3A4, possibly somewhat less for clarithromycin)."
+  },
+  {
+    "key": "43533572ba760427",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold for potent inhibitors of CYP3A4, possibly somewhat less for verapamil)."
+  },
+  {
+    "key": "444c35b63a7d4b32",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold for potent inhibitors of CYP3A4, possibly somewhat less here)."
+  },
+  {
+    "key": "1ffa61c5b0a773ce",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold for potent inhibitors of CYP3A4)."
+  },
+  {
+    "key": "00630bf993264b8d",
+    "en": "Increased concentration of tolvaptan (up to a 5-6-fold increase has been demonstrated for other potent inhibitors of CYP3A4)."
+  },
+  {
+    "key": "e4357011cd2fa7a8",
+    "en": "Increased concentration of tolvaptan (up to 5-6-fold)."
+  },
+  {
+    "key": "a9ee2999105643fc",
+    "en": "Increased concentration of tolvaptan (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "87c4d0e0eb551a38",
+    "en": "Increased concentration of tolvaptan (uncertain extent)."
+  },
+  {
+    "key": "d603d8e3624f2c48",
+    "en": "Increased concentration of tolvaptan."
+  },
+  {
+    "key": "a25e5ebc0ad229e8",
+    "en": "Increased concentration of topotecan (2-3-fold based on data with other agents that are pumped out via the transport pump BCRP)."
+  },
+  {
+    "key": "79e5f681fcc6e58b",
+    "en": "Increased concentration of tovorafenib (unknown extent)"
+  },
+  {
+    "key": "60792013c9a70bcf",
+    "en": "Increased concentration of trabectedin (60-70 % based on data with the potent enzyme inhibitor ketoconazole), increased risk of serious adverse effects (rhabdomyolysis, renal failure, multiorgan failure, pancytopenia)."
+  },
+  {
+    "key": "8d4bf9e52017f0be",
+    "en": "Increased concentration of trabectedin (60-70 %), increased risk of serious adverse effects (rhabdomyolysis, renal failure, multiorgan failure, pancytopenia)."
+  },
+  {
+    "key": "0ec23a69eabb42d7",
+    "en": "Increased concentration of trabectedin (perhaps in the order of 30-40 % based on data with the potent enzyme inhibitor ketoconazole), possible increased risk of serious adverse effects (rhabdomyolysis, renal failure, multiorgan failure, pancytopenia)."
+  },
+  {
+    "key": "8cdd329f5761f23f",
+    "en": "Increased concentration of trabectedin (uncertain extent)."
+  },
+  {
+    "key": "1eaca8f835392b42",
+    "en": "Increased concentration of tramadol (100 %), no effect on the active metabolite O-desmethyltramadol."
+  },
+  {
+    "key": "a81d8162f7c23d8e",
+    "en": "Increased concentration of trazodone (2-3-fold based on concomitant use of the strong CYP3A4 inhibitor ritonavir)."
+  },
+  {
+    "key": "d2e4b4054eed167a",
+    "en": "Increased concentration of trazodone (2-3-fold)."
+  },
+  {
+    "key": "cd8ce4a8b5f7394c",
+    "en": "Increased concentration of trazodone (up to a doubling based on concomitant use of the strong CYP3A4 inhibitor ritonavir)."
+  },
+  {
+    "key": "747ff7448b90eddd",
+    "en": "Increased concentration of triamcinolone. Glucocorticoid adverse effects, including Cushing effects, have been reported after single injections of triamcinolone into bursae and joints."
+  },
+  {
+    "key": "c37597ce690b1c64",
+    "en": "Increased concentration of tricyclic antidepressants (best documented for desipramine and nortriptyline, with a 2-4-fold increase. Perhaps in the order of a doubling for other tricyclic antidepressants). Increased risk of toxic effects. Combined use with clomipramine also entails an increased risk of serotonergic adverse effects through a pharmacodynamic interaction."
+  },
+  {
+    "key": "f9ec0d19961b982c",
+    "en": "Increased concentration of tricyclic antidepressants (approximately 5-fold for desipramine; probably approximately the same for nortriptyline. Perhaps in the order of a doubling for other tricyclic antidepressants), increased risk of toxic effects. Combined use with clomipramine also entails an increased risk of serotonergic adverse effects through a pharmacodynamic interaction."
+  },
+  {
+    "key": "50c44e1f058d0e10",
+    "en": "Increased concentration of tucatinib (3-fold based on the potent CYP2C8 inhibitor gemfibrozil) with a risk of toxic effects. The summary of product characteristics for tucatinib states that concomitant use with strong CYP2C8 inhibitors should be avoided)."
+  },
+  {
+    "key": "3d8e34500e87daad",
+    "en": "Increased concentration of ulipristal (uncertain extent)."
+  },
+  {
+    "key": "0fb6033ceb4edc59",
+    "en": "Increased concentration of ulipristal (6-fold based on data for the potent enzyme inhibitor ketoconazole)"
+  },
+  {
+    "key": "6d2c7e7d0747340b",
+    "en": "Increased concentration of ulipristal (6-fold)"
+  },
+  {
+    "key": "987bf60ba5f7813b",
+    "en": "Increased concentration of ulipristal (approximately 3-fold based on data for the enzyme inhibitor erythromycin)."
+  },
+  {
+    "key": "5799b3fae439e883",
+    "en": "Increased concentration of ulipristal (approximately 3-fold)."
+  },
+  {
+    "key": "588c0c13998648d6",
+    "en": "Increased concentration of ulipristal (uncertain extent)."
+  },
+  {
+    "key": "0daa3797023ab15c",
+    "en": "Increased concentration of ulipristal shortly after starting ritonavir (6-fold based on data for the potent enzyme inhibitor ketoconazole). Possible reduced concentration of ulipristal with long-term use of ritonavir."
+  },
+  {
+    "key": "137c5c8d1d87cbbd",
+    "en": "Increased concentration of upadacitinib (70-80 % based on data with the enzyme inhibitor ketoconazole)."
+  },
+  {
+    "key": "5559db3919ba148b",
+    "en": "Increased concentration of upadacitinib (70-80 %)."
+  },
+  {
+    "key": "0e0c3a3444d7450d",
+    "en": "Increased concentration of vardenafil"
+  },
+  {
+    "key": "ac8bfc00fb0114c5",
+    "en": "Increased concentration of vardenafil (on average 10-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "8bf9b06995155295",
+    "en": "Increased concentration of vardenafil (on average 4-fold in an interaction study), increased risk of adverse effects"
+  },
+  {
+    "key": "21e7f3f139302609",
+    "en": "Increased concentration of vardenafil (up to 10-fold based on data with the potent enzyme inhibitor ketoconazole), increased risk of adverse effects."
+  },
+  {
+    "key": "351fba346d5f48dc",
+    "en": "Increased concentration of vardenafil (up to 50-fold in an interaction study), increased risk of adverse effects. The combination is contraindicated in the summary of product characteristics for Levitra."
+  },
+  {
+    "key": "362e242afd3bbedc",
+    "en": "Increased concentration of vardenafil (the magnitude of the effect is uncertain)."
+  },
+  {
+    "key": "f97d3782e76dfc81",
+    "en": "Increased concentration of vardenafil (uncertain extent, but probably substantial), increased risk of adverse effects/toxic effects. Combinations with similarly sensitive substrates are contraindicated in the summary of product characteristics for adagrasib."
+  },
+  {
+    "key": "4b214f48ffa5f8d5",
+    "en": "Increased concentration of vardenafil (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "6ccdd87bfaa8960e",
+    "en": "Increased concentration of vardenafil (uncertain extent), increased risk of adverse effects"
+  },
+  {
+    "key": "d16b49d659cd67be",
+    "en": "Increased concentration of vardenafil (uncertain extent)."
+  },
+  {
+    "key": "c12b9910591d7cd5",
+    "en": "Increased concentration of vardenafil, increased risk of adverse effects"
+  },
+  {
+    "key": "a772c538ea39a70d",
+    "en": "Increased concentration of vardenafil, increased risk of adverse effects."
+  },
+  {
+    "key": "de81765f26184924",
+    "en": "Increased concentration of venetoclax (6-7-fold based on data with the potent CYP3A4 inhibitor ketoconazole)."
+  },
+  {
+    "key": "ad531a4af126ff00",
+    "en": "Increased concentration of venetoclax (6-7-fold with the potent CYP3A4 inhibitor ketoconazole, perhaps around half of this for the interaction in question, at least at fluconazole doses of 200 mg/d and higher)."
+  },
+  {
+    "key": "1a5cd9cb871c6d9b",
+    "en": "Increased concentration of venetoclax (6-7-fold with the potent CYP3A4 inhibitor ketoconazole, perhaps around half of this for the interaction in question)."
+  },
+  {
+    "key": "eb0e6254d0a2dacc",
+    "en": "Increased concentration of venetoclax (6-7-fold with the potent CYP3A4 inhibitor ketoconazole, probably somewhat less here)."
+  },
+  {
+    "key": "8e422e00692649a5",
+    "en": "Increased concentration of venetoclax (6-7-fold)."
+  },
+  {
+    "key": "7b81aea0fe6a5c7d",
+    "en": "Increased concentration of venetoclax (70-80 % based on data with a single dose of the P-glycoprotein inhibitor rifampicin)."
+  },
+  {
+    "key": "28a558a4c74e996d",
+    "en": "Increased concentration of venetoclax (uncertain extent)."
+  },
+  {
+    "key": "881894cac0768b62",
+    "en": "Increased concentration of venlafaxine, reduced concentration of active metabolite (approximately 20-40 % increase in the total concentration)."
+  },
+  {
+    "key": "3f2f7b960a950fc1",
+    "en": "Increased concentration of venlafaxine, reduced concentration of active metabolite (approximately 20-40 % increase in the total concentration based on indirect data)."
+  }
+]

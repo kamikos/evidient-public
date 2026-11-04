@@ -1,0 +1,53 @@
+{
+  "pair": "clobazam__dihydrocodeine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA clobazam label says concomitant use of benzodiazepines, including clobazam, and opioids may result in profound sedation, respiratory depression, coma and death. The wording covers opioids as a class.",
+      "quote": "Concomitant use of benzodiazepines, including clobazam, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+      "sourceId": "fd1e63bf-496c-427c-83b7-6acabc00a5e5#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA clobazam label says benzodiazepines and opioids act at different CNS receptor sites that control respiration, which increases the risk of respiratory depression.",
+      "quote": "The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites in the CNS that control respiration.",
+      "sourceId": "fd1e63bf-496c-427c-83b7-6acabc00a5e5#drug_interactions",
+      "stance": "mechanism",
+      "outcome": "cns_depression"
+    }
+  ],
+  "headline": {
+    "text": "The FDA clobazam label warns that benzodiazepines with opioids may cause profound sedation, respiratory depression, coma and death (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The clobazam boxed warning and warnings section apply to opioids as a class; dihydrocodeine is not named.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The label ties the added respiratory depression to actions at different CNS receptor sites that control respiration.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"clobazam\"[tiab] AND \"dihydrocodeine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

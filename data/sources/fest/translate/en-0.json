@@ -1,0 +1,3326 @@
+[
+  {
+    "key": "3133a2fb15062237",
+    "en": "Increased concentration of theophylline (up to 2-3 times) on smoking cessation. In older people, the differences appear to be smaller than in younger people and smaller than the figures given here."
+  },
+  {
+    "key": "8000a987ddc42c22",
+    "en": "Antagonistic effect"
+  },
+  {
+    "key": "a4d728137103105a",
+    "en": "Anti-HIV agents must be avoided from at least one month before stem cell mobilisation until at least 7 days after infusion of Zynteglo."
+  },
+  {
+    "key": "48c9fc03dea55c7d",
+    "en": "Based on data with the potent enzyme inducer rifampicin, a substantial reduction (perhaps up to an 80 % decrease) in the concentration of zopiclone is expected. Minimal changes are expected in the concentration of carbamazepine and the active metabolite carbamazepine epoxide. If the patient is already taking zopiclone and starts carbamazepine, there will be an increased risk of central nervous system adverse effects/adverse cognitive effects during the first few days, before the induction effect occurs."
+  },
+  {
+    "key": "687cfc8f7bd0658d",
+    "en": "Treatment with iron chelators must be interrupted 7 days before starting myeloablative conditioning. When using iron chelators during the first six months after infusion of Zynteglo, non-myelosuppressive chelators should be chosen over chelators that may cause myelosuppression."
+  },
+  {
+    "key": "3061d62f8f90782e",
+    "en": "Substantially decreased INR."
+  },
+  {
+    "key": "825a89d460b30b83",
+    "en": "Substantially decreased concentration of bosutinib (more than 90 % reduction shown with the potent enzyme inducer rifampicin), resulting in treatment failure."
+  },
+  {
+    "key": "e6b47930d854691a",
+    "en": "Substantially decreased concentration of erythromycin."
+  },
+  {
+    "key": "a65a8e911a3123c5",
+    "en": "Substantially decreased concentration of erythromycin. It is uncertain whether the concentration of phenytoin is affected. Although there are studies showing no effect on the phenytoin concentration, an increased concentration of phenytoin in individual patients cannot be ruled out."
+  },
+  {
+    "key": "8a8b2d19f5ba2bae",
+    "en": "Substantially increased risk of bleeding, including an increased risk of fatal cerebral haemorrhage. In a study with streptokinase, the risk of death increased from 19 % without concomitant use of acetylsalicylic acid to 34 % with concomitant use of acetylsalicylic acid, mainly due to cerebral haemorrhages. Similar findings have been shown in a more recent study with alteplase, where the risk of intracerebral haemorrhage increased from 1,6 % to 4,3 %."
+  },
+  {
+    "key": "a2a49cbba252fd95",
+    "en": "Substantially increased concentration of bosutinib."
+  },
+  {
+    "key": "8d0c436c97d95198",
+    "en": "Bronchoconstrictor effect (applies primarily to non-selective beta-blockers such as propranolol and timolol)."
+  },
+  {
+    "key": "a22dfad0ec723bd7",
+    "en": "Use of hormonal contraceptives is irrational since Ryeqo itself has a contraceptive effect. The combination is contraindicated in the summary of product characteristics for Ryeqo. For information on non-hormonal contraception in connection with the use of Ryeqo in women of childbearing potential, see the summary of product characteristics for Ryeqo."
+  },
+  {
+    "key": "40127f0cc86c5a1b",
+    "en": "Partial mutual reduction in effect."
+  },
+  {
+    "key": "9bad6e4ab2288acb",
+    "en": "Attenuated disulfiram/alcohol reaction."
+  },
+  {
+    "key": "54e442db1c4e5eb8",
+    "en": "The dose requirement for lamotrigine will be an estimated twofold higher in combination with carbamazepine."
+  },
+  {
+    "key": "4e39be6ce6d6ef33",
+    "en": "An increase in the dose of antidiabetic agents may be necessary."
+  },
+  {
+    "key": "81bed42f38dff38d",
+    "en": "The effect on the maraviroc concentration depends on which third agent is given. See specific dosing instructions in the summary of product characteristics for etravirine."
+  },
+  {
+    "key": "f2275493763572c2",
+    "en": "An increase in the concentration of tetrahydrocannabinol (80 %) and cannabidiol (twofold) has been shown for the potent enzyme inhibitor ketoconazole. However, fluconazole is a weaker inhibitor than ketoconazole of CYP3A4, which is mainly responsible for the metabolism of cannabidiol, but a stronger inhibitor than ketoconazole of CYP2C9, which is responsible for the metabolism of tetrahydrocannabinol. The increase in concentration may therefore be expected to be greater than stated above for tetrahydrocannabinol, but smaller than stated above for cannabidiol."
+  },
+  {
+    "key": "a61ca5be5b1a2a1e",
+    "en": "etravirine may affect the levels of a number of agents combined with ritonavir. This has in part been little studied, and conflicting recommendations are given in different sources. A reduced concentration of ombitasvir and paritaprevir has been postulated (applies to combination products containing these active substances)."
+  },
+  {
+    "key": "a1262690c3540835",
+    "en": "Possible risk of an increase in blood pressure."
+  },
+  {
+    "key": "a9c2c5a02627b0fd",
+    "en": "Possible risk of an increase in blood pressure. Possibly also a reduced intraocular pressure-lowering effect."
+  },
+  {
+    "key": "ee4c58c6e3ea941d",
+    "en": "Possibly increased conversion of cyclophosphamide to active metabolites, possible increased effect of cyclophosphamide."
+  },
+  {
+    "key": "fcf9ee3035549551",
+    "en": "Possibly increased conversion of ifosfamide to active metabolites, possible increased effect of ifosfamide."
+  },
+  {
+    "key": "1e71a3089fd215b8",
+    "en": "Falsely elevated aPTT test results for up to 120 hours after dosing with oritavancin. Therefore, aPTT cannot be used to guide heparin dosing. According to the summary of product characteristics for oritavancin, use of intravenous unfractionated heparin is contraindicated for 120 hours (5 days) after use of oritavancin."
+  },
+  {
+    "key": "7bb1bb9b8df146f7",
+    "en": "Falsely elevated INR test results for up to 12 hours after dosing with oritavancin. Therefore, INR cannot be used to guide warfarin dosing during this period."
+  },
+  {
+    "key": "c76f1a04aec36c63",
+    "en": "Delayed absorption of paracetamol when the agent is taken 1-4 hours after administration of lixisenatide."
+  },
+  {
+    "key": "ce57a11417d41641",
+    "en": "Expected decreased concentration of loratadine (unknown extent; since loratadine is a prodrug, this has no clinical significance), uncertain effect on the active metabolite desloratadine."
+  },
+  {
+    "key": "79d96766d36decb8",
+    "en": "Worsening of diabetes."
+  },
+  {
+    "key": "208c07f07b4f98e1",
+    "en": "Worsening of Parkinson's disease or development of parkinsonian adverse effects of metoclopramide."
+  },
+  {
+    "key": "36a1a4b656a862a7",
+    "en": "Mutually reduced effect."
+  },
+  {
+    "key": "49d81fefdb1e199d",
+    "en": "Mutually reduced effects."
+  },
+  {
+    "key": "539ed8306965eaad",
+    "en": "Mutually increased concentrations (20-30 %), modest additive negative inotropic effects."
+  },
+  {
+    "key": "ccdf2cca42d9bf35",
+    "en": "Mutually increased concentrations."
+  },
+  {
+    "key": "4bc49e116fefcce3",
+    "en": "Mutually affected concentrations, mainly a slightly reduced concentration (effect depends on which other agents are given in addition to efavirenz and ritonavir)"
+  },
+  {
+    "key": "e8cc99890cfffb35",
+    "en": "Inhibited conversion of codeine to morphine, possible reduced effect of codeine"
+  },
+  {
+    "key": "3cc10bdeacc7d238",
+    "en": "Inhibited conversion of tramadol to its active metabolite, possible reduced effect of tramadol"
+  },
+  {
+    "key": "0758524a009b7098",
+    "en": "An increased concentration of chloramphenicol has been demonstrated in one study, and a decreased concentration in another study. However, both studies have been heavily criticised on methodological grounds, and the findings are highly uncertain. Other studies show no interaction."
+  },
+  {
+    "key": "92131c1c923d5566",
+    "en": "In a study in healthy volunteers, an increased concentration of midostaurin (approximately 10 times) and active metabolites (3-4 times) was found with concomitant use of the potent CYP3A4 inhibitor ketoconazole. A substantially smaller effect has been shown in patients with itraconazole, an enzyme inhibitor that is in principle equally potent. These conflicting results are surprising and cannot be explained by the results presented in the summary of product characteristics for midostaurin. In addition, a clinical study in approximately 200 patients showed that the concentration of midostaurin increased by only 40-50 % during concomitant treatment with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "ac256dd4f446bc30",
+    "en": "In a study in healthy volunteers, an increased concentration of midostaurin (approximately 10 times) and active metabolites (3-4 times) was found with concomitant use of ketoconazole. A substantially smaller effect has been shown in patients with itraconazole, an enzyme inhibitor that is in principle equally potent. These conflicting results are surprising and cannot be explained by the results presented in the summary of product characteristics for midostaurin. In addition, a clinical study in approximately 200 patients showed that the concentration of midostaurin increased by only 40-50 % during concomitant treatment with strong CYP3A4 inhibitors."
+  },
+  {
+    "key": "0e0f8d0f82acf8db",
+    "en": "In a study, the concentration of apixaban decreased by 20 % during concomitant treatment with tacrolimus. This is so small that it can be disregarded."
+  },
+  {
+    "key": "0d4c5b0f195e10d5",
+    "en": "The summary of product characteristics for pirfenidone recommends that smoking should be avoided during treatment with pirfenidone and that patients should be encouraged to stop smoking. If the patient is receiving an optimal dose of pirfenidone and then stops smoking, the concentration of pirfenidone will increase (an estimated approximate doubling), with an increased risk of adverse effects."
+  },
+  {
+    "key": "b517ee5bde3dbda3",
+    "en": "According to data based on in vitro studies from the manufacturer of bicalutamide, INR may increase."
+  },
+  {
+    "key": "cf398db29c4fd8be",
+    "en": "According to the summary of product characteristics for berotralstat, decreased concentration of the active desogestrel metabolite etonogestrel with a risk of reduced contraceptive effect."
+  },
+  {
+    "key": "8f740689d53f7db0",
+    "en": "No change in INR or in the concentration of warfarin in a controlled study. On the other hand, epidemiological studies of COX-2 inhibitors as a group have described an increased risk of upper gastrointestinal bleeding."
+  },
+  {
+    "key": "138edcb11ed5675f",
+    "en": "No change in INR in controlled studies. On the other hand, there are numerous individual cases describing increased INR. There are also epidemiological studies of COX-2 inhibitors as a group describing an increased risk of upper gastrointestinal bleeding."
+  },
+  {
+    "key": "236fbfcb381efb71",
+    "en": "No change in INR in two more systematic studies. On the other hand, there are case reports describing increased INR."
+  },
+  {
+    "key": "4dc4db883a46d6ce",
+    "en": "No risk of serotonin syndrome, despite the combination being contraindicated in the summary of product characteristics for carbamazepine."
+  },
+  {
+    "key": "81d76eba8d193936",
+    "en": "No significant increase in the concentration of glipizide in a study, but a possible additional blood glucose-lowering effect was observed."
+  },
+  {
+    "key": "561531665034b679",
+    "en": "Initially, an increased concentration of warfarin with increased INR in some cases. Later, a decreased concentration of warfarin in all cases (on average 30 %), reduced INR. In some cases, an increased concentration of phenytoin."
+  },
+  {
+    "key": "0d7d9b075aca600b",
+    "en": "Interaction studies have not shown a clinically relevant change in the concentration of atorvastatin with concomitant use of amlodipine."
+  },
+  {
+    "key": "c44867f25a06a70a",
+    "en": "Intolerance syndrome (a desired therapeutic effect, but the effect has also been observed after consumption of foods and beverages considered to be alcohol-free)."
+  },
+  {
+    "key": "b3f05bdeef546fab",
+    "en": "May cause an increased anticoagulant effect with increased INR due to decreased production/absorption of vitamin K in the intestine."
+  },
+  {
+    "key": "26b3cb061bf5c3e1",
+    "en": "May cause an increased anticoagulant effect with increased INR."
+  },
+  {
+    "key": "17d275488547da91",
+    "en": "cobicistat may possibly further inhibit the metabolism of ritonavir. The same applies to agents included in combination products with ritonavir."
+  },
+  {
+    "key": "3db3399598fb1757",
+    "en": "The combination may theoretically cause unpredictable monoaminergic dysregulation with fluctuations in the levels of serotonin, dopamine and noradrenaline and an associated risk of serious neuropsychiatric adverse effects and autonomic instability (seizures, confusion, agitation, tachycardia, hypertension/hypotension, etc.). The combination is contraindicated in the summaries of product characteristics for tetrabenazine/deutetrabenazine."
+  },
+  {
+    "key": "6bda3f561941b3fb",
+    "en": "Lack of antihypertensive effect of clonidine, in certain cases a risk of severe hypertension. Unknown interaction effect when used for migraine prophylaxis."
+  },
+  {
+    "key": "53ef22c09a058df9",
+    "en": "Possible altered concentration of digoxin."
+  },
+  {
+    "key": "c3d2b17892fb04ad",
+    "en": "Possible decreased absorption of naproxen."
+  },
+  {
+    "key": "80560169909ef63f",
+    "en": "Possible decreased absorption of thyroxine (signs of hypothyroidism described after starting orlistat in one patient)."
+  },
+  {
+    "key": "52029f49107c933b",
+    "en": "Possible decreased absorption of ulipristal"
+  },
+  {
+    "key": "e54ab6d8f33f3e0c",
+    "en": "Possible decreased absorption of vitamin D and its analogues."
+  },
+  {
+    "key": "a959543146532eea",
+    "en": "Possible reduced antiarrhythmic effect of adenosine."
+  },
+  {
+    "key": "788ac0a2101a3030",
+    "en": "Possible reduced effect of antiepileptic agents (shown in case reports for valproate and phenytoin)."
+  },
+  {
+    "key": "0ab053d403935bb6",
+    "en": "Possible reduced effect of paracetamol"
+  },
+  {
+    "key": "d285648f4b70880a",
+    "en": "Possible reduced effect of penicillins. Such an effect has been shown in two studies more than 50 years old in pneumococcal meningitis and scarlet fever. However, no such effect has been demonstrated in pneumococcal pneumonia. Despite this sparsely documented effect (which has moreover only been shown in conditions for which tetracyclines are not used anyway), some drug manufacturers advise against concomitant use in general."
+  },
+  {
+    "key": "89a3012f531365bc",
+    "en": "Possible reduced effect of the contraceptive. The manufacturer of vorasidenib states that a barrier method is to be used throughout treatment with vorasidenib and for at least 2 months afterwards."
+  },
+  {
+    "key": "34290a0d505c2f67",
+    "en": "Possible reduced effect of warfarin (shown in case reports), no significant effect in a clinical study."
+  },
+  {
+    "key": "d96d95c919ae5207",
+    "en": "Possible reduced effect of warfarin with slightly reduced INR."
+  },
+  {
+    "key": "5c7059bdaf128ef8",
+    "en": "Possible decreased concentration of acitretin."
+  },
+  {
+    "key": "453fc5f5381e986a",
+    "en": "Possible decreased concentration of the aminoglycoside (up to 10-20 % in patients with renal failure)."
+  },
+  {
+    "key": "de3a3d1349e33d9a",
+    "en": "Possible decreased concentration of the barbiturate, possible decreased concentration of efavirenz."
+  },
+  {
+    "key": "f80c91a1e23744ec",
+    "en": "Possible decreased concentration of the antiviral agent (shown for efavirenz and lopinavir)."
+  },
+  {
+    "key": "40101a4366363bd1",
+    "en": "Possible decreased concentration of digoxin (up to 40 % reduction has been described; the greatest decrease has been seen with use of \"slow-dissolving\" digoxin tablets)."
+  },
+  {
+    "key": "cd3ecf895bb26b7b",
+    "en": "Possible decreased concentration of digoxin (conflicting data; substantial reduction in individual reports, an average reduction of 40 % in one study; no change in other studies)."
+  },
+  {
+    "key": "bf1492dc4b0a7826",
+    "en": "Possible decreased concentration of efavirenz and enzalutamide."
+  },
+  {
+    "key": "ff145e918f1cfeef",
+    "en": "Possible decreased concentration of efavirenz, possibly increased concentration of efavirenz initially."
+  },
+  {
+    "key": "d7cbf88c0038a639",
+    "en": "Possible decreased concentration of everolimus (unknown extent)."
+  },
+  {
+    "key": "c45d248c002c1d76",
+    "en": "Possible decreased concentration of everolimus (unknown extent)."
+  },
+  {
+    "key": "789895a51e3caffe",
+    "en": "Possible decreased concentration of phenobarbital, increased risk of seizures. Treatment with primidone/phenobarbital may reduce the level of folic acid and increases the need for supplementation."
+  },
+  {
+    "key": "c91320c680adb79a",
+    "en": "Possible decreased concentration of phenytoin, possible decreased concentration of efavirenz."
+  },
+  {
+    "key": "a6a22a486b410700",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. levonorgestrel for intrauterine use (progestogen-releasing intrauterine system) can be used."
+  },
+  {
+    "key": "30ecae9c079f794b",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used."
+  },
+  {
+    "key": "04ec2ba02d1b56c1",
+    "en": "Possible decreased concentration of lamotrigine (20-30 %). Possible increased concentration of olanzapine (20-30 %)."
+  },
+  {
+    "key": "0d04ceab4c5c1472",
+    "en": "Possible decreased concentration of lamotrigine, possible increased risk of seizures (increased seizure frequency shown in a case report)."
+  },
+  {
+    "key": "38c50722e7079e44",
+    "en": "Possible decreased concentration of levonorgestrel, possible reduced contraceptive effect."
+  },
+  {
+    "key": "ec9ca28e7a125e85",
+    "en": "Possible decreased concentration of macimorelin with a risk of a false-positive test result (incorrectly small increase in growth hormone levels)."
+  },
+  {
+    "key": "ae12d21c5f7fcca7",
+    "en": "Possible decreased concentration of mitapivat. The effect is uncertain."
+  },
+  {
+    "key": "76aace2ab66de7a7",
+    "en": "Possible decreased concentration of paroxetine (conflicting data)."
+  },
+  {
+    "key": "cd8e7811a8e363fd",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. The summary of product characteristics for erdafitinib states that the combination should be avoided. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used."
+  },
+  {
+    "key": "8619068d7c0351d4",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used."
+  },
+  {
+    "key": "55abfa172f33a4c2",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used. After treatment with the ritonavir product has ended, it will take the remainder of the current menstrual cycle plus one further full menstrual cycle for the effect of the oral contraceptive to return to its original level."
+  },
+  {
+    "key": "eec6a301830c61b9",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used. The summary of product characteristics for pitolisant states that the combination should be avoided."
+  },
+  {
+    "key": "f634da2bae8df10e",
+    "en": "Possible decreased concentration of the progestogen; possible reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used. The summary of product characteristics for sotorasib states that a barrier method should be used in addition."
+  },
+  {
+    "key": "321f3bc78925ce49",
+    "en": "Possible decreased concentration of the progestogen."
+  },
+  {
+    "key": "89b2f15da622a5a6",
+    "en": "Possible decreased concentration of the proton pump inhibitor (30-40 % reduction shown for omeprazole)"
+  },
+  {
+    "key": "71581d2e632b30b5",
+    "en": "Possible decreased concentration of rufinamide (20-30 %) according to one study. No significant effect according to the summary of product characteristics for rufinamide."
+  },
+  {
+    "key": "16e4cd4360c38448",
+    "en": "Possible decreased concentration of sirolimus (unknown extent)."
+  },
+  {
+    "key": "14fe2b56f461c1c3",
+    "en": "Possible decreased concentration of tacrolimus (unknown extent)."
+  },
+  {
+    "key": "ee14d2b3bf5a4979",
+    "en": "Possible decreased concentration of tricyclic antidepressants (shown for desipramine), lowered seizure threshold due to the pharmacodynamic properties of tricyclic antidepressants."
+  },
+  {
+    "key": "7def0afe95f7dafd",
+    "en": "Possible decreased concentration of digoxin. However, in one study, only a 10-20 % decrease in concentration was demonstrated, which is negligible."
+  },
+  {
+    "key": "59d2fee1cf3cc132",
+    "en": "Possible risk of serious central nervous system adverse effects, including serotonin syndrome."
+  },
+  {
+    "key": "5d9b6d56a30ddb0a",
+    "en": "Possible risk of a fall in blood pressure with concomitant consumption of alcohol (shown in some studies, but not in others). Regular use of alcohol over time may lead to increased blood pressure and counteract the antihypertensive effect of beta-blockers."
+  },
+  {
+    "key": "2a078634259d8417",
+    "en": "Possible risk of a fall in blood pressure with concomitant consumption of alcohol. Regular use of alcohol over time may lead to increased blood pressure and counteract the antihypertensive effect of ACE inhibitors."
+  },
+  {
+    "key": "a242ce5d535539f8",
+    "en": "Possible risk of a fall in blood pressure with concomitant consumption of alcohol. Regular use of alcohol over time may lead to increased blood pressure and counteract the antihypertensive effect of AT II antagonists."
+  },
+  {
+    "key": "81b7449bbd4608ee",
+    "en": "Possible risk of a fall in blood pressure with concomitant consumption of alcohol. Regular use of alcohol over time may lead to increased blood pressure and counteract the antihypertensive effect of diuretics."
+  },
+  {
+    "key": "27c375eff9771ded",
+    "en": "Possible risk of a fall in blood pressure with concomitant consumption of alcohol. Regular use of alcohol over time may lead to increased blood pressure and counteract the antihypertensive effect of calcium channel blockers."
+  },
+  {
+    "key": "cdd015922a1e2986",
+    "en": "Possible risk of a fall in blood pressure with concomitant consumption of alcohol. Regular use of alcohol over time may lead to increased blood pressure and counteract the antihypertensive effect of the drugs."
+  },
+  {
+    "key": "3ac21773251d6c6c",
+    "en": "Possible risk of an intolerance syndrome (Antabuse-like). The manufacturer of Dropizol advises against concomitant use, but based on the amount of alcohol ingested at normal doses and the uncertainty as to whether metronidazole has this effect at all, combined intake will probably be unproblematic."
+  },
+  {
+    "key": "7549d8a88d63c6a8",
+    "en": "Possible risk of an intolerance syndrome (disulfiram-like). The symptoms may be unpleasant, but are not dangerous."
+  },
+  {
+    "key": "3516bd8b6c882127",
+    "en": "Possible risk of serotonin syndrome. This has been reported on rare occasions when fentanyl is combined with SSRI products, but relative to everyone using fentanyl and serotonergic antidepressants concomitantly, the risk is so small that it can be disregarded in practice."
+  },
+  {
+    "key": "9ca37b067ecb2e05",
+    "en": "Possible risk of serotonin syndrome. This has been reported on rare occasions when fentanyl is combined with SSRIs, but relative to everyone using the combination of fentanyl and a drug that inhibits serotonin reuptake, the risk is so small that it can be disregarded in practice."
+  },
+  {
+    "key": "7fef8508e965a049",
+    "en": "Possible risk of serotonin syndrome. This has been reported on rare occasions, but relative to everyone using this combination, the risk is so small that it can be disregarded in practice."
+  },
+  {
+    "key": "95bc4c56444c8999",
+    "en": "Possible increased concentration of everolimus (unknown extent)."
+  },
+  {
+    "key": "6ef12d34eb80793b",
+    "en": "Possible increased concentration of sirolimus (unknown extent)."
+  },
+  {
+    "key": "b424d07f90c6c553",
+    "en": "Possible increased concentration of tacrolimus (unknown extent)."
+  },
+  {
+    "key": "03398b139137a13b",
+    "en": "Possible increased risk of bleeding, although controlled studies have not been able to demonstrate this. The conflicting data may be due to the use of different types and doses of the ginkgo products."
+  },
+  {
+    "key": "7d44514e408097be",
+    "en": "Possible increased risk of bleeding, although controlled studies have not been able to demonstrate this. The conflicting data may be due to the use of different types and doses of the ginkgo products. Ginkgo products should not be used by patients taking warfarin."
+  },
+  {
+    "key": "aefed10cc60493ae",
+    "en": "Possible increased risk of bleeding."
+  },
+  {
+    "key": "27bbb0bd4d189b35",
+    "en": "Possible increased effect of clopidogrel with an increased risk of bleeding. Addition of the enzyme inducer rifampicin to clopidogrel has been shown to further reduce platelet aggregation, but it is uncertain whether this reduction is clinically significant. Cases have also been reported in which patients who initially had little antiplatelet effect from clopidogrel (were classified as non-responders) had an increase in the antiplatelet effect of clopidogrel into the normal range after addition of rifampicin."
+  },
+  {
+    "key": "bd782baae7c0bd60",
+    "en": "Possible increased or decreased concentration of warfarin (uncertain extent), possible increased or decreased INR."
+  },
+  {
+    "key": "ca1fa1874560197e",
+    "en": "Possible increased inhibition of platelet function, possible increased risk of gastrointestinal bleeding (conflicting data)."
+  },
+  {
+    "key": "a2ca8006e9d0aff2",
+    "en": "Possible increased hypoglycaemic effect with concomitant use of beta-blockers and insulin (probably applies primarily to non-selective beta-blockers). It has not been possible to demonstrate the effect in systematic (case-control) studies. Non-selective beta-blockers may to some extent reduce the usual (adrenergic) warning symptoms of hypoglycaemia, but instead cause a marked increase in blood pressure. In addition, non-selective beta-blockers may possibly reduce the effect of sulfonylurea products."
+  },
+  {
+    "key": "21583d19e3ae52c6",
+    "en": "Possible increased INR (conflicting case reports)."
+  },
+  {
+    "key": "22af449af2a1391d",
+    "en": "Possible increased INR due to decreased absorption of vitamin K (uncertain whether the effect is clinically relevant)."
+  },
+  {
+    "key": "f5c5287568ff9a4a",
+    "en": "Possible increased concentration of digoxin."
+  },
+  {
+    "key": "8ef81a0b9138cf99",
+    "en": "Possible increased concentration of everolimus."
+  },
+  {
+    "key": "b33f3348c1cb8235",
+    "en": "Possible increased concentration of sirolimus."
+  },
+  {
+    "key": "b12d503bbc392514",
+    "en": "Possible increased concentration of tacrolimus."
+  },
+  {
+    "key": "124a1ea5249b4f53",
+    "en": "Possible increased concentration of amisulpride (a doubling in one study, but these results are considered uncertain)."
+  },
+  {
+    "key": "f7d02995979b3b67",
+    "en": "Possible increased concentration of atorvastatin, increased risk of adverse effects (muscle pain; rhabdomyolysis)."
+  },
+  {
+    "key": "b1a0d766154f6acb",
+    "en": "Possible increased concentration of budesonide in individual cases, although systematic studies with the combination of inhaled steroids and macrolide antibiotics have not shown any increase in systemic steroid concentration."
+  },
+  {
+    "key": "7ee5dab3d3948cf5",
+    "en": "Possible increased concentration of the active metabolites of cyclophosphamide (0-100%, on average 40%), up to a threefold increased risk of severe bone marrow suppression."
+  },
+  {
+    "key": "1a3088a5568e275a",
+    "en": "Possible increased concentration of the active metabolite sirolimus (uncertain extent)."
+  },
+  {
+    "key": "5dcc3038abbdfb91",
+    "en": "Possible increased concentration of the active metabolite of ciclesonide in individual cases, although systematic studies with the combination of inhaled steroids and macrolide antibiotics have not shown any increase in systemic steroid concentration."
+  },
+  {
+    "key": "e8eb6ddfc111a107",
+    "en": "Possible increased concentration of digoxin."
+  },
+  {
+    "key": "081ded0a4411b5e2",
+    "en": "Possible increased concentration of everolimus (unknown extent)."
+  },
+  {
+    "key": "134a7ea31c0bbc84",
+    "en": "Possible increased concentration of everolimus (uncertain how large the effect will be)."
+  },
+  {
+    "key": "24d218597250e825",
+    "en": "Possible increased concentration of everolimus."
+  },
+  {
+    "key": "db405be5829f3aee",
+    "en": "Possible increased concentration of the factor Xa inhibitor (uncertain how large the effect will be)."
+  },
+  {
+    "key": "4b61b6c0c204bcfc",
+    "en": "Possible increased concentration of phenytoin"
+  },
+  {
+    "key": "191135229fb8210a",
+    "en": "Possible increased concentration of fluoxetine (one case report of confusion and delirium in a 53-year-old man; uncertain whether this was due to the interaction or the underlying respiratory tract infection)."
+  },
+  {
+    "key": "78d316fd0fce3be6",
+    "en": "Possible increased concentration of haloperidol (on average 30 %; maximum 120 % in one study; no effect in another study)."
+  },
+  {
+    "key": "70a70d76ee3ab87a",
+    "en": "Possible increased concentration of colchicine."
+  },
+  {
+    "key": "aba8b15640ccea64",
+    "en": "Possible increased concentration of lidocaine (conflicting data)."
+  },
+  {
+    "key": "8822fc338d392480",
+    "en": "Possible increased concentration of linagliptin (on average 4-5 times after a single dose of ritonavir, uncertain effect with repeated dosing)."
+  },
+  {
+    "key": "341b8bae77f5ea1b",
+    "en": "Possible increased concentration of lovastatin (uncertain how large the effect will be)."
+  },
+  {
+    "key": "67447c6cbbc20330",
+    "en": "Possible increased concentration of methotrexate, possible increased risk of bone marrow suppression and other toxic effects."
+  },
+  {
+    "key": "5e0b00a722c0358e",
+    "en": "Possible increased concentration of methylprednisolone (uncertain how large the effect will be)."
+  },
+  {
+    "key": "aa41bfd21bb6be63",
+    "en": "Possible increased concentration of midazolam (3-4 times with oral use, probably far less with intravenous use of midazolam)."
+  },
+  {
+    "key": "440d5f4e4326c225",
+    "en": "Possible increased concentration of oxybutynin (10-20% for oxybutynin + active metabolite after oral dosing of oxybutynin); probably an even smaller effect with transdermal use of oxybutynin."
+  },
+  {
+    "key": "f713b350f2bdf611",
+    "en": "Possible increased concentration of panobinostat."
+  },
+  {
+    "key": "386161cba949b104",
+    "en": "Possible increased concentration of pemetrexed, possible increased toxicity."
+  },
+  {
+    "key": "247820aef2cb508a",
+    "en": "Possible increased concentration of rosuvastatin (uncertain extent)."
+  },
+  {
+    "key": "b9201ab8feb63b75",
+    "en": "Possible increased concentration of simvastatin (uncertain how large the effect will be)."
+  },
+  {
+    "key": "89a554825e27ff23",
+    "en": "Possible increased concentration of sirolimus (unknown extent)."
+  },
+  {
+    "key": "b93f352b2559891d",
+    "en": "Possible increased concentration of sirolimus (uncertain how large the effect will be)."
+  },
+  {
+    "key": "9f7f3c13a520bd2f",
+    "en": "Possible increased concentration of sirolimus (uncertain extent)."
+  },
+  {
+    "key": "59880040e092e0cf",
+    "en": "Possible increased concentration of sirolimus."
+  },
+  {
+    "key": "8e7d300f929a1cec",
+    "en": "Possible increased concentration of sorafenib. A study in healthy volunteers showed no significant increase in the sorafenib concentration with concomitant use of (an unknown dose of) ketoconazole, but on the other hand sorafenib is a substrate for CYP3A4, and there are case reports in which voriconazole and posaconazole have been shown to inhibit the breakdown of sorafenib to the N-oxide metabolite, also with an increase in the sorafenib concentration."
+  },
+  {
+    "key": "2da6ad51896d681b",
+    "en": "Possible increased concentration of tacrolimus (uncertain how large the effect will be)."
+  },
+  {
+    "key": "4b53d4722bc41b06",
+    "en": "Possible increased concentration of tacrolimus."
+  },
+  {
+    "key": "99bfcaa07097077a",
+    "en": "Possible increased concentration of theophylline (20 %)"
+  },
+  {
+    "key": "4063971a60edc060",
+    "en": "Possible increased concentration of theophylline (up to approximately 30 % in studies using very high doses of caffeine; smaller and no clinically significant effect on the theophylline concentration with intake of more normal amounts of caffeine, for example through coffee or other caffeinated beverages)."
+  },
+  {
+    "key": "0fded375844f3046",
+    "en": "Possible increased concentration of tricyclic antidepressants (shown for imipramine). Both beneficial effects (improved therapeutic effect) and adverse effects (side effects) have been reported. A number of studies and case reports with partly conflicting data exist."
+  },
+  {
+    "key": "de38f79d7f15d0dd",
+    "en": "Possible increased concentration of vardenafil (uncertain how large the effect will be)."
+  },
+  {
+    "key": "a64dd1b24cea99dd",
+    "en": "Possible increased concentration of verapamil."
+  },
+  {
+    "key": "ed372d36e2c9834b",
+    "en": "Possible increased concentration of vinorelbine (uncertain how large the effect will be), possible increased risk of neurological adverse effects including peripheral neuropathy (as shown for vinblastine)."
+  },
+  {
+    "key": "37075ffb5e3df59c",
+    "en": "Possible increased concentration of voriconazole initially, subsequently decreased concentration of voriconazole (particularly with chronic treatment with high doses of ritonavir, where a reduction of more than 80 % in the voriconazole concentration has been described). This effect depends on the patient's genetic status for CYP2C19 (see also below). The concentration of the agents used with ritonavir in fixed combinations may increase (approximately a doubling of the concentration of paritaprevir, a smaller increase for dasabuvir, no increase for ombitasvir has been shown for ketoconazole)."
+  },
+  {
+    "key": "6c72afec027feaa0",
+    "en": "Possible increased concentration of warfarin, possible increased INR."
+  },
+  {
+    "key": "6602bac6b9743e2e",
+    "en": "Possible increased concentration of warfarin, increased INR (limited and partly conflicting data). Some data suggest an increase with concomitant use of glibenclamide; a study with glimepiride found no significant increase, while glipizide has not been studied."
+  },
+  {
+    "key": "44b68e20568eb129",
+    "en": "Possible increased concentration of warfarin, increased INR (uncertain and conflicting data). A change in diet at the same time as starting statin treatment, with a lower intake of vegetable fat rich in vitamin K, will also increase INR."
+  },
+  {
+    "key": "87557be3ab8d52d0",
+    "en": "Possible increased concentration of warfarin, increased INR. A change in diet at the same time as starting statin treatment, with a lower intake of vegetable fat rich in vitamin K, will also increase INR."
+  },
+  {
+    "key": "cb4a559ca6908c43",
+    "en": "Possible increased risk of serious arrhythmias. The combination is contraindicated in the summary of product characteristics for citalopram."
+  },
+  {
+    "key": "24bc587602875146",
+    "en": "Possible increased risk of serious arrhythmias. The combination is contraindicated in the summary of product characteristics for citalopram. In addition, the combination is not very rational from a pharmacodynamic perspective."
+  },
+  {
+    "key": "8af1e871be3ee3e3",
+    "en": "Possible increased risk of serious arrhythmias. The combination is contraindicated in the summary of product characteristics for escitalopram."
+  },
+  {
+    "key": "256c4692509a9ad7",
+    "en": "Possible increased risk of serious arrhythmias. The combination is contraindicated in the summary of product characteristics for escitalopram. In addition, the combination is not very rational from a pharmacodynamic perspective."
+  },
+  {
+    "key": "ee6662cf60aa4f72",
+    "en": "Possible increased risk of serious arrhythmias. Similar combinations are contraindicated in the summary of product characteristics for citalopram, but given the weak effect of methadone, particularly at doses below 100 mg/d, it should be possible to combine the agents as long as ECG monitoring is performed."
+  },
+  {
+    "key": "fdae43e0efc6a995",
+    "en": "Possible increased risk of serious arrhythmias. Similar combinations are contraindicated in the summary of product characteristics for citalopram."
+  },
+  {
+    "key": "45deddd76abd42fc",
+    "en": "Possible increased risk of serious arrhythmias. Similar combinations are contraindicated in the summary of product characteristics for escitalopram, but given the weak effect of methadone, particularly at doses below 100 mg/d, it should be possible to combine the agents as long as ECG monitoring is performed."
+  },
+  {
+    "key": "da7b1e3d9a42f28e",
+    "en": "Possible increased risk of serious arrhythmias. Similar combinations are contraindicated in the summary of product characteristics for escitalopram."
+  },
+  {
+    "key": "5e63a931d0bdda6d",
+    "en": "Possible increased risk of adverse effects of mianserin. No evidence of a significant increase in the plasma concentration of mianserin."
+  },
+  {
+    "key": "ba72659224faa02e",
+    "en": "Possible increased risk of adverse effects, including serotonin syndrome."
+  },
+  {
+    "key": "8c3b7ef713cf902c",
+    "en": "Possible increased risk of bradycardia"
+  },
+  {
+    "key": "059fa7f43842f17f",
+    "en": "Possible increased risk of gastrointestinal bleeding (up to a threefold to fivefold increase in risk in some studies with SSRIs, no increase in risk in other studies with SSRIs; no data on vortioxetine are available)."
+  },
+  {
+    "key": "109e65f7c8137657",
+    "en": "Possible increased risk of gastrointestinal bleeding (up to a threefold to fivefold increase in risk in some studies, no increase in risk in other studies)."
+  },
+  {
+    "key": "f32d6e68f5ecb9ff",
+    "en": "Possible increased risk of gastrointestinal bleeding (up to a threefold to fivefold increase in risk in some studies, no to a modest increase in risk in other studies)."
+  },
+  {
+    "key": "0b47eca49b7009f5",
+    "en": "Possible increased risk of hypertensive effects when consuming certain foods."
+  },
+  {
+    "key": "6f9715e8358ecf76",
+    "en": "Possible increased risk of hypertension and arrhythmias (due to the adrenaline component). However, this has only been documented in older case reports where the amount of adrenaline was higher than it is today. It is therefore uncertain whether there is any increased risk at all with current products. Nevertheless, an increased risk cannot be entirely ruled out if the agent is accidentally administered intravascularly."
+  },
+  {
+    "key": "69aecacca52e4315",
+    "en": "Possible increased risk of hypertension and arrhythmias (due to the adrenaline component). However, this has only been documented in older case reports where the amount of adrenaline was higher than it is today. It is therefore uncertain whether there is any increased risk at all."
+  },
+  {
+    "key": "e0541f89cb5bbcdb",
+    "en": "Possible increased risk of hypertension."
+  },
+  {
+    "key": "79cdb2e9bc243af4",
+    "en": "Possible increased risk of hypertension. It is uncertain how large the increase in blood pressure may be, but the effect could potentially be marked."
+  },
+  {
+    "key": "497bd7eb1c388481",
+    "en": "Possible increased risk of hyponatraemia."
+  },
+  {
+    "key": "d5a6a08be32e09b9",
+    "en": "Possible increased risk of lactic acidosis, particularly with potentially reduced renal function beforehand."
+  },
+  {
+    "key": "0d1d929b1bbb4ecb",
+    "en": "Possible increased risk of hepatotoxicity. The summaries of product characteristics for methotrexate and isotretinoin state that patients must be monitored for clinical symptoms and signs of hepatotoxicity."
+  },
+  {
+    "key": "d2158a8ea9f99302",
+    "en": "Possible increased risk of impaired renal function."
+  },
+  {
+    "key": "921904e22ed35018",
+    "en": "Possible increased risk of nephrotoxicity (nephrotoxicity has been described in a small number of case reports, whereas it has not been possible to demonstrate such an effect in systematic studies)."
+  },
+  {
+    "key": "939d0eea3405bf08",
+    "en": "Possible increased risk of nephrotoxicity (shown for ibuprofen)"
+  },
+  {
+    "key": "e850429f75b92a35",
+    "en": "Possible increased risk of serotonergic adverse effects."
+  },
+  {
+    "key": "09fe1cf54f964d2d",
+    "en": "Possible increased risk of serotonin syndrome, applies primarily at tramadol doses of 150 mg/d or more."
+  },
+  {
+    "key": "33944e4bce27dcc2",
+    "en": "Possible increased risk of serotonin syndrome."
+  },
+  {
+    "key": "337ca2d62b1f34fe",
+    "en": "Possible increased risk of toxic central nervous system effects, including a severe increase in blood pressure/hypertensive crisis."
+  },
+  {
+    "key": "72bebf571c660af0",
+    "en": "Possible increased systemic concentration of the glucocorticoid, risk of systemic adverse effects."
+  },
+  {
+    "key": "3db7db246957c704",
+    "en": "Possibly a slightly increased risk of bleeding."
+  },
+  {
+    "key": "559a6a9fd31b05e1",
+    "en": "Possibly a slightly increased bleeding tendency, although this was not demonstrated in a systematic study."
+  },
+  {
+    "key": "6442fe56dc9f01ca",
+    "en": "Possibly reduced concentration of everolimus (uncertain how large the effect will be)."
+  },
+  {
+    "key": "931e52a6008390ca",
+    "en": "Possibly reduced concentration of sirolimus (uncertain how large the effect will be)."
+  },
+  {
+    "key": "28c7993c0c243f71",
+    "en": "Possibly reduced concentration of tacrolimus (uncertain how large the effect will be)."
+  },
+  {
+    "key": "b0ead82ef1e05d9a",
+    "en": "Possibly increased concentration of alcohol (20-30 % in one study, no effect in another study)"
+  },
+  {
+    "key": "3d3c2266793ff9a4",
+    "en": "Possibly increased concentration of methotrexate."
+  },
+  {
+    "key": "d0bc0840620a8bf0",
+    "en": "Decreased concentration of everolimus (unknown extent)."
+  },
+  {
+    "key": "f010f47830557f66",
+    "en": "Decreased concentration of the active metabolite of oxcarbazepine (40 %). Minimal effect on the carbamazepine concentration."
+  },
+  {
+    "key": "304a633b751ce9ae",
+    "en": "Decreased absorption of tetracyclines (90 % reduction for tetracycline, probably a much smaller reduction for doxycycline; based on data with calcium, perhaps a reduction in the order of 20-30 % for doxycycline)."
+  },
+  {
+    "key": "adfc1fb549431985",
+    "en": "Decreased absorption of atazanavir."
+  },
+  {
+    "key": "6a843fbb497dbc86",
+    "en": "Decreased absorption of dexamethasone (75 %; shown for magnesium)"
+  },
+  {
+    "key": "4a660b94a028f5c7",
+    "en": "Decreased absorption of digoxin (highly variable effect)"
+  },
+  {
+    "key": "5e7f7b1db7a05727",
+    "en": "Decreased absorption of eltrombopag (60-80 %)."
+  },
+  {
+    "key": "770796eab45c2ae5",
+    "en": "Decreased absorption of eltrombopag (must be taken at least 4 hours apart)."
+  },
+  {
+    "key": "6b5d9fc6eb8dfef8",
+    "en": "Decreased absorption of fexofenadine (40 %)."
+  },
+  {
+    "key": "2263dc6dadebed2b",
+    "en": "Decreased absorption of furosemide (abolished diuretic effect in one case report)."
+  },
+  {
+    "key": "b239af4ee4a1d146",
+    "en": "Decreased absorption of gabapentin (40-50 %)."
+  },
+  {
+    "key": "465b16fc32830866",
+    "en": "Decreased absorption of hydroxychloroquine (20-50 % reduction has been shown for chloroquine)."
+  },
+  {
+    "key": "534a895f405dbf2e",
+    "en": "Decreased absorption of quinolones (10-80 %)"
+  },
+  {
+    "key": "81873142bcb28b39",
+    "en": "Decreased absorption of quinolones (a reduction of 40-50 % has been shown for ciprofloxacin with simultaneous intake; the effect on other quinolones will probably be the same)."
+  },
+  {
+    "key": "96648906e60e5088",
+    "en": "Decreased absorption of quinolones. With simultaneous administration: 60-90 % reduction for ciprofloxacin, 20-30 % reduction for levofloxacin, 80-90 % reduction for norfloxacin, 30-40 % reduction for ofloxacin (in some of the studies, magnesium was combined with aluminium). With administration at least two hours apart or more, there is no reduction in absorption."
+  },
+  {
+    "key": "5e4cdc989550cbdc",
+    "en": "Decreased absorption of levothyroxine (50 % reduction in concentration in a study with simultaneous intake of levothyroxine and sevelamer). Increased TSH levels were demonstrated in another study."
+  },
+  {
+    "key": "8054a36c5378ce35",
+    "en": "Decreased absorption of levothyroxine (on average 30% in an interaction study with calcium, but very little effect in some patients), possible increased risk of treatment failure (hypothyroidism). There is considerable variation between individuals in the magnitude of the interaction; in many, the effect will be modest. Reduced absorption of liothyronine as well cannot be ruled out."
+  },
+  {
+    "key": "aec27a5f94b7373b",
+    "en": "Decreased absorption of levothyroxine (on average 30% in an interaction study, but very little effect in some patients), possible increased risk of treatment failure (hypothyroidism). There is considerable variation between individuals in the magnitude of this interaction; in many, the effect will be modest. There are no corresponding studies on liothyronine, but reduced absorption of this drug as well cannot be ruled out."
+  },
+  {
+    "key": "f10be3d16f367b08",
+    "en": "Decreased absorption of levothyroxine sodium, increased risk of treatment failure (hypothyroidism)"
+  },
+  {
+    "key": "52e2e0e0c09fb961",
+    "en": "Decreased absorption of paracetamol (on average 60% in an interaction study with colestyramine)."
+  },
+  {
+    "key": "b0e9a65d51f22ae5",
+    "en": "Decreased absorption of propranolol (40-60 %)"
+  },
+  {
+    "key": "921aa28901e910e3",
+    "en": "Decreased absorption of ranitidine (30 %)"
+  },
+  {
+    "key": "4ed9e5141d12fd84",
+    "en": "Decreased absorption of the sulfonylurea agents (on average 30-40% in an interaction study with glibenclamide, somewhat less for glipizide and glimepiride)."
+  },
+  {
+    "key": "8d4696720ea7c9cf",
+    "en": "Decreased absorption of tacrolimus (60 % reduction in concentration in one case report)."
+  },
+  {
+    "key": "6e8b2879b94f5cdd",
+    "en": "Decreased absorption of tetracyclines (up to 50-100 %)"
+  },
+  {
+    "key": "c52605085a26644f",
+    "en": "Decreased absorption of thyroid preparations (shown for levothyroxine, averaging 50% in an interaction study), increased risk of treatment failure (hypothyroidism)"
+  },
+  {
+    "key": "2f37877a7182a056",
+    "en": "Decreased absorption of tipranavir (30 %)"
+  },
+  {
+    "key": "f717bdedcba9ddeb",
+    "en": "Decreased absorption of vadadustat (uncertain extent)."
+  },
+  {
+    "key": "47eb79692a4d90c9",
+    "en": "Reduced analgesic effect of tramadol, reduced antiemetic effect of the 5-HT3 antagonist. In studies, it has been necessary to increase the tramadol dose by amounts ranging from 30-40 % up to twice to three times the dose to maintain the analgesic effect. The patient then also experienced more nausea. The interaction is documented for ondansetron, but is probably a class effect of 5-HT3 antagonists."
+  },
+  {
+    "key": "7bdbb15d75d37d61",
+    "en": "Reduced antihypertensive effect, increased risk of renal failure and worsening heart failure."
+  },
+  {
+    "key": "8332abe22d527c6a",
+    "en": "Reduced bronchodilation by beta-2 agonists, increased likelihood of treatment failure. carvedilol is contraindicated in asthma/COPD."
+  },
+  {
+    "key": "538d211425166786",
+    "en": "Reduced bronchodilation by beta-2 agonists, increased likelihood of treatment failure. propranolol is contraindicated in asthma/COPD."
+  },
+  {
+    "key": "099fe54ee68884b2",
+    "en": "Reduced bronchodilation by beta-2 agonists, increased likelihood of treatment failure. sotalol is contraindicated in asthma/COPD."
+  },
+  {
+    "key": "703dc50e3c8240e1",
+    "en": "Reduced effect of ACE inhibitors, increased risk of renal failure. Applies particularly to older people and patients with pre-existing impaired renal function."
+  },
+  {
+    "key": "4a66cab8db845df5",
+    "en": "Reduced effect of the anti-oestrogen, increased risk of breast cancer recurrence."
+  },
+  {
+    "key": "aeeb1ae80b5d8900",
+    "en": "Reduced effect of the aromatase inhibitor, increased risk of breast cancer recurrence."
+  },
+  {
+    "key": "0e9c981065466ec2",
+    "en": "Reduced effect of bromocriptine"
+  },
+  {
+    "key": "1b86c97c9c8769e7",
+    "en": "Reduced effect of digitalis glycosides, probably greatest for digoxin."
+  },
+  {
+    "key": "ee9d6e611c003dcb",
+    "en": "Reduced effect of iron-binding agents."
+  },
+  {
+    "key": "80a9beea2d4537c3",
+    "en": "Reduced effect of methylphenidate in case reports, but not in systematic studies."
+  },
+  {
+    "key": "4f9d123b52d3ef79",
+    "en": "Reduced effect of opioids."
+  },
+  {
+    "key": "514bd1bf78c49193",
+    "en": "Reduced effect of vitamin D."
+  },
+  {
+    "key": "9594f4180fa06fb3",
+    "en": "Decreased or, in rare cases, increased concentration of phenytoin (uncertain how large the effect will be). Epileptic seizures have been reported; this may be due both to a decreased concentration of phenytoin and to a pharmacodynamic effect whereby ciprofloxacin lowers the seizure threshold."
+  },
+  {
+    "key": "12095feba0a468bf",
+    "en": "Reduced cholinergic activation by cholinesterase inhibitors, increased likelihood of treatment failure and risk of delirium/confusion"
+  },
+  {
+    "key": "06e8ee70170b8028",
+    "en": "Reduced cholinergic activation by cholinesterase inhibitors, increased likelihood of treatment failure and risk of delirium/confusion."
+  },
+  {
+    "key": "7563b145b3ba2af7",
+    "en": "Decreased concentration (20 %) or very rarely increased concentration of carbamazepine. Possible increased concentration of phenobarbital, particularly in children."
+  },
+  {
+    "key": "b4f322b62b124160",
+    "en": "Decreased concentration (on average >90% in an interaction study) of itraconazole, increased risk of treatment failure"
+  },
+  {
+    "key": "6bc9c6b273df9e3b",
+    "en": "Decreased concentration (up to 60-70 %) or, less commonly, no effect on or increased concentration of phenytoin, increased concentration of phenobarbital (may be transient)."
+  },
+  {
+    "key": "58d0611a7a1e4a47",
+    "en": "Decreased concentration of lefamulin (70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "2356ea66b96db229",
+    "en": "Decreased concentration of lefamulin (up to 70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "55fc32758325a073",
+    "en": "Decreased concentration of lefamulin (up to 70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. Similar combinations are contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "4a8eaeb0c8244f06",
+    "en": "Decreased concentration of lercanidipine (perhaps a reduction in the order of at least 60 % based on data with other enzyme inducers and other calcium channel blockers), risk of treatment failure."
+  },
+  {
+    "key": "8b786e9595fcaabc",
+    "en": "Decreased concentration of abacavir (40 %)"
+  },
+  {
+    "key": "854bd7e072cb3491",
+    "en": "Decreased concentration of abemaciclib (approximately 80 % based on data with the potent enzyme inducer rifampicin), risk of loss of effect."
+  },
+  {
+    "key": "c25a4aebf1624e8f",
+    "en": "Decreased concentration of abiraterone (50-60 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "c39f6a101d4314c2",
+    "en": "Decreased concentration of abiraterone (up to 50-60 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "c8c954a83b4d0461",
+    "en": "Decreased concentration of abrocitinib and active metabolite (in the order of 50-60 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "1c7656e46d8dc8b5",
+    "en": "Decreased concentration of abrocitinib and active metabolite (in the order of 50-60 %)."
+  },
+  {
+    "key": "951eb59dd3e84aeb",
+    "en": "Decreased concentration of adagrasib (90-95 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "cea0f1956dcbc023",
+    "en": "Decreased concentration of adagrasib (up to 90-95 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "d554cb433181d6ef",
+    "en": "Decreased concentration of aficamten (approximately 50 % reduction)."
+  },
+  {
+    "key": "babe99edffdac2f9",
+    "en": "Decreased concentration of aficamten (up to 50 % reduction, shown for carbamazepine)."
+  },
+  {
+    "key": "b658dc11d99eeedd",
+    "en": "Decreased concentration of aficamten (uncertain extent but probably substantial)."
+  },
+  {
+    "key": "2edc53f965bea7c4",
+    "en": "Decreased concentration of acalabrutinib (70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for acalabrutinib states that the combination must be avoided."
+  },
+  {
+    "key": "2c44eae821a704b5",
+    "en": "Decreased concentration of acalabrutinib (up to 70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for acalabrutinib states that combination with strong enzyme inducers must be avoided."
+  },
+  {
+    "key": "bd3fff0ca058ef20",
+    "en": "Decreased concentration of axitinib (approximately 80 % in an interaction study with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "aa167781effb5104",
+    "en": "Decreased concentration of the active metabolite of codeine, risk of reduced analgesic effect of codeine (particularly considering that patients taking methadone have already developed opioid tolerance)."
+  },
+  {
+    "key": "fe5592579c500cde",
+    "en": "Decreased concentration of the active metabolite of tramadol, risk of reduced analgesic effect of tramadol (particularly considering that patients taking methadone have already developed opioid tolerance)."
+  },
+  {
+    "key": "84c6f2766f0c5c24",
+    "en": "Decreased concentration of the active metabolite of tramadol, increased risk of treatment failure (lack of analgesic effect). In a study, the concentration of the active metabolite was reduced by more than 60 %. At the same time, the concentration of tramadol increased to more than double."
+  },
+  {
+    "key": "fe3da8f9cde32404",
+    "en": "Decreased concentration of the active metabolite of tramadol, increased risk of treatment failure (lack of pain relief). Concurrently increased risk of serotonin syndrome through a pharmacodynamic interaction"
+  },
+  {
+    "key": "226756d4d858d593",
+    "en": "Decreased concentration of the active metabolite, increased risk of reduced clinical effect of clopidogrel treatment"
+  },
+  {
+    "key": "c4a6c619fef00fd5",
+    "en": "Decreased concentration of activated ganciclovir."
+  },
+  {
+    "key": "494cde59982f56c5",
+    "en": "Decreased concentration of activated valganciclovir."
+  },
+  {
+    "key": "d3fc0170e5749bcf",
+    "en": "Decreased concentration of albendazole (30-40 %), probably a similar effect on the active albendazole metabolite albendazole sulfoxide."
+  },
+  {
+    "key": "39346fd734352c52",
+    "en": "Decreased concentration of alectinib (in the order of 70 % based on data with the potent enzyme inducer rifampicin). However, increased concentration of the active metabolite M4 (approximately 80 %). For the sum of these two, this will correspond to a small reduction in concentration (approximately 20 %)."
+  },
+  {
+    "key": "583ffc982b9e979e",
+    "en": "Decreased concentration of alectinib (up to 70 % based on data with the potent enzyme inducer rifampicin). However, increased concentration of the active metabolite M4 (up to 80 %). For the sum of these two, this will correspond to a small reduction in concentration (perhaps in the order of approximately 20 %)."
+  },
+  {
+    "key": "d49b2dd7ac155ae0",
+    "en": "Decreased concentration of alprazolam"
+  },
+  {
+    "key": "e659e320f4a0828a",
+    "en": "Decreased concentration of alprazolam (50-60 % based on data with carbamazepine)."
+  },
+  {
+    "key": "975cae081e664286",
+    "en": "Decreased concentration of alprazolam (on average 60% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "74661bf2cd5eae8b",
+    "en": "Decreased concentration of alprazolam (at least 50 % according to one study, but the results are uncertain since the patients were not randomised). Reduced sedative/anxiolytic effect of alprazolam."
+  },
+  {
+    "key": "4cc69b9e07d2c1c4",
+    "en": "Decreased concentration of alprazolam."
+  },
+  {
+    "key": "e0a231ae8a8540cf",
+    "en": "Decreased concentration of amiodarone (20-30 %)."
+  },
+  {
+    "key": "83a55ea942515db8",
+    "en": "Decreased concentration of amiodarone (in the order of 50 % based on data with the potent enzyme inducer phenytoin)."
+  },
+  {
+    "key": "0b13ccda063cf46f",
+    "en": "Decreased concentration of amiodarone, increased risk of treatment failure. Increased concentration of carbamazepine, increased risk of adverse effects"
+  },
+  {
+    "key": "676e594a6bfebe23",
+    "en": "Decreased concentration of amlodipine."
+  },
+  {
+    "key": "8b69fc5b17eecc16",
+    "en": "Decreased concentration of amprenavir (on average 40 %)."
+  },
+  {
+    "key": "90a2f330fbeb0d3b",
+    "en": "Decreased concentration of amprenavir."
+  },
+  {
+    "key": "025a680610bd5fa6",
+    "en": "Decreased concentration of apixaban (an estimated 30-40 % based on a modelling study)."
+  },
+  {
+    "key": "5a3063ac0da1da78",
+    "en": "Decreased concentration of apixaban (in the order of 50-60 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "dbd750b68f7ab4c5",
+    "en": "Decreased concentration of apixaban (perhaps up to 50-60 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "63349eb92cfa3173",
+    "en": "Decreased concentration of apixaban (in the order of 50-60 % based on data with the potent inducer rifamycin)."
+  },
+  {
+    "key": "da6a9ddad58fe8ec",
+    "en": "Decreased concentration of apremilast (70-80 % based on data with the potent enzyme inducer rifampicin), resulting in reduced effect."
+  },
+  {
+    "key": "2a5c18b29c75567b",
+    "en": "Decreased concentration of aripiprazole and active metabolite (60-70% in interaction studies), increased risk of inadequate effect"
+  },
+  {
+    "key": "51962dd8ed759e63",
+    "en": "Decreased concentration of aripiprazole and active metabolite (an estimated 60-70%), increased risk of inadequate effect"
+  },
+  {
+    "key": "4b83bf794697556f",
+    "en": "Decreased concentration of atazanavir"
+  },
+  {
+    "key": "f220531a6c01242f",
+    "en": "Decreased concentration of atazanavir (70-80 %)."
+  },
+  {
+    "key": "db29271ea04a8b3f",
+    "en": "Decreased concentration of atazanavir (on average 30-40 %)"
+  },
+  {
+    "key": "9296386809a03f94",
+    "en": "Decreased concentration of atazanavir, increased risk of treatment failure (also applies in combination with the CYP3A4 inhibitor ritonavir)"
+  },
+  {
+    "key": "2a306e356700a3a2",
+    "en": "Decreased concentration of atogepant (60 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "591f761924f1fb6c",
+    "en": "Decreased concentration of atorvastatin (on average 40-50 % in interaction studies based on data with the enzyme inducer efavirenz), increased risk of treatment failure."
+  },
+  {
+    "key": "e7d36fa70d398374",
+    "en": "Decreased concentration of atorvastatin (on average 40-50 % in interaction studies), increased risk of treatment failure."
+  },
+  {
+    "key": "806cae2d8df67be0",
+    "en": "Decreased concentration of atorvastatin (on average 80% based on data with the potent enzyme inducer rifampicin), increased risk of treatment failure."
+  },
+  {
+    "key": "aa5a4668ea8d97af",
+    "en": "Decreased concentration of atorvastatin (on average 40 %)."
+  },
+  {
+    "key": "3e5d08589ed41913",
+    "en": "Decreased concentration of avapritinib (90-95 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for avapritinib states that the combination must be avoided."
+  },
+  {
+    "key": "c691d9ae53f97fe1",
+    "en": "Decreased concentration of avapritinib (up to 90-95 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for avapritinib states that the combination must be avoided."
+  },
+  {
+    "key": "e8fad7a2e19bfcb0",
+    "en": "Decreased concentration of avatrombopag (30-40 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "3c16683f3be2a164",
+    "en": "Decreased concentration of the barbiturate"
+  },
+  {
+    "key": "1cb068f9ec6fcf79",
+    "en": "Decreased concentration of the barbiturate, decreased concentration of dabrafenib"
+  },
+  {
+    "key": "ddbab3298c65d406",
+    "en": "Decreased concentration of bedaquiline (50-60 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "80d09abb05c25244",
+    "en": "Decreased concentration of berotralstat (uncertain extent). Concomitant use is not recommended in the summary of product characteristics for berotralstat."
+  },
+  {
+    "key": "3b5b023811dc0e87",
+    "en": "Decreased concentration of bortezomib (40-50 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "7d77a14438049ccd",
+    "en": "Decreased concentration of bosentan"
+  },
+  {
+    "key": "14bfd7781770ee60",
+    "en": "Decreased concentration of bosentan (in the order of 50-60 % based on data with the enzyme inducer rifampicin)."
+  },
+  {
+    "key": "4d888de90752c43c",
+    "en": "Decreased concentration of bosutinib (on average 70-80 % for proton pump inhibitors with simultaneous intake, probably some effect also with simultaneous intake of antacids)"
+  },
+  {
+    "key": "bddc5b98e937008d",
+    "en": "Decreased concentration of bosutinib (on average 70-80 % for proton pump inhibitors with simultaneous intake, probably approaching the same reduction for H2 antagonists)"
+  },
+  {
+    "key": "b29d7b6313c4b451",
+    "en": "Decreased concentration of bosutinib (on average 70-80 % with simultaneous intake)."
+  },
+  {
+    "key": "7969d3cf6ecb6601",
+    "en": "Decreased concentration of bosutinib (more than 90 % reduction shown with the potent enzyme inducer rifampicin), resulting in treatment failure."
+  },
+  {
+    "key": "2d3a6798d78c4692",
+    "en": "Decreased concentration of brexpiprazole (70-80 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "f29966e7926f1916",
+    "en": "Decreased concentration of brigatinib (80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect."
+  },
+  {
+    "key": "cafa55dc79e13c12",
+    "en": "Decreased concentration of brigatinib (approximately 50 % based on pharmacokinetic simulation data with moderate inducers of CYP3A4)."
+  },
+  {
+    "key": "00739b7f58148932",
+    "en": "Decreased concentration of brigatinib (up to 50 % based on pharmacokinetic simulation data with moderate inducers of CYP3A4)."
+  },
+  {
+    "key": "cc576d2408df215d",
+    "en": "Decreased concentration of brivaracetam (40-60 % based on data with other strong enzyme inducers)."
+  },
+  {
+    "key": "68c2b8a490abe306",
+    "en": "Decreased concentration of brivaracetam (40-60 %), increased concentration of the active carbamazepine metabolite carbamazepine epoxide (40-100 % depending on the brivaracetam dose)."
+  },
+  {
+    "key": "bae2153b1923ddd1",
+    "en": "Decreased concentration of brivaracetam (40-60 %)."
+  },
+  {
+    "key": "743053c3c4b28e19",
+    "en": "Decreased concentration of buprenorphine."
+  },
+  {
+    "key": "f5411e2bbc879e0b",
+    "en": "Decreased concentration of bupropion (40-50 %)."
+  },
+  {
+    "key": "71b8645750d6b072",
+    "en": "Decreased concentration of bupropion (50-60 %); mainly shown for ritonavir in combination with lopinavir."
+  },
+  {
+    "key": "7a39ea96cab06273",
+    "en": "Decreased concentration of bupropion (50-60 %)."
+  },
+  {
+    "key": "342cdadc87817e82",
+    "en": "Decreased concentration of bupropion (90 %), but increased concentration of the active metabolite hydroxybupropion (50 %). Uncertain what net clinical effect this produces."
+  },
+  {
+    "key": "328bef49daddb953",
+    "en": "Decreased concentration of buspirone"
+  },
+  {
+    "key": "2fe8537fb064e0fb",
+    "en": "Decreased concentration of buspirone (approximately 90 % based on data with other enzyme inducers), inadequate effect of buspirone."
+  },
+  {
+    "key": "e13919ed3e7783d9",
+    "en": "Decreased concentration of busulfan (10-20 %)."
+  },
+  {
+    "key": "66afedb088496f41",
+    "en": "Decreased concentration of ceritinib (70 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. In addition, possible increased concentration of phenytoin."
+  },
+  {
+    "key": "bd066c0b4a495212",
+    "en": "Decreased concentration of ceritinib (on average 70-80 % for proton pump inhibitors with simultaneous intake, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "51b8cd7148b518bf",
+    "en": "Decreased concentration of ceritinib (on average 70-80 % for proton pump inhibitors with simultaneous intake, probably approaching the same reduction for H2 antagonists)"
+  },
+  {
+    "key": "75a3acd682f88b8a",
+    "en": "Decreased concentration of ceritinib (on average 70-80 % with simultaneous intake)."
+  },
+  {
+    "key": "2ea5fb312f784569",
+    "en": "Decreased concentration of ceritinib (70 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect."
+  },
+  {
+    "key": "dae5451ff0c980bb",
+    "en": "Decreased concentration of ceritinib (up to 70 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect."
+  },
+  {
+    "key": "b88c35df666a4ece",
+    "en": "Decreased concentration of ciclesonide"
+  },
+  {
+    "key": "5961ea612cf9d0e8",
+    "en": "Decreased concentration of ciprofloxacin (unknown extent)."
+  },
+  {
+    "key": "993f672b46a6fdf3",
+    "en": "Decreased concentration of citalopram (30 %)"
+  },
+  {
+    "key": "384058977996a073",
+    "en": "Decreased concentration of cyclophosphamide (uncertain how large the reduction will be)."
+  },
+  {
+    "key": "59dfb2b83d7646b2",
+    "en": "Decreased concentration of dabrafenib"
+  },
+  {
+    "key": "9f6963bf50d604e2",
+    "en": "Decreased concentration of dabrafenib, decreased concentration of phenytoin"
+  },
+  {
+    "key": "fa94ae5ec69fc304",
+    "en": "Decreased concentration of dabrafenib."
+  },
+  {
+    "key": "0789511c3a0b09a4",
+    "en": "Decreased concentration of dacomitinib (on average 30-40 % with simultaneous intake of proton pump inhibitors, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "4a449ac90f13cb8c",
+    "en": "Decreased concentration of dacomitinib (on average 30-40 % with simultaneous intake; shown for rabeprazole)."
+  },
+  {
+    "key": "086e29e14252f807",
+    "en": "Decreased concentration of dacomitinib (probably a relatively small reduction)."
+  },
+  {
+    "key": "3f4753f620ddf4f0",
+    "en": "Decreased concentration of daridorexant (60 percent reduction based on data with the moderate enzyme inducer efavirenz, probably a substantially greater reduction here with a much more potent enzyme inducer)."
+  },
+  {
+    "key": "a15d9270a0e1b24b",
+    "en": "Decreased concentration of daridorexant (approximately 60 percent based on data with the moderate enzyme inducer efavirenz)."
+  },
+  {
+    "key": "a2c6ede3fb1746ea",
+    "en": "Decreased concentration of daridorexant (approximately 60 percent)."
+  },
+  {
+    "key": "aad5bc7bacc5771d",
+    "en": "Decreased concentration of darifenacin"
+  },
+  {
+    "key": "3bed6c2292878134",
+    "en": "Decreased concentration of darolutamide (70-75 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect."
+  },
+  {
+    "key": "fabe5b84c59dd107",
+    "en": "Decreased concentration of darunavir. The manufacturer of darunavir generally advises against concomitant use with potent enzyme inducers."
+  },
+  {
+    "key": "00b62d15dfd0a545",
+    "en": "Decreased concentration of darunavir. The manufacturer of darunavir generally advises against concomitant use with potent enzyme inducers."
+  },
+  {
+    "key": "0248698154ff7956",
+    "en": "Decreased concentration of darunavir. The manufacturer of darunavir advises against concomitant use with other potent enzyme inhibitors."
+  },
+  {
+    "key": "16f4fe6bc6ff12bd",
+    "en": "Decreased concentration of dasatinib (80% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "216a38b033337186",
+    "en": "Decreased concentration of dasatinib (on average 50-60 % with simultaneous intake of H2 antagonists, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "01a2b9be7733bf50",
+    "en": "Decreased concentration of dasatinib (on average 50-60 % with simultaneous intake)."
+  },
+  {
+    "key": "f26a7a7166dc0be4",
+    "en": "Decreased concentration of dasatinib (on average 50-60 %, shown with concomitant use of H2 blockers)."
+  },
+  {
+    "key": "6bea63a2499ccf6e",
+    "en": "Decreased concentration of dasatinib, increased risk of treatment failure"
+  },
+  {
+    "key": "968f2539ad20da9d",
+    "en": "Decreased concentration of dexamethasone"
+  },
+  {
+    "key": "a0ecaec45f40d4ce",
+    "en": "Decreased concentration of dexamethasone (50-70 % reduction can be expected). False-negative dexamethasone suppression test."
+  },
+  {
+    "key": "b289111e5df6aa72",
+    "en": "Decreased concentration of dexamethasone (more than 50 % reduction can be expected). False-negative dexamethasone suppression test."
+  },
+  {
+    "key": "5f4b66307fa0e4df",
+    "en": "Decreased concentration of dexamethasone (more than 50 % reduction can be expected). False-negative dexamethasone suppression test, risk of Addisonian crisis with dexamethasone replacement therapy."
+  },
+  {
+    "key": "6368920949dd29d3",
+    "en": "Decreased concentration of the active albendazole metabolite albendazole sulfoxide (50-60 %)."
+  },
+  {
+    "key": "c2b622c313309ffd",
+    "en": "Decreased concentration of the active albendazole metabolite albendazole sulfoxide (60-70 %)."
+  },
+  {
+    "key": "9b6573ca3bf53e39",
+    "en": "Decreased concentration of the active fostamatinib metabolite (70-80% based on data with the strong enzyme inducer rifampicin). Risk of loss of effect of fostamatinib. The summary of product characteristics for fostamatinib states that combined use is not recommended."
+  },
+  {
+    "key": "b281fe71993ca4c1",
+    "en": "Decreased concentration of the active fostamatinib metabolite (up to 70-80% based on data with the strong enzyme inducer rifampicin). Risk of loss of effect of fostamatinib. The summary of product characteristics for fostamatinib states that combined use is not recommended."
+  },
+  {
+    "key": "e6b78bd3fb238d35",
+    "en": "Decreased concentration of the active fostamatinib metabolite (up to 70-80% based on data with the strong enzyme inducer rifampicin). Risk of loss of effect of fostamatinib. The summary of product characteristics for fostamatinib states that combined use in similar combinations is not recommended."
+  },
+  {
+    "key": "f112a4a7fee8ce98",
+    "en": "Decreased concentration of the active codeine metabolite morphine, risk of failure of codeine treatment (lack of analgesic effect)."
+  },
+  {
+    "key": "116db3171c0439a4",
+    "en": "Decreased concentration of the active codeine metabolite morphine, increased risk of failure of codeine treatment (lack of pain relief)."
+  },
+  {
+    "key": "13b9b9a7c942a13a",
+    "en": "Decreased concentration of the active metabolite dihydroartemisinin (unknown extent, the interaction is based only on theoretical considerations). According to the summary of product characteristics for artesunate, combination treatment with strong UGT inducers must be avoided if possible."
+  },
+  {
+    "key": "426c96a383c48c5b",
+    "en": "Decreased concentration of the active metabolite O-desmethyltramadol, increased risk of treatment failure with tramadol (lack of analgesic effect)."
+  },
+  {
+    "key": "467fffd7a44cbbce",
+    "en": "Decreased concentration of the active metabolite O-desmethyltramadol, increased risk of treatment failure with tramadol (lack of analgesic effect). Concurrently increased risk of serotonin syndrome through a pharmacodynamic interaction"
+  },
+  {
+    "key": "6234665ddaf63035",
+    "en": "Decreased concentration of the active metabolite O-desmethyltramadol, increased risk of treatment failure with tramadol (lack of pain relief)."
+  },
+  {
+    "key": "138fe9ac78e56af8",
+    "en": "Decreased concentration of the active metabolite prednisolone (30-50 %)."
+  },
+  {
+    "key": "01771b3da37bdb27",
+    "en": "Decreased concentration of the active metabolite prednisolone (perhaps in the order of 30-50 %)."
+  },
+  {
+    "key": "43099432a025753c",
+    "en": "Decreased concentration of the active tamoxifen metabolite endoxifen, increased mortality risk with tamoxifen treatment for breast cancer"
+  },
+  {
+    "key": "274a6a92de215bfe",
+    "en": "Decreased concentration of the active tramadol metabolite O-desmethyltramadol (on average 70% in interaction studies with the potent CYP2D6 inhibitor paroxetine), increased risk of treatment failure (lack of pain relief)."
+  },
+  {
+    "key": "0a0d18f528c50483",
+    "en": "Decreased concentration of dienogest"
+  },
+  {
+    "key": "3668dbc2e2bbdbe2",
+    "en": "Decreased concentration of dienogest."
+  },
+  {
+    "key": "63427718e757734f",
+    "en": "Decreased concentration of digitoxin (50 % according to one study, no effect according to another study). The effect on the digoxin concentration is uncertain, but a decreased concentration cannot be ruled out."
+  },
+  {
+    "key": "bdd31735a94f0207",
+    "en": "Decreased concentration of digoxin (12 % in one study)."
+  },
+  {
+    "key": "24ecef99c8a1cf72",
+    "en": "Decreased concentration of digoxin (25%)."
+  },
+  {
+    "key": "13e5266910fa4bc9",
+    "en": "Decreased concentration of digoxin (based on data with the enzyme inducer rifampicin, a reduction of perhaps 15-50 % in the digoxin concentration can be expected)."
+  },
+  {
+    "key": "7175e3fc03b3c6e6",
+    "en": "Decreased concentration of digoxin."
+  },
+  {
+    "key": "7a9bdffc174ddb18",
+    "en": "Decreased concentration of diltiazem (on average 60-70 % in an interaction study)."
+  },
+  {
+    "key": "a4aff415f6d2d356",
+    "en": "Decreased concentration of diltiazem, increased risk of treatment failure."
+  },
+  {
+    "key": "05548c173fdb23aa",
+    "en": "Decreased concentration of docetaxel."
+  },
+  {
+    "key": "dbf342af5ccfcfa6",
+    "en": "Decreased concentration of docetaxel."
+  },
+  {
+    "key": "7f14923a4fa3932a",
+    "en": "Decreased concentration of doxycycline, the concentration falls below usual MIC values for large parts of the day."
+  },
+  {
+    "key": "21a8554b28619ca8",
+    "en": "Decreased concentration of doxycycline (the concentration falls below generally accepted MIC values with normal dosing of doxycycline). No effect on the doxycycline concentration with consumption of alcohol in non-alcoholics."
+  },
+  {
+    "key": "f96e63e0f1a7cc99",
+    "en": "Decreased concentration of dolutegravir (50-60 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "cce782c39b7bdec0",
+    "en": "Decreased concentration of dolutegravir (50-60 % based on data with the enzyme inducer efavirenz)."
+  },
+  {
+    "key": "d41700a949bf11bf",
+    "en": "Decreased concentration of dolutegravir (50-60 %; applies when tipranavir is given with ritonavir)."
+  },
+  {
+    "key": "33879b43dba0f114",
+    "en": "Decreased concentration of dolutegravir (50-60 %)."
+  },
+  {
+    "key": "ed527be59577fc12",
+    "en": "Decreased concentration of dolutegravir (70-80 %)"
+  },
+  {
+    "key": "33a511b69cc04dbe",
+    "en": "Decreased concentration of dolutegravir (70-80 %). When ritonavir is given concomitantly, the concentration of dolutegravir is affected far less (for example, a 25 % reduction with darunavir/ritonavir and etravirine and a 10 % increase with lopinavir/ritonavir and etravirine)."
+  },
+  {
+    "key": "be8e11b8e7c3837d",
+    "en": "Decreased concentration of dolutegravir (uncertain how large the reduction will be, but it will probably be smaller than for carbamazepine, which is a more potent enzyme inducer)."
+  },
+  {
+    "key": "e53acd997077b82f",
+    "en": "Decreased concentration of doravirine (approximately 90 % based on data with the potent inducer rifampicin), resulting in loss of effect. The combination is contraindicated in the summary of product characteristics for doravirine."
+  },
+  {
+    "key": "39e9934e3e046bcf",
+    "en": "Decreased concentration of doravirine (in the order of 50-90 % based on data with the potent inducer rifampicin), resulting in a risk of reduced or lost effect."
+  },
+  {
+    "key": "55b0ccb6bb78a82d",
+    "en": "Decreased concentration of doravirine (in the order of 50-90 % based on data with the potent inducer rifampicin), resulting in a risk of loss of effect. The combination is contraindicated in the summary of product characteristics for doravirine."
+  },
+  {
+    "key": "32bd9484f623fd5c",
+    "en": "Decreased concentration of dronedarone"
+  },
+  {
+    "key": "c2a73f291084e588",
+    "en": "Decreased concentration of dronedarone (in the order of 80 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "2d1000cae1fccf95",
+    "en": "Decreased concentration of dutasteride."
+  },
+  {
+    "key": "0dd03f0d60ac7f69",
+    "en": "Decreased concentration of duvelisib (30-40 % based on the moderate enzyme inducer etravirine)."
+  },
+  {
+    "key": "ca1ffb830d26e24f",
+    "en": "Decreased concentration of duvelisib (30-40 %)."
+  },
+  {
+    "key": "c7cb67e28822e7cc",
+    "en": "Decreased concentration of duvelisib (80-90 % based on the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "f11d3570b2e26994",
+    "en": "Decreased concentration of ebastine"
+  },
+  {
+    "key": "f38d8f223e777d0e",
+    "en": "Decreased concentration of the active metabolite of ebastine (carebastine)."
+  },
+  {
+    "key": "a72ae51e33338d0b",
+    "en": "Decreased concentration of edoxaban (uncertain extent)."
+  },
+  {
+    "key": "72998992d6070831",
+    "en": "Decreased concentration of edoxaban, probably increased concentration of the active metabolites of edoxaban. The net effect of this is uncertain."
+  },
+  {
+    "key": "0c3bd0d25ed9ac75",
+    "en": "Decreased concentration of edoxaban, increased concentration of the active metabolites of edoxaban. The net effect of this is uncertain, but no differences in prothrombin time and APTT have been shown in a study with the potent enzyme inducer rifampicin."
+  },
+  {
+    "key": "e90831179bdfff0f",
+    "en": "Decreased concentration of eletriptan"
+  },
+  {
+    "key": "b4243297c0bc9244",
+    "en": "Decreased concentration of eletriptan."
+  },
+  {
+    "key": "744f3157897538de",
+    "en": "Decreased concentration of eliglustat (85-95 % based on data with the potent enzyme inducer rifampicin), resulting in loss of effect of eliglustat."
+  },
+  {
+    "key": "a72116e64aec403e",
+    "en": "Decreased concentration of eltrombopag (10-20 %, shown for ritonavir combined with lopinavir)."
+  },
+  {
+    "key": "f3edfedc97789cd5",
+    "en": "Decreased concentration of elvitegravir (40-50 %)."
+  },
+  {
+    "key": "1b0c80a7742db98a",
+    "en": "Decreased concentration of encorafenib (unknown extent, but probably substantial) with a risk of reduced effect."
+  },
+  {
+    "key": "67022c05315f43e7",
+    "en": "Decreased concentration of encorafenib (unknown extent) with a risk of reduced effect."
+  },
+  {
+    "key": "a3e909d667c1abf8",
+    "en": "Decreased concentration of entrectinib (70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for entrectinib recommends that the combination be avoided."
+  },
+  {
+    "key": "8f77464233debf35",
+    "en": "Decreased concentration of entrectinib (up to 70-80 % based on data with the potent enzyme inducer rifampicin). The summary of product characteristics for entrectinib recommends that this type of combination be avoided."
+  },
+  {
+    "key": "3adb29d9cf4c9dc8",
+    "en": "Decreased concentration of entrectinib (up to 70-80 % based on data with the potent enzyme inducer rifampicin). The summary of product characteristics for entrectinib recommends that this type of combination be avoided. Avoided."
+  },
+  {
+    "key": "2aa55a7ace85428c",
+    "en": "Decreased concentration of entrectinib (up to 70-80 % based on data with the potent enzyme inducer rifampicin). The summary of product characteristics for entrectinib recommends that the combination be avoided."
+  },
+  {
+    "key": "df0cde2bc93555ba",
+    "en": "Decreased concentration of eplerenone"
+  },
+  {
+    "key": "5c25f13cad5a9de0",
+    "en": "Decreased concentration of eplerenone."
+  },
+  {
+    "key": "9561970779ab9427",
+    "en": "Decreased concentration of eravacycline (30-40 % based on figures with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "6e76e8d00124953c",
+    "en": "Decreased concentration of erdafitinib (30-40 %)."
+  },
+  {
+    "key": "4fd6180588a76a40",
+    "en": "Decreased concentration of erdafitinib (30-40 % for rifampicin based on figures with the strong enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "1dca7ff5f8241e15",
+    "en": "Decreased concentration of erdafitinib (perhaps in the order of 20 % based on figures with the strong enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "8db665f5478b172c",
+    "en": "Decreased concentration of eribulin"
+  },
+  {
+    "key": "c5373f5235156310",
+    "en": "Decreased concentration of erlotinib (on average 30-40 % with simultaneous intake)."
+  },
+  {
+    "key": "d0d433a173270c57",
+    "en": "Decreased concentration of erlotinib (on average 40-50 % with simultaneous intake of H2 antagonists, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "55ae220ad57dc7c7",
+    "en": "Decreased concentration of erlotinib (on average 40-50 % with simultaneous intake)."
+  },
+  {
+    "key": "d56deb59e6ba6acf",
+    "en": "Decreased concentration of erlotinib (on average approximately 50 % with simultaneous intake of proton pump inhibitors/H2 antagonists, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "bd1331d414cbf803",
+    "en": "Decreased concentration of erlotinib, increased risk of treatment failure"
+  },
+  {
+    "key": "e05e4a3f046726b9",
+    "en": "Decreased concentration of escitalopram (30 %)"
+  },
+  {
+    "key": "be079fe175c7cfec",
+    "en": "Decreased concentration of esomeprazole (30-40 % based on studies with omeprazole) and of ritonavir (20-30 %)."
+  },
+  {
+    "key": "1baff9e2f4ba2950",
+    "en": "Decreased concentration of esomeprazole (a reduction of 80-90 % has been shown for omeprazole)."
+  },
+  {
+    "key": "bfc8ca5fa4814f03",
+    "en": "Decreased concentration of esomeprazole (perhaps a halving based on data with the potent enzyme inducer St John's wort)."
+  },
+  {
+    "key": "0e8a4ac9a1d01c22",
+    "en": "Decreased concentration of eszopiclone (approximately 80 % based on data with zopiclone and the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "c48268d7bf13f5d9",
+    "en": "Decreased concentration of etelcalcetide (70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The combination is advised against if possible in the summary of product characteristics for ixazomib."
+  },
+  {
+    "key": "0a1665a51c99001a",
+    "en": "Decreased concentration of etoposide (on average 40-50%)."
+  },
+  {
+    "key": "f5cbe7d6276194aa",
+    "en": "Decreased concentration of etoposide."
+  },
+  {
+    "key": "715a49c44e2b13fa",
+    "en": "Decreased concentration of etoricoxib (60-70 % based on data with the potent enzyme inducer rifampicin), risk of treatment failure."
+  },
+  {
+    "key": "cd97b4a4bc0a0506",
+    "en": "Decreased concentration of etravirine (40%, shown in combination with ritonavir)."
+  },
+  {
+    "key": "56724f7b1ea414f2",
+    "en": "Decreased concentration of etravirine (70-80 %). Apart from this, also a possible increased risk of toxic effects without concurrent therapeutic benefits."
+  },
+  {
+    "key": "8bade48f62a7fe78",
+    "en": "Decreased concentration of etravirine (on average 70-80%, shown in combination with ritonavir)."
+  },
+  {
+    "key": "c88d95c7001e6c85",
+    "en": "Decreased concentration of etravirine, increased risk of treatment failure"
+  },
+  {
+    "key": "2e8683d91bf85f91",
+    "en": "Decreased concentration of etravirine."
+  },
+  {
+    "key": "b30ac3dd752bee34",
+    "en": "Decreased concentration of everolimus"
+  },
+  {
+    "key": "8cc46c90f30adefb",
+    "en": "Decreased concentration of everolimus (it is uncertain how large the effect will be)."
+  },
+  {
+    "key": "0dcf89d6135687cd",
+    "en": "Decreased concentration of everolimus, increased risk of treatment failure."
+  },
+  {
+    "key": "f74d5c2c967dbcbc",
+    "en": "Decreased concentration of everolimus (unknown extent, perhaps up to 30 % reduction). According to the summary of product characteristics for brigatinib, the combination should be avoided. However, this seems very strict."
+  },
+  {
+    "key": "96047006bb9a7716",
+    "en": "Decreased concentration of fedratinib (approximately 50 %). The summary of product characteristics for fedratinib states that the combination must be avoided."
+  },
+  {
+    "key": "6f9544cbdf27df67",
+    "en": "Decreased concentration of fedratinib (approximately 80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for fedratinib states that the combination must be avoided."
+  },
+  {
+    "key": "767fff49b6644803",
+    "en": "Decreased concentration of fedratinib (up to 80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for fedratinib states that the combination must be avoided."
+  },
+  {
+    "key": "eaec23cc5ead154d",
+    "en": "Decreased concentration of fexofenadine (30 %)."
+  },
+  {
+    "key": "a805fc985df8bb5f",
+    "en": "Decreased concentration of fexofenadine (variations from 10 - 80 % based on data with other strong inducers of CYP3A4/P-glycoprotein)."
+  },
+  {
+    "key": "82505cddb3ab99cb",
+    "en": "Decreased concentration of felodipine"
+  },
+  {
+    "key": "ed31fcd900dff2d9",
+    "en": "Decreased concentration of felodipine (on average >90% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "04551696ce32e2be",
+    "en": "Decreased concentration of felodipine (on average >90% in an interaction study), increased risk of treatment failure."
+  },
+  {
+    "key": "bed73133ca99819c",
+    "en": "Decreased concentration of fentanyl, risk of inadequate pain-relieving effect (shown for rifampicin, another CYP3A4 inducer)"
+  },
+  {
+    "key": "5a56ef867964ff56",
+    "en": "Decreased concentration of fentanyl, risk of inadequate pain-relieving effect (shown for rifampicin, another CYP3A4 inducer)."
+  },
+  {
+    "key": "86241725be27ee96",
+    "en": "Decreased concentration of phenytoin"
+  },
+  {
+    "key": "991b266238e3d5e6",
+    "en": "Decreased concentration of phenytoin (20-50 %), increased risk of seizures. Treatment with phenytoin reduces the level of folic acid and increases the need for supplementation."
+  },
+  {
+    "key": "0e7a5355e982b841",
+    "en": "Decreased concentration of phenytoin (on average 30 %)"
+  },
+  {
+    "key": "b1819ac52191506e",
+    "en": "Decreased concentration of phenytoin (up to 30 %)"
+  },
+  {
+    "key": "e63bfd6a46fa386f",
+    "en": "Decreased concentration of phenytoin. Alcohol may lower the seizure threshold in connection with withdrawal."
+  },
+  {
+    "key": "dfd2fdd6867a130c",
+    "en": "Decreased concentration of fesoterodine (80 % in combination with the potent enzyme inducer rifampicin), risk of treatment failure."
+  },
+  {
+    "key": "fea8e29de02cd373",
+    "en": "Decreased concentration of fesoterodine, increased risk of treatment failure"
+  },
+  {
+    "key": "699956771c08cbf2",
+    "en": "Decreased concentration of finerenone (uncertain extent, but the decrease is expected to be substantial, resulting in a greatly reduced or lost effect of finerenone)."
+  },
+  {
+    "key": "edc31ea4a3611ea1",
+    "en": "Decreased concentration of fingolimod (40 % based on data with the potent enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "15b84b1b214b0885",
+    "en": "Decreased concentration of fingolimod (40 %)."
+  },
+  {
+    "key": "5e5a4850958e0c04",
+    "en": "Decreased concentration of fingolimod (up to 40 % based on data with the potent enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "00ae0935a42d9da4",
+    "en": "Decreased concentration of fludrocortisone (75-95 %). In one patient, the fludrocortisone dose had to be increased 4-fold; in another, the fludrocortisone dose had to be increased 10-20-fold."
+  },
+  {
+    "key": "14d7e4c10ef93e8e",
+    "en": "Decreased concentration of fludrocortisone."
+  },
+  {
+    "key": "91eb0f50f53dbf81",
+    "en": "Decreased concentration of fluvoxamine (up to 30 %) in smokers compared with non-smokers. Increased concentration of fluvoxamine (up to 50 %) on smoking cessation. It is the effect of stopping smoking that causes the interaction, rather than treatment with the smoking cessation product."
+  },
+  {
+    "key": "296e8c65eca45cb1",
+    "en": "Decreased concentration of fruquintinib (60-70 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "10fad83e28f88d85",
+    "en": "Decreased concentration of fruquintinib (up to 60-70 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "79691fc7d563ba59",
+    "en": "Decreased concentration of furosemide (on average 30% in an interaction study)."
+  },
+  {
+    "key": "2fe9e1301073198a",
+    "en": "Decreased concentration of futibatinib (60-70 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "3a81e480c2003b69",
+    "en": "Decreased concentration of futibatinib (up to 60-70 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "8c3c5eae56f5da1b",
+    "en": "Decreased concentration of ganaxolone (60-70 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "ae55571c18929bdd",
+    "en": "Decreased concentration of ganaxolone (up to 60-70 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced effect."
+  },
+  {
+    "key": "2211fb3334f20cd7",
+    "en": "Decreased concentration of gefitinib (on average 40-50 % with simultaneous intake of H2 blockers, probably approximately the same for proton pump inhibitors)."
+  },
+  {
+    "key": "357e93a3e6d95f31",
+    "en": "Decreased concentration of gefitinib (on average 40-50 % with simultaneous intake)."
+  },
+  {
+    "key": "2a158a4cbf76bf8e",
+    "en": "Decreased concentration of gefitinib, increased risk of inadequate effect"
+  },
+  {
+    "key": "9c06295e28198b9d",
+    "en": "Decreased concentration of gilteritinib (approximately 70 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "de651c69c354f06a",
+    "en": "Decreased concentration of glasdegib (in the order of 70 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "b274520ac4ed1a3d",
+    "en": "Decreased concentration of glasdegib (in the order of around 50-60 % based on data with the moderate enzyme inducer efavirenz)."
+  },
+  {
+    "key": "17b76de99d3fb200",
+    "en": "Decreased concentration of glasdegib (in the order of around 50-60 %)."
+  },
+  {
+    "key": "dcc94c9be869530c",
+    "en": "Decreased concentration of glimepiride (30-40 % based on data with other enzyme inducers)."
+  },
+  {
+    "key": "2e8164961518e4ec",
+    "en": "Decreased concentration of glimepiride (30-40 % based on interaction studies with other enzyme inducers)."
+  },
+  {
+    "key": "7e5b8d285f30e554",
+    "en": "Decreased concentration of glipizide (20-30 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "57d8f0dc5f6d96ac",
+    "en": "Decreased concentration of guanfacine (70 % based on data with the potent enzyme inducer rifampicin) with a risk of reduced/lost effect."
+  },
+  {
+    "key": "a47738c64b884386",
+    "en": "Decreased concentration of haloperidol (an estimated 50 %)."
+  },
+  {
+    "key": "a8dbaee6dc37528b",
+    "en": "Decreased concentration of haloperidol (on average around 50% in interaction studies; varies greatly with carbamazepine dose), increased risk of treatment failure"
+  },
+  {
+    "key": "6c679ffbc838fb08",
+    "en": "Decreased concentration of haloperidol (up to 30-40 %) in smokers compared with non-smokers. Increased concentration of haloperidol (up to 50 %) on smoking cessation. It is the effect of stopping smoking that causes the interaction, rather than treatment with the smoking cessation product."
+  },
+  {
+    "key": "99e9ee1b6fe8cb7b",
+    "en": "Decreased concentration of haloperidol, increased risk of treatment failure."
+  },
+  {
+    "key": "0f2d11b7bf7b62eb",
+    "en": "Decreased concentration of hydrocortisone (perhaps an estimated amount in the order of 50 %)."
+  },
+  {
+    "key": "718b4702b40417dc",
+    "en": "Decreased concentration of ibrutinib (up to 90 % based on data with the potent enzyme inducer rifampicin) and a risk of loss of effect."
+  },
+  {
+    "key": "32de4cad9b91bcd4",
+    "en": "Decreased concentration of ibrutinib (at least 90 % based on data with the potent enzyme inducer rifampicin) and loss of effect."
+  },
+  {
+    "key": "3a60638b8fdc3dbd",
+    "en": "Decreased concentration of ibrutinib (at least 90 % based on data with the potent enzyme inducer rifampicin) and loss of effect."
+  },
+  {
+    "key": "fd83827dcda924c2",
+    "en": "Decreased concentration of ibrutinib."
+  },
+  {
+    "key": "17227e459dd80ac0",
+    "en": "Decreased concentration of ixazomib (70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The combination is advised against if possible in the summary of product characteristics for ixazomib."
+  },
+  {
+    "key": "04a68b6b556c5881",
+    "en": "Decreased concentration of imatinib (approximately 70% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "1aca49d8f5ec1846",
+    "en": "Decreased concentration of imatinib, increased risk of treatment failure"
+  },
+  {
+    "key": "926e080efde24f45",
+    "en": "Decreased concentration of irinotecan and the active metabolite SN-38 (divergent data for different enzyme inducers, an estimated 25-75 % reduction in SN-38 levels)."
+  },
+  {
+    "key": "e167359c4949db83",
+    "en": "Decreased concentration of isavuconazole (up to 90 % based on the potent enzyme inducer rifampicin) with a risk of inadequate effect. This type of combination is contraindicated in the summary of product characteristics for isavuconazole."
+  },
+  {
+    "key": "ee0553677640fedc",
+    "en": "Decreased concentration of isavuconazole (up to 90 % based on the potent enzyme inducer rifampicin) with a risk of inadequate effect. The combination is contraindicated in the summary of product characteristics for isavuconazole."
+  },
+  {
+    "key": "a843572166e2083e",
+    "en": "Decreased concentration of isavuconazole (up to 90 % based on the potent enzyme inducer rifampicin) with a risk of inadequate effect. Possible increased concentration of carbamazepine. The combination is contraindicated in the summary of product characteristics for isavuconazole."
+  },
+  {
+    "key": "a3e9a929f4dbe5bf",
+    "en": "Decreased concentration of isavuconazole (uncertain extent). According to the summary of product characteristics for isavuconazole, the combination is contraindicated, but since etravirine is a relatively weak inhibitor of CYP3A4, it seems unlikely that the concentration of isavuconazole will become so low that the effect will cease completely."
+  },
+  {
+    "key": "370f28cde543f42a",
+    "en": "Decreased concentration of itraconazole"
+  },
+  {
+    "key": "86b0c28aee59b4bb",
+    "en": "Decreased concentration of itraconazole (60 %)"
+  },
+  {
+    "key": "092c2d6fc3a9d3dc",
+    "en": "Decreased concentration of itraconazole (on average 40 % in an interaction study)."
+  },
+  {
+    "key": "0004978f749c1532",
+    "en": "Decreased concentration of itraconazole, increased concentration of dabrafenib"
+  },
+  {
+    "key": "bfc0a39c97ec146b",
+    "en": "Decreased concentration of itraconazole, increased risk of treatment failure"
+  },
+  {
+    "key": "a768c42f55af100b",
+    "en": "Decreased concentration of ivabradine"
+  },
+  {
+    "key": "449f5971a5c24ec8",
+    "en": "Decreased concentration of ivabradine (on average 70% in an interaction study), increased risk of treatment failure."
+  },
+  {
+    "key": "bba29df962066106",
+    "en": "Decreased concentration of ivabradine (on average 80% in an interaction study), increased risk of treatment failure."
+  },
+  {
+    "key": "8ebae18ed84c01b8",
+    "en": "Decreased concentration of ivabradine, increased risk of treatment failure."
+  },
+  {
+    "key": "94f9e49558354e23",
+    "en": "Decreased concentration of ivacaftor (90% based on data with the potent CYP3A4 inducer rifampicin)."
+  },
+  {
+    "key": "f5022c960b84b320",
+    "en": "Decreased concentration of ivacaftor (up to 90% based on data with the potent CYP3A4 inducer rifampicin)."
+  },
+  {
+    "key": "fd7b44d709e1de8d",
+    "en": "Decreased concentration of ivosidenib (uncertain extent). Combinations with strong CYP3A4 inducers are contraindicated in the summary of product characteristics for ivosidenib."
+  },
+  {
+    "key": "c6d2d0359c4cd03a",
+    "en": "Decreased concentration of ivosidenib (uncertain extent). Combinations with strong CYP3A4 inducers are contraindicated in the summary of product characteristics for ivosidenib. In addition, possible decreased concentration of phenytoin."
+  },
+  {
+    "key": "de6eae01f310d095",
+    "en": "Decreased concentration of cabazitaxel"
+  },
+  {
+    "key": "499524acdb4f4eb0",
+    "en": "Decreased concentration of cabazitaxel"
+  },
+  {
+    "key": "02971e31d67ca454",
+    "en": "Decreased concentration of cabazitaxel"
+  },
+  {
+    "key": "40ed04c66346f2ef",
+    "en": "Decreased concentration of cabergoline"
+  },
+  {
+    "key": "0bdfbf54629b64aa",
+    "en": "Decreased concentration of cabergoline."
+  },
+  {
+    "key": "8b48ae87c07e3f5c",
+    "en": "Decreased concentration of cabotegravir (approximately 60 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "144a128f2bb4cc0f",
+    "en": "Decreased concentration of cabotegravir (uncertain extent, but probably relatively modest)."
+  },
+  {
+    "key": "ca7b4d914806e735",
+    "en": "Decreased concentration of cabozantinib (70-80 % based on the potent enzyme inducer rifampicin) with a risk of inadequate effect."
+  },
+  {
+    "key": "590b9d24aa17ed1d",
+    "en": "Decreased concentration of canagliflozin (50 % based on data with the enzyme inducer rifampicin)"
+  },
+  {
+    "key": "efd8947551030f56",
+    "en": "Decreased concentration of capivasertib (40-50 % based on data with the strong enzyme inducer enzalutamide)."
+  },
+  {
+    "key": "fc26f29c82e8bb78",
+    "en": "Decreased concentration of capivasertib (40-50 %)."
+  },
+  {
+    "key": "f20c8b006f751205",
+    "en": "Decreased concentration of capmatinib (60-70% based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "fe3c2e6d83caf67f",
+    "en": "Decreased concentration of capmatinib (up to 60-70% based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "940ac7fdb97f6937",
+    "en": "Decreased concentration of carbamazepine"
+  },
+  {
+    "key": "9a49eff28944089f",
+    "en": "Decreased concentration of carbamazepine (10-30 %) and the active metabolite carbamazepine epoxide (20-40 %). Greatest effect at high doses of isotretinoin. Possible decreased concentration of isotretinoin."
+  },
+  {
+    "key": "30a629bc41513d15",
+    "en": "Decreased concentration of carbamazepine (20-30 %). Decreased concentration of efavirenz (30-40%)"
+  },
+  {
+    "key": "1e97144c55942144",
+    "en": "Decreased concentration of carbamazepine (20-40 %). In most cases, the effect is so small that it has no clinical significance, but in certain individuals the reduction may become significant. The reduction in concentration may be greater at high doses of cenobamate."
+  },
+  {
+    "key": "6b4754867f66adb4",
+    "en": "Decreased concentration of carbamazepine, decreased concentration of dabrafenib"
+  },
+  {
+    "key": "e0b3af3ef0c9d1f5",
+    "en": "Decreased concentration of cariprazine and active metabolite (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "c7425ac8eae88bf4",
+    "en": "Decreased concentration of cariprazine and active metabolite (uncertain extent)."
+  },
+  {
+    "key": "9dc0f0c6abc309d4",
+    "en": "Decreased concentration of carvedilol (60-70 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "f2fccd7adc242465",
+    "en": "Decreased concentration of ketoconazole"
+  },
+  {
+    "key": "475c0c83e96dfd58",
+    "en": "Decreased concentration of ketoconazole (on average 70 % in an interaction study)"
+  },
+  {
+    "key": "3fdf326cdae4ae06",
+    "en": "Decreased concentration of ketoconazole, increased concentration of dabrafenib (50-60 %)"
+  },
+  {
+    "key": "14ba3498713f1290",
+    "en": "Decreased concentration of ketoconazole, increased risk of treatment failure"
+  },
+  {
+    "key": "4aaa58568e5c14ec",
+    "en": "Decreased concentration of ketoconazole."
+  },
+  {
+    "key": "d95d9baec6dfd11f",
+    "en": "Decreased concentration of clarithromycin (30-40 %), increased concentration of nevirapine."
+  },
+  {
+    "key": "b33a4c2362371497",
+    "en": "Decreased concentration of clarithromycin (on average 40%)."
+  },
+  {
+    "key": "95667e9a13403c3e",
+    "en": "Decreased concentration of clarithromycin (on average 40%). Increased concentration of etravirine (on average 40%)."
+  },
+  {
+    "key": "e34842c5dafe60f1",
+    "en": "Decreased concentration of clarithromycin, risk of treatment failure. Based on data from other potent inducers of CYP3A4, the concentration of clarithromycin can be expected to decrease by around 90 %."
+  },
+  {
+    "key": "df327a71fba03d12",
+    "en": "Decreased concentration of clarithromycin. Based on data from other potent inducers of CYP3A4, the concentration of clarithromycin can be expected to decrease by up to 90 %."
+  },
+  {
+    "key": "42b5a9a05e26b8cb",
+    "en": "Decreased concentration of clarithromycin. Based on data from other potent inducers of CYP3A4, the concentration of clarithromycin can be expected to decrease by around 90 %."
+  },
+  {
+    "key": "9a1e4cac4ee14738",
+    "en": "Decreased concentration of clindamycin (70-90 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "539a3387645da80c",
+    "en": "Decreased concentration of clobazam (varies from a small effect to a 60 % reduction), in addition decreased concentration of the active metabolite N-desmethylclobazam (varies from a small effect to a 30 % reduction)."
+  },
+  {
+    "key": "83fb197f068a22fd",
+    "en": "Decreased concentration of clobazam, increased concentration of the active metabolite N-desmethylclobazam; increased concentration of phenytoin."
+  },
+  {
+    "key": "8c26d0d113c65a38",
+    "en": "Decreased concentration of clobazam, increased concentration of the active metabolite N-desmethylclobazam. Decreased concentration of carbamazepine (up to 50 % in one study), increased concentration of the carbamazepine metabolite carbamazepine epoxide."
+  },
+  {
+    "key": "1ea7a0f6ab85c159",
+    "en": "Decreased concentration of clonazepam (20-40 %)"
+  },
+  {
+    "key": "f7a7cdbc52d89652",
+    "en": "Decreased concentration of clonazepam (50 %), decreased, increased or unchanged concentration of phenytoin."
+  },
+  {
+    "key": "7d4cc4caa4c85cac",
+    "en": "Decreased concentration of clonazepam (varying degrees of reduction in different studies)."
+  },
+  {
+    "key": "65956712e8f6fe37",
+    "en": "Decreased concentration of the active metabolite of clopidogrel (20-30 % based on studies with ketoconazole), reduced antiplatelet effect demonstrated (based on data for ketoconazole) in healthy volunteers."
+  },
+  {
+    "key": "8c0e74043a5a808d",
+    "en": "Decreased concentration of the active metabolite of clopidogrel (20-30 %), reduced antiplatelet effect demonstrated in healthy volunteers (in 3 out of 4, platelet inhibition was reduced so much that they could be classified as \"non-responders\")."
+  },
+  {
+    "key": "c104a7d070cb8e91",
+    "en": "Decreased concentration of the active metabolite of clopidogrel, reduced antiplatelet effect demonstrated in healthy volunteers (this effect was only seen in those who did not have active CYP3A5, but this applies to the vast majority of the Norwegian and Western European population)."
+  },
+  {
+    "key": "d84e220e24e6766c",
+    "en": "Decreased concentration of the active metabolite of clopidogrel, risk of reduced antithrombotic effect of clopidogrel. The clinical relevance of the interaction is uncertain and controversial. The active clopidogrel metabolite is reduced by up to 40-50 % for omeprazole and esomeprazole and somewhat less for lansoprazole and pantoprazole. The higher the dose of the proton pump inhibitor, the greater the effect. This leads to a reduced antiplatelet effect measured in blood samples from healthy volunteers and patients. However, there are inconsistent data on the clinical relevance in relation to cardiovascular endpoints and mortality. Some meta-analyses have found a general increase in cardiovascular events of up to 30-40 % with combined use. Other meta-analyses have not found such an increase in risk. This may be because the effect becomes more significant the higher the initial risk of thrombotic events, as after percutaneous coronary intervention. No increased mortality has been demonstrated."
+  },
+  {
+    "key": "2fcdfc59c43153d4",
+    "en": "Decreased concentration of chloramphenicol (40-50 % with the potent enzyme inducer phenobarbital, 70-95 % with the potent enzyme inducer rifampicin). Substantial risk of subtherapeutic levels of chloramphenicol."
+  },
+  {
+    "key": "3a7aeba91b2ff03f",
+    "en": "Decreased concentration of clozapine (20-90 % in case reports)."
+  },
+  {
+    "key": "4edf30849d70362d",
+    "en": "Decreased concentration of clozapine (on average 50% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "ba7273ea6ec6d4a7",
+    "en": "Decreased concentration of clozapine (on average 50-60 %)"
+  },
+  {
+    "key": "83f08b3db3db9e6f",
+    "en": "Decreased concentration of clozapine (up to 40 % in case reports with omeprazole)."
+  },
+  {
+    "key": "284c0995f942fa72",
+    "en": "Decreased concentration of clozapine (up to 40 % in case reports)"
+  },
+  {
+    "key": "e961936e06873206",
+    "en": "Decreased concentration of cobicistat"
+  },
+  {
+    "key": "681ebe7335caf605",
+    "en": "Decreased concentration of cobicistat and elvitegravir, greatly reduced or lost anti-HIV effect."
+  },
+  {
+    "key": "0dfba769bdd006d2",
+    "en": "Decreased concentration of cobicistat and elvitegravir, greatly reduced or lost anti-HIV effect. Increased concentration of carbamazepine."
+  },
+  {
+    "key": "7ebdc9f936484499",
+    "en": "Decreased concentration of cobimetinib (probably substantial) with a risk of inadequate effect."
+  },
+  {
+    "key": "8014723f79e1eaaf",
+    "en": "Decreased concentration of caffeine (50 %), shown for the active leflunomide metabolite teriflunomide."
+  },
+  {
+    "key": "b71b814c12ddd8eb",
+    "en": "Decreased concentration of caffeine (50 %)."
+  },
+  {
+    "key": "b20ccc17e330f868",
+    "en": "Decreased concentration of caffeine (an estimated approximately 50 %) in smokers compared with non-smokers. Increased concentration of caffeine (an estimated approximate doubling) on smoking cessation. It is the effect of stopping smoking that causes the interaction, rather than treatment with the smoking cessation product."
+  },
+  {
+    "key": "c7ab84be3a013115",
+    "en": "Decreased concentration of colchicine (unknown extent)."
+  },
+  {
+    "key": "91a6a11260ea2b50",
+    "en": "Decreased concentration of cortisone/cortisol (uncertain extent, but the effect has been demonstrated in reports with the potent enzyme inducers rifampicin and phenobarbital)."
+  },
+  {
+    "key": "d0e6e4aabab56700",
+    "en": "Decreased concentration of cortisone/cortisol (uncertain extent, but the effect has been demonstrated in reports with rifampicin and phenobarbital)."
+  },
+  {
+    "key": "6e98aba730423f7b",
+    "en": "Decreased concentration of crizotinib (80-90 % in an interaction study with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "cfc85e119977e22a",
+    "en": "Decreased concentration of quetiapine"
+  },
+  {
+    "key": "a3549435e870a39a",
+    "en": "Decreased concentration of quetiapine (20-60 %)."
+  },
+  {
+    "key": "b07d7263cb83cdf5",
+    "en": "Decreased concentration of quetiapine (40-50 %)"
+  },
+  {
+    "key": "2a80b141d6245518",
+    "en": "Decreased concentration of quetiapine (80 %)"
+  },
+  {
+    "key": "89fe10064f055ae6",
+    "en": "Decreased concentration of quetiapine (on average 90% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "5042cbdea9c18f3f",
+    "en": "Decreased concentration of quetiapine."
+  },
+  {
+    "key": "1997fddfbd3f2819",
+    "en": "Decreased concentration of quizartinib (unknown extent)."
+  },
+  {
+    "key": "28ea37694bee003d",
+    "en": "Decreased concentration of quizartinib and active metabolite (at least a 90 % reduction in concentration must be expected based on figures with the strong CYP3A4 inducer efavirenz)."
+  },
+  {
+    "key": "01e87f6cc15426d4",
+    "en": "Decreased concentration of quizartinib and active metabolite (at least a 90 % reduction in concentration)."
+  },
+  {
+    "key": "b9adff22f2a42cd2",
+    "en": "Decreased concentration of lamotrigine (20-30 %)"
+  },
+  {
+    "key": "43114521666092b4",
+    "en": "Decreased concentration of lamotrigine (20-50 %, greatest reduction at high cenobamate doses)."
+  },
+  {
+    "key": "85ff28b5d90c5552",
+    "en": "Decreased concentration of lamotrigine (30-40 %)."
+  },
+  {
+    "key": "5dcee2b68ab6b610",
+    "en": "Decreased concentration of lamotrigine (50 %; shown for lopinavir in combination with ritonavir)"
+  },
+  {
+    "key": "cdbed6d3b9f217fd",
+    "en": "Decreased concentration of lamotrigine (50-70 %)."
+  },
+  {
+    "key": "6deadc9c114554e0",
+    "en": "Decreased concentration of lamotrigine (on average 30-40 %, but with variations from no effect to 70 %). Uncertain effect on the concentration of oxcarbazepine, possibly a small increase and possibly a corresponding reduction in the concentration of the active metabolite monohydroxycarbazepine."
+  },
+  {
+    "key": "044eb79c1584cf02",
+    "en": "Decreased concentration of lamotrigine (in the order of 40-50 % based on interactions with other strong enzyme inducers)."
+  },
+  {
+    "key": "3951292b2551f53d",
+    "en": "Decreased concentration of lamotrigine (up to 50 % reduction). No effect on the concentration of phenobarbital."
+  },
+  {
+    "key": "97d0e4bafd53d226",
+    "en": "Decreased concentration of lansoprazole (a reduction of 70 % has been shown for omeprazole)."
+  },
+  {
+    "key": "d2ea8c578ba88bd6",
+    "en": "Decreased concentration of lansoprazole (uncertain extent, but may be substantial)."
+  },
+  {
+    "key": "e06cfb46d20c743d",
+    "en": "Decreased concentration of lapatinib"
+  },
+  {
+    "key": "6ce0f10cdc0842a7",
+    "en": "Decreased concentration of lapatinib (on average 70% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "82803394f931e833",
+    "en": "Decreased concentration of lapatinib (on average approximately 30 % with simultaneous intake of proton pump inhibitors/H2 antagonists, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "46bd3a0bb36caafc",
+    "en": "Decreased concentration of lapatinib (on average approximately 30 % with simultaneous intake)."
+  },
+  {
+    "key": "bb17cdfec83e4daa",
+    "en": "Decreased concentration of lapatinib, increased risk of treatment failure"
+  },
+  {
+    "key": "85fb84f912c05ba4",
+    "en": "Decreased concentration of larotrectinib (80 % based on data with the potent enzyme inducer rifampicin). The summary of product characteristics for larotrectinib states that the combination must be avoided."
+  },
+  {
+    "key": "be3a8a84b207566d",
+    "en": "Decreased concentration of lazertinib (80-90 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "ab0f9026a9452ffe",
+    "en": "Decreased concentration of lefamulin (70-80 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The combination is contraindicated in the summary of product characteristics for lefamulin."
+  },
+  {
+    "key": "80ca15812b1c376e",
+    "en": "Decreased concentration of lenacapavir (50-60 % based on data with the moderately strong inducer efavirenz)."
+  },
+  {
+    "key": "3108b9a04fb46e9c",
+    "en": "Decreased concentration of lenacapavir (50-60 %)."
+  },
+  {
+    "key": "c466717496470837",
+    "en": "Decreased concentration of lenacapavir (80-90 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "e3e5d31264987799",
+    "en": "Decreased concentration of lenacapavir (perhaps up to 50-60 % based on data with the moderately strong inducer efavirenz)."
+  },
+  {
+    "key": "cead0b7ad3ba3305",
+    "en": "Decreased concentration of lercanidipine"
+  },
+  {
+    "key": "41842e2d1e26586e",
+    "en": "Decreased concentration of letermovir (uncertain extent). The effect is expected to be greatest when letermovir is given orally and without ciclosporin."
+  },
+  {
+    "key": "d8a99772b904cd60",
+    "en": "Decreased concentration of letermovir (uncertain extent). The effect is expected to be greatest when letermovir is given orally and without ciclosporin. The concentration of phenytoin may possibly also be reduced."
+  },
+  {
+    "key": "58faae1ef0dbb1de",
+    "en": "Decreased concentration of letrozole (on average 30-40 %, variation from 0 % to 70 % in one study)."
+  },
+  {
+    "key": "2ee8b80dcb60bc7b",
+    "en": "Decreased concentration of levetiracetam (20-30 %). Increased concentration of carbamazepine in individual patients, but not in systematic studies."
+  },
+  {
+    "key": "7e369691927cc954",
+    "en": "Decreased concentration of levetiracetam (30 %). Possible increased concentration of phenytoin (conflicting data)."
+  },
+  {
+    "key": "7363c2fe14ce114c",
+    "en": "Decreased concentration of levetiracetam (30-40 %)"
+  },
+  {
+    "key": "5b9bb1e2adc0214d",
+    "en": "Decreased concentration of levonorgestrel, (30-40 %), reduced contraceptive effect."
+  },
+  {
+    "key": "fc22cd4b9d99e72f",
+    "en": "Decreased concentration of levonorgestrel, (30-50 % based on data with other potent inducers), reduced contraceptive effect."
+  },
+  {
+    "key": "75b0305ee7f8dafe",
+    "en": "Decreased concentration of levonorgestrel, (30-50 %), reduced contraceptive effect."
+  },
+  {
+    "key": "ca03b08611141a24",
+    "en": "Decreased concentration of levonorgestrel, (40 % in an interaction study), reduced contraceptive effect."
+  },
+  {
+    "key": "51fceef7ced13d73",
+    "en": "Decreased concentration of levonorgestrel, (up to 30-50 % based on data with other potent inducers), reduced contraceptive effect."
+  },
+  {
+    "key": "ca3281051be8a40a",
+    "en": "Decreased concentration of levothyroxine (conflicting data and a modest effect in most studies, no effect in studies with short-term use of the proton pump inhibitors)."
+  },
+  {
+    "key": "863da9562e182876",
+    "en": "Decreased concentration of levothyroxine (unknown extent)."
+  },
+  {
+    "key": "ac84df1dc416db7d",
+    "en": "Decreased concentration of linagliptin"
+  },
+  {
+    "key": "29ed165e488b3c86",
+    "en": "Decreased concentration of linagliptin (in the order of 40 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "756e1e0b0143aa16",
+    "en": "Decreased concentration of lomitapide (unknown extent)"
+  },
+  {
+    "key": "8b34c412e45dae20",
+    "en": "Decreased concentration of lomitapide."
+  },
+  {
+    "key": "595b02694c35def1",
+    "en": "Decreased concentration of lonafarnib (90-100% based on data with the strong enzyme inducer rifampicin). Loss of effect of lonafarnib. The summary of product characteristics for lonafarnib states that the combination must be avoided."
+  },
+  {
+    "key": "2dda9748a07ab6b1",
+    "en": "Decreased concentration of lonafarnib (up to 90-100% based on data with the strong enzyme inducer rifampicin). Risk of loss of effect of lonafarnib. The summary of product characteristics for lonafarnib states that the combination must be avoided."
+  },
+  {
+    "key": "22af876ee3b4ffd0",
+    "en": "Decreased concentration of loperamide"
+  },
+  {
+    "key": "33438febc330e788",
+    "en": "Decreased concentration of loperamide (50 %)."
+  },
+  {
+    "key": "978ed00d452b683a",
+    "en": "Decreased concentration of loperamide."
+  },
+  {
+    "key": "af40bd87e5618c44",
+    "en": "Decreased concentration of lopinavir (on average 80 %; applies to combination products containing this active substance); increased concentration of paritaprevir (indirect data; applies to combination products containing this active substance)."
+  },
+  {
+    "key": "4d6528cd26ecbe07",
+    "en": "Decreased concentration of lorlatinib (80-90 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. In addition, an increase in the levels of the liver enzymes ALAT and ASAT has been seen. Combinations with strong enzyme inducers are contraindicated in the summary of product characteristics for lorlatinib."
+  },
+  {
+    "key": "94f8035f561ff8ed",
+    "en": "Decreased concentration of lorlatinib (unknown extent)."
+  },
+  {
+    "key": "214c1a9a47edbc65",
+    "en": "Decreased concentration of the active metabolite of losartan (20 %)"
+  },
+  {
+    "key": "a657b40db2ef8a54",
+    "en": "Decreased concentration of the active metabolite of losartan (approximately 40% in interaction studies)."
+  },
+  {
+    "key": "6731fe5c0bf44c7a",
+    "en": "Decreased concentration of the active metabolite of losartan (on average 60% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "27623741a6d980ed",
+    "en": "Decreased concentration of the active metabolite of losartan, increased risk of treatment failure"
+  },
+  {
+    "key": "3dee02ce7c061be5",
+    "en": "Decreased concentration of lovastatin"
+  },
+  {
+    "key": "45e6ff118f548984",
+    "en": "Decreased concentration of lovastatin (40 %), no clear effect on the lipid profile."
+  },
+  {
+    "key": "e6513fbc675b1da1",
+    "en": "Decreased concentration of lovastatin (an estimated 60-70 % based on data with lorlatinib combined with the sensitive CYP3A4 substrate midazolam, and the effect described for the inducer efavirenz on the concentration of simvastatin); reduced cholesterol-lowering effect."
+  },
+  {
+    "key": "87d7fcfb5d5e883e",
+    "en": "Decreased concentration of lovastatin, increased risk of treatment failure"
+  },
+  {
+    "key": "ca41f649572fa310",
+    "en": "Decreased concentration of lurasidone (80 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "687b4ad2dcf37a89",
+    "en": "Decreased concentration of lurasidone (80 % based on data with the potent enzyme inducer rifampicin). Combination with strong enzyme inducers is contraindicated in the summary of product characteristics for lurasidone."
+  },
+  {
+    "key": "c06785ccace3481d",
+    "en": "Decreased concentration of lurasidone (80 % based on data with the potent enzyme inducer rifampicin). The combination is contraindicated in the summary of product characteristics for lurasidone."
+  },
+  {
+    "key": "94df9b11cbaa8dd2",
+    "en": "Decreased concentration of lurbinectedin. A reduction of 20 % was seen with concomitant use of the moderate inducer bosentan. This is below what is considered clinically significant. With concomitant use of strong inducers (as here), a greater decrease in the lurbinectedin concentration can be expected."
+  },
+  {
+    "key": "b10b6931640e97f3",
+    "en": "Decreased concentration of macitentan (80 % based on data with the strong inducer rifampicin), substantial risk of loss of effect of macitentan."
+  },
+  {
+    "key": "15756318ebca6322",
+    "en": "Decreased concentration of maraviroc"
+  },
+  {
+    "key": "86d090248e4dfc18",
+    "en": "Decreased concentration of maraviroc (on average 50%)"
+  },
+  {
+    "key": "ab12edda187c0b54",
+    "en": "Decreased concentration of maraviroc, increased risk of treatment failure"
+  },
+  {
+    "key": "da61ae71c7cd8df9",
+    "en": "Decreased concentration of maribavir (approximately 60 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "4e6efc8dde4107ee",
+    "en": "Decreased concentration of maribavir (up to 60 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "b8b6204b896af8ff",
+    "en": "Decreased concentration of mavacamten (unknown extent)."
+  },
+  {
+    "key": "e2441e6e789de8fa",
+    "en": "Decreased concentration of mebendazole (40-50 %)."
+  },
+  {
+    "key": "881523a1178fb611",
+    "en": "Decreased concentration of mebendazole (approximately 50-70 % based on a study with other potent inducers)."
+  },
+  {
+    "key": "d0d555de9dc11e90",
+    "en": "Decreased concentration of mebendazole (approximately 50-70 % in one study)."
+  },
+  {
+    "key": "a52e663e33ddf330",
+    "en": "Decreased concentration of methadone (20-30 %)."
+  },
+  {
+    "key": "e1972196d1a04b48",
+    "en": "Decreased concentration of methadone (50-60 %)."
+  },
+  {
+    "key": "2e13af1a2f1df5aa",
+    "en": "Decreased concentration of methadone (on average up to 40 %), decreased concentration of amprenavir (on average 30 %)"
+  },
+  {
+    "key": "9e19505a71a161ce",
+    "en": "Decreased concentration of methadone (around 50 %)."
+  },
+  {
+    "key": "0b926e973e6a9a41",
+    "en": "Decreased concentration of methadone in some studies, increased concentration of methadone in other studies, no effect in yet other studies; thus conflicting data. These results may possibly be due to an inhibitory effect on the metabolism of methadone initially and an inducing effect with long-term use."
+  },
+  {
+    "key": "91402c4bf2a4d15b",
+    "en": "Decreased concentration of methadone, increased risk of inadequate effect (withdrawal symptoms)"
+  },
+  {
+    "key": "0cb0ac5ca2aa8d7e",
+    "en": "Decreased concentration of metformin (10-15 %)."
+  },
+  {
+    "key": "f0472e2d6176ac66",
+    "en": "Decreased concentration of metformin (unknown extent)."
+  },
+  {
+    "key": "103681f8371b44d9",
+    "en": "Decreased concentration of metoprolol (30-40 %, shown for pentobarbital)."
+  },
+  {
+    "key": "22fe37c17a325260",
+    "en": "Decreased concentration of metronidazole (30-70 %)."
+  },
+  {
+    "key": "bae5ebb4763a9fa0",
+    "en": "Decreased concentration of methylprednisolone (on average 30-70 % in interaction studies with various potent inducers), increased risk of treatment failure."
+  },
+  {
+    "key": "4f7648b85ab343d1",
+    "en": "Decreased concentration of mianserin (50-80 %)."
+  },
+  {
+    "key": "da9883d0d1220c45",
+    "en": "Decreased concentration of mianserin (50-90 % based on data with the potent enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "f64119c564b15478",
+    "en": "Decreased concentration of mianserin (substantial reduction in case reports)."
+  },
+  {
+    "key": "96a31d9926c0c64d",
+    "en": "Decreased concentration of midazolam (>90 %) with oral use of midazolam. Midazolam administered intravenously or buccally is affected to a lesser extent (an estimated 20-25 % reduction in plasma concentration, but the effect will be variable)."
+  },
+  {
+    "key": "0d18a05595528d84",
+    "en": "Decreased concentration of midazolam (30-40 % with midazolam p.o.; 15-20 % with midazolam i.v.)"
+  },
+  {
+    "key": "ef1a3666bfd2f25f",
+    "en": "Decreased concentration of midazolam (50 %) with oral use of midazolam. Probably minimal effect with intravenous use of midazolam and when midazolam is administered buccally as single doses to terminate seizures."
+  },
+  {
+    "key": "5ef7aceb9dba5ee8",
+    "en": "Decreased concentration of midostaurin (at least 90 %) and an active metabolite (approximately 60 %) based on data with the potent enzyme inducer rifampicin. The combination is contraindicated in the summary of product characteristics for Rydapt."
+  },
+  {
+    "key": "e44a66c5c9890605",
+    "en": "Decreased concentration of midostaurin (at least 90 %) and an active metabolite (approximately 60 %) based on data with the potent enzyme inducer rifampicin. Combination with CYP3A4 inducers is contraindicated in the summary of product characteristics for Rydapt."
+  },
+  {
+    "key": "596e376a00110396",
+    "en": "Decreased concentration of mirtazapine (50 %)."
+  },
+  {
+    "key": "43b631c1f2c73c59",
+    "en": "Decreased concentration of mirtazapine (60-70 %)."
+  },
+  {
+    "key": "3972f159561a02b7",
+    "en": "Decreased concentration of mirtazapine. Based on data from other potent inducers of CYP3A4, the concentration of mirtazapine can be expected to decrease by 40-70 %."
+  },
+  {
+    "key": "58a8dae6cd9ef54d",
+    "en": "Decreased concentration of mitapivat (90 % or more based on figures with the strong inducer rifampicin), risk of greatly reduced or lost effect of mitapivat. According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inducers should be avoided."
+  },
+  {
+    "key": "a9768628624a4ff0",
+    "en": "Decreased concentration of mitapivat (perhaps in the order of 50-90 % based on figures with the strong inducer rifampicin), risk of reduced or lost effect of mitapivat. According to the summary of product characteristics for mitapivat, combinations with CYP3A4 inducers should be avoided."
+  },
+  {
+    "key": "cea730b3048dd85f",
+    "en": "Decreased concentration of mitapivat. It is uncertain how large the effect is."
+  },
+  {
+    "key": "10a4130048f7d03d",
+    "en": "Decreased concentration of modafinil (30-40 %, shown for the R-enantiomer armodafinil) and carbamazepine (20-30 %)."
+  },
+  {
+    "key": "41fa030e1bbd9dec",
+    "en": "Decreased concentration of modafinil (perhaps in the order of 30-40 % based on data with other enzyme inducers), possible increased concentration of phenytoin (uncertain extent, data based on in vitro studies performed by the manufacturer of modafinil)."
+  },
+  {
+    "key": "3b599a41c6676b7b",
+    "en": "Decreased concentration of momelotinib (40-50 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "298ffed68d84195c",
+    "en": "Decreased concentration of momelotinib (up to 40-50 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "f103185906844f90",
+    "en": "Decreased concentration of montelukast (30-40 %)."
+  },
+  {
+    "key": "94a54794cc68b414",
+    "en": "Decreased concentration of morphine, increased risk of failure of codeine treatment (lack of pain relief)."
+  },
+  {
+    "key": "8cb8df7fd093e35c",
+    "en": "Decreased concentration of morphine, increased risk of failure of codeine treatment (lack of pain relief)."
+  },
+  {
+    "key": "d8235cb88ec96d81",
+    "en": "Decreased concentration of naldemedine (80-90 % based on the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "0f8c3ce553cb4f4c",
+    "en": "Decreased concentration of naldemedine (up to 80-90 % based on the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "4042ca69d2a6ef26",
+    "en": "Decreased concentration of naloxegol (90 % based on data with the potent enzyme inducer rifampicin) and loss of effect."
+  },
+  {
+    "key": "6bf6e44e8cc5bfd6",
+    "en": "Decreased concentration of naloxegol (90 % based on data with the potent enzyme inducer rifampicin) and loss of effect."
+  },
+  {
+    "key": "e2f8f85c9bffa084",
+    "en": "Decreased concentration of nerandomilast (approximately 40 % based on data with the moderately strong enzyme inducer bosentan)."
+  },
+  {
+    "key": "d388b96c8f9b638c",
+    "en": "Decreased concentration of nerandomilast (approximately 40 %)."
+  },
+  {
+    "key": "5d1fda202cc120ad",
+    "en": "Decreased concentration of nerandomilast (approximately 50 % based on data with the strong enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "5d18f142c828e9ed",
+    "en": "Decreased concentration of nerandomilast (approximately 50 %)."
+  },
+  {
+    "key": "8e3738f8ed1e0d78",
+    "en": "Decreased concentration of nerandomilast (uncertain extent)."
+  },
+  {
+    "key": "fb2276aaef300cc5",
+    "en": "Decreased concentration of neratinib (85-90 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "ae1f0e1e1f0162aa",
+    "en": "Decreased concentration of neratinib (on average 50 % with simultaneous intake)."
+  },
+  {
+    "key": "0f12b43ad397009e",
+    "en": "Decreased concentration of neratinib (on average 70 % with simultaneous intake)."
+  },
+  {
+    "key": "907992e2f02127b0",
+    "en": "Decreased concentration of neratinib (on average approximately 50 % with simultaneous intake of proton pump inhibitors/H2 antagonists, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "d7d6bdb1827385ac",
+    "en": "Decreased concentration of neratinib (in the order of 50-70 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "d7e2afac68b042f6",
+    "en": "Decreased concentration of nilotinib"
+  },
+  {
+    "key": "8f4224a04bba941a",
+    "en": "Decreased concentration of nilotinib, increased risk of treatment failure"
+  },
+  {
+    "key": "e33e4a74793d1e2e",
+    "en": "Decreased concentration of nimodipine"
+  },
+  {
+    "key": "dfc0f7ef3698977b",
+    "en": "Decreased concentration of nimodipine (on average 80-90% in interaction studies), increased risk of treatment failure. The combination is contraindicated in the SPC for Nimotop."
+  },
+  {
+    "key": "d362f07d6e02b755",
+    "en": "Decreased concentration of nintedanib (50 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "5347225f47e8012c",
+    "en": "Decreased concentration of nintedanib."
+  },
+  {
+    "key": "c00f31cd25ec474c",
+    "en": "Decreased concentration of nirogacestat (uncertain extent)."
+  },
+  {
+    "key": "7606c3ceba61811c",
+    "en": "Decreased concentration of nirogacestat (uncertain extent)."
+  },
+  {
+    "key": "feda6cf5b8738851",
+    "en": "Decreased concentration of nomegestrol"
+  },
+  {
+    "key": "554b3897374ac7f2",
+    "en": "Decreased concentration of nomegestrol."
+  },
+  {
+    "key": "61ac997a385f4fc2",
+    "en": "Decreased concentration of oxazepam (up to 30-40 %) in smokers compared with non-smokers. Increased concentration of oxazepam (up to 50 %) on smoking cessation. It is the effect of stopping smoking that causes the interaction, rather than treatment with the smoking cessation product."
+  },
+  {
+    "key": "a4cbf1b8a98d2245",
+    "en": "Decreased concentration of oxycodone (80-90 % with oral administration of oxycodone, 50-60 % with parenteral administration based on data with other potent inducers of CYP3A4)."
+  },
+  {
+    "key": "cd028a3a2e6fbb77",
+    "en": "Decreased concentration of oxycodone (80-90 % with oral administration of oxycodone, 50-60 % with parenteral administration)."
+  },
+  {
+    "key": "b6d208c81241d799",
+    "en": "Decreased concentration of oxycodone (up to 80-90 % with oral administration of oxycodone, 50-60 % with parenteral administration based on data with other potent inducers of CYP3A4)."
+  },
+  {
+    "key": "38a79cf0e5fad095",
+    "en": "Decreased concentration of oxycodone."
+  },
+  {
+    "key": "754decf42e48de4d",
+    "en": "Decreased concentration of olanzapine (50-60 %)"
+  },
+  {
+    "key": "3e9b830ef1171952",
+    "en": "Decreased concentration of olanzapine (on average around 50% in interaction studies), increased risk of treatment failure"
+  },
+  {
+    "key": "eaf66306de5d116a",
+    "en": "Decreased concentration of olaparib (up to 80-90 % reduction based on data with the strong enzyme inducer rifampicin, probably somewhat less here), risk of loss of effect of olaparib."
+  },
+  {
+    "key": "20b383afba5f988d",
+    "en": "Decreased concentration of olaparib (up to 80-90 % reduction based on data with the strong enzyme inducer rifampicin), high risk of loss of effect of olaparib."
+  },
+  {
+    "key": "4bdb1ed6bf395693",
+    "en": "Decreased concentration of omaveloxolone (uncertain extent, but probably substantial)."
+  },
+  {
+    "key": "5278ead1926dc34a",
+    "en": "Decreased concentration of omeprazole (30-40 %) and of ritonavir (20-30 %)."
+  },
+  {
+    "key": "8678987f518d66c7",
+    "en": "Decreased concentration of omeprazole (80-90 %)."
+  },
+  {
+    "key": "29528e072ee6202d",
+    "en": "Decreased concentration of omeprazole (perhaps a halving based on data with the potent enzyme inducer St John's wort)."
+  },
+  {
+    "key": "183f5ee093b073e5",
+    "en": "Decreased concentration of ondansetron"
+  },
+  {
+    "key": "d0b8c593e3135888",
+    "en": "Decreased concentration of ondansetron (60-70 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "2f57fc31347ab9f5",
+    "en": "Decreased concentration of osimertinib (on average approximately 80 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "90387a69fc17ef0b",
+    "en": "Decreased concentration of ospemifene (50-60 % based on data with the potent enzyme inducer rifampicin), resulting in a risk of reduced effect."
+  },
+  {
+    "key": "ff6492a1102c10df",
+    "en": "Decreased concentration of ospemifene (50-60 % based on data with the potent enzyme inducer rifampicin), resulting in a risk of reduced effect."
+  },
+  {
+    "key": "6370bd6dba5f39c9",
+    "en": "Decreased concentration of the active metabolite of oxcarbazepine (30-40 %); increased concentration of phenytoin (up to 40 % at oxcarbazepine doses above 1200 mg/d, far less at lower doses)."
+  },
+  {
+    "key": "cc99345121fd324e",
+    "en": "Decreased concentration of paclitaxel (on average 40-50 %)."
+  },
+  {
+    "key": "bf31622fd150b332",
+    "en": "Decreased concentration of palbociclib (80-90 % based on data with the potent enzyme inducer rifampicin) with a substantial risk of loss of effect."
+  },
+  {
+    "key": "4a025c21ae2d031f",
+    "en": "Decreased concentration of paliperidone (on average 50 %)"
+  },
+  {
+    "key": "ce7bd157b52a0a1c",
+    "en": "Decreased concentration of paltusotine (20-40 %)"
+  },
+  {
+    "key": "012ec9420dac5b0c",
+    "en": "Decreased concentration of paltusotine (approximately 70 % based on the potent enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "532176d29a946013",
+    "en": "Decreased concentration of paltusotine (approximately 70 %)."
+  },
+  {
+    "key": "5e7b44029abaaa0a",
+    "en": "Decreased concentration of paltusotine (up to 70 % based on the potent enzyme inducer carbamazepine)."
+  },
+  {
+    "key": "45b08ea223bb2fe1",
+    "en": "Decreased concentration of panobinostat (uncertain how large the effect will be) with a risk of reduced/lost effect."
+  },
+  {
+    "key": "29c2dac6106209ef",
+    "en": "Decreased concentration of pantoprazole (a reduction of 70 % has been shown for omeprazole)."
+  },
+  {
+    "key": "5a010c0406448675",
+    "en": "Decreased concentration of pantoprazole (uncertain extent, but may be substantial)."
+  },
+  {
+    "key": "1b9e3d9039c40f27",
+    "en": "Decreased concentration of paracetamol (40 %), increased concentration of the hepatotoxic metabolite NAPQI."
+  },
+  {
+    "key": "e0e59abd81752880",
+    "en": "Decreased concentration of paroxetine (40 %)"
+  },
+  {
+    "key": "b73f4c411927c96a",
+    "en": "Decreased concentration of pazopanib (on average approximately 40 % with simultaneous intake of proton pump inhibitors/H2 antagonists, probably some effect also with simultaneous intake of antacids)."
+  },
+  {
+    "key": "4d760306af7e5e54",
+    "en": "Decreased concentration of pazopanib (on average approximately 40 % with simultaneous intake)."
+  },
+  {
+    "key": "73401839e8f02d0b",
+    "en": "Decreased concentration of pazopanib."
+  },
+  {
+    "key": "0feb0df6dd13c1bb",
+    "en": "Decreased concentration of pemigatinib (on average 30-40 % with simultaneous intake, but 1/3 of patients experienced a marked reduction in the pemigatinib concentration with concomitant use of esomeprazole)."
+  },
+  {
+    "key": "fb0a77878547b9cc",
+    "en": "Decreased concentration of pemigatinib (85-90 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "fb85783a859095a1",
+    "en": "Decreased concentration of pemigatinib (in the order of 50-70 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "b60ba66995669913",
+    "en": "Decreased concentration of perampanel (50 %), increased concentration of oxcarbazepine (30 %; the active metabolite monohydroxycarbazepine not studied)."
+  },
+  {
+    "key": "cd207a71d992c3c4",
+    "en": "Decreased concentration of perampanel (50 %)."
+  },
+  {
+    "key": "e361ce3e7759dd2a",
+    "en": "Decreased concentration of perampanel (50-70 % based on data with phenytoin and carbamazepine)."
+  },
+  {
+    "key": "c5d21726cf99c566",
+    "en": "Decreased concentration of perampanel (60-70 %)."
+  },
+  {
+    "key": "b0536dccc9ea0af2",
+    "en": "Decreased concentration of pioglitazone (50-60 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "69675cb9369ee835",
+    "en": "Decreased concentration of pirtobrutinib (approximately 70 % based on the strong enzyme inducer rifampicin). According to the summary of product characteristics for pirtobrutinib, combinations with strong inducers of CYP3A4 should be avoided if possible."
+  },
+  {
+    "key": "15cbec5a3e5fc5bb",
+    "en": "Decreased concentration of pitolisant (approximately 50 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "41344090c7f04404",
+    "en": "Decreased concentration of posaconazole"
+  },
+  {
+    "key": "3ed310e489b73459",
+    "en": "Decreased concentration of posaconazole (40 %, shown for cimetidine)"
+  },
+  {
+    "key": "d4d17828cc12f971",
+    "en": "Decreased concentration of posaconazole (on average 50% in an interaction study)"
+  },
+  {
+    "key": "d832a35fbc115c87",
+    "en": "Decreased concentration of posaconazole (on average 50% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "22ea09c08c70bba2",
+    "en": "Decreased concentration of posaconazole, increased concentration of dabrafenib"
+  },
+  {
+    "key": "9d10a693be291510",
+    "en": "Decreased concentration of posaconazole."
+  },
+  {
+    "key": "d99630796fe29913",
+    "en": "Decreased concentration of pralsetinib (approximately 70 % based on data with the strong enzyme inducer rifampicin)"
+  },
+  {
+    "key": "ef56a45c12c81bc6",
+    "en": "Decreased concentration of pralsetinib (up to 70 % based on data with the strong enzyme inducer rifampicin)"
+  },
+  {
+    "key": "17b24811b3e4832e",
+    "en": "Decreased concentration of prednisolone (30-50%)."
+  },
+  {
+    "key": "aba607d59efb6664",
+    "en": "Decreased concentration of prednisolone (on average 30-50% in interaction studies), increased risk of treatment failure."
+  },
+  {
+    "key": "39e47eb0e751ed96",
+    "en": "Decreased concentration of prednisolone (on average 50% in an interaction study), increased risk of treatment failure"
+  },
+  {
+    "key": "9d368aeaa81f1795",
+    "en": "Decreased concentration of prednisone/prednisolone (approximately 30-60 % in reports with the potent enzyme inducers rifampicin/carbamazepine/phenobarbital)."
+  },
+  {
+    "key": "55dbb530c8a6b423",
+    "en": "Decreased concentration of pretomanid (30-40 %). The summary of product characteristics for pretomanid recommends that the combination be avoided."
+  },
+  {
+    "key": "5553c86affd75d2f",
+    "en": "Decreased concentration of pretomanid (60-70 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for pretomanid recommends that the combination be avoided."
+  },
+  {
+    "key": "6ae4af0cfc09a5f1",
+    "en": "Decreased concentration of pretomanid (up to 60-70 % based on data with the potent enzyme inducer rifampicin) with a risk of loss of effect. The summary of product characteristics for pretomanid recommends that this type of combination be avoided."
+  },
+  {
+    "key": "94421eb202106713",
+    "en": "Decreased concentration of the progesterone (30-40 %)."
+  },
+  {
+    "key": "27007a0a09296233",
+    "en": "Decreased concentration of the progesterone in progestogen-only pills (30-40 %), something similar may also apply here."
+  },
+  {
+    "key": "24ef43e5a477d2df",
+    "en": "Decreased concentration of the progesterone in progestogen-only pills (30-40 %)."
+  },
+  {
+    "key": "5e6750894ca7acda",
+    "en": "Decreased concentration of the progestogen (30-40%, shown for levonorgestrel); reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used."
+  },
+  {
+    "key": "c2deb48469faf5ff",
+    "en": "Decreased concentration of the progestogen (30-40%, shown for levonorgestrel)."
+  },
+  {
+    "key": "9678cc8a30c7f0ee",
+    "en": "Decreased concentration of the progestogen (30-50 % shown for levonorgestrel); reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used, but the latter should be given every 10 weeks."
+  },
+  {
+    "key": "21ac3e0ce2980ab4",
+    "en": "Decreased concentration of the progestogen (30-50 % shown for levonorgestrel)."
+  },
+  {
+    "key": "6658d2c430c3e189",
+    "en": "Decreased concentration of the progestogen (40 % in an interaction study with levonorgestrel), uncertain clinical relevance."
+  },
+  {
+    "key": "605fcec100af9868",
+    "en": "Decreased concentration of the progestogen (approximately 20 % shown for levonorgestrel); possible reduced contraceptive effect. levonorgestrel for intrauterine use can be used."
+  },
+  {
+    "key": "e22e07fcc24f9fc6",
+    "en": "Decreased concentration of the progestogen (unknown extent, but may be substantial), reduced effect."
+  },
+  {
+    "key": "31e3cdd534911a54",
+    "en": "Decreased concentration of the progestogen, risk of unintended pregnancy. (levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used, but the latter should be given every 10 weeks)"
+  },
+  {
+    "key": "21af3ea4d02aef90",
+    "en": "Decreased concentration of the progestogen; reduced contraceptive effect (levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used, but the latter should be given every 10 weeks."
+  },
+  {
+    "key": "218015ef1a84e44e",
+    "en": "Decreased concentration of the progestogen; reduced contraceptive effect. levonorgestrel for intrauterine use and medroxyprogesterone for depot injections can be used, but the latter should be given every 10 weeks."
+  },
+  {
+    "key": "f7098cc06a950a98",
+    "en": "Decreased concentration of propranolol (60-80 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "a3be3b7b82d58726",
+    "en": "Decreased concentration of raltegravir (40 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "099baaf5d8738658",
+    "en": "Decreased concentration of raltegravir (on average 36 % in a pharmacokinetic study)."
+  },
+  {
+    "key": "e75e5b829c34088e",
+    "en": "Decreased concentration of ranolazine"
+  },
+  {
+    "key": "d97283f06f1465cf",
+    "en": "Decreased concentration of ranolazine (in the order of 90 % or more based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "7319138e68d8c2d4",
+    "en": "Decreased concentration of regorafenib, increased concentration of the active metabolite M-5, no effect on the concentration of the active metabolite M-2. Unpredictable net effect on the action of regorafenib."
+  },
+  {
+    "key": "3187bd30bf1fd926",
+    "en": "Decreased concentration of relugolix (50-60 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "582329a47adf5529",
+    "en": "Decreased concentration of relugolix (up to 50-60 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "45a38f498cbe23f0",
+    "en": "Decreased concentration of repaglinide (perhaps in the order of 30-80 % based on data with the potent enzyme inducer rifampicin)."
+  },
+  {
+    "key": "e8a45bd44f828574",
+    "en": "Decreased concentration of repotrectinib (up to 90 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "30ba318e70efd537",
+    "en": "Decreased concentration of repotrectinib (at least 90 % based on data with the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "c62c55b332cdeb25",
+    "en": "Decreased concentration of ribociclib (based on data with the potent enzyme inducer rifampicin, the decrease will be 80-90 %, with a substantial risk of loss of therapeutic effect)."
+  },
+  {
+    "key": "d68335715b5effc3",
+    "en": "Decreased concentration of ribociclib (approximately 70 %, risk of loss of therapeutic effect)."
+  },
+  {
+    "key": "d360f315e39d0a96",
+    "en": "Decreased concentration of rilpivirine (40 %; shown for omeprazole), substantial risk of inadequate effect of rilpivirine."
+  },
+  {
+    "key": "1db3aef8f213158d",
+    "en": "Decreased concentration of rilpivirine (70-80 %, shown for famotidine), substantial risk of inadequate effect of rilpivirine."
+  },
+  {
+    "key": "b3e1fe949a2479f3",
+    "en": "Decreased concentration of rilpivirine (indirect data), risk of inadequate effect."
+  },
+  {
+    "key": "0ea8d79722dac510",
+    "en": "Decreased concentration of rilpivirine, substantial risk of lack of effect."
+  },
+  {
+    "key": "e6e2f32f6363d52f",
+    "en": "Decreased concentration of rilpivirine, risk of inadequate effect."
+  },
+  {
+    "key": "b4f9c37d983a1328",
+    "en": "Decreased concentration of rimegepant (approximately 80 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "049d44e5917e7005",
+    "en": "Decreased concentration of rimegepant (up to 80 % based on data with the potent inducer rifampicin)."
+  },
+  {
+    "key": "ae067679e72137f2",
+    "en": "Decreased concentration of riociguat (30-40 %; shown for antacids)."
+  },
+  {
+    "key": "39b1393db1a55e93",
+    "en": "Decreased concentration of riociguat (30-40 %)."
+  },
+  {
+    "key": "b6e1a811394fdacd",
+    "en": "Decreased concentration of ripretinib (30-40 % based on the moderate enzyme inducer etravirine)."
+  },
+  {
+    "key": "d13cb234998831a3",
+    "en": "Decreased concentration of ripretinib (80-90 % based on the strong enzyme inducer rifampicin)."
+  },
+  {
+    "key": "16649dbf64aa6712",
+    "en": "Decreased concentration of risperidone (approximately 50 %) and the active metabolite 9-hydroxyrisperidone (20-30 %)."
+  },
+  {
+    "key": "ebe5dcacf8eb8cc3",
+    "en": "Decreased concentration of risperidone and active metabolite (an estimated 60-80%), increased risk of inadequate effect"
+  },
+  {
+    "key": "1457c9f790ed757a",
+    "en": "Decreased concentration of ritonavir (and agents such as lopinavir, ombitasvir, paritaprevir and dasabuvir when any of these are used concomitantly), increased risk of treatment failure. Based on data with carbamazepine, the concentration of the anti-HIV agents may be expected to be reduced by between 30 % and 70 %, with a substantial risk of treatment failure."
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "card": {
+    "pair": "calcitriol__cholecalciferol",
+    "a": "calcitriol",
+    "b": "cholecalciferol",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA calcitriol label names additive effects and hypercalcemia with pharmacological doses of vitamin D.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA calcitriol label calls calcitriol the most potent active metabolite of vitamin D3 and says additive effects and hypercalcemia are possible with pharmacological vitamin D doses.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA calcitriol label says pharmacological doses of vitamin D and its derivatives are to be withheld during calcitriol treatment because of possible additive effects and hypercalcemia.",
+        "quote": "Since calcitriol is the most potent active metabolite of vitamin D 3 , pharmacological doses of vitamin D and its derivatives should be withheld during treatment with calcitriol to avoid possible additive effects and hypercalcemia (see WARNINGS ).",
+        "source": {
+          "kind": "fda_label",
+          "id": "bf621b22-b783-416f-aee3-e0dbfdb782ca#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "hypercalcemia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The calcitriol label says pharmacological doses of vitamin D (which includes cholecalciferol) should be withheld to avoid additive effects and hypercalcemia.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "bf621b22-b783-416f-aee3-e0dbfdb782ca#contraindications",
+        "title": "calcitriol: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf621b22-b783-416f-aee3-e0dbfdb782ca",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "bf621b22-b783-416f-aee3-e0dbfdb782ca#warnings",
+        "title": "calcitriol: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf621b22-b783-416f-aee3-e0dbfdb782ca",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "bf621b22-b783-416f-aee3-e0dbfdb782ca#precautions",
+        "title": "calcitriol: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf621b22-b783-416f-aee3-e0dbfdb782ca",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "bf621b22-b783-416f-aee3-e0dbfdb782ca#drug_interactions",
+        "title": "calcitriol: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bf621b22-b783-416f-aee3-e0dbfdb782ca",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40429738",
+        "title": "Type 1 Diabetes Mellitus and Vitamin D.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40429738/",
+        "citation": "1422-0067 26 10 2025 May 11 International journal of molecular sciences Int J Mol Sci",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "41516427",
+        "title": "The Role of Vitamin D in Autoimmune Diseases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41516427/",
+        "citation": "1422-0067 27 1 2026 Jan 5 International journal of molecular sciences Int J Mol Sci",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37302723",
+        "title": "Effects of Vitamin D Supplementation in Diabetic Kidney Disease: A Systematic Review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37302723/",
+        "citation": "1532-8503 33 5 2023 Sep Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation J Ren Nutr",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31514368",
+        "title": "Influence of Vitamin D on Islet Autoimmunity and Beta-Cell Function in Type 1 Diabetes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31514368/",
+        "citation": "2072-6643 11 9 2019 Sep 11 Nutrients Nutrients",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Calcitriol or Cholecalciferol, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Calcitriol and Cholecalciferol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"calcitriol\"[tiab] AND \"cholecalciferol\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.677Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

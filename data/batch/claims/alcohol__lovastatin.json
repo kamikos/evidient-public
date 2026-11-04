@@ -1,0 +1,38 @@
+{
+  "pair": "alcohol__lovastatin",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA lovastatin label flags substantial alcohol consumption in its liver warning.",
+      "quote": "The drug should be used with caution in patients who consume substantial quantities of alcohol and/or have a past history of liver disease.",
+      "sourceId": "9438d8a0-ca5b-4676-aab9-d0241ccff6c9#warnings",
+      "stance": "uncertain",
+      "outcome": "liver_injury"
+    }
+  ],
+  "headline": {
+    "text": "The FDA lovastatin label flags substantial alcohol consumption in its liver warning.",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The label does not quantify the alcohol-related risk in this statement.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "liver",
+  "gaps": [
+    {
+      "text": "The packet contains no controlled human study of alcohol with lovastatin; the alcohol finding for fluvastatin concerns a different drug.",
+      "searched": [
+        "(ethanol[tiab] OR alcohol[tiab]) AND \"lovastatin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

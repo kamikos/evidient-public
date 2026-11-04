@@ -1,0 +1,21 @@
+{
+  "pair": "betamethasone__dexamethasone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Newborn rat study states antenatal betamethasone significantly enhanced the detrimental effects of postnatal dexamethasone on hyperoxic lung and brain injury."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

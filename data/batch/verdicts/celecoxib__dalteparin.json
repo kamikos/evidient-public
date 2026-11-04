@@ -1,0 +1,21 @@
+{
+ "pair": "celecoxib__dalteparin",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "partial",
+   "rationale": "The bullet lists NSAIDs, but in context the risk factors apply only to anticoagulated patients receiving neuraxial anesthesia or spinal puncture, which the claim reduces to \"anticoagulated patients\"."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  },
+  {
+   "path": "reported.0",
+   "support": "does_not_support"
+  }
+ ]
+}

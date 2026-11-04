@@ -1,0 +1,534 @@
+{
+  "card": {
+    "pair": "amphetamine__sertraline",
+    "a": "amphetamine",
+    "b": "sertraline",
+    "category": "serotonin",
+    "depth": "label_only",
+    "headline": {
+      "text": "Amphetamine with sertraline may cause serotonin syndrome",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states amphetamines with SSRIs may cause serotonin syndrome.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult combination study reporting serotonin syndrome was found.",
+        "searched": [
+          "amphetamine sertraline combination adults serotonin syndrome"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amphetamine or Sertraline, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amphetamine and Sertraline, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states amphetamines with SSRIs may cause serotonin syndrome.",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote is a label warning that serotonin syndrome may occur when amphetamines are combined with SSRIs, which includes sertraline, supporting the may-cause claim and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "The label lists serotonin syndrome symptoms with amphetamines plus serotonergic drugs.",
+        "quote": "Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+        "source": {
+          "kind": "fda_label",
+          "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The quote only lists possible serotonin syndrome symptoms without linking them to amphetamine plus serotonergic co-exposure or reporting increased risk for that combination, so it does not support the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "Amphetamines plus SSRIs affect serotonergic neurotransmitter systems causing syndrome.",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+        },
+        "stance": "mechanism",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The quote attributes serotonergic effects to the co-administered drugs and states the syndrome may occur, but provides no explicit interaction mechanism and does not support the claim that the combination affects those systems and causes the syndrome.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings",
+        "title": "Warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f22635fe-821d-4cde-aa12-419f8b53db81",
+        "citation": "FDA label · Warnings",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:47:49.884Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "amphetamine__sertraline",
+      "at": "2026-11-03T20:46:28.989Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:f22635fe-821d-4cde-aa12-419f8b53db81#warnings",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329ef8c7246b908066f995ac29f",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+        "sourceId": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states amphetamines with SSRIs may cause serotonin syndrome."
+      },
+      "t": 10724
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states amphetamines with SSRIs may cause serotonin syndrome.",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 10724
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329ef8c7246b908066f995ac29f",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 10724
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329f40b75c394e1605fe8c2f502",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+        "sourceId": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label lists serotonin syndrome symptoms with amphetamines plus serotonergic drugs."
+      },
+      "t": 10724
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label lists serotonin syndrome symptoms with amphetamines plus serotonergic drugs.",
+        "quote": "Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+        "source": {
+          "kind": "fda_label",
+          "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 10724
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329f40b75c394e1605fe8c2f502",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 10724
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329f88076ad97ead1750bf452b7",
+      "name": "search_pubmed",
+      "args": {
+        "query": "amphetamine sertraline serotonin syndrome human"
+      },
+      "t": 10724
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329f88076ad97ead1750bf452b7",
+      "summary": "search_pubmed completed: {\"query\":\"amphetamine sertraline serotonin syndrome human\",\"pmids\":[\"16621339\",\"12456895\"]}",
+      "t": 11161
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a329f9997322b47f750c6c21945e",
+      "name": "search_pubmed",
+      "args": {
+        "query": "amphetamine sertraline combination adults serotonin syndrome"
+      },
+      "t": 11161
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a329f9997322b47f750c6c21945e",
+      "summary": "search_pubmed completed: {\"query\":\"amphetamine sertraline combination adults serotonin syndrome\",\"pmids\":[]}",
+      "t": 11594
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a101a7768bd73a360d1bf3759",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "16621339",
+          "12456895"
+        ]
+      },
+      "t": 17794
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a101a7768bd73a360d1bf3759",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"16621339\",\"title\":\"Randomized, placebo-controlled trial of sertraline and contingency management for the treatment of methamphetamine dependence.\",\"journal\":\"Drug and alcohol dependence\",\"year\":\"2006\",\"abstractText\":\"Methamphetamine dependence and associated medical and psychiatric concerns are significant public health issues. This project evaluated the efficacy of sertraline (50mg bid) and contingency management (CM) for the treatment of methamphetamine dependence.\\n\\nIn this randomized, placebo-controlled, double-blind trial, participants completed a 2-week non-medication baseline and were randomized to one of four conditions for 12 weeks: sertraline plus CM (n=61), sertraline-only (n=59), matching placebo plus CM (n=54), or matching placebo-only (n=55). All participants attended clinic thrice-weekly for data collection, medication dispensing, and relapse prevention groups. Outcomes included methamphetamine use (urine drug screening and self-reported days of use), retention (length of stay), drug craving (visual analogue scale), and mood symptoms (Beck Depression Inventory).\\n\\nNo statistically significant main or interaction effects for sertraline or CM in reducing methamphetamine use were observed using a generalized estimating equation (GEE), although post hoc analyses showed the sertraline-only condition had significantly poorer retention than other conditions (chi(2) (3)=8.40, p<0.05). Sertraline conditions produced significantly more adverse events than placebo conditions. A significantly higher proportion of participants in CM conditions achieved three consecutive weeks of methamphetamine abstinence than those in non-CM conditions.\\n\\nThese data do not demonstrate improved outcomes for sertraline versus placebo for treatment of methamphetamine dependence; indeed, they suggest sertraline is contraindicated for methamphetamine dependence. Findings provide support for the use of contingency management for treatment of methamphetamine dependence.\",\"publicationTypes\":[\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, N.I.H., Extramural\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Shoptaw\",\"kind\":\"pubmed\",\"id\":\"16621339\",\"text\":\"Methamphetamine dependence and associated medical and psychiatric concerns are significant public health issues. This project evaluated the efficacy of sertraline (50mg bid) and contingency management (CM) for the treatment of methamphetamine dependence.\\n\\nIn this randomized, placebo-controlled, double-blind trial, participants completed a 2-week non-medication baseline and were randomized to one of four conditions for 12 weeks: sertraline plus CM (n=61), sertraline-only (n=59), matching placebo plus CM (n=54), or matching placebo-only (n=55). All participants attended clinic thrice-weekly for data collection, medication dispensing, and relapse prevention groups. Outcomes included methamphetamine use (urine drug screening and self-reported days of use), retention (length of stay), drug craving (visual analogue scale), and mood symptoms (Beck Depression Inventory).\\n\\nNo statistically significant main or interaction effects for sertraline or CM in reducing methamphetamine use were observed using a generalized estimating equation (GEE), although post hoc analyses showed the sertraline-only condition had significantly poorer retention than other conditions (chi(2) (3)=8.40, p<0.05). Sertraline conditions produced significantly more adverse events than placebo conditions. A significantly higher proportion of participants in CM conditions achieved three consecutive weeks of methamphetamine abstinence than those in non-CM conditions.\\n\\nThese data do not demonstrate improved outcomes for sertraline versus placebo for treatment of methamphetamine dependence; indeed, they suggest sertraline is contraindicated for methamphetamine dependence. Findings provide support for the use of contingency management for treatment of methamphetamine dependence.\"},{\"pmid\":\"12456895\",\"title\":\"Consultation with the specialist: the central serotonin syndrome: paradigm for psychotherapeutic misadventure.\",\"journal\":\"Pediatrics in review\",\"year\":\"2002\",\"abstractText\":\"\",\"publicationTypes\":[\"Case Reports\",\"Journal Article\"],\"firstAuthor\":\"Arnold\",\"kind\":\"pubmed\",\"id\":\"12456895\",\"text\":\"\"}]",
+      "t": 18111
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a38a973d7ae8791721ac26b74",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "amphetamine sertraline serotonin syndrome human",
+          "amphetamine sertraline combination adults serotonin syndrome"
+        ],
+        "text": "No adult combination study reporting serotonin syndrome was found."
+      },
+      "t": 29007
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a38a973d7ae8791721ac26b74",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 29007
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a576c70088d91c6caddf469e8",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "amphetamine sertraline combination adults serotonin syndrome"
+        ],
+        "text": "No adult combination study reporting serotonin syndrome was found."
+      },
+      "t": 36470
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult combination study reporting serotonin syndrome was found.",
+        "searched": [
+          "amphetamine sertraline combination adults serotonin syndrome"
+        ]
+      },
+      "t": 36470
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a576c70088d91c6caddf469e8",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 36470
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32a81457359b26432de3325aff4",
+      "name": "record_claim",
+      "args": {
+        "outcome": "serotonin_syndrome",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+        "sourceId": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings",
+        "sourceKind": "fda_label",
+        "stance": "mechanism",
+        "text": "Amphetamines plus SSRIs affect serotonergic neurotransmitter systems causing syndrome."
+      },
+      "t": 47876
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Amphetamines plus SSRIs affect serotonergic neurotransmitter systems causing syndrome.",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+        },
+        "stance": "mechanism",
+        "outcome": "serotonin_syndrome"
+      },
+      "t": 47876
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32a81457359b26432de3325aff4",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 47876
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 47876
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 47876
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 47876
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 47877
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote is a label warning that serotonin syndrome may occur when amphetamines are combined with SSRIs, which includes sertraline, supporting the may-cause claim and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 54847
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "does_not_support",
+      "rationale": "The quote only lists possible serotonin syndrome symptoms without linking them to amphetamine plus serotonergic co-exposure or reporting increased risk for that combination, so it does not support the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 54847
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "does_not_support",
+      "rationale": "The quote attributes serotonergic effects to the co-administered drugs and states the syndrome may occur, but provides no explicit interaction mechanism and does not support the claim that the combination affects those systems and causes the syndrome.",
+      "model": "muse-wonder-1.0",
+      "t": 54847
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 54847
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 1.",
+      "t": 78294
+    },
+    {
+      "type": "thinking",
+      "text": "Made 12 external requests",
+      "t": 80895
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "amphetamine__sertraline",
+        "a": "amphetamine",
+        "b": "sertraline",
+        "category": "serotonin",
+        "depth": "label_only",
+        "headline": {
+          "text": "Amphetamine with sertraline may cause serotonin syndrome",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states amphetamines with SSRIs may cause serotonin syndrome.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult combination study reporting serotonin syndrome was found.",
+            "searched": [
+              "amphetamine sertraline combination adults serotonin syndrome"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Amphetamine or Sertraline, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Amphetamine and Sertraline, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states amphetamines with SSRIs may cause serotonin syndrome.",
+            "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote is a label warning that serotonin syndrome may occur when amphetamines are combined with SSRIs, which includes sertraline, supporting the may-cause claim and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "The label lists serotonin syndrome symptoms with amphetamines plus serotonergic drugs.",
+            "quote": "Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+            "source": {
+              "kind": "fda_label",
+              "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The quote only lists possible serotonin syndrome symptoms without linking them to amphetamine plus serotonergic co-exposure or reporting increased risk for that combination, so it does not support the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "Amphetamines plus SSRIs affect serotonergic neurotransmitter systems causing syndrome.",
+            "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John’s Wort [see DRUG INTERACTIONS ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings"
+            },
+            "stance": "mechanism",
+            "outcome": "serotonin_syndrome",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The quote attributes serotonergic effects to the co-administered drugs and states the syndrome may occur, but provides no explicit interaction mechanism and does not support the claim that the combination affects those systems and causes the syndrome.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "f22635fe-821d-4cde-aa12-419f8b53db81#warnings",
+            "title": "Warnings",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f22635fe-821d-4cde-aa12-419f8b53db81",
+            "citation": "FDA label · Warnings",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:47:49.884Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "serious_warning",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 80895
+    }
+  ]
+}

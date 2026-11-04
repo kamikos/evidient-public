@@ -1,0 +1,203 @@
+{
+  "card": {
+    "pair": "carboplatin__cisplatin",
+    "a": "carboplatin",
+    "b": "cisplatin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA carboplatin label says bone marrow suppression is increased after prior therapy, especially regimens including cisplatin.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label also reports worse myelosuppression after prior cisplatin. The FDA label reports more peripheral neurotoxicity after prior cisplatin.",
+        "claimIds": [
+          "c2",
+          "c3"
+        ]
+      },
+      {
+        "text": "The FDA label contraindicates carboplatin after severe allergic reactions to cisplatin.",
+        "claimIds": [
+          "c4"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA carboplatin label says bone marrow suppression is increased in patients who have received prior therapy, especially regimens including cisplatin.",
+        "quote": "Bone marrow suppression is increased in patients who have received prior therapy, especially regimens including cisplatin.",
+        "source": {
+          "kind": "fda_label",
+          "id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "myelosuppression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote matches the claim verbatim, and the claim keeps the prior-therapy framing.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French carboplatin label says the severity of myelosuppression is worse in patients previously treated, notably with cisplatin, and in renal impairment.",
+        "quote": "La sévérité de la myélosuppression est aggravée chez les patients préalablement traités (notamment par du cisplatine) et/ou en cas d’altération de la fonction rénale.",
+        "quoteEnglish": "The severity of myelosuppression is aggravated in patients previously treated (notably with cisplatin) and/or in case of impaired renal function.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:61095461#4.4"
+        },
+        "stance": "increases_risk",
+        "outcome": "myelosuppression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French quote and its English rendering match the claim.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The FDA carboplatin label says the incidence of peripheral neurotoxicity is increased in patients older than 65 years and in patients previously treated with cisplatin.",
+        "quote": "Although peripheral neurotoxicity is infrequent, its incidence is increased in patients older than 65 years and in patients previously treated with cisplatin.",
+        "source": {
+          "kind": "fda_label",
+          "id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "neurotoxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote states increased peripheral neurotoxicity incidence after prior cisplatin.",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "The FDA carboplatin label lists a history of severe allergic reactions to cisplatin or other platinum-containing compounds as a contraindication.",
+        "quote": "Carboplatin injection is contraindicated in patients with a history of severe allergic reactions to cisplatin or other platinum-containing compounds.",
+        "source": {
+          "kind": "fda_label",
+          "id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "hypersensitivity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The contraindication quote names severe allergic reactions to cisplatin.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#contraindications",
+        "title": "carboplatin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "4c89cedc-e48b-445c-ad05-54dbe60e4fb0#warnings",
+        "title": "carboplatin: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61095461#4.4",
+        "title": "CARBOPLATINE HIKMA 10 mg/mL, solution à diluer pour perfusion: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61095461/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38942605",
+        "title": "Ovarian microenvironment: challenges and opportunities in protecting against chemotherapy-associated ovarian damage.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38942605/",
+        "citation": "1460-2369 30 5 2024 Oct 1 Human reproduction update Hum Reprod Update",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "15533760",
+        "title": "Molecular mechanisms of platinum resistance: still searching for the Achilles' heel.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15533760/",
+        "citation": "1368-7646 7 4-5 2004 Aug-Oct Drug resistance updates : reviews and commentaries in antimicrobial and anticancer chemotherapy Drug Resist Updat",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33285097",
+        "title": "Durvalumab, with or without tremelimumab, plus platinum-etoposide versus platinum-etoposide alone in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN): updated results from a randomised, controlled, open-label, phase 3 trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33285097/",
+        "citation": "1474-5488 22 1 2021 Jan The Lancet. Oncology Lancet Oncol",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38039991",
+        "title": "Durvalumab versus placebo with chemoradiotherapy for locally advanced cervical cancer (CALLA): a randomised, double-blind, phase 3 trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38039991/",
+        "citation": "1474-5488 24 12 2023 Dec The Lancet. Oncology Lancet Oncol",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c4"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Carboplatin or Cisplatin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Carboplatin and Cisplatin, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The statements concern carboplatin after prior cisplatin treatment. The PubMed records are chemotherapy trials and reviews that do not report an interaction between the two drugs.",
+        "searched": [
+          "\"carboplatin\"[tiab] AND \"cisplatin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.681Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,21 @@
+{
+  "pair": "budesonide__desmopressin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The desmopressin injection boxed warning contraindicates use in patients using systemic or inhaled glucocorticoids, a class that clearly includes budesonide."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "card": {
+    "pair": "alcohol__cyclophosphamide",
+    "a": "alcohol",
+    "b": "cyclophosphamide",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The French label says alcohol can increase cyclophosphamide-induced nausea and vomiting.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Alcohol can amplify nausea and vomiting caused by cyclophosphamide.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The label also reports reduced antitumor activity in animals given ethanol and low-dose oral cyclophosphamide.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French label says alcohol can increase cyclophosphamide-induced nausea and vomiting.",
+        "quote": "La consommation d’alcool est susceptible d’augmenter les nausées et vomissements induits par le cyclophosphamide.",
+        "quoteEnglish": "Alcohol consumption can increase nausea and vomiting induced by cyclophosphamide.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62554177#4.4"
+        },
+        "stance": "increases_risk",
+        "outcome": "nausea_vomiting",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French 4.4 sentence states alcohol consumption is liable to increase cyclophosphamide-induced nausea and vomiting, and the translation is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French label reports reduced antitumor activity in tumor-bearing animals given ethanol and low-dose oral cyclophosphamide.",
+        "quote": "Une réduction de l’activité antitumorale a été observée chez les animaux porteurs d’une tumeur ayant reçu de l’éthanol (alcool) et une faible dose de cyclophosphamide par voie orale.",
+        "quoteEnglish": "Reduced antitumor activity was observed in tumor-bearing animals given ethanol (alcohol) and a low dose of oral cyclophosphamide.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62554177#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French 4.5 alcohol entry reports reduced antitumor activity in tumor-bearing animals given ethanol and low-dose oral cyclophosphamide, and the claim keeps the animal scope.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "c961a1ac-6705-4756-9abc-9d84a6fcb5c8#warnings_and_cautions",
+        "title": "cyclophosphamide: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c961a1ac-6705-4756-9abc-9d84a6fcb5c8",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62554177#4.4",
+        "title": "ENDOXAN 50 mg, comprimé enrobé: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62554177/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62554177#4.5",
+        "title": "ENDOXAN 50 mg, comprimé enrobé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62554177/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28470980",
+        "title": "Aprepitant and fosaprepitant drug interactions: a systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28470980/",
+        "citation": "1365-2125 83 10 2017 Oct British journal of clinical pharmacology Br J Clin Pharmacol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "473226",
+        "title": "The influence of ethanol treatment of cytogenetic effects in bone marrow cells of Chinese hamsters by cyclophosphamide, aflatoxin B1 and patulin.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/473226/",
+        "citation": "0300-483X 12 1 1979 Jan Toxicology Toxicology",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37843082",
+        "title": "Cuminum cyminum Ameliorates Urotoxic Effects of Cyclophosphamide by Modulating Antioxidant, Inflammatory Cytokines, and Urinary Bladder Overactivity: In vivo and in Silico Investigations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37843082/",
+        "citation": "1612-1880 20 12 2023 Dec Chemistry & biodiversity Chem Biodivers",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36677632",
+        "title": "Carica papaya Molecular Docking of Bacterial Protein Modulators and Pharmacotherapeutics ofLeaves as a Promising Therapy for Sepsis: Synchronising In Silico and In Vitro Studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36677632/",
+        "citation": "1420-3049 28 2 2023 Jan 6 Molecules (Basel, Switzerland) Molecules",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Cyclophosphamide and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.561Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

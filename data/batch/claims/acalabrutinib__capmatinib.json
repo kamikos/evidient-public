@@ -1,0 +1,20 @@
+{
+  "pair": "acalabrutinib__capmatinib",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acalabrutinib label section does not mention capmatinib, and the PubMed review found describes kinase inhibitors in general; no study of the combination was found.",
+      "searched": [
+        "\"acalabrutinib\"[tiab] AND \"capmatinib\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

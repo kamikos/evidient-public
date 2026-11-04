@@ -1,0 +1,111 @@
+{
+  "card": {
+    "pair": "alcohol__pitavastatin",
+    "a": "alcohol",
+    "b": "pitavastatin",
+    "origin": "batch",
+    "category": "liver",
+    "headline": {
+      "text": "The FDA pitavastatin label identifies substantial alcohol consumption as a possible hepatic injury risk factor.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes increased susceptibility rather than a quantified interaction rate.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA pitavastatin label says substantial alcohol consumption may increase hepatic injury risk.",
+        "quote": "Patients who consume substantial quantities of alcohol and/or have a history of liver disease may be at increased risk for hepatic injury.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9ad1ecb9-822d-47c1-9f6f-6f771fa0f924#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "liver_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The pitavastatin label states patients consuming substantial alcohol may be at increased risk of hepatic injury.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "9ad1ecb9-822d-47c1-9f6f-6f771fa0f924#warnings_and_cautions",
+        "title": "pitavastatin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9ad1ecb9-822d-47c1-9f6f-6f771fa0f924",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27899849",
+        "title": "Statin Therapy: Review of Safety and Potential Side Effects.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27899849/",
+        "citation": "1011-6842 32 6 2016 Nov Acta Cardiologica Sinica Acta Cardiol Sin",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31798654",
+        "title": "Understanding the effect of lipid formulation loading and ethanol as a diluent on solidification of pitavastatin super-saturable SNEDDS using factorial design approach.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31798654/",
+        "citation": "1735-5362 14 5 2019 Oct Research in pharmaceutical sciences Res Pharm Sci",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "37130442",
+        "title": "Identification of key upregulated genes involved in foam cell formation and the modulatory role of statin therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37130442/",
+        "citation": "1878-1705 119 2023 Jun International immunopharmacology Int Immunopharmacol",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Pitavastatin and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.606Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

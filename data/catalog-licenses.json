@@ -1,0 +1,38 @@
+{
+  "FR": {
+    "license": "Licence Ouverte / BDPM reuse terms",
+    "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+    "attribution": "Base de données publique des médicaments, updated 03/11/2026, retrieved 2026-11-03. Filtered name index only; original meaning preserved. No ANSM, HAS or UNCAM endorsement.",
+    "updated": "2026-11-03"
+  },
+  "IT": {
+    "license": "CC BY 4.0",
+    "terms": "https://www.aifa.gov.it/open-data",
+    "attribution": "Agenzia Italiana del Farmaco (AIFA), Anagrafica farmaci and Principi Attivi, retrieved 2026-11-03. Filtered and mapped to RxNorm. Provisional descriptive registry data.",
+    "updated": "2026-11-02 (daily previous-day publication)"
+  },
+  "CA": {
+    "license": "Open Government Licence - Canada 2.0",
+    "terms": "https://open.canada.ca/data/api/action/package_show?id=bf55e42a-63cb-4556-bfd8-44f26e5a36fe",
+    "attribution": "Contains information licensed under the Open Government Licence – Canada. Health Canada, Drug Product Database, retrieved 2026-11-03. Filtered human marketed single-ingredient records.",
+    "updated": "nightly API snapshot 2026-11-03"
+  },
+  "NO": {
+    "license": "NLOD",
+    "terms": "https://www.dmp.no/contentassets/3cb9b85e742745d4b1db7d899eb987b7/202511_implementeringsveiledning-fest-v3.6.pdf",
+    "attribution": "Direktoratet for medisinske produkter (DMP), FEST Rekvirent 2.5.1, HentetDato 2026-10-27T12:25:20, retrieved 2026-11-03. Filtered and mapped to RxNorm; no endorsement.",
+    "updated": "2026-10-27T12:25:20"
+  },
+  "US": {
+    "license": "Public domain / CC0 1.0",
+    "terms": "https://open.fda.gov/license/",
+    "attribution": "U.S. Food and Drug Administration, openFDA NDC, export 2026-11-03. Not a source of clinical or approval conclusions.",
+    "updated": "2026-11-03"
+  },
+  "DSLD": {
+    "license": "CC0 1.0",
+    "terms": "https://api.ods.od.nih.gov/dsld/v9/",
+    "attribution": "NIH Office of Dietary Supplements, Dietary Supplement Label Database, retrieved 2026-11-03. Ingredient-group names and source synonyms; no reviewed evidence linkage or endorsement.",
+    "updated": "API snapshot 2026-11-03"
+  }
+}

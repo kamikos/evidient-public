@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__diazepam",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The FDA label says concomitant alcohol is not recommended due to enhancement of the sedative effect."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The Spanish SmPC says sedation and respiratory depression may be potentiated when Valium is given with CNS depressants including alcohol; the translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

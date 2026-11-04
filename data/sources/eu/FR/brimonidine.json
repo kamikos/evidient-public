@@ -1,0 +1,28 @@
+{
+  "inn": "brimonidine",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60574868",
+  "product": "BRIMAZED 2 mg/mL, collyre en solution en récipient unidose",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60574868/extrait",
+  "retrievedAt": "2026-11-04T08:42:01.990Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "bb68a5e38eed7ecc5a7aaf53c10cee8d7e8646c8b00ea5940e57899a82acf001",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nTroubles cardiaques\n\nUne attention particulière est nécessaire chez les patients atteints d'une maladie cardio&#8209;vasculaire sévère ou instable et incontrôlée.\n\nTroubles oculaires\n\nLors des essais cliniques, quelques patients (12,7 %) ont présenté une réaction de type allergique oculaire avec un collyre de brimonidine avec conservateur en solution multidose (voir rubrique 4.8). En cas de réaction allergique, le traitement avec BRIMAZED doit être arrêté.\n\nDes réactions d'hypersensibilité oculaires retardées ont été rapportées avec un collyre de brimonidine avec conservateur en solution multidose, certaines étaient associées à une augmentation de la pression intra&#8209;oculaire.\n\nTroubles vasculaires\n\nBRIMAZED doit être utilisé avec précaution chez les patients souffrant de dépression, d'insuffisance cérébrale ou coronarienne, de phénomène de Raynaud, d'hypotension orthostatique ou de thromboangéite oblitérante.\n\nInsuffisance rénale et hépatique\n\nBRIMAZED n'a pas été étudié chez les patients présentant des troubles hépatiques ou rénaux. Une attention particulière est nécessaire en cas de traitement de ces patients.\n\nPopulation pédiatrique\n\nLes enfants de deux ans ou plus, en particulier ceux âgés de 2 à 7 ans et/ou de poids inférieur ou égal à 20 kg, doivent être traités avec précaution et étroitement surveillés en raison de l'incidence élevée et de la sévérité de la somnolence (voir rubrique 4.8).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60574868/extrait#tabpanel-rcp-panel",
+      "sha256": "46c7c389f6046c1fcdcf9ec0666a6fae5ff7fd4efc0630688a525b44016b8886"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nBRIMAZED est contre-indiqué chez les patients traités par inhibiteurs de la monoamine oxydase (IMAO) et chez les patients traités par antidépresseurs affectant la transmission noradrénergique (ex: antidépresseurs tricycliques et miasérine) (Voir rubrique 4.3).\n\nBien qu'il n'y ait pas d'étude spécifique sur les interactions médicamenteuses avec la brimonidine, la possibilité d'un effet additif ou potentialisateur en cas de prise de dépresseurs du système nerveux central (SNC) (alcool, barbituriques, opiacés, sédatifs ou anesthésiques) doit être prise en compte.\n\nOn ne dispose d'aucune information concernant le niveau des catécholamines circulantes après l'instillation d’un collyre contenant de la brimonidine. En conséquence, il convient de faire preuve de vigilance avec les patients prenant des médicaments risquant d'affecter le métabolisme et la fixation des amines circulantes (ex: chlorpromazine, méthylphénidate, réserpine).\n\nAprès l'instillation d’un collyre contenant de la brimonidine, on a observé chez quelques patients des diminutions de la tension artérielle non significatives du point de vue clinique. Il convient d'être vigilant en cas de prise concomitante de BRIMAZED et d'antihypertenseurs et/ou de glucosides cardiotoniques.\n\nUne attention particulière est recommandée lors de l'instauration (ou de la modification de la posologie) d'un traitement systémique concomitant (quelle que soit la forme pharmaceutique) susceptible d'interagir avec des agonistes &#945;-adrénergiques ou d'interférer avec leur activité, tels que les agonistes ou antagonistes des récepteurs adrénergiques (ex.: isoprénaline, prazosine).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60574868/extrait#tabpanel-rcp-panel",
+      "sha256": "b63e2f5bb29c6f158d2475486ec6d2550d8d1c1a667a6fe2d63edf9fa8115e57"
+    }
+  ]
+}

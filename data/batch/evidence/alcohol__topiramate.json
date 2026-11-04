@@ -1,0 +1,129 @@
+{
+  "card": {
+    "pair": "alcohol__topiramate",
+    "a": "alcohol",
+    "b": "topiramate",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says topiramate and alcohol coadministration has not been evaluated in clinical studies.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies a lack of clinical coadministration studies.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA topiramate label says coadministration with alcohol has not been evaluated in clinical studies.",
+        "quote": "Concomitant administration of topiramate and alcohol or other CNS depressant drugs has not been evaluated in clinical studies.",
+        "source": {
+          "kind": "fda_label",
+          "id": "be42ed09-350c-4e8a-aff4-6afb242dd599#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states concomitant topiramate and alcohol has not been evaluated in clinical studies.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "be42ed09-350c-4e8a-aff4-6afb242dd599#drug_interactions",
+        "title": "topiramate: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be42ed09-350c-4e8a-aff4-6afb242dd599",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61913385#4.5",
+        "title": "EPITOMAX 100 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61913385/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38706338",
+        "title": "Topiramate Versus Naltrexone for Alcohol Use Disorder: A Genotype-Stratified Double-Blind Randomized Controlled Trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38706338/",
+        "citation": "1535-7228 181 5 2024 May 1 The American journal of psychiatry Am J Psychiatry",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34509497",
+        "title": "Antagonism of GluK1-containing kainate receptors reduces ethanol consumption by modulating ethanol reward and withdrawal.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34509497/",
+        "citation": "1873-7064 199 2021 Nov 1 Neuropharmacology Neuropharmacology",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "25496338",
+        "title": "Self-efficacy mediates the effects of topiramate and GRIK1 genotype on drinking.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25496338/",
+        "citation": "1369-1600 21 2 2016 Mar Addiction biology Addict Biol",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Topiramate and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet's human trials examine treatment of alcohol use rather than an acute coadministration interaction.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"topiramate\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.623Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

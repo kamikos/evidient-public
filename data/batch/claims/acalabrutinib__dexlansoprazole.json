@@ -1,0 +1,53 @@
+{
+  "pair": "acalabrutinib__dexlansoprazole",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA acalabrutinib label lists proton pump inhibitors as drugs not to be co-administered. Dexlansoprazole is a proton pump inhibitor but is not named.",
+      "quote": "Gastric Acid Reducing Agents: Avoid co-administration with proton pump inhibitors (PPIs).",
+      "sourceId": "dd4835ef-e1bc-4997-a399-1ffa2556fbfe#drug_interactions",
+      "stance": "increases_risk",
+      "outcome": "drug_interaction"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA acalabrutinib label says separating doses may not eliminate the interaction with proton pump inhibitors because of their long-lasting effect.",
+      "quote": "Due to the long-lasting effect of proton pump inhibitors, separation of doses may not eliminate the interaction with CALQUENCE.",
+      "sourceId": "dd4835ef-e1bc-4997-a399-1ffa2556fbfe#drug_interactions",
+      "stance": "mechanism",
+      "outcome": "drug_interaction"
+    }
+  ],
+  "headline": {
+    "text": "The FDA acalabrutinib label lists proton pump inhibitors as a class not to be co-administered (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The label states that dose separation may not remove the interaction with proton pump inhibitors; dexlansoprazole is not named.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The label attributes the persistent interaction to the long-lasting effect of proton pump inhibitors.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No study of acalabrutinib with dexlansoprazole was found in the PubMed search.",
+      "searched": [
+        "\"acalabrutinib\"[tiab] AND \"dexlansoprazole\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

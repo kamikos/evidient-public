@@ -1,0 +1,119 @@
+{
+  "card": {
+    "pair": "acitretin__chlortetracycline",
+    "a": "acitretin",
+    "b": "chlortetracycline",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label contraindicates acitretin with tetracyclines because of increased intracranial pressure.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The warning covers chlortetracycline through its tetracycline class.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label contraindicates acitretin with tetracyclines, the class containing chlortetracycline, because both can increase intracranial pressure.",
+        "quote": "Since both acitretin and tetracyclines can cause increased intracranial pressure, their combined use is contraindicated",
+        "source": {
+          "kind": "fda_label",
+          "id": "a6546625-acb8-460e-b34e-f795bfb3680a#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "intracranial_hypertension",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The acitretin label contraindicates combined use with tetracyclines because both raise intracranial pressure, and chlortetracycline is a tetracycline.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "a6546625-acb8-460e-b34e-f795bfb3680a#contraindications",
+        "title": "acitretin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6546625-acb8-460e-b34e-f795bfb3680a",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a6546625-acb8-460e-b34e-f795bfb3680a#warnings",
+        "title": "acitretin: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6546625-acb8-460e-b34e-f795bfb3680a",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a6546625-acb8-460e-b34e-f795bfb3680a#precautions",
+        "title": "acitretin: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6546625-acb8-460e-b34e-f795bfb3680a",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a6546625-acb8-460e-b34e-f795bfb3680a#drug_interactions",
+        "title": "acitretin: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a6546625-acb8-460e-b34e-f795bfb3680a",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Acitretin or Chlortetracycline, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Acitretin and Chlortetracycline, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no PubMed abstract studying this specific combination.",
+        "searched": [
+          "\"acitretin\"[tiab] AND \"chlortetracycline\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.539Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

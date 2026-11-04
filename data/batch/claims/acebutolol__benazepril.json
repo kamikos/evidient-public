@@ -1,0 +1,20 @@
+{
+  "pair": "acebutolol__benazepril",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acebutolol label sections cover pregnancy and do not name benazepril; no human study was found.",
+      "searched": [
+        "\"acebutolol\"[tiab] AND \"benazepril\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

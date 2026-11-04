@@ -1,0 +1,31 @@
+{
+  "pair": "abacavir__alcohol",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "cEU1",
+      "text": "The EMA abacavir label reports about 41% higher abacavir exposure with ethanol and says this is not considered clinically significant.",
+      "quote": "Ethanol: the metabolism of abacavir is altered by concomitant ethanol resulting in an increase in AUC of abacavir of about 41%. These findings are not considered clinically significant.",
+      "sourceId": "EU:EMEA/H/C/000252#4.5",
+      "stance": "no_effect_observed",
+      "outcome": "abacavir_exposure"
+    }
+  ],
+  "headline": {
+    "text": "The EMA abacavir label reports about 41% higher abacavir exposure with ethanol and says this is not considered clinically significant.",
+    "claimIds": [
+      "cEU1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The EMA abacavir label reports about 41% higher abacavir exposure with ethanol and says this is not considered clinically significant.",
+      "claimIds": [
+        "cEU1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": []
+}

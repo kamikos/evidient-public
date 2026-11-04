@@ -1,0 +1,21 @@
+{
+  "pair": "amphetamine__buspirone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The amphetamine warning explicitly lists buspirone among serotonergic drugs with which serotonin syndrome may occur."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

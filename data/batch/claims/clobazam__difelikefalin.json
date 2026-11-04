@@ -1,0 +1,20 @@
+{
+  "pair": "clobazam__difelikefalin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The clobazam label describes benzodiazepine and opioid use together but does not mention difelikefalin.",
+      "searched": [
+        "\"clobazam\"[tiab] AND \"difelikefalin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

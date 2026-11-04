@@ -1,0 +1,30 @@
+{
+  "pair": "atazanavir__colchicine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The colchicine contraindication covers all protease inhibitors except fosamprenavir in renal or hepatic impairment and reports life-threatening and fatal toxicity; atazanavir is a protease inhibitor."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The FAERS disproportionality abstract reports the strongest ROR signal for colchicine plus atazanavir and rhabdomyolysis/myopathy (ROR 35.4), and the claim frames it as a reporting signal."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

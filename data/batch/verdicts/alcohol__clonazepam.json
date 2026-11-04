@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__clonazepam",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The clonazepam label states the CNS-depressant action of benzodiazepines may be potentiated by alcohol."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The Rivotril SmPC states sedation and cardiorespiratory depression may be intensified with alcohol, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

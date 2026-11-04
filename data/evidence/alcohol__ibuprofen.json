@@ -1,0 +1,536 @@
+{
+  "card": {
+    "pair": "alcohol__ibuprofen",
+    "a": "alcohol",
+    "b": "ibuprofen",
+    "category": "bleeding",
+    "depth": "limited",
+    "headline": {
+      "text": "Alcohol use raises gastrointestinal bleeding risk in ibuprofen-treated patients",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Alcohol use is listed among factors that increase gastrointestinal bleeding risk in patients treated with nonsteroidal anti-inflammatory drugs including ibuprofen.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "Whether alcohol and ibuprofen interactively combine to enhance bleeding risk remains unconfirmed and needs further research in adults.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Ibuprofen and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Alcohol use increases GI bleeding risk in ibuprofen-treated patients",
+        "quote": "Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "gi_bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly identifies alcohol use as a factor that increases GI bleeding risk in patients treated with NSAIDs, a class that includes ibuprofen, supporting both the claim and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "Alcohol plus ibuprofen interaction for GI bleeding remains unconfirmed in adults",
+        "quote": "Information on recent (within the past week) use of multiple analgesics, plus data on tobacco, alcohol and other factors, were obtained from 627 patients enrolled in the ACG GI bleeding registry and from 590 procedure-matched controls. Odds ratios (OR) were calculated as the measure of association between GI bleeding and the exposures of interest. Risk of GI bleeding was increased 2-3 fold among recent users of aspirin, ibuprofen and other nonsteroidal anti-inflammatory drugs (NSAIDs) at OTC doses, with risk increasing in a dose-related manner. In contrast, no excess was found among acetaminophen (paracetamol) users. Alcohol consumption was also a risk factor, with doubled risks of GI bleeding among drinkers. While these study results are not definitive, the findings are consistent with limited other data also reviewed, and suggest the need for further epidemiologic research to clarify the association between use of NSAIDs at OTC levels and risk of GI bleeding, and to determine whether NSAIDs and alcohol may interactively combine to enhance risk.",
+        "source": {
+          "kind": "pubmed",
+          "id": "10890286"
+        },
+        "stance": "uncertain",
+        "outcome": "gi_bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly calls the results not definitive and states further research is needed to determine whether NSAIDs, including ibuprofen, and alcohol interactively enhance GI-bleeding risk, matching the uncertain and unconfirmed claim.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "Combined ulcer-bleeding risk factors did not potentiate risk in 94 matched pairs",
+        "quote": "PUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method. H. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB. Previous DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.",
+        "source": {
+          "kind": "pubmed",
+          "id": "17994466"
+        },
+        "stance": "uncertain",
+        "outcome": "gi_bleeding",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "Does_not_support because the quote reports a measured finding that combined risk factors generally did not potentiate PUB risk, not explicit uncertainty about alcohol plus ibuprofen specifically, so the uncertain stance and pair-specific claim are not supported.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "00872852-680a-41b3-901b-b991b12a176d#warnings",
+        "title": "Warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00872852-680a-41b3-901b-b991b12a176d",
+        "citation": "FDA label · Warnings",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "17994466",
+        "title": "Analysis of the risk factors and their combinations in acute gastroduodenal ulcer bleeding: a case-control study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17994466/",
+        "citation": "Udd et al. · Scandinavian journal of gastroenterology 2007",
+        "design": "other",
+        "year": 2007,
+        "population": "PUB patients compared with age- and gender-matched control group of non-ulcer patients attending elective endoscopy"
+      },
+      {
+        "kind": "pubmed",
+        "id": "10890286",
+        "title": "Over the counter non-steroidal anti-inflammatory drugs and risk of gastrointestinal bleeding.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10890286/",
+        "citation": "Blot et al. · Journal of epidemiology and biostatistics 2000",
+        "design": "other",
+        "year": 2000,
+        "population": "627 patients enrolled in the ACG GI bleeding registry and 590 procedure-matched controls"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:51:47.285Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__ibuprofen",
+      "at": "2026-11-03T19:50:13.041Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00872852-680a-41b3-901b-b991b12a176d#warnings",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00872852-680a-41b3-901b-b991b12a176d#warnings"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f673f175648b6eaf33e147dfb8",
+      "name": "record_claim",
+      "args": {
+        "outcome": "gi_bleeding",
+        "quote": "Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status.",
+        "sourceId": "00872852-680a-41b3-901b-b991b12a176d#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "Alcohol use increases GI bleeding risk in ibuprofen-treated patients"
+      },
+      "t": 11879
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "Alcohol use increases GI bleeding risk in ibuprofen-treated patients",
+        "quote": "Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status.",
+        "source": {
+          "kind": "fda_label",
+          "id": "00872852-680a-41b3-901b-b991b12a176d#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "gi_bleeding"
+      },
+      "t": 11879
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f673f175648b6eaf33e147dfb8",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 11879
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f6782b77a1a50b67db2d9d7796",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol ibuprofen gastrointestinal bleeding human study"
+      },
+      "t": 11879
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f6782b77a1a50b67db2d9d7796",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol ibuprofen gastrointestinal bleeding human study\",\"pmids\":[\"29722073\",\"20657632\",\"18164916\",\"17994466\",\"10890286\"]}",
+      "t": 12342
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f6797f7085888c7ed9dbeb862b",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol ibuprofen combination adults gastrointestinal bleeding"
+      },
+      "t": 12342
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f6797f7085888c7ed9dbeb862b",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol ibuprofen combination adults gastrointestinal bleeding\",\"pmids\":[\"29722073\",\"20657632\",\"17994466\",\"10890286\",\"10566713\"]}",
+      "t": 13012
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f6962f72ae9fcd4814928d5e6c",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "17994466",
+          "10890286"
+        ]
+      },
+      "t": 20033
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f6962f72ae9fcd4814928d5e6c",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"17994466\",\"title\":\"Analysis of the risk factors and their combinations in acute gastroduodenal ulcer bleeding: a case-control study.\",\"journal\":\"Scandinavian journal of gastroenterology\",\"year\":\"2007\",\"abstractText\":\"Traditional non-steroidal anti-inflammatory drugs (NSAIDs) including ASA for thrombosis prophylaxis (ASA-TP), for pain medication (ASA-P) or non-ASA NSAIDs (NANSAIDs), Helicobacter pylori infection, CagA strains of H. pylori and smoking are reported risk factors for peptic ulcer bleeding (PUB), but the combined and the dose effects of these factors are controversial. The aim of this study was to estimate the significance of these risk factors and their combinations in PUB.\\n\\nPUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method.\\n\\nH. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB.\\n\\nPrevious DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Udd\",\"kind\":\"pubmed\",\"id\":\"17994466\",\"text\":\"Traditional non-steroidal anti-inflammatory drugs (NSAIDs) including ASA for thrombosis prophylaxis (ASA-TP), for pain medication (ASA-P) or non-ASA NSAIDs (NANSAIDs), Helicobacter pylori infection, CagA strains of H. pylori and smoking are reported risk factors for peptic ulcer bleeding (PUB), but the combined and the dose effects of these factors are controversial. The aim of this study was to estimate the significance of these risk factors and their combinations in PUB.\\n\\nPUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method.\\n\\nH. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB.\\n\\nPrevious DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.\"},{\"pmid\":\"10890286\",\"title\":\"Over the counter non-steroidal anti-inflammatory drugs and risk of gastrointestinal bleeding.\",\"journal\":\"Journal of epidemiology and biostatistics\",\"year\":\"2000\",\"abstractText\":\"Independent analyses of data from a case-control study conducted by the American College of Gastroenterology (ACG) were performed to evaluate and quantify potential risks of gastrointestinal (GI) bleeding associated with use of analgesics at over the counter (OTC) doses.\\n\\nInformation on recent (within the past week) use of multiple analgesics, plus data on tobacco, alcohol and other factors, were obtained from 627 patients enrolled in the ACG GI bleeding registry and from 590 procedure-matched controls. Odds ratios (OR) were calculated as the measure of association between GI bleeding and the exposures of interest.\\n\\nRisk of GI bleeding was increased 2-3 fold among recent users of aspirin, ibuprofen and other nonsteroidal anti-inflammatory drugs (NSAIDs) at OTC doses, with risk increasing in a dose-related manner. In contrast, no excess was found among acetaminophen (paracetamol) users. Alcohol consumption was also a risk factor, with doubled risks of GI bleeding among drinkers.\\n\\nWhile these study results are not definitive, the findings are consistent with limited other data also reviewed, and suggest the need for further epidemiologic research to clarify the association between use of NSAIDs at OTC levels and risk of GI bleeding, and to determine whether NSAIDs and alcohol may interactively combine to enhance risk.\",\"publicationTypes\":[\"Journal Article\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Blot\",\"kind\":\"pubmed\",\"id\":\"10890286\",\"text\":\"Independent analyses of data from a case-control study conducted by the American College of Gastroenterology (ACG) were performed to evaluate and quantify potential risks of gastrointestinal (GI) bleeding associated with use of analgesics at over the counter (OTC) doses.\\n\\nInformation on recent (within the past week) use of multiple analgesics, plus data on tobacco, alcohol and other factors, were obtained from 627 patients enrolled in the ACG GI bleeding registry and from 590 procedure-matched controls. Odds ratios (OR) were calculated as the measure of association between GI bleeding and the exposures of interest.\\n\\nRisk of GI bleeding was increased 2-3 fold among recent users of aspirin, ibuprofen and other nonsteroidal anti-inflammatory drugs (NSAIDs) at OTC doses, with risk increasing in a dose-related manner. In contrast, no excess was found among acetaminophen (paracetamol) users. Alcohol consumption was also a risk factor, with doubled risks of GI bleeding among drinkers.\\n\\nWhile these study results are not definitive, the findings are consistent with limited other data also reviewed, and suggest the need for further epidemiologic research to clarify the association between use of NSAIDs at OTC levels and risk of GI bleeding, and to determine whether NSAIDs and alcohol may interactively combine to enhance risk.\"}]",
+      "t": 20595
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f6cbc9706a8a2748e41bb35345",
+      "name": "record_claim",
+      "args": {
+        "outcome": "gi_bleeding",
+        "quote": "Information on recent (within the past week) use of multiple analgesics, plus data on tobacco, alcohol and other factors, were obtained from 627 patients enrolled in the ACG GI bleeding registry and from 590 procedure-matched controls. Odds ratios (OR) were calculated as the measure of association between GI bleeding and the exposures of interest. Risk of GI bleeding was increased 2-3 fold among recent users of aspirin, ibuprofen and other nonsteroidal anti-inflammatory drugs (NSAIDs) at OTC doses, with risk increasing in a dose-related manner. In contrast, no excess was found among acetaminophen (paracetamol) users. Alcohol consumption was also a risk factor, with doubled risks of GI bleeding among drinkers. While these study results are not definitive, the findings are consistent with limited other data also reviewed, and suggest the need for further epidemiologic research to clarify the association between use of NSAIDs at OTC levels and risk of GI bleeding, and to determine whether NSAIDs and alcohol may interactively combine to enhance risk.",
+        "sourceId": "10890286",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Alcohol plus ibuprofen interaction for GI bleeding remains unconfirmed in adults"
+      },
+      "t": 38344
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "Alcohol plus ibuprofen interaction for GI bleeding remains unconfirmed in adults",
+        "quote": "Information on recent (within the past week) use of multiple analgesics, plus data on tobacco, alcohol and other factors, were obtained from 627 patients enrolled in the ACG GI bleeding registry and from 590 procedure-matched controls. Odds ratios (OR) were calculated as the measure of association between GI bleeding and the exposures of interest. Risk of GI bleeding was increased 2-3 fold among recent users of aspirin, ibuprofen and other nonsteroidal anti-inflammatory drugs (NSAIDs) at OTC doses, with risk increasing in a dose-related manner. In contrast, no excess was found among acetaminophen (paracetamol) users. Alcohol consumption was also a risk factor, with doubled risks of GI bleeding among drinkers. While these study results are not definitive, the findings are consistent with limited other data also reviewed, and suggest the need for further epidemiologic research to clarify the association between use of NSAIDs at OTC levels and risk of GI bleeding, and to determine whether NSAIDs and alcohol may interactively combine to enhance risk.",
+        "source": {
+          "kind": "pubmed",
+          "id": "10890286"
+        },
+        "stance": "uncertain",
+        "outcome": "gi_bleeding"
+      },
+      "t": 38344
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f6cbc9706a8a2748e41bb35345",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 38344
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f6d2a97511a35a15233e7974db",
+      "name": "record_claim",
+      "args": {
+        "outcome": "gi_bleeding",
+        "quote": "PUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method. H. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB. Previous DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.",
+        "sourceId": "17994466",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Combined ulcer-bleeding risk factors did not potentiate risk in 94 matched pairs"
+      },
+      "t": 38344
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Combined ulcer-bleeding risk factors did not potentiate risk in 94 matched pairs",
+        "quote": "PUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method. H. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB. Previous DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.",
+        "source": {
+          "kind": "pubmed",
+          "id": "17994466"
+        },
+        "stance": "uncertain",
+        "outcome": "gi_bleeding"
+      },
+      "t": 38344
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f6d2a97511a35a15233e7974db",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 38344
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f6dbdd720a8e69cd5072df27d6",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "alcohol ibuprofen gastrointestinal bleeding human study",
+          "alcohol ibuprofen combination adults gastrointestinal bleeding"
+        ],
+        "text": "No direct adult trial measured alcohol plus ibuprofen bleeding risk."
+      },
+      "t": 38344
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f6dbdd720a8e69cd5072df27d6",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 38344
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 53947
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 53947
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 53949
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 53950
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly identifies alcohol use as a factor that increases GI bleeding risk in patients treated with NSAIDs, a class that includes ibuprofen, supporting both the claim and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 57414
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "does_not_support",
+      "rationale": "Does_not_support because the quote reports a measured finding that combined risk factors generally did not potentiate PUB risk, not explicit uncertainty about alcohol plus ibuprofen specifically, so the uncertain stance and pair-specific claim are not supported.",
+      "model": "muse-wonder-1.0",
+      "t": 57856
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly calls the results not definitive and states further research is needed to determine whether NSAIDs, including ibuprofen, and alcohol interactively enhance GI-bleeding risk, matching the uncertain and unconfirmed claim.",
+      "model": "muse-wonder-1.0",
+      "t": 64189
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 75995
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 0.",
+      "t": 94244
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__ibuprofen",
+        "a": "alcohol",
+        "b": "ibuprofen",
+        "category": "bleeding",
+        "depth": "limited",
+        "headline": {
+          "text": "Alcohol use raises gastrointestinal bleeding risk in ibuprofen-treated patients",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "Alcohol use is listed among factors that increase gastrointestinal bleeding risk in patients treated with nonsteroidal anti-inflammatory drugs including ibuprofen.",
+            "claimIds": [
+              "c1"
+            ]
+          },
+          {
+            "text": "Whether alcohol and ibuprofen interactively combine to enhance bleeding risk remains unconfirmed and needs further research in adults.",
+            "claimIds": [
+              "c2"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "no_human_data",
+            "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Ibuprofen and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "Alcohol use increases GI bleeding risk in ibuprofen-treated patients",
+            "quote": "Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status.",
+            "source": {
+              "kind": "fda_label",
+              "id": "00872852-680a-41b3-901b-b991b12a176d#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "gi_bleeding",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly identifies alcohol use as a factor that increases GI bleeding risk in patients treated with NSAIDs, a class that includes ibuprofen, supporting both the claim and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "Alcohol plus ibuprofen interaction for GI bleeding remains unconfirmed in adults",
+            "quote": "Information on recent (within the past week) use of multiple analgesics, plus data on tobacco, alcohol and other factors, were obtained from 627 patients enrolled in the ACG GI bleeding registry and from 590 procedure-matched controls. Odds ratios (OR) were calculated as the measure of association between GI bleeding and the exposures of interest. Risk of GI bleeding was increased 2-3 fold among recent users of aspirin, ibuprofen and other nonsteroidal anti-inflammatory drugs (NSAIDs) at OTC doses, with risk increasing in a dose-related manner. In contrast, no excess was found among acetaminophen (paracetamol) users. Alcohol consumption was also a risk factor, with doubled risks of GI bleeding among drinkers. While these study results are not definitive, the findings are consistent with limited other data also reviewed, and suggest the need for further epidemiologic research to clarify the association between use of NSAIDs at OTC levels and risk of GI bleeding, and to determine whether NSAIDs and alcohol may interactively combine to enhance risk.",
+            "source": {
+              "kind": "pubmed",
+              "id": "10890286"
+            },
+            "stance": "uncertain",
+            "outcome": "gi_bleeding",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly calls the results not definitive and states further research is needed to determine whether NSAIDs, including ibuprofen, and alcohol interactively enhance GI-bleeding risk, matching the uncertain and unconfirmed claim.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "Combined ulcer-bleeding risk factors did not potentiate risk in 94 matched pairs",
+            "quote": "PUB patients (n = 94) were compared with an age- (+/- 5 years) and gender-matched control group of non-ulcer patients (n = 94) attending elective endoscopy. A questionnaire on the possible risk factors (previous gastric and duodenal ulcer, use of ASA-TP, ASA-P, NANSAIDs, warfarin, alcohol and smoking) was completed. H. pylori infection was determined as positive if histology and/or urease tests were positive. CagA antibodies of IgG class were determined using an immunoblot method. H. pylori infection (odds ratio (OR) 8.8), the use of ASA-P (OR 3.5), ASA-TP (OR 4.07), NANSAIDs with > or =1 defined daily dose (OR 6.56), smoking > or =20 cigarettes daily (OR 6.43) and previous duodenal ulcer (DU) (OR 8.96) were independent risk factors for PUB. At least two risk factors were present in 65% of PUB patients. CagA strains were detected in 97% of the H. pylori-positive cases and in 96% of the respective controls. ASA, ibuprofen, ketoprofen and smoking were dose-dependent risk factors for PUB. Previous DU, H. pylori, the use of any ASA and smoking explained the majority of the PUB episodes. CagA strains of H. pylori were not associated with PUB. Two-thirds of the PUB patients had at least two risk factors, but their combination did not potentiate the risk.",
+            "source": {
+              "kind": "pubmed",
+              "id": "17994466"
+            },
+            "stance": "uncertain",
+            "outcome": "gi_bleeding",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "Does_not_support because the quote reports a measured finding that combined risk factors generally did not potentiate PUB risk, not explicit uncertainty about alcohol plus ibuprofen specifically, so the uncertain stance and pair-specific claim are not supported.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "00872852-680a-41b3-901b-b991b12a176d#warnings",
+            "title": "Warnings",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00872852-680a-41b3-901b-b991b12a176d",
+            "citation": "FDA label · Warnings",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "17994466",
+            "title": "Analysis of the risk factors and their combinations in acute gastroduodenal ulcer bleeding: a case-control study.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17994466/",
+            "citation": "Udd et al. · Scandinavian journal of gastroenterology 2007",
+            "design": "other",
+            "year": 2007,
+            "population": "PUB patients compared with age- and gender-matched control group of non-ulcer patients attending elective endoscopy"
+          },
+          {
+            "kind": "pubmed",
+            "id": "10890286",
+            "title": "Over the counter non-steroidal anti-inflammatory drugs and risk of gastrointestinal bleeding.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10890286/",
+            "citation": "Blot et al. · Journal of epidemiology and biostatistics 2000",
+            "design": "other",
+            "year": 2000,
+            "population": "627 patients enrolled in the ACG GI bleeding registry and 590 procedure-matched controls"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:51:47.285Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 94244
+    }
+  ]
+}

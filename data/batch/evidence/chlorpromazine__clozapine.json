@@ -1,0 +1,148 @@
+{
+  "card": {
+    "pair": "chlorpromazine__clozapine",
+    "a": "chlorpromazine",
+    "b": "clozapine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The French label says atropinic drugs can add adverse effects; it lists phenothiazine neuroleptics and clozapine among them.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label says atropinic substances can add their adverse effects, and its list of atropinic drugs includes phenothiazine neuroleptics and clozapine.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French label says atropinic drugs, including phenothiazine neuroleptics and clozapine, can add their adverse effects such as urinary retention, acute glaucoma, constipation and dry mouth.",
+        "quote": "Il faut prendre en compte le fait que les substances atropiniques peuvent additionner leurs effets indésirables et entraîner plus facilement une rétention urinaire, une poussée aiguë de glaucome, une constipation, une sécheresse de la bouche, etc\n\nLes divers médicaments atropiniques sont représentés par les antidépresseurs imipraminiques, la plupart des antihistaminiques H1 atropiniques, les antiparkinsoniens anticholinergiques, les antispasmodiques atropiniques, le disopyramide, les neuroleptiques phénothiaziniques ainsi que la clozapine.",
+        "quoteEnglish": "It should be taken into account that atropinic substances can add their adverse effects and more easily cause urinary retention, an acute attack of glaucoma, constipation, dry mouth, etc. The various atropinic drugs include imipraminic antidepressants, most atropinic H1 antihistamines, anticholinergic antiparkinsonians, atropinic antispasmodics, disopyramide, phenothiazine neuroleptics and clozapine.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62184888#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "anticholinergic_effects",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The chlorpromazine (Largactil) label lists phenothiazine neuroleptics and clozapine as atropinic drugs whose adverse effects add, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "9709ffde-7034-42be-97be-f5f39eeacf72#boxed_warning",
+        "title": "chlorpromazine: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9709ffde-7034-42be-97be-f5f39eeacf72",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62184888#4.5",
+        "title": "LARGACTIL 25 mg/5 ml, solution injectable en ampoule: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62184888/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2592c9a8-fd74-4e0d-a895-b07b014cf355#warnings_and_cautions",
+        "title": "clozapine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "12973403",
+        "title": "Antipsychotic medication and seizures: a review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12973403/",
+        "citation": "1699-3993 39 7 2003 Jul Drugs of today (Barcelona, Spain : 1998) Drugs Today (Barc)",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28812124",
+        "title": "Clozapine, chlorpromazine and risperidone dose-dependently reduce emotional hyperthermia, a biological marker of salience.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28812124/",
+        "citation": "1432-2072 234 21 2017 Nov Psychopharmacology Psychopharmacology (Berl)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34436341",
+        "title": "Membrane Nanoscopic Organization of D2L Dopamine Receptor Probed by Quantum Dot Tracking.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34436341/",
+        "citation": "2077-0375 11 8 2021 Jul 30 Membranes Membranes (Basel)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26819726",
+        "title": "Hyperglycemic adverse events following antipsychotic drug administration in spontaneous adverse event reports.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26819726/",
+        "citation": "2055-0294 1 2015 Journal of pharmaceutical health care and sciences J Pharm Health Care Sci",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Chlorpromazine or Clozapine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Chlorpromazine and Clozapine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"chlorpromazine\"[tiab] AND \"clozapine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.689Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

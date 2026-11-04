@@ -1,0 +1,102 @@
+{
+  "card": {
+    "pair": "betamethasone__desmopressin",
+    "a": "betamethasone",
+    "b": "desmopressin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA desmopressin injection label identifies systemic glucocorticoid use as a severe hyponatremia risk.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The boxed warning covers systemic betamethasone through the glucocorticoid class and lists concomitant use as contraindicated.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA desmopressin injection label identifies systemic or inhaled glucocorticoid use as a severe hyponatremia risk; this covers systemic betamethasone.",
+        "quote": "Desmopressin acetate is contraindicated in patients at increased risk of severe hyponatremia, such as patients with excessive fluid intake, illnesses that can cause fluid or electrolyte imbalances, and in those using loop diuretics or systemic or inhaled glucocorticoids.",
+        "source": {
+          "kind": "fda_label",
+          "id": "52680415-52a0-61c2-e063-6294a90ae27e#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "hyponatremia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The desmopressin boxed warning contraindicates use in patients on systemic or inhaled glucocorticoids because of severe hyponatremia risk, and systemic betamethasone is a glucocorticoid.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "52680415-52a0-61c2-e063-6294a90ae27e#boxed_warning",
+        "title": "desmopressin: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52680415-52a0-61c2-e063-6294a90ae27e",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "52680415-52a0-61c2-e063-6294a90ae27e#contraindications",
+        "title": "desmopressin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52680415-52a0-61c2-e063-6294a90ae27e",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "52680415-52a0-61c2-e063-6294a90ae27e#warnings_and_cautions",
+        "title": "desmopressin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52680415-52a0-61c2-e063-6294a90ae27e",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Betamethasone or Desmopressin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Betamethasone and Desmopressin, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.667Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

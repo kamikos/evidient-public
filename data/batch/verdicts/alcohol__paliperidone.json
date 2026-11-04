@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__paliperidone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The paliperidone label advises caution with alcohol and the quoted passage gives no specific outcome."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

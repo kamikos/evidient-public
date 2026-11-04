@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__chlorpromazine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label says alcohol use should be avoided due to possible additive effects and hypotension."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The abstract describes a double-blind crossover trial in 20 healthy volunteers and reports inaccuracy, slowed reactions and impaired proprioception and coordination with CPZ plus alcohol."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

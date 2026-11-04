@@ -1,0 +1,129 @@
+{
+  "card": {
+    "pair": "amiodarone__cobicistat",
+    "a": "amiodarone",
+    "b": "cobicistat",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The French label says cobicistat can increase amiodarone adverse effects by decreasing its metabolism.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French amiodarone label identifies increased adverse effects with cobicistat.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The label attributes this interaction to decreased amiodarone metabolism.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French amiodarone label says cobicistat can increase amiodarone adverse effects by decreasing its metabolism.",
+        "quote": "+ Cobicistat\n\nRisque de majoration des effets indésirables de l’amiodarone par diminution de son métabolisme.",
+        "quoteEnglish": "Cobicistat: risk of increased amiodarone adverse effects through decreased metabolism.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62305927#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "amiodarone_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Cordarone SmPC entry for cobicistat states a risk of increased amiodarone adverse effects via decreased metabolism, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62305927#4.5",
+        "title": "CORDARONE 150 mg/3 ml, solution injectable en ampoule (IV): 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62305927/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#contraindications",
+        "title": "cobicistat: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#drug_interactions",
+        "title": "cobicistat: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "29644537",
+        "title": "Drug-Drug Interaction Profile of the Fixed-Dose Combination Tablet Regimen Ledipasvir/Sofosbuvir.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29644537/",
+        "citation": "1179-1926 57 11 2018 Nov Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30526249",
+        "title": "Trends in Utilization of Statin Therapy and Contraindicated Statin Use in HIV--Infected Adults Treated With Antiretroviral Therapy From 2007 Through 2015.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30526249/",
+        "citation": "2047-9980 7 24 2018 Dec 18 Journal of the American Heart Association J Am Heart Assoc",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amiodarone or Cobicistat, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amiodarone and Cobicistat, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.643Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

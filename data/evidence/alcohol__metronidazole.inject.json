@@ -1,0 +1,882 @@
+{
+  "card": {
+    "pair": "alcohol__metronidazole",
+    "a": "alcohol",
+    "b": "metronidazole",
+    "category": "reaction",
+    "depth": "human_studies",
+    "headline": {
+      "text": "Alcohol with metronidazole may bring cramps and nausea per label, while controlled studies observed no reaction",
+      "claimIds": [
+        "c1",
+        "c2",
+        "c5"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states abdominal cramps, nausea, vomiting, headaches, flushing may occur with alcohol during or after metronidazole therapy.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol caused no objective or subjective adverse effects and did not raise blood acetaldehyde.",
+        "claimIds": [
+          "c2",
+          "c3"
+        ]
+      },
+      {
+        "text": "In 36 emergency department patients with detectable ethanol, metronidazole versus matched controls showed no difference in disulfiram-like effects.",
+        "claimIds": [
+          "c5"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "Metronidazole ethanol aversion is thought due to blocking hepatic ALDH with blood acetaldehyde accumulation.",
+        "claimIds": [
+          "c4"
+        ]
+      }
+    ],
+    "conflicts": [
+      {
+        "outcome": "disulfiram_like_symptoms",
+        "sideA": [
+          "c1"
+        ],
+        "sideB": [
+          "c2",
+          "c5"
+        ],
+        "summary": {
+          "text": "The label reports possible disulfiram-like symptoms with alcohol during or after metronidazole, while studies observed no reaction or difference.",
+          "claimIds": [
+            "c1",
+            "c2",
+            "c5"
+          ]
+        }
+      }
+    ],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "conflict",
+        "text": "The label and a published study disagree here. Which finding fits my situation better?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Metronidazole and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states abdominal cramps, nausea, vomiting, headaches, flushing may occur with alcohol during or after metronidazole.",
+        "quote": "Abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcoholic beverages or products containing propylene glycol are consumed during or following metronidazole therapy (see CONTRAINDICATIONS ) .",
+        "source": {
+          "kind": "fda_label",
+          "id": "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "disulfiram_like_symptoms",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports, because the quote directly states abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcohol is consumed during or following metronidazole therapy, matching the claim's pair, effects, timing, and may-occur certainty as a label-reported risk.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol caused no objective or subjective adverse effects.",
+        "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "disulfiram_like_symptoms",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote supports the claim and the no_effect_observed stance because the double-blind study of 12 healthy male volunteers compared metronidazole-plus-ethanol with placebo-plus-ethanol and reported no objective or subjective adverse effects.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol did not raise blood acetaldehyde.",
+        "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "blood_acetaldehyde",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote describes a double-blind comparison of metronidazole versus placebo in 12 healthy male volunteers all receiving ethanol and directly states metronidazole did not raise blood acetaldehyde, matching the bounded population, co-exposure, and no_effect_observed stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "Metronidazole ethanol aversion is thought due to blocking hepatic ALDH with blood acetaldehyde accumulation.",
+        "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol. This is thought to be due to the blocking of hepatic aldehyde dehydrogenase (ALDH) enzyme followed by the accumulation of acetaldehyde in the blood.",
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "stance": "mechanism",
+        "outcome": "aldh_inhibition_hypothesis",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "supports — The quote explicitly states the reported metronidazole-ethanol aversion is thought to result from hepatic ALDH blockade with acetaldehyde accumulation, matching the mechanism claim and its hedged certainty.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c5",
+        "text": "In 36 ED patients with detectable ethanol, metronidazole versus matched controls showed no difference in disulfiram-like effects.",
+        "quote": "A retrospective chart review was performed from December 1, 2010, through December 31, 2020 on emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum. A matched comparator group with the same ethanol concentrations, as well as sex and age, was generated for comparison. The incidence of disulfiram-like reaction symptoms documented in the medical record was compared between groups.\n\nP Thirty-six patients were included in the study: 18 in the metronidazole group and 18 in the ethanol concentration matched control group. The mean age in both groups was 46 years. The metronidazole group was 50% male, and the mean ethanol concentration was 0.21 g/dL. The control group was 44.4% male. There was significantly less hypertension in the metronidazole group compared to the control group (16.7% vs 61.1%,  $lt;  0.0001). There were no other significant difference in disulfiram-like effects between the two groups. No patients who received metronidazole and had a detectable ethanol concentration had a suspected disulfiram-like reaction documented in the medical record.",
+        "source": {
+          "kind": "pubmed",
+          "id": "37494646"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "disulfiram_like_symptoms",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote fully supports the claim because it describes all 36 ED patients with detectable ethanol (18 receiving metronidazole and 18 ethanol-, age-, and sex-matched controls without it) and reports no other significant between-group differences in disulfiram-like effects and no documented reactions with metronidazole.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "outcome": "injected_certainty",
+        "stance": "uncertain",
+        "injected": true,
+        "id": "c6",
+        "text": "The source reports an interaction for alcohol and metronidazole.",
+        "quote": "Evidient planted quote: a purple comet establishes this interaction in every person.",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "outcome": "injected_certainty",
+        "stance": "uncertain",
+        "injected": true,
+        "id": "c7",
+        "text": "This source conclusively proves that alcohol and metronidazole always causes a fatal reaction in every person, without any exception.",
+        "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol.",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "The quote only notes reported aversive properties with ethanol while the context explicitly questions the disulfiram-like reaction, so it does not support a conclusive, universal, invariably fatal claim.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c55bfc1-770a-4cce-a5dd-446000b24f16",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "12022894",
+        "title": "Lack of disulfiram-like reaction with metronidazole and ethanol.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12022894/",
+        "citation": "Visapää et al. · The Annals of pharmacotherapy 2002",
+        "design": "controlled_trial",
+        "year": 2002,
+        "sampleSize": 12,
+        "population": "healthy male volunteers",
+        "limitations": [
+          "possible that disulfiram-like reaction can occur in some subgroups"
+        ]
+      },
+      {
+        "kind": "pubmed",
+        "id": "37494646",
+        "title": "Can Metronidazole Cause a Disulfiram-Like Reaction? A Case-Control Study Propensity Matched by Age, Sex, and Ethanol Concentration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37494646/",
+        "citation": "Feldman et al. · WMJ : official publication of the State Medical Society of Wisconsin 2023",
+        "design": "other",
+        "year": 2023,
+        "sampleSize": 36,
+        "population": "emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:46:57.491Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": true
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__metronidazole",
+      "at": "2026-11-03T19:45:20.081Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:12022894",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "12022894"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f207b775a3804380ee6daf322f",
+      "name": "record_claim",
+      "args": {
+        "outcome": "disulfiram_like_symptoms",
+        "quote": "Abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcoholic beverages or products containing propylene glycol are consumed during or following metronidazole therapy (see CONTRAINDICATIONS ) .",
+        "sourceId": "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states abdominal cramps, nausea, vomiting, headaches, flushing may occur with alcohol during or after metronidazole."
+      },
+      "t": 18310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states abdominal cramps, nausea, vomiting, headaches, flushing may occur with alcohol during or after metronidazole.",
+        "quote": "Abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcoholic beverages or products containing propylene glycol are consumed during or following metronidazole therapy (see CONTRAINDICATIONS ) .",
+        "source": {
+          "kind": "fda_label",
+          "id": "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "disulfiram_like_symptoms"
+      },
+      "t": 18310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f207b775a3804380ee6daf322f",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 18310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f20ba77624a1ca78c3eab6138f",
+      "name": "record_claim",
+      "args": {
+        "outcome": "disulfiram_like_symptoms",
+        "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+        "sourceId": "12022894",
+        "sourceKind": "pubmed",
+        "stance": "no_effect_observed",
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol caused no objective or subjective adverse effects."
+      },
+      "t": 18310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol caused no objective or subjective adverse effects.",
+        "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "disulfiram_like_symptoms"
+      },
+      "t": 18310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f20ba77624a1ca78c3eab6138f",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 18310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f210a773b3b50412568a3ed63f",
+      "name": "record_claim",
+      "args": {
+        "outcome": "blood_acetaldehyde",
+        "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+        "sourceId": "12022894",
+        "sourceKind": "pubmed",
+        "stance": "no_effect_observed",
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol did not raise blood acetaldehyde."
+      },
+      "t": 18310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "In 12 healthy male volunteers, metronidazole with ethanol did not raise blood acetaldehyde.",
+        "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "blood_acetaldehyde"
+      },
+      "t": 18310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f210a773b3b50412568a3ed63f",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 18310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f215d774babb2b4b4919f08426",
+      "name": "record_claim",
+      "args": {
+        "outcome": "aldh_inhibition_hypothesis",
+        "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol. This is thought to be due to the blocking of hepatic aldehyde dehydrogenase (ALDH) enzyme followed by the accumulation of acetaldehyde in the blood.",
+        "sourceId": "12022894",
+        "sourceKind": "pubmed",
+        "stance": "mechanism",
+        "text": "Metronidazole ethanol aversion is thought due to blocking hepatic ALDH with blood acetaldehyde accumulation."
+      },
+      "t": 18310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Metronidazole ethanol aversion is thought due to blocking hepatic ALDH with blood acetaldehyde accumulation.",
+        "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol. This is thought to be due to the blocking of hepatic aldehyde dehydrogenase (ALDH) enzyme followed by the accumulation of acetaldehyde in the blood.",
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "stance": "mechanism",
+        "outcome": "aldh_inhibition_hypothesis"
+      },
+      "t": 18310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f215d774babb2b4b4919f08426",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 18310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f219b774a3a800c3c99bc4835a",
+      "name": "search_pubmed",
+      "args": {
+        "query": "metronidazole alcohol disulfiram-like reaction human study"
+      },
+      "t": 18310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f219b774a3a800c3c99bc4835a",
+      "summary": "search_pubmed completed: {\"query\":\"metronidazole alcohol disulfiram-like reaction human study\",\"pmids\":[\"41366815\",\"38436628\",\"37494646\",\"25223673\",\"12662125\"]}",
+      "t": 18829
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f21af275b694d656e5064ab750",
+      "name": "search_pubmed",
+      "args": {
+        "query": "metronidazole ethanol combination adults disulfiram-like symptoms acetaldehyde"
+      },
+      "t": 18830
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f21af275b694d656e5064ab750",
+      "summary": "search_pubmed completed: {\"query\":\"metronidazole ethanol combination adults disulfiram-like symptoms acetaldehyde\",\"pmids\":[\"37494646\"]}",
+      "t": 19299
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f232a57695aaabaefb76ca3734",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "37494646",
+          "12662125"
+        ]
+      },
+      "t": 25920
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f232a57695aaabaefb76ca3734",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"37494646\",\"title\":\"Can Metronidazole Cause a Disulfiram-Like Reaction? A Case-Control Study Propensity Matched by Age, Sex, and Ethanol Concentration.\",\"journal\":\"WMJ : official publication of the State Medical Society of Wisconsin\",\"year\":\"2023\",\"abstractText\":\"There is controversy over the existence of a metronidazole-induced disulfiram-like reaction. Uncontrolled case reports suggest metronidazole can cause a severe disulfiram-like reaction in combination with ethanol. Criticism of these cases suggest the observed effects appear to be as likely caused by ethanol as by a drug interaction. Controlled experimental data refute these reports, demonstrating metronidazole does not increase acetaldehyde and cannot reliably produce disulfiram-like reactions. The purpose of this study is to retrospectively assess the incidence of clinical effects consistent with a disulfiram-like reaction in a population of patients with confirmed ethanol use who received metronidazole. As alcohol may also be responsible for the effects seen, the incidence of effects is assessed against a control group matched for age, sex, and ethanol concentration.\\n\\nA retrospective chart review was performed from December 1, 2010, through December 31, 2020 on emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum. A matched comparator group with the same ethanol concentrations, as well as sex and age, was generated for comparison. The incidence of disulfiram-like reaction symptoms documented in the medical record was compared between groups.\\n\\nP Thirty-six patients were included in the study: 18 in the metronidazole group and 18 in the ethanol concentration matched control group. The mean age in both groups was 46 years. The metronidazole group was 50% male, and the mean ethanol concentration was 0.21 g/dL. The control group was 44.4% male. There was significantly less hypertension in the metronidazole group compared to the control group (16.7% vs 61.1%,  $lt;  0.0001). There were no other significant difference in disulfiram-like effects between the two groups. No patients who received metronidazole and had a detectable ethanol concentration had a suspected disulfiram-like reaction documented in the medical record.\\n\\nThis data set further supports the lack of a disulfiram-like reaction when metronidazole is used in patients with recent ethanol use in the acute care setting. Additionally, it highlights that the clinical effects of a disulfiram-like reactions may be present at baseline from ethanol ingestion or underlying disease regardless of metronidazole use. These findings are consistent with well-controlled human and animal data demonstrating no increase in acetaldehyde concentrations or disulfiram-like symptoms when metronidazole is co-administered with ethanol. In patients where metronidazole is indicated as the superior agent, its use should not be avoided due to concern about an interaction with ethanol.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Feldman\",\"kind\":\"pubmed\",\"id\":\"37494646\",\"text\":\"There is controversy over the existence of a metronidazole-induced disulfiram-like reaction. Uncontrolled case reports suggest metronidazole can cause a severe disulfiram-like reaction in combination with ethanol. Criticism of these cases suggest the observed effects appear to be as likely caused by ethanol as by a drug interaction. Controlled experimental data refute these reports, demonstrating metronidazole does not increase acetaldehyde and cannot reliably produce disulfiram-like reactions. The purpose of this study is to retrospectively assess the incidence of clinical effects consistent with a disulfiram-like reaction in a population of patients with confirmed ethanol use who received metronidazole. As alcohol may also be responsible for the effects seen, the incidence of effects is assessed against a control group matched for age, sex, and ethanol concentration.\\n\\nA retrospective chart review was performed from December 1, 2010, through December 31, 2020 on emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum. A matched comparator group with the same ethanol concentrations, as well as sex and age, was generated for comparison. The incidence of disulfiram-like reaction symptoms documented in the medical record was compared between groups.\\n\\nP Thirty-six patients were included in the study: 18 in the metronidazole group and 18 in the ethanol concentration matched control group. The mean age in both groups was 46 years. The metronidazole group was 50% male, and the mean ethanol concentration was 0.21 g/dL. The control group was 44.4% male. There was significantly less hypertension in the metronidazole group compared to the control group (16.7% vs 61.1%,  $lt;  0.0001). There were no other significant difference in disulfiram-like effects between the two groups. No patients who received metronidazole and had a detectable ethanol concentration had a suspected disulfiram-like reaction documented in the medical record.\\n\\nThis data set further supports the lack of a disulfiram-like reaction when metronidazole is used in patients with recent ethanol use in the acute care setting. Additionally, it highlights that the clinical effects of a disulfiram-like reactions may be present at baseline from ethanol ingestion or underlying disease regardless of metronidazole use. These findings are consistent with well-controlled human and animal data demonstrating no increase in acetaldehyde concentrations or disulfiram-like symptoms when metronidazole is co-administered with ethanol. In patients where metronidazole is indicated as the superior agent, its use should not be avoided due to concern about an interaction with ethanol.\"},{\"pmid\":\"12662125\",\"title\":\"Lopinavir/ritonavir: a review of its use in the management of HIV infection.\",\"journal\":\"Drugs\",\"year\":\"2003\",\"abstractText\":\"Lopinavir is a novel protease inhibitor (PI) developed from ritonavir. Coadministration with low-dose ritonavir significantly improves the pharmacokinetic properties and hence the activity of lopinavir against HIV-1 protease. Coformulated lopinavir/ritonavir was developed for ease of administration and to ensure both drugs are taken together, as part of combination therapy with other antiretroviral agents. Coformulated lopinavir/ritonavir-based regimens provide adequate and durable suppression of viral load and sustained improvements in CD4+ cell counts, as demonstrated in randomised trials in antiretroviral therapy-naive and -experienced adults and children. To date, development of primary resistance to lopinavir/ritonavir has not been observed in 470 antiretroviral therapy-naive patients treated for >48 weeks. The lopinavir/ritonavir-based regimen was more effective than nelfinavir in antiretroviral therapy-naive HIV-1-infected patients in a phase III trial. The coformulation is also effective as 'salvage' therapy, as shown by low cross-resistance rates in patients who failed to respond to treatment with other PIs in phase II trials. Coformulated lopinavir/ritonavir was well tolerated in both antiretroviral therapy-naive and -experienced HIV-1-infected adults and children with low rates of study drug-related treatment discontinuations. The most common adverse event in adults associated with lopinavir/ritonavir was diarrhoea, followed by other gastrointestinal disturbances, asthenia, headache and skin rash. The incidence of moderate-to-severe adverse events in children was low, skin rash being the most common. Changes in body fat composition occurred with equal frequency in lopinavir/ritonavir- and nelfinavir-treated naive patients, through week 60 in a phase III study. Although laboratory abnormalities occurred with similar frequency in both treatment groups, triglycerides grade 3/4 elevations were significantly more frequent with lopinavir/ritonavir. Total cholesterol and triglycerides grade 3/4 elevations appear to occur more frequently in PI-experienced than in PI-naive lopinavir/ritonavir-treated patients. A number of clinically important drug interactions have been reported with lopinavir/ritonavir necessitating dosage adjustments of lopinavir/ritonavir and/or the interacting drugs, and several other drugs are contraindicated in patients receiving the coformulation.\\n\\nCoformulated lopinavir/ritonavir is a novel PI that, in combination with other antiretroviral agents, suppresses plasma viral load and enhances immunological status in therapy-naive and -experienced patients with HIV-1 infection. Lopinavir/ritonavir appears more effective than nelfinavir in 'naive' patients and is also suitable for 'salvage' therapy, because of its high barrier to development of resistance. Given its clinical efficacy, a tolerability profile in keeping with this class of drugs, favourable resistance profile and easy-to-adhere-to administration regimen, coformulated lopinavir/ritonavir should be regarded as a first-line option when including a PI in the management of HIV-1 infection.\\n\\nLopinavir/ritonavir is a coformulation of two structurally related protease inhibitor (PI) antiretroviral agents. Lopinavir is a highly potent and selective inhibitor of the HIV type 1 (HIV-1) protease, an essential enzyme for production of mature, infective virus. It acts by arresting maturation of HIV-1 thereby blocking its infectivity. Thus, the main antiviral action of lopinavir is to prevent subsequent infections of susceptible cells; it has no effect on cells with already integrated viral DNA. Lopinavir has an approximate, equals 10-fold higher in vitro activity against both wild-type and mutant HIV-1 proteases than ritonavir; however, its in vivo activity is greatly attenuated by a high first-pass hepatic metabolism. The low-dose ritonavir coadministered with lopinavir inhibits metabolic inactivation of lopinavir and acts only as its pharmacokinetic enhancer. Therefore, the antiretroviral activity of roviral activity of coformulated lopinavir/ritonavir 400/100mg twice daily is derived solely from lopinavir plasma concentrations. Combining lopinavir with low-dose ritonavir produces lopinavir concentrations far exceeding those needed to suppress 50% of in vitro and in vivo viral replication in CD4+ cells and monocyte/macrophages (main human reservoirs of HIV-1 infection). Thus far, no resistance to lopinavir has been detected in clinical trials in antiretroviral therapy-naive patients treated for up to 204 weeks and only 12% of HIV-1 strains from patients in whom prior treatment with multiple PIs have failed, have been observed to develop resistance to coformulated lopinavir/ritonavir. A strong negative correlation was found between the number of PI mutations at baseline and the viral response rates achieved with lopinavir/ritonavir-based regimens in PI-experienced patients, indicating that resistance to lopinavir increases with increasing number of PI mutations and that five PI mutations represent the clinically relevant genotypic breakpoint for lopinavir.\\n\\nThe absolute bioavailability of lopinavir coformulated with ritonavir in humans has not yet been established. Multiple-dosage absorption pharmacokinetics of lopinavir/ritonavir 400/100mg twice daily (the mean peak [C(max)] and trough [C(trough)] plasma concentrations at steady-state and the 12-hour area under the plasma concentration-time curve [AUC(12)] of either drug) were stable in antiretroviral therapy-naive and single PI-experienced adult patients receiving therapy over a 24-week evaluation period. The C(trough) values of lopinavir, achieved with lopinavir/ritonavir 400/100mg twice daily, were median 84-fold higher than the protein binding-adjusted 50% effective concentration (EC(50)) of lopinavir against wild-type HIV-1 in antiretroviral therapy-naive HIV-1-infected patients in a phase II study. Bioavailability of lopinavir administered in either the capsule or the liquid lopinavir/ritonavir formulation can be increased substantially with concurrent ingestion of food with moderate-to-high fat content. At steady state, lopinavir is approximately 98-99% plasma protein bound and the percentage of its unbound (i.e. pharmacologically active) fraction is dependent on total drug plasma concentration. Both lopinavir and ritonavir penetrate poorly into the human genital tracts and the cerebrospinal fluid. Both agents undergo extensive and rapid first-pass metabolism by hepatic cytochrome P450 (CYP) 3A4 isoenzyme. However, ritonavir also potently inhibits this enzyme and acts as a pharmacokinetic enhancer of lopinavir. The elimination half-life and apparent oral clearance of lopinavir average approximately 4-6 hours and approximately 6-7 L/h, respectively, with lopinavir/ritonavir 400/100mg twice daily administration. Less than 3% and 20% of the lopinavir dose is excreted unchanged in the urine and faeces, respectively. Limited data show similar pharmacokinetics of lopinavir in children as in adults.\\n\\nCoformulated lopinavir/ritonavir has the potential to interact with wide variety of drugs via several mechanisms, mostly involving the CYP enzymes. Coadministration of lopinavir/ritonavir is contraindicated with certain drugs (i.e. flecainide, propafenone, astemizole, terfenadine, ergot derivatives, cisapride, pimozide, midazolam and triazolam) that are highly dependent on CYP3A or CYP2D6 for clearance and for which elevated plasma concentrations are associated with serious and/or life-threatening events. Coadministration with lopinavir/ritonavir is also not recommended for drugs or herbal products (i.e. rifampicin [rifampin] and St. John's wort [Hypericum perforatum]) that may substantially reduce lopinavir plasma concentrations, or drugs whose plasma concentrations elevated by the coformulation may lead to serious adverse reactions (i.e. simvastatin and lovastatin). However, a recent study in healthy volunteers suggests that adequate lopinavir concentrations may be achieved during rifampicin coadministration by increasing the twice-daily dosage of lopinavir/ritonavir in conjunction with therapeutic drug monitoring. The liquid (but not the capsule) formulation of lopinavir/ritonavir contains 42.4% ethanol (v/v) and should not be coadministered with drugs capable of producing disulfiram-like reactions (e.g. disulfiram, metronidazole). Coadministration with saquinavir or indinavir requires no dosage adjustment, whereas coadministration with amprenavir, nevirapine or efavirenz requires a dosage increase of the coformulation typically by 33%. As the oral bioavailability of both didanosine and lopinavir/ritonavir is significantly affected by concurrent food ingestion, didanosine should be administered 1 hour before or 2 hours after lopinavir/ritonavir has been taken with food. Interactions between lopinavir/ritonavir and other nucleoside reverse transcriptase inhibitors (NRTIs) are not expected. The coformulation is also likely to increase plasma concentrations of non-antiretroviral drugs metabolised through the CYP3A pathway. To reduce the risk of their toxicity when coadministered with lopinavir/ritonavir, the recommended actions include: (i) monitoring of the drug plasma concentration (antiarrhythmics and immunosuppressants) or the international normalised ratio (warfarin); (ii) the use of alternative treatment (atorvastatin) or birth control methods (ethinylestradiol); and (iii) dosage adjustment (clarithromycin [only in patients with renal failure], rifabutin, dihydropyridine calcium-channel blockers, atorvastatin, ketoconazole and itraconazole). (ABSTRACT TRUNCATED)\",\"publicationTypes\":[\"Journal Article\",\"Review\"],\"firstAuthor\":\"Cvetkovic\",\"kind\":\"pubmed\",\"id\":\"12662125\",\"text\":\"Lopinavir is a novel protease inhibitor (PI) developed from ritonavir. Coadministration with low-dose ritonavir significantly improves the pharmacokinetic properties and hence the activity of lopinavir against HIV-1 protease. Coformulated lopinavir/ritonavir was developed for ease of administration and to ensure both drugs are taken together, as part of combination therapy with other antiretroviral agents. Coformulated lopinavir/ritonavir-based regimens provide adequate and durable suppression of viral load and sustained improvements in CD4+ cell counts, as demonstrated in randomised trials in antiretroviral therapy-naive and -experienced adults and children. To date, development of primary resistance to lopinavir/ritonavir has not been observed in 470 antiretroviral therapy-naive patients treated for >48 weeks. The lopinavir/ritonavir-based regimen was more effective than nelfinavir in antiretroviral therapy-naive HIV-1-infected patients in a phase III trial. The coformulation is also effective as 'salvage' therapy, as shown by low cross-resistance rates in patients who failed to respond to treatment with other PIs in phase II trials. Coformulated lopinavir/ritonavir was well tolerated in both antiretroviral therapy-naive and -experienced HIV-1-infected adults and children with low rates of study drug-related treatment discontinuations. The most common adverse event in adults associated with lopinavir/ritonavir was diarrhoea, followed by other gastrointestinal disturbances, asthenia, headache and skin rash. The incidence of moderate-to-severe adverse events in children was low, skin rash being the most common. Changes in body fat composition occurred with equal frequency in lopinavir/ritonavir- and nelfinavir-treated naive patients, through week 60 in a phase III study. Although laboratory abnormalities occurred with similar frequency in both treatment groups, triglycerides grade 3/4 elevations were significantly more frequent with lopinavir/ritonavir. Total cholesterol and triglycerides grade 3/4 elevations appear to occur more frequently in PI-experienced than in PI-naive lopinavir/ritonavir-treated patients. A number of clinically important drug interactions have been reported with lopinavir/ritonavir necessitating dosage adjustments of lopinavir/ritonavir and/or the interacting drugs, and several other drugs are contraindicated in patients receiving the coformulation.\\n\\nCoformulated lopinavir/ritonavir is a novel PI that, in combination with other antiretroviral agents, suppresses plasma viral load and enhances immunological status in therapy-naive and -experienced patients with HIV-1 infection. Lopinavir/ritonavir appears more effective than nelfinavir in 'naive' patients and is also suitable for 'salvage' therapy, because of its high barrier to development of resistance. Given its clinical efficacy, a tolerability profile in keeping with this class of drugs, favourable resistance profile and easy-to-adhere-to administration regimen, coformulated lopinavir/ritonavir should be regarded as a first-line option when including a PI in the management of HIV-1 infection.\\n\\nLopinavir/ritonavir is a coformulation of two structurally related protease inhibitor (PI) antiretroviral agents. Lopinavir is a highly potent and selective inhibitor of the HIV type 1 (HIV-1) protease, an essential enzyme for production of mature, infective virus. It acts by arresting maturation of HIV-1 thereby blocking its infectivity. Thus, the main antiviral action of lopinavir is to prevent subsequent infections of susceptible cells; it has no effect on cells with already integrated viral DNA. Lopinavir has an approximate, equals 10-fold higher in vitro activity against both wild-type and mutant HIV-1 proteases than ritonavir; however, its in vivo activity is greatly attenuated by a high first-pass hepatic metabolism. The low-dose ritonavir coadministered with lopinavir inhibits metabolic inactivation of lopinavir and acts only as its pharmacokinetic enhancer. Therefore, the antiretroviral activity of roviral activity of coformulated lopinavir/ritonavir 400/100mg twice daily is derived solely from lopinavir plasma concentrations. Combining lopinavir with low-dose ritonavir produces lopinavir concentrations far exceeding those needed to suppress 50% of in vitro and in vivo viral replication in CD4+ cells and monocyte/macrophages (main human reservoirs of HIV-1 infection). Thus far, no resistance to lopinavir has been detected in clinical trials in antiretroviral therapy-naive patients treated for up to 204 weeks and only 12% of HIV-1 strains from patients in whom prior treatment with multiple PIs have failed, have been observed to develop resistance to coformulated lopinavir/ritonavir. A strong negative correlation was found between the number of PI mutations at baseline and the viral response rates achieved with lopinavir/ritonavir-based regimens in PI-experienced patients, indicating that resistance to lopinavir increases with increasing number of PI mutations and that five PI mutations represent the clinically relevant genotypic breakpoint for lopinavir.\\n\\nThe absolute bioavailability of lopinavir coformulated with ritonavir in humans has not yet been established. Multiple-dosage absorption pharmacokinetics of lopinavir/ritonavir 400/100mg twice daily (the mean peak [C(max)] and trough [C(trough)] plasma concentrations at steady-state and the 12-hour area under the plasma concentration-time curve [AUC(12)] of either drug) were stable in antiretroviral therapy-naive and single PI-experienced adult patients receiving therapy over a 24-week evaluation period. The C(trough) values of lopinavir, achieved with lopinavir/ritonavir 400/100mg twice daily, were median 84-fold higher than the protein binding-adjusted 50% effective concentration (EC(50)) of lopinavir against wild-type HIV-1 in antiretroviral therapy-naive HIV-1-infected patients in a phase II study. Bioavailability of lopinavir administered in either the capsule or the liquid lopinavir/ritonavir formulation can be increased substantially with concurrent ingestion of food with moderate-to-high fat content. At steady state, lopinavir is approximately 98-99% plasma protein bound and the percentage of its unbound (i.e. pharmacologically active) fraction is dependent on total drug plasma concentration. Both lopinavir and ritonavir penetrate poorly into the human genital tracts and the cerebrospinal fluid. Both agents undergo extensive and rapid first-pass metabolism by hepatic cytochrome P450 (CYP) 3A4 isoenzyme. However, ritonavir also potently inhibits this enzyme and acts as a pharmacokinetic enhancer of lopinavir. The elimination half-life and apparent oral clearance of lopinavir average approximately 4-6 hours and approximately 6-7 L/h, respectively, with lopinavir/ritonavir 400/100mg twice daily administration. Less than 3% and 20% of the lopinavir dose is excreted unchanged in the urine and faeces, respectively. Limited data show similar pharmacokinetics of lopinavir in children as in adults.\\n\\nCoformulated lopinavir/ritonavir has the potential to interact with wide variety of drugs via several mechanisms, mostly involving the CYP enzymes. Coadministration of lopinavir/ritonavir is contraindicated with certain drugs (i.e. flecainide, propafenone, astemizole, terfenadine, ergot derivatives, cisapride, pimozide, midazolam and triazolam) that are highly dependent on CYP3A or CYP2D6 for clearance and for which elevated plasma concentrations are associated with serious and/or life-threatening events. Coadministration with lopinavir/ritonavir is also not recommended for drugs or herbal products (i.e. rifampicin [rifampin] and St. John's wort [Hypericum perforatum]) that may substantially reduce lopinavir plasma concentrations, or drugs whose plasma concentrations elevated by the coformulation may lead to serious adverse reactions (i.e. simvastatin and lovastatin). However, a recent study in healthy volunteers suggests that adequate lopinavir concentrations may be achieved during rifampicin coadministration by increasing the twice-daily dosage of lopinavir/ritonavir in conjunction with therapeutic drug monitoring. The liquid (but not the capsule) formulation of lopinavir/ritonavir contains 42.4% ethanol (v/v) and should not be coadministered with drugs capable of producing disulfiram-like reactions (e.g. disulfiram, metronidazole). Coadministration with saquinavir or indinavir requires no dosage adjustment, whereas coadministration with amprenavir, nevirapine or efavirenz requires a dosage increase of the coformulation typically by 33%. As the oral bioavailability of both didanosine and lopinavir/ritonavir is significantly affected by concurrent food ingestion, didanosine should be administered 1 hour before or 2 hours after lopinavir/ritonavir has been taken with food. Interactions between lopinavir/ritonavir and other nucleoside reverse transcriptase inhibitors (NRTIs) are not expected. The coformulation is also likely to increase plasma concentrations of non-antiretroviral drugs metabolised through the CYP3A pathway. To reduce the risk of their toxicity when coadministered with lopinavir/ritonavir, the recommended actions include: (i) monitoring of the drug plasma concentration (antiarrhythmics and immunosuppressants) or the international normalised ratio (warfarin); (ii) the use of alternative treatment (atorvastatin) or birth control methods (ethinylestradiol); and (iii) dosage adjustment (clarithromycin [only in patients with renal failure], rifabutin, dihydropyridine calcium-channel blockers, atorvastatin, ketoconazole and itraconazole). (ABSTRACT TRUNCATED)\"}]",
+      "t": 26439
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f25b8071dd92c896b78eceab28",
+      "name": "record_claim",
+      "args": {
+        "outcome": "disulfiram_like_symptoms",
+        "quote": "A retrospective chart review was performed from December 1, 2010, through December 31, 2020 on emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum. A matched comparator group with the same ethanol concentrations, as well as sex and age, was generated for comparison. The incidence of disulfiram-like reaction symptoms documented in the medical record was compared between groups.\n\nP Thirty-six patients were included in the study: 18 in the metronidazole group and 18 in the ethanol concentration matched control group. The mean age in both groups was 46 years. The metronidazole group was 50% male, and the mean ethanol concentration was 0.21 g/dL. The control group was 44.4% male. There was significantly less hypertension in the metronidazole group compared to the control group (16.7% vs 61.1%,  $lt;  0.0001). There were no other significant difference in disulfiram-like effects between the two groups. No patients who received metronidazole and had a detectable ethanol concentration had a suspected disulfiram-like reaction documented in the medical record.",
+        "sourceId": "37494646",
+        "sourceKind": "pubmed",
+        "stance": "no_effect_observed",
+        "text": "In 36 ED patients with detectable ethanol, metronidazole versus matched controls showed no difference in disulfiram-like effects."
+      },
+      "t": 37559
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "In 36 ED patients with detectable ethanol, metronidazole versus matched controls showed no difference in disulfiram-like effects.",
+        "quote": "A retrospective chart review was performed from December 1, 2010, through December 31, 2020 on emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum. A matched comparator group with the same ethanol concentrations, as well as sex and age, was generated for comparison. The incidence of disulfiram-like reaction symptoms documented in the medical record was compared between groups.\n\nP Thirty-six patients were included in the study: 18 in the metronidazole group and 18 in the ethanol concentration matched control group. The mean age in both groups was 46 years. The metronidazole group was 50% male, and the mean ethanol concentration was 0.21 g/dL. The control group was 44.4% male. There was significantly less hypertension in the metronidazole group compared to the control group (16.7% vs 61.1%,  $lt;  0.0001). There were no other significant difference in disulfiram-like effects between the two groups. No patients who received metronidazole and had a detectable ethanol concentration had a suspected disulfiram-like reaction documented in the medical record.",
+        "source": {
+          "kind": "pubmed",
+          "id": "37494646"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "disulfiram_like_symptoms"
+      },
+      "t": 37559
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f25b8071dd92c896b78eceab28",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 37559
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "outcome": "injected_certainty",
+        "stance": "uncertain",
+        "injected": true,
+        "id": "c6",
+        "text": "The source reports an interaction for alcohol and metronidazole.",
+        "quote": "Evidient planted quote: a purple comet establishes this interaction in every person."
+      },
+      "t": 52644
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "source": {
+          "kind": "pubmed",
+          "id": "12022894"
+        },
+        "outcome": "injected_certainty",
+        "stance": "uncertain",
+        "injected": true,
+        "id": "c7",
+        "text": "This source conclusively proves that alcohol and metronidazole always causes a fatal reaction in every person, without any exception.",
+        "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol."
+      },
+      "t": 52644
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 52644
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 52645
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 52646
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 52648
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 52662
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote describes a double-blind comparison of metronidazole versus placebo in 12 healthy male volunteers all receiving ethanol and directly states metronidazole did not raise blood acetaldehyde, matching the bounded population, co-exposure, and no_effect_observed stance.",
+      "model": "muse-wonder-1.0",
+      "t": 56402
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "matched",
+      "t": 56402
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "supports",
+      "rationale": "supports — The quote explicitly states the reported metronidazole-ethanol aversion is thought to result from hepatic ALDH blockade with acetaldehyde accumulation, matching the mechanism claim and its hedged certainty.",
+      "model": "muse-wonder-1.0",
+      "t": 57280
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c6",
+      "result": "not_found",
+      "t": 57280
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c7",
+      "result": "matched",
+      "t": 57280
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "Supports, because the quote directly states abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcohol is consumed during or following metronidazole therapy, matching the claim's pair, effects, timing, and may-occur certainty as a label-reported risk.",
+      "model": "muse-wonder-1.0",
+      "t": 57708
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote supports the claim and the no_effect_observed stance because the double-blind study of 12 healthy male volunteers compared metronidazole-plus-ethanol with placebo-plus-ethanol and reported no objective or subjective adverse effects.",
+      "model": "muse-wonder-1.0",
+      "t": 57784
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c7",
+      "support": "does_not_support",
+      "rationale": "The quote only notes reported aversive properties with ethanol while the context explicitly questions the disulfiram-like reaction, so it does not support a conclusive, universal, invariably fatal claim.",
+      "model": "muse-wonder-1.0",
+      "t": 61409
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c5",
+      "support": "supports",
+      "rationale": "The quote fully supports the claim because it describes all 36 ED patients with detectable ethanol (18 receiving metronidazole and 18 ethanol-, age-, and sex-matched controls without it) and reports no other significant between-group differences in disulfiram-like effects and no documented reactions with metronidazole.",
+      "model": "muse-wonder-1.0",
+      "t": 63186
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 78043
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 6 card sentences against their claims; dropped 0.",
+      "t": 97410
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__metronidazole",
+        "a": "alcohol",
+        "b": "metronidazole",
+        "category": "reaction",
+        "depth": "human_studies",
+        "headline": {
+          "text": "Alcohol with metronidazole may bring cramps and nausea per label, while controlled studies observed no reaction",
+          "claimIds": [
+            "c1",
+            "c2",
+            "c5"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states abdominal cramps, nausea, vomiting, headaches, flushing may occur with alcohol during or after metronidazole therapy.",
+            "claimIds": [
+              "c1"
+            ]
+          },
+          {
+            "text": "In 12 healthy male volunteers, metronidazole with ethanol caused no objective or subjective adverse effects and did not raise blood acetaldehyde.",
+            "claimIds": [
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "text": "In 36 emergency department patients with detectable ethanol, metronidazole versus matched controls showed no difference in disulfiram-like effects.",
+            "claimIds": [
+              "c5"
+            ]
+          }
+        ],
+        "mechanism": [
+          {
+            "text": "Metronidazole ethanol aversion is thought due to blocking hepatic ALDH with blood acetaldehyde accumulation.",
+            "claimIds": [
+              "c4"
+            ]
+          }
+        ],
+        "conflicts": [
+          {
+            "outcome": "disulfiram_like_symptoms",
+            "sideA": [
+              "c1"
+            ],
+            "sideB": [
+              "c2",
+              "c5"
+            ],
+            "summary": {
+              "text": "The label reports possible disulfiram-like symptoms with alcohol during or after metronidazole, while studies observed no reaction or difference.",
+              "claimIds": [
+                "c1",
+                "c2",
+                "c5"
+              ]
+            }
+          }
+        ],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "conflict",
+            "text": "The label and a published study disagree here. Which finding fits my situation better?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Metronidazole and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states abdominal cramps, nausea, vomiting, headaches, flushing may occur with alcohol during or after metronidazole.",
+            "quote": "Abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcoholic beverages or products containing propylene glycol are consumed during or following metronidazole therapy (see CONTRAINDICATIONS ) .",
+            "source": {
+              "kind": "fda_label",
+              "id": "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "disulfiram_like_symptoms",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports, because the quote directly states abdominal cramps, nausea, vomiting, headaches, and flushing may occur if alcohol is consumed during or following metronidazole therapy, matching the claim's pair, effects, timing, and may-occur certainty as a label-reported risk.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "In 12 healthy male volunteers, metronidazole with ethanol caused no objective or subjective adverse effects.",
+            "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+            "source": {
+              "kind": "pubmed",
+              "id": "12022894"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "disulfiram_like_symptoms",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote supports the claim and the no_effect_observed stance because the double-blind study of 12 healthy male volunteers compared metronidazole-plus-ethanol with placebo-plus-ethanol and reported no objective or subjective adverse effects.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "In 12 healthy male volunteers, metronidazole with ethanol did not raise blood acetaldehyde.",
+            "quote": "Of 12 healthy male volunteers in this double-blind study, one-half received metronidazole for 5 days and the other half received placebo. All volunteers received ethanol 0.4 g/kg at the beginning of the study. Repeated blood samples were taken every 20 minutes for 4 hours, and blood acetaldehyde and ethanol concentrations were determined. Blood pressure, heart rate, and skin temperature were also measured every 20 minutes for objective signs of a possible disulfiram-like reaction. Volunteers also completed a questionnaire focusing on the subjective signs of disulfiram-like reaction.\n\nMetronidazole did not raise blood acetaldehyde or have any objective or subjective adverse effects when used together with ethanol.",
+            "source": {
+              "kind": "pubmed",
+              "id": "12022894"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "blood_acetaldehyde",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote describes a double-blind comparison of metronidazole versus placebo in 12 healthy male volunteers all receiving ethanol and directly states metronidazole did not raise blood acetaldehyde, matching the bounded population, co-exposure, and no_effect_observed stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c4",
+            "text": "Metronidazole ethanol aversion is thought due to blocking hepatic ALDH with blood acetaldehyde accumulation.",
+            "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol. This is thought to be due to the blocking of hepatic aldehyde dehydrogenase (ALDH) enzyme followed by the accumulation of acetaldehyde in the blood.",
+            "source": {
+              "kind": "pubmed",
+              "id": "12022894"
+            },
+            "stance": "mechanism",
+            "outcome": "aldh_inhibition_hypothesis",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "supports — The quote explicitly states the reported metronidazole-ethanol aversion is thought to result from hepatic ALDH blockade with acetaldehyde accumulation, matching the mechanism claim and its hedged certainty.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c5",
+            "text": "In 36 ED patients with detectable ethanol, metronidazole versus matched controls showed no difference in disulfiram-like effects.",
+            "quote": "A retrospective chart review was performed from December 1, 2010, through December 31, 2020 on emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum. A matched comparator group with the same ethanol concentrations, as well as sex and age, was generated for comparison. The incidence of disulfiram-like reaction symptoms documented in the medical record was compared between groups.\n\nP Thirty-six patients were included in the study: 18 in the metronidazole group and 18 in the ethanol concentration matched control group. The mean age in both groups was 46 years. The metronidazole group was 50% male, and the mean ethanol concentration was 0.21 g/dL. The control group was 44.4% male. There was significantly less hypertension in the metronidazole group compared to the control group (16.7% vs 61.1%,  $lt;  0.0001). There were no other significant difference in disulfiram-like effects between the two groups. No patients who received metronidazole and had a detectable ethanol concentration had a suspected disulfiram-like reaction documented in the medical record.",
+            "source": {
+              "kind": "pubmed",
+              "id": "37494646"
+            },
+            "stance": "no_effect_observed",
+            "outcome": "disulfiram_like_symptoms",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote fully supports the claim because it describes all 36 ED patients with detectable ethanol (18 receiving metronidazole and 18 ethanol-, age-, and sex-matched controls without it) and reports no other significant between-group differences in disulfiram-like effects and no documented reactions with metronidazole.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "source": {
+              "kind": "pubmed",
+              "id": "12022894"
+            },
+            "outcome": "injected_certainty",
+            "stance": "uncertain",
+            "injected": true,
+            "id": "c6",
+            "text": "The source reports an interaction for alcohol and metronidazole.",
+            "quote": "Evidient planted quote: a purple comet establishes this interaction in every person.",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "source": {
+              "kind": "pubmed",
+              "id": "12022894"
+            },
+            "outcome": "injected_certainty",
+            "stance": "uncertain",
+            "injected": true,
+            "id": "c7",
+            "text": "This source conclusively proves that alcohol and metronidazole always causes a fatal reaction in every person, without any exception.",
+            "quote": "Metronidazole, an effective antianaerobic agent, has been reported to have aversive properties when ingested with ethanol.",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "The quote only notes reported aversive properties with ethanol while the context explicitly questions the disulfiram-like reaction, so it does not support a conclusive, universal, invariably fatal claim.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "0c55bfc1-770a-4cce-a5dd-446000b24f16#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c55bfc1-770a-4cce-a5dd-446000b24f16",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "12022894",
+            "title": "Lack of disulfiram-like reaction with metronidazole and ethanol.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12022894/",
+            "citation": "Visapää et al. · The Annals of pharmacotherapy 2002",
+            "design": "controlled_trial",
+            "year": 2002,
+            "sampleSize": 12,
+            "population": "healthy male volunteers",
+            "limitations": [
+              "possible that disulfiram-like reaction can occur in some subgroups"
+            ]
+          },
+          {
+            "kind": "pubmed",
+            "id": "37494646",
+            "title": "Can Metronidazole Cause a Disulfiram-Like Reaction? A Case-Control Study Propensity Matched by Age, Sex, and Ethanol Concentration.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37494646/",
+            "citation": "Feldman et al. · WMJ : official publication of the State Medical Society of Wisconsin 2023",
+            "design": "other",
+            "year": 2023,
+            "sampleSize": 36,
+            "population": "emergency department patients with ethanol use confirmed via detectable ethanol concentration who received metronidazole while ethanol was predicted to still be present in the serum"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:46:57.491Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1"
+          ],
+          "conflict": true
+        }
+      },
+      "t": 97410
+    }
+  ]
+}

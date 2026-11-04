@@ -1,0 +1,39 @@
+{
+  "pair": "cefazolin__chlortetracycline",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The French cefazolin label says in vitro antagonistic effects are possible when bacteriostatic antibiotics such as tetracyclines are given together with cefazolin.",
+      "quote": "Il convient de prendre en compte le potentiel d’effets antagonistes observés in vitro avec les antibiotiques ayant une action bactériostatique (p. ex. les tétracyclines, les sulfamides, l’érythromycine, le chloramphénicol) lorsque ces antibiotiques sont administrés conjointement à la céfazoline.",
+      "quoteEnglish": "The potential for antagonistic effects observed in vitro with bacteriostatic antibiotics (e.g. tetracyclines, sulfonamides, erythromycin, chloramphenicol) should be taken into account when these antibiotics are given together with cefazolin.",
+      "sourceId": "FR:60461151#4.5",
+      "stance": "increases_risk",
+      "outcome": "reduced_effect"
+    }
+  ],
+  "headline": {
+    "text": "The French cefazolin label names possible in vitro antagonism with bacteriostatic antibiotics such as tetracyclines (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French cefazolin label reports in vitro antagonistic effects with bacteriostatic antibiotics, with tetracyclines as an example, when given together with cefazolin.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "efficacy",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"cefazolin\"[tiab] AND \"chlortetracycline\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

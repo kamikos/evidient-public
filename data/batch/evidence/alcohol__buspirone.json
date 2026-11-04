@@ -1,0 +1,144 @@
+{
+  "card": {
+    "pair": "alcohol__buspirone",
+    "a": "alcohol",
+    "b": "buspirone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label calls avoiding alcohol with buspirone prudent, although formal studies found no added impairment.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label's study finding concerns motor and mental performance in formal interaction studies.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "In the same sentence, the label calls avoiding the combination prudent.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label reports that formal studies found buspirone did not increase alcohol-induced motor and mental impairment.",
+        "quote": "While formal studies of the interaction of buspirone hydrochloride with alcohol indicate that buspirone does not increase alcohol-induced impairment in motor and mental performance, it is prudent to avoid concomitant use of alcohol and buspirone.",
+        "source": {
+          "kind": "fda_label",
+          "id": "fa4d5cac-f687-4440-99d2-8bb27cf2f4ed#precautions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Buspirone label states formal studies found buspirone does not increase alcohol-induced motor and mental impairment.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label calls avoiding alcohol with buspirone prudent.",
+        "quote": "it is prudent to avoid concomitant use of alcohol and buspirone.",
+        "source": {
+          "kind": "fda_label",
+          "id": "fa4d5cac-f687-4440-99d2-8bb27cf2f4ed#precautions"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Same label sentence states it is prudent to avoid concomitant alcohol and buspirone.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "fa4d5cac-f687-4440-99d2-8bb27cf2f4ed#precautions",
+        "title": "buspirone: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa4d5cac-f687-4440-99d2-8bb27cf2f4ed",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6150510",
+        "title": "Neuropharmacology of buspirone.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6150510/",
+        "citation": "0254-4962 17 Suppl 3 1984 Psychopathology Psychopathology",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "15581381",
+        "title": "Role of the serotonergic system in the neurobiology of alcoholism: implications for treatment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15581381/",
+        "citation": "1172-7047 18 15 2004 CNS drugs CNS Drugs",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2884874",
+        "title": "Evaluation of the safety and side effects of antianxiety agents.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2884874/",
+        "citation": "0002-9343 82 5A 1987 May 22 The American journal of medicine Am J Med",
+        "language": "en",
+        "design": "controlled_trial"
+      },
+      {
+        "kind": "pubmed",
+        "id": "3963031",
+        "title": "Effects of long-term administration of buspirone and diazepam on driver steering control.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3963031/",
+        "citation": "0002-9343 80 3B 1986 Mar 31 The American journal of medicine Am J Med",
+        "language": "en",
+        "design": "controlled_trial"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Buspirone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.552Z",
+    "models": {
+      "research": "gpt-6.1-sol; amended by claude-opus-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol; amended by claude-opus-5-5"
+    }
+  },
+  "trace": []
+}

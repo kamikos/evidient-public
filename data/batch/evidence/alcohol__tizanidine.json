@@ -1,0 +1,126 @@
+{
+  "card": {
+    "pair": "alcohol__tizanidine",
+    "a": "alcohol",
+    "b": "tizanidine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label reports increased tizanidine exposure and adverse reactions with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "A case report describes syncope from postural hypotension after concurrent ingestion.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcohol increases tizanidine exposure, associated with increased adverse reactions.",
+        "quote": "Alcohol increases the exposure of tizanidine after administration of tizanidine.\nThis was associated with an increase in adverse reactions of tizanidine.",
+        "source": {
+          "kind": "fda_label",
+          "id": "7ce17c02-7f1f-4d52-8b6f-52e385e12239#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The tizanidine label states alcohol increases tizanidine exposure and this was associated with more adverse reactions.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A case report describes postural hypotension and syncope in a 53-year-old woman after concurrent tizanidine and alcohol ingestion.",
+        "quote": "We present a case of a 53-year-old female with alcohol use disorder who presented with a first-time syncopal attack due to postural hypotension after ingesting both tizanidine and alcohol concurrently.",
+        "source": {
+          "kind": "pubmed",
+          "id": "38686239"
+        },
+        "stance": "increases_risk",
+        "outcome": "hypotension",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The claim presents the abstract as a single case report of syncope from postural hypotension, matching the quote.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7ce17c02-7f1f-4d52-8b6f-52e385e12239#drug_interactions",
+        "title": "tizanidine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7ce17c02-7f1f-4d52-8b6f-52e385e12239",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38686239",
+        "title": "Syncope Secondary to Concomitant Ingestion of Tizanidine and Alcohol in a Patient With Alcohol Use Disorder.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38686239/",
+        "citation": "2168-8184 16 3 2024 Mar Cureus Cureus",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "16839471",
+        "title": "Tizanidine distribution in a postmortem case.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16839471/",
+        "citation": "0146-4760 30 5 2006 Jun Journal of analytical toxicology J Anal Toxicol",
+        "language": "en",
+        "design": "case_report"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Tizanidine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human interaction study; a case report cannot quantify incidence.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"tizanidine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.622Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

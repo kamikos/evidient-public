@@ -1,0 +1,139 @@
+{
+  "card": {
+    "pair": "alcohol__remifentanil",
+    "a": "alcohol",
+    "b": "remifentanil",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA remifentanil label warns of profound sedation, respiratory depression, coma, and death with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The boxed warning includes alcohol among CNS depressants that can cause these effects when combined with opioids.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA remifentanil label says opioids combined with alcohol may cause profound sedation, respiratory depression, coma, and death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "4dbcb8f9-1987-4b66-bd2f-d251fda0be10#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The remifentanil boxed warning names alcohol among CNS depressants whose co-use with opioids may cause profound sedation, respiratory depression, coma and death.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "4dbcb8f9-1987-4b66-bd2f-d251fda0be10#boxed_warning",
+        "title": "remifentanil: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dbcb8f9-1987-4b66-bd2f-d251fda0be10",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "4dbcb8f9-1987-4b66-bd2f-d251fda0be10#warnings_and_cautions",
+        "title": "remifentanil: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dbcb8f9-1987-4b66-bd2f-d251fda0be10",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "4dbcb8f9-1987-4b66-bd2f-d251fda0be10#drug_interactions",
+        "title": "remifentanil: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4dbcb8f9-1987-4b66-bd2f-d251fda0be10",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:63380434#4.4",
+        "title": "REMIFENTANIL VIATRIS 5 mg, poudre pour solution injectable ou pour perfusion: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63380434/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20421790",
+        "title": "Anesthetic management of the patient with epilepsy or prior seizures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20421790/",
+        "citation": "1473-6500 23 3 2010 Jun Current opinion in anaesthesiology Curr Opin Anaesthesiol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27256358",
+        "title": "Responses to drugs of abuse and non-drug rewards in leptin deficient ob/ob mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27256358/",
+        "citation": "1432-2072 233 14 2016 Jul Psychopharmacology Psychopharmacology (Berl)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "21802658",
+        "title": "Opiate-induced dopamine release is modulated by severity of alcohol dependence: an [(18)F]fallypride positron emission tomography study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21802658/",
+        "citation": "1873-2402 70 8 2011 Oct 15 Biological psychiatry Biol Psychiatry",
+        "language": "en",
+        "design": "controlled_trial"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Remifentanil and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.611Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,172 @@
+{
+  "card": {
+    "pair": "aspirin__diclofenac",
+    "a": "aspirin",
+    "b": "diclofenac",
+    "origin": "batch",
+    "category": "bleeding",
+    "headline": {
+      "text": "The FDA diclofenac label reports increased serious gastrointestinal risk with aspirin.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label also reports no added therapeutic effect from combining NSAIDs with analgesic aspirin doses in controlled studies.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA diclofenac label says concurrent aspirin and diclofenac increase serious gastrointestinal event risk.",
+        "quote": "The concurrent use of aspirin and an NSAID, such as diclofenac, increases the risk of serious gastrointestinal (GI) events (see WARNINGS; Gastrointestinal Bleeding, Ulceration, and Perforation ).",
+        "source": {
+          "kind": "fda_label",
+          "id": "5a852412-69af-6502-e063-6294a90a0748#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The diclofenac label states concurrent aspirin and an NSAID such as diclofenac increases serious GI event risk.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA diclofenac label reports no greater therapeutic effect from NSAIDs with analgesic aspirin doses than from NSAIDs alone in controlled studies.",
+        "quote": "Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone.",
+        "source": {
+          "kind": "fda_label",
+          "id": "5a852412-69af-6502-e063-6294a90a0748#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "added_efficacy",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The diclofenac label states controlled studies showed no greater therapeutic effect from NSAIDs with analgesic aspirin doses.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7ce4807e-7bd5-41f1-a9c7-1f3af6acdc09#warnings",
+        "title": "aspirin: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7ce4807e-7bd5-41f1-a9c7-1f3af6acdc09",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a852412-69af-6502-e063-6294a90a0748#boxed_warning",
+        "title": "diclofenac: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a852412-69af-6502-e063-6294a90a0748",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a852412-69af-6502-e063-6294a90a0748#contraindications",
+        "title": "diclofenac: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a852412-69af-6502-e063-6294a90a0748",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a852412-69af-6502-e063-6294a90a0748#warnings",
+        "title": "diclofenac: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a852412-69af-6502-e063-6294a90a0748",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a852412-69af-6502-e063-6294a90a0748#precautions",
+        "title": "diclofenac: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a852412-69af-6502-e063-6294a90a0748",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a852412-69af-6502-e063-6294a90a0748#drug_interactions",
+        "title": "diclofenac: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a852412-69af-6502-e063-6294a90a0748",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9314611",
+        "title": "Clinical pharmacokinetics of diclofenac. Therapeutic insights and pitfalls.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9314611/",
+        "citation": "0312-5963 33 3 1997 Sep Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28063965",
+        "title": "A calix[4]arene derivative and its selective interaction with drugs (clofibric acid, diclofenac and aspirin).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28063965/",
+        "citation": "1879-0720 100 2017 Mar 30 European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences Eur J Pharm Sci",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aspirin or Diclofenac, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aspirin and Diclofenac, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet does not quantify this pair's excess gastrointestinal bleeding risk.",
+        "searched": [
+          "\"aspirin\"[tiab] AND \"diclofenac\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.658Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

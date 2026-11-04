@@ -1,0 +1,191 @@
+{
+  "card": {
+    "pair": "acarbose__digoxin",
+    "a": "acarbose",
+    "b": "digoxin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA acarbose label says acarbose changes digoxin bioavailability when coadministered.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label also reports acarbose can interfere with digoxin bioavailability.",
+        "claimIds": [
+          "c2"
+        ]
+      },
+      {
+        "text": "A randomized crossover study in healthy volunteers found lower digoxin exposure after acarbose. A case report describes subtherapeutic digoxin levels.",
+        "claimIds": [
+          "c3",
+          "c4"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA acarbose label says acarbose has been shown to change digoxin bioavailability when coadministered, which may require a digoxin dose adjustment.",
+        "quote": "Acarbose Tablets have been shown to change the bioavailability of digoxin when they are coadministered, which may require digoxin dose adjustment.",
+        "source": {
+          "kind": "fda_label",
+          "id": "1ba7a072-03b0-41f2-be7a-101145bdef3a#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "altered_bioavailability",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Acarbose label states it has been shown to change digoxin bioavailability, which may require digoxin dose adjustment.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French acarbose label says acarbose can in some cases affect digoxin bioavailability, requiring a dose adaptation.",
+        "quote": "Dans certains cas, l'acarbose peut interférer sur la biodisponibilité de la digoxine, nécessitant une adaptation posologique.",
+        "quoteEnglish": "In some cases, acarbose can interfere with the bioavailability of digoxin, requiring a dose adjustment.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60946941#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "altered_bioavailability",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "French label says acarbose can in some cases interfere with digoxin bioavailability requiring dose adaptation; translation is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "In a randomized crossover study of healthy male volunteers, digoxin AUC and Cmax were significantly lower and tmax significantly higher after acarbose than with digoxin alone.",
+        "quote": "Area under the concentration-time curve (AUC0-48) and mean maximum concentration (Cmax) were significantly lower and tmax significantly increased in phases 2 and 3 compared with phase 1.",
+        "source": {
+          "kind": "pubmed",
+          "id": "9702852"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Crossover study in healthy men found digoxin AUC and Cmax significantly lower and tmax higher with acarbose versus digoxin alone.",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "A case report describes a 69-year-old woman whose subtherapeutic digoxin levels rose to the therapeutic range after acarbose was stopped.",
+        "quote": "In the absence of acarbose, the plasma concentration of digoxin increased to the therapeutic range.",
+        "source": {
+          "kind": "pubmed",
+          "id": "8941033"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Claim presents it as a single case report and accurately states digoxin levels rose to therapeutic range after acarbose was stopped.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "1ba7a072-03b0-41f2-be7a-101145bdef3a#drug_interactions",
+        "title": "acarbose: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60946941#4.5",
+        "title": "ACARBOSE VIATRIS 100 mg, comprimé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60946941/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "e61d2108-d871-44c0-b12a-2e61fbb56967#drug_interactions",
+        "title": "digoxin: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e61d2108-d871-44c0-b12a-2e61fbb56967",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "10400405",
+        "title": "Rosiglitazone.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10400405/",
+        "citation": "0012-6667 57 6 1999 Jun Drugs Drugs",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "8941033",
+        "title": "A possible interaction of potential clinical interest between digoxin and acarbose.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8941033/",
+        "citation": "0009-9236 60 5 1996 Nov Clinical pharmacology and therapeutics Clin Pharmacol Ther",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9702852",
+        "title": "Impairment of absorption of digoxin by acarbose.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9702852/",
+        "citation": "0091-2700 38 7 1998 Jul Journal of clinical pharmacology J Clin Pharmacol",
+        "language": "en",
+        "design": "rct"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Acarbose or Digoxin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Acarbose and Digoxin, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The controlled study was in healthy male volunteers and measured digoxin concentrations, not clinical outcomes.",
+        "searched": [
+          "\"acarbose\"[tiab] AND \"digoxin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.532Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

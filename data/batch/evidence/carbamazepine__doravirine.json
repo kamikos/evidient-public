@@ -1,0 +1,101 @@
+{
+  "card": {
+    "pair": "carbamazepine__doravirine",
+    "a": "carbamazepine",
+    "b": "doravirine",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "The FDA doravirine label lists co-administration with carbamazepine as contraindicated, with lower doravirine concentrations.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The doravirine label shows carbamazepine decreasing doravirine concentration and contraindicates co-administration.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA doravirine label lists carbamazepine among anticonvulsants that lower doravirine concentrations and says co-administration is contraindicated.",
+        "quote": "Anticonvulsants carbamazepine oxcarbazepine phenobarbital phenytoin ↓ doravirine Co-administration is contraindicated with these anticonvulsants.",
+        "source": {
+          "kind": "fda_label",
+          "id": "ff06e5cc-f47a-4779-816b-0e5b13e88a25#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The doravirine table names carbamazepine with decreased doravirine and a contraindication.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "ff06e5cc-f47a-4779-816b-0e5b13e88a25#contraindications",
+        "title": "doravirine: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "ff06e5cc-f47a-4779-816b-0e5b13e88a25#drug_interactions",
+        "title": "doravirine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Carbamazepine or Doravirine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Carbamazepine and Doravirine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"carbamazepine\"[tiab] AND \"doravirine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.680Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

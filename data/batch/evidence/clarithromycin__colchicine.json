@@ -1,0 +1,241 @@
+{
+  "card": {
+    "pair": "clarithromycin__colchicine",
+    "a": "clarithromycin",
+    "b": "colchicine",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA clarithromycin label reports life-threatening and fatal interactions with colchicine and contraindicates the pair in renal or hepatic impairment.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label reports sometimes fatal colchicine poisoning with concomitant clarithromycin.",
+        "claimIds": [
+          "c4"
+        ]
+      },
+      {
+        "text": "A retrospective study of 116 patients found 10.2% mortality with concomitant use and 3.6% with sequential use.",
+        "claimIds": [
+          "c5"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA clarithromycin label says life-threatening and fatal drug interactions have been reported in patients treated with clarithromycin and colchicine.",
+        "quote": "Colchicine: Life-threatening and fatal drug interactions have been reported in patients treated with clarithromycin and colchicine.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote matches verbatim.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA clarithromycin label lists concomitant clarithromycin and colchicine as contraindicated in patients with renal or hepatic impairment.",
+        "quote": "Concomitant administration of clarithromycin tablets and colchicine is contraindicated in patients with renal or hepatic impairment.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The contraindication quote matches verbatim.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The FDA clarithromycin label says clarithromycin and other macrolides are known to inhibit CYP3A and P-glycoprotein, which handle colchicine.",
+        "quote": "Clarithromycin and other macrolides are known to inhibit CYP3A and Pgp.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "partial",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote says clarithromycin inhibits CYP3A and Pgp; the clause that these handle colchicine comes from the preceding sentence, not the quote.",
+        "accepted": false
+      },
+      {
+        "id": "c4",
+        "text": "The French clarithromycin label reports sometimes fatal colchicine poisoning with concomitant clarithromycin, especially in elderly subjects or patients with renal insufficiency.",
+        "quote": "Des cas d'intoxication par la colchicine parfois mortels ont été rapportés lors de l'administration concomitante de clarithromycine et de colchicine, notamment chez des sujets âgés, ou chez des patients insuffisants rénaux.",
+        "quoteEnglish": "Cases of sometimes fatal colchicine poisoning have been reported with concomitant administration of clarithromycin and colchicine, especially in elderly subjects or patients with renal insufficiency.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:60726518#4.4"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French quote and its English rendering match the claim.",
+        "accepted": true
+      },
+      {
+        "id": "c5",
+        "text": "In a retrospective study, 9 of 88 patients (10.2%) who received clarithromycin and colchicine concomitantly died, against 1 of 28 (3.6%) who received them sequentially.",
+        "quote": "Nine (10.2%) of the 88 patients who received the 2 drugs concomitantly died. Only 1 (3.6%) of the 28 patients who received the drugs sequentially died.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16007523"
+        },
+        "stance": "increases_risk",
+        "outcome": "colchicine_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote gives 9/88 (10.2%) vs 1/28 (3.6%) deaths.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications",
+        "title": "clarithromycin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#warnings_and_cautions",
+        "title": "clarithromycin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#drug_interactions",
+        "title": "clarithromycin: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60726518#4.4",
+        "title": "CLARITHROMYCINE ARROW 500 mg, comprimé pelliculé à libération modifiée: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60726518/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60726518#4.5",
+        "title": "CLARITHROMYCINE ARROW 500 mg, comprimé pelliculé à libération modifiée: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60726518/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:68066715#4.5",
+        "title": "COLCHICINE OPOCALCIUM 1 mg, comprimé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68066715/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20586571",
+        "title": "Colchicine poisoning: the dark side of an ancient drug.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20586571/",
+        "citation": "1556-9519 48 5 2010 Jun Clinical toxicology (Philadelphia, Pa.) Clin Toxicol (Phila)",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "18973929",
+        "title": "Colchicine update: 2008.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18973929/",
+        "citation": "1532-866X 38 6 2009 Jun Seminars in arthritis and rheumatism Semin Arthritis Rheum",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "16007523",
+        "title": "Fatal interaction between clarithromycin and colchicine in patients with renal insufficiency: a retrospective study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16007523/",
+        "citation": "1537-6591 41 3 2005 Aug 1 Clinical infectious diseases : an official publication of the Infectious Diseases Society of America Clin Infect Dis",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2",
+        "c4"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Clarithromycin or Colchicine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Clarithromycin and Colchicine, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The retrospective study was not randomized and compared concomitant with sequential therapy.",
+        "searched": [
+          "\"clarithromycin\"[tiab] AND \"colchicine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.692Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

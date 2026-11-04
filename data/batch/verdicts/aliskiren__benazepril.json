@@ -1,0 +1,26 @@
+{
+  "pair": "aliskiren__benazepril",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "partial",
+      "rationale": "The aliskiren label links co-use with ACEIs to increased risk of hypotension, hyperkalemia and 'changes in renal function' versus monotherapy; the claim loosely recasts the renal outcome as 'renal impairment'."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The benazepril label says not to coadminister aliskiren with benazepril in patients with diabetes."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

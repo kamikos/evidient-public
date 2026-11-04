@@ -1,0 +1,61 @@
+{
+  "pair": "cobicistat__darunavir",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Spanish cobicistat label says plasma concentrations of CYP3A-metabolised medicines, including darunavir, increase when given together with cobicistat.",
+      "quote": "Se observa un aumento de las concentraciones plasmáticas de los medicamentos metabolizados por el CYP3A (incluyendo atazanavir y darunavir) cuando se administran de forma concomitante con cobicistat.",
+      "quoteEnglish": "An increase in plasma concentrations is seen for medicines metabolised by CYP3A (including atazanavir and darunavir) when they are administered concomitantly with cobicistat.",
+      "sourceId": "ES:113872001#4.5",
+      "stance": "mechanism",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "c2",
+      "text": "The French darunavir label says darunavir given with cobicistat lowers creatinine clearance.",
+      "quote": "Le darunavir co-administré avec le cobicistat diminue la clairance de la créatinine.",
+      "quoteEnglish": "Darunavir co-administered with cobicistat decreases creatinine clearance.",
+      "sourceId": "FR:60803434#4.5",
+      "stance": "increases_risk",
+      "outcome": "reduced_creatinine_clearance"
+    }
+  ],
+  "headline": {
+    "text": "The Spanish cobicistat label reports higher plasma concentrations of darunavir when given with cobicistat (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The Spanish cobicistat label reports increased plasma concentrations of CYP3A-metabolised medicines, darunavir included, with cobicistat.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "The French darunavir label says darunavir given with cobicistat decreases creatinine clearance.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The Spanish label attributes the rise in darunavir concentrations to cobicistat and CYP3A metabolism of darunavir.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"cobicistat\"[tiab] AND \"darunavir\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

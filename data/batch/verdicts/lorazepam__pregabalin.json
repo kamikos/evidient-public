@@ -1,0 +1,21 @@
+{
+  "pair": "lorazepam__pregabalin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "cEU1",
+      "support": "supports",
+      "rationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

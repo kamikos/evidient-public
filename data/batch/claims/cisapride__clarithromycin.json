@@ -1,0 +1,79 @@
+{
+  "pair": "cisapride__clarithromycin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA clarithromycin label says concomitant administration with cisapride is contraindicated.",
+      "quote": "2 Cisapride and Pimozide Concomitant administration of clarithromycin tablets with cisapride and pimozide is contraindicated [see Drug Interactions (7) ] .",
+      "sourceId": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications",
+      "stance": "increases_risk",
+      "outcome": "qt_prolongation"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA label describes postmarketing reports of cardiac arrhythmias with clarithromycin and cisapride, most likely from inhibited cisapride metabolism.",
+      "quote": "There have been postmarketing reports of drug interactions when clarithromycin is co-administered with cisapride or pimozide, resulting in cardiac arrhythmias (QT prolongation, ventricular tachycardia, ventricular fibrillation, and torsades de pointes ) most likely due to inhibition of metabolism of these drugs by clarithromycin tablets.",
+      "sourceId": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications",
+      "stance": "increases_risk",
+      "outcome": "qt_prolongation"
+    },
+    {
+      "id": "c3",
+      "text": "In 12 healthy volunteers, combined cisapride and clarithromycin raised QTc by an average of 25 ms and cisapride concentrations 3-fold.",
+      "quote": "Combination of cisapride and clarithromycin caused an average QTc increase of 25 ms above pretreatment values and 3-fold increases in cisapride concentrations.",
+      "sourceId": "9834046",
+      "stance": "increases_risk",
+      "outcome": "qt_prolongation"
+    },
+    {
+      "id": "c4",
+      "text": "Two case reports describe torsades de pointes after clarithromycin was started in patients on long-term cisapride.",
+      "quote": "Two cases of torsades de pointes that followed the initiation of clarithromycin therapy in patients receiving long-term cisapride therapy are being reported.",
+      "sourceId": "9292575",
+      "stance": "increases_risk",
+      "outcome": "qt_prolongation"
+    }
+  ],
+  "headline": {
+    "text": "The FDA clarithromycin label contraindicates cisapride and reports arrhythmias including QT prolongation; a crossover study found 25 ms QTc increase (c1, c2, c3).",
+    "claimIds": [
+      "c1",
+      "c2",
+      "c3"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA label contraindicates the combination and cites postmarketing arrhythmias.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "text": "A 12-volunteer crossover study measured QTc and cisapride concentration increases, and two case reports describe torsades de pointes.",
+      "claimIds": [
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The FDA label attributes the arrhythmias most likely to clarithromycin inhibiting the metabolism of cisapride.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The French product information sections in the packet do not describe cisapride with clarithromycin beyond a CYP3A substrate list.",
+      "searched": [
+        "\"cisapride\"[tiab] AND \"clarithromycin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

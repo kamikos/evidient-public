@@ -1,0 +1,131 @@
+{
+  "card": {
+    "pair": "alcohol__quetiapine",
+    "a": "alcohol",
+    "b": "quetiapine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label reports increased cognitive and motor effects of alcohol with quetiapine in a clinical trial.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The trial involved subjects with selected psychotic disorders.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label reports that quetiapine potentiated alcohol's cognitive and motor effects in a trial involving subjects with selected psychotic disorders.",
+        "quote": "Quetiapine potentiated the cognitive and motor effects of alcohol in a clinical trial in subjects with selected psychotic disorders",
+        "source": {
+          "kind": "fda_label",
+          "id": "711f42c5-0719-46de-81fb-3d03801b9ed9#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label reports quetiapine potentiated the cognitive and motor effects of alcohol in a trial in subjects with selected psychotic disorders.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "711f42c5-0719-46de-81fb-3d03801b9ed9#drug_interactions",
+        "title": "quetiapine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=711f42c5-0719-46de-81fb-3d03801b9ed9",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60490893#4.4",
+        "title": "QUETIAPINE EG LP 50 mg, comprimé à libération prolongée: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60490893/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60490893#4.5",
+        "title": "QUETIAPINE EG LP 50 mg, comprimé à libération prolongée: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60490893/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31087085",
+        "title": "The Relationship between Alcohol Craving and Insomnia Symptoms in Alcohol-Dependent Individuals.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31087085/",
+        "citation": "1464-3502 54 3 2019 May 1 Alcohol and alcoholism (Oxford, Oxfordshire) Alcohol Alcohol",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "18601302",
+        "title": "Delirium and its treatment.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18601302/",
+        "citation": "1172-7047 22 8 2008 CNS drugs CNS Drugs",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32963470",
+        "title": "Interaction of Heavy Drinking Patterns and Depression Severity Predicts Efficacy of Quetiapine Fumarate XR in Lowering Alcohol Intake in Alcohol Use Disorder Patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32963470/",
+        "citation": "1178-2218 14 2020 Substance abuse : research and treatment Subst Abuse",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Quetiapine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.610Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,28 @@
+{
+  "inn": "cefaclor",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "61926913",
+  "product": "ALFATIL 250 mg/5 ml, poudre pour suspension buvable",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61926913/extrait",
+  "retrievedAt": "2026-11-04T08:45:02.861Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "e2be8b2051a2768e8f56cd15d84dd18bbbe5f5f602e7f76aa5f611cf10510204",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\n· La survenue de toute manifestation allergique impose l'arrêt du traitement.\n\n· La prescription de céphalosporines nécessite un interrogatoire préalable.\n\n· L'allergie aux pénicillines étant croisée avec celle aux céphalosporines dans 5 à 10 % des cas:\n\no l'utilisation des céphalosporines doit être extrêmement prudente chez les patients pénicillino-sensibles; une surveillance médicale stricte est nécessaire dès la première administration,\n\no l'emploi des céphalosporines et des pénicillines est à proscrire formellement chez les sujets ayant des antécédents d'allergie de type immédiat aux céphalosporines.\nEn cas de doute, la présence du médecin auprès du patient est indispensable à la première administration afin de traiter l'accident anaphylactique possible.\n\no les réactions d'hypersensibilité (anaphylaxie) observées avec ces deux types de substances peuvent être graves et parfois fatales.\n\n· Des colites pseudo-membraneuses ont été rapportées lors d'antibiothérapie à large spectre. Ce diagnostic doit être évoqué chez des patients ayant une diarrhée persistante au cours d'un traitement antibiotique. L'arrêt du traitement entraîne la guérison des troubles mineurs. Dans les cas sévères, des mesures diagnostiques et thérapeutiques appropriées doivent être prises.\n\n· En raison de la présence de saccharose, ce médicament est contre-indiqué en cas d'intolérance au fructose, de syndrome de malabsorption du glucose et du galactose ou de déficit en sucrase-isomaltase.\n\nPrécautions d'emploi\n\n· En cas d'insuffisance rénale, adapter la posologie en fonction de la clairance de la créatinine ou de la créatininémie. (voir rubrique 4.2).\n\n· Il est prudent de surveiller la fonction rénale en cours de traitement en cas d'association du céfaclor avec des antibiotiques potentiellement néphrotoxiques (aminosides en particulier) ou à des diurétiques type furosémide ou acide étacrynique.\n\n· Ce médicament contient du sodium: en tenir compte chez les personnes suivant un régime hyposodé strict.\n\n· Ce médicament contient environ 3 g de saccharose par 5 ml de suspension buvable soit par cuillère-mesure ou par dose de 250 mg: en tenir compte dans la ration journalière.\n\n· Les bêtalactamines exposent au risque d’encéphalopathie (confusion, troubles de la conscience, épilepsie, ou mouvements anormaux) et, particulièrement, en cas de surdosage ou d’insuffisance rénale.\n\nExamens paracliniques\n\n· Une positivation du test de Coombs direct a été obtenue en cours de traitement par des &#946;-lactamines. Ceci pourrait également survenir chez les sujets traités par le céfaclor.\n\n· Il peut se produire une réaction faussement positive lors de la recherche de glucose dans les urines avec des substances réductrices, mais non lorsqu'on utilise des méthodes spécifiques à la glucose oxydase.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61926913/extrait#tabpanel-rcp-panel",
+      "sha256": "dad428148fa07c31db320a3b3db9d97f3b2227087d40628a9cc3cf04d75444ad"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nProblèmes particuliers du déséquilibre de l'INR:\n\nDe nombreux cas d'augmentation de l'activité des anticoagulants oraux ont été rapportés chez des patients recevant des antibiotiques. Le contexte infectieux ou inflammatoire marqué, l'âge et l'état général du patient apparaissent comme des facteurs de risque. Dans ces circonstances, il apparaît difficile de faire la part entre la pathologie infectieuse et son traitement dans la survenue du déséquilibre de l'INR. Cependant, certaines classes d'antibiotiques sont davantage impliquées: il s'agit notamment des fluoroquinolones, des macrolides, des cyclines, du cotrimoxazole et de certaines céphalosporines.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61926913/extrait#tabpanel-rcp-panel",
+      "sha256": "cc4b55b1efd424dcb91094f54df53afd38051574fd9cfe5e1adfea1984aafa4d"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__temazepam",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The temazepam label states benzodiazepines including temazepam produce additive CNS-depressant effects with alcohol."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The temazepam label states alcohol appears to increase the risk of sleep-driving behaviors."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

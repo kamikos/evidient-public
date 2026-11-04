@@ -1,0 +1,32 @@
+{
+  "pair": "alcohol__bupropion",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Spanish bupropion label reports rare neuropsychiatric events or reduced alcohol tolerance in patients drinking alcohol during treatment.",
+      "quote": "Aunque en los datos clínicos no se identifica la existencia de una interacción farmacocinética entre bupropión y alcohol, en raras ocasiones se ha notificado la aparición de acontecimientos adversos neuropsiquiátricos o de una disminución de la tolerancia al alcohol en pacientes que beben alcohol durante el tratamiento con Zyntabac.",
+      "quoteEnglish": "Although clinical data do not identify a pharmacokinetic interaction between bupropion and alcohol, rare neuropsychiatric adverse events or reduced alcohol tolerance have been reported in patients drinking alcohol during Zyntabac treatment.",
+      "sourceId": "ES:63265#4.5",
+      "stance": "increases_risk",
+      "outcome": "neuropsychiatric_events"
+    }
+  ],
+  "headline": {
+    "text": "The Spanish label reports rare adverse events with alcohol during bupropion treatment.",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The Spanish bupropion label reports rare neuropsychiatric events or reduced alcohol tolerance in patients drinking alcohol during treatment.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "cns_depression",
+  "gaps": []
+}

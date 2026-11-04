@@ -1,0 +1,93 @@
+{
+  "card": {
+    "pair": "aliskiren__cilazapril",
+    "a": "aliskiren",
+    "b": "cilazapril",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label links aliskiren plus ACE inhibitors to increased hypotension, hyperkalemia, and renal dysfunction risk.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "This class warning covers cilazapril as an ACE inhibitor and includes acute renal failure among possible renal effects.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA aliskiren label links combination with ACE inhibitors, the class containing cilazapril, to increased hypotension, hyperkalemia, and renal dysfunction risk.",
+        "quote": "The concomitant use of aliskiren with other agents acting on the RAAS such as ACEIs or ARBs is associated with an increased risk of hypotension, hyperkalemia, and changes in renal function (including acute renal failure) compared to monotherapy.",
+        "source": {
+          "kind": "fda_label",
+          "id": "3dd61fa5-1620-4ebf-bbdb-ede29b92fce2#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "raas_blockade_toxicity",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The aliskiren label states use with ACE inhibitors increases hypotension, hyperkalemia and renal function change risk, and cilazapril is an ACE inhibitor.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "3dd61fa5-1620-4ebf-bbdb-ede29b92fce2#contraindications",
+        "title": "aliskiren: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3dd61fa5-1620-4ebf-bbdb-ede29b92fce2",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3dd61fa5-1620-4ebf-bbdb-ede29b92fce2#drug_interactions",
+        "title": "aliskiren: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3dd61fa5-1620-4ebf-bbdb-ede29b92fce2",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aliskiren or Cilazapril, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aliskiren and Cilazapril, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.635Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

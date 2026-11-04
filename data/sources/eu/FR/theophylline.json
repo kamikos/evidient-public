@@ -1,0 +1,28 @@
+{
+  "inn": "theophylline",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "62481804",
+  "product": "DILATRANE 200 mg, gélule à libération prolongée",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62481804/extrait",
+  "retrievedAt": "2026-11-04T08:44:35.652Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "d7b99010baed1db2dfe70805de14a2513ebd1ecc0f302dfda47a253f63e54d1f",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\nEn raison des grandes variations interindividuelles du métabolisme de la théophylline, il est nécessaire d’adapter les doses en fonction de l’efficacité clinique, des effets indésirables et/ou des taux sanguins (voir rubrique 4.2). Un surdosage peut résulter de doses inappropriées, de prises répétées à intervalles trop courts, ou d’une potentialisation par des médicaments associés, ou encore d’une diminution du métabolisme (voir rubriques 5.2 et 4.5).\n\nLa théophylline doit être utilisée avec grande prudence chez le jeune enfant qui est extrêmement sensible à l’action des bases xanthiques : des crises convulsives, des accidents neurologiques avec parfois des séquelles irréversibles et des décès ont été rapportés en cas de surdosage.\n\nLa théophylline à libération prolongée ne constitue pas le traitement de la crise d’asthme.\n\nCe médicament contient du saccharose. Son utilisation est déconseillée chez les patients présentant une intolérance au saccharose.\n\nPrécautions d’emploi\n\nUtiliser avec précaution et sous surveillance de la théophyllinémie en cas :\n\n· d’insuffisance cardiaque aiguë (diminuer les doses en raison du risque de surdosage),\n\n· d’insuffisance coronaire,\n\n· d’obésité (adapter la posologie par rapport au poids idéal),\n\n· d’hyperthyroïdie,\n\n· d’insuffisance hépatique (diminuer les doses en raison du risque de surdosage),\n\n· d’antécédents comitiaux,\n\n· d’association avec la cimétidine, l’allopurinol, le fluconazole, la ciprofloxacine, la norfloxacine, la péfloxacine, la fluvoxamine, la méxilétine, la ticlopidine, la pentoxifylline, le thiabenzadole et avec un inducteur enzymatique (voir rubrique 4.5),\n\n· de fièvre prolongée de plus de 24 heures, au dessus de 38°C, en particulier chez le jeune enfant (diminuer la posologie de moitié en raison du risque de surdosage, par diminution de la clairance de la théophylline).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62481804/extrait#tabpanel-rcp-panel",
+      "sha256": "0f4f9ac4a879389439b98a65d1734c939e0826a9c2f80ee3eaf0e5a5e508cf5a"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAssociations contre-indiquées\n\n+ Enoxacine\n\nRisque de surdosage en théophylline (diminution importante du catabolisme de la théophylline)\n\nAssociations déconseillées\n\n+ Erythromycine\n\nRisque de surdosage en théophylline (diminution de son élimination hépatique) plus particulièrement dangereux chez l’enfant.\n\nIl est possible d’utiliser les autres macrolides, actuellement considérés comme sans interaction. Cependant dans la maladie des légionnaires, l’érythromycine reste l’antibiotique de référence et peut être utilisée sous surveillance clinique étroite avec contrôle éventuel de la théophyllinémie.\n\n+ Viloxazine :\n\nAugmentation de la théophyllinémie avec risque de surdosage (diminution du métabolisme de la théophylline).\n\nSi l’association ne peut être évitée, surveillance clinique étroite avec contrôle éventuel des concentrations plasmatiques de théophylline.\n\nAssociations faisant l'objet de précautions d’emploi\n\n+ Cimétidine (posologie &#8805; 800 mg/j), fluconazole, ciprofloxacine, norfloxacine, péfloxacine, fluvoxamine, méxilétine, ticlopidine, ritonavir, tacrine, pentoxifylline\n\nAugmentation de la théophyllinémie avec risque de surdosage.\n\n+ Thiabendazole\n\nAugmentation de la théophylline avec risque de surdosage, par diminution du métabolisme hépatique de la théophylline.\n\n+ Allopurinol\n\nAugmentation de la théophyllinémie en cas de posologies élevées d’allopurinol (600 mg/j).\n\n+ Carbamazépine, phénobarbital, phénytoïne, primidone, rifabutine, rifampicine (inducteurs enzymatiques)\n\nDiminution de la théophyllinémie et de l’activité de la théophylline.\n\nConduite à tenir :\n\nSurveillance clinique et éventuellement de la théophyllinémie ; s’il y a lieu adaptation de la posologie de la théophylline pendant le traitement associé et après son arrêt.\n\nAssociations à prendre en compte\n\n+ Clarithromycine, josamycine, roxithromycine\n\nRisque d’augmentation des taux plasmatiques de la théophylline, particulièrement chez l’enfant.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62481804/extrait#tabpanel-rcp-panel",
+      "sha256": "6a4abe7f252d9212a9ec526ef8bd7dda85711ab74def9897fd698be79d73b901"
+    }
+  ]
+}

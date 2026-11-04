@@ -1,0 +1,148 @@
+{
+  "card": {
+    "pair": "alcohol__oxycodone",
+    "a": "alcohol",
+    "b": "oxycodone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA oxycodone label warns of profound sedation, respiratory depression, coma, and death with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The boxed warning describes potentially fatal central nervous system depression when opioids are combined with alcohol.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA oxycodone label says opioids combined with alcohol may cause profound sedation, respiratory depression, coma, and death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "338b5391-e5f7-40a2-8b15-57f47cbc4813#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The oxycodone boxed warning names alcohol among CNS depressants whose co-use with opioids may cause profound sedation, respiratory depression, coma and death.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "338b5391-e5f7-40a2-8b15-57f47cbc4813#boxed_warning",
+        "title": "oxycodone: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=338b5391-e5f7-40a2-8b15-57f47cbc4813",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "338b5391-e5f7-40a2-8b15-57f47cbc4813#warnings_and_cautions",
+        "title": "oxycodone: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=338b5391-e5f7-40a2-8b15-57f47cbc4813",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "338b5391-e5f7-40a2-8b15-57f47cbc4813#drug_interactions",
+        "title": "oxycodone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=338b5391-e5f7-40a2-8b15-57f47cbc4813",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61200108#4.4",
+        "title": "OXYCONTIN LP 10 mg, comprimé pelliculé à libération prolongée: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61200108#4.5",
+        "title": "OXYCONTIN LP 10 mg, comprimé pelliculé à libération prolongée: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61200108/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "21172762",
+        "title": "Oral hydromorphone extended-release.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21172762/",
+        "citation": "0888-5109 25 12 2010 Dec The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists Consult Pharm",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28470980",
+        "title": "Aprepitant and fosaprepitant drug interactions: a systematic review.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28470980/",
+        "citation": "1365-2125 83 10 2017 Oct British journal of clinical pharmacology Br J Clin Pharmacol",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Oxycodone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study of oxycodone combined with alcohol.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"oxycodone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.600Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

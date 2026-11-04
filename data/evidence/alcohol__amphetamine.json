@@ -1,0 +1,557 @@
+{
+  "card": {
+    "pair": "alcohol__amphetamine",
+    "a": "alcohol",
+    "b": "amphetamine",
+    "category": "other",
+    "depth": "human_studies",
+    "headline": {
+      "text": "Combined alcohol and amphetamine impaired simulated driving and attention",
+      "claimIds": [
+        "c1",
+        "c4"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Combined dexamphetamine and alcohol impaired tracking and increased collisions in simulated driving.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amphetamine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Combined dexamphetamine and alcohol impaired tracking and increased collisions in simulated driving.",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Mean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "increases_risk",
+        "outcome": "impaired_driving",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote reports that dexamphetamine plus alcohol was associated with more collisions than dexamphetamine or placebo and that alcohol use increased lateral-position deviation, supporting impaired tracking and increased risk from the combination.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks.",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "increases_risk",
+        "outcome": "attention_impairment",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c3",
+        "text": "Ten milligrams dexamphetamine did not overcome alcohol impairment of driving-related skills.",
+        "quote": "Single doses of 0.8 g/kg alcohol increased risk-taking behaviours and impaired tracking, attention and reaction time during a 3-h period after drinking when BACs declined from 0.9 to 0.2 mg/ml. The stimulatory effects of co-administration of dexamphetamine 10 mg were not sufficient to overcome the impairing effects of alcohol on skills related to driving.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "uncertain",
+        "outcome": "impaired_driving",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The quote definitively states that dexamphetamine was not sufficient to overcome alcohol impairment, expressing no explicit uncertainty, so the uncertain stance does not match.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c4",
+        "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks.",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings.\n\nMean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "increases_risk",
+        "outcome": "attention_impairment",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote directly reports significantly impaired vigilance and divided attention in both the alcohol-only condition and, to a lesser degree, the dexamphetamine-plus-alcohol condition, supporting the claimed impairment from the co-exposure.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "pubmed",
+        "id": "22076246",
+        "title": "Effects of dexamphetamine with and without alcohol on simulated driving.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22076246/",
+        "citation": "Simons et al. · Psychopharmacology 2012",
+        "design": "rct",
+        "year": 2012,
+        "sampleSize": 18
+      }
+    ],
+    "generatedAt": "2026-11-03T20:49:19.424Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "studies_only",
+      "basis": [
+        "c1",
+        "c4"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__amphetamine",
+      "at": "2026-11-03T20:47:49.887Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:22076246",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "22076246"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b3c487470ba676368fbd8ee2a",
+      "name": "record_claim",
+      "args": {
+        "outcome": "impaired_driving",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Mean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions.",
+        "sourceId": "22076246",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Combined dexamphetamine and alcohol impaired tracking and increased collisions in simulated driving."
+      },
+      "t": 16112
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "Combined dexamphetamine and alcohol impaired tracking and increased collisions in simulated driving.",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Mean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "increases_risk",
+        "outcome": "impaired_driving"
+      },
+      "t": 16112
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b3c487470ba676368fbd8ee2a",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 16112
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b412974c5a186aee2ec1c0152",
+      "name": "record_claim",
+      "args": {
+        "outcome": "attention_impairment",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+        "sourceId": "22076246",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks."
+      },
+      "t": 16112
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks.",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "increases_risk",
+        "outcome": "attention_impairment"
+      },
+      "t": 16112
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b412974c5a186aee2ec1c0152",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 16112
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b459b753d804bd9eb26607b18",
+      "name": "record_claim",
+      "args": {
+        "outcome": "impaired_driving",
+        "quote": "Single doses of 0.8 g/kg alcohol increased risk-taking behaviours and impaired tracking, attention and reaction time during a 3-h period after drinking when BACs declined from 0.9 to 0.2 mg/ml. The stimulatory effects of co-administration of dexamphetamine 10 mg were not sufficient to overcome the impairing effects of alcohol on skills related to driving.",
+        "sourceId": "22076246",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Ten milligrams dexamphetamine did not overcome alcohol impairment of driving-related skills."
+      },
+      "t": 16112
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Ten milligrams dexamphetamine did not overcome alcohol impairment of driving-related skills.",
+        "quote": "Single doses of 0.8 g/kg alcohol increased risk-taking behaviours and impaired tracking, attention and reaction time during a 3-h period after drinking when BACs declined from 0.9 to 0.2 mg/ml. The stimulatory effects of co-administration of dexamphetamine 10 mg were not sufficient to overcome the impairing effects of alcohol on skills related to driving.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "uncertain",
+        "outcome": "impaired_driving"
+      },
+      "t": 16112
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b459b753d804bd9eb26607b18",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 16112
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b496c76edbf6b44053861867c",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol amphetamine dexamphetamine interaction driving performance human"
+      },
+      "t": 16112
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b496c76edbf6b44053861867c",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol amphetamine dexamphetamine interaction driving performance human\",\"pmids\":[\"11592671\",\"1558306\"]}",
+      "t": 16589
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b4a9872c4a7a1e5121a7d328f",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol amphetamine combination adults driving impairment"
+      },
+      "t": 16589
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b4a9872c4a7a1e5121a7d328f",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol amphetamine combination adults driving impairment\",\"pmids\":[\"39068640\",\"31812899\",\"28942374\",\"28412575\",\"27740861\"]}",
+      "t": 17074
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b6d4570519aa55340c24f85a2",
+      "name": "get_label_sections",
+      "args": {
+        "substanceId": "amphetamine"
+      },
+      "t": 26405
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b6d4570519aa55340c24f85a2",
+      "summary": "get_label_sections completed: {\"error\":\"Tool failed or arguments were invalid; try a narrower request.\"}",
+      "t": 27960
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32b6e6075bf99e75aaae49ffdb0",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "11592671",
+          "39068640"
+        ]
+      },
+      "t": 27960
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32b6e6075bf99e75aaae49ffdb0",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"11592671\",\"title\":\"The influence of stimulants, sedatives, and fatigue on tunnel vision: risk factors for driving and piloting.\",\"journal\":\"Human factors\",\"year\":\"2001\",\"abstractText\":\"A computerized task was used in two studies to examine the influence of stimulants, sedatives, and fatigue on single-target and divided-attention responses in different parts of the visual field. The drug effects were evaluated over time with repeated behavioral and subjective measures against ascending and descending drug levels. In the first study, 18 fully rested participants received placebo, alprazolam (0.5 mg), and dextroamphetamine (10 mg). Alprazolam impairs performance, whereas dextroamphetamine induces enhancement and tunnel vision. Study 2 exposed 32 participants to fatigue and no fatigue with a repeated-measures crossover design. Four independent groups subsequently received placebo, dextroamphetamine (10 mg), caffeine (250 mg), or alcohol (.07%). Under fatigue, stimulants have no performance-enhancing effects, whereas impairment from alcohol is severe. Under no fatigue, alcohol has a modest effect, caffeine has no effect, and dextroamphetamine significantly enhances divided-attention performance coincident with tunnel vision. Participants rate all drug effects more stimulating and less sedating while fatigued. Implications for transportation safety are discussed. Actual or potential applications of this research include driver and pilot training.\",\"publicationTypes\":[\"Clinical Trial\",\"Comparative Study\",\"Controlled Clinical Trial\",\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, U.S. Gov't, P.H.S.\"],\"firstAuthor\":\"Mills\",\"kind\":\"pubmed\",\"id\":\"11592671\",\"text\":\"A computerized task was used in two studies to examine the influence of stimulants, sedatives, and fatigue on single-target and divided-attention responses in different parts of the visual field. The drug effects were evaluated over time with repeated behavioral and subjective measures against ascending and descending drug levels. In the first study, 18 fully rested participants received placebo, alprazolam (0.5 mg), and dextroamphetamine (10 mg). Alprazolam impairs performance, whereas dextroamphetamine induces enhancement and tunnel vision. Study 2 exposed 32 participants to fatigue and no fatigue with a repeated-measures crossover design. Four independent groups subsequently received placebo, dextroamphetamine (10 mg), caffeine (250 mg), or alcohol (.07%). Under fatigue, stimulants have no performance-enhancing effects, whereas impairment from alcohol is severe. Under no fatigue, alcohol has a modest effect, caffeine has no effect, and dextroamphetamine significantly enhances divided-attention performance coincident with tunnel vision. Participants rate all drug effects more stimulating and less sedating while fatigued. Implications for transportation safety are discussed. Actual or potential applications of this research include driver and pilot training.\"},{\"pmid\":\"39068640\",\"title\":\"Acute methamphetamine and alcohol usage alters gaze behaviour during driving: A randomised, double-blind, placebo-controlled study.\",\"journal\":\"Journal of psychopharmacology (Oxford, England)\",\"year\":\"2024\",\"abstractText\":\"Methamphetamine is frequently co-consumed with alcohol, yet combined effects on visually guided behaviours have not been experimentally assessed. This study examined whether methamphetamine and alcohol-induced changes in gaze behaviour can be accurately detected and indexed during a simulated driving task to establish characteristic patterns relevant to traffic safety.\\n\\nIn a randomised, placebo-controlled, cross-over study design, the effects of acute oral methamphetamine (0.42 mg/kg) were assessed with and without low doses of alcohol (target 0.04% blood alcohol content) on gaze behaviour during driving. Twenty healthy adults (mean age 29.5 years (SD ± 4.9), 40% female) completed four, 1-h simulated drives with simultaneous eye monitoring using the SensoMotoric Instruments cap-mounted eye tracker over a 4-week experimental paradigm. Gaze entropy measures were used to quantify visual scanning efficiency, expressed as gaze transition entropy and stationary gaze entropy. Fixations, recorded as duration (milliseconds, ms) and rate (count) per minute, were examined in 10-min bins over the duration of the drive. Driving performance was assessed by the standard deviation of lateral position, standard deviation of speed and steering variability.\\n\\nMethamphetamine increased the rate and duration of fixations and produced a less dispersed but more disorganised pattern of gaze during highway driving while preserving performance. Alcohol alone impaired both oculomotor control and driving performance, even when consumed at levels well below the legal limit stipulated in many international jurisdictions.\\n\\nMethamphetamine-affected drivers display inefficient exploration in a limited visual range during driving. Eye-tracking metrics thus show potential for indexing intoxication due to psychoactive substance usage.\",\"publicationTypes\":[\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Hayley\",\"kind\":\"pubmed\",\"id\":\"39068640\",\"text\":\"Methamphetamine is frequently co-consumed with alcohol, yet combined effects on visually guided behaviours have not been experimentally assessed. This study examined whether methamphetamine and alcohol-induced changes in gaze behaviour can be accurately detected and indexed during a simulated driving task to establish characteristic patterns relevant to traffic safety.\\n\\nIn a randomised, placebo-controlled, cross-over study design, the effects of acute oral methamphetamine (0.42 mg/kg) were assessed with and without low doses of alcohol (target 0.04% blood alcohol content) on gaze behaviour during driving. Twenty healthy adults (mean age 29.5 years (SD ± 4.9), 40% female) completed four, 1-h simulated drives with simultaneous eye monitoring using the SensoMotoric Instruments cap-mounted eye tracker over a 4-week experimental paradigm. Gaze entropy measures were used to quantify visual scanning efficiency, expressed as gaze transition entropy and stationary gaze entropy. Fixations, recorded as duration (milliseconds, ms) and rate (count) per minute, were examined in 10-min bins over the duration of the drive. Driving performance was assessed by the standard deviation of lateral position, standard deviation of speed and steering variability.\\n\\nMethamphetamine increased the rate and duration of fixations and produced a less dispersed but more disorganised pattern of gaze during highway driving while preserving performance. Alcohol alone impaired both oculomotor control and driving performance, even when consumed at levels well below the legal limit stipulated in many international jurisdictions.\\n\\nMethamphetamine-affected drivers display inefficient exploration in a limited visual range during driving. Eye-tracking metrics thus show potential for indexing intoxication due to psychoactive substance usage.\"}]",
+      "t": 28638
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 40777
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 40777
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "not_found",
+      "t": 40778
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 40778
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote reports that dexamphetamine plus alcohol was associated with more collisions than dexamphetamine or placebo and that alcohol use increased lateral-position deviation, supporting impaired tracking and increased risk from the combination.",
+      "model": "muse-wonder-1.0",
+      "t": 48985
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "does_not_support",
+      "rationale": "The quote definitively states that dexamphetamine was not sufficient to overcome alcohol impairment, expressing no explicit uncertainty, so the uncertain stance does not match.",
+      "model": "muse-wonder-1.0",
+      "t": 48985
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 1 rejected claims",
+      "t": 48985
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32becc473d8b9fd7b072c3d19ec",
+      "name": "record_claim",
+      "args": {
+        "outcome": "attention_impairment",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings.\n\nMean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+        "sourceId": "22076246",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks."
+      },
+      "t": 59758
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks.",
+        "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings.\n\nMean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22076246"
+        },
+        "stance": "increases_risk",
+        "outcome": "attention_impairment"
+      },
+      "t": 59758
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32becc473d8b9fd7b072c3d19ec",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 59758
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 59758
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "supports",
+      "rationale": "The quote directly reports significantly impaired vigilance and divided attention in both the alcohol-only condition and, to a lesser degree, the dexamphetamine-plus-alcohol condition, supporting the claimed impairment from the co-exposure.",
+      "model": "muse-wonder-1.0",
+      "t": 64857
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 69870
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 1.",
+      "t": 89537
+    },
+    {
+      "type": "thinking",
+      "text": "Made 14 external requests",
+      "t": 89537
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__amphetamine",
+        "a": "alcohol",
+        "b": "amphetamine",
+        "category": "other",
+        "depth": "human_studies",
+        "headline": {
+          "text": "Combined alcohol and amphetamine impaired simulated driving and attention",
+          "claimIds": [
+            "c1",
+            "c4"
+          ]
+        },
+        "reported": [
+          {
+            "text": "Combined dexamphetamine and alcohol impaired tracking and increased collisions in simulated driving.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Amphetamine and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "Combined dexamphetamine and alcohol impaired tracking and increased collisions in simulated driving.",
+            "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Mean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions.",
+            "source": {
+              "kind": "pubmed",
+              "id": "22076246"
+            },
+            "stance": "increases_risk",
+            "outcome": "impaired_driving",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote reports that dexamphetamine plus alcohol was associated with more collisions than dexamphetamine or placebo and that alcohol use increased lateral-position deviation, supporting impaired tracking and increased risk from the combination.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks.",
+            "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+            "source": {
+              "kind": "pubmed",
+              "id": "22076246"
+            },
+            "stance": "increases_risk",
+            "outcome": "attention_impairment",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c3",
+            "text": "Ten milligrams dexamphetamine did not overcome alcohol impairment of driving-related skills.",
+            "quote": "Single doses of 0.8 g/kg alcohol increased risk-taking behaviours and impaired tracking, attention and reaction time during a 3-h period after drinking when BACs declined from 0.9 to 0.2 mg/ml. The stimulatory effects of co-administration of dexamphetamine 10 mg were not sufficient to overcome the impairing effects of alcohol on skills related to driving.",
+            "source": {
+              "kind": "pubmed",
+              "id": "22076246"
+            },
+            "stance": "uncertain",
+            "outcome": "impaired_driving",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The quote definitively states that dexamphetamine was not sufficient to overcome alcohol impairment, expressing no explicit uncertainty, so the uncertain stance does not match.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c4",
+            "text": "Alcohol alone and combined with dexamphetamine impaired vigilance and divided attention tasks.",
+            "quote": "Eighteen subjects participated in a randomized, crossover, placebo-controlled study employing four conditions: 10 mg dexamphetamine, 0.8 g/kg alcohol, 10 mg dexamphetamine + 0.8 g/kg alcohol, and placebo. Fundamental driving skills and risk-taking behaviour were assessed in a driving simulator. Subjects also completed vigilance and divided attention tasks, and subjective ratings.\n\nMean BAC levels during simulated driving were between 0.91‰ and 0.64‰. Subjects using alcohol showed a significantly larger mean standard deviation of lateral position and shorter accepted gap time and distance. Use of alcohol or dexamphetamine + alcohol was associated with a higher frequency of red light running and collisions than the dexamphetamine or placebo conditions. Performance of vigilance and divided attention tasks was significantly impaired in the alcohol condition and, to a lesser degree, in the dexamphetamine + alcohol condition.",
+            "source": {
+              "kind": "pubmed",
+              "id": "22076246"
+            },
+            "stance": "increases_risk",
+            "outcome": "attention_impairment",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote directly reports significantly impaired vigilance and divided attention in both the alcohol-only condition and, to a lesser degree, the dexamphetamine-plus-alcohol condition, supporting the claimed impairment from the co-exposure.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "pubmed",
+            "id": "22076246",
+            "title": "Effects of dexamphetamine with and without alcohol on simulated driving.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22076246/",
+            "citation": "Simons et al. · Psychopharmacology 2012",
+            "design": "rct",
+            "year": 2012,
+            "sampleSize": 18
+          }
+        ],
+        "generatedAt": "2026-11-03T20:49:19.424Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "studies_only",
+          "basis": [
+            "c1",
+            "c4"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 89537
+    }
+  ]
+}

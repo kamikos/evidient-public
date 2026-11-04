@@ -1,0 +1,28 @@
+{
+  "inn": "acarbose",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60946941",
+  "product": "ACARBOSE VIATRIS 100 mg, comprimé sécable",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60946941/extrait",
+  "retrievedAt": "2026-11-04T08:45:50.043Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "15d289ea4f75071fc1ef80563ff2e067a285792c1168d79d296249feae6c4519",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\n· L'acarbose diminue l'hyperglycémie mais n’induit pas lui-même d’hypoglycémie.\n\n· En cas d'association à un autre antidiabétique oral (par exemple sulfamides hypoglycémiants, metformine) ou à l'insuline, l'abaissement de la glycémie peut nécessiter une diminution de la posologie des médicaments associés.\n\n· L'acarbose retardant la digestion et l'absorption du saccharose, il est recommandé d'administrer, en cas d'hypoglycémie, du glucose pour obtenir une remontée rapide de la glycémie (voir rubrique 4.5).\n\n· En raison de l’augmentation de la fermentation des hydrates de carbone dans le côlon au cours d’un traitement par l’acarbose, des troubles digestifs peuvent survenir (voir rubrique 4.8). Ils peuvent s’améliorer avec le temps ; l’étalement progressif de la posologie jusqu’à la dose souhaitée permet de prévenir ou de diminuer cette symptomatologie.\n\n· Des cas d'hépatite fulminante ont été rapportés pendant le traitement par acarbose. Le mécanisme n’est pas connu, mais l'acarbose pourrait contribuer à la physiopathologie multifactorielle des lésions hépatiques. En cas d’élévation du taux des transaminases, une diminution de la posologie voire un arrêt du traitement pourra être indiqué, en particulier si cette élévation persiste.\n\n· La surveillance des enzymes hépatiques doit être considérée au cours des 6 à 12 premiers mois de traitement en particulier chez l'insuffisant hépatique (voir rubrique 4.8).\n\n· En cas de suspicion de sub-occlusion ou d'occlusion, le traitement doit être immédiatement arrêté (voir rubrique 4.8)\n\nPopulation pédiatrique\n\n· L'efficacité et la tolérance de l'acarbose n'ont pas été établies chez l'enfant de moins de 18 ans.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60946941/extrait#tabpanel-rcp-panel",
+      "sha256": "a3c9e97a0cd3d4b791d74248e1b065f5671dcd08e15d05592bcb953bfb7103f1"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nPendant le traitement par l'acarbose, le saccharose (sucre de canne) ainsi que les aliments contenant du saccharose peuvent parfois entraîner un inconfort intestinal voire des diarrhées du fait de l'augmentation de la fermentation des hydrates de carbone dans le côlon.\n\nL'acarbose diminue l'hyperglycémie mais n'induit pas lui-même d'hypoglycémie. En cas d'association de l'acarbose à un sulfamide hypoglycémiant, à la metformine ou à l'insuline, la glycémie peut baisser et conduire à une hypoglycémie; un ajustement de la posologie des médicaments associés peut être nécessaire.\n\nDes cas isolés de choc hypoglycémique ont été rapportés.\n\nEn cas de survenue d'une hypoglycémie sévère, la biotransformation du saccharose en fructose et glucose étant plus lente pendant le traitement, le glucose doit être utilisé à la place du saccharose pour une amélioration rapide de la glycémie.\n\nDans certains cas, l'acarbose peut interférer sur la biodisponibilité de la digoxine, nécessitant une adaptation posologique.\n\nL'administration simultanée de colestyramine, d'absorbants intestinaux ou de médicaments à base d'enzymes digestives doit être évitée (modification possible de l'activité de l'acarbose).\n\nLa prise concomitante de l'acarbose et de néomycine orale peut conduire à une réduction plus importante de la glycémie postprandiale ainsi qu'à une augmentation de la fréquence et de la sévérité des effets indésirables gastro-intestinaux. Si les symptômes sont sévères, une réduction provisoire de la dose de l'acarbose peut être envisagée.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60946941/extrait#tabpanel-rcp-panel",
+      "sha256": "4568b5c55f2cbba9cd6d61a846c6c5e9bc7ee10b8cdb86e49226bfab4f6c68ef"
+    }
+  ]
+}

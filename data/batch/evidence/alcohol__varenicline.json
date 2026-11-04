@@ -1,0 +1,163 @@
+{
+  "card": {
+    "pair": "alcohol__varenicline",
+    "a": "alcohol",
+    "b": "varenicline",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label reports increased intoxicating effects of alcohol in patients taking varenicline.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Postmarketing reports included increased intoxication, unusual or aggressive behavior, and amnesia for the events.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The EMA varenicline label reports postmarketing cases of increased intoxicating effects of alcohol during varenicline treatment.",
+        "claimIds": [
+          "cEU1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label reports increased alcohol intoxication with varenicline, sometimes involving unusual or aggressive behavior and amnesia.",
+        "quote": "There have been postmarketing reports of patients experiencing increased intoxicating effects of alcohol while taking varenicline.\nSome cases described unusual and sometimes aggressive behavior, and were often accompanied by amnesia for the events.",
+        "source": {
+          "kind": "fda_label",
+          "id": "d759167f-e0b2-46d5-a34a-3c8858e39590#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_intoxication",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The varenicline label reports postmarketing increased alcohol intoxication, some with unusual or aggressive behavior and often amnesia.",
+        "accepted": true
+      },
+      {
+        "id": "cEU1",
+        "text": "The EMA varenicline label reports postmarketing cases of increased intoxicating effects of alcohol during varenicline treatment.",
+        "quote": "There have been post marketing reports of increased intoxicating effects of alcohol in patients treated with varenicline.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "EU:EMEA/H/C/000699#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "alcohol_intoxication",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "d759167f-e0b2-46d5-a34a-3c8858e39590#warnings_and_cautions",
+        "title": "varenicline: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d759167f-e0b2-46d5-a34a-3c8858e39590",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:64912922#4.5",
+        "title": "VARENICLINE ARROW 0,5 mg, comprimé pelliculé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64912922/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38555116",
+        "title": "Substitution therapy for patients with alcohol dependence: Mechanisms of action and efficacy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38555116/",
+        "citation": "2162-5514 175 2024 International review of neurobiology Int Rev Neurobiol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26365457",
+        "title": "Effects of varenicline on operant self-administration of alcohol and/or nicotine in a rat model of co-abuse.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26365457/",
+        "citation": "1872-7549 296 2016 Jan 1 Behavioural brain research Behav Brain Res",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30573023",
+        "title": "Distress Tolerance and Craving for Cigarettes Among Heavy Drinking Smokers.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30573023/",
+        "citation": "1938-4114 79 6 2018 Nov Journal of studies on alcohol and drugs J Stud Alcohol Drugs",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34087351",
+        "title": "Cytisine and cytisine derivatives. More than smoking cessation aids.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34087351/",
+        "citation": "1096-1186 170 2021 Aug Pharmacological research Pharmacol Res",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/000699#4.5",
+        "title": "Champix: 4.5",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/champix-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Champix, https://www.ema.europa.eu/en/documents/product-information/champix-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.5",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "cEU1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Varenicline and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T18:37:23.284Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

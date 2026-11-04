@@ -1,0 +1,721 @@
+{
+  "card": {
+    "pair": "alcohol__cetirizine",
+    "a": "alcohol",
+    "b": "cetirizine",
+    "category": "cns_depression",
+    "depth": "human_studies",
+    "headline": {
+      "text": "Alcohol may increase drowsiness and psychomotor impairment with cetirizine",
+      "claimIds": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states to avoid alcoholic drinks when using cetirizine because alcohol may increase drowsiness.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Cetirizine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states to avoid alcoholic drinks when using cetirizine.",
+        "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+        "source": {
+          "kind": "fda_label",
+          "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "drowsiness",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "This supports the entire claim and the increases_risk stance because the quote explicitly directs users to avoid alcoholic drinks when using cetirizine and states that alcohol may increase drowsiness.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "Alcohol may increase drowsiness when combined with cetirizine.",
+        "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+        "source": {
+          "kind": "fda_label",
+          "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "drowsiness",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The label quote explicitly warns that alcohol may increase drowsiness and to avoid alcoholic drinks during cetirizine use, matching the hedged increases_risk claim.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "Alcohol with cetirizine 10 mg produced more impairment than alcohol alone in 18 volunteers.",
+        "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. The combination of alcohol with HYD, CET and RUP 20 mg produced more cognitive and psychomotor impairment as compared to alcohol alone, being the combination of alcohol and HYD the one which induced the greatest deterioration.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote directly reports that in 18 healthy young volunteers, alcohol plus cetirizine 10 mg produced more cognitive and psychomotor impairment than alcohol alone, supporting the claim and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "Increased impairment from alcohol with cetirizine was not subjectively perceived by volunteers.",
+        "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c5",
+        "text": "Alcohol-induced CNS impairment may be enhanced if other drugs are taken simultaneously.",
+        "quote": "The Central Nervous System (CNS) impairment induced by moderate alcohol (ALC) ingestion may be enhanced if other drugs are taken simultaneously.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "mechanism",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "The quote is a generic statement about alcohol with other drugs from a rupatadine study, mentioning neither cetirizine co-exposure nor an explicit mechanism, so it does not support the alcohol-cetirizine mechanism claim.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c6",
+        "text": "Increased impairment after alcohol with CET was not subjectively perceived.",
+        "quote": "Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support because the quote definitively states that increased objective impairment with alcohol plus cetirizine was not subjectively perceived, without the explicit uncertainty required for an 'uncertain' stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings",
+        "title": "Warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=016b66fd-dde9-4f13-afaf-a8aafbdeed1a",
+        "citation": "FDA label · Warnings",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "16389668",
+        "title": "Evaluation of the cognitive, psychomotor and pharmacokinetic profiles of rupatadine, hydroxyzine and cetirizine, in combination with alcohol, in healthy volunteers.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16389668/",
+        "citation": "Barbanoj et al. · Human psychopharmacology 2006",
+        "design": "rct",
+        "year": 2006,
+        "sampleSize": 18,
+        "population": "healthy young volunteers of both sexes"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:55:07.832Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__cetirizine",
+      "at": "2026-11-03T19:53:28.958Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f960df72349fbeccbe0788a352",
+      "name": "record_claim",
+      "args": {
+        "outcome": "drowsiness",
+        "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+        "sourceId": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states to avoid alcoholic drinks when using cetirizine."
+      },
+      "t": 8011
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states to avoid alcoholic drinks when using cetirizine.",
+        "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+        "source": {
+          "kind": "fda_label",
+          "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "drowsiness"
+      },
+      "t": 8011
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f960df72349fbeccbe0788a352",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 8011
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f96409729487c2d0d0aeb126e3",
+      "name": "record_claim",
+      "args": {
+        "outcome": "drowsiness",
+        "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+        "sourceId": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "Alcohol may increase drowsiness when combined with cetirizine."
+      },
+      "t": 8011
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "Alcohol may increase drowsiness when combined with cetirizine.",
+        "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+        "source": {
+          "kind": "fda_label",
+          "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "drowsiness"
+      },
+      "t": 8011
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f96409729487c2d0d0aeb126e3",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 8011
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f9673d772bb7e4c838e0d9ff5c",
+      "name": "search_pubmed",
+      "args": {
+        "query": "cetirizine alcohol interaction human drowsiness psychomotor"
+      },
+      "t": 8011
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f9673d772bb7e4c838e0d9ff5c",
+      "summary": "search_pubmed completed: {\"query\":\"cetirizine alcohol interaction human drowsiness psychomotor\",\"pmids\":[\"24395298\",\"16389668\",\"1970834\"]}",
+      "t": 8463
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f9687b74a7859a3437aa9d271a",
+      "name": "search_pubmed",
+      "args": {
+        "query": "cetirizine alcohol combination adults drowsiness"
+      },
+      "t": 8464
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f9687b74a7859a3437aa9d271a",
+      "summary": "search_pubmed completed: {\"query\":\"cetirizine alcohol combination adults drowsiness\",\"pmids\":[\"24395298\",\"19187456\"]}",
+      "t": 8920
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f98044750fbeae279fcea1f49e",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "1970834",
+          "16389668"
+        ]
+      },
+      "t": 16240
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f98044750fbeae279fcea1f49e",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"1970834\",\"title\":\"Antihistamine- and decongestant-induced performance decrements.\",\"journal\":\"Journal of occupational medicine. : official publication of the Industrial Medical Association\",\"year\":\"1990\",\"abstractText\":\"Among the most common of health problems, allergies afflict more than one of every six Americans. In the allergic reaction, mast cells degranulate, releasing inflammatory mediators such as histamine. These mediators in turn cause smooth muscle contraction, itch, mucus secretion, and vascular leakage. A number of pharmacologic agents, including the H1 receptor antihistamines and the sympathomimetic decongestants, have been developed in an attempt to minimize such effects. Antihistamines were first used clinically 50 years ago. Currently taken by approximately 30 million Americans each year, they are grouped by structure into six classes. Until recently, all of the classes, or first-generation antihistamines, were thought to be relatively equal in efficacy and, because of their ability to cross the blood-brain barrier, they all caused varying degrees of sedation. The effects of antihistamines on psychomotor reflexes and driving skills, antihistamine-induced drowsiness, and the interaction of antihistamines with alcohol and tranquilizers are reviewed. The centrally acting first-generation agents, and the performance decrements these agents commonly induce, are compared with the newer, nonsedating, second-generation antihistamines (eg, terfenadine, astemizole, cetirizine, and loratadine). Although decongestants do not appear to cause impaired performance, this needs to be evaluated further, particularly with regard to decongestant-induced insomnia.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Meltzer\",\"kind\":\"pubmed\",\"id\":\"1970834\",\"text\":\"Among the most common of health problems, allergies afflict more than one of every six Americans. In the allergic reaction, mast cells degranulate, releasing inflammatory mediators such as histamine. These mediators in turn cause smooth muscle contraction, itch, mucus secretion, and vascular leakage. A number of pharmacologic agents, including the H1 receptor antihistamines and the sympathomimetic decongestants, have been developed in an attempt to minimize such effects. Antihistamines were first used clinically 50 years ago. Currently taken by approximately 30 million Americans each year, they are grouped by structure into six classes. Until recently, all of the classes, or first-generation antihistamines, were thought to be relatively equal in efficacy and, because of their ability to cross the blood-brain barrier, they all caused varying degrees of sedation. The effects of antihistamines on psychomotor reflexes and driving skills, antihistamine-induced drowsiness, and the interaction of antihistamines with alcohol and tranquilizers are reviewed. The centrally acting first-generation agents, and the performance decrements these agents commonly induce, are compared with the newer, nonsedating, second-generation antihistamines (eg, terfenadine, astemizole, cetirizine, and loratadine). Although decongestants do not appear to cause impaired performance, this needs to be evaluated further, particularly with regard to decongestant-induced insomnia.\"},{\"pmid\":\"16389668\",\"title\":\"Evaluation of the cognitive, psychomotor and pharmacokinetic profiles of rupatadine, hydroxyzine and cetirizine, in combination with alcohol, in healthy volunteers.\",\"journal\":\"Human psychopharmacology\",\"year\":\"2006\",\"abstractText\":\"The Central Nervous System (CNS) impairment induced by moderate alcohol (ALC) ingestion may be enhanced if other drugs are taken simultaneously. Rupatadine (RUP) is a new H(1)-antihistamine which also inhibits platelet activating factor (PAF) release in inflammatory reactions.\\n\\nThe main aim of the study was to assess the effects of ALC 0.8 g/Kg on RUP (10 mg and 20 mg) CNS effects. An evaluation of alcohol and RUP pharmacokinetics was also attained.\\n\\nEighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods.\\n\\nThe combination of alcohol with HYD, CET and RUP 20 mg produced more cognitive and psychomotor impairment as compared to alcohol alone, being the combination of alcohol and HYD the one which induced the greatest deterioration. The combination of alcohol and RUP 10 mg could not be differentiated from ALC alone. Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects. No significant differences were obtained when comparing alcohol plasma concentrations assessed after the treatments evaluated. RUP showed a lineal kinetic relationship after 10 and 20 mg with a higher exposition to both metabolites assayed.\\n\\nPresent results showed that single oral doses of rupatadine 10 mg in combination with alcohol do not produce more cognitive and psychomotor impairment than alcohol alone. Higher doses of rupatadine, in combination with alcohol, may induce cognitive and psychomotor deterioration as hydroxyzine and cetirizine at therapeutic doses.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Barbanoj\",\"kind\":\"pubmed\",\"id\":\"16389668\",\"text\":\"The Central Nervous System (CNS) impairment induced by moderate alcohol (ALC) ingestion may be enhanced if other drugs are taken simultaneously. Rupatadine (RUP) is a new H(1)-antihistamine which also inhibits platelet activating factor (PAF) release in inflammatory reactions.\\n\\nThe main aim of the study was to assess the effects of ALC 0.8 g/Kg on RUP (10 mg and 20 mg) CNS effects. An evaluation of alcohol and RUP pharmacokinetics was also attained.\\n\\nEighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods.\\n\\nThe combination of alcohol with HYD, CET and RUP 20 mg produced more cognitive and psychomotor impairment as compared to alcohol alone, being the combination of alcohol and HYD the one which induced the greatest deterioration. The combination of alcohol and RUP 10 mg could not be differentiated from ALC alone. Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects. No significant differences were obtained when comparing alcohol plasma concentrations assessed after the treatments evaluated. RUP showed a lineal kinetic relationship after 10 and 20 mg with a higher exposition to both metabolites assayed.\\n\\nPresent results showed that single oral doses of rupatadine 10 mg in combination with alcohol do not produce more cognitive and psychomotor impairment than alcohol alone. Higher doses of rupatadine, in combination with alcohol, may induce cognitive and psychomotor deterioration as hydroxyzine and cetirizine at therapeutic doses.\"}]",
+      "t": 18404
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f9cd78708db1238be01da8dd3a",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. The combination of alcohol with HYD, CET and RUP 20 mg produced more cognitive and psychomotor impairment as compared to alcohol alone, being the combination of alcohol and HYD the one which induced the greatest deterioration.",
+        "sourceId": "16389668",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Alcohol with cetirizine 10 mg produced more impairment than alcohol alone in 18 volunteers."
+      },
+      "t": 40344
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Alcohol with cetirizine 10 mg produced more impairment than alcohol alone in 18 volunteers.",
+        "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. The combination of alcohol with HYD, CET and RUP 20 mg produced more cognitive and psychomotor impairment as compared to alcohol alone, being the combination of alcohol and HYD the one which induced the greatest deterioration.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 40344
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f9cd78708db1238be01da8dd3a",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 40344
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f9d59677748b7beece9a5a3531",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+        "sourceId": "16389668",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Increased impairment from alcohol with cetirizine was not subjectively perceived by volunteers."
+      },
+      "t": 40344
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Increased impairment from alcohol with cetirizine was not subjectively perceived by volunteers.",
+        "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 40344
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f9d59677748b7beece9a5a3531",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 40344
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f9de487128815003d394e3f919",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "The Central Nervous System (CNS) impairment induced by moderate alcohol (ALC) ingestion may be enhanced if other drugs are taken simultaneously.",
+        "sourceId": "16389668",
+        "sourceKind": "pubmed",
+        "stance": "mechanism",
+        "text": "Alcohol-induced CNS impairment may be enhanced if other drugs are taken simultaneously."
+      },
+      "t": 40344
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "Alcohol-induced CNS impairment may be enhanced if other drugs are taken simultaneously.",
+        "quote": "The Central Nervous System (CNS) impairment induced by moderate alcohol (ALC) ingestion may be enhanced if other drugs are taken simultaneously.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "mechanism",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 40344
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f9de487128815003d394e3f919",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 40344
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 51425
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 51425
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 51426
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 51427
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "not_found",
+      "t": 51429
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "matched",
+      "t": 51429
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c5",
+      "support": "does_not_support",
+      "rationale": "The quote is a generic statement about alcohol with other drugs from a rupatadine study, mentioning neither cetirizine co-exposure nor an explicit mechanism, so it does not support the alcohol-cetirizine mechanism claim.",
+      "model": "muse-wonder-1.0",
+      "t": 55335
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "This supports the entire claim and the increases_risk stance because the quote explicitly directs users to avoid alcoholic drinks when using cetirizine and states that alcohol may increase drowsiness.",
+      "model": "muse-wonder-1.0",
+      "t": 55358
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote directly reports that in 18 healthy young volunteers, alcohol plus cetirizine 10 mg produced more cognitive and psychomotor impairment than alcohol alone, supporting the claim and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 55371
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The label quote explicitly warns that alcohol may increase drowsiness and to avoid alcoholic drinks during cetirizine use, matching the hedged increases_risk claim.",
+      "model": "muse-wonder-1.0",
+      "t": 56166
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 1 rejected claims",
+      "t": 56167
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fa449572c8b9de0a39b6b944dc",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+        "sourceId": "16389668",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Increased impairment after alcohol with CET was not subjectively perceived."
+      },
+      "t": 66751
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c6",
+        "text": "Increased impairment after alcohol with CET was not subjectively perceived.",
+        "quote": "Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+        "source": {
+          "kind": "pubmed",
+          "id": "16389668"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 66751
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fa449572c8b9de0a39b6b944dc",
+      "summary": "record_claim completed: {\"id\":\"c6\"}",
+      "t": 66751
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c6",
+      "result": "matched",
+      "t": 66751
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c6",
+      "support": "does_not_support",
+      "rationale": "does_not_support because the quote definitively states that increased objective impairment with alcohol plus cetirizine was not subjectively perceived, without the explicit uncertainty required for an 'uncertain' stance.",
+      "model": "muse-wonder-1.0",
+      "t": 71667
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 78508
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 1.",
+      "t": 98874
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__cetirizine",
+        "a": "alcohol",
+        "b": "cetirizine",
+        "category": "cns_depression",
+        "depth": "human_studies",
+        "headline": {
+          "text": "Alcohol may increase drowsiness and psychomotor impairment with cetirizine",
+          "claimIds": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states to avoid alcoholic drinks when using cetirizine because alcohol may increase drowsiness.",
+            "claimIds": [
+              "c1",
+              "c2"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Cetirizine and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states to avoid alcoholic drinks when using cetirizine.",
+            "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+            "source": {
+              "kind": "fda_label",
+              "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "drowsiness",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "This supports the entire claim and the increases_risk stance because the quote explicitly directs users to avoid alcoholic drinks when using cetirizine and states that alcohol may increase drowsiness.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "Alcohol may increase drowsiness when combined with cetirizine.",
+            "quote": "When using this product drowsiness may occur avoid alcoholic drinks alcohol, sedatives, and tranquilizers may increase drowsiness",
+            "source": {
+              "kind": "fda_label",
+              "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings"
+            },
+            "stance": "increases_risk",
+            "outcome": "drowsiness",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The label quote explicitly warns that alcohol may increase drowsiness and to avoid alcoholic drinks during cetirizine use, matching the hedged increases_risk claim.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "Alcohol with cetirizine 10 mg produced more impairment than alcohol alone in 18 volunteers.",
+            "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. The combination of alcohol with HYD, CET and RUP 20 mg produced more cognitive and psychomotor impairment as compared to alcohol alone, being the combination of alcohol and HYD the one which induced the greatest deterioration.",
+            "source": {
+              "kind": "pubmed",
+              "id": "16389668"
+            },
+            "stance": "increases_risk",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote directly reports that in 18 healthy young volunteers, alcohol plus cetirizine 10 mg produced more cognitive and psychomotor impairment than alcohol alone, supporting the claim and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c4",
+            "text": "Increased impairment from alcohol with cetirizine was not subjectively perceived by volunteers.",
+            "quote": "Eighteen healthy young volunteers of both sexes participated in a phase I, randomised, crossover, double-blind, placebo-controlled study. At 2-week intervals they received six treatments: (a) placebo (PLA), (b) ALC alone and ALC in combination with: (c) hydroxyzine 25 mg (HYD), (d) cetirizine 10 mg (CET), (e) RUP 10 mg or (f) RUP 20 mg. At baseline and several times thereafter, seven psychomotor performance tests (finger tapping, fine motoric skills, nystagmus, temporal estimation, critical-flicker-fusion frequency, 'd2' cancellation, simple reaction) and eleven subjective self-reports (drunkenness, sleepiness, alertness, clumsiness, anger, inattentiveness, efficiency, happiness, hostility, interest and extraversion) were carried out. Two-way (treatment, time) ANOVAs for repeated measures to each variable together with a multivariate non-parametric approach were applied. Plasma concentrations of alcohol, and of RUP and its metabolites, were quantified by validated immunofluorescence and LC/MS/MS methods, respectively. Plasma-time curves for all compounds were analysed by means of model-independent methods. Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+            "source": {
+              "kind": "pubmed",
+              "id": "16389668"
+            },
+            "stance": "uncertain",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c5",
+            "text": "Alcohol-induced CNS impairment may be enhanced if other drugs are taken simultaneously.",
+            "quote": "The Central Nervous System (CNS) impairment induced by moderate alcohol (ALC) ingestion may be enhanced if other drugs are taken simultaneously.",
+            "source": {
+              "kind": "pubmed",
+              "id": "16389668"
+            },
+            "stance": "mechanism",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "The quote is a generic statement about alcohol with other drugs from a rupatadine study, mentioning neither cetirizine co-exposure nor an explicit mechanism, so it does not support the alcohol-cetirizine mechanism claim.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c6",
+            "text": "Increased impairment after alcohol with CET was not subjectively perceived.",
+            "quote": "Subjective self-reports reflect effects on metacognition after the combination of alcohol with HYD and CET i.e. the increased objective impairment observed was not subjectively perceived by the subjects.",
+            "source": {
+              "kind": "pubmed",
+              "id": "16389668"
+            },
+            "stance": "uncertain",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support because the quote definitively states that increased objective impairment with alcohol plus cetirizine was not subjectively perceived, without the explicit uncertainty required for an 'uncertain' stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "016b66fd-dde9-4f13-afaf-a8aafbdeed1a#warnings",
+            "title": "Warnings",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=016b66fd-dde9-4f13-afaf-a8aafbdeed1a",
+            "citation": "FDA label · Warnings",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "16389668",
+            "title": "Evaluation of the cognitive, psychomotor and pharmacokinetic profiles of rupatadine, hydroxyzine and cetirizine, in combination with alcohol, in healthy volunteers.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16389668/",
+            "citation": "Barbanoj et al. · Human psychopharmacology 2006",
+            "design": "rct",
+            "year": 2006,
+            "sampleSize": 18,
+            "population": "healthy young volunteers of both sexes"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:55:07.832Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_advises_against",
+          "basis": [
+            "c1",
+            "c2"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 98874
+    }
+  ]
+}

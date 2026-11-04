@@ -1,0 +1,11 @@
+{
+ "pair": "celecoxib__diclofenac",
+ "judge": "claude-opus-5-5",
+ "claims": [],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  }
+ ]
+}

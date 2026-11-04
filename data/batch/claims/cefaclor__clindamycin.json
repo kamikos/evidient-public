@@ -1,0 +1,20 @@
+{
+  "pair": "cefaclor__clindamycin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The PubMed records list the two antibiotics separately in guidelines or in vitro assays; none reports them given together.",
+      "searched": [
+        "\"cefaclor\"[tiab] AND \"clindamycin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

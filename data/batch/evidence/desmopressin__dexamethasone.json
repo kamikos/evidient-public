@@ -1,0 +1,160 @@
+{
+  "card": {
+    "pair": "desmopressin__dexamethasone",
+    "a": "desmopressin",
+    "b": "dexamethasone",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label contraindicates desmopressin with systemic glucocorticoids, citing hyponatremia risk.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label lists systemic or inhaled glucocorticoids as a contraindicated co-medication and names severe hyponatremia as the risk.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "text": "A case report describes desmopressin being stopped before chemotherapy because of dexamethasone.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA desmopressin label says use with systemic or inhaled glucocorticoids is contraindicated.",
+        "quote": "Concomitant use with systemic or inhaled glucocorticoids [see Boxed Warning ] .",
+        "source": {
+          "kind": "fda_label",
+          "id": "52680415-52a0-61c2-e063-6294a90ae27e#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "hyponatremia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The contraindication list item names systemic or inhaled glucocorticoids, which covers dexamethasone.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA boxed warning says desmopressin is contraindicated in patients at increased risk of severe hyponatremia, including those using systemic or inhaled glucocorticoids.",
+        "quote": "Desmopressin acetate is contraindicated in patients at increased risk of severe hyponatremia, such as patients with excessive fluid intake, illnesses that can cause fluid or electrolyte imbalances, and in those using loop diuretics or systemic or inhaled glucocorticoids.",
+        "source": {
+          "kind": "fda_label",
+          "id": "52680415-52a0-61c2-e063-6294a90ae27e#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "hyponatremia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The boxed warning quote matches the claim.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "A case report says desmopressin was stopped on day 1 of chemotherapy because of a contraindicated combination with dexamethasone given as an antiemetic.",
+        "quote": "Desmopressin was discontinued on day 1 of chemotherapy because of a contraindicated combination with dexamethasone, which was administered as an antiemetic.",
+        "source": {
+          "kind": "pubmed",
+          "id": "41797751"
+        },
+        "stance": "uncertain",
+        "outcome": "hyponatremia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote matches, and the claim presents it as a single case report.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "52680415-52a0-61c2-e063-6294a90ae27e#boxed_warning",
+        "title": "desmopressin: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52680415-52a0-61c2-e063-6294a90ae27e",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "52680415-52a0-61c2-e063-6294a90ae27e#contraindications",
+        "title": "desmopressin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52680415-52a0-61c2-e063-6294a90ae27e",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "52680415-52a0-61c2-e063-6294a90ae27e#warnings_and_cautions",
+        "title": "desmopressin: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=52680415-52a0-61c2-e063-6294a90ae27e",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "41797751",
+        "title": "Case Report of Acute Severe Hyponatremia Induced by Desmopressin Administration During Chemotherapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41797751/",
+        "citation": "2050-0904 14 3 2026 Mar Clinical case reports Clin Case Rep",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Desmopressin or Dexamethasone, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Desmopressin and Dexamethasone, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"desmopressin\"[tiab] AND \"dexamethasone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.701Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

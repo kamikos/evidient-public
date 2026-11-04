@@ -1,0 +1,20 @@
+{
+  "pair": "acebutolol__alprostadil",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acebutolol label text covers pregnancy and does not mention alprostadil.",
+      "searched": [
+        "\"acebutolol\"[tiab] AND \"alprostadil\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

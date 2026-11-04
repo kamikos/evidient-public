@@ -1,0 +1,21 @@
+{
+ "pair": "carbamazepine__doravirine",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The doravirine table names carbamazepine with decreased doravirine and a contraindication."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

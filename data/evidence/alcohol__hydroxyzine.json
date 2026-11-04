@@ -1,0 +1,500 @@
+{
+  "card": {
+    "pair": "alcohol__hydroxyzine",
+    "a": "alcohol",
+    "b": "hydroxyzine",
+    "category": "cns_depression",
+    "depth": "human_studies",
+    "headline": {
+      "text": "Combined hydroxyzine and alcohol may increase alcohol effects and psychomotor impairment",
+      "claimIds": [
+        "c1",
+        "c3"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states effects of alcohol may be increased with hydroxyzine.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "In healthy young volunteers, hydroxyzine with alcohol caused greatest and most lasting psychomotor impairment versus alcohol alone.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Hydroxyzine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states effects of alcohol may be increased with hydroxyzine.",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_alcohol_effect",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly cautions that the effects of alcohol may be increased with hydroxyzine, matching the label-attributed claim and combination-specific warning.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "The label states CNS depressant dosage should be reduced with hydroxyzine.",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depressant_potentiation",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that dosages of concomitantly administered central nervous system depressants should be reduced because of hydroxyzine's potentiating action.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "Hydroxyzine 25 mg with alcohol caused greatest lasting psychomotor impairment versus alcohol alone.",
+        "quote": "Twenty-four healthy young volunteers of both sexes participated in a randomized, double-blind, double-dummy, crossover, and positive-controlled and placebo-controlled clinical trials. At 1-week intervals, subjects received six different treatments: (i) placebo; (ii) alcohol 0.8 g/kg alone (ALC); (iii) ALC in combination with: bilastine 20 mg (B20 + A); (iv) bilastine 80 mg (B80 + A); (v) cetirizine 10 mg (CET + A); and (vi) hydroxyzine 25 mg (HYD + A). Psychomotor performance tests (fine motor, finger tapping, nystagmus, critical flicker-fusion frequency, temporal estimation, 'd2' cancellation, and simple reaction time) and subjective self-reports (drunkenness, drowsiness, mental slowness, clumsiness, anger, attentiveness, competence, happiness, hostility, interest, and extroversion) were carried out at baseline and multiple points thereafter. All active treatments induced a significant psychomotor impairment. The greatest and most lasting impairment was observed with HYD + A followed by B80 + A and CET + A. In contrast, objective measures showed less impairment with B20 + A and ALC, both with a similar magnitude.",
+        "source": {
+          "kind": "pubmed",
+          "id": "24395298"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_alcohol_effect",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The study reports that hydroxyzine 25 mg plus alcohol produced the greatest and most lasting psychomotor impairment, with less impairment from alcohol alone.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "title": "Precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+        "citation": "FDA label · Precautions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24395298",
+        "title": "Psychomotor and subjective effects of bilastine, hydroxyzine, and cetirizine, in combination with alcohol: a randomized, double-blind, crossover, and positive-controlled and placebo-controlled Phase I clinical trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24395298/",
+        "citation": "García-Gea et al. · Human psychopharmacology 2014",
+        "design": "rct",
+        "year": 2014,
+        "sampleSize": 24,
+        "population": "healthy young volunteers of both sexes"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:44:08.816Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__hydroxyzine",
+      "at": "2026-11-03T20:42:22.323Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 1
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 1
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:09092888-0c18-501d-e063-6294a90aad67#precautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "09092888-0c18-501d-e063-6294a90aad67#precautions"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3262baf7507b139254f03729a56",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_alcohol_effect",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states effects of alcohol may be increased with hydroxyzine."
+      },
+      "t": 10978
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states effects of alcohol may be increased with hydroxyzine.",
+        "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_alcohol_effect"
+      },
+      "t": 10981
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3262baf7507b139254f03729a56",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 10981
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3262fcf75859a5d4c2934d4d112",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depressant_potentiation",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "sourceId": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states CNS depressant dosage should be reduced with hydroxyzine."
+      },
+      "t": 10982
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states CNS depressant dosage should be reduced with hydroxyzine.",
+        "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+        "source": {
+          "kind": "fda_label",
+          "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depressant_potentiation"
+      },
+      "t": 10982
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3262fcf75859a5d4c2934d4d112",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 10982
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a326352274f7b1a79a66bea5cf38",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine alcohol interaction human study"
+      },
+      "t": 10982
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a326352274f7b1a79a66bea5cf38",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine alcohol interaction human study\",\"pmids\":[\"36047012\",\"34588611\",\"24395298\",\"16389668\",\"15539863\"]}",
+      "t": 11449
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32636737361ac2d465822503157",
+      "name": "search_pubmed",
+      "args": {
+        "query": "hydroxyzine alcohol combination adults psychomotor performance"
+      },
+      "t": 11449
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32636737361ac2d465822503157",
+      "summary": "search_pubmed completed: {\"query\":\"hydroxyzine alcohol combination adults psychomotor performance\",\"pmids\":[\"24395298\",\"12867226\",\"11949773\"]}",
+      "t": 11943
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a326527d77808d8d7cddb3179d9a",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "15539863",
+          "24395298"
+        ]
+      },
+      "t": 18899
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a326527d77808d8d7cddb3179d9a",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"15539863\",\"title\":\"Central and peripheral evaluation of rupatadine, a new antihistamine/platelet-activating factor antagonist, at different doses in healthy volunteers.\",\"journal\":\"Neuropsychobiology\",\"year\":\"2004\",\"abstractText\":\"To assess peripheral anti-H1 and central nervous system (CNS) activity of single increasing doses of rupatidine fumarate (RU), a new antihistamine/platelet-activating factor antagonist compound, in comparison with hydroxyzine and placebo.\\n\\nEighteen healthy young subjects of both sexes took part in a crossover, randomised, double-blind, placebo-controlled study. Treatments tested were: RU 10, 20, 40 and 80 mg and hydroxyzine 25 mg, as a positive standard. Before and several times after drug intake, peripheral anti-H1 activity was appraised by the skin reactivity to intradermal injection of histamine. CNS effects were also obtained by objective tests of psychomotor performance and subjective mood scales.\\n\\nAll active treatments showed a significant reduction of the wheal and flare reaction in relation to placebo, RU displaying a potent dose-dependent inhibition pattern. The global nonparametric Friedman test to changes from placebo in 15 objective variables from psychomotor performance showed a significant impairment of similar magnitude after hydroxyzine 25 mg (p = 0.01) and RU 80 mg (p = 0.02), but this was slower in development and recovery after the latter. After RU 40 mg, a smaller impairment was also obtained (p = 0.04). Activity (p = 0.01) and drowsiness (p = 0.02) scales showed significant changes, the subjects feeling less active and more drowsy after all active treatments.\\n\\nRU presents a potent dose-dependent peripheral anti-H1 activity, displaying psychomotor impairment activity only at the highest dose (80 mg), while therapeutically relevant lower doses (10 and 20 mg) were similar to placebo.\",\"publicationTypes\":[\"Clinical Trial\",\"Comparative Study\",\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Barbanoj\",\"kind\":\"pubmed\",\"id\":\"15539863\",\"text\":\"To assess peripheral anti-H1 and central nervous system (CNS) activity of single increasing doses of rupatidine fumarate (RU), a new antihistamine/platelet-activating factor antagonist compound, in comparison with hydroxyzine and placebo.\\n\\nEighteen healthy young subjects of both sexes took part in a crossover, randomised, double-blind, placebo-controlled study. Treatments tested were: RU 10, 20, 40 and 80 mg and hydroxyzine 25 mg, as a positive standard. Before and several times after drug intake, peripheral anti-H1 activity was appraised by the skin reactivity to intradermal injection of histamine. CNS effects were also obtained by objective tests of psychomotor performance and subjective mood scales.\\n\\nAll active treatments showed a significant reduction of the wheal and flare reaction in relation to placebo, RU displaying a potent dose-dependent inhibition pattern. The global nonparametric Friedman test to changes from placebo in 15 objective variables from psychomotor performance showed a significant impairment of similar magnitude after hydroxyzine 25 mg (p = 0.01) and RU 80 mg (p = 0.02), but this was slower in development and recovery after the latter. After RU 40 mg, a smaller impairment was also obtained (p = 0.04). Activity (p = 0.01) and drowsiness (p = 0.02) scales showed significant changes, the subjects feeling less active and more drowsy after all active treatments.\\n\\nRU presents a potent dose-dependent peripheral anti-H1 activity, displaying psychomotor impairment activity only at the highest dose (80 mg), while therapeutically relevant lower doses (10 and 20 mg) were similar to placebo.\"},{\"pmid\":\"24395298\",\"title\":\"Psychomotor and subjective effects of bilastine, hydroxyzine, and cetirizine, in combination with alcohol: a randomized, double-blind, crossover, and positive-controlled and placebo-controlled Phase I clinical trials.\",\"journal\":\"Human psychopharmacology\",\"year\":\"2014\",\"abstractText\":\"The aim of this study was to compare the effects of concomitant administration of alcohol and bilastine versus alcohol alone on the central nervous system.\\n\\nTwenty-four healthy young volunteers of both sexes participated in a randomized, double-blind, double-dummy, crossover, and positive-controlled and placebo-controlled clinical trials. At 1-week intervals, subjects received six different treatments: (i) placebo; (ii) alcohol 0.8 g/kg alone (ALC); (iii) ALC in combination with: bilastine 20 mg (B20 + A); (iv) bilastine 80 mg (B80 + A); (v) cetirizine 10 mg (CET + A); and (vi) hydroxyzine 25 mg (HYD + A). Psychomotor performance tests (fine motor, finger tapping, nystagmus, critical flicker-fusion frequency, temporal estimation, 'd2' cancellation, and simple reaction time) and subjective self-reports (drunkenness, drowsiness, mental slowness, clumsiness, anger, attentiveness, competence, happiness, hostility, interest, and extroversion) were carried out at baseline and multiple points thereafter.\\n\\nAll active treatments induced a significant psychomotor impairment. The greatest and most lasting impairment was observed with HYD + A followed by B80 + A and CET + A. In contrast, objective measures showed less impairment with B20 + A and ALC, both with a similar magnitude. Self-reports showed a subjective perception of performance impairment in all active treatments.\\n\\nConcomitant administration of bilastine (at therapeutic dose) and alcohol does not produce greater central nervous system depressant effects than ACL alone.\",\"publicationTypes\":[\"Clinical Trial, Phase I\",\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"García-Gea\",\"kind\":\"pubmed\",\"id\":\"24395298\",\"text\":\"The aim of this study was to compare the effects of concomitant administration of alcohol and bilastine versus alcohol alone on the central nervous system.\\n\\nTwenty-four healthy young volunteers of both sexes participated in a randomized, double-blind, double-dummy, crossover, and positive-controlled and placebo-controlled clinical trials. At 1-week intervals, subjects received six different treatments: (i) placebo; (ii) alcohol 0.8 g/kg alone (ALC); (iii) ALC in combination with: bilastine 20 mg (B20 + A); (iv) bilastine 80 mg (B80 + A); (v) cetirizine 10 mg (CET + A); and (vi) hydroxyzine 25 mg (HYD + A). Psychomotor performance tests (fine motor, finger tapping, nystagmus, critical flicker-fusion frequency, temporal estimation, 'd2' cancellation, and simple reaction time) and subjective self-reports (drunkenness, drowsiness, mental slowness, clumsiness, anger, attentiveness, competence, happiness, hostility, interest, and extroversion) were carried out at baseline and multiple points thereafter.\\n\\nAll active treatments induced a significant psychomotor impairment. The greatest and most lasting impairment was observed with HYD + A followed by B80 + A and CET + A. In contrast, objective measures showed less impairment with B20 + A and ALC, both with a similar magnitude. Self-reports showed a subjective perception of performance impairment in all active treatments.\\n\\nConcomitant administration of bilastine (at therapeutic dose) and alcohol does not produce greater central nervous system depressant effects than ACL alone.\"}]",
+      "t": 19481
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32673a377b697710ba3ad4589e2",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_alcohol_effect",
+        "quote": "Twenty-four healthy young volunteers of both sexes participated in a randomized, double-blind, double-dummy, crossover, and positive-controlled and placebo-controlled clinical trials. At 1-week intervals, subjects received six different treatments: (i) placebo; (ii) alcohol 0.8 g/kg alone (ALC); (iii) ALC in combination with: bilastine 20 mg (B20 + A); (iv) bilastine 80 mg (B80 + A); (v) cetirizine 10 mg (CET + A); and (vi) hydroxyzine 25 mg (HYD + A). Psychomotor performance tests (fine motor, finger tapping, nystagmus, critical flicker-fusion frequency, temporal estimation, 'd2' cancellation, and simple reaction time) and subjective self-reports (drunkenness, drowsiness, mental slowness, clumsiness, anger, attentiveness, competence, happiness, hostility, interest, and extroversion) were carried out at baseline and multiple points thereafter. All active treatments induced a significant psychomotor impairment. The greatest and most lasting impairment was observed with HYD + A followed by B80 + A and CET + A. In contrast, objective measures showed less impairment with B20 + A and ALC, both with a similar magnitude.",
+        "sourceId": "24395298",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Hydroxyzine 25 mg with alcohol caused greatest lasting psychomotor impairment versus alcohol alone."
+      },
+      "t": 31736
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Hydroxyzine 25 mg with alcohol caused greatest lasting psychomotor impairment versus alcohol alone.",
+        "quote": "Twenty-four healthy young volunteers of both sexes participated in a randomized, double-blind, double-dummy, crossover, and positive-controlled and placebo-controlled clinical trials. At 1-week intervals, subjects received six different treatments: (i) placebo; (ii) alcohol 0.8 g/kg alone (ALC); (iii) ALC in combination with: bilastine 20 mg (B20 + A); (iv) bilastine 80 mg (B80 + A); (v) cetirizine 10 mg (CET + A); and (vi) hydroxyzine 25 mg (HYD + A). Psychomotor performance tests (fine motor, finger tapping, nystagmus, critical flicker-fusion frequency, temporal estimation, 'd2' cancellation, and simple reaction time) and subjective self-reports (drunkenness, drowsiness, mental slowness, clumsiness, anger, attentiveness, competence, happiness, hostility, interest, and extroversion) were carried out at baseline and multiple points thereafter. All active treatments induced a significant psychomotor impairment. The greatest and most lasting impairment was observed with HYD + A followed by B80 + A and CET + A. In contrast, objective measures showed less impairment with B20 + A and ALC, both with a similar magnitude.",
+        "source": {
+          "kind": "pubmed",
+          "id": "24395298"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_alcohol_effect"
+      },
+      "t": 31736
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32673a377b697710ba3ad4589e2",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 31736
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 41074
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 41075
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 41075
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 41075
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly cautions that the effects of alcohol may be increased with hydroxyzine, matching the label-attributed claim and combination-specific warning.",
+      "model": "muse-wonder-1.0",
+      "t": 77769
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly states that dosages of concomitantly administered central nervous system depressants should be reduced because of hydroxyzine's potentiating action.",
+      "model": "muse-wonder-1.0",
+      "t": 77769
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The study reports that hydroxyzine 25 mg plus alcohol produced the greatest and most lasting psychomotor impairment, with less impairment from alcohol alone.",
+      "model": "muse-wonder-1.0",
+      "t": 77769
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 86599
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 0.",
+      "t": 106493
+    },
+    {
+      "type": "thinking",
+      "text": "Made 11 external requests",
+      "t": 106494
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__hydroxyzine",
+        "a": "alcohol",
+        "b": "hydroxyzine",
+        "category": "cns_depression",
+        "depth": "human_studies",
+        "headline": {
+          "text": "Combined hydroxyzine and alcohol may increase alcohol effects and psychomotor impairment",
+          "claimIds": [
+            "c1",
+            "c3"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states effects of alcohol may be increased with hydroxyzine.",
+            "claimIds": [
+              "c1"
+            ]
+          },
+          {
+            "text": "In healthy young volunteers, hydroxyzine with alcohol caused greatest and most lasting psychomotor impairment versus alcohol alone.",
+            "claimIds": [
+              "c3"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Hydroxyzine and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states effects of alcohol may be increased with hydroxyzine.",
+            "quote": "Patients should also be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effects of alcohol may be increased.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_alcohol_effect",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly cautions that the effects of alcohol may be increased with hydroxyzine, matching the label-attributed claim and combination-specific warning.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "The label states CNS depressant dosage should be reduced with hydroxyzine.",
+            "quote": "THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES. Therefore, when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.",
+            "source": {
+              "kind": "fda_label",
+              "id": "09092888-0c18-501d-e063-6294a90aad67#precautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depressant_potentiation",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that dosages of concomitantly administered central nervous system depressants should be reduced because of hydroxyzine's potentiating action.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "Hydroxyzine 25 mg with alcohol caused greatest lasting psychomotor impairment versus alcohol alone.",
+            "quote": "Twenty-four healthy young volunteers of both sexes participated in a randomized, double-blind, double-dummy, crossover, and positive-controlled and placebo-controlled clinical trials. At 1-week intervals, subjects received six different treatments: (i) placebo; (ii) alcohol 0.8 g/kg alone (ALC); (iii) ALC in combination with: bilastine 20 mg (B20 + A); (iv) bilastine 80 mg (B80 + A); (v) cetirizine 10 mg (CET + A); and (vi) hydroxyzine 25 mg (HYD + A). Psychomotor performance tests (fine motor, finger tapping, nystagmus, critical flicker-fusion frequency, temporal estimation, 'd2' cancellation, and simple reaction time) and subjective self-reports (drunkenness, drowsiness, mental slowness, clumsiness, anger, attentiveness, competence, happiness, hostility, interest, and extroversion) were carried out at baseline and multiple points thereafter. All active treatments induced a significant psychomotor impairment. The greatest and most lasting impairment was observed with HYD + A followed by B80 + A and CET + A. In contrast, objective measures showed less impairment with B20 + A and ALC, both with a similar magnitude.",
+            "source": {
+              "kind": "pubmed",
+              "id": "24395298"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_alcohol_effect",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The study reports that hydroxyzine 25 mg plus alcohol produced the greatest and most lasting psychomotor impairment, with less impairment from alcohol alone.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "09092888-0c18-501d-e063-6294a90aad67#precautions",
+            "title": "Precautions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=09092888-0c18-501d-e063-6294a90aad67",
+            "citation": "FDA label · Precautions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "24395298",
+            "title": "Psychomotor and subjective effects of bilastine, hydroxyzine, and cetirizine, in combination with alcohol: a randomized, double-blind, crossover, and positive-controlled and placebo-controlled Phase I clinical trials.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24395298/",
+            "citation": "García-Gea et al. · Human psychopharmacology 2014",
+            "design": "rct",
+            "year": 2014,
+            "sampleSize": 24,
+            "population": "healthy young volunteers of both sexes"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:44:08.816Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1",
+            "c2"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 106494
+    }
+  ]
+}

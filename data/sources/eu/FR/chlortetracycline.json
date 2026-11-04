@@ -1,0 +1,28 @@
+{
+  "inn": "chlortetracycline",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "61168404",
+  "product": "AUREOMYCINE EVANS 3 %, pommade",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61168404/extrait",
+  "retrievedAt": "2026-11-04T08:44:47.340Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "7c4236d8b83f14fc276bcb703792859efdcbe0005ca6a3dbf25c59a489dcbced",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\nEn cas d'infection streptococcique, une antibiothérapie par voie générale devra être envisagée.\n\nLa sensibilisation par voie cutanée peut compromettre l'utilisation ultérieure par voie générale d'un antibiotique de la même famille.\n\nPrécautions d'emploi\n\nEn raison du risque de photosensibilisation, éviter l'exposition aux rayonnements UV solaires ou artificiels.\n\nRisque de sélection de germes résistants en cas de traitement prolongé.\n\nCette forme pommade n'est pas adaptée au traitement des lésions suintantes, macérées, des plis, ni des ulcères de jambe.\n\nCe médicament contient de la lanoline (graisse de laine) et peut provoquer des réactions cutanées locales (par exemple: dermatite de contact).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61168404/extrait#tabpanel-rcp-panel",
+      "sha256": "116478a9f5deec1a430cb502312f8631e0e7992cd1c96aeb7af9cf59cfddb111"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nSans objet.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61168404/extrait#tabpanel-rcp-panel",
+      "sha256": "b31e2f203c4516847167bb54032d15c4d4d616938a74c58de12d2b957e09023e"
+    }
+  ]
+}

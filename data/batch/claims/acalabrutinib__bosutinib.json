@@ -1,0 +1,20 @@
+{
+  "pair": "acalabrutinib__bosutinib",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "One review lists both drugs separately as azole antifungal interaction risks, and no study of the pair was found.",
+      "searched": [
+        "\"acalabrutinib\"[tiab] AND \"bosutinib\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

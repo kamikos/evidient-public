@@ -1,0 +1,20 @@
+{
+  "pair": "cefadroxil__chloramphenicol",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The only study found tests glycine with each antibiotic in E. coli cultures and does not test cefadroxil with chloramphenicol.",
+      "searched": [
+        "\"cefadroxil\"[tiab] AND \"chloramphenicol\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

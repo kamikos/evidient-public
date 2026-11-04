@@ -1,0 +1,216 @@
+{
+  "card": {
+    "pair": "aliskiren__captopril",
+    "a": "aliskiren",
+    "b": "captopril",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "FDA labeling prohibits aliskiren with captopril in diabetes and describes increased hypotension, hyperkalemia, and renal dysfunction with dual blockade.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The aliskiren label reports more hypotension, hyperkalemia, and renal dysfunction than with monotherapy when combined with ACE inhibitors.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The captopril label specifically prohibits concurrent aliskiren in patients with diabetes.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA aliskiren label links combination with ACE inhibitors, including captopril's class, to increased hypotension, hyperkalemia, and renal dysfunction, including acute renal failure.",
+        "quote": "The concomitant use of aliskiren with other agents acting on the RAAS such as ACEIs or ARBs is associated with an increased risk of hypotension, hyperkalemia, and changes in renal function (including acute renal failure) compared to monotherapy.",
+        "source": {
+          "kind": "fda_label",
+          "id": "3dd61fa5-1620-4ebf-bbdb-ede29b92fce2#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "renal_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The aliskiren label states use with ACE inhibitors is associated with increased hypotension, hyperkalemia and renal function changes including acute renal failure versus monotherapy; captopril is an ACE inhibitor.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA captopril label prohibits concurrent aliskiren in patients with diabetes.",
+        "quote": "Do not co-administer aliskiren with captopril tablets in patients with diabetes (see PRECAUTIONS : Drug Interactions ).",
+        "source": {
+          "kind": "fda_label",
+          "id": "1395ba5b-2fc9-41ff-9c43-e0740d781dee#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "renal_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The captopril contraindications section says not to co-administer aliskiren with captopril in patients with diabetes.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "3dd61fa5-1620-4ebf-bbdb-ede29b92fce2#contraindications",
+        "title": "aliskiren: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3dd61fa5-1620-4ebf-bbdb-ede29b92fce2",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3dd61fa5-1620-4ebf-bbdb-ede29b92fce2#drug_interactions",
+        "title": "aliskiren: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3dd61fa5-1620-4ebf-bbdb-ede29b92fce2",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1395ba5b-2fc9-41ff-9c43-e0740d781dee#contraindications",
+        "title": "captopril: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1395ba5b-2fc9-41ff-9c43-e0740d781dee",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1395ba5b-2fc9-41ff-9c43-e0740d781dee#warnings",
+        "title": "captopril: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1395ba5b-2fc9-41ff-9c43-e0740d781dee",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1395ba5b-2fc9-41ff-9c43-e0740d781dee#precautions",
+        "title": "captopril: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1395ba5b-2fc9-41ff-9c43-e0740d781dee",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1395ba5b-2fc9-41ff-9c43-e0740d781dee#drug_interactions",
+        "title": "captopril: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1395ba5b-2fc9-41ff-9c43-e0740d781dee",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:61470#4.4",
+        "title": "CAPTOPRIL NORMON 25 mg COMPRIMIDOS EFG: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=61470&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61665915#4.4",
+        "title": "CAPTOPRIL EG 25 mg, comprimé quadrisécable: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61665915/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31008270",
+        "title": "Effect of single and dual renin-angiotensin blockade on stroke in patients with and without diabetes in VALIANT.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31008270/",
+        "citation": "2396-9881 1 2 2016 Jun European stroke journal Eur Stroke J",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "32914119",
+        "title": "Physicochemical characterisation, molecular docking, and drug-likeness evaluation of hypotensive peptides encrypted in flaxseed proteome.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32914119/",
+        "citation": "2665-9271 3 2020 Nov Current research in food science Curr Res Food Sci",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27019222",
+        "title": "The Cooperative Effect of Local Angiotensin-II in Liver with Adriamycin Hepatotoxicity on Mitochondria.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27019222/",
+        "citation": "1643-3750 22 2016 Mar 28 Medical science monitor : international medical journal of experimental and clinical research Med Sci Monit",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "16979787",
+        "title": "Imaging the renin-angiotensin system: an important target of anti-hypertensive therapy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16979787/",
+        "citation": "0169-409X 58 7 2006 Sep 15 Advanced drug delivery reviews Adv Drug Deliv Rev",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aliskiren or Captopril, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aliskiren and Captopril, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study specifically testing aliskiren with captopril.",
+        "searched": [
+          "\"aliskiren\"[tiab] AND \"captopril\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.634Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

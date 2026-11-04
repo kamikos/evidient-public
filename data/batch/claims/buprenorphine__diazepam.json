@@ -1,0 +1,94 @@
+{
+  "pair": "buprenorphine__diazepam",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA buprenorphine (Sublocade) label says concomitant use of buprenorphine and benzodiazepines increases the risk of adverse reactions including overdose, respiratory depression and death.",
+      "quote": "Concomitant use of buprenorphine and benzodiazepines or other CNS depressants increases the risk of adverse reactions including overdose, respiratory depression, and death.",
+      "sourceId": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA diazepam label says concomitant use of benzodiazepines, including diazepam, and opioids may result in profound sedation, respiratory depression, coma and death.",
+      "quote": "Concomitant use of benzodiazepiones, including diazepam tablets, and opioids may result in profound sedation, respiratory depression, coma, and death.",
+      "sourceId": "ba953b22-f0cd-4be5-9e0e-178bded88727#warnings",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c3",
+      "text": "The French Valium (diazepam) label lists buprenorphine among interacting drugs, with a greater risk of respiratory depression that can be fatal.",
+      "quote": "+ Buprénorphine\n\nRisque majoré de dépression respiratoire, pouvant être fatale.",
+      "quoteEnglish": "+ Buprenorphine. Increased risk of respiratory depression, which can be fatal.",
+      "sourceId": "FR:60290800#4.5",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c4",
+      "text": "In rats, the diazepam and buprenorphine combination produced early-onset sedation and respiratory depression that neither drug alone produced.",
+      "quote": "In contrast to diazepam and buprenorphine alone, diazepam/buprenorphine induced early-onset sedation (P<0.05) and respiratory depression (P<0.001).",
+      "sourceId": "34872716",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c5",
+      "text": "The rat study attributes the respiratory depression to a pharmacodynamic interaction between the two drugs on ventilatory parameters.",
+      "quote": "Pharmacodynamic parameters and antagonist pretreatments indicate that diazepam/buprenorphine-induced respiratory depression results from a pharmacodynamic interaction between both drugs on ventilatory parameters.",
+      "sourceId": "34872716",
+      "stance": "mechanism",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c6",
+      "text": "In a double-blind crossover study of eight buprenorphine-treated and eight methadone-treated patients, 10 mg and 20 mg diazepam produced greater sedation and strength of drug effect, with minimal impact on physiological measures.",
+      "quote": "The 10- and 20-mg diazepam doses resulted in comparable subjective experiences of greater sedation and strength of drug effects in both patient groups, and had minimal impact on physiological parameters.",
+      "sourceId": "16702892",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    }
+  ],
+  "headline": {
+    "text": "FDA labels for buprenorphine and diazepam both describe respiratory depression, coma and death with concomitant benzodiazepine and opioid use (c1, c2).",
+    "claimIds": [
+      "c1",
+      "c2"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French diazepam label lists buprenorphine with a greater risk of fatal respiratory depression (c3).",
+      "claimIds": [
+        "c3"
+      ]
+    },
+    {
+      "text": "In rats the combination caused sedation and respiratory depression not seen with either drug alone (c4). In patients, diazepam increased sedation with minimal physiological change (c6).",
+      "claimIds": [
+        "c4",
+        "c6"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The rat study attributes the respiratory depression to a pharmacodynamic interaction on ventilatory parameters (c5).",
+      "claimIds": [
+        "c5"
+      ]
+    }
+  ],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "The controlled human study used single diazepam doses and did not measure respiratory outcomes beyond physiological parameters.",
+      "searched": [
+        "\"buprenorphine\"[tiab] AND \"diazepam\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

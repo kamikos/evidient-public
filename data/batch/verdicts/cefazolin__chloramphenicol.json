@@ -1,0 +1,21 @@
+{
+ "pair": "cefazolin__chloramphenicol",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The French cefazolin label names chloramphenicol among bacteriostatic antibiotics with in vitro antagonism, and the English rendering is faithful."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

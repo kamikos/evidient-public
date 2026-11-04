@@ -1,0 +1,3658 @@
+[
+  {
+    "entryId": "ID_001FBC96-94C3-4976-A750-49E8B8A2287F",
+    "atc": {
+      "code": "M09AX02",
+      "label": "Kondrocytter, autologe"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_00FF7F4D-7452-47C3-BEF2-3A32F9D6C5B0",
+    "atc": {
+      "code": "M05BX",
+      "label": "Andre midler med effekt på benstruktur og mineralisering"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_010123D9-303B-4517-A840-8A20590429EC",
+    "atc": {
+      "code": "M01AX17",
+      "label": "Nimesulid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0135FC1E-07C0-4384-AED7-C01100ECF593",
+    "atc": {
+      "code": "B03XA06",
+      "label": "Luspatercept"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_013F6773-D9BC-4966-9D60-B33805A5C19C",
+    "atc": {
+      "code": "V06D",
+      "label": "Andre nutrientia"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_02890FAB-14B8-45A2-8AD4-1DB77DB48D1D",
+    "atc": {
+      "code": "A06AX02",
+      "label": "Karbondioksiddannende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_02BF946B-F82A-4CFA-91E4-9AD12DF0DD9D",
+    "atc": {
+      "code": "L01",
+      "label": "Antineoplastiske midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_03C9CB89-1285-4455-9E1F-1433521FC517",
+    "atc": {
+      "code": "N05CA10",
+      "label": "Cyklobarbital"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_04AF7C80-2EAC-45A2-A575-37C333EEEB32",
+    "atc": {
+      "code": "V03AB38",
+      "label": "Andeksanet alfa"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0570C1F2-6C19-4036-A1CF-63AD7B0B915B",
+    "atc": {
+      "code": "R05CB16",
+      "label": "Mannitol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_066B1628-36B4-4C7E-83DD-CE34FC39B9BD",
+    "atc": {
+      "code": "P02CB02",
+      "label": "Dietylkarbamazin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_06BABE3D-7D1D-41ED-979C-54A9933A86DD",
+    "atc": {
+      "code": "B06AA03",
+      "label": "Hyaluronidase"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_070C7CD7-879D-4DDF-A139-1A5B271B296F",
+    "atc": {
+      "code": "P01AB06",
+      "label": "Nimorazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_092540AD-EC58-420F-A321-889C03F7A5EF",
+    "atc": {
+      "code": "P01AB03",
+      "label": "Ornidazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0A0DF5DB-D4DA-4C4E-B993-DC9136E12753",
+    "atc": {
+      "code": "G04BD09",
+      "label": "Trospium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0C1B7F7D-1760-49B1-8FD6-B5B186D5CFB5",
+    "atc": {
+      "code": "N",
+      "label": "Nervesystemet"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0CD4DFB4-04F6-4D19-AD3C-ADBFB7CC0B6F",
+    "atc": {
+      "code": "V06C",
+      "label": "Barnedietter"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0CE2B226-3EB3-41FF-9D22-13558F62399E",
+    "atc": {
+      "code": "M05BA05",
+      "label": "Tiludronsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0EC425DF-BD57-4C98-9B21-BAB95D9C5A33",
+    "atc": {
+      "code": "C02KD01",
+      "label": "Ketanserin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0EC92108-A958-4B8E-A006-8D03F7181184",
+    "atc": {
+      "code": "V03AB04",
+      "label": "Pralidoksim"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_0F89D1E2-B7AB-4D18-86BE-C07BF9AE2A29",
+    "atc": {
+      "code": "A06AC03",
+      "label": "Sterkulia"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_106910E7-A935-4D69-86AD-BCA9F554CF2E",
+    "atc": {
+      "code": "N02BA04",
+      "label": "Natriumsalisylat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_10ECDFBD-CE07-4180-B701-B680B7ACD062",
+    "atc": {
+      "code": "V06",
+      "label": "Nutrientia"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_113E8194-CD51-47C2-9EA3-18D987399B39",
+    "atc": {
+      "code": "A06AG06",
+      "label": "Olje"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1184B275-889F-4825-9CA8-52CFE6B13723",
+    "atc": {
+      "code": "V04CD05",
+      "label": "Somatorelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1197A404-5904-40BD-A3BB-717EF9C0DEC3",
+    "atc": {
+      "code": "S01BC04",
+      "label": "Flurbiprofen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_120CEF71-F77C-407B-8FAD-7DCA914FFCCF",
+    "atc": {
+      "code": "V03AB22",
+      "label": "Amylnitritt"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_12F59012-13DC-4264-96DF-290B598C7C70",
+    "atc": {
+      "code": "N07AB02",
+      "label": "Betanekol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_130C4924-DEDA-4090-8E04-AE6BD1834AEC",
+    "atc": {
+      "code": "D11AH06",
+      "label": "Krisaborol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_130EEB76-BBDE-4E68-A8BD-1616CA378C69",
+    "atc": {
+      "code": "R03BB06",
+      "label": "Glykopyrroniumbromid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_14124E8A-0321-4F1B-A496-44FE3013C76C",
+    "atc": {
+      "code": "H05BX05",
+      "label": "Kalsifediol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_15FFAC06-D6C5-429A-8551-B3FEB8222E70",
+    "atc": {
+      "code": "A03DA01",
+      "label": "Tropenzilon og analgetika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_160D05E3-42E4-41FB-AFAC-3E5901C2E74B",
+    "atc": {
+      "code": "S01AE01",
+      "label": "Ofloksacin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_166C9450-8473-46B7-9B79-CB6D4FA85125",
+    "atc": {
+      "code": "V03AF10",
+      "label": "Natriumlevofolinat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_167F0A98-10F6-42B9-8284-E0321BF35540",
+    "atc": {
+      "code": "V08DA02",
+      "label": "Mikropartikler av galaktose"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_178F7E51-F947-47A3-B2B7-ED2C8A79EE5D",
+    "atc": {
+      "code": "S01EC02",
+      "label": "Diklofenamid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_17C1FC04-97F6-45BA-9D21-1267ED70C0B4",
+    "atc": {
+      "code": "R",
+      "label": "Respirasjonsorganer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_18DAB872-BFEE-402E-8EF9-5ED0CCDB72B7",
+    "atc": {
+      "code": "A07FA01",
+      "label": "Melkesyreproduserende organismer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_19D6ED8C-54FA-42E7-B47C-F9F604D20F95",
+    "atc": {
+      "code": "V06DF",
+      "label": "Melkesubstitutter"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1A03CB02-250D-4DB6-8007-A54834574B86",
+    "atc": {
+      "code": "N07CA03",
+      "label": "Flunarizin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1B145BA1-13BC-4B1F-9F3A-75A370E156A7",
+    "atc": {
+      "code": "M03BX08",
+      "label": "Cyklobenzaprin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1BBAA51D-A90B-4956-9D00-1A91B53AEBE9",
+    "atc": {
+      "code": "R07AB01",
+      "label": "Doksapram"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1BF63DC3-AB12-4464-9B7F-8EFF1C092E95",
+    "atc": {
+      "code": "N01BA03",
+      "label": "Tetrakain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1C47DC70-764F-4341-9CEC-C12E3E01D707",
+    "atc": {
+      "code": "V07AC",
+      "label": "Hjelpemidler ved blodtransfusjon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1C4BCFB9-FC12-419F-9C95-1D68D33AC0B5",
+    "atc": {
+      "code": "N05BC01",
+      "label": "Meprobamat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1C5439FC-913A-4ACF-870B-385CA8741DC7",
+    "atc": {
+      "code": "S01AA28",
+      "label": "Vankomycin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_1DF2B376-2CFD-419E-937F-765C4ABD09E0",
+    "atc": {
+      "code": "A16AB23",
+      "label": "Cipaglukosidase alfa"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_21C0647A-0391-4CB7-8444-3F4520D99B15",
+    "atc": {
+      "code": "S01FA56",
+      "label": "Tropikamid, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_22347909-48E0-4282-81DE-2193080537D9",
+    "atc": {
+      "code": "V09HA02",
+      "label": "Teknesium (99mTc) eksametazimmerkede celler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_22F4A5EB-62F8-4FD3-8C39-4C6B98A0F1C3",
+    "atc": {
+      "code": "P01AX05",
+      "label": "Mepakrin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_23F2591F-ABE8-4902-A898-54FCE54E9766",
+    "atc": {
+      "code": "B05XA13",
+      "label": "Saltsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_26D952E2-38D9-4473-AD47-891E91CD3E95",
+    "atc": {
+      "code": "S01AD02",
+      "label": "Trifluridin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2729AD8D-1DA6-41F0-ADEB-7296F3CA6FA1",
+    "atc": {
+      "code": "N06DX06",
+      "label": "Blarkamesin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_281216DB-88EE-4525-8EF9-00B784D74726",
+    "atc": {
+      "code": "V03AB32",
+      "label": "Glutation"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2830B6D3-8BEE-4E8D-AC6E-FABDDB91D3BB",
+    "atc": {
+      "code": "V09CX",
+      "label": "Andre diagnostiske radiofarmaka til bruk i nyrer og urinveier"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_28D63A3A-8076-4652-B8A0-DAAE7A47C2D3",
+    "atc": {
+      "code": "M03BX05",
+      "label": "Tiokolchikosid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_28F84350-D735-41D1-B959-EDD25FFC982D",
+    "atc": {
+      "code": "A06AB30",
+      "label": "Kontaktlaksantia, kombinasjoner med belladonnaalkaloider"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_290C9878-6712-4B8A-A6B9-C061E105D5FD",
+    "atc": {
+      "code": "S01XA25",
+      "label": "Lifitegrast"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_296F54B4-50C0-4B41-9F42-24F85A6BD7F2",
+    "atc": {
+      "code": "C02L",
+      "label": "Antihypertensiva og diuretika i kombinasjon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_297CD0ED-3610-409B-B7C2-0A56FED1B19F",
+    "atc": {
+      "code": "M03BB53",
+      "label": "Klorzoksason, kombinasjoner ekskl. psykoleptika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2A9ED951-FCAF-4EF7-A04D-5CF693F76CCC",
+    "atc": {
+      "code": "C",
+      "label": "Hjerte og kretsløp"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2B2266C5-DF59-4998-A8DF-467E317CD75F",
+    "atc": {
+      "code": "L02AE05",
+      "label": "Histrelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2B649DC3-81BD-43CC-BD04-14943C938EAF",
+    "atc": {
+      "code": "A03FA03",
+      "label": "Domperidon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2BCDAB37-224E-411A-A33F-4540E478028A",
+    "atc": {
+      "code": "D10AF52",
+      "label": "Erytromycin, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2BDEBB72-EE6B-4343-AA8B-2E4EF1F5BE2B",
+    "atc": {
+      "code": "A11AA01",
+      "label": "Multivitaminer og jern"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2C3F89AC-25BC-437E-B9B3-B4542AAF2314",
+    "atc": {
+      "code": "A06AC51",
+      "label": "Ispaghula, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2D34DE84-BA64-43A5-9E2B-71DD0810A6DB",
+    "atc": {
+      "code": "G02AB01",
+      "label": "Metylergometrin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2D6DDB24-E7EA-4D40-874B-A7E747FD5066",
+    "atc": {
+      "code": "V03AB19",
+      "label": "Fysostigmin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2E737DBD-8C41-45BA-9087-3ED98DE46B62",
+    "atc": {
+      "code": "V08CA",
+      "label": "Paramagnetiske kontrastmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2F34C76C-5C4C-4D74-8A05-06C3B82C96B4",
+    "atc": {
+      "code": "L01XD03",
+      "label": "Metylaminolevulinat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_2F460587-3D76-4FB7-AABF-EDB427C2A18C",
+    "atc": {
+      "code": "A07EB01",
+      "label": "Natriumkromoglikat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_301FECB0-A8B9-4234-8C91-7D38E82C10F4",
+    "atc": {
+      "code": "R07AA01",
+      "label": "Kolfoskerilpalmitat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_31450B0C-D2CC-4DD8-B80B-B9BD68E7D361",
+    "atc": {
+      "code": "A01AB11",
+      "label": "Diverse"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_31C8D233-041F-441C-B9C2-E3252B351B07",
+    "atc": {
+      "code": "V04CX05",
+      "label": "13C-urea"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_31D5A4FD-50AC-4E0E-8B49-AE292AF08C78",
+    "atc": {
+      "code": "S02AA03",
+      "label": "Borsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_323B5FFD-3368-472C-B775-429E9CB17A79",
+    "atc": {
+      "code": "A06AC07",
+      "label": "Hvetefiber"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3258AF6C-CC35-4447-9BEB-59E899ABF1AA",
+    "atc": {
+      "code": "S01LA06",
+      "label": "Brolucizumab"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_32B159D2-04CA-475D-91ED-4FAA88E07125",
+    "atc": {
+      "code": "A07XA02",
+      "label": "Johannesbrødmel"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_32E37399-73DF-4E49-9C66-C727BDFDC51F",
+    "atc": {
+      "code": "S01AD01",
+      "label": "Idoksuridin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_34029BB4-4181-410D-8336-D7336C2C536E",
+    "atc": {
+      "code": "V08CB03",
+      "label": "Jernoksid, nanopartikler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_34D63F8B-6500-4D52-9850-F5615C3B6422",
+    "atc": {
+      "code": "R02AX03",
+      "label": "Benzydamin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_350AF497-EB16-4622-ADED-ABD73510572C",
+    "atc": {
+      "code": "V06DC01",
+      "label": "Glukose"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_35F42BA2-551A-483B-8663-52E6E835DF6D",
+    "atc": {
+      "code": "V10BX02",
+      "label": "Samarium (153Sm) leksidronam"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3631678D-F6D8-4F18-808A-3D9312B078D7",
+    "atc": {
+      "code": "A09AC01",
+      "label": "Pepsin og syremidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_37EDF9B5-2D99-4EB3-8F52-ECC47FC629E6",
+    "atc": {
+      "code": "N05CM09",
+      "label": "Valerianae radix"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3805D417-1FEA-401C-B5E9-9A121BEA9399",
+    "atc": {
+      "code": "S02DA",
+      "label": "Smertestillende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_386CCA3F-B706-4173-AE73-EFB7A0BBA2CB",
+    "atc": {
+      "code": "L01EE05",
+      "label": "Mirdametinib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_391298E5-837D-4141-8519-68E88C05FF02",
+    "atc": {
+      "code": "R05DA08",
+      "label": "Folkodin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_394B0BFE-3C5C-4012-8757-852308D5AC69",
+    "atc": {
+      "code": "C04AB01",
+      "label": "Fentolamin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_39B19DFE-16DC-46D7-81C2-C763B2C79CBA",
+    "atc": {
+      "code": "C10AX11",
+      "label": "Mipomersen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3A242B28-5FC1-442E-956A-7932F6E052D5",
+    "atc": {
+      "code": "V07AD",
+      "label": "Hjelpemidler ved blodprøver"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3C2FB629-16DD-49B9-9AD5-2E2C7C042418",
+    "atc": {
+      "code": "S03BA03",
+      "label": "Betametason"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3C5AC901-5FDD-4BD1-B699-47EBD0EBD219",
+    "atc": {
+      "code": "R07AX",
+      "label": "Andre midler med virkning på respirasjonssystemet"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3CC4C5B1-E700-4E81-B56B-DE7572C84C07",
+    "atc": {
+      "code": "R01AA06",
+      "label": "Tetryzolin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3CD8BF01-E4D6-4A85-AC4D-B17D05DB01F5",
+    "atc": {
+      "code": "V06CA",
+      "label": "Fenylalaninfattige ernæringsmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3CD92828-F435-4BB8-9981-CBD1B8F0CDCE",
+    "atc": {
+      "code": "A05AX04",
+      "label": "Maraliksibatklorid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3D499564-37B2-49F0-845F-6967793BCD5C",
+    "atc": {
+      "code": "L01EN",
+      "label": "Fibroblast vekstfaktorreseptor (FGFR) tyrosinkinasehemmere"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3D9993C3-F44D-4E66-93F5-861310858752",
+    "atc": {
+      "code": "S01EC05",
+      "label": "Metazolamid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3DA425E0-A885-4D87-A6E9-D31AB26F8437",
+    "atc": {
+      "code": "V01A",
+      "label": "Allergener"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3DD32707-C1A7-4633-8BFB-44C0E7279D2D",
+    "atc": {
+      "code": "N01BB03",
+      "label": "Mepivakain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3E577926-DC54-47B2-8246-33B951034344",
+    "atc": {
+      "code": "M05BA02",
+      "label": "Klodronsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3E6637D6-9D45-49D3-A89F-5C27B8A192B9",
+    "atc": {
+      "code": "V03AF12",
+      "label": "Trilaciklib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3E7F836D-1853-4389-B16E-3D72CEED4A44",
+    "atc": {
+      "code": "N02BG07",
+      "label": "Flupirtin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3EC9A2B3-194E-4D33-A15F-C1AB2762D6DF",
+    "atc": {
+      "code": "L01EG04",
+      "label": "Sirolimus"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3EEB82E9-0938-47E5-A51D-1515C347AB5D",
+    "atc": {
+      "code": "S01GA55",
+      "label": "Fenylefrin, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_3F2034ED-91A3-4E8E-B7FB-6D75020F7B56",
+    "atc": {
+      "code": "G03XB51",
+      "label": "Mifepriston, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_408D80FC-860C-4271-9439-46CB04E17E3A",
+    "atc": {
+      "code": "M03BC51",
+      "label": "Orfenadrin, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_409E7319-D9D3-4303-A19A-6B70FD41FEB0",
+    "atc": {
+      "code": "A01AD08",
+      "label": "Bekaplermin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_40C1B90D-8E4A-4DD4-AA8F-ECC88FBA05C1",
+    "atc": {
+      "code": "R02AA20",
+      "label": "Diverse"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_40EE0D76-A7F6-4A23-89AC-0C89578ACC70",
+    "atc": {
+      "code": "C10AX22",
+      "label": "Obicetrapib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_414C019A-E33B-435A-87B6-D0D4F79A1916",
+    "atc": {
+      "code": "B06AA02",
+      "label": "Fibrinolysin og desoksyribonuklease"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_41EEC11C-AF6B-44A6-8BAD-68D5C17B6308",
+    "atc": {
+      "code": "P03AB02",
+      "label": "Lindan"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_422AE8B0-3CFF-4435-A1EE-EDCFEE983137",
+    "atc": {
+      "code": "V03AG05",
+      "label": "Natriumfosfat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_42B11BE4-EF8F-4C47-8FC0-634165142487",
+    "atc": {
+      "code": "D01BA01",
+      "label": "Griseofulvin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_431CC555-D46A-4C36-AFDE-1502C8DC50B6",
+    "atc": {
+      "code": "N07BB",
+      "label": "Midler ved alkoholavhengighet"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_445CEA48-61C3-4E0D-B94A-E8A772B7C794",
+    "atc": {
+      "code": "R01BA52",
+      "label": "Pseudoefedrin, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_448B7023-9055-480C-941C-C3AE1CFC7450",
+    "atc": {
+      "code": "R02A",
+      "label": "Halsmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_448EBDD7-5430-4E79-A084-A3BF36A939D7",
+    "atc": {
+      "code": "N07XX17",
+      "label": "Arimoklomol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_44DEC34F-0B45-4DF5-A525-1DDCF0F322EC",
+    "atc": {
+      "code": "C04AX02",
+      "label": "Fenoksybenzamin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_45048475-4BCC-4C6A-A830-B875EF7F5B4C",
+    "atc": {
+      "code": "L01EP03",
+      "label": "Savolitinib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_45300AF9-C4E2-4B45-9BB4-0C536CA99C30",
+    "atc": {
+      "code": "V06DA",
+      "label": "Karbohydrater, proteiner, mineraler og vitaminer, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_46B3A663-EE19-4D4A-89FB-5903A0AD19F5",
+    "atc": {
+      "code": "V09IB",
+      "label": "Indium (111In) forbindelser"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_478ED82F-4F31-405F-BA08-A7D44FE5EF8B",
+    "atc": {
+      "code": "V04CA02",
+      "label": "Glukose"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_479A0E0C-762A-426F-8A1B-1E94B5EFAD01",
+    "atc": {
+      "code": "P01AX11",
+      "label": "Nitazoksanid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_48994CFF-3D13-427E-B1F3-5419C0E6A5D1",
+    "atc": {
+      "code": "A13",
+      "label": "Tonika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_48D758EE-F84B-4B94-AF64-FEE723E09F40",
+    "atc": {
+      "code": "G04BX16",
+      "label": "Tiopronin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4981EEC0-FA82-4BF9-821E-2FBB7F48B842",
+    "atc": {
+      "code": "C04AD02",
+      "label": "Xantinolnikotinat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_49A8FE9C-BFA3-4308-9961-887B3B48163D",
+    "atc": {
+      "code": "V04CJ02",
+      "label": "Protirelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4ACA4A62-0D54-4FF0-AF2C-1130BE622882",
+    "atc": {
+      "code": "N01BA05",
+      "label": "Benzokain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4AD1B242-F88F-4C0B-A615-7C9F9DA432C1",
+    "atc": {
+      "code": "B02BX",
+      "label": "Andre systemiske hemostatika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4B2D6E87-9D69-4DE0-99E2-5A0DB841304C",
+    "atc": {
+      "code": "G01AA01",
+      "label": "Nystatin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4B700701-234E-4146-B64A-17138791747E",
+    "atc": {
+      "code": "N01BX03",
+      "label": "Fenol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4BA5A9AA-7D0D-4009-A625-B6C9C5F262B8",
+    "atc": {
+      "code": "L01EM06",
+      "label": "Inavolisib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4BCD5591-99F3-45FA-8270-E59E319C609A",
+    "atc": {
+      "code": "J06AA04",
+      "label": "Botulinumantitoksin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4BED2279-4D73-4F18-A7BA-B4DA177DBBD6",
+    "atc": {
+      "code": "V03AB21",
+      "label": "Kaliumjodid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4C72033A-092B-4A15-9901-9A952954BC83",
+    "atc": {
+      "code": "M01AX25",
+      "label": "Kondroitinsulfat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4D799A72-1889-4B82-AA8A-CFAA2B203C3B",
+    "atc": {
+      "code": "N02CX01",
+      "label": "Pizotifen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4EB5B21A-8F5C-4249-BA17-C69C7B8A0A3A",
+    "atc": {
+      "code": "N06BX17",
+      "label": "Adrafinil"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4F0D8AEC-4F5D-4E6D-8151-1B55E4AAF614",
+    "atc": {
+      "code": "S01GA07",
+      "label": "Brimonidin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4F496035-824A-431E-A244-A1F5C0D303F4",
+    "atc": {
+      "code": "N02BB54",
+      "label": "Propyfenazon, kombinasjoner ekskl. psykoleptika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4F7D484A-3681-4F8B-A858-3DC810415413",
+    "atc": {
+      "code": "N06AX14",
+      "label": "Tianeptin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_4FD1CB85-6371-4538-BFE2-45F55CAD3732",
+    "atc": {
+      "code": "N07CA52",
+      "label": "Cinnarizin, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5085783C-6F9C-4598-91A7-5A1DDF52A741",
+    "atc": {
+      "code": "V04CH02",
+      "label": "Indigokarmin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_50A13CF9-8E4F-433B-A412-2977CEEDB77B",
+    "atc": {
+      "code": "S01XA12",
+      "label": "Dekspantenol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_511FE783-AAEA-4633-BB1C-C2B17FB471BE",
+    "atc": {
+      "code": "N05CA04",
+      "label": "Barbital"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_51E2088F-F06A-4495-9723-D972933E65DB",
+    "atc": {
+      "code": "P03AX",
+      "label": "Andre ektoparasittmidler, inkl. skabbmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_52050323-A5C1-4709-8809-89390453FF5B",
+    "atc": {
+      "code": "R01AX06",
+      "label": "Mupirocin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_521BFD7E-B2FB-47E6-B390-EF685D43B8D8",
+    "atc": {
+      "code": "A01AC",
+      "label": "Kortikosteroider til lokal behandling i munnen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_52479506-0F04-4968-A9C0-16B156B7FC92",
+    "atc": {
+      "code": "V10XA",
+      "label": "Jod (131I) forbindelser"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_52BF9951-D3BD-43CB-8B59-4D612F2707CD",
+    "atc": {
+      "code": "V08CB02",
+      "label": "Ferristene"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_52EB924B-E51D-4FE2-9A4C-AC3D62D683CC",
+    "atc": {
+      "code": "L01ED06",
+      "label": "Ensartinib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_53B33153-4B74-498D-8F85-A29177DD70B5",
+    "atc": {
+      "code": "C01DB",
+      "label": "Kinolon kardilaterende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_53D81CF3-B189-42BC-B8D5-1ADC51F4DFB7",
+    "atc": {
+      "code": "G04BX01",
+      "label": "Magnesiumhydroksid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_545299EB-60ED-4D7C-813B-5160DEA9B675",
+    "atc": {
+      "code": "N07AB01",
+      "label": "Karbakolin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_550D9B58-A767-4011-A9CD-1F7DD2C6FF08",
+    "atc": {
+      "code": "V07AY",
+      "label": "Andre ikke-terapeutiske hjelpeprodukter"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5587840A-EF9F-47FD-BAF9-4644EE49A3DA",
+    "atc": {
+      "code": "R02",
+      "label": "Halsmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_56331F06-1BA9-46E6-9CB6-3DC87F50B67A",
+    "atc": {
+      "code": "C02BA01",
+      "label": "Trimetafan"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5646E0F7-FCAE-4E5F-9B1F-194A0F922BF2",
+    "atc": {
+      "code": "A16AX23",
+      "label": "Leriglitazon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_564D368C-7B06-4BAC-A759-CD572913625C",
+    "atc": {
+      "code": "C10AX02",
+      "label": "Probukol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_572B976A-3800-47B1-9761-63466B6A80D5",
+    "atc": {
+      "code": "V09CA06",
+      "label": "Teknesium (99mTc) etylendicystein"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_573928D2-723F-4717-8D19-851907C8FFF2",
+    "atc": {
+      "code": "N05CA05",
+      "label": "Aprobarbital"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_57766E03-013D-4876-A36A-273CB153A602",
+    "atc": {
+      "code": "N06AX02",
+      "label": "Tryptofan"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5789B5D1-58F1-4785-94D9-D5E7DD9042B2",
+    "atc": {
+      "code": "R02AD",
+      "label": "Lokalanestetika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_580898ED-BB6D-4B75-96BB-644B5C08B3DA",
+    "atc": {
+      "code": "R03",
+      "label": "Midler ved obstruktiv lungesykdom"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_589BF540-7E24-4A8E-9B2F-784FCCD76D40",
+    "atc": {
+      "code": "C01CA19",
+      "label": "Fenoldopam"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_58A3BC82-CFA3-4781-96CA-4AAE1D6EB913",
+    "atc": {
+      "code": "N05CX01",
+      "label": "Meprobamat, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5A09941A-97E6-4CF6-BBC4-8EB2D0A7DF9B",
+    "atc": {
+      "code": "N01BA53",
+      "label": "Tetrakain, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5A130286-13D4-425E-B6BC-31885E302598",
+    "atc": {
+      "code": "N06BX13",
+      "label": "Idebenon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5AB037E7-0AF6-44AC-BB7B-CE1CFF2A02D7",
+    "atc": {
+      "code": "A02A",
+      "label": "Antacida"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5B31D3DE-81A6-4745-A2D2-DE0A6E926EFD",
+    "atc": {
+      "code": "C05BB04",
+      "label": "Natriumtetradekylsulfat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5B9D26BE-6C93-4747-BF1F-C9DB9043F0A4",
+    "atc": {
+      "code": "G01AC05",
+      "label": "Dekvalin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5D139B0E-D932-4A0E-93F4-A56164FDE1E5",
+    "atc": {
+      "code": "A09AB02",
+      "label": "Betainhydroklorid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5D255F5C-3BCD-4641-A637-E4B1F8C62F47",
+    "atc": {
+      "code": "R05FB02",
+      "label": "Antitussiva og ekspektorantia"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5D63D940-A9EE-44D1-A8AD-56B1FB1077A9",
+    "atc": {
+      "code": "L02BX",
+      "label": "Andre hormonantagonister og beslektede substanser"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5DCDB2E0-AC60-4066-9DA6-1147C1862504",
+    "atc": {
+      "code": "L01XD",
+      "label": "Aktiverende midler til fotodynamisk- og stråleterapi"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5E2FCA7C-FE7C-4A0D-B062-D596139F6EC1",
+    "atc": {
+      "code": "V08CA05",
+      "label": "Mangafodipir"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_5F89F12C-0C94-4EFD-A11E-D51F55C29618",
+    "atc": {
+      "code": "C01DX21",
+      "label": "Serelaksin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_61537F8C-3EAA-43A2-9705-512B59577E0B",
+    "atc": {
+      "code": "N05CJ02",
+      "label": "Lemboreksant"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_61D94EA8-AA21-4195-8613-1DE49417FC48",
+    "atc": {
+      "code": "V03AB31",
+      "label": "Cyanidblått"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6208158B-4A94-4C53-9D55-00D764545784",
+    "atc": {
+      "code": "V09IX15",
+      "label": "Kobber (64Cu) oksodotreotid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_629032E4-AFD0-4AFE-A8A0-70F9EA682933",
+    "atc": {
+      "code": "C05AE03",
+      "label": "Diltiazem"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_62EEC5B4-533C-4FB7-9317-5D61B86BC82F",
+    "atc": {
+      "code": "G02BB02",
+      "label": "Vaginalring med progestogen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_63427F6A-4D2D-4200-9147-F3AA5FBD15F7",
+    "atc": {
+      "code": "L01XD01",
+      "label": "Porfimernatrium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_639ACB11-69C0-4435-9EB2-8AEFDD3A3857",
+    "atc": {
+      "code": "S01GA01",
+      "label": "Nafazolin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_63A4A33E-3315-4BAF-82ED-3DA17879AFCD",
+    "atc": {
+      "code": "L01EX29",
+      "label": "Vimseltinib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6457F4EB-E651-40A8-BAA1-DA9B073F01E1",
+    "atc": {
+      "code": "C01DX12",
+      "label": "Molsidomin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_64B34D83-5F5F-4795-9E11-1A6368DADC09",
+    "atc": {
+      "code": "R01AA03",
+      "label": "Efedrin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_653ECBC8-10D7-40ED-A6BB-D2C20F00BAD1",
+    "atc": {
+      "code": "J05AH",
+      "label": "Neuraminidasehemmere"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_659893EF-1AEA-4A9C-A0E8-778DCD07D31A",
+    "atc": {
+      "code": "P01AX07",
+      "label": "Trimetreksat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_65E14192-A8B5-4B08-9A01-E924B99577B1",
+    "atc": {
+      "code": "G04BE30",
+      "label": "Kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_66A782B1-9B26-492E-B8C8-83F00BCF0E91",
+    "atc": {
+      "code": "A16AB22",
+      "label": "Avalglukosidase alfa"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_670BDE61-728C-4D1A-8962-C824F50F5959",
+    "atc": {
+      "code": "R01AD03",
+      "label": "Deksametason"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_671982C6-7F08-4F35-BC61-9DE61FADD630",
+    "atc": {
+      "code": "A16AB29",
+      "label": "Rebisufligenetisparvovek"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_67389501-CFC3-4B18-8A29-BB3BC7EC17E0",
+    "atc": {
+      "code": "C02K",
+      "label": "Andre antihypertensiva"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_677B49D5-7748-42F2-843B-99CE66DA5822",
+    "atc": {
+      "code": "L03AC03",
+      "label": "Nogapendekin alfa og inbakicept"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_678B217B-C8F2-497F-B7C7-2D98908137BD",
+    "atc": {
+      "code": "L01E",
+      "label": "Proteinkinasehemmere"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_679FFD87-A72B-4193-AC01-EEAB161B9AE2",
+    "atc": {
+      "code": "V04CD04",
+      "label": "Kortikorelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_67D32764-4CF9-40B9-8381-C322B344A6C0",
+    "atc": {
+      "code": "C01CA27",
+      "label": "Droksidopa"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_67FCCD95-16E2-4FE8-B9F8-F3EF877C02B7",
+    "atc": {
+      "code": "N07XX14",
+      "label": "Edaravon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_68CFE3D1-64FC-49EA-AE94-C58066A6940C",
+    "atc": {
+      "code": "V09IA07",
+      "label": "Teknesium (99mTc) hynik-oktreotid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_69539B81-FEEA-41D9-AF97-F1F05A9630EB",
+    "atc": {
+      "code": "V04CX04",
+      "label": "Mannitol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_69D7A3CC-3232-4E5D-9FC9-E4E4A4FE0FBB",
+    "atc": {
+      "code": "L01EX",
+      "label": "Andre proteinkinasehemmere"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_69F38A7F-ADF8-4EBD-B468-76213CBEEB55",
+    "atc": {
+      "code": "J06BB05",
+      "label": "Immunglobulin mot hundegalskap"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6B0DE68A-F799-4746-88D1-4E386E61E885",
+    "atc": {
+      "code": "N01BA",
+      "label": "Aminobenzosyreestre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6C845043-1B6A-49EF-A1B5-D30E4B081B0F",
+    "atc": {
+      "code": "M02AB01",
+      "label": "Capsaicin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6DD08091-7BC0-4C30-97B3-B599CB10AF7D",
+    "atc": {
+      "code": "B06AB",
+      "label": "Hemprodukter"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6E9F9C53-0EB4-418A-8A0A-B15039423509",
+    "atc": {
+      "code": "A01AD11",
+      "label": "Diverse"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6F47BAAA-874F-4B4E-8387-855AA0EC6606",
+    "atc": {
+      "code": "V04CG02",
+      "label": "Betazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_6F6D6E2E-C40B-4E90-9CF2-4D0089524746",
+    "atc": {
+      "code": "V08DA06",
+      "label": "Perflubutan, fosfolipidmikrosfærer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_705AE211-F0EB-4A92-95B8-ACC28B0BBF8A",
+    "atc": {
+      "code": "L01EM",
+      "label": "Fosfatidylinositol-3-kinasehemmere (Pi3K)"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_71072E66-37C5-40D2-8A08-0CB5254A59D8",
+    "atc": {
+      "code": "V09IX",
+      "label": "Andre diagnostiske radiofarmaka for tumordeteksjon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_71392852-A796-4375-B111-1CAEA0EB7ED2",
+    "atc": {
+      "code": "A12CE02",
+      "label": "Natriumselenitt"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_716258FB-68AD-478D-BB1C-DBC3586DB31E",
+    "atc": {
+      "code": "A16AB21",
+      "label": "Atidarsagenautotemcel"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_736528EC-61A4-490F-BBFF-25C45684E3A5",
+    "atc": {
+      "code": "V04CD01",
+      "label": "Metyrapon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_746CD0B2-790A-4FF1-9028-5FD94F7AB132",
+    "atc": {
+      "code": "R03C",
+      "label": "Adrenergika, midler til systemisk bruk"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_74882FD0-2ABF-43B4-94D9-F15543CDBBAC",
+    "atc": {
+      "code": "L01EC",
+      "label": "B-Raf serin-treoninkinasehemmere (BRAF)"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_74AB8093-5455-4B9B-BF7A-D2272D726150",
+    "atc": {
+      "code": "L03AX17",
+      "label": "Sipuleucel-T"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7500EC48-7C00-4D2F-A4D0-79A0FCC8CC6D",
+    "atc": {
+      "code": "L01XD04",
+      "label": "Aminolevulinsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_751BAB38-BEA8-40FC-901A-643AC7202755",
+    "atc": {
+      "code": "N01BX01",
+      "label": "Etylklorid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7559280F-BD68-493E-B660-063F67FBC31D",
+    "atc": {
+      "code": "V08DA04",
+      "label": "Perflutren, fosfolipidmikrosfærer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_76BC2DA0-28BD-4A01-B83A-7B317ABA4586",
+    "atc": {
+      "code": "G04BD02",
+      "label": "Flavoksat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_79339754-16C4-44FF-909A-F6C8F7905B5B",
+    "atc": {
+      "code": "L02AA04",
+      "label": "Fosfestrol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7960392A-1A1C-4D17-BBB2-58E1ABF186BE",
+    "atc": {
+      "code": "H03CA",
+      "label": "Jodterapi"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_79CA6298-181A-44E3-86C9-45836258E497",
+    "atc": {
+      "code": "A07EA01",
+      "label": "Prednisolon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7A724BEC-8E55-424D-8E74-FBC7B780808F",
+    "atc": {
+      "code": "C05AE",
+      "label": "Muskelrelakserende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7B558D82-0BD9-41B3-8B28-3FA0DE908EA5",
+    "atc": {
+      "code": "V04CX09",
+      "label": "Patentblått"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7D83E03A-4D79-4B65-BE2C-16D932464C89",
+    "atc": {
+      "code": "R05DB04",
+      "label": "Isoaminil"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7D92B9DB-4B55-4F84-A6CA-3C0FEFBF76B9",
+    "atc": {
+      "code": "A16AB26",
+      "label": "Eladokageneksuparvovek"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7DA58566-1C65-4FB0-9430-0F80C5B26976",
+    "atc": {
+      "code": "S01EB08",
+      "label": "Aceklidin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7E593A58-34F9-4108-83C8-41D302767786",
+    "atc": {
+      "code": "V10AA03",
+      "label": "Yttrium (90Y) silikatkolloid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7E621376-D54A-407B-BF82-D95EC6D48231",
+    "atc": {
+      "code": "M05BA01",
+      "label": "Etidronsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7F2A1627-1CAE-4193-85A7-99AA1A6DD1FF",
+    "atc": {
+      "code": "C04AE01",
+      "label": "Ergoloidmesylat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7FBE55A7-DDDE-4280-BACC-F9AF4FD15B20",
+    "atc": {
+      "code": "M03BB02",
+      "label": "Klormezanon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_7FE83C2B-0690-4A9D-96B5-92EED009995E",
+    "atc": {
+      "code": "G01AX03",
+      "label": "Polikresulen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_80D1773C-7601-4031-9F46-948AA3F11225",
+    "atc": {
+      "code": "A06AD13",
+      "label": "Natriumsulfat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_80D88DD3-9863-4FB0-9D35-BC0918D43B20",
+    "atc": {
+      "code": "L02AA02",
+      "label": "Polyøstradiolfosfat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8154974E-87DF-4F9A-9C92-78C14E245CA8",
+    "atc": {
+      "code": "V09GX",
+      "label": "Andre diagnostiske radiofarmaka for hjerte og kretsløp"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_82091606-AE88-47E1-8726-819F18AD33AE",
+    "atc": {
+      "code": "L03AX11",
+      "label": "Tasonermin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_82388171-66C3-4D8C-B5C6-26C776B69453",
+    "atc": {
+      "code": "M05BA03",
+      "label": "Pamidronsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_828FF500-5B09-4CFF-9F71-52DC813CC188",
+    "atc": {
+      "code": "C04AA01",
+      "label": "Isoksuprin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_845EF9EF-CD28-4645-957A-020A6E17705F",
+    "atc": {
+      "code": "V04CK01",
+      "label": "Sekretin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_85ED95F1-D236-4A11-A587-D7FD68DB7C2B",
+    "atc": {
+      "code": "N06CA02",
+      "label": "Melitracen og psykoleptika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_862B0FD9-0879-49F5-8982-CA2C0A30E9D3",
+    "atc": {
+      "code": "A11AA03",
+      "label": "Multivitaminer og andre mineraler inkl. kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_862ECEAD-7969-47C1-A3E2-F639FD27E14B",
+    "atc": {
+      "code": "A11JC",
+      "label": "Vitaminer, andre kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_86DA08BA-98C7-40D7-AC70-14DF7BD8FCDA",
+    "atc": {
+      "code": "A06AD18",
+      "label": "Sorbitol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_871CDF8D-7503-4A2E-827B-4EE531B8D52B",
+    "atc": {
+      "code": "G03EA01",
+      "label": "Metyltestosteron og østrogen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_879641CE-3F3B-479A-A08A-620E7FE031F3",
+    "atc": {
+      "code": "A16AX11",
+      "label": "Natriumbenzoat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_88053810-6461-475B-9338-10DAFE71EAE1",
+    "atc": {
+      "code": "A12A",
+      "label": "Kalsium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8843C7BB-8EBF-4806-906C-4490C242BBC8",
+    "atc": {
+      "code": "D11AX10",
+      "label": "Finasterid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8855344F-A2CB-464F-89B3-1E5016261988",
+    "atc": {
+      "code": "R02AA06",
+      "label": "Cetylpyridin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8A590CF8-F4FC-4B75-843F-A6D41BCB9A8B",
+    "atc": {
+      "code": "D11AX22",
+      "label": "Ivermektin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8AFB8120-F9AE-43F6-B45F-BE4BE9634C02",
+    "atc": {
+      "code": "G01AX01",
+      "label": "Klodantocid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8BFD2E35-BFD9-4707-A759-B520F7EF143E",
+    "atc": {
+      "code": "B03XA07",
+      "label": "Daprodustat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8C8950C2-B331-415C-BF94-D6D31AE02F74",
+    "atc": {
+      "code": "C10AX19",
+      "label": "Lerodalcibep"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8DD4727D-EA96-47E9-BDA6-FB143A5D64D1",
+    "atc": {
+      "code": "V01",
+      "label": "Allergener"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8E0652E5-F5A4-4C50-A822-E059551184BA",
+    "atc": {
+      "code": "B06AB01",
+      "label": "Hemin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8E115DD0-B2A9-4438-A8D4-CF1F1592A6D4",
+    "atc": {
+      "code": "V06DB",
+      "label": "Fett, karbohydrater, proteiner, mineraler, vitaminer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8E21D1A9-A7E6-46F0-87AA-E914D236D8EF",
+    "atc": {
+      "code": "L02BB",
+      "label": "Antiandrogener"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8E3EE18F-7F1D-4E47-A7A7-99E6CB2A702A",
+    "atc": {
+      "code": "R01AD59",
+      "label": "Mometason, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8E8EF57C-3B23-41F5-A827-1317FF665087",
+    "atc": {
+      "code": "N05CC01",
+      "label": "Kloralhydrat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8EBEB08F-6159-41FB-87B1-9C18A247DF1B",
+    "atc": {
+      "code": "D05BA03",
+      "label": "Bergapten"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_8EF4D2DF-2BB4-49C1-8704-70B72AD61692",
+    "atc": {
+      "code": "N05CM11",
+      "label": "Bromider"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9128AC39-C7C5-47B1-B9A2-0B394082D72C",
+    "atc": {
+      "code": "D06BA03",
+      "label": "Mafenid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_919DC3B7-BAED-4218-806E-1D36F0907C00",
+    "atc": {
+      "code": "B05XA14",
+      "label": "Natriumglyserofosfat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_92B3905F-7ED4-43C2-B0E6-2449DDA5CD07",
+    "atc": {
+      "code": "A07B",
+      "label": "Tarmadsorpsjonsmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_92C82821-9687-454A-82C4-86C744F4D17F",
+    "atc": {
+      "code": "S01XA33",
+      "label": "Dikvafosol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_93315ABB-9A57-477C-AC4F-6E75A30D1A9F",
+    "atc": {
+      "code": "A11HA05",
+      "label": "Biotin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_933CEAE7-9FE6-4F12-81CD-DE3480F7FABD",
+    "atc": {
+      "code": "M05B",
+      "label": "Midler med effekt på benstruktur og mineralisering"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_937EF7B7-281C-467E-9C9D-0BF1422C174F",
+    "atc": {
+      "code": "S01HA01",
+      "label": "Kokain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_93893076-CDC9-4129-A934-A726D79B96FE",
+    "atc": {
+      "code": "N05CB02",
+      "label": "Barbiturater i kombinasjon med andre midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_948AD0B3-F198-45A7-A4FE-EE08A3F0B015",
+    "atc": {
+      "code": "V09IX06",
+      "label": "Natriumfluorid (18F)"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_950D54BC-97B9-495F-880F-903DC65F81E6",
+    "atc": {
+      "code": "V04CX08",
+      "label": "Karbonmonoksid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_968C56DA-D387-4E2D-B2DF-B0CA547F9F75",
+    "atc": {
+      "code": "M05BA08",
+      "label": "Zoledronsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_96AEF2B2-5B49-4138-9F15-06602311F444",
+    "atc": {
+      "code": "D05BX51",
+      "label": "Fumarsyrederivater, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9757D631-EE8E-47DE-B732-C6D7F8D77607",
+    "atc": {
+      "code": "D11AX24",
+      "label": "Deoksykolsyre"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_97D926C5-7EF9-45D9-8480-57884E93E935",
+    "atc": {
+      "code": "V03AB24",
+      "label": "Digitalisantitoksin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_97EA868A-BC60-4A9B-BD73-048F49FF0F7C",
+    "atc": {
+      "code": "R05DB13",
+      "label": "Butamirat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_98B7CD92-76FE-46BE-8765-CCC7A99E5B46",
+    "atc": {
+      "code": "S01AX08",
+      "label": "Heksamidin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_992A343E-F55E-401B-AA86-DDDFC0A0BBFF",
+    "atc": {
+      "code": "G03DA03",
+      "label": "Hydroksyprogesteron"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_99342341-AA4E-4BA6-8E64-268CAD059FF2",
+    "atc": {
+      "code": "V03AZ01",
+      "label": "Etanol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9AABD67E-AC50-49CC-A997-9A78A99EDEE9",
+    "atc": {
+      "code": "G04CX02",
+      "label": "Sabalis serrulatae fructus"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9B4C720A-AA22-4C87-B4A8-A2F9F6D8479E",
+    "atc": {
+      "code": "N01BA02",
+      "label": "Prokain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9BB636E0-03D8-4388-84D7-C8ED22D4D1A8",
+    "atc": {
+      "code": "V04CX07",
+      "label": "Edrofonium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9CF64D2D-349E-4B10-B7BF-FF42F6F11795",
+    "atc": {
+      "code": "C02KB01",
+      "label": "Metirosin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9D0EA44C-642E-4899-B7C9-CE9A41034859",
+    "atc": {
+      "code": "R03BX",
+      "label": "Andre midler ved obstruktiv lungesykdom, til inhalasjon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9D1809E3-2417-4548-8A16-74DA44A0036C",
+    "atc": {
+      "code": "B06AA",
+      "label": "Enzymer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9D4D2739-AEA1-452A-A1DE-44B39D4FF7CD",
+    "atc": {
+      "code": "A05AX",
+      "label": "Annen galleterapi"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9DA6A3CF-4897-4A0E-A03B-B2421429E78B",
+    "atc": {
+      "code": "V04CD03",
+      "label": "Sermorelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9E1ED6F9-F655-4C36-A19C-EEECE28C24FA",
+    "atc": {
+      "code": "L03AC01",
+      "label": "Aldesleukin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9E4CD4E0-13A8-4BC9-937D-67A7CF193BCB",
+    "atc": {
+      "code": "N07CA02",
+      "label": "Cinnarizin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9EF2FFE9-0059-4522-B620-B699CB21B81D",
+    "atc": {
+      "code": "R05DB05",
+      "label": "Pentoksyverin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9F661AEC-4FAA-4361-9F91-91C72C826E4A",
+    "atc": {
+      "code": "V10AX05",
+      "label": "Rhenium (186Re) sulfid kolloid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_9FAFD8D1-2754-4343-AABF-5204BC892429",
+    "atc": {
+      "code": "V03AB23",
+      "label": "Acetylcystein"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A01B02D0-0041-40A6-9CB8-7687D2B185D4",
+    "atc": {
+      "code": "N02CA04",
+      "label": "Metysergid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A0EE7CD7-9F00-48C3-A2F4-DF84E80AF255",
+    "atc": {
+      "code": "M01AX04",
+      "label": "Azapropazon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A19FE947-A227-4592-8444-1E317A70365D",
+    "atc": {
+      "code": "L01EL",
+      "label": "Brutons tyrosinkinasehemmere (BTK)"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A28AE4B0-535F-46FB-BD50-95C449C4CE9C",
+    "atc": {
+      "code": "R05DA09",
+      "label": "Dekstrometorfan"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A36DFB01-A9B4-458C-92A8-9252C3D9C847",
+    "atc": {
+      "code": "M03BX04",
+      "label": "Tolperison"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A3A642D7-4C01-4664-B3C7-72B1E3E49227",
+    "atc": {
+      "code": "G02CX03",
+      "label": "Agnocastofrukt"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A3D2A75B-8DDE-4FBD-B4E8-FA077792401A",
+    "atc": {
+      "code": "B02",
+      "label": "Antihemoragika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A41CDA11-1E73-4121-BBF3-E59813E2017F",
+    "atc": {
+      "code": "R05DB27",
+      "label": "Levodropropizin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A43E6E2C-EC8E-4D2F-9AAC-DB0800328477",
+    "atc": {
+      "code": "R07A",
+      "label": "Andre midler med virkning på respirasjonssystemet"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A46FD0D9-6195-442B-ADFA-0AACCBACCE0E",
+    "atc": {
+      "code": "J06BB02",
+      "label": "Immunglobulin mot stivkrampe"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A52CF253-B1CA-4938-8D8D-485B91B95680",
+    "atc": {
+      "code": "D11AX16",
+      "label": "Eflornitin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A7A6892E-BF3F-476A-B596-A9794B9E9DEB",
+    "atc": {
+      "code": "G04BA",
+      "label": "Surgjørende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A8A16B7A-2E8A-4478-9DBE-49D3423D2F65",
+    "atc": {
+      "code": "M02AA06",
+      "label": "Etofenamat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A9E77131-8ECF-40E3-8BD3-86BB1008B4BA",
+    "atc": {
+      "code": "N06AX01",
+      "label": "Oksitriptan"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_A9F86B3B-2F47-4CE8-B73F-D5A031785862",
+    "atc": {
+      "code": "R03DX12",
+      "label": "Depemokimab"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_AC02BDC5-F430-471E-8BC6-F0D6E62CC702",
+    "atc": {
+      "code": "N07AX03",
+      "label": "Cevimelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_AC8CDCA2-FC50-4925-9D57-19643DD24EFE",
+    "atc": {
+      "code": "N02BG08",
+      "label": "Zikonotid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_ACA1E222-14C5-466B-BD75-9C092E2C6061",
+    "atc": {
+      "code": "V03AB27",
+      "label": "4-dimetylaminofenol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_ACBD94E0-8975-4830-B0C3-875590DDA7C4",
+    "atc": {
+      "code": "N06AX23",
+      "label": "Desvenlafaksin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_AD484B9C-7403-41A1-8C1F-1D2E7D7C15DA",
+    "atc": {
+      "code": "N07XX08",
+      "label": "Tafamidis"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_ADA5D540-5F90-4D7B-A26F-16CACFC59F7C",
+    "atc": {
+      "code": "N05CA01",
+      "label": "Pentobarbital"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_ADF380F2-F0E6-41DC-895D-BBA7E114C068",
+    "atc": {
+      "code": "B05XA19",
+      "label": "Kalsiumglukonat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_AEB04908-42C2-4A7B-A02B-538D8A6B894D",
+    "atc": {
+      "code": "R05DB01",
+      "label": "Benzonatat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_AFC7C6CC-B10A-468D-9162-9097115C180D",
+    "atc": {
+      "code": "A07EA07",
+      "label": "Beklometason"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B0359203-35C6-4AA9-B627-7C08B6788FDC",
+    "atc": {
+      "code": "V03AB05",
+      "label": "Prednisolon og prometazin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B0583C64-5985-499F-B674-5EA9A3EFB3F1",
+    "atc": {
+      "code": "H02AA03",
+      "label": "Desoksykorton"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B2627761-3FC2-4ABD-8629-47DC6C294FFF",
+    "atc": {
+      "code": "D08AL",
+      "label": "Sølvforbindelser"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B290F6C7-A0E7-4955-8771-8A164BCDB0EA",
+    "atc": {
+      "code": "L02AA01",
+      "label": "Dietylstilbøstrol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B2D1566F-9AF5-4890-A625-969326DDC474",
+    "atc": {
+      "code": "N07AX01",
+      "label": "Pilokarpin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B2EBD06D-1004-4A44-A66E-3AF56348F10F",
+    "atc": {
+      "code": "G01AF15",
+      "label": "Butokonazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B36C663D-7109-409B-ABF6-F35C3E9B5D9D",
+    "atc": {
+      "code": "R01AX30",
+      "label": "Kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B4C2F6FA-60D8-472D-BD9A-C687F13A8D73",
+    "atc": {
+      "code": "S01EX",
+      "label": "Andre glaukommidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B63E8437-C5EE-4EE2-8BAC-E7E3D721A72D",
+    "atc": {
+      "code": "C05CX03",
+      "label": "Hippocastani semen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B66F8C57-873B-4445-9D34-659901EE0C93",
+    "atc": {
+      "code": "V06DX",
+      "label": "Andre kombinasjoner av næringsmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B67A70AE-8807-4B5C-9452-0DD514918066",
+    "atc": {
+      "code": "D01AC10",
+      "label": "Bifonazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B7BE9E96-6633-4186-BA67-33017D189CC4",
+    "atc": {
+      "code": "M05BC02",
+      "label": "Eptotermin alfa"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B7F8E5F1-B536-4921-BFB9-B8652450A4C9",
+    "atc": {
+      "code": "R02AD05",
+      "label": "Ambroksol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B946B4D3-D09E-4C7D-B916-0454E9BEF667",
+    "atc": {
+      "code": "C05CA01",
+      "label": "Rutosid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B947C9A6-F28B-4FBF-B151-E7582322C2AC",
+    "atc": {
+      "code": "R03DC01",
+      "label": "Zafirlukast"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B9C97444-B23D-42D5-8794-CE5139125A66",
+    "atc": {
+      "code": "A02BX03",
+      "label": "Pirenzepin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_B9D8AACC-F6AF-429E-B13E-1DF6794C9520",
+    "atc": {
+      "code": "V03AH01",
+      "label": "Diazoksid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BB6A2F8F-9E48-4803-A55D-C50C41461D33",
+    "atc": {
+      "code": "L03AA10",
+      "label": "Lenograstim"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BBA89342-5971-4E85-98EB-7538381423D3",
+    "atc": {
+      "code": "S01LA02",
+      "label": "Anekortav"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BC5A25CE-5106-49E6-BE95-7E86AFC34F83",
+    "atc": {
+      "code": "A09AC02",
+      "label": "Multienzymer og syremidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BC81368E-3D2D-4135-A754-B501E4513EB1",
+    "atc": {
+      "code": "A07DA01",
+      "label": "Difenoksylat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BD7ACBEB-2A63-4729-82AA-BD3DF7366359",
+    "atc": {
+      "code": "D10AD51",
+      "label": "Tretinoin, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BDF7CC75-362F-45CD-B234-467B9092C2C6",
+    "atc": {
+      "code": "S01AE03",
+      "label": "Ciprofloksacin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BEA2FA27-6C98-47E9-B279-2CEEFE4F9D61",
+    "atc": {
+      "code": "S01LA03",
+      "label": "Pegaptanib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BEB23603-C56D-457F-8A7B-37BB26FA1AC9",
+    "atc": {
+      "code": "N05CM06",
+      "label": "Propiomazin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BEDAA0BB-26B6-4885-B27B-C936F92906BD",
+    "atc": {
+      "code": "S02BA08",
+      "label": "Fluocinolonacetonid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_BF823441-F7FE-4EA3-9EAC-136215675BC3",
+    "atc": {
+      "code": "S01AX09",
+      "label": "Klorheksidin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C2215A40-C6DD-4CAC-9E5A-C15D5CAD42D8",
+    "atc": {
+      "code": "C01DX16",
+      "label": "Nikorandil"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C3772790-EC0B-4897-B3ED-1D768C3DFC08",
+    "atc": {
+      "code": "G04BX13",
+      "label": "Dimetylsulfoksid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C383E159-2C8A-4D74-B737-91DC0485A734",
+    "atc": {
+      "code": "L01EB",
+      "label": "Epidermal vekstfaktorreseptor (EGFR) tyrosinkinasehemmere"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C3F06D7B-87FE-4DEB-98BF-C73D851B8DBE",
+    "atc": {
+      "code": "C02",
+      "label": "Antihypertensiva"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C4F13D85-4B79-460C-B819-B9745909C8EC",
+    "atc": {
+      "code": "J06BB03",
+      "label": "Immunglobulin mot vannkopper/helvetesild"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C4FED039-AA18-4420-B56D-B3D86AAB3411",
+    "atc": {
+      "code": "N07XX59",
+      "label": "Dekstrometorfan, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C5A254E3-3FDB-41C9-A79F-6935582025FB",
+    "atc": {
+      "code": "S02AA04",
+      "label": "Aluminiumacetotartrat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C681AB43-4B55-4ADD-B7AA-C6DA8B0109E7",
+    "atc": {
+      "code": "M04AB03",
+      "label": "Benzbromaron"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C6855EC9-BC9A-4DD7-9C50-868877B695E1",
+    "atc": {
+      "code": "R05CA03",
+      "label": "Guaifenesin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C70175ED-90DB-4BFA-89D8-0350E825AB95",
+    "atc": {
+      "code": "G03DA01",
+      "label": "Gestonoron"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C771A2E0-9737-40DF-8EBB-D1EF8B4A6115",
+    "atc": {
+      "code": "D11AX25",
+      "label": "Hydrogenperoksid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C7D02250-EC85-485C-87DA-99EA03E0CC88",
+    "atc": {
+      "code": "V10XX01",
+      "label": "Natriumfosfat (32P)"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C81DDBA0-30D6-4DBB-98FF-2FC46A155FD4",
+    "atc": {
+      "code": "N01BX04",
+      "label": "Capsaicin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C8555D4A-827D-44DC-A9C3-7D4F8B0FD293",
+    "atc": {
+      "code": "R03BC03",
+      "label": "Nedokromil"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C85A33BC-0A66-455F-867F-4AEAA38570BC",
+    "atc": {
+      "code": "J06BD07",
+      "label": "Kasirivimab og imdevimab"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C8660B57-3ED6-4EEF-B864-02EB75415508",
+    "atc": {
+      "code": "D05AD01",
+      "label": "Trioksysalen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C8BBE41C-8591-4B1A-94D5-626F2D46A0A6",
+    "atc": {
+      "code": "N02BB02",
+      "label": "Metamizolnatrium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C92FB19A-2D72-450A-B274-4712F880C3FE",
+    "atc": {
+      "code": "V08D",
+      "label": "Kontrastmidler for ultralyd"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C944D0BB-2BF7-49EB-9FBC-60FE8E4BC468",
+    "atc": {
+      "code": "S01AE07",
+      "label": "Moksifloksacin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_C9F7F6E8-F8B2-4687-9B16-651C30799B0B",
+    "atc": {
+      "code": "A07BC05",
+      "label": "Diosmektitt"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CA596B7D-DDFB-4F7C-967D-556C0DE5F027",
+    "atc": {
+      "code": "D05AC01",
+      "label": "Ditranol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CB5B1400-CC05-46FF-89BE-3CEDAE882B8F",
+    "atc": {
+      "code": "WITHOUT",
+      "label": "Ikke relevant"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CBDE2934-B1C9-4DE3-A9A9-CBEB54433C7A",
+    "atc": {
+      "code": "A02AX",
+      "label": "Antacida, andre kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CC2CEF35-0869-4701-A4DE-DE2F96E8500C",
+    "atc": {
+      "code": "A12CX",
+      "label": "Diverse mineralmidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CC33A579-5DCB-4473-8021-3808A1372BDC",
+    "atc": {
+      "code": "S01AB01",
+      "label": "Sulfametizol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CC8F6866-BE1D-4475-94D5-78C9202C1A79",
+    "atc": {
+      "code": "V04CG04",
+      "label": "Pentagastrin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CDBBC98F-A70B-40C1-A311-1B10AC0CD55A",
+    "atc": {
+      "code": "J06BD06",
+      "label": "Regdanvimab"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CE6092B1-E354-4246-827C-8DBAE3FD904E",
+    "atc": {
+      "code": "S02DA01",
+      "label": "Lidokain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_CEEDEC2C-B245-456F-BF3C-413207CFAA0C",
+    "atc": {
+      "code": "M03BA51",
+      "label": "Fenprobamat, kombinasjoner ekskl. psykoleptika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D1726F9A-6B77-4F83-9CCC-06B113000DEB",
+    "atc": {
+      "code": "N02BA",
+      "label": "Salisylsyrederivater"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D1992173-6370-4B92-9D69-A9B904D9D21C",
+    "atc": {
+      "code": "J06BD",
+      "label": "Antivirale monoklonale antistoffer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D1BAC9A4-7C49-4113-BA41-552F19166649",
+    "atc": {
+      "code": "N05CH02",
+      "label": "Ramelteon"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D25B39ED-8B65-4726-B9AF-B1465E1F3CAF",
+    "atc": {
+      "code": "L01EM02",
+      "label": "Kopanlisib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D25D5C59-5F30-4F64-8BD3-AAD4503ED2B4",
+    "atc": {
+      "code": "M",
+      "label": "Muskler og skjelett"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D2777F3B-BAA2-4DBF-B622-BFD6165FAF9C",
+    "atc": {
+      "code": "A07FA03",
+      "label": "Escherichia coli"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D2C5FB35-8CA5-4DB2-B627-C59A6FACFB52",
+    "atc": {
+      "code": "C01EB15",
+      "label": "Trimetazidin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D3182C50-5D17-4454-8C6A-BCAB13C0C08A",
+    "atc": {
+      "code": "M09",
+      "label": "Andre midler mot muskel- og skjelettsykdommer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D5695151-2846-45BC-A5CB-2343C2491FF5",
+    "atc": {
+      "code": "A06AB53",
+      "label": "Dantron, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D5FAE824-94A7-4F14-B325-59BAC3F03F5F",
+    "atc": {
+      "code": "P01CX04",
+      "label": "Miltefosin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D675FD4F-D4E7-4A7C-8140-77E12A6D1738",
+    "atc": {
+      "code": "N01BB53",
+      "label": "Mepivakain, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D7065D64-26AE-45AE-8D60-1793D0770777",
+    "atc": {
+      "code": "V04CC01",
+      "label": "Sorbitol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D781AACE-6AB0-4677-A4F6-288FCDC160BB",
+    "atc": {
+      "code": "V04CM01",
+      "label": "Gonadorelin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D78F4202-22D6-4B2D-9429-D15A5FFF03A7",
+    "atc": {
+      "code": "V04CX06",
+      "label": "Heksaminolevulinat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D7A049F2-F68C-4B4A-B0A8-0186FE14047C",
+    "atc": {
+      "code": "V09X",
+      "label": "Andre radiofarmaka til diagnostisk bruk"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D89E4ACA-9590-4A9F-8D95-4C80231C3DA5",
+    "atc": {
+      "code": "B02BX11",
+      "label": "Marstacimab"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D9225A34-1737-417C-8B19-77E735915F5D",
+    "atc": {
+      "code": "C05CA03",
+      "label": "Diosmin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_D984390D-13DC-4EDC-AC34-EEE90DE23CB4",
+    "atc": {
+      "code": "L01X",
+      "label": "Andre antineoplastiske midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DA3B8FD8-16CC-49E9-95A2-062477C06586",
+    "atc": {
+      "code": "R05CB06",
+      "label": "Ambroksol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DA9053F3-576D-41A2-9A03-DA0173AFF46A",
+    "atc": {
+      "code": "M09AX15",
+      "label": "Delandistrogenmokseparvovek"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DB079C00-6E06-4750-969A-0AFA78D1EBD8",
+    "atc": {
+      "code": "G01AA02",
+      "label": "Natamycin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DB4B12B0-EB96-4D77-87F6-4896E1201999",
+    "atc": {
+      "code": "A16AX30",
+      "label": "Natriumbenzoat og fenylacetatnatrium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DBA8ED3D-50FF-40C0-B30F-1D5694BBA58B",
+    "atc": {
+      "code": "B05XX02",
+      "label": "Trometamol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DC7F2FF9-7F88-46B7-8072-820BF876E14D",
+    "atc": {
+      "code": "G04BD",
+      "label": "Midler mot hyppig vannlatning og inkontinens"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DC8C4FFA-F0CA-4855-985F-0629D16000C7",
+    "atc": {
+      "code": "B06AA55",
+      "label": "Streptokinase, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DCAEFA45-8303-4A43-B41F-37A653F8891C",
+    "atc": {
+      "code": "D02BA",
+      "label": "Beskyttelsesmidler ved UV-bestråling, til topikal bruk"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DCB41728-A8AF-4986-A3CF-8216DAE22B9D",
+    "atc": {
+      "code": "A06AX03",
+      "label": "Lubiproston"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DD21FE85-833F-481F-AFFE-FEDC0FDBA1A9",
+    "atc": {
+      "code": "P03AC51",
+      "label": "Pyretrum, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DD942FDD-CE86-42DD-AC63-5037987A8015",
+    "atc": {
+      "code": "H01AA02",
+      "label": "Tetrakosaktid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DE2D3D62-A968-4331-AC19-E57249238952",
+    "atc": {
+      "code": "S01AD09",
+      "label": "Ganciklovir"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DEF32D86-0C05-4F5E-9F79-EE73EE1A5CDF",
+    "atc": {
+      "code": "C01EB22",
+      "label": "Meldonium"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DF212144-A8E3-4349-B8A7-C2667B3AD552",
+    "atc": {
+      "code": "V08CA11",
+      "label": "Gadofosveset"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_DFA23B11-857E-4724-9AD3-ED474F65F738",
+    "atc": {
+      "code": "N07XX05",
+      "label": "Amifampridin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E00E99A6-B952-45F6-B5CC-197E89FBE7D2",
+    "atc": {
+      "code": "A07DA",
+      "label": "Peristaltikkhemmende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E04C13E0-3E8C-4531-8B5B-F6D4857C9BA8",
+    "atc": {
+      "code": "M03BA03",
+      "label": "Metokarbamol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E0738709-97F3-484D-A342-96C7E467E6D8",
+    "atc": {
+      "code": "A04AD",
+      "label": "Andre antiemetika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E0F7B5E1-2E8D-4BE1-8A5A-EAAD63FCEE6B",
+    "atc": {
+      "code": "R01AC08",
+      "label": "Olopatadin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E191A28B-2F85-4EF7-A6CD-A63835AF91B8",
+    "atc": {
+      "code": "H05BA02",
+      "label": "Svinekalsitonin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E22764F3-FB81-4F47-87F5-70C4E899A2E1",
+    "atc": {
+      "code": "P01AB02",
+      "label": "Tinidazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E26802AA-F9C8-4E5B-8645-254B747E59E8",
+    "atc": {
+      "code": "G04BD01",
+      "label": "Emepron"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E324E905-69B3-4E08-B7F9-06489B44E8DE",
+    "atc": {
+      "code": "P01AC01",
+      "label": "Diloksanid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E36C459B-E733-4B68-BBE7-D4F0F9E029DE",
+    "atc": {
+      "code": "S01FA54",
+      "label": "Cyklopentolat, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E389027D-1DCE-4EE7-B766-06D314697B6A",
+    "atc": {
+      "code": "A16AX18",
+      "label": "Lumasiran"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E39E76D3-4E57-4534-BD4E-792BFB8D1AA1",
+    "atc": {
+      "code": "H01AB01",
+      "label": "Tyrotropin alfa"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E4A5E71C-41E0-4F40-BF5F-545338188AB3",
+    "atc": {
+      "code": "V07AZ",
+      "label": "Analysekjemikalier og reagenser"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E591EF1A-547A-4D88-9830-9A3F090F4F15",
+    "atc": {
+      "code": "N07XX24",
+      "label": "Trofinetid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E63B389B-9B99-48F1-A1C8-EF5513B9B17C",
+    "atc": {
+      "code": "A05BA03",
+      "label": "Silymarin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E6B14B04-8BE2-43AC-B7B9-35D8C0E3402F",
+    "atc": {
+      "code": "A07XA04",
+      "label": "Racekadotril"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E78EC918-195D-4C15-A70D-C39A7F0B2ED5",
+    "atc": {
+      "code": "A07BA01",
+      "label": "Medisinsk kull"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E8A01575-FAA4-46FF-B708-1475411F1086",
+    "atc": {
+      "code": "N02CC51",
+      "label": "Sumatriptan og naproksen"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E8F03892-9677-473D-909B-D9B6558D99E5",
+    "atc": {
+      "code": "G02CX04",
+      "label": "Klaseormedruerot"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_E934D16C-319D-4C0B-960A-15A92C059829",
+    "atc": {
+      "code": "B02AB01",
+      "label": "Aprotinin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_EAB27870-6C10-4EA6-908A-45F6115DF5CD",
+    "atc": {
+      "code": "N05CH",
+      "label": "Melatonin reseptor agonister"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_EB188D8E-DDCD-4816-9A86-734FD4C93C2E",
+    "atc": {
+      "code": "M03BB03",
+      "label": "Klorzoksason"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_EB350347-06F6-49CC-A708-5530C907F0F4",
+    "atc": {
+      "code": "B06AC01",
+      "label": "C1-hemmer, plasmaderivert"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_EC96E1A0-D011-4FAB-85DD-E8E5DE55A83E",
+    "atc": {
+      "code": "L03AA15",
+      "label": "Balugrastim"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_EE4DD6DB-913A-4EDC-91CF-6B69122131D8",
+    "atc": {
+      "code": "L02BX01",
+      "label": "Abareliks"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F3309240-A81D-4402-AEDB-0B492A229041",
+    "atc": {
+      "code": "M03BB52",
+      "label": "Klormezanon, kombinasjoner ekskl. psykoleptika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F34BF1AE-80D2-488A-9381-842E2E513390",
+    "atc": {
+      "code": "D06BB12",
+      "label": "Sinekatekiner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F3517C0E-A429-4E27-B8C5-6D8E6466D47F",
+    "atc": {
+      "code": "V07AR",
+      "label": "Resistens tablett/lapp med antibiotika til konsentrasjonsbestemmelse"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F35EB76D-9609-4DCF-8A9B-2FB80CF1EFC3",
+    "atc": {
+      "code": "M09AX",
+      "label": "Andre midler mot muskel- og skjelettsykdommer"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F380619F-A56D-48ED-9C7C-C6F07F881B42",
+    "atc": {
+      "code": "L03AA03",
+      "label": "Molgramostim"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F3F1113D-B842-4831-8D02-A5019CEA641F",
+    "atc": {
+      "code": "A06AX01",
+      "label": "Glyserol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F56E1539-D513-4BBE-AB81-AFE736EE28E9",
+    "atc": {
+      "code": "L03AX21",
+      "label": "Elapegademase"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F5CF2375-867D-4215-954D-0F6B51EB3CA4",
+    "atc": {
+      "code": "R05DB02",
+      "label": "Benproperin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F664F9FD-0260-4B0C-A218-EAA8493910A1",
+    "atc": {
+      "code": "S01LA",
+      "label": "Antineovaskulariserende midler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F71A6967-24CD-4BCD-A95B-E39566F3A4E8",
+    "atc": {
+      "code": "N01BC01",
+      "label": "Kokain"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F7241F68-7596-49B8-BDE1-E9D382D1D728",
+    "atc": {
+      "code": "N05CA06",
+      "label": "Sekobarbital"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F7DD6449-63FE-4F48-A184-0E504797BD4B",
+    "atc": {
+      "code": "A09AC",
+      "label": "Enzymmidler i kombinasjon med syremidler"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F881E58B-C65F-4683-9F89-4BF57031EDA5",
+    "atc": {
+      "code": "V03AX02",
+      "label": "Nalfurafin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F8DF12C6-67FA-4AB8-BED1-CD724CE28C86",
+    "atc": {
+      "code": "L03AC",
+      "label": "Interleukiner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F962F01A-C5CF-4664-8D2D-63EAAE1115B6",
+    "atc": {
+      "code": "L01EX06",
+      "label": "Masitinib"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F97322DA-91FD-42B2-B6BD-4B9A1224518A",
+    "atc": {
+      "code": "P02BX04",
+      "label": "Triklabendazol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_F982C404-1D68-4F83-BE47-7AB8E97ABD09",
+    "atc": {
+      "code": "C02B",
+      "label": "Antiadrenergika, ganglieblokkerende"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FAE7B25F-483E-4223-8532-5C9DC86CAAC0",
+    "atc": {
+      "code": "A07FA51",
+      "label": "Melkesyreproduserende organismer, kombinasjoner"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FB72A66A-DE6C-46F4-BEDC-791EFA694936",
+    "atc": {
+      "code": "R01AD04",
+      "label": "Flunisolid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FBDC80E9-0548-4ED8-AA33-DD0271C69C40",
+    "atc": {
+      "code": "G02CA01",
+      "label": "Ritodrin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FC1D1E24-2CD9-476A-B9DF-B124FFC92AE2",
+    "atc": {
+      "code": "R02AA03",
+      "label": "Diklorbenzylalkohol"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FC504FB9-BF05-4BE3-A1CD-B2C54BEF0B36",
+    "atc": {
+      "code": "V10BX01",
+      "label": "Strontium (89Sr) klorid"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FCEE85FB-C7B1-4CA3-A6DD-FDE2EF64E541",
+    "atc": {
+      "code": "S01XA05",
+      "label": "Natriumedetat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FDCDA869-E63F-4245-8ABA-31C8D51D12F3",
+    "atc": {
+      "code": "A05AX08",
+      "label": "Lineriksibat"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FE49D00D-A656-4E00-B47B-5AFE6CA3175F",
+    "atc": {
+      "code": "L03AX04",
+      "label": "Pegademase"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FF22960D-25C8-4680-B95C-686554083667",
+    "atc": {
+      "code": "L01XD05",
+      "label": "Temoporfin"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  },
+  {
+    "entryId": "ID_FF30684C-64DE-4C15-B225-E68141157002",
+    "atc": {
+      "code": "N01BX",
+      "label": "Andre lokalanestetika"
+    },
+    "hentetDato": "2026-10-27T12:25:20"
+  }
+]

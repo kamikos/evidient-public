@@ -1,0 +1,140 @@
+{
+  "card": {
+    "pair": "alcohol__clozapine",
+    "a": "alcohol",
+    "b": "clozapine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The French label says alcohol can potentiate clozapine sedation.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label describes increased sedation with alcohol during clozapine treatment.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The French label says alcohol can potentiate clozapine's sedative effect.",
+        "quote": "La consommation d’alcool doit être évitée pendant le traitement par clozapine, car il peut potentialiser l’effet sédatif.",
+        "quoteEnglish": "Alcohol consumption must be avoided during clozapine treatment because it can potentiate the sedative effect.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:61247556#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French SmPC says alcohol should be avoided during clozapine treatment because it can potentiate the sedative effect; the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2592c9a8-fd74-4e0d-a895-b07b014cf355#boxed_warning",
+        "title": "clozapine: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2592c9a8-fd74-4e0d-a895-b07b014cf355#warnings_and_cautions",
+        "title": "clozapine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61247556#4.5",
+        "title": "CLOZAPINE TEVA 100 mg, comprimé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61247556/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35311547",
+        "title": "The role of alcohol intake in the pharmacogenetics of treatment with clozapine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35311547/",
+        "citation": "1744-8042 23 6 2022 Apr Pharmacogenomics Pharmacogenomics",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24685823",
+        "title": "Schizophrenia and co-occurring substance use disorder: reward, olfaction and clozapine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24685823/",
+        "citation": "1573-2509 155 1-3 2014 May Schizophrenia research Schizophr Res",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30427812",
+        "title": "Is Ketamine the Future Clozapine for Depression? A Case Series and Literature Review on Maintenance Ketamine in Treatment-resistant Depression With Suicidal Behavior.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30427812/",
+        "citation": "1538-1145 24 4 2018 Jul Journal of psychiatric practice J Psychiatr Pract",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "6405436",
+        "title": "Involvement of catecholamines in acute tolerance to ethanol in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6405436/",
+        "citation": "0033-3158 79 2-3 1983 Psychopharmacology Psychopharmacology (Berl)",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Clozapine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.560Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

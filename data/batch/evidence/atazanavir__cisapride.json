@@ -1,0 +1,93 @@
+{
+  "card": {
+    "pair": "atazanavir__cisapride",
+    "a": "atazanavir",
+    "b": "cisapride",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label contraindicates atazanavir with cisapride because of potentially life-threatening cardiac arrhythmias.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies cardiac arrhythmias as a potentially serious consequence of this combination.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label contraindicates atazanavir with cisapride because of potentially serious or life-threatening cardiac arrhythmias.",
+        "quote": "Coadministration of atazanavir with cisapride is contraindicated.\nThis is due to the potential for serious and/or life-threatening reactions such as cardiac arrhythmias [see Contraindications (4) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cardiac_arrhythmia",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The atazanavir label contraindicates cisapride due to potential serious and/or life-threatening reactions such as cardiac arrhythmias.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#contraindications",
+        "title": "atazanavir: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions",
+        "title": "atazanavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Atazanavir or Cisapride, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Atazanavir and Cisapride, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.660Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

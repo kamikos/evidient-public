@@ -1,0 +1,187 @@
+{
+  "card": {
+    "pair": "alcohol__clonazepam",
+    "a": "alcohol",
+    "b": "clonazepam",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says alcohol may potentiate clonazepam's benzodiazepine CNS-depressant action.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The Spanish label specifically describes intensified sedation and cardiorespiratory depression with alcohol.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcohol may potentiate the CNS-depressant action of benzodiazepines, the class that includes clonazepam.",
+        "quote": "The CNS-depressant action of the benzodiazepine class of drugs may be potentiated by alcohol",
+        "source": {
+          "kind": "fda_label",
+          "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The clonazepam label states the CNS-depressant action of benzodiazepines may be potentiated by alcohol.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish label says alcohol with Rivotril can intensify sedation and cardiorespiratory depression.",
+        "quote": "Cuando se coadministra Rivotril con depresores del SNC incluyendo el alcohol, los efectos sobre la sedación y depresión cardiorrespiratoria se pueden ver intensificados.",
+        "quoteEnglish": "When Rivotril is coadministered with CNS depressants including alcohol, sedation and cardiorespiratory depression may be intensified.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:52332#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Rivotril SmPC states sedation and cardiorespiratory depression may be intensified with alcohol, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#boxed_warning",
+        "title": "clonazepam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#warnings",
+        "title": "clonazepam: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#precautions",
+        "title": "clonazepam: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "2606ecf9-3d71-4c1c-bfda-d7d98ffc6011#drug_interactions",
+        "title": "clonazepam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2606ecf9-3d71-4c1c-bfda-d7d98ffc6011",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:52332#4.4",
+        "title": "RIVOTRIL 1 mg/ ml CONCENTRADO Y DISOLVENTE PARA SOLUCION INYECTABLE: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=52332&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:52332#4.5",
+        "title": "RIVOTRIL 1 mg/ ml CONCENTRADO Y DISOLVENTE PARA SOLUCION INYECTABLE: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=52332&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61496251#4.4",
+        "title": "RIVOTRIL 2,5 mg/ml, solution buvable en goutte: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61496251/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61496251#4.5",
+        "title": "RIVOTRIL 2,5 mg/ml, solution buvable en goutte: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61496251/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31034951",
+        "title": "Diuretic activity and neuropharmacological effects of an ethanol extract from Senna septemtrionalis (Viv.) H.S. Irwin & Barneby (Fabaceae).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31034951/",
+        "citation": "1872-7573 239 2019 Jul 15 Journal of ethnopharmacology J Ethnopharmacol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9885310",
+        "title": "Increasing drug solubility by means of bile salt-phosphatidylcholine-based mixed micelles.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9885310/",
+        "citation": "0939-6411 46 3 1998 Nov European journal of pharmaceutics and biopharmaceutics : official journal of Arbeitsgemeinschaft fur Pharmazeutische Verfahrenstechnik e.V Eur J Pharm Biopharm",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Clonazepam and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.558Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

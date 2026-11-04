@@ -1,0 +1,20 @@
+{
+  "pair": "acebutolol__celiprolol",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The retrieved studies describe juice effects and assays for each beta-blocker and report no interaction between acebutolol and celiprolol.",
+      "searched": [
+        "\"acebutolol\"[tiab] AND \"celiprolol\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pair": "chlorpromazine__clozapine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The French label says atropinic drugs, including phenothiazine neuroleptics and clozapine, can add their adverse effects such as urinary retention, acute glaucoma, constipation and dry mouth.",
+      "quote": "Il faut prendre en compte le fait que les substances atropiniques peuvent additionner leurs effets indésirables et entraîner plus facilement une rétention urinaire, une poussée aiguë de glaucome, une constipation, une sécheresse de la bouche, etc\n\nLes divers médicaments atropiniques sont représentés par les antidépresseurs imipraminiques, la plupart des antihistaminiques H1 atropiniques, les antiparkinsoniens anticholinergiques, les antispasmodiques atropiniques, le disopyramide, les neuroleptiques phénothiaziniques ainsi que la clozapine.",
+      "quoteEnglish": "It should be taken into account that atropinic substances can add their adverse effects and more easily cause urinary retention, an acute attack of glaucoma, constipation, dry mouth, etc. The various atropinic drugs include imipraminic antidepressants, most atropinic H1 antihistamines, anticholinergic antiparkinsonians, atropinic antispasmodics, disopyramide, phenothiazine neuroleptics and clozapine.",
+      "sourceId": "FR:62184888#4.5",
+      "stance": "increases_risk",
+      "outcome": "anticholinergic_effects"
+    }
+  ],
+  "headline": {
+    "text": "The French label says atropinic drugs can add adverse effects; it lists phenothiazine neuroleptics and clozapine among them (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French label says atropinic substances can add their adverse effects, and its list of atropinic drugs includes phenothiazine neuroleptics and clozapine.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"chlorpromazine\"[tiab] AND \"clozapine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "pair": "alcohol__diltiazem",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label states alcohol increases in vitro release from the extended-release capsules and that this may raise absorption, exposure and dose-related adverse reactions."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

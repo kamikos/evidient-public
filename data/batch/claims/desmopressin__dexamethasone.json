@@ -1,0 +1,62 @@
+{
+  "pair": "desmopressin__dexamethasone",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA desmopressin label says use with systemic or inhaled glucocorticoids is contraindicated.",
+      "quote": "Concomitant use with systemic or inhaled glucocorticoids [see Boxed Warning ] .",
+      "sourceId": "52680415-52a0-61c2-e063-6294a90ae27e#contraindications",
+      "stance": "increases_risk",
+      "outcome": "hyponatremia"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA boxed warning says desmopressin is contraindicated in patients at increased risk of severe hyponatremia, including those using systemic or inhaled glucocorticoids.",
+      "quote": "Desmopressin acetate is contraindicated in patients at increased risk of severe hyponatremia, such as patients with excessive fluid intake, illnesses that can cause fluid or electrolyte imbalances, and in those using loop diuretics or systemic or inhaled glucocorticoids.",
+      "sourceId": "52680415-52a0-61c2-e063-6294a90ae27e#boxed_warning",
+      "stance": "increases_risk",
+      "outcome": "hyponatremia"
+    },
+    {
+      "id": "c3",
+      "text": "A case report says desmopressin was stopped on day 1 of chemotherapy because of a contraindicated combination with dexamethasone given as an antiemetic.",
+      "quote": "Desmopressin was discontinued on day 1 of chemotherapy because of a contraindicated combination with dexamethasone, which was administered as an antiemetic.",
+      "sourceId": "41797751",
+      "stance": "uncertain",
+      "outcome": "hyponatremia"
+    }
+  ],
+  "headline": {
+    "text": "The FDA label contraindicates desmopressin with systemic glucocorticoids, citing hyponatremia risk (c1, c2).",
+    "claimIds": [
+      "c1",
+      "c2"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA label lists systemic or inhaled glucocorticoids as a contraindicated co-medication and names severe hyponatremia as the risk (c1, c2).",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "text": "A case report describes desmopressin being stopped before chemotherapy because of dexamethasone (c3).",
+      "claimIds": [
+        "c3"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"desmopressin\"[tiab] AND \"dexamethasone\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

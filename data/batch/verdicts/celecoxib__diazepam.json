@@ -1,0 +1,34 @@
+{
+ "pair": "celecoxib__diazepam",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The Spanish label quote and its faithful English rendering cover in vitro CYP2C19 inhibition, diazepam as substrate, and unknown clinical importance."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The abstract identifies celecoxib as the selective COX-2 inhibitor that did not reduce diazepam sleep time in mice, while COX-1 and non-selective inhibitors did."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

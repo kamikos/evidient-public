@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__brimonidine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The brimonidine label names alcohol among CNS depressants with a possible additive or potentiating effect and states no specific interaction studies were done."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

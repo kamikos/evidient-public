@@ -1,0 +1,20 @@
+{
+  "pair": "brexpiprazole__chlorpromazine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The sources do not mention the two drugs used together; the chlorpromazine label text covers chlorpromazine alone.",
+      "searched": [
+        "\"brexpiprazole\"[tiab] AND \"chlorpromazine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

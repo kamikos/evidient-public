@@ -1,0 +1,139 @@
+{
+  "card": {
+    "pair": "alcohol__fentanyl",
+    "a": "alcohol",
+    "b": "fentanyl",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA fentanyl label warns of profound sedation, respiratory depression, coma, and death with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The boxed warning describes potentially fatal central nervous system depression when opioids are combined with alcohol.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA fentanyl label says opioids combined with alcohol may cause profound sedation, respiratory depression, coma, and death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "bfa8018a-4cbc-434b-e09e-782872b0340a#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The fentanyl boxed warning states opioids with CNS depressants including alcohol may result in profound sedation, respiratory depression, coma and death.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "bfa8018a-4cbc-434b-e09e-782872b0340a#boxed_warning",
+        "title": "fentanyl: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfa8018a-4cbc-434b-e09e-782872b0340a",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "bfa8018a-4cbc-434b-e09e-782872b0340a#drug_interactions",
+        "title": "fentanyl: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bfa8018a-4cbc-434b-e09e-782872b0340a",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60281114#4.4",
+        "title": "FENTANYL ARROW 75 microgrammes/heure, dispositif transdermique: 4.4",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60281114/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.4",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60281114#4.5",
+        "title": "FENTANYL ARROW 75 microgrammes/heure, dispositif transdermique: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60281114/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36801400",
+        "title": "Basic metabolic and vascular effects of ketamine and its interaction with fentanyl.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36801400/",
+        "citation": "1873-7064 228 2023 May 1 Neuropharmacology Neuropharmacology",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40091621",
+        "title": "Expecting medication misuse: a proactive approach to drug discovery to prevent fatal overdose.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40091621/",
+        "citation": "1756-8927 17 6 2025 Mar Future medicinal chemistry Future Med Chem",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Fentanyl and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study of fentanyl combined with alcohol.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"fentanyl\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.577Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

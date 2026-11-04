@@ -1,0 +1,85 @@
+{
+  "pair": "clarithromycin__colchicine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA clarithromycin label says life-threatening and fatal drug interactions have been reported in patients treated with clarithromycin and colchicine.",
+      "quote": "Colchicine: Life-threatening and fatal drug interactions have been reported in patients treated with clarithromycin and colchicine.",
+      "sourceId": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "colchicine_toxicity"
+    },
+    {
+      "id": "c2",
+      "text": "The FDA clarithromycin label lists concomitant clarithromycin and colchicine as contraindicated in patients with renal or hepatic impairment.",
+      "quote": "Concomitant administration of clarithromycin tablets and colchicine is contraindicated in patients with renal or hepatic impairment.",
+      "sourceId": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications",
+      "stance": "increases_risk",
+      "outcome": "colchicine_toxicity"
+    },
+    {
+      "id": "c3",
+      "text": "The FDA clarithromycin label says clarithromycin and other macrolides are known to inhibit CYP3A and P-glycoprotein, which handle colchicine.",
+      "quote": "Clarithromycin and other macrolides are known to inhibit CYP3A and Pgp.",
+      "sourceId": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#drug_interactions",
+      "stance": "mechanism",
+      "outcome": "increased_exposure"
+    },
+    {
+      "id": "c4",
+      "text": "The French clarithromycin label reports sometimes fatal colchicine poisoning with concomitant clarithromycin, especially in elderly subjects or patients with renal insufficiency.",
+      "quote": "Des cas d'intoxication par la colchicine parfois mortels ont été rapportés lors de l'administration concomitante de clarithromycine et de colchicine, notamment chez des sujets âgés, ou chez des patients insuffisants rénaux.",
+      "quoteEnglish": "Cases of sometimes fatal colchicine poisoning have been reported with concomitant administration of clarithromycin and colchicine, especially in elderly subjects or patients with renal insufficiency.",
+      "sourceId": "FR:60726518#4.4",
+      "stance": "increases_risk",
+      "outcome": "colchicine_toxicity"
+    },
+    {
+      "id": "c5",
+      "text": "In a retrospective study, 9 of 88 patients (10.2%) who received clarithromycin and colchicine concomitantly died, against 1 of 28 (3.6%) who received them sequentially.",
+      "quote": "Nine (10.2%) of the 88 patients who received the 2 drugs concomitantly died. Only 1 (3.6%) of the 28 patients who received the drugs sequentially died.",
+      "sourceId": "16007523",
+      "stance": "increases_risk",
+      "outcome": "colchicine_toxicity"
+    }
+  ],
+  "headline": {
+    "text": "The FDA clarithromycin label reports life-threatening and fatal interactions with colchicine and contraindicates the pair in renal or hepatic impairment (c1, c2).",
+    "claimIds": [
+      "c1",
+      "c2"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The French label reports sometimes fatal colchicine poisoning with concomitant clarithromycin (c4).",
+      "claimIds": [
+        "c4"
+      ]
+    },
+    {
+      "text": "A retrospective study of 116 patients found 10.2% mortality with concomitant use and 3.6% with sequential use (c5).",
+      "claimIds": [
+        "c5"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The FDA label says clarithromycin inhibits CYP3A and P-glycoprotein (c3).",
+      "claimIds": [
+        "c3"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The retrospective study was not randomized and compared concomitant with sequential therapy.",
+      "searched": [
+        "\"clarithromycin\"[tiab] AND \"colchicine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

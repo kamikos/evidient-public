@@ -1,0 +1,38 @@
+{
+  "pair": "carbamazepine__doravirine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA doravirine label lists carbamazepine among anticonvulsants that lower doravirine concentrations and says co-administration is contraindicated.",
+      "quote": "Anticonvulsants carbamazepine oxcarbazepine phenobarbital phenytoin ↓ doravirine Co-administration is contraindicated with these anticonvulsants.",
+      "sourceId": "ff06e5cc-f47a-4779-816b-0e5b13e88a25#drug_interactions",
+      "stance": "increases_risk",
+      "outcome": "reduced_effect"
+    }
+  ],
+  "headline": {
+    "text": "The FDA doravirine label lists co-administration with carbamazepine as contraindicated, with lower doravirine concentrations (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The doravirine label shows carbamazepine decreasing doravirine concentration and contraindicates co-administration.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "efficacy",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"carbamazepine\"[tiab] AND \"doravirine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

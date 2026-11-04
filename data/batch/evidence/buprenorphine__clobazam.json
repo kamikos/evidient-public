@@ -1,0 +1,148 @@
+{
+  "card": {
+    "pair": "buprenorphine__clobazam",
+    "a": "buprenorphine",
+    "b": "clobazam",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA clobazam label's opioid warning covers profound sedation, respiratory depression, coma, and death with buprenorphine.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label specifically identifies potentially fatal respiratory depression with buprenorphine used as substitution treatment.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA clobazam label says benzodiazepines with opioids may cause profound sedation, respiratory depression, coma, and death; buprenorphine is an opioid.",
+        "quote": "Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "fd1e63bf-496c-427c-83b7-6acabc00a5e5#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The clobazam boxed warning states benzodiazepines with opioids may cause profound sedation, respiratory depression, coma and death, and buprenorphine is an opioid.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French clobazam label describes increased risk of potentially fatal respiratory depression with buprenorphine used as substitution treatment.",
+        "quote": "Avec la buprénorphine utilisée en traitement de substitution : Risque majoré de dépression respiratoire, pouvant être fatale.",
+        "quoteEnglish": "With buprenorphine used as substitution treatment: increased risk of respiratory depression, which may be fatal.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:62905911#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Urbanyl SmPC entry for buprenorphine states increased risk of potentially fatal respiratory depression, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#warnings_and_cautions",
+        "title": "buprenorphine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "6189fb21-9432-45f8-8481-0bfaf3ccde95#drug_interactions",
+        "title": "buprenorphine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "fd1e63bf-496c-427c-83b7-6acabc00a5e5#boxed_warning",
+        "title": "clobazam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd1e63bf-496c-427c-83b7-6acabc00a5e5",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "fd1e63bf-496c-427c-83b7-6acabc00a5e5#warnings_and_cautions",
+        "title": "clobazam: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd1e63bf-496c-427c-83b7-6acabc00a5e5",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "fd1e63bf-496c-427c-83b7-6acabc00a5e5#drug_interactions",
+        "title": "clobazam: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd1e63bf-496c-427c-83b7-6acabc00a5e5",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:62905911#4.5",
+        "title": "URBANYL 10 mg, comprimé sécable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62905911/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Buprenorphine or Clobazam, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Buprenorphine and Clobazam, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.674Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

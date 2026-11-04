@@ -1,0 +1,785 @@
+{
+  "card": {
+    "pair": "sertraline__warfarin",
+    "a": "sertraline",
+    "b": "warfarin",
+    "category": "bleeding",
+    "depth": "label_only",
+    "headline": {
+      "text": "Sertraline combined with warfarin is associated with increased bleeding risk",
+      "claimIds": [
+        "c6"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The warfarin label includes sertraline among serotonin reuptake inhibitors that increase bleeding risk",
+        "claimIds": [
+          "c6"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Sertraline or Warfarin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Sertraline and Warfarin, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin.",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs [...] Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding_risk",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c2",
+        "text": "The label states more frequent INR monitoring when starting or stopping other drugs.",
+        "quote": "More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, including drugs intended for short-term use (e.g., antibiotics, antifungals, corticosteroids) [see Boxed Warning ]. Consult the labeling of all concurrently used drugs to obtain further information about interactions with warfarin sodium or adverse reactions pertaining to bleeding.",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "inr_monitoring",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "The quote gives a generic warfarin monitoring recommendation for other drugs without mentioning sertraline or expressing uncertainty about the sertraline–warfarin combination, so it does not support the pair-specific uncertain stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c3",
+        "text": "Warfarin interactions may involve impaired hemostasis and reduced clotting factor synthesis.",
+        "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "interaction_mechanism",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support: The quote lists generic pharmacodynamic mechanisms for any drug interacting with warfarin and does not attribute impaired hemostasis or reduced clotting factor synthesis specifically to sertraline-warfarin co-exposure.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c4",
+        "text": "Five of six warfarin-SSRI combinations showed no synergistic bleeding interaction in FAERS.",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses. Disproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction.",
+        "source": {
+          "kind": "pubmed",
+          "id": "42254652"
+        },
+        "stance": "uncertain",
+        "outcome": "bleeding_risk",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "The quote reports consistent negative signals indicating no synergistic interaction for five unspecified warfarin-SSRI combinations, rather than explicit uncertainty about sertraline-warfarin specifically, so the uncertain stance does not match.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c5",
+        "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations.",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Results for international normalized ratio increased largely paralleled these findings. Contrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+        "source": {
+          "kind": "pubmed",
+          "id": "42254652"
+        },
+        "stance": "uncertain",
+        "outcome": "inr_increased",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c6",
+        "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin.",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding_risk",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports: the quote explicitly lists sertraline among the serotonin reuptake inhibitors in Table 3 of drugs that increase bleeding risk when used concomitantly with warfarin.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c7",
+        "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations.",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses.\n\nDisproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction. While the warfarin-fluvoxamine combination showed isolated positive signals in secondary models, the primary Ω shrinkage measure remained statistically nonsignificant (95% CI: encompassed zero). Results for international normalized ratio increased largely paralleled these findings. Network analysis confirmed a safety profile predominantly shaped by warfarin-associated risks rather than a synergistic amplification. The CVARD database corroborated these patterns with regional variations.\n\nContrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+        "source": {
+          "kind": "pubmed",
+          "id": "42254652"
+        },
+        "stance": "uncertain",
+        "outcome": "inr_increased",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support: The quote reports a class-level null interaction finding for warfarin-SSRI combinations without sertraline-specific INR results or explicit uncertainty, so the 'uncertain' stance for sertraline-warfarin does not match.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c8f47c6-a180-4ad8-b962-04069d2270cb",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "42254652",
+        "title": "Absence of pharmacovigilance signals for bleeding events associated with warfarin-SSRI drug interactions: a comparative analysis of FAERS and CVARD databases.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42254652/",
+        "citation": "Zhang et al. · Therapeutic advances in drug safety 2026",
+        "design": "other",
+        "year": 2026,
+        "population": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025)"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:56:45.997Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c6"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "sertraline__warfarin",
+      "at": "2026-11-03T19:55:07.835Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fae7a173e1bb8f25ccb8b13091",
+      "name": "record_claim",
+      "args": {
+        "outcome": "bleeding_risk",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs [...] Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+        "sourceId": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin."
+      },
+      "t": 9965
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin.",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs [...] Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding_risk"
+      },
+      "t": 9965
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fae7a173e1bb8f25ccb8b13091",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 9965
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2faece573969a85cd51a0b7237c",
+      "name": "record_claim",
+      "args": {
+        "outcome": "inr_monitoring",
+        "quote": "More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, including drugs intended for short-term use (e.g., antibiotics, antifungals, corticosteroids) [see Boxed Warning ]. Consult the labeling of all concurrently used drugs to obtain further information about interactions with warfarin sodium or adverse reactions pertaining to bleeding.",
+        "sourceId": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "uncertain",
+        "text": "The label states more frequent INR monitoring when starting or stopping other drugs."
+      },
+      "t": 9965
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states more frequent INR monitoring when starting or stopping other drugs.",
+        "quote": "More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, including drugs intended for short-term use (e.g., antibiotics, antifungals, corticosteroids) [see Boxed Warning ]. Consult the labeling of all concurrently used drugs to obtain further information about interactions with warfarin sodium or adverse reactions pertaining to bleeding.",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "inr_monitoring"
+      },
+      "t": 9965
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2faece573969a85cd51a0b7237c",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 9965
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2faf15775b5aa267caa745df4b2",
+      "name": "search_pubmed",
+      "args": {
+        "query": "sertraline warfarin bleeding INR human study"
+      },
+      "t": 9965
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2faf15775b5aa267caa745df4b2",
+      "summary": "search_pubmed completed: {\"query\":\"sertraline warfarin bleeding INR human study\",\"pmids\":[]}",
+      "t": 10585
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2faf29a7146a995e69272693b54",
+      "name": "search_pubmed",
+      "args": {
+        "query": "sertraline warfarin combination adults bleeding INR"
+      },
+      "t": 10585
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2faf29a7146a995e69272693b54",
+      "summary": "search_pubmed completed: {\"query\":\"sertraline warfarin combination adults bleeding INR\",\"pmids\":[\"42254652\"]}",
+      "t": 10822
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb0b7076bc81ed4d967e81cb73",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "42254652"
+        ]
+      },
+      "t": 17427
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb0b7076bc81ed4d967e81cb73",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"42254652\",\"title\":\"Absence of pharmacovigilance signals for bleeding events associated with warfarin-SSRI drug interactions: a comparative analysis of FAERS and CVARD databases.\",\"journal\":\"Therapeutic advances in drug safety\",\"year\":\"2026\",\"abstractText\":\"Warfarin and selective serotonin reuptake inhibitors (SSRIs) are frequently co-prescribed in clinical practice, particularly among elderly patients with comorbid cardiovascular and psychiatric conditions. Although theoretical pharmacological mechanisms suggest an increased bleeding risk from their concurrent use, real-world evidence remains conflicting.\\n\\nTo comprehensively evaluate drug-drug interaction signals for bleeding events and international normalized ratio (INR) elevation associated with warfarin-SSRI combinations using large-scale pharmacovigilance databases from different healthcare systems (FDA Adverse Event Reporting System (FAERS) and Canada Vigilance Adverse Reaction Database (CVARD)).\\n\\nA retrospective pharmacovigilance study.\\n\\nAdverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses.\\n\\nDisproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction. While the warfarin-fluvoxamine combination showed isolated positive signals in secondary models, the primary Ω shrinkage measure remained statistically nonsignificant (95% CI: encompassed zero). Results for international normalized ratio increased largely paralleled these findings. Network analysis confirmed a safety profile predominantly shaped by warfarin-associated risks rather than a synergistic amplification. The CVARD database corroborated these patterns with regional variations.\\n\\nContrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations. Clinical vigilance and individualized risk assessment remain warranted, but routine combinations do not show synergistic bleeding risks at the population level.\\n\\nThis study is a real-world pharmacovigilance investigation based on publicly accessible databases. As such, it does not involve a formal clinical trial, and therefore, no clinical trial registration number is applicable.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Zhang\",\"kind\":\"pubmed\",\"id\":\"42254652\",\"text\":\"Warfarin and selective serotonin reuptake inhibitors (SSRIs) are frequently co-prescribed in clinical practice, particularly among elderly patients with comorbid cardiovascular and psychiatric conditions. Although theoretical pharmacological mechanisms suggest an increased bleeding risk from their concurrent use, real-world evidence remains conflicting.\\n\\nTo comprehensively evaluate drug-drug interaction signals for bleeding events and international normalized ratio (INR) elevation associated with warfarin-SSRI combinations using large-scale pharmacovigilance databases from different healthcare systems (FDA Adverse Event Reporting System (FAERS) and Canada Vigilance Adverse Reaction Database (CVARD)).\\n\\nA retrospective pharmacovigilance study.\\n\\nAdverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses.\\n\\nDisproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction. While the warfarin-fluvoxamine combination showed isolated positive signals in secondary models, the primary Ω shrinkage measure remained statistically nonsignificant (95% CI: encompassed zero). Results for international normalized ratio increased largely paralleled these findings. Network analysis confirmed a safety profile predominantly shaped by warfarin-associated risks rather than a synergistic amplification. The CVARD database corroborated these patterns with regional variations.\\n\\nContrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations. Clinical vigilance and individualized risk assessment remain warranted, but routine combinations do not show synergistic bleeding risks at the population level.\\n\\nThis study is a real-world pharmacovigilance investigation based on publicly accessible databases. As such, it does not involve a formal clinical trial, and therefore, no clinical trial registration number is applicable.\"}]",
+      "t": 17977
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb3be17108b43d79562d5d3996",
+      "name": "record_claim",
+      "args": {
+        "outcome": "interaction_mechanism",
+        "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+        "sourceId": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "mechanism",
+        "text": "Warfarin interactions may involve impaired hemostasis and reduced clotting factor synthesis."
+      },
+      "t": 34186
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Warfarin interactions may involve impaired hemostasis and reduced clotting factor synthesis.",
+        "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "mechanism",
+        "outcome": "interaction_mechanism"
+      },
+      "t": 34186
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb3be17108b43d79562d5d3996",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 34186
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb3fdc769d8cf71181e62a691b",
+      "name": "record_claim",
+      "args": {
+        "outcome": "bleeding_risk",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses. Disproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction.",
+        "sourceId": "42254652",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Five of six warfarin-SSRI combinations showed no synergistic bleeding interaction in FAERS."
+      },
+      "t": 34186
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Five of six warfarin-SSRI combinations showed no synergistic bleeding interaction in FAERS.",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses. Disproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction.",
+        "source": {
+          "kind": "pubmed",
+          "id": "42254652"
+        },
+        "stance": "uncertain",
+        "outcome": "bleeding_risk"
+      },
+      "t": 34186
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb3fdc769d8cf71181e62a691b",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 34186
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fb4552724fbe2b4f57ef42c8b8",
+      "name": "record_claim",
+      "args": {
+        "outcome": "inr_increased",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Results for international normalized ratio increased largely paralleled these findings. Contrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+        "sourceId": "42254652",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations."
+      },
+      "t": 34186
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations.",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Results for international normalized ratio increased largely paralleled these findings. Contrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+        "source": {
+          "kind": "pubmed",
+          "id": "42254652"
+        },
+        "stance": "uncertain",
+        "outcome": "inr_increased"
+      },
+      "t": 34186
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fb4552724fbe2b4f57ef42c8b8",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 34186
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 47750
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "not_found",
+      "t": 47750
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 47750
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 47751
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 47752
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "not_found",
+      "t": 47753
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "does_not_support",
+      "rationale": "The quote gives a generic warfarin monitoring recommendation for other drugs without mentioning sertraline or expressing uncertainty about the sertraline–warfarin combination, so it does not support the pair-specific uncertain stance.",
+      "model": "muse-wonder-1.0",
+      "t": 51269
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "does_not_support",
+      "rationale": "The quote reports consistent negative signals indicating no synergistic interaction for five unspecified warfarin-SSRI combinations, rather than explicit uncertainty about sertraline-warfarin specifically, so the uncertain stance does not match.",
+      "model": "muse-wonder-1.0",
+      "t": 51844
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "does_not_support",
+      "rationale": "does_not_support: The quote lists generic pharmacodynamic mechanisms for any drug interacting with warfarin and does not attribute impaired hemostasis or reduced clotting factor synthesis specifically to sertraline-warfarin co-exposure.",
+      "model": "muse-wonder-1.0",
+      "t": 53470
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 2 rejected claims",
+      "t": 53470
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fbca53741fa4d7bbd470ce3ed1",
+      "name": "record_claim",
+      "args": {
+        "outcome": "bleeding_risk",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+        "sourceId": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin."
+      },
+      "t": 70123
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c6",
+        "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin.",
+        "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+        "source": {
+          "kind": "fda_label",
+          "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding_risk"
+      },
+      "t": 70123
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fbca53741fa4d7bbd470ce3ed1",
+      "summary": "record_claim completed: {\"id\":\"c6\"}",
+      "t": 70123
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2fbd13c71a694bb3dfaa8dffc96",
+      "name": "record_claim",
+      "args": {
+        "outcome": "inr_increased",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses.\n\nDisproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction. While the warfarin-fluvoxamine combination showed isolated positive signals in secondary models, the primary Ω shrinkage measure remained statistically nonsignificant (95% CI: encompassed zero). Results for international normalized ratio increased largely paralleled these findings. Network analysis confirmed a safety profile predominantly shaped by warfarin-associated risks rather than a synergistic amplification. The CVARD database corroborated these patterns with regional variations.\n\nContrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+        "sourceId": "42254652",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations."
+      },
+      "t": 70123
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c7",
+        "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations.",
+        "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses.\n\nDisproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction. While the warfarin-fluvoxamine combination showed isolated positive signals in secondary models, the primary Ω shrinkage measure remained statistically nonsignificant (95% CI: encompassed zero). Results for international normalized ratio increased largely paralleled these findings. Network analysis confirmed a safety profile predominantly shaped by warfarin-associated risks rather than a synergistic amplification. The CVARD database corroborated these patterns with regional variations.\n\nContrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+        "source": {
+          "kind": "pubmed",
+          "id": "42254652"
+        },
+        "stance": "uncertain",
+        "outcome": "inr_increased"
+      },
+      "t": 70123
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2fbd13c71a694bb3dfaa8dffc96",
+      "summary": "record_claim completed: {\"id\":\"c7\"}",
+      "t": 70123
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c6",
+      "result": "matched",
+      "t": 70123
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c7",
+      "result": "matched",
+      "t": 70125
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c6",
+      "support": "supports",
+      "rationale": "Supports: the quote explicitly lists sertraline among the serotonin reuptake inhibitors in Table 3 of drugs that increase bleeding risk when used concomitantly with warfarin.",
+      "model": "muse-wonder-1.0",
+      "t": 73835
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c7",
+      "support": "does_not_support",
+      "rationale": "does_not_support: The quote reports a class-level null interaction finding for warfarin-SSRI combinations without sertraline-specific INR results or explicit uncertainty, so the 'uncertain' stance for sertraline-warfarin does not match.",
+      "model": "muse-wonder-1.0",
+      "t": 78785
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 87646
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 0.",
+      "t": 98162
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "sertraline__warfarin",
+        "a": "sertraline",
+        "b": "warfarin",
+        "category": "bleeding",
+        "depth": "label_only",
+        "headline": {
+          "text": "Sertraline combined with warfarin is associated with increased bleeding risk",
+          "claimIds": [
+            "c6"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The warfarin label includes sertraline among serotonin reuptake inhibitors that increase bleeding risk",
+            "claimIds": [
+              "c6"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Sertraline or Warfarin, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Sertraline and Warfarin, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin.",
+            "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs [...] Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+            "source": {
+              "kind": "fda_label",
+              "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "bleeding_risk",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c2",
+            "text": "The label states more frequent INR monitoring when starting or stopping other drugs.",
+            "quote": "More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, including drugs intended for short-term use (e.g., antibiotics, antifungals, corticosteroids) [see Boxed Warning ]. Consult the labeling of all concurrently used drugs to obtain further information about interactions with warfarin sodium or adverse reactions pertaining to bleeding.",
+            "source": {
+              "kind": "fda_label",
+              "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+            },
+            "stance": "uncertain",
+            "outcome": "inr_monitoring",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "The quote gives a generic warfarin monitoring recommendation for other drugs without mentioning sertraline or expressing uncertainty about the sertraline–warfarin combination, so it does not support the pair-specific uncertain stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c3",
+            "text": "Warfarin interactions may involve impaired hemostasis and reduced clotting factor synthesis.",
+            "quote": "Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance).",
+            "source": {
+              "kind": "fda_label",
+              "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+            },
+            "stance": "mechanism",
+            "outcome": "interaction_mechanism",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support: The quote lists generic pharmacodynamic mechanisms for any drug interacting with warfarin and does not attribute impaired hemostasis or reduced clotting factor synthesis specifically to sertraline-warfarin co-exposure.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c4",
+            "text": "Five of six warfarin-SSRI combinations showed no synergistic bleeding interaction in FAERS.",
+            "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses. Disproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction.",
+            "source": {
+              "kind": "pubmed",
+              "id": "42254652"
+            },
+            "stance": "uncertain",
+            "outcome": "bleeding_risk",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "The quote reports consistent negative signals indicating no synergistic interaction for five unspecified warfarin-SSRI combinations, rather than explicit uncertainty about sertraline-warfarin specifically, so the uncertain stance does not match.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c5",
+            "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations.",
+            "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Results for international normalized ratio increased largely paralleled these findings. Contrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+            "source": {
+              "kind": "pubmed",
+              "id": "42254652"
+            },
+            "stance": "uncertain",
+            "outcome": "inr_increased",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c6",
+            "text": "The label lists sertraline with drugs increasing bleeding risk with warfarin.",
+            "quote": "Examples of drugs known to increase the risk of bleeding are presented in Table 3. Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Nonsteroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, venlafaxine, vilazodone",
+            "source": {
+              "kind": "fda_label",
+              "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "bleeding_risk",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports: the quote explicitly lists sertraline among the serotonin reuptake inhibitors in Table 3 of drugs that increase bleeding risk when used concomitantly with warfarin.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c7",
+            "text": "Large FAERS and CVARD analysis detected no positive INR signals for warfarin-SSRI combinations.",
+            "quote": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025) were systematically analysed. Six warfarin-SSRI combinations were examined. Disproportionality and network analyses were utilized to characterize adverse event profiles. Multiple complementary signal detection algorithms were employed for interaction assessment, including the Omega shrinkage model, Additive Model, Multiplicative Model, and combination risk ratio (CRR) model, further supported by sensitivity analyses.\n\nDisproportionality analysis revealed that the SSRIs&Warfarin group exhibited a significantly higher reporting odds ratio for international normalized ratio increased compared to the Warfarin-single group. However, regarding interaction signals, in the FAERS database, five of the six warfarin-SSRI combinations demonstrated consistent negative Ω values for bleeding events (range: -1.04 to -0.75), indicating no synergistic interaction. While the warfarin-fluvoxamine combination showed isolated positive signals in secondary models, the primary Ω shrinkage measure remained statistically nonsignificant (95% CI: encompassed zero). Results for international normalized ratio increased largely paralleled these findings. Network analysis confirmed a safety profile predominantly shaped by warfarin-associated risks rather than a synergistic amplification. The CVARD database corroborated these patterns with regional variations.\n\nContrary to theoretical pharmacological expectations, this large-scale, cross-database pharmacovigilance analysis failed to detect positive safety signals for bleeding events or INR elevation associated with warfarin-SSRI combinations.",
+            "source": {
+              "kind": "pubmed",
+              "id": "42254652"
+            },
+            "stance": "uncertain",
+            "outcome": "inr_increased",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support: The quote reports a class-level null interaction finding for warfarin-SSRI combinations without sertraline-specific INR results or explicit uncertainty, so the 'uncertain' stance for sertraline-warfarin does not match.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "2c8f47c6-a180-4ad8-b962-04069d2270cb#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c8f47c6-a180-4ad8-b962-04069d2270cb",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "42254652",
+            "title": "Absence of pharmacovigilance signals for bleeding events associated with warfarin-SSRI drug interactions: a comparative analysis of FAERS and CVARD databases.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42254652/",
+            "citation": "Zhang et al. · Therapeutic advances in drug safety 2026",
+            "design": "other",
+            "year": 2026,
+            "population": "Adverse event reports from the FAERS (2004-2025) and the CVARD (1965-2025)"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:56:45.997Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c6"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 98162
+    }
+  ]
+}

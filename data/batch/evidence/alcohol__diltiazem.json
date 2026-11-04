@@ -1,0 +1,144 @@
+{
+  "card": {
+    "pair": "alcohol__diltiazem",
+    "a": "alcohol",
+    "b": "diltiazem",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA label reports faster diltiazem release with alcohol in vitro and potentially increased exposure from extended-release capsules.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label links the faster in vitro release to potentially faster absorption, higher diltiazem exposure, and dose-related adverse reactions.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "Alcohol accelerates diltiazem release from the extended-release capsules in vitro.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label reports faster release of diltiazem from extended-release capsules with alcohol in vitro, potentially increasing absorption, exposure, and dose-related adverse reactions.",
+        "quote": "Alcohol: Alcohol increases the rate at which diltiazem hydrochloride extended-release capsules release diltiazem in vitro.\nThis effect may lead to more rapid absorption and an increase in the systemic exposure of diltiazem, and associated dose-related adverse reactions.",
+        "source": {
+          "kind": "fda_label",
+          "id": "5a0f67ad-17d8-a3f4-e063-6394a90afb32#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states alcohol increases in vitro release from the extended-release capsules and that this may raise absorption, exposure and dose-related adverse reactions.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "5a0f67ad-17d8-a3f4-e063-6394a90afb32#precautions",
+        "title": "diltiazem: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a0f67ad-17d8-a3f4-e063-6394a90afb32",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "5a0f67ad-17d8-a3f4-e063-6394a90afb32#drug_interactions",
+        "title": "diltiazem: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a0f67ad-17d8-a3f4-e063-6394a90afb32",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "1297109",
+        "title": "Interaction between ethanol and diltiazem in the model of barium arrhythmia in the rat.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1297109/",
+        "citation": "0301-0244 44 5 1992 Sep-Oct Polish journal of pharmacology and pharmacy Pol J Pharmacol Pharm",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38048389",
+        "title": "Sustainable asymmetric synthesis of diltiazem precursor enabled by recombinant Escherichia coli whole cells co-expressing an engineered ketoreductase and glucose dehydrogenase.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38048389/",
+        "citation": "1860-7314 19 1 2024 Jan Biotechnology journal Biotechnol J",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28939519",
+        "title": "The role of biopolymer matrix films derived from carboxymethyl cellulose, sodium alginate and polyvinyl alcohol on the sustained transdermal release of diltiazem.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28939519/",
+        "citation": "1879-0003 107 Pt A 2018 Feb International journal of biological macromolecules Int J Biol Macromol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "12774892",
+        "title": "Interaction of alcohol and drugs in fatal poisonings.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12774892/",
+        "citation": "0960-3271 22 5 2003 May Human & experimental toxicology Hum Exp Toxicol",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Diltiazem and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human pharmacokinetic study of alcohol with these extended-release capsules.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"diltiazem\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.566Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

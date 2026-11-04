@@ -1,0 +1,45 @@
+{
+  "pair": "alcohol__varenicline",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA label reports increased alcohol intoxication with varenicline, sometimes involving unusual or aggressive behavior and amnesia.",
+      "quote": "There have been postmarketing reports of patients experiencing increased intoxicating effects of alcohol while taking varenicline.\nSome cases described unusual and sometimes aggressive behavior, and were often accompanied by amnesia for the events.",
+      "sourceId": "d759167f-e0b2-46d5-a34a-3c8858e39590#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "increased_intoxication"
+    },
+    {
+      "id": "cEU1",
+      "text": "The EMA varenicline label reports postmarketing cases of increased intoxicating effects of alcohol during varenicline treatment.",
+      "quote": "There have been post marketing reports of increased intoxicating effects of alcohol in patients treated with varenicline.",
+      "sourceId": "EU:EMEA/H/C/000699#4.5",
+      "stance": "increases_risk",
+      "outcome": "alcohol_intoxication"
+    }
+  ],
+  "headline": {
+    "text": "The FDA label reports increased intoxicating effects of alcohol in patients taking varenicline.",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "Postmarketing reports included increased intoxication, unusual or aggressive behavior, and amnesia for the events.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "The EMA varenicline label reports postmarketing cases of increased intoxicating effects of alcohol during varenicline treatment.",
+      "claimIds": [
+        "cEU1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "cns_depression",
+  "gaps": []
+}

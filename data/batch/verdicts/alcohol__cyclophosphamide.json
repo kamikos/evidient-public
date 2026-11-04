@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__cyclophosphamide",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The French 4.4 sentence states alcohol consumption is liable to increase cyclophosphamide-induced nausea and vomiting, and the translation is faithful."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The French 4.5 alcohol entry reports reduced antitumor activity in tumor-bearing animals given ethanol and low-dose oral cyclophosphamide, and the claim keeps the animal scope."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

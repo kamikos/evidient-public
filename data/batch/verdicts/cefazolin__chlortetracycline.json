@@ -1,0 +1,21 @@
+{
+ "pair": "cefazolin__chlortetracycline",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "overstated",
+   "rationale": "The quote names tetracyclines as a class co-administered systemically with cefazolin, but chlortetracycline is now a local/topical product (ATC local oral antiinfective, ointments), and the claim glosses over whether that form is covered."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  },
+  {
+   "path": "reported.0",
+   "support": "does_not_support"
+  }
+ ]
+}

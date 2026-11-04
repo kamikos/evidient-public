@@ -1,0 +1,20 @@
+{
+  "pair": "chlordiazepoxide__difelikefalin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The chlordiazepoxide label statements name opioids as a class and do not mention difelikefalin. No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"chlordiazepoxide\"[tiab] AND \"difelikefalin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

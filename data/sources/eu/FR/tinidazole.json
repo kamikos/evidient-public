@@ -1,0 +1,28 @@
+{
+  "inn": "tinidazole",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "66090799",
+  "product": "FASIGYNE 500 mg, comprimé enrobé",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66090799/extrait",
+  "retrievedAt": "2026-11-04T08:44:37.536Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "ac9476cdbdcb8d3d8c92a68c5d9e29e92291795465fae90678a7a1d24608ed0c",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\n· Etant donné que les dérivés du groupe des imidazoles ont pu, à forte dose, provoquer quelques troubles d'ordre neurologique, la constatation de phénomènes tels que obnubilation, vertiges, incoordination des mouvements, ataxie, neuropathie périphérique et, rarement, convulsions, devra faire renoncer à la médication.\n\n· Eviter la prise de boissons alcoolisées et de médicaments contenant de l'alcool pendant le traitement, (voir rubrique 4.5).\n\nPrécautions d'emploi\n\n· Chez les malades présentant une dyscrasie sanguine ou des anomalies de la formule sanguine, le tinidazole doit être utilisé avec précaution.\n\n· Une surveillance hématologique doit être effectuée lors du traitement de l'amibiase.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66090799/extrait#tabpanel-rcp-panel",
+      "sha256": "d9c3bc356dd503780e45dd71ea43a1cce8f0628cf3e15b975c7615f3fbe74e97"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAssociations déconseillées\n\n+ Disulfïrame\n\nBouffées délirantes, état confusionnel.\n\n+ Alcool\n\nEffet antabuse (chaleur, rougeur, vomissement, tachycardie); éviter la prise de boissons alcoolisées et de médicaments contenant de l'alcool.\n\nAssociations faisant l'objet de précautions d’emploi\n\n+ Anticoagulants oraux (décrit pour la warfarine)\n\nAugmentation de l'effet de l'anticoagulant oral et du risque hémorragique par diminution de son catabolisme hépatique.\n\nContrôle plus fréquent du taux de prothrombine et surveillance de l'TNR; adaptation de la posologie de l'anticoagulant oral pendant le traitement par le tinidazole et 8 jours après son arrêt.\n\nProblèmes particuliers du déséquilibre de l'INR\n\nDe nombreux cas d'augmentation de l'activité des anticoagulants oraux ont été rapportés chez des patients recevant des antibiotiques. Le contexte infectieux ou inflammatoire marqué, l'âge et l'état général du patient apparaissent comme des facteurs de risque. Dans ces circonstances, il apparaît difficile de faire la part entre la pathologie infectieuse et son traitement dans la survenue du déséquilibre de l'INR. Cependant, certaines classes d'antibiotiques sont davantage impliquées: il s'agit notamment des fluoroquinolones, des macrolides, des cyclines, du cotrimoxazole et de certaines céphalosporines.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66090799/extrait#tabpanel-rcp-panel",
+      "sha256": "e769faa5287aa9e1e3532caddd3ed107953977ccfd428a5c14741df34218b792"
+    }
+  ]
+}

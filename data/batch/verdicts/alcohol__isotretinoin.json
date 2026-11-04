@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__isotretinoin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label sentence is restated accurately, including 'some patients', weight reduction, fat and alcohol restriction, and the dose-reduction alternative."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "does_not_support"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

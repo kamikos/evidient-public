@@ -1,0 +1,21 @@
+{
+  "pair": "adalimumab__azathioprine",
+  "judge": "gpt-6.1-sol (self-check, replace)",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The Spanish warning explicitly describes these lymphoma cases in young adults receiving concomitant azathioprine or mercaptopurine; the claim retains both alternatives and the reported population."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

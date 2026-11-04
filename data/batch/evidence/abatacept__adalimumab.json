@@ -1,0 +1,147 @@
+{
+  "card": {
+    "pair": "abatacept__adalimumab",
+    "a": "abatacept",
+    "b": "adalimumab",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA adalimumab label reports more serious infections with abatacept plus a TNF-blocker than with a TNF-blocker alone.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label reports this from controlled trials and notes no improved clinical benefit in RA. The Spanish label cites possible increased infection risk.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA adalimumab label says controlled trials of TNF-blockers with abatacept showed more serious infections than a TNF-blocker alone, without improved clinical benefit in rheumatoid arthritis.",
+        "quote": "In controlled trials, the concurrent administration of TNF-blockers and abatacept was associated with a greater proportion of serious infections than the use of a TNF-blocker alone; the combination therapy, compared to the use of a TNF-blocker alone, has not demonstrated improved clinical benefit in the treatment of RA.",
+        "source": {
+          "kind": "fda_label",
+          "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "serious_infection",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Adalimumab label states controlled trials of TNF-blockers plus abatacept showed more serious infections without improved RA benefit; adalimumab is a TNF-blocker.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish Humira label cites possible increased risk of infections with concomitant adalimumab and other biologic DMARDs such as abatacept.",
+        "quote": "Basándose en el posible incremento del riesgo de infecciones, incluyendo infecciones graves, y otras interacciones farmacológicas potenciales, no se recomienda la administración concomitante de adalimumab con otros FAMES biológicos (por ejemplo anakinra y abatacept) u otros antagonistas del TNF.",
+        "quoteEnglish": "Based on the possible increased risk of infections, including serious infections, and other potential pharmacological interactions, concomitant administration of adalimumab with other biologic DMARDs (for example anakinra and abatacept) or other TNF antagonists is not recommended.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:103256013#4.4"
+        },
+        "stance": "increases_risk",
+        "outcome": "serious_infection",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Spanish Humira label cites possible increased infection risk with adalimumab plus other biologic DMARDs naming abatacept; translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions",
+        "title": "adalimumab: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#drug_interactions",
+        "title": "adalimumab: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:103256013#4.4",
+        "title": "Humira 40mg solucion inyectable en jeringa precargada: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=103256013&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27886802",
+        "title": "Advancements in the management of uveitis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27886802/",
+        "citation": "1532-1770 30 2 2016 Apr Best practice & research. Clinical rheumatology Best Pract Res Clin Rheumatol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "25431348",
+        "title": "The Use of Biologic Therapies in Uveitis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25431348/",
+        "citation": "1559-0267 49 3 2015 Dec Clinical reviews in allergy & immunology Clin Rev Allergy Immunol",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_advises_against",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Abatacept or Adalimumab, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Abatacept and Adalimumab, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No controlled human study of this combination was found in the PubMed search; the PubMed records are uveitis reviews.",
+        "searched": [
+          "\"abatacept\"[tiab] AND \"adalimumab\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.523Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

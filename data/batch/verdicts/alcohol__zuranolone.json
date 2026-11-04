@@ -1,0 +1,35 @@
+{
+  "pair": "alcohol__zuranolone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The interaction table states alcohol, through additive pharmacological effects, may increase psychomotor impairment or CNS depressant effects."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The phase 1 randomized crossover abstract states coadministration with alprazolam/ethanol increased the magnitude but not the duration of cognitive effects versus single agents, and separately reports worsened decline with ethanol."
+    },
+    {
+      "id": "c3",
+      "support": "supports",
+      "rationale": "The same trial abstract states no pharmacokinetic interactions were observed."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

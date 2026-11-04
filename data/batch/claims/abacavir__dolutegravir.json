@@ -1,0 +1,53 @@
+{
+  "pair": "abacavir__dolutegravir",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA dolutegravir label says drug-induced liver injury leading to liver transplant has been reported with the abacavir, dolutegravir and lamivudine combination tablet.",
+      "quote": "Drug-induced liver injury leading to liver transplant has been reported with TRIUMEQ (abacavir, dolutegravir, and lamivudine).",
+      "sourceId": "485bc9db-8665-9f5a-e063-6394a90a7921#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "liver_injury"
+    },
+    {
+      "id": "c2",
+      "text": "A review says the dolutegravir, abacavir and lamivudine co-formulation has a low potential for drug interactions.",
+      "quote": "The good safety profile, low potential for drug interactions and high resistance barrier of DTG- ABC-3TC are unique features than make this co-formulation the preferred choice as HIV therapy in multiple clinical scenarios, including most treatment-na&#xef;ve and treatment-experienced patients, as part of switch strategies, and in patients with underlying serious medical conditions such as kidney abnormalities, liver disease, metabolic disturbances or neuropsychiatric conditions.",
+      "sourceId": "24754315",
+      "stance": "no_effect_observed",
+      "outcome": "drug_interaction_potential"
+    }
+  ],
+  "headline": {
+    "text": "The FDA dolutegravir label reports drug-induced liver injury with the abacavir, dolutegravir and lamivudine tablet (c1); a review describes low interaction potential (c2).",
+    "claimIds": [
+      "c1",
+      "c2"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The label reports liver injury leading to transplant with the three-drug tablet.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "A review of the co-formulation describes a low potential for drug interactions.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "liver",
+  "gaps": [
+    {
+      "text": "No controlled interaction study of abacavir with dolutegravir alone was found in the PubMed search.",
+      "searched": [
+        "\"abacavir\"[tiab] AND \"dolutegravir\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

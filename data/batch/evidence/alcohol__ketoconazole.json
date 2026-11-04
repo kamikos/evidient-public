@@ -1,0 +1,129 @@
+{
+  "card": {
+    "pair": "alcohol__ketoconazole",
+    "a": "alcohol",
+    "b": "ketoconazole",
+    "origin": "batch",
+    "category": "reaction",
+    "headline": {
+      "text": "The FDA ketoconazole label reports exceptional cases of disulfiram-like reactions to alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Reported symptoms include flushing, rash, peripheral edema, nausea, and headache.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA ketoconazole label reports exceptional cases of disulfiram-like reactions to alcohol, with flushing, rash, peripheral edema, nausea, and headache.",
+        "quote": "Alcohol: Exceptional cases have been reported of a disulfiram-like reaction to alcohol, characterized by flushing, rash, peripheral edema, nausea and headache.",
+        "source": {
+          "kind": "fda_label",
+          "id": "1d598696-c6f3-4b7c-ad73-949d2089df35#precautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "disulfiram_like_reaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The precautions text reports exceptional cases of a disulfiram-like reaction to alcohol with the listed symptoms.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "1d598696-c6f3-4b7c-ad73-949d2089df35#warnings",
+        "title": "ketoconazole: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1d598696-c6f3-4b7c-ad73-949d2089df35",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "1d598696-c6f3-4b7c-ad73-949d2089df35#precautions",
+        "title": "ketoconazole: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1d598696-c6f3-4b7c-ad73-949d2089df35",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31871085",
+        "title": "Fact versus Fiction: a Review of the Evidence behind Alcohol and Antibiotic Interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31871085/",
+        "citation": "1098-6596 64 3 2020 Feb 21 Antimicrobial agents and chemotherapy Antimicrob Agents Chemother",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33015819",
+        "title": "Remdesivir-COVID-19: drug interactions in dentistry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33015819/",
+        "citation": "2284-0729 24 18 2020 Sep European review for medical and pharmacological sciences Eur Rev Med Pharmacol Sci",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35889457",
+        "title": "Synthesis of a Novel Unexpected Cu(II)-Thiazolidine Complex-X-ray Structure, Hirshfeld Surface Analysis, and Biological Studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35889457/",
+        "citation": "1420-3049 27 14 2022 Jul 18 Molecules (Basel, Switzerland) Molecules",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "11510627",
+        "title": "Clinical pharmacokinetics of mizolastine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11510627/",
+        "citation": "0312-5963 40 7 2001 Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Ketoconazole and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.584Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

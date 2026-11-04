@@ -1,0 +1,48 @@
+{
+  "pair": "abatacept__adalimumab",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA adalimumab label says controlled trials of TNF-blockers with abatacept showed more serious infections than a TNF-blocker alone, without improved clinical benefit in rheumatoid arthritis.",
+      "quote": "In controlled trials, the concurrent administration of TNF-blockers and abatacept was associated with a greater proportion of serious infections than the use of a TNF-blocker alone; the combination therapy, compared to the use of a TNF-blocker alone, has not demonstrated improved clinical benefit in the treatment of RA.",
+      "sourceId": "1602cfaf-9ddd-4eb6-b847-10a4eebcf5e5#warnings_and_cautions",
+      "stance": "increases_risk",
+      "outcome": "serious_infection"
+    },
+    {
+      "id": "c2",
+      "text": "The Spanish Humira label cites possible increased risk of infections with concomitant adalimumab and other biologic DMARDs such as abatacept.",
+      "quote": "Basándose en el posible incremento del riesgo de infecciones, incluyendo infecciones graves, y otras interacciones farmacológicas potenciales, no se recomienda la administración concomitante de adalimumab con otros FAMES biológicos (por ejemplo anakinra y abatacept) u otros antagonistas del TNF.",
+      "quoteEnglish": "Based on the possible increased risk of infections, including serious infections, and other potential pharmacological interactions, concomitant administration of adalimumab with other biologic DMARDs (for example anakinra and abatacept) or other TNF antagonists is not recommended.",
+      "sourceId": "ES:103256013#4.4",
+      "stance": "increases_risk",
+      "outcome": "serious_infection"
+    }
+  ],
+  "headline": {
+    "text": "The FDA adalimumab label reports more serious infections with abatacept plus a TNF-blocker than with a TNF-blocker alone (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA label reports this from controlled trials and notes no improved clinical benefit in RA. The Spanish label cites possible increased infection risk (c2).",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search; the PubMed records are uveitis reviews.",
+      "searched": [
+        "\"abatacept\"[tiab] AND \"adalimumab\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

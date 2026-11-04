@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__pretomanid",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The warning says to avoid alcohol and hepatotoxic agents while on pretomanid, especially with impaired hepatic function."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

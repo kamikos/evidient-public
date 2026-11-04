@@ -1,0 +1,180 @@
+{
+  "card": {
+    "pair": "alcohol__tiagabine",
+    "a": "alcohol",
+    "b": "tiagabine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label reports no clinically important alcohol potentiation by tiagabine, while noting possible additive nervous system effects.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "A double-blind study found no interaction on its measured cognitive, motor, and subjective variables.",
+        "claimIds": [
+          "c3"
+        ]
+      },
+      {
+        "text": "Tiagabine and ethanol pharmacokinetic parameters were unchanged during combined administration.",
+        "claimIds": [
+          "c4"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label reports no clinically important potentiation of alcohol's pharmacodynamic effects by tiagabine.",
+        "quote": "Tiagabine has shown no clinically important potentiation of the pharmacodynamic effects of triazolam or alcohol.",
+        "source": {
+          "kind": "fda_label",
+          "id": "7c034fe0-cdac-49e1-8e39-592846ea3bec#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label states tiagabine showed no clinically important potentiation of alcohol's pharmacodynamic effects.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label also flags possible additive nervous system depressant effects with tiagabine and ethanol.",
+        "quote": "Because of the possible additive effects of drugs that may depress the nervous system, ethanol or triazolam should be used cautiously in combination with tiagabine.",
+        "source": {
+          "kind": "fda_label",
+          "id": "7c034fe0-cdac-49e1-8e39-592846ea3bec#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label advises caution with ethanol because of possible additive nervous-system depressant effects, which the claim reports as a flag.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "A double-blind study found no pharmacodynamic interaction between tiagabine and ethanol on the measured cognitive, motor, and subjective variables.",
+        "quote": "There was no evidence of a pharmacodynamic interaction between tiagabine and ethanol with respect to these variables.",
+        "source": {
+          "kind": "pubmed",
+          "id": "10694933"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The double-blind abstract reports no evidence of a pharmacodynamic interaction on the measured cognitive, motor and subjective variables.",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "The same study found unchanged pharmacokinetic parameters for tiagabine and ethanol during combined administration.",
+        "quote": "The pharmacokinetic parameters of tiagabine and ethanol (maximum plasma concentration [Cmax], time to Cmax and area under the plasma concentration-time curve) were unchanged during concomitant administration.",
+        "source": {
+          "kind": "pubmed",
+          "id": "10694933"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The abstract states the Cmax, Tmax and AUC of tiagabine and ethanol were unchanged during concomitant administration.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7c034fe0-cdac-49e1-8e39-592846ea3bec#precautions",
+        "title": "tiagabine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c034fe0-cdac-49e1-8e39-592846ea3bec",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7c034fe0-cdac-49e1-8e39-592846ea3bec#drug_interactions",
+        "title": "tiagabine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c034fe0-cdac-49e1-8e39-592846ea3bec",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "30238023",
+        "title": "Anti-stress neuropharmacological mechanisms and targets for addiction treatment: A translational framework.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30238023/",
+        "citation": "2352-2895 9 2018 Nov Neurobiology of stress Neurobiol Stress",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "17265078",
+        "title": "Tiagabine does not attenuate alcohol-induced activation of the human reward system.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17265078/",
+        "citation": "0033-3158 191 4 2007 May Psychopharmacology Psychopharmacology (Berl)",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "10694933",
+        "title": "Tiagabine: absence of kinetic or dynamic interactions with ethanol.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10694933/",
+        "citation": "0792-5077 14 4 1998 Drug metabolism and drug interactions Drug Metabol Drug Interact",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "20482512",
+        "title": "Medications acting on the GABA system in the treatment of alcoholic patients.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20482512/",
+        "citation": "1873-4286 16 19 2010 Current pharmaceutical design Curr Pharm Des",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Tiagabine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.620Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,20 @@
+{
+  "pair": "abiraterone__betamethasone",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The abiraterone label text mentions prednisone and prednisolone but not betamethasone.",
+      "searched": [
+        "\"abiraterone\"[tiab] AND \"betamethasone\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "card": {
+    "pair": "alcohol__tramadol",
+    "a": "alcohol",
+    "b": "tramadol",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Tramadol with alcohol may cause profound sedation, respiratory depression, coma, and death",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states opioid use with alcohol may cause profound sedation, respiratory depression, coma, death.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult human study of tramadol plus alcohol and sedation outcomes.",
+        "searched": [
+          "tramadol alcohol combination adults sedation respiratory depression coma death"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Tramadol and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states opioid use with alcohol may cause profound sedation, respiratory depression, coma, death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "sedation_respiratory_depression_coma_death",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly warns in the tramadol label that concomitant opioid use with alcohol may result in profound sedation, respiratory depression, coma, and death, matching the claim's co-exposure, direction, and may-certainty and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+        "title": "Boxed Warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b7f61b-5173-43e6-a3f9-d2efbda40c19",
+        "citation": "FDA label · Boxed Warning",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:53:20.314Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__tramadol",
+      "at": "2026-11-03T19:51:47.288Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7dcc67661b104053ad160b54e",
+      "name": "record_claim",
+      "args": {
+        "outcome": "sedation_respiratory_depression_coma_death",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+        "sourceId": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states opioid use with alcohol may cause profound sedation, respiratory depression, coma, death."
+      },
+      "t": 9744
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states opioid use with alcohol may cause profound sedation, respiratory depression, coma, death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "sedation_respiratory_depression_coma_death"
+      },
+      "t": 9744
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7dcc67661b104053ad160b54e",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 9744
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7e11577a8a29fc99f47c96633",
+      "name": "search_pubmed",
+      "args": {
+        "query": "tramadol alcohol interaction human study sedation respiratory depression"
+      },
+      "t": 9744
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7e11577a8a29fc99f47c96633",
+      "summary": "search_pubmed completed: {\"query\":\"tramadol alcohol interaction human study sedation respiratory depression\",\"pmids\":[\"30726003\",\"33232099\",\"33428370\",\"9075493\"]}",
+      "t": 10200
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7e26975f89825d48144c348f1",
+      "name": "search_pubmed",
+      "args": {
+        "query": "tramadol alcohol combination adults sedation respiratory depression coma death"
+      },
+      "t": 10200
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7e26975f89825d48144c348f1",
+      "summary": "search_pubmed completed: {\"query\":\"tramadol alcohol combination adults sedation respiratory depression coma death\",\"pmids\":[]}",
+      "t": 10646
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f7fad976c3b7d36339f726f210",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "30726003",
+          "33232099",
+          "33428370",
+          "9075493"
+        ]
+      },
+      "t": 17169
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f7fad976c3b7d36339f726f210",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"9075493\",\"title\":\"Tramadol: a new centrally acting analgesic.\",\"journal\":\"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\",\"year\":\"1997\",\"abstractText\":\"The pharmacology, pharmacokinetics, efficacy, adverse effects, and dosage and administration of tramadol are reviewed. Tramadol is a synthetic analogue of codeine that binds to mu opiate receptors and inhibits norepinephrine and serotonin reuptake. It is rapidly and extensively absorbed after oral doses and is metabolized in the liver. Analgesia begins within one hour and starts to peak in two hours. In patients with moderate postoperative pain, i.v. or i.m. tramadol is roughly equal in efficacy to meperidine or morphine; for severe acute pain, tramadol is less effective than morphine. Oral tramadol can also be effective after certain types of surgery. Tramadol and meperidine are equally effective in postoperative patient-controlled analgesia. In epidural administration for pain after abdominal surgery, tramadol is more effective than bupivacaine but less effective than morphine. In patients with ureteral calculi, both dipyrone and butylscopolamine are more effective than tramadol. For labor pain, i.m. tramadol works as well as meperidine and is less likely to cause neonatal respiratory depression. Oral tramadol is as effective as codeine for acute dental pain. In several types of severe or refractory cancer pain, tramadol is effective, but less so than morphine; for other types of chronic pain, such as low-back pain, oral tramadol works as well as acetaminophen-codeine. Common adverse effects of tramadol include dizziness, nausea, dry mouth, and sedation. The abuse potential seems low. The recommended oral dosage is 50-100 mg every four to six hours. Tramadol is an effective, if expensive, alternative to other analgesics in some clinical situations.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\",\"Review\"],\"firstAuthor\":\"Lewis\",\"kind\":\"pubmed\",\"id\":\"9075493\",\"text\":\"The pharmacology, pharmacokinetics, efficacy, adverse effects, and dosage and administration of tramadol are reviewed. Tramadol is a synthetic analogue of codeine that binds to mu opiate receptors and inhibits norepinephrine and serotonin reuptake. It is rapidly and extensively absorbed after oral doses and is metabolized in the liver. Analgesia begins within one hour and starts to peak in two hours. In patients with moderate postoperative pain, i.v. or i.m. tramadol is roughly equal in efficacy to meperidine or morphine; for severe acute pain, tramadol is less effective than morphine. Oral tramadol can also be effective after certain types of surgery. Tramadol and meperidine are equally effective in postoperative patient-controlled analgesia. In epidural administration for pain after abdominal surgery, tramadol is more effective than bupivacaine but less effective than morphine. In patients with ureteral calculi, both dipyrone and butylscopolamine are more effective than tramadol. For labor pain, i.m. tramadol works as well as meperidine and is less likely to cause neonatal respiratory depression. Oral tramadol is as effective as codeine for acute dental pain. In several types of severe or refractory cancer pain, tramadol is effective, but less so than morphine; for other types of chronic pain, such as low-back pain, oral tramadol works as well as acetaminophen-codeine. Common adverse effects of tramadol include dizziness, nausea, dry mouth, and sedation. The abuse potential seems low. The recommended oral dosage is 50-100 mg every four to six hours. Tramadol is an effective, if expensive, alternative to other analgesics in some clinical situations.\"}]",
+      "t": 17710
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f82b5e77e9bef60c52cbed5eef",
+      "name": "search_pubmed",
+      "args": {
+        "query": "tramadol ethanol interaction healthy volunteers"
+      },
+      "t": 30999
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f82b5e77e9bef60c52cbed5eef",
+      "summary": "search_pubmed completed: {\"query\":\"tramadol ethanol interaction healthy volunteers\",\"pmids\":[\"29870596\"]}",
+      "t": 31229
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f82c9a74ed89fa66e85edc2870",
+      "name": "search_pubmed",
+      "args": {
+        "query": "tramadol alcohol overdose poisoning"
+      },
+      "t": 31229
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f82c9a74ed89fa66e85edc2870",
+      "summary": "search_pubmed completed: {\"query\":\"tramadol alcohol overdose poisoning\",\"pmids\":[\"41556256\",\"40326730\",\"39932090\",\"39892090\",\"39798997\"]}",
+      "t": 31597
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f849c7774eb35bcdb0912a980e",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "29870596",
+          "39932090"
+        ]
+      },
+      "t": 38851
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f849c7774eb35bcdb0912a980e",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"29870596\",\"title\":\"Pharmacokinetics, Pharmacodynamics, Safety, and Tolerability of Mirogabalin When Coadministered With Lorazepam, Zolpidem, Tramadol, or Ethanol: Results From Drug-Drug Interaction Studies in Healthy Subjects.\",\"journal\":\"Clinical pharmacology in drug development\",\"year\":\"2018\",\"abstractText\":\"Four randomized, double-blind, placebo-controlled, 4-period drug-drug interaction studies were conducted in healthy subjects to evaluate the pharmacokinetic and pharmacodynamic (PD) interactions between mirogabalin and commonly used central nervous system depressants. Mirogabalin or placebo was administered alone or with single-dose lorazepam, zolpidem, tramadol, ethanol, or interacting drug placebo. Safety was assessed and serial samples for pharmacokinetic parameters were collected for up to 48 hours postdose. PD assessments included body sway (except tramadol), digit symbol substitution test, vertigo symptom scale short form, brief ataxia rating scale, and the Bond and Lader visual analog scale. Coadministration of mirogabalin with any of the 4 drugs did not cause any clinically relevant pharmacokinetic interactions. Peak mirogabalin concentration decreased by 28% (least squares mean ratio, 0.72; 90% confidence interval, [CI] 0.67, 0.76) following tramadol coadministration, and increased by 20% (least squares mean ratio, 1.20; 90%CI, 1.12, 1.28) following ethanol coadministration. Mirogabalin alone had little to no effect on PD parameters, but coadministration of mirogabalin with either lorazepam or ethanol increased the PD effects in body sway and digit symbol substitution test assays. Mirogabalin/lorazepam and mirogabalin/zolpidem increased occurrence of somnolence. Increased incidence of nausea and headache was noted with mirogabalin/tramadol and mirogabalin/ethanol, respectively.\",\"publicationTypes\":[\"Clinical Trial, Phase I\",\"Journal Article\",\"Randomized Controlled Trial\"],\"firstAuthor\":\"Jansen\",\"kind\":\"pubmed\",\"id\":\"29870596\",\"text\":\"Four randomized, double-blind, placebo-controlled, 4-period drug-drug interaction studies were conducted in healthy subjects to evaluate the pharmacokinetic and pharmacodynamic (PD) interactions between mirogabalin and commonly used central nervous system depressants. Mirogabalin or placebo was administered alone or with single-dose lorazepam, zolpidem, tramadol, ethanol, or interacting drug placebo. Safety was assessed and serial samples for pharmacokinetic parameters were collected for up to 48 hours postdose. PD assessments included body sway (except tramadol), digit symbol substitution test, vertigo symptom scale short form, brief ataxia rating scale, and the Bond and Lader visual analog scale. Coadministration of mirogabalin with any of the 4 drugs did not cause any clinically relevant pharmacokinetic interactions. Peak mirogabalin concentration decreased by 28% (least squares mean ratio, 0.72; 90% confidence interval, [CI] 0.67, 0.76) following tramadol coadministration, and increased by 20% (least squares mean ratio, 1.20; 90%CI, 1.12, 1.28) following ethanol coadministration. Mirogabalin alone had little to no effect on PD parameters, but coadministration of mirogabalin with either lorazepam or ethanol increased the PD effects in body sway and digit symbol substitution test assays. Mirogabalin/lorazepam and mirogabalin/zolpidem increased occurrence of somnolence. Increased incidence of nausea and headache was noted with mirogabalin/tramadol and mirogabalin/ethanol, respectively.\"},{\"pmid\":\"39932090\",\"title\":\"Toxicological findings in overdose suicides 2016-21.\",\"journal\":\"Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke\",\"year\":\"2025\",\"abstractText\":\"More than 300 people die from an overdose each year in Norway, and the trend is rising. The proportion of suicides among overdose deaths has been 11-20 % over the past ten years, with the annual figure remaining relatively stable. The purpose of this study was to describe the demographics as well as the medications and substances used in overdose suicides.\\n\\nData from forensic toxicology analyses performed at the Department of Forensic Medicine, Oslo University Hospital, were linked to the Cause of Death Registry. The cause and manner of death from the Cause of Death Registry were used to identify overdose suicides in Norway in the period 1 January 2016-31 December 2021.\\n\\nA total of 1383 overdoses were recorded in the dataset, and suicide was the cause of death in 251/1383 (18.1 %) cases. The average age was 51 years (± 16 years), and 135/251 (54 %) were women. Opioids were found in 235/251 (94 %) cases, with the most common being codeine (67/251; 27 %), oxycodone (63/251; 25 %) and tramadol (60/251; 24 %). In cases where opioids were found, benzodiazepines and/or z-hypnotics were identified in 181/235 (77 %) cases. A total of 109/251 (43 %) had taken antidepressants.\\n\\nAutopsies following an overdose suicide often revealed more than one psychoactive medication with addiction potential, in addition to an antidepressant. These medications are used for chronic pain, sleep disturbances, anxiety and depression, as well as to treat substance use.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Nyman\",\"kind\":\"pubmed\",\"id\":\"39932090\",\"text\":\"More than 300 people die from an overdose each year in Norway, and the trend is rising. The proportion of suicides among overdose deaths has been 11-20 % over the past ten years, with the annual figure remaining relatively stable. The purpose of this study was to describe the demographics as well as the medications and substances used in overdose suicides.\\n\\nData from forensic toxicology analyses performed at the Department of Forensic Medicine, Oslo University Hospital, were linked to the Cause of Death Registry. The cause and manner of death from the Cause of Death Registry were used to identify overdose suicides in Norway in the period 1 January 2016-31 December 2021.\\n\\nA total of 1383 overdoses were recorded in the dataset, and suicide was the cause of death in 251/1383 (18.1 %) cases. The average age was 51 years (± 16 years), and 135/251 (54 %) were women. Opioids were found in 235/251 (94 %) cases, with the most common being codeine (67/251; 27 %), oxycodone (63/251; 25 %) and tramadol (60/251; 24 %). In cases where opioids were found, benzodiazepines and/or z-hypnotics were identified in 181/235 (77 %) cases. A total of 109/251 (43 %) had taken antidepressants.\\n\\nAutopsies following an overdose suicide often revealed more than one psychoactive medication with addiction potential, in addition to an antidepressant. These medications are used for chronic pain, sleep disturbances, anxiety and depression, as well as to treat substance use.\"}]",
+      "t": 39414
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f879f375068ccd4f6e1fb2f719",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "tramadol alcohol interaction human study sedation respiratory depression",
+          "tramadol alcohol combination adults sedation respiratory depression coma death",
+          "tramadol ethanol interaction healthy volunteers",
+          "tramadol alcohol overdose poisoning"
+        ],
+        "text": "No adult human study of tramadol with alcohol measuring sedation-related death found."
+      },
+      "t": 50872
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f879f375068ccd4f6e1fb2f719",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 50872
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f89a56712089c6044637a93b79",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "tramadol alcohol combination adults sedation respiratory depression coma death"
+        ],
+        "text": "No adult human study of tramadol plus alcohol and sedation outcomes."
+      },
+      "t": 58250
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult human study of tramadol plus alcohol and sedation outcomes.",
+        "searched": [
+          "tramadol alcohol combination adults sedation respiratory depression coma death"
+        ]
+      },
+      "t": 58250
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f89a56712089c6044637a93b79",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 58250
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 67104
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 67104
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly warns in the tramadol label that concomitant opioid use with alcohol may result in profound sedation, respiratory depression, coma, and death, matching the claim's co-exposure, direction, and may-certainty and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 71128
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 71128
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 1.",
+      "t": 88609
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__tramadol",
+        "a": "alcohol",
+        "b": "tramadol",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Tramadol with alcohol may cause profound sedation, respiratory depression, coma, and death",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states opioid use with alcohol may cause profound sedation, respiratory depression, coma, death.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult human study of tramadol plus alcohol and sedation outcomes.",
+            "searched": [
+              "tramadol alcohol combination adults sedation respiratory depression coma death"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Tramadol and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states opioid use with alcohol may cause profound sedation, respiratory depression, coma, death.",
+            "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death [ see Warnings and Precautions (5.7), Drug Interactions (7) ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning"
+            },
+            "stance": "increases_risk",
+            "outcome": "sedation_respiratory_depression_coma_death",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly warns in the tramadol label that concomitant opioid use with alcohol may result in profound sedation, respiratory depression, coma, and death, matching the claim's co-exposure, direction, and may-certainty and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "00b7f61b-5173-43e6-a3f9-d2efbda40c19#boxed_warning",
+            "title": "Boxed Warning",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00b7f61b-5173-43e6-a3f9-d2efbda40c19",
+            "citation": "FDA label · Boxed Warning",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:53:20.314Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "serious_warning",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 93026
+    }
+  ]
+}

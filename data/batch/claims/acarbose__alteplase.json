@@ -1,0 +1,20 @@
+{
+  "pair": "acarbose__alteplase",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acarbose label sections in EN and FR do not mention alteplase; no controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"acarbose\"[tiab] AND \"alteplase\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

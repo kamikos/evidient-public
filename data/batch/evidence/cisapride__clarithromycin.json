@@ -1,0 +1,200 @@
+{
+  "card": {
+    "pair": "cisapride__clarithromycin",
+    "a": "cisapride",
+    "b": "clarithromycin",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA clarithromycin label contraindicates cisapride and reports arrhythmias including QT prolongation; a crossover study found 25 ms QTc increase.",
+      "claimIds": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label contraindicates the combination and cites postmarketing arrhythmias.",
+        "claimIds": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "text": "A 12-volunteer crossover study measured QTc and cisapride concentration increases, and two case reports describe torsades de pointes.",
+        "claimIds": [
+          "c3",
+          "c4"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The FDA label attributes the arrhythmias most likely to clarithromycin inhibiting the metabolism of cisapride.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA clarithromycin label says concomitant administration with cisapride is contraindicated.",
+        "quote": "2 Cisapride and Pimozide Concomitant administration of clarithromycin tablets with cisapride and pimozide is contraindicated [see Drug Interactions (7) ] .",
+        "source": {
+          "kind": "fda_label",
+          "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "qt_prolongation",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The contraindication quote names cisapride.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label describes postmarketing reports of cardiac arrhythmias with clarithromycin and cisapride, most likely from inhibited cisapride metabolism.",
+        "quote": "There have been postmarketing reports of drug interactions when clarithromycin is co-administered with cisapride or pimozide, resulting in cardiac arrhythmias (QT prolongation, ventricular tachycardia, ventricular fibrillation, and torsades de pointes ) most likely due to inhibition of metabolism of these drugs by clarithromycin tablets.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications"
+        },
+        "stance": "increases_risk",
+        "outcome": "qt_prolongation",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote reports postmarketing arrhythmias most likely due to inhibited metabolism.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "In 12 healthy volunteers, combined cisapride and clarithromycin raised QTc by an average of 25 ms and cisapride concentrations 3-fold.",
+        "quote": "Combination of cisapride and clarithromycin caused an average QTc increase of 25 ms above pretreatment values and 3-fold increases in cisapride concentrations.",
+        "source": {
+          "kind": "pubmed",
+          "id": "9834046"
+        },
+        "stance": "increases_risk",
+        "outcome": "qt_prolongation",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The abstract describes a 12-volunteer crossover, and the quote gives 25 ms QTc and 3-fold cisapride increases.",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "Two case reports describe torsades de pointes after clarithromycin was started in patients on long-term cisapride.",
+        "quote": "Two cases of torsades de pointes that followed the initiation of clarithromycin therapy in patients receiving long-term cisapride therapy are being reported.",
+        "source": {
+          "kind": "pubmed",
+          "id": "9292575"
+        },
+        "stance": "increases_risk",
+        "outcome": "qt_prolongation",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The quote describes two torsades cases after clarithromycin started on long-term cisapride, and the claim presents them as case reports.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6#contraindications",
+        "title": "clarithromycin: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60726518#4.5",
+        "title": "CLARITHROMYCINE ARROW 500 mg, comprimé pelliculé à libération modifiée: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60726518/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9834046",
+        "title": "The influence of cisapride and clarithromycin on QT intervals in healthy volunteers.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9834046/",
+        "citation": "0009-9236 64 5 1998 Nov Clinical pharmacology and therapeutics Clin Pharmacol Ther",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "10589373",
+        "title": "Clinical pharmacokinetics of clarithromycin.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10589373/",
+        "citation": "0312-5963 37 5 1999 Nov Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9292575",
+        "title": "Torsades de pointes in two chronic renal failure patients treated with cisapride and clarithromycin.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9292575/",
+        "citation": "0272-6386 30 3 1997 Sep American journal of kidney diseases : the official journal of the National Kidney Foundation Am J Kidney Dis",
+        "language": "en",
+        "design": "case_report"
+      },
+      {
+        "kind": "pubmed",
+        "id": "11510629",
+        "title": "Drug interaction studies with esomeprazole, the (S)-isomer of omeprazole.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11510629/",
+        "citation": "0312-5963 40 7 2001 Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Cisapride or Clarithromycin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Cisapride and Clarithromycin, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The French product information sections in the packet do not describe cisapride with clarithromycin beyond a CYP3A substrate list.",
+        "searched": [
+          "\"cisapride\"[tiab] AND \"clarithromycin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.691Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

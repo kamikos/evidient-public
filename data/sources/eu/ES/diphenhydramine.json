@@ -1,0 +1,28 @@
+{
+  "inn": "diphenhydramine",
+  "country": "ES",
+  "language": "es",
+  "registryId": "38322",
+  "product": "SOÑODOR DIFENHIDRAMINA 50 mg COMPRIMIDOS",
+  "url": "https://cima.aemps.es/cima/dochtml/ft/38322/FT_38322.html",
+  "retrievedAt": "2026-11-03T23:08:08.471Z",
+  "licence": "AEMPS reuse conditions; not asserted CC0",
+  "terms": "https://www.aemps.gob.es/aviso-legal/",
+  "attribution": "Fuente de la información: Agencia Española de Medicamentos y Productos Sanitarios www.aemps.gob.es. CIMA, retrieved 2026-11-03, document updated 2020-10-01T22:59:15.000Z. Extracted sections; original meaning preserved; no endorsement.",
+  "sha256": "55b58a6d342ac9f9fd7bed5ea3e080ea37939af9c3dc3200c06ababfaff39db7",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "Soñodor difenhidramina no deberá ser administrado durante un periodo superior a 7 días, ni a menores de 18 años, si no es con conocimiento y recomendación del médico. Se recomienda su administración únicamente antes de acostarse. En pacientes con edad avanzada es más probable que aparezcan mareos, sedación, confusión e hipotensión, así como hiperexcitación, sequedad de boca y retención urinaria. Pueden dificultar el diagnóstico de apendicitis y los signos de toxicidad producidos por sobredosis de otros medicamentos. Soñodor difenhidramina debe utilizarse con precaución en pacientes con la función hepática disminuida, por el mayor riesgo de efectos adversos, como consecuencia de la menor capacidad de metabolización, que alarga el tiempo de permanencia en el organismo, y por tanto, el efecto. Información sobre algunos excipientes Este medicamento contiene lactosa. Los pacientes con intolerancia hereditaria a galactosa, insuficiencia de lactasa de Lapp (insuficiencia observada en ciertas poblaciones de Laponia) o malabsorción de glucosa o galactosa no deben tomar este medicamento.",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=38322&seccion=4.4",
+      "sha256": "dc74eb3ef7b8adbd01ddebdb4d1e4f6750e79ab283e37f3b58770456a3d061dd"
+    },
+    {
+      "section": "4.5",
+      "text": "La ingestión concomitante de alcohol u otros depresores del SNC, hipnóticos, sedantes, pueden potenciar el efecto de Soñodor difenhidramina 50 mg comprimidos. Los inhibidores de la monoamino-oxidasa (IMAO) prolongan e intensifican los efectos anticolinérgicos de la difenhidramina (problemas gastrointestinales e íleo paralítico). Interferencias en el diagnostico Debido a que el principio activo del medicamento, difenhidramina hidrocloruro, interfiere con las pruebas cutáneas en las que se utilizan extractos alergénicos, pueden dar lugar a resultados falsamente negativos. En caso de tener que realizarse estas pruebas, deberá suspenderse la medicación con suficiente antelación (al menos 72 horas antes).",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=38322&seccion=4.5",
+      "sha256": "2ad8923d8c6be619a3b6a03a997efd9c69f6e290cef8d9ca9d88f252a0e3b63d"
+    }
+  ],
+  "documentUpdatedAt": "2020-10-01T22:59:15.000Z"
+}

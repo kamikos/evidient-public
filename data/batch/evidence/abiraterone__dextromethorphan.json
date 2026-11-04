@@ -1,0 +1,146 @@
+{
+  "card": {
+    "pair": "abiraterone__dextromethorphan",
+    "a": "abiraterone",
+    "b": "dextromethorphan",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "A trial found abiraterone plus prednisone roughly doubled dextromethorphan exposure.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Dextromethorphan Cmax and AUC24h ratios fell outside the bioequivalence limit.",
+        "claimIds": [
+          "c2"
+        ]
+      },
+      {
+        "text": "The EMA abiraterone label reports approximately 2.9-fold higher dextromethorphan exposure in a study of abiraterone acetate plus prednisone.",
+        "claimIds": [
+          "cEU1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "In a trial in men with prostate cancer, abiraterone acetate plus prednisone increased dextromethorphan systemic exposure by approximately 100%.",
+        "quote": "Coadministration of abiraterone acetate plus prednisone increased the systemic exposure of dextromethorphan by approximately 100%.",
+        "source": {
+          "kind": "pubmed",
+          "id": "23064959"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Trial abstract states abiraterone acetate plus prednisone increased dextromethorphan exposure by about 100%.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "In the same trial, dextromethorphan Cmax and AUC24h ratios were 275% and 268%, outside the bioequivalence limit.",
+        "quote": "Ratios of geometric means for maximum plasma concentration (C(max)) (275.36%) and area under plasma concentration-time curves from time 0 to 24 h (AUC(24h)) (268.14%) of dextromethorphan were outside the bioequivalence limit.",
+        "source": {
+          "kind": "pubmed",
+          "id": "23064959"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Abstract gives Cmax and AUC24h ratios of 275% and 268% outside bioequivalence limits.",
+        "accepted": true
+      },
+      {
+        "id": "cEU1",
+        "text": "The EMA abiraterone label reports approximately 2.9-fold higher dextromethorphan exposure in a study of abiraterone acetate plus prednisone.",
+        "quote": "In a study to determine the effects of abiraterone acetate (plus prednisone) on a single dose of the CYP2D6 substrate dextromethorphan, the systemic exposure (AUC) of dextromethorphan was increased approximately 2.9 fold.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "EU:EMEA/H/C/002321#4.5"
+        },
+        "stance": "mechanism",
+        "outcome": "dextromethorphan_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "2ac063f0-4177-c90f-27c3-e70e29689255#drug_interactions",
+        "title": "abiraterone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2ac063f0-4177-c90f-27c3-e70e29689255",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "23064959",
+        "title": "Effect of abiraterone acetate plus prednisone on the pharmacokinetics of dextromethorphan and theophylline in patients with metastatic castration-resistant prostate cancer.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23064959/",
+        "citation": "1432-0843 71 1 2013 Jan Cancer chemotherapy and pharmacology Cancer Chemother Pharmacol",
+        "language": "en",
+        "design": "controlled_trial"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/002321#4.5",
+        "title": "Zytiga: 4.5",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/zytiga-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Zytiga, https://www.ema.europa.eu/en/documents/product-information/zytiga-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.5",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "cEU1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Abiraterone or Dextromethorphan, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Abiraterone and Dextromethorphan, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The FDA label excerpt in the packet is fragmentary and gives no complete dextromethorphan statement.",
+        "searched": [
+          "\"abiraterone\"[tiab] AND \"dextromethorphan\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T18:37:23.271Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

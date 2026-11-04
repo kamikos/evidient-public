@@ -1,0 +1,556 @@
+{
+  "card": {
+    "pair": "lorazepam__zolpidem",
+    "a": "lorazepam",
+    "b": "zolpidem",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Lorazepam plus zolpidem shows additive effects with higher impairment and sleep-driving risk",
+      "claimIds": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states additive effects occur with lorazepam plus zolpidem, with increased risk of next-day psychomotor impairment and sleep-driving behaviors.",
+        "claimIds": [
+          "c1",
+          "c2",
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult trial directly testing lorazepam plus zolpidem on CNS depression was retrieved.",
+        "searched": [
+          "lorazepam AND zolpidem coadministered combination healthy volunteers psychomotor"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Lorazepam or Zolpidem, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Lorazepam and Zolpidem, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states additive effects occur with zolpidem plus CNS depressants including benzodiazepines.",
+        "quote": "Additive effects occur with concomitant use of other CNS depressants (e.g. benzodiazepines, opioids, tricyclic antidepressants, alcohol), including daytime use.",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "This supports the claim because the quote explicitly states additive effects occur with concomitant zolpidem use with CNS depressants including benzodiazepines, which encompasses lorazepam and indicates increased risk.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The label states next-day impairment risk increases when zolpidem is co-administered with CNS depressants.",
+        "quote": "The risk of next-day psychomotor impairment is increased if zolpidem tartrate extended-release is taken with less than a full night of sleep remaining (7 to 8 hours); if higher than the recommended dose is taken; if co-administered with other CNS depressants; or co-administered with other drugs that increase the blood levels of zolpidem [see DOSAGE AND ADMINISTRATION (2) and CLINICAL STUDIES (14.2) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "next_day_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that next-day psychomotor impairment risk is increased when zolpidem tartrate extended-release is co-administered with other CNS depressants, a class that includes lorazepam, matching the claim and increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The label states sleep-driving risk increases with zolpidem plus alcohol and CNS depressants.",
+        "quote": "Although behaviors such as \"sleep-driving\" have occurred with zolpidem tartrate extended-release alone at therapeutic doses, the co-administration of alcohol and other CNS depressants increases the risk of such behaviors, as does the use of zolpidem tartrate extended-release at doses exceeding the maximum recommended dose.",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "complex_sleep_behaviors",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "Supports, because the quoted label explicitly states that co-administering zolpidem with alcohol and other CNS depressants—a clearly attributed class that includes lorazepam—increases the risk of sleep-driving.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions",
+        "title": "Warnings And Cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25e71199-c55d-4cc6-8388-b309d654d2b0",
+        "citation": "FDA label · Warnings And Cautions",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:46:08.332Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "lorazepam__zolpidem",
+      "at": "2026-11-03T19:44:45.295Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f16a877242a2201d5ea1f6840e",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depression",
+        "quote": "Additive effects occur with concomitant use of other CNS depressants (e.g. benzodiazepines, opioids, tricyclic antidepressants, alcohol), including daytime use.",
+        "sourceId": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states additive effects occur with zolpidem plus CNS depressants including benzodiazepines."
+      },
+      "t": 11644
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states additive effects occur with zolpidem plus CNS depressants including benzodiazepines.",
+        "quote": "Additive effects occur with concomitant use of other CNS depressants (e.g. benzodiazepines, opioids, tricyclic antidepressants, alcohol), including daytime use.",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression"
+      },
+      "t": 11644
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f16a877242a2201d5ea1f6840e",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 11644
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f16e357163b40b3e41896dc2f2",
+      "name": "record_claim",
+      "args": {
+        "outcome": "next_day_impairment",
+        "quote": "The risk of next-day psychomotor impairment is increased if zolpidem tartrate extended-release is taken with less than a full night of sleep remaining (7 to 8 hours); if higher than the recommended dose is taken; if co-administered with other CNS depressants; or co-administered with other drugs that increase the blood levels of zolpidem [see DOSAGE AND ADMINISTRATION (2) and CLINICAL STUDIES (14.2) ].",
+        "sourceId": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states next-day impairment risk increases when zolpidem is co-administered with CNS depressants."
+      },
+      "t": 11644
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states next-day impairment risk increases when zolpidem is co-administered with CNS depressants.",
+        "quote": "The risk of next-day psychomotor impairment is increased if zolpidem tartrate extended-release is taken with less than a full night of sleep remaining (7 to 8 hours); if higher than the recommended dose is taken; if co-administered with other CNS depressants; or co-administered with other drugs that increase the blood levels of zolpidem [see DOSAGE AND ADMINISTRATION (2) and CLINICAL STUDIES (14.2) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "next_day_impairment"
+      },
+      "t": 11644
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f16e357163b40b3e41896dc2f2",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 11644
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f1735d77e28937209754a4db4c",
+      "name": "record_claim",
+      "args": {
+        "outcome": "complex_sleep_behaviors",
+        "quote": "Although behaviors such as \"sleep-driving\" have occurred with zolpidem tartrate extended-release alone at therapeutic doses, the co-administration of alcohol and other CNS depressants increases the risk of such behaviors, as does the use of zolpidem tartrate extended-release at doses exceeding the maximum recommended dose.",
+        "sourceId": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states sleep-driving risk increases with zolpidem plus alcohol and CNS depressants."
+      },
+      "t": 11644
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "The label states sleep-driving risk increases with zolpidem plus alcohol and CNS depressants.",
+        "quote": "Although behaviors such as \"sleep-driving\" have occurred with zolpidem tartrate extended-release alone at therapeutic doses, the co-administration of alcohol and other CNS depressants increases the risk of such behaviors, as does the use of zolpidem tartrate extended-release at doses exceeding the maximum recommended dose.",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "complex_sleep_behaviors"
+      },
+      "t": 11644
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f1735d77e28937209754a4db4c",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 11644
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f177cb7715b37b00e5ae491881",
+      "name": "search_pubmed",
+      "args": {
+        "query": "lorazepam zolpidem interaction human"
+      },
+      "t": 11644
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f177cb7715b37b00e5ae491881",
+      "summary": "search_pubmed completed: {\"query\":\"lorazepam zolpidem interaction human\",\"pmids\":[\"42525198\",\"36630580\",\"36630579\",\"36429598\",\"35802843\"]}",
+      "t": 11925
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f1792b735eb5412c181d26c139",
+      "name": "search_pubmed",
+      "args": {
+        "query": "lorazepam zolpidem coadministration CNS depressant effects adults"
+      },
+      "t": 11925
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f1792b735eb5412c181d26c139",
+      "summary": "search_pubmed completed: {\"query\":\"lorazepam zolpidem coadministration CNS depressant effects adults\",\"pmids\":[\"29870596\",\"20171127\"]}",
+      "t": 12225
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f1931570f6bfc1a8b248041e1c",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "20171127",
+          "29870596"
+        ]
+      },
+      "t": 20386
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f1931570f6bfc1a8b248041e1c",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"20171127\",\"title\":\"Effect of hypnotic drugs on body balance and standing steadiness.\",\"journal\":\"Sleep medicine reviews\",\"year\":\"2010\",\"abstractText\":\"Disturbed body balance and standing steadiness are problematic for those who wake up at night or in the morning after using hypnotic drugs. As a result, falls and hip fractures are frequently reported in patients using sleep medication.\\n\\nA literature search was performed to identify double blind, placebo-controlled clinical trials that examined body balance and standing steadiness. Drugs that were searched were nitrazepam, triazolam, lorazepam, temazepam, loprazolam, flunitrazepam, flurazepam, and the Z-drugs zopiclone, zolpidem and zaleplon.\\n\\nA total of 57 studies were eligible for inclusion. Results showed that both benzodiazepine hypnotics and the Z-drugs significantly impair body balance and standing steadiness after single dose administration. Impairments correlate significantly with blood plasma levels and are greatest at peak plasma concentrations, but are sometimes still present upon awakening. Balance problems were dose-related and most pronounced in elderly. Co-administration of alcohol aggravated the impairment. After repeated daily use of hypnotic drugs partial tolerance develops to the impairing effects on standing steadiness.\\n\\nSingle dose administration of benzodiazepine hypnotics and Z-drugs significantly impair body balance in a dose-dependent manner. Zolpidem and zopiclone produced similar significant impairment as benzodiazepine hypnotics. Zaleplon significantly impaired balance up to 2 h after intake. Partial tolerance develops after repeated daily use. In conclusion, patients should be warned about the possible risk of imbalance and falls due to the use of sleep medication.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\"],\"firstAuthor\":\"Mets\",\"kind\":\"pubmed\",\"id\":\"20171127\",\"text\":\"Disturbed body balance and standing steadiness are problematic for those who wake up at night or in the morning after using hypnotic drugs. As a result, falls and hip fractures are frequently reported in patients using sleep medication.\\n\\nA literature search was performed to identify double blind, placebo-controlled clinical trials that examined body balance and standing steadiness. Drugs that were searched were nitrazepam, triazolam, lorazepam, temazepam, loprazolam, flunitrazepam, flurazepam, and the Z-drugs zopiclone, zolpidem and zaleplon.\\n\\nA total of 57 studies were eligible for inclusion. Results showed that both benzodiazepine hypnotics and the Z-drugs significantly impair body balance and standing steadiness after single dose administration. Impairments correlate significantly with blood plasma levels and are greatest at peak plasma concentrations, but are sometimes still present upon awakening. Balance problems were dose-related and most pronounced in elderly. Co-administration of alcohol aggravated the impairment. After repeated daily use of hypnotic drugs partial tolerance develops to the impairing effects on standing steadiness.\\n\\nSingle dose administration of benzodiazepine hypnotics and Z-drugs significantly impair body balance in a dose-dependent manner. Zolpidem and zopiclone produced similar significant impairment as benzodiazepine hypnotics. Zaleplon significantly impaired balance up to 2 h after intake. Partial tolerance develops after repeated daily use. In conclusion, patients should be warned about the possible risk of imbalance and falls due to the use of sleep medication.\"},{\"pmid\":\"29870596\",\"title\":\"Pharmacokinetics, Pharmacodynamics, Safety, and Tolerability of Mirogabalin When Coadministered With Lorazepam, Zolpidem, Tramadol, or Ethanol: Results From Drug-Drug Interaction Studies in Healthy Subjects.\",\"journal\":\"Clinical pharmacology in drug development\",\"year\":\"2018\",\"abstractText\":\"Four randomized, double-blind, placebo-controlled, 4-period drug-drug interaction studies were conducted in healthy subjects to evaluate the pharmacokinetic and pharmacodynamic (PD) interactions between mirogabalin and commonly used central nervous system depressants. Mirogabalin or placebo was administered alone or with single-dose lorazepam, zolpidem, tramadol, ethanol, or interacting drug placebo. Safety was assessed and serial samples for pharmacokinetic parameters were collected for up to 48 hours postdose. PD assessments included body sway (except tramadol), digit symbol substitution test, vertigo symptom scale short form, brief ataxia rating scale, and the Bond and Lader visual analog scale. Coadministration of mirogabalin with any of the 4 drugs did not cause any clinically relevant pharmacokinetic interactions. Peak mirogabalin concentration decreased by 28% (least squares mean ratio, 0.72; 90% confidence interval, [CI] 0.67, 0.76) following tramadol coadministration, and increased by 20% (least squares mean ratio, 1.20; 90%CI, 1.12, 1.28) following ethanol coadministration. Mirogabalin alone had little to no effect on PD parameters, but coadministration of mirogabalin with either lorazepam or ethanol increased the PD effects in body sway and digit symbol substitution test assays. Mirogabalin/lorazepam and mirogabalin/zolpidem increased occurrence of somnolence. Increased incidence of nausea and headache was noted with mirogabalin/tramadol and mirogabalin/ethanol, respectively.\",\"publicationTypes\":[\"Clinical Trial, Phase I\",\"Journal Article\",\"Randomized Controlled Trial\"],\"firstAuthor\":\"Jansen\",\"kind\":\"pubmed\",\"id\":\"29870596\",\"text\":\"Four randomized, double-blind, placebo-controlled, 4-period drug-drug interaction studies were conducted in healthy subjects to evaluate the pharmacokinetic and pharmacodynamic (PD) interactions between mirogabalin and commonly used central nervous system depressants. Mirogabalin or placebo was administered alone or with single-dose lorazepam, zolpidem, tramadol, ethanol, or interacting drug placebo. Safety was assessed and serial samples for pharmacokinetic parameters were collected for up to 48 hours postdose. PD assessments included body sway (except tramadol), digit symbol substitution test, vertigo symptom scale short form, brief ataxia rating scale, and the Bond and Lader visual analog scale. Coadministration of mirogabalin with any of the 4 drugs did not cause any clinically relevant pharmacokinetic interactions. Peak mirogabalin concentration decreased by 28% (least squares mean ratio, 0.72; 90% confidence interval, [CI] 0.67, 0.76) following tramadol coadministration, and increased by 20% (least squares mean ratio, 1.20; 90%CI, 1.12, 1.28) following ethanol coadministration. Mirogabalin alone had little to no effect on PD parameters, but coadministration of mirogabalin with either lorazepam or ethanol increased the PD effects in body sway and digit symbol substitution test assays. Mirogabalin/lorazepam and mirogabalin/zolpidem increased occurrence of somnolence. Increased incidence of nausea and headache was noted with mirogabalin/tramadol and mirogabalin/ethanol, respectively.\"}]",
+      "t": 20902
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f1cb367111a383e7c78fba0c42",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "lorazepam zolpidem interaction human",
+          "lorazepam zolpidem coadministration CNS depressant effects adults"
+        ],
+        "text": "No adult trial directly testing lorazepam plus zolpidem on CNS depression was retrieved."
+      },
+      "t": 35373
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f1cb367111a383e7c78fba0c42",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 35373
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f1f6ab72f5a9e088dbfb912b73",
+      "name": "search_pubmed",
+      "args": {
+        "query": "lorazepam AND zolpidem coadministered combination healthy volunteers psychomotor"
+      },
+      "t": 45752
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f1f6ab72f5a9e088dbfb912b73",
+      "summary": "search_pubmed completed: {\"query\":\"lorazepam AND zolpidem coadministered combination healthy volunteers psychomotor\",\"pmids\":[]}",
+      "t": 45966
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f20fd77748a8415ef8481fbccd",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "lorazepam AND zolpidem coadministered combination healthy volunteers psychomotor"
+        ],
+        "text": "No adult trial directly testing lorazepam plus zolpidem on CNS depression was retrieved."
+      },
+      "t": 52172
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult trial directly testing lorazepam plus zolpidem on CNS depression was retrieved.",
+        "searched": [
+          "lorazepam AND zolpidem coadministered combination healthy volunteers psychomotor"
+        ]
+      },
+      "t": 52172
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f20fd77748a8415ef8481fbccd",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 52172
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 52172
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 52173
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 52175
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 52190
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "This supports the claim because the quote explicitly states additive effects occur with concomitant zolpidem use with CNS depressants including benzodiazepines, which encompasses lorazepam and indicates increased risk.",
+      "model": "muse-wonder-1.0",
+      "t": 56895
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly states that next-day psychomotor impairment risk is increased when zolpidem tartrate extended-release is co-administered with other CNS depressants, a class that includes lorazepam, matching the claim and increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 59353
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "Supports, because the quoted label explicitly states that co-administering zolpidem with alcohol and other CNS depressants—a clearly attributed class that includes lorazepam—increases the risk of sleep-driving.",
+      "model": "muse-wonder-1.0",
+      "t": 60281
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 60281
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 0.",
+      "t": 78050
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "lorazepam__zolpidem",
+        "a": "lorazepam",
+        "b": "zolpidem",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Lorazepam plus zolpidem shows additive effects with higher impairment and sleep-driving risk",
+          "claimIds": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states additive effects occur with lorazepam plus zolpidem, with increased risk of next-day psychomotor impairment and sleep-driving behaviors.",
+            "claimIds": [
+              "c1",
+              "c2",
+              "c3"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult trial directly testing lorazepam plus zolpidem on CNS depression was retrieved.",
+            "searched": [
+              "lorazepam AND zolpidem coadministered combination healthy volunteers psychomotor"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Lorazepam or Zolpidem, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Lorazepam and Zolpidem, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states additive effects occur with zolpidem plus CNS depressants including benzodiazepines.",
+            "quote": "Additive effects occur with concomitant use of other CNS depressants (e.g. benzodiazepines, opioids, tricyclic antidepressants, alcohol), including daytime use.",
+            "source": {
+              "kind": "fda_label",
+              "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depression",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "This supports the claim because the quote explicitly states additive effects occur with concomitant zolpidem use with CNS depressants including benzodiazepines, which encompasses lorazepam and indicates increased risk.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c2",
+            "text": "The label states next-day impairment risk increases when zolpidem is co-administered with CNS depressants.",
+            "quote": "The risk of next-day psychomotor impairment is increased if zolpidem tartrate extended-release is taken with less than a full night of sleep remaining (7 to 8 hours); if higher than the recommended dose is taken; if co-administered with other CNS depressants; or co-administered with other drugs that increase the blood levels of zolpidem [see DOSAGE AND ADMINISTRATION (2) and CLINICAL STUDIES (14.2) ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "next_day_impairment",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that next-day psychomotor impairment risk is increased when zolpidem tartrate extended-release is co-administered with other CNS depressants, a class that includes lorazepam, matching the claim and increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "The label states sleep-driving risk increases with zolpidem plus alcohol and CNS depressants.",
+            "quote": "Although behaviors such as \"sleep-driving\" have occurred with zolpidem tartrate extended-release alone at therapeutic doses, the co-administration of alcohol and other CNS depressants increases the risk of such behaviors, as does the use of zolpidem tartrate extended-release at doses exceeding the maximum recommended dose.",
+            "source": {
+              "kind": "fda_label",
+              "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions"
+            },
+            "stance": "increases_risk",
+            "outcome": "complex_sleep_behaviors",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "Supports, because the quoted label explicitly states that co-administering zolpidem with alcohol and other CNS depressants—a clearly attributed class that includes lorazepam—increases the risk of sleep-driving.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#warnings_and_cautions",
+            "title": "Warnings And Cautions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25e71199-c55d-4cc6-8388-b309d654d2b0",
+            "citation": "FDA label · Warnings And Cautions",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:46:08.332Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1",
+            "c2",
+            "c3"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 83037
+    }
+  ]
+}

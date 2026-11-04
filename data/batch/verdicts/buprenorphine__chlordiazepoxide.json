@@ -1,0 +1,39 @@
+{
+ "pair": "buprenorphine__chlordiazepoxide",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The buprenorphine label quote states exactly that benzodiazepine co-use increases overdose, respiratory depression and death."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The chlordiazepoxide label quote matches the claim; \"may cause\" faithfully renders \"may result in\"."
+  },
+  {
+   "id": "c3",
+   "support": "supports",
+   "rationale": "The quote states the GABA A and mu receptor sites verbatim."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "does_not_support"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "supports"
+  }
+ ]
+}

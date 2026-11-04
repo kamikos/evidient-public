@@ -1,0 +1,842 @@
+{
+  "card": {
+    "pair": "alcohol__methylphenidate",
+    "a": "alcohol",
+    "b": "methylphenidate",
+    "category": "other",
+    "depth": "limited",
+    "headline": {
+      "text": "The label reports faster methylphenidate release from extended-release capsules at 40% alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "For the pinned extended-release capsule, the label reports 84% methylphenidate release in the first hour at 40% alcohol.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "In healthy volunteers ethanol with methylphenidate raised early plasma concentrations and potentiated high, good, like, stimulated and overall effect ratings.",
+        "claimIds": [
+          "c3",
+          "c7"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Methylphenidate and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states 40% alcohol increased methylphenidate release with 84% released in first hour.",
+        "quote": "At an alcohol concentration of 40%, there was an increase in the release rate of methylphenidate in the first hour, resulting in 84% of the methylphenidate being released.",
+        "source": {
+          "kind": "fda_label",
+          "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_early_release",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote directly reports that 40% alcohol increased methylphenidate release, with 84% released in the first hour, matching the claim and pair exposure.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c2",
+        "text": "Methylphenidate blocks reuptake of norepinephrine and dopamine into presynaptic neuron.",
+        "quote": "Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space.",
+        "source": {
+          "kind": "fda_label",
+          "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+        },
+        "stance": "mechanism",
+        "outcome": "monoamine_reuptake_blockade",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The quote describes methylphenidate monotherapy pharmacology without alcohol co-exposure, so it does not establish an alcohol-methylphenidate interaction mechanism.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c3",
+        "text": "In 24 healthy volunteers, ethanol with dl-MPH raised early d-MPH plasma concentrations 44-99% versus dl-MPH alone.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005).",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_plasma_concentration",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote reports in 24 healthy volunteers that ethanol during dl-MPH absorption significantly elevated d-MPH concentrations by 44-99% versus the non-ethanol condition.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c4",
+        "text": "In 24 healthy volunteers, ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01).",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_subjective_effects",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c5",
+        "text": "In 24 healthy volunteers, ethanol raised d-MPH AUC 21% with dl-MPH and 14% with d-MPH.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Ethanol increased the d-MPH area under the curve (AUC)(0-inf) by 21% following dl-MPH (P < 0.001) and 14% for d-MPH (P = 0.001).",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_plasma_concentration",
+        "quoteCheck": "not_found",
+        "accepted": false
+      },
+      {
+        "id": "c6",
+        "text": "Findings consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+        "quote": "These findings are consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "mechanism",
+        "outcome": "ces1_metabolism",
+        "quoteCheck": "matched",
+        "accepted": false,
+        "support": "does_not_support",
+        "judgeRationale": "The claim describes l-MPH inhibiting d-MPH metabolism without mentioning ethanol co-exposure, so it does not describe the alcohol-methylphenidate pair interaction.",
+        "judgeModel": "muse-wonder-1.0"
+      },
+      {
+        "id": "c7",
+        "text": "Ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect ratings.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01). Plasma l-EPH concentrations exceeded those of l-MPH.",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_subjective_effects",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote reports that ethanol with dl-MPH significantly potentiated the subjective ratings of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect,\" matching the claimed increased-effect interaction.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology",
+        "title": "Clinical Pharmacology",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10aa0dc0-bd0e-4927-a19a-8722d78ad67d",
+        "citation": "FDA label · Clinical Pharmacology",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "23104969",
+        "title": "Differential influences of ethanol on early exposure to racemic methylphenidate compared with dexmethylphenidate in humans.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23104969/",
+        "citation": "Patrick et al. · Drug metabolism and disposition: the biological fate of chemicals 2013",
+        "design": "other",
+        "year": 2013,
+        "sampleSize": 24,
+        "population": "healthy volunteers"
+      }
+    ],
+    "generatedAt": "2026-11-03T21:28:08.495Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__methylphenidate",
+      "at": "2026-11-03T21:25:51.041Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 1
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 1
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+      ],
+      "t": 1008
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34dfa3173d6ba217a1cbe5e2145",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_early_release",
+        "quote": "At an alcohol concentration of 40%, there was an increase in the release rate of methylphenidate in the first hour, resulting in 84% of the methylphenidate being released.",
+        "sourceId": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states 40% alcohol increased methylphenidate release with 84% released in first hour."
+      },
+      "t": 10199
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states 40% alcohol increased methylphenidate release with 84% released in first hour.",
+        "quote": "At an alcohol concentration of 40%, there was an increase in the release rate of methylphenidate in the first hour, resulting in 84% of the methylphenidate being released.",
+        "source": {
+          "kind": "fda_label",
+          "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_early_release"
+      },
+      "t": 10200
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34dfa3173d6ba217a1cbe5e2145",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 10200
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34dfdbd775e9b1c880ba4191b75",
+      "name": "record_claim",
+      "args": {
+        "outcome": "monoamine_reuptake_blockade",
+        "quote": "Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space.",
+        "sourceId": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology",
+        "sourceKind": "fda_label",
+        "stance": "mechanism",
+        "text": "Methylphenidate blocks reuptake of norepinephrine and dopamine into presynaptic neuron."
+      },
+      "t": 10200
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "Methylphenidate blocks reuptake of norepinephrine and dopamine into presynaptic neuron.",
+        "quote": "Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space.",
+        "source": {
+          "kind": "fda_label",
+          "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+        },
+        "stance": "mechanism",
+        "outcome": "monoamine_reuptake_blockade"
+      },
+      "t": 10201
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34dfdbd775e9b1c880ba4191b75",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 10201
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e0170723b8779307acfd0420e",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol methylphenidate interaction human study"
+      },
+      "t": 10201
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e0170723b8779307acfd0420e",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol methylphenidate interaction human study\",\"pmids\":[\"30726003\",\"39661862\",\"39227056\",\"37216808\",\"35526575\"]}",
+      "t": 10673
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e027972d4bffd4a0d5af2c48e",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alcohol methylphenidate combination adults plasma concentration"
+      },
+      "t": 10673
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e027972d4bffd4a0d5af2c48e",
+      "summary": "search_pubmed completed: {\"query\":\"alcohol methylphenidate combination adults plasma concentration\",\"pmids\":[\"25161162\",\"23104969\",\"8413056\"]}",
+      "t": 11117
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e1aac7730b17971dbd7a5a590",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "30726003",
+          "25161162"
+        ]
+      },
+      "t": 17082
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e1aac7730b17971dbd7a5a590",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"25161162\",\"title\":\"First detection of ethylphenidate in human fatalities after ethylphenidate intake.\",\"journal\":\"Forensic science international\",\"year\":\"2014\",\"abstractText\":\"Methylphenidate, a psychostimulant drug from the group of amphetamines is, among others, established in the treatment of attention deficit hyperactivity disorder and narcolepsy. It is also known to have a certain potential of abuse. In combination with alcohol, the metabolite ethylphenidate was detected in human plasma in small amounts. However, ethylphenidate is sold as \\\"research chemical\\\" via the Internet. It was put under German narcotics law in July 2013. In a recent case, where a deceased person was found in his apartment, the police seized a plastic bag with the inscription \\\"ethylphenidate\\\". An autopsy of the 32-year-old man yielded a mitral valve endocarditis, which must have persisted a while before death, in combination with a pneumonia. At the Forensic Toxicological Centre (FTC) in Munich femoral blood, liver, pericardium fluid, urine, stomach content and hair of the deceased were analyzed for ethylphenidate after sample preparation by an LC-Triple TOF 5600. Calibration curves were spiked with a methanolic 1mg/mL solution of ethylphenidate (substance provided by the State Office of Criminal Investigation in Munich) in whole blood in comparison to liver and femoral blood, in serum in comparison to pericardium fluid and in urine in comparison to urine and stomach content, respectively. Ethylphenidate was detected in all analyzed matrices. The spectrums of the human specimen were compared to those obtained from the calibration curves and identified as ethylphenidate. The measured concentrations were for femoral blood 110ng/mL, for liver 180ng/g, for pericardium fluid 131ng/mL, for urine 987ng/mL and for stomach content 20.7ng/mL, respectively. The stomach contained 200mL of a brownish-coloured liquid, resulting in a total amount of 4000ng ethylphenidate. The lowest calibrator for whole blood and serum was 1ng/mL and for urine 10ng/mL. As far as it is known to the authors, these are the first ethylphenidate levels measured in a case of ethylphenidate intake. Therefore these results can only be compared to methylphenidate concentrations with therapeutic levels ranging from 5 to 60ng/mL in serum. As the toxic levels for methylphenidate start from approximately 500ng/mL serum, we estimate that ethylphenidate in the concentrations mentioned above is not in a directly lethal range. But it has to be considered, that amphetamine-like drugs as methylphenidate are known for their cardiovascular side effects (like tachycardia and arrhythmia) and might therefore have contributed to death, which was attributed to endocarditis in combination with pneumonia.\",\"publicationTypes\":[\"Case Reports\",\"Journal Article\"],\"firstAuthor\":\"Krueger\",\"kind\":\"pubmed\",\"id\":\"25161162\",\"text\":\"Methylphenidate, a psychostimulant drug from the group of amphetamines is, among others, established in the treatment of attention deficit hyperactivity disorder and narcolepsy. It is also known to have a certain potential of abuse. In combination with alcohol, the metabolite ethylphenidate was detected in human plasma in small amounts. However, ethylphenidate is sold as \\\"research chemical\\\" via the Internet. It was put under German narcotics law in July 2013. In a recent case, where a deceased person was found in his apartment, the police seized a plastic bag with the inscription \\\"ethylphenidate\\\". An autopsy of the 32-year-old man yielded a mitral valve endocarditis, which must have persisted a while before death, in combination with a pneumonia. At the Forensic Toxicological Centre (FTC) in Munich femoral blood, liver, pericardium fluid, urine, stomach content and hair of the deceased were analyzed for ethylphenidate after sample preparation by an LC-Triple TOF 5600. Calibration curves were spiked with a methanolic 1mg/mL solution of ethylphenidate (substance provided by the State Office of Criminal Investigation in Munich) in whole blood in comparison to liver and femoral blood, in serum in comparison to pericardium fluid and in urine in comparison to urine and stomach content, respectively. Ethylphenidate was detected in all analyzed matrices. The spectrums of the human specimen were compared to those obtained from the calibration curves and identified as ethylphenidate. The measured concentrations were for femoral blood 110ng/mL, for liver 180ng/g, for pericardium fluid 131ng/mL, for urine 987ng/mL and for stomach content 20.7ng/mL, respectively. The stomach contained 200mL of a brownish-coloured liquid, resulting in a total amount of 4000ng ethylphenidate. The lowest calibrator for whole blood and serum was 1ng/mL and for urine 10ng/mL. As far as it is known to the authors, these are the first ethylphenidate levels measured in a case of ethylphenidate intake. Therefore these results can only be compared to methylphenidate concentrations with therapeutic levels ranging from 5 to 60ng/mL in serum. As the toxic levels for methylphenidate start from approximately 500ng/mL serum, we estimate that ethylphenidate in the concentrations mentioned above is not in a directly lethal range. But it has to be considered, that amphetamine-like drugs as methylphenidate are known for their cardiovascular side effects (like tachycardia and arrhythmia) and might therefore have contributed to death, which was attributed to endocarditis in combination with pneumonia.\"}]",
+      "t": 17680
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e30bf700d80894bda9fce2ef1",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "30726003"
+        ]
+      },
+      "t": 22916
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e30bf700d80894bda9fce2ef1",
+      "summary": "fetch_abstracts completed: []",
+      "t": 23283
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e4f29730a8153478fe42b3283",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "23104969",
+          "39227056"
+        ]
+      },
+      "t": 31865
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e4f29730a8153478fe42b3283",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"23104969\",\"title\":\"Differential influences of ethanol on early exposure to racemic methylphenidate compared with dexmethylphenidate in humans.\",\"journal\":\"Drug metabolism and disposition: the biological fate of chemicals\",\"year\":\"2013\",\"abstractText\":\"Enantioselective hydrolysis of oral racemic methylphenidate (dl-MPH) by carboxylesterase 1 (CES1) limits the absolute bioavailability of the pharmacologically active d-MPH isomer to approximately 30% and that of the inactive l-MPH to only 1-2%. Coadministration of dl-MPH with ethanol results in elevated d-MPH plasma concentrations accompanied by CES1-mediated enantioselective transesterification of l-MPH to l-ethylphenidate (EPH). The present study tested the hypothesis that administration of the pure isomer dexmethylphenidate (d-MPH) will overcome the influence of ethanol on d-MPH absorption by eliminating competitive CES1-mediated presystemic metabolism of l-MPH to l-EPH. Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005). Furthermore, immediately following the ethanol drink the subjective effects of \\\"high,\\\" \\\"good,\\\" \\\"like,\\\" \\\"stimulated,\\\" and overall \\\"effect\\\" were significantly potentiated (P ≤ 0.01). Plasma l-EPH concentrations exceeded those of l-MPH. Ethanol combined with pure d-MPH did not elevate plasma d-MPH concentrations during the absorption phase, and the ethanol-induced potentiation of subjective effects was delayed relative to dl-MPH-ethanol. These findings are consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH. Ethanol increased the d-MPH area under the curve (AUC)(0-inf) by 21% following dl-MPH (P < 0.001) and 14% for d-MPH (P = 0.001). In men receiving d-MPH-ethanol, the d-MPH absorption partial AUC(0.5-2 hours) was 2.1 times greater and the time to maximum concentration (T(max)) occurred 1.1 hours earlier than in women, consistent with an increased rate of d-MPH absorption reducing hepatic extraction. More rapid absorption of d-MPH carries implications for increased abuse liability.\",\"publicationTypes\":[\"Comparative Study\",\"Journal Article\",\"Research Support, N.I.H., Extramural\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Patrick\",\"kind\":\"pubmed\",\"id\":\"23104969\",\"text\":\"Enantioselective hydrolysis of oral racemic methylphenidate (dl-MPH) by carboxylesterase 1 (CES1) limits the absolute bioavailability of the pharmacologically active d-MPH isomer to approximately 30% and that of the inactive l-MPH to only 1-2%. Coadministration of dl-MPH with ethanol results in elevated d-MPH plasma concentrations accompanied by CES1-mediated enantioselective transesterification of l-MPH to l-ethylphenidate (EPH). The present study tested the hypothesis that administration of the pure isomer dexmethylphenidate (d-MPH) will overcome the influence of ethanol on d-MPH absorption by eliminating competitive CES1-mediated presystemic metabolism of l-MPH to l-EPH. Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005). Furthermore, immediately following the ethanol drink the subjective effects of \\\"high,\\\" \\\"good,\\\" \\\"like,\\\" \\\"stimulated,\\\" and overall \\\"effect\\\" were significantly potentiated (P ≤ 0.01). Plasma l-EPH concentrations exceeded those of l-MPH. Ethanol combined with pure d-MPH did not elevate plasma d-MPH concentrations during the absorption phase, and the ethanol-induced potentiation of subjective effects was delayed relative to dl-MPH-ethanol. These findings are consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH. Ethanol increased the d-MPH area under the curve (AUC)(0-inf) by 21% following dl-MPH (P < 0.001) and 14% for d-MPH (P = 0.001). In men receiving d-MPH-ethanol, the d-MPH absorption partial AUC(0.5-2 hours) was 2.1 times greater and the time to maximum concentration (T(max)) occurred 1.1 hours earlier than in women, consistent with an increased rate of d-MPH absorption reducing hepatic extraction. More rapid absorption of d-MPH carries implications for increased abuse liability.\"},{\"pmid\":\"39227056\",\"title\":\"Examination of Excessive Mind-Wandering Following Attention-Deficit and Hyperactivity Disorder Treatment in Adults.\",\"journal\":\"Psychological reports\",\"year\":\"2025\",\"abstractText\":\"p p Although mind-wandering (MW) is a part of attention deficit and hyperactivity disorder (ADHD), the impact of psychostimulants on excessive MW remains unclear. We aimed to elucidate how psychostimulants impact the MW of adult ADHD patients post treatment. This cross-sectional cohort study consisted of 54 randomly selected ADHD patients who applied to our psychiatry outpatient clinic and 40 healthy controls. The ADHD patients were administered methylphenidate or atomoxetine. A Semi-Structured Sociodemographic and Clinical Data Form, the Adult ADHD Self-Report Scale (ASRS), and the Mind Excessively Wandering Scale (MEWS) were applied. Routine psychiatric assessments in the 1st, 2nd, and 3rd months of pharmacological treatment were carried out by a psychiatrist. The pre-treatment MEWS score of the ADHD patients was 26.09 ± 1.92, which significantly decreased to 12.78 ± 2.54 post-treatment (F = 715.250,  < .001). A statistically significant difference was identified between the mean pre-treatment ASRS total score (44.07 ± 10.09) and post-treatment score (27.34 ± 11.22; F = 50.364,  < .001). A lifetime history of alcohol/substance use was positively associated with the MEWS score. ADHD pharmacotherapy led to significant reductions in MW. Recognizing the interaction between MW and ADHD could help in the design of more specific and comprehensive interventions.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Takım\",\"kind\":\"pubmed\",\"id\":\"39227056\",\"text\":\"p p Although mind-wandering (MW) is a part of attention deficit and hyperactivity disorder (ADHD), the impact of psychostimulants on excessive MW remains unclear. We aimed to elucidate how psychostimulants impact the MW of adult ADHD patients post treatment. This cross-sectional cohort study consisted of 54 randomly selected ADHD patients who applied to our psychiatry outpatient clinic and 40 healthy controls. The ADHD patients were administered methylphenidate or atomoxetine. A Semi-Structured Sociodemographic and Clinical Data Form, the Adult ADHD Self-Report Scale (ASRS), and the Mind Excessively Wandering Scale (MEWS) were applied. Routine psychiatric assessments in the 1st, 2nd, and 3rd months of pharmacological treatment were carried out by a psychiatrist. The pre-treatment MEWS score of the ADHD patients was 26.09 ± 1.92, which significantly decreased to 12.78 ± 2.54 post-treatment (F = 715.250,  < .001). A statistically significant difference was identified between the mean pre-treatment ASRS total score (44.07 ± 10.09) and post-treatment score (27.34 ± 11.22; F = 50.364,  < .001). A lifetime history of alcohol/substance use was positively associated with the MEWS score. ADHD pharmacotherapy led to significant reductions in MW. Recognizing the interaction between MW and ADHD could help in the design of more specific and comprehensive interventions.\"}]",
+      "t": 32438
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e8edc77329247df02e783db37",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_plasma_concentration",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005).",
+        "sourceId": "23104969",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "In 24 healthy volunteers, ethanol with dl-MPH raised early d-MPH plasma concentrations 44-99% versus dl-MPH alone."
+      },
+      "t": 50310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "In 24 healthy volunteers, ethanol with dl-MPH raised early d-MPH plasma concentrations 44-99% versus dl-MPH alone.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005).",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_plasma_concentration"
+      },
+      "t": 50310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e8edc77329247df02e783db37",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 50310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e9293718e8694bf46df5fa2c0",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_subjective_effects",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01).",
+        "sourceId": "23104969",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "In 24 healthy volunteers, ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect."
+      },
+      "t": 50310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "In 24 healthy volunteers, ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01).",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_subjective_effects"
+      },
+      "t": 50310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e9293718e8694bf46df5fa2c0",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 50310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e962d7254870e011ff44b7c05",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_plasma_concentration",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Ethanol increased the d-MPH area under the curve (AUC)(0-inf) by 21% following dl-MPH (P < 0.001) and 14% for d-MPH (P = 0.001).",
+        "sourceId": "23104969",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "In 24 healthy volunteers, ethanol raised d-MPH AUC 21% with dl-MPH and 14% with d-MPH."
+      },
+      "t": 50310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c5",
+        "text": "In 24 healthy volunteers, ethanol raised d-MPH AUC 21% with dl-MPH and 14% with d-MPH.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Ethanol increased the d-MPH area under the curve (AUC)(0-inf) by 21% following dl-MPH (P < 0.001) and 14% for d-MPH (P = 0.001).",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_plasma_concentration"
+      },
+      "t": 50310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e962d7254870e011ff44b7c05",
+      "summary": "record_claim completed: {\"id\":\"c5\"}",
+      "t": 50310
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34e9a0a71d5840e8e7de910952b",
+      "name": "record_claim",
+      "args": {
+        "outcome": "ces1_metabolism",
+        "quote": "These findings are consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+        "sourceId": "23104969",
+        "sourceKind": "pubmed",
+        "stance": "mechanism",
+        "text": "Findings consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH."
+      },
+      "t": 50310
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c6",
+        "text": "Findings consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+        "quote": "These findings are consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "mechanism",
+        "outcome": "ces1_metabolism"
+      },
+      "t": 50310
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34e9a0a71d5840e8e7de910952b",
+      "summary": "record_claim completed: {\"id\":\"c6\"}",
+      "t": 50310
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 50310
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 50310
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 50310
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 50311
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "not_found",
+      "t": 50311
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c5",
+      "result": "not_found",
+      "t": 50311
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c6",
+      "result": "matched",
+      "t": 50311
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote directly reports that 40% alcohol increased methylphenidate release, with 84% released in the first hour, matching the claim and pair exposure.",
+      "model": "muse-wonder-1.0",
+      "t": 80791
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "does_not_support",
+      "rationale": "The quote describes methylphenidate monotherapy pharmacology without alcohol co-exposure, so it does not establish an alcohol-methylphenidate interaction mechanism.",
+      "model": "muse-wonder-1.0",
+      "t": 80791
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote reports in 24 healthy volunteers that ethanol during dl-MPH absorption significantly elevated d-MPH concentrations by 44-99% versus the non-ethanol condition.",
+      "model": "muse-wonder-1.0",
+      "t": 80791
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c6",
+      "support": "does_not_support",
+      "rationale": "The claim describes l-MPH inhibiting d-MPH metabolism without mentioning ethanol co-exposure, so it does not describe the alcohol-methylphenidate pair interaction.",
+      "model": "muse-wonder-1.0",
+      "t": 80791
+    },
+    {
+      "type": "thinking",
+      "text": "Challenging 2 rejected claims",
+      "t": 80791
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a34f4625723e99cc79c0e5f0a955",
+      "name": "record_claim",
+      "args": {
+        "outcome": "increased_subjective_effects",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01). Plasma l-EPH concentrations exceeded those of l-MPH.",
+        "sourceId": "23104969",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect ratings."
+      },
+      "t": 94867
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c7",
+        "text": "Ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect ratings.",
+        "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01). Plasma l-EPH concentrations exceeded those of l-MPH.",
+        "source": {
+          "kind": "pubmed",
+          "id": "23104969"
+        },
+        "stance": "increases_risk",
+        "outcome": "increased_subjective_effects"
+      },
+      "t": 94867
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a34f4625723e99cc79c0e5f0a955",
+      "summary": "record_claim completed: {\"id\":\"c7\"}",
+      "t": 94867
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c7",
+      "result": "matched",
+      "t": 94868
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c7",
+      "support": "supports",
+      "rationale": "The quote reports that ethanol with dl-MPH significantly potentiated the subjective ratings of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect,\" matching the claimed increased-effect interaction.",
+      "model": "muse-wonder-1.0",
+      "t": 107148
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 113840
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 1.",
+      "t": 137454
+    },
+    {
+      "type": "thinking",
+      "text": "Made 17 external requests",
+      "t": 137454
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__methylphenidate",
+        "a": "alcohol",
+        "b": "methylphenidate",
+        "category": "other",
+        "depth": "limited",
+        "headline": {
+          "text": "The label reports faster methylphenidate release from extended-release capsules at 40% alcohol.",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "For the pinned extended-release capsule, the label reports 84% methylphenidate release in the first hour at 40% alcohol.",
+            "claimIds": [
+              "c1"
+            ]
+          },
+          {
+            "text": "In healthy volunteers ethanol with methylphenidate raised early plasma concentrations and potentiated high, good, like, stimulated and overall effect ratings.",
+            "claimIds": [
+              "c3",
+              "c7"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "no_human_data",
+            "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Methylphenidate and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states 40% alcohol increased methylphenidate release with 84% released in first hour.",
+            "quote": "At an alcohol concentration of 40%, there was an increase in the release rate of methylphenidate in the first hour, resulting in 84% of the methylphenidate being released.",
+            "source": {
+              "kind": "fda_label",
+              "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_early_release",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote directly reports that 40% alcohol increased methylphenidate release, with 84% released in the first hour, matching the claim and pair exposure.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c2",
+            "text": "Methylphenidate blocks reuptake of norepinephrine and dopamine into presynaptic neuron.",
+            "quote": "Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space.",
+            "source": {
+              "kind": "fda_label",
+              "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology"
+            },
+            "stance": "mechanism",
+            "outcome": "monoamine_reuptake_blockade",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The quote describes methylphenidate monotherapy pharmacology without alcohol co-exposure, so it does not establish an alcohol-methylphenidate interaction mechanism.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c3",
+            "text": "In 24 healthy volunteers, ethanol with dl-MPH raised early d-MPH plasma concentrations 44-99% versus dl-MPH alone.",
+            "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005).",
+            "source": {
+              "kind": "pubmed",
+              "id": "23104969"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_plasma_concentration",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote reports in 24 healthy volunteers that ethanol during dl-MPH absorption significantly elevated d-MPH concentrations by 44-99% versus the non-ethanol condition.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c4",
+            "text": "In 24 healthy volunteers, ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect.",
+            "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01).",
+            "source": {
+              "kind": "pubmed",
+              "id": "23104969"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_subjective_effects",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c5",
+            "text": "In 24 healthy volunteers, ethanol raised d-MPH AUC 21% with dl-MPH and 14% with d-MPH.",
+            "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). Ethanol increased the d-MPH area under the curve (AUC)(0-inf) by 21% following dl-MPH (P < 0.001) and 14% for d-MPH (P = 0.001).",
+            "source": {
+              "kind": "pubmed",
+              "id": "23104969"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_plasma_concentration",
+            "quoteCheck": "not_found",
+            "accepted": false
+          },
+          {
+            "id": "c6",
+            "text": "Findings consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+            "quote": "These findings are consistent with l-MPH competitively inhibiting presystemic CES1 metabolism of d-MPH.",
+            "source": {
+              "kind": "pubmed",
+              "id": "23104969"
+            },
+            "stance": "mechanism",
+            "outcome": "ces1_metabolism",
+            "quoteCheck": "matched",
+            "accepted": false,
+            "support": "does_not_support",
+            "judgeRationale": "The claim describes l-MPH inhibiting d-MPH metabolism without mentioning ethanol co-exposure, so it does not describe the alcohol-methylphenidate pair interaction.",
+            "judgeModel": "muse-wonder-1.0"
+          },
+          {
+            "id": "c7",
+            "text": "Ethanol with dl-MPH potentiated high, good, like, stimulated and overall effect ratings.",
+            "quote": "Twenty-four healthy volunteers received dl-MPH (0.3 mg/kg) or d-MPH (0.15 mg/kg), with or without ethanol (0.6 g/kg). During the absorption phase of dl-MPH, concomitant ethanol significantly elevated d-MPH plasma concentrations (44-99%; P < 0.005). Furthermore, immediately following the ethanol drink the subjective effects of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect\" were significantly potentiated (P ≤ 0.01). Plasma l-EPH concentrations exceeded those of l-MPH.",
+            "source": {
+              "kind": "pubmed",
+              "id": "23104969"
+            },
+            "stance": "increases_risk",
+            "outcome": "increased_subjective_effects",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote reports that ethanol with dl-MPH significantly potentiated the subjective ratings of \"high,\" \"good,\" \"like,\" \"stimulated,\" and overall \"effect,\" matching the claimed increased-effect interaction.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "10aa0dc0-bd0e-4927-a19a-8722d78ad67d#clinical_pharmacology",
+            "title": "Clinical Pharmacology",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10aa0dc0-bd0e-4927-a19a-8722d78ad67d",
+            "citation": "FDA label · Clinical Pharmacology",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "23104969",
+            "title": "Differential influences of ethanol on early exposure to racemic methylphenidate compared with dexmethylphenidate in humans.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23104969/",
+            "citation": "Patrick et al. · Drug metabolism and disposition: the biological fate of chemicals 2013",
+            "design": "other",
+            "year": 2013,
+            "sampleSize": 24,
+            "population": "healthy volunteers"
+          }
+        ],
+        "generatedAt": "2026-11-03T21:28:08.495Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 137454
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pair": "azithromycin__cefazolin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The retrieved studies give both drugs as part of a prophylaxis regimen but report no interaction between them.",
+      "searched": [
+        "\"azithromycin\"[tiab] AND \"cefazolin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

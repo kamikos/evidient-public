@@ -1,0 +1,419 @@
+{
+  "card": {
+    "pair": "alcohol__lorazepam",
+    "a": "alcohol",
+    "b": "lorazepam",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Lorazepam with alcohol increases CNS-depressant effects",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states lorazepam with alcohol produces increased CNS-depressant effects.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult combined alcohol-lorazepam CNS-depressant effects study found.",
+        "searched": [
+          "concomitant lorazepam ethanol psychomotor impairment crossover adults"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Lorazepam and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states lorazepam with alcohol produces increased CNS-depressant effects.",
+        "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+        "source": {
+          "kind": "fda_label",
+          "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that benzodiazepines including lorazepam produce increased CNS-depressant effects when administered with alcohol, matching the pair, direction, and stated certainty.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=247110f2-5468-4593-8d86-41f8c869e03d",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:53:28.956Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__lorazepam",
+      "at": "2026-11-03T19:52:06.872Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f81e1370e48238948f7eec60eb",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depression",
+        "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+        "sourceId": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states lorazepam with alcohol produces increased CNS-depressant effects."
+      },
+      "t": 7204
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states lorazepam with alcohol produces increased CNS-depressant effects.",
+        "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+        "source": {
+          "kind": "fda_label",
+          "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression"
+      },
+      "t": 7204
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f81e1370e48238948f7eec60eb",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 7204
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f822f17476a5933a39d494abb3",
+      "name": "search_pubmed",
+      "args": {
+        "query": "lorazepam alcohol interaction human study CNS depression sedation"
+      },
+      "t": 7204
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f822f17476a5933a39d494abb3",
+      "summary": "search_pubmed completed: {\"query\":\"lorazepam alcohol interaction human study CNS depression sedation\",\"pmids\":[\"30726003\",\"33232099\",\"33428370\"]}",
+      "t": 7700
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f8243f727e9d0946890d563ff2",
+      "name": "search_pubmed",
+      "args": {
+        "query": "lorazepam alcohol combination adults CNS depressant effects"
+      },
+      "t": 7700
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f8243f727e9d0946890d563ff2",
+      "summary": "search_pubmed completed: {\"query\":\"lorazepam alcohol combination adults CNS depressant effects\",\"pmids\":[\"30726003\",\"40152196\",\"33232099\",\"33428370\",\"32108325\"]}",
+      "t": 7965
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f83db57251b9d011c01d85b86a",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "30726003",
+          "33232099",
+          "33428370"
+        ]
+      },
+      "t": 15671
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f83db57251b9d011c01d85b86a",
+      "summary": "fetch_abstracts completed: []",
+      "t": 17147
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f8591077c7b120ffedd42f73e0",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "40152196",
+          "32108325"
+        ]
+      },
+      "t": 21374
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f8591077c7b120ffedd42f73e0",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"40152196\",\"title\":\"Phenobarbital Addition to Alcohol Withdrawal Treatment Offers Better Outcomes than Dexmedetomidine in Hospitalized Patients.\",\"journal\":\"Journal of intensive care medicine\",\"year\":\"2025\",\"abstractText\":\"BackgroundThis study directly compares outcomes of phenobarbital and dexmedetomidine as adjuncts to symptom-triggered benzodiazepine treatment for alcohol withdrawal syndrome (AWS).MethodsThis is a retrospective cohort analysis at a single tertiary referral institution in a major urban center in the United States. In hospitalized patients above 18 years with AWS between May 1, 2018, and July 31, 2021 we compared the hospital length of stay (LOS), ICU LOS, mechanical ventilation incidence and duration of patients who received dexmedetomidine versus phenobarbital as adjuncts to lorazepam-based treatment. Patients were divided into two cohorts based on treatment they received - dexmedetomidine/lorazepam (DEX) versus phenobarbital/lorazepam (PHENO). The use of phenobarbital or dexmedetomidine was left to the discretion of the treating bedside physician.ResultsOne hundred fifty-six patients met inclusion criteria with 102 patients (65%) in the DEX group and 54 patients (35%) in the PHENO group. The PHENO group had a lower probability of intubation (OR 0.33, 95% CI 0.15-0.70, p = 0.005) and shorter hospital LOS (IRR 0.45, 95% CI 0.31-0.64, p < 0.001), and ICU LOS (IRR 0.58, 95% CI 0.34-1.00, p = 0.050). For both hospital and ICU LOS, the PHENO group had shorter LOS than dexmedetomidine at lower doses of lorazepam (<3 mg), but this protective effect diminished at higher doses of lorazepam, at a rate of 10% (hospital LOS, IRR 1.10, 95% CI 1.05-1.16, p < 0.001) and 6% (ICU LOS, IRR 1.06, 95% CI 0.99-1.13, p = 0.074) per milligram increase in lorazepam.ConclusionsA symptom- triggered lorazepam regimen including early phenobarbital administration for severe alcohol withdrawal syndrome is associated with lower hospital LOS and need for intubation compared to a symptom triggered lorazepam regimen with dexmedetomidine adjunct.\",\"publicationTypes\":[\"Journal Article\",\"Comparative Study\"],\"firstAuthor\":\"Matecki\",\"kind\":\"pubmed\",\"id\":\"40152196\",\"text\":\"BackgroundThis study directly compares outcomes of phenobarbital and dexmedetomidine as adjuncts to symptom-triggered benzodiazepine treatment for alcohol withdrawal syndrome (AWS).MethodsThis is a retrospective cohort analysis at a single tertiary referral institution in a major urban center in the United States. In hospitalized patients above 18 years with AWS between May 1, 2018, and July 31, 2021 we compared the hospital length of stay (LOS), ICU LOS, mechanical ventilation incidence and duration of patients who received dexmedetomidine versus phenobarbital as adjuncts to lorazepam-based treatment. Patients were divided into two cohorts based on treatment they received - dexmedetomidine/lorazepam (DEX) versus phenobarbital/lorazepam (PHENO). The use of phenobarbital or dexmedetomidine was left to the discretion of the treating bedside physician.ResultsOne hundred fifty-six patients met inclusion criteria with 102 patients (65%) in the DEX group and 54 patients (35%) in the PHENO group. The PHENO group had a lower probability of intubation (OR 0.33, 95% CI 0.15-0.70, p = 0.005) and shorter hospital LOS (IRR 0.45, 95% CI 0.31-0.64, p < 0.001), and ICU LOS (IRR 0.58, 95% CI 0.34-1.00, p = 0.050). For both hospital and ICU LOS, the PHENO group had shorter LOS than dexmedetomidine at lower doses of lorazepam (<3 mg), but this protective effect diminished at higher doses of lorazepam, at a rate of 10% (hospital LOS, IRR 1.10, 95% CI 1.05-1.16, p < 0.001) and 6% (ICU LOS, IRR 1.06, 95% CI 0.99-1.13, p = 0.074) per milligram increase in lorazepam.ConclusionsA symptom- triggered lorazepam regimen including early phenobarbital administration for severe alcohol withdrawal syndrome is associated with lower hospital LOS and need for intubation compared to a symptom triggered lorazepam regimen with dexmedetomidine adjunct.\"},{\"pmid\":\"32108325\",\"title\":\"Benzodiazepines for treatment of patients with delirium excluding those who are cared for in an intensive care unit.\",\"journal\":\"The Cochrane database of systematic reviews\",\"year\":\"2020\",\"abstractText\":\"Delirium is a very common condition associated with significant morbidity, mortality, and costs. Current critical care guidelines recommend first and foremost the use of nonpharmacological strategies in both the prevention and treatment of delirium. Pharmacological interventions may augment these approaches and they are currently used widely in clinical practice to manage the symptoms of delirium. Benzodiazepines are currently used in clinical practice to treat behavioural disturbances associated with delirium but current guidelines do not recommend their use for this indication. The use of these medicines is controversial because there is uncertainty about whether they are effective for patients or have the potential to harm them.\\n\\nTo assess the effectiveness and safety of benzodiazepines in the treatment of delirium (excluding delirium related to withdrawal from alcohol or benzodiazepines) in any healthcare settings other than intensive care units (ICU).\\n\\nWe searched ALOIS: the Cochrane Dementia and Cognitive Improvement Group's Specialized Register up to 10 April 2019. ALOIS contains records of clinical trials identified from monthly searches of a number of major healthcare databases (including MEDLINE, Embase, PsycINFO, CINAHL, LILACS), numerous trial registries (including national, international and pharmaceutical registries), and grey literature sources.\\n\\nWe included randomised controlled trials (RCTs) conducted in healthcare settings that ranged from nursing homes and long-term care facilities to any hospital setting except for ICUs, involving adult patients with delirium excluding those with delirium related to alcohol or benzodiazepine withdrawal. Included RCTs had to assess the effect of benzodiazepines, at any dose and given by any route, compared with placebo or another drug intended to treat delirium.\\n\\nTwo review authors independently assessed study eligibility, extracted data, and assessed the risk of bias of included studies. We decided whether or not to pool data on the basis of clinical heterogeneity between studies. We used GRADE (Grades of Recommendation, Assessment, Development and Evaluation) methods to assess the quality of evidence.\\n\\nWe identified only two trials that satisfied the selection criteria. We did not pool the data because of the substantial clinical differences between the trials. In one trial, participants (n = 58) were patients in an acute palliative care unit with advanced cancer who had a mean age of 64 years. All of the participants had delirium, were treated with haloperidol, and were randomised to receive either lorazepam or placebo in combination with it. Due to very serious imprecision, all evidence was of low certainty. We were unable to determine whether there were clinically important differences in the severity of delirium (mean difference (MD) 2.10, 95% CI -0.96 to 5.16; n = 50), length of hospital admission (MD 0.00, 95% CI -3.45 to 3.45; n = 58), mortality from all causes (risk ratio (RR) 0.33, 95% CI 0.04 to 3.02; participants = 58) or any of a number of adverse events. Important effects could not be confirmed or excluded. The study authors did not report the length of the delirium episode. In the other trial, participants (n = 30) were patients in general medical wards with acquired immune deficiency syndrome (AIDS) who had a mean age of 39.2 years. Investigators compared three drug treatments: all participants had delirium, and were randomised to receive lorazepam, chlorpromazine, or haloperidol. Very low-certainty evidence was identified, and we could not determine whether lorazepam differed from either of the other treatments in the effect on severity of delirium, any adverse event, or mortality from all causes. The study authors did not report the length of the delirium episode or the length of hospital admission.\\n\\nThere is no enough evidence to determine whether benzodiazepines are effective when used to treat patients with delirium who are cared for in non-ICU settings. The available evidence does not support their routine use for this indication. Because of the scarcity of data from randomised controlled trials, further research is required to determine whether or not there is a role for benzodiazepines in the treatment of delirium in non-ICU settings.\",\"publicationTypes\":[\"Journal Article\",\"Meta-Analysis\",\"Research Support, Non-U.S. Gov't\",\"Systematic Review\"],\"firstAuthor\":\"Li\",\"kind\":\"pubmed\",\"id\":\"32108325\",\"text\":\"Delirium is a very common condition associated with significant morbidity, mortality, and costs. Current critical care guidelines recommend first and foremost the use of nonpharmacological strategies in both the prevention and treatment of delirium. Pharmacological interventions may augment these approaches and they are currently used widely in clinical practice to manage the symptoms of delirium. Benzodiazepines are currently used in clinical practice to treat behavioural disturbances associated with delirium but current guidelines do not recommend their use for this indication. The use of these medicines is controversial because there is uncertainty about whether they are effective for patients or have the potential to harm them.\\n\\nTo assess the effectiveness and safety of benzodiazepines in the treatment of delirium (excluding delirium related to withdrawal from alcohol or benzodiazepines) in any healthcare settings other than intensive care units (ICU).\\n\\nWe searched ALOIS: the Cochrane Dementia and Cognitive Improvement Group's Specialized Register up to 10 April 2019. ALOIS contains records of clinical trials identified from monthly searches of a number of major healthcare databases (including MEDLINE, Embase, PsycINFO, CINAHL, LILACS), numerous trial registries (including national, international and pharmaceutical registries), and grey literature sources.\\n\\nWe included randomised controlled trials (RCTs) conducted in healthcare settings that ranged from nursing homes and long-term care facilities to any hospital setting except for ICUs, involving adult patients with delirium excluding those with delirium related to alcohol or benzodiazepine withdrawal. Included RCTs had to assess the effect of benzodiazepines, at any dose and given by any route, compared with placebo or another drug intended to treat delirium.\\n\\nTwo review authors independently assessed study eligibility, extracted data, and assessed the risk of bias of included studies. We decided whether or not to pool data on the basis of clinical heterogeneity between studies. We used GRADE (Grades of Recommendation, Assessment, Development and Evaluation) methods to assess the quality of evidence.\\n\\nWe identified only two trials that satisfied the selection criteria. We did not pool the data because of the substantial clinical differences between the trials. In one trial, participants (n = 58) were patients in an acute palliative care unit with advanced cancer who had a mean age of 64 years. All of the participants had delirium, were treated with haloperidol, and were randomised to receive either lorazepam or placebo in combination with it. Due to very serious imprecision, all evidence was of low certainty. We were unable to determine whether there were clinically important differences in the severity of delirium (mean difference (MD) 2.10, 95% CI -0.96 to 5.16; n = 50), length of hospital admission (MD 0.00, 95% CI -3.45 to 3.45; n = 58), mortality from all causes (risk ratio (RR) 0.33, 95% CI 0.04 to 3.02; participants = 58) or any of a number of adverse events. Important effects could not be confirmed or excluded. The study authors did not report the length of the delirium episode. In the other trial, participants (n = 30) were patients in general medical wards with acquired immune deficiency syndrome (AIDS) who had a mean age of 39.2 years. Investigators compared three drug treatments: all participants had delirium, and were randomised to receive lorazepam, chlorpromazine, or haloperidol. Very low-certainty evidence was identified, and we could not determine whether lorazepam differed from either of the other treatments in the effect on severity of delirium, any adverse event, or mortality from all causes. The study authors did not report the length of the delirium episode or the length of hospital admission.\\n\\nThere is no enough evidence to determine whether benzodiazepines are effective when used to treat patients with delirium who are cared for in non-ICU settings. The available evidence does not support their routine use for this indication. Because of the scarcity of data from randomised controlled trials, further research is required to determine whether or not there is a role for benzodiazepines in the treatment of delirium in non-ICU settings.\"}]",
+      "t": 21728
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f8731c73b7a9c4d4b6e236ce74",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "lorazepam alcohol interaction human study CNS depression sedation",
+          "lorazepam alcohol combination adults CNS depressant effects"
+        ],
+        "text": "No adult human study of combined alcohol-lorazepam CNS-depressant effects was found."
+      },
+      "t": 28568
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f8731c73b7a9c4d4b6e236ce74",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 28568
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f896737669b1f4cac903c3852a",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "lorazepam alcohol combination adults CNS depressant effects"
+        ],
+        "text": "No adult combined alcohol lorazepam CNS depression study found."
+      },
+      "t": 37504
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f896737669b1f4cac903c3852a",
+      "summary": "record_gap completed: {\"error\":\"A gap requires a completed search returning zero results or fetched abstracts that do not address both substances.\"}",
+      "t": 37504
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f8c66d711392e148064e988386",
+      "name": "search_pubmed",
+      "args": {
+        "query": "concomitant lorazepam ethanol psychomotor impairment crossover adults"
+      },
+      "t": 50891
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f8c66d711392e148064e988386",
+      "summary": "search_pubmed completed: {\"query\":\"concomitant lorazepam ethanol psychomotor impairment crossover adults\",\"pmids\":[]}",
+      "t": 51354
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2f8e74f7571abf6b72982531eff",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "concomitant lorazepam ethanol psychomotor impairment crossover adults"
+        ],
+        "text": "No adult combined alcohol-lorazepam CNS-depressant effects study found."
+      },
+      "t": 59010
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult combined alcohol-lorazepam CNS-depressant effects study found.",
+        "searched": [
+          "concomitant lorazepam ethanol psychomotor impairment crossover adults"
+        ]
+      },
+      "t": 59010
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2f8e74f7571abf6b72982531eff",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 59010
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 66356
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 66356
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote explicitly states that benzodiazepines including lorazepam produce increased CNS-depressant effects when administered with alcohol, matching the pair, direction, and stated certainty.",
+      "model": "muse-wonder-1.0",
+      "t": 69557
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 69557
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 2 card sentences against their claims; dropped 0.",
+      "t": 79169
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__lorazepam",
+        "a": "alcohol",
+        "b": "lorazepam",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Lorazepam with alcohol increases CNS-depressant effects",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states lorazepam with alcohol produces increased CNS-depressant effects.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult combined alcohol-lorazepam CNS-depressant effects study found.",
+            "searched": [
+              "concomitant lorazepam ethanol psychomotor impairment crossover adults"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Lorazepam and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states lorazepam with alcohol produces increased CNS-depressant effects.",
+            "quote": "The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics.",
+            "source": {
+              "kind": "fda_label",
+              "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depression",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that benzodiazepines including lorazepam produce increased CNS-depressant effects when administered with alcohol, matching the pair, direction, and stated certainty.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "247110f2-5468-4593-8d86-41f8c869e03d#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=247110f2-5468-4593-8d86-41f8c869e03d",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:53:28.956Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 82084
+    }
+  ]
+}

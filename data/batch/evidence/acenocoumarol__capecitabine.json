@@ -1,0 +1,133 @@
+{
+  "card": {
+    "pair": "acenocoumarol__capecitabine",
+    "a": "acenocoumarol",
+    "b": "capecitabine",
+    "origin": "batch",
+    "category": "bleeding",
+    "headline": {
+      "text": "The FDA capecitabine label reports potentially fatal bleeding with vitamin K antagonists, including the class containing acenocoumarol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The boxed warning reports altered coagulation and bleeding with oral vitamin K antagonists.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "A case report specifically describes rectal bleeding and elevated INR with acenocoumarol plus capecitabine.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA capecitabine label reports altered coagulation or bleeding, including death, with oral vitamin K antagonists, the class containing acenocoumarol.",
+        "quote": "Altered coagulation parameters and/or bleeding, including death, have been reported in patients taking capecitabine concomitantly with oral vitamin K antagonists.",
+        "source": {
+          "kind": "fda_label",
+          "id": "0b59e98c-5b34-4b93-90f6-20526f4d4f88#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The capecitabine boxed warning reports altered coagulation and bleeding including death with oral vitamin K antagonists, a class that includes acenocoumarol.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A case report describes rectal bleeding and increased INR in an 80-year-old woman taking acenocoumarol and capecitabine.",
+        "quote": "We describe an 80-year-old woman who presented with rectal bleeding and an increased INR due to the concomitant use of acenocoumarol and capecitabine for atrial fibrillation and metastatic cecal cancer, respectively.",
+        "source": {
+          "kind": "pubmed",
+          "id": "22759711"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The case report abstract describes exactly this 80-year-old patient with rectal bleeding and raised INR on acenocoumarol plus capecitabine.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "0b59e98c-5b34-4b93-90f6-20526f4d4f88#boxed_warning",
+        "title": "capecitabine: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "0b59e98c-5b34-4b93-90f6-20526f4d4f88#warnings_and_cautions",
+        "title": "capecitabine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "0b59e98c-5b34-4b93-90f6-20526f4d4f88#drug_interactions",
+        "title": "capecitabine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0b59e98c-5b34-4b93-90f6-20526f4d4f88",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "22759711",
+        "title": "[Increased INR from concomitant use of acenocoumarol and capecitabine].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22759711/",
+        "citation": "1876-8784 156 26 2012 Nederlands tijdschrift voor geneeskunde Ned Tijdschr Geneeskd",
+        "language": "en",
+        "design": "case_report"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Acenocoumarol or Capecitabine, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Acenocoumarol and Capecitabine, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.536Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

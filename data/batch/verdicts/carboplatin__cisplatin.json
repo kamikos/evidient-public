@@ -1,0 +1,40 @@
+{
+ "pair": "carboplatin__cisplatin",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The quote matches the claim verbatim, and the claim keeps the prior-therapy framing."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The French quote and its English rendering match the claim."
+  },
+  {
+   "id": "c3",
+   "support": "supports",
+   "rationale": "The quote states increased peripheral neurotoxicity incidence after prior cisplatin."
+  },
+  {
+   "id": "c4",
+   "support": "supports",
+   "rationale": "The contraindication quote names severe allergic reactions to cisplatin."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  }
+ ]
+}

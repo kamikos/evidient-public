@@ -1,0 +1,156 @@
+{
+  "card": {
+    "pair": "alcohol__nalbuphine",
+    "a": "alcohol",
+    "b": "nalbuphine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA boxed warning links nalbuphine with alcohol to profound sedation, respiratory depression, coma and death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label also describes increased sedation from alcohol with nalbuphine.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA boxed warning says opioids such as nalbuphine with alcohol may cause profound sedation, respiratory depression, coma and death.",
+        "quote": "Concomitant use of opioids with benzodiazepines or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "a99fe500-f52b-483c-807c-178f1a78a02b#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The nalbuphine boxed warning states concomitant opioid use with CNS depressants including alcohol may cause profound sedation, respiratory depression, coma and death.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French label says alcohol increases nalbuphine's sedative effect.",
+        "quote": "Majoration par l'alcool de l'effet sédatif de la nalbuphine.",
+        "quoteEnglish": "Alcohol increases the sedative effect of nalbuphine.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:61214830#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French label's alcohol (drink or excipient) entry states alcohol increases nalbuphine's sedative effect, and the translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "a99fe500-f52b-483c-807c-178f1a78a02b#boxed_warning",
+        "title": "nalbuphine: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a99fe500-f52b-483c-807c-178f1a78a02b",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a99fe500-f52b-483c-807c-178f1a78a02b#warnings",
+        "title": "nalbuphine: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a99fe500-f52b-483c-807c-178f1a78a02b",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a99fe500-f52b-483c-807c-178f1a78a02b#precautions",
+        "title": "nalbuphine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a99fe500-f52b-483c-807c-178f1a78a02b",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a99fe500-f52b-483c-807c-178f1a78a02b#drug_interactions",
+        "title": "nalbuphine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a99fe500-f52b-483c-807c-178f1a78a02b",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:61214830#4.5",
+        "title": "NALBUPHINE RENAUDIN 20 mg/2 mL, solution injectable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61214830/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "16959357",
+        "title": "Submicron lipid emulsion as a drug delivery system for nalbuphine and its prodrugs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16959357/",
+        "citation": "0168-3659 115 2 2006 Oct 10 Journal of controlled release : official journal of the Controlled Release Society J Control Release",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "9397567",
+        "title": "Tissue distribution of ketamine in a mixed drug fatality.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9397567/",
+        "citation": "0022-1198 42 6 1997 Nov Journal of forensic sciences J Forensic Sci",
+        "language": "en",
+        "design": "case_report"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Nalbuphine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.597Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

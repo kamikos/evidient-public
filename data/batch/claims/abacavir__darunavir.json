@@ -1,0 +1,60 @@
+{
+  "pair": "abacavir__darunavir",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA darunavir label lists abacavir among medications without clinically significant interactions with darunavir/ritonavir and states no dosage adjustment is needed.",
+      "quote": "No dosage adjustments are recommended when darunavir/ritonavir is co-administered with the following medications: atazanavir, dolutegravir, efavirenz, etravirine, nevirapine, nucleoside reverse transcriptase inhibitors (abacavir, emtricitabine, emtricitabine/tenofovir alafenamide, lamivudine, stavudine, tenofovir disoproxil fumarate, zidovudine), pitavastatin, raltegravir, ranitidine, or rilpivirine.",
+      "sourceId": "e80e44f8-1987-4b78-a63d-a4e4d5122ddb#drug_interactions",
+      "stance": "no_effect_observed",
+      "outcome": "no_interaction"
+    },
+    {
+      "id": "c2",
+      "text": "The French darunavir label says no interaction is expected between boosted darunavir and abacavir or other NRTIs, based on their elimination routes.",
+      "quote": "Sur la base des différentes voies d’élimination des autres INTI, c’est-à-dire zidovudine, emtricitabine, stavudine et lamivudine, principalement excrétés par le rein, et l’abacavir, pour lesquels le métabolisme n’est pas dépendant du CYP450, aucune interaction n’est attendue entre ces médicaments et le darunavir boosté.",
+      "quoteEnglish": "Based on the different elimination routes of the other NRTIs, namely zidovudine, emtricitabine, stavudine and lamivudine, mainly excreted by the kidney, and abacavir, whose metabolism is not CYP450-dependent, no interaction is expected between these drugs and boosted darunavir.",
+      "sourceId": "FR:60803434#4.5",
+      "stance": "mechanism",
+      "outcome": "no_interaction"
+    }
+  ],
+  "headline": {
+    "text": "The FDA darunavir label lists abacavir among medications without clinically significant interactions with darunavir/ritonavir (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA label states no dosage adjustment is needed for abacavir with darunavir/ritonavir.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    {
+      "text": "The French label says no interaction is expected between abacavir and boosted darunavir.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "mechanism": [
+    {
+      "text": "The French label bases the expectation on abacavir metabolism not depending on CYP450.",
+      "claimIds": [
+        "c2"
+      ]
+    }
+  ],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"abacavir\"[tiab] AND \"darunavir\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

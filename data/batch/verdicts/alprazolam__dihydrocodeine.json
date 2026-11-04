@@ -1,0 +1,30 @@
+{
+  "pair": "alprazolam__dihydrocodeine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The alprazolam label says benzodiazepines including alprazolam with opioids may cause profound sedation, respiratory depression, coma and death; dihydrocodeine is an opioid."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The French dihydrocodeine SmPC attributes increased risk of sedation, respiratory depression, coma and death with benzodiazepines to additive CNS depression; the translation is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "mechanism.0",
+      "support": "supports"
+    }
+  ]
+}

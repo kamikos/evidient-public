@@ -1,0 +1,20 @@
+{
+  "pair": "cefaclor__chlortetracycline",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The packet contains only cefaclor label sections that do not mention chlortetracycline, and the PubMed search returned no records.",
+      "searched": [
+        "\"cefaclor\"[tiab] AND \"chlortetracycline\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

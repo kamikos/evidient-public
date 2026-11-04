@@ -1,0 +1,147 @@
+{
+  "card": {
+    "pair": "alcohol__zuranolone",
+    "a": "alcohol",
+    "b": "zuranolone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says alcohol may add to zuranolone's CNS depression and psychomotor impairment.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The crossover trial found increased cognitive effects without increased duration and reported no pharmacokinetic interactions.",
+        "claimIds": [
+          "c2",
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The FDA label attributes increased impairment to additive pharmacological effects.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says alcohol with zuranolone may increase psychomotor impairment or CNS depression through additive pharmacological effects.",
+        "quote": "Due to additive pharmacological effects, the concomitant use of CNS depressant drugs, including alcohol, may increase impairment of psychomotor performance or CNS depressant effects.",
+        "source": {
+          "kind": "fda_label",
+          "id": "f18e53b0-d0bb-422d-8de7-ab64b7292b29#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The interaction table states alcohol, through additive pharmacological effects, may increase psychomotor impairment or CNS depressant effects.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A randomized crossover trial reported greater cognitive effects with zuranolone and ethanol than with single-agent administration, without longer duration.",
+        "quote": "Coadministration with alprazolam/ethanol increased the magnitude, but not the duration, of effects compared with single-agent administration.",
+        "source": {
+          "kind": "pubmed",
+          "id": "39394685"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The phase 1 randomized crossover abstract states coadministration with alprazolam/ethanol increased the magnitude but not the duration of cognitive effects versus single agents, and separately reports worsened decline with ethanol.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "The zuranolone crossover trial, which evaluated ethanol and alprazolam combinations, reported no pharmacokinetic interactions.",
+        "quote": "No pharmacokinetic interactions were observed.",
+        "source": {
+          "kind": "pubmed",
+          "id": "39394685"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "pharmacokinetic_interaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The same trial abstract states no pharmacokinetic interactions were observed.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "f18e53b0-d0bb-422d-8de7-ab64b7292b29#warnings_and_cautions",
+        "title": "zuranolone: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f18e53b0-d0bb-422d-8de7-ab64b7292b29",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "f18e53b0-d0bb-422d-8de7-ab64b7292b29#drug_interactions",
+        "title": "zuranolone: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f18e53b0-d0bb-422d-8de7-ab64b7292b29",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "39394685",
+        "title": "Cognitive effects, pharmacokinetics, and safety of zuranolone administered alone or with alprazolam or ethanol in healthy adults in a phase 1 trial.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39394685/",
+        "citation": "1461-7285 38 12 2024 Dec Journal of psychopharmacology (Oxford, England) J Psychopharmacol",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40291447",
+        "title": "Insilico Unveiling the potential biochemical effects of selected heterocyclic compounds as human Type-A &#x3b3;-aminobutyric acid (GABA A) Modulator: AnApproach.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40291447/",
+        "citation": "2215-017X 46 2025 Jun Biotechnology reports (Amsterdam, Netherlands) Biotechnol Rep (Amst)",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Zuranolone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.631Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

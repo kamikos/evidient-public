@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__lasmiditan",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Under its CNS depression heading the label says lasmiditan may cause CNS depression and should be used with caution with alcohol."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The label states concomitant lasmiditan and alcohol has not been evaluated in clinical studies."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

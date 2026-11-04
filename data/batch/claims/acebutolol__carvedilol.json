@@ -1,0 +1,20 @@
+{
+  "pair": "acebutolol__carvedilol",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "A review lists both beta-blockers as CYP2D6 substrates without describing an interaction between them; no human study was found.",
+      "searched": [
+        "\"acebutolol\"[tiab] AND \"carvedilol\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

@@ -1,0 +1,128 @@
+{
+  "card": {
+    "pair": "amphetamine__bupropion",
+    "a": "amphetamine",
+    "b": "bupropion",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "A mouse study reports that bupropion blunted D-amphetamine-related anxiety-like effects.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The abstract reports an animal finding, with no human combination outcome.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "In mice, bupropion pretreatment blunted D-amphetamine's acute anxiety-like effects and development of tolerance and cross-tolerance.",
+        "quote": "We observed that acute anxiogenic effects of nicotine and D-amphetamine as well as the development of tolerance and cross-tolerance to their effects were blunted by a pretreatment with a nonactive dose of bupropion (5 mg/kg, i.p.).",
+        "source": {
+          "kind": "pubmed",
+          "id": "19298697"
+        },
+        "stance": "uncertain",
+        "outcome": "anxiety",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The mouse abstract reports bupropion pretreatment blunted D-amphetamine's acute anxiogenic effects and tolerance/cross-tolerance, and the claim labels it a mouse finding.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "86530199-999b-9f92-b1bc-b8515ec829f3#contraindications",
+        "title": "bupropion: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86530199-999b-9f92-b1bc-b8515ec829f3",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "86530199-999b-9f92-b1bc-b8515ec829f3#drug_interactions",
+        "title": "bupropion: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86530199-999b-9f92-b1bc-b8515ec829f3",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24259638",
+        "title": "A review of the pathophysiology, etiology, and treatment of attention-deficit hyperactivity disorder (ADHD).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24259638/",
+        "citation": "1542-6270 48 2 2014 Feb The Annals of pharmacotherapy Ann Pharmacother",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "36467081",
+        "title": "Treatment of ADHD: Drugs, psychological therapies, devices, complementary and alternative methods as well as the trends in clinical trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36467081/",
+        "citation": "1663-9812 13 2022 Frontiers in pharmacology Front Pharmacol",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "19298697",
+        "title": "Effects of co-administration of bupropion and nicotine or D-amphetamine on the elevated plus maze test in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19298697/",
+        "citation": "0022-3573 61 4 2009 Apr The Journal of pharmacy and pharmacology J Pharm Pharmacol",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "studies_only",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amphetamine or Bupropion, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amphetamine and Bupropion, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet provides no human study result for this combination; the MAOI label warnings do not describe amphetamine.",
+        "searched": [
+          "\"amphetamine\"[tiab] AND \"bupropion\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.647Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

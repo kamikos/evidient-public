@@ -1,0 +1,20 @@
+{
+  "pair": "celecoxib__clonazepam",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The clonazepam label sections describe opioids, alcohol and phenytoin, and none names celecoxib; no human study was found.",
+      "searched": [
+        "\"celecoxib\"[tiab] AND \"clonazepam\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

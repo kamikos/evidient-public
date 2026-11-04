@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__doxepin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The interaction table lists alcohol with 'Sedative effects may be increased with doxepin'."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

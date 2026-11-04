@@ -1,0 +1,20 @@
+{
+  "pair": "cefadroxil__clindamycin",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The FDA cefadroxil sections do not mention clindamycin, and the PubMed records found do not study the two together as a pair.",
+      "searched": [
+        "\"cefadroxil\"[tiab] AND \"clindamycin\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "pair":"alcohol__clozapine","curator":"gpt-6.1-sol",
+  "claims":[{"id":"c1","text":"The French label says alcohol can potentiate clozapine's sedative effect.","quote":"La consommation d’alcool doit être évitée pendant le traitement par clozapine, car il peut potentialiser l’effet sédatif.","quoteEnglish":"Alcohol consumption must be avoided during clozapine treatment because it can potentiate the sedative effect.","sourceId":"FR:61247556#4.5","stance":"increases_risk","outcome":"cns_depression"}],
+  "headline":{"text":"The French label says alcohol can potentiate clozapine sedation.","claimIds":["c1"]},
+  "reported":[{"text":"The French label describes increased sedation with alcohol during clozapine treatment.","claimIds":["c1"]}],"mechanism":[],"category":"cns_depression","gaps":[]
+}

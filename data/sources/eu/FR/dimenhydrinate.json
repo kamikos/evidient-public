@@ -1,0 +1,28 @@
+{
+  "inn": "dimenhydrinate",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60173964",
+  "product": "NAUSICALM ADULTES 50 mg, gélule",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60173964/extrait",
+  "retrievedAt": "2026-11-04T08:43:54.572Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "9f9b2880b3c13813e42ce9580dd8423bc38a2153cfc778bb2e2ca263ae78c791",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nMises en garde spéciales\n\nCe médicament contient du saccharose. Son utilisation est déconseillée chez les patients présentant une intolérance au fructose, un syndrome de malabsorption du glucose et du galactose ou un déficit en sucrase/isomaltase.\n\nPrécautions d'emploi\n\nPar prudence, ne pas utiliser ce médicament en cas d'asthme bronchique.\n\nLe dimenhydrinate doit être utilisé avec prudence :\n\n· chez le sujet âgé présentant :\n\no une plus grande sensibilité à l'hypotension orthostatique, aux vertiges et à la sédation,\n\no une constipation chronique (risque d'iléus paralytique),\n\no une éventuelle hypertrophie prostatique;\n\n· dans les insuffisances hépatiques et/ou rénales sévères, en raison du risque d'accumulation.\n\nDes précautions doivent être prises en cas d'association avec certains antibiotiques ototoxiques, le dimenhydrinate pouvant masquer les symptômes d'une ototoxicité.\n\nLa prise de boissons alcoolisées et de médicaments contenant de l'alcool (voir rubrique 4.5) pendant le traitement est fortement déconseillée.\n\nLe risque d’abus et de pharmacodépendance est faible. Toutefois, des cas d’abus et de pharmacodépendance ont été rapportés principalement chez des adolescents ou des jeunes adultes à des fins récréatives et/ou chez des patients souffrant de troubles psychotiques ou ayant des antécédents d’abus et/ou de pharmacodépendance.\n\nLa survenue de signes ou symptômes évoquant un usage abusif du dimenhydrinate doit faire l’objet d’une surveillance attentive.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60173964/extrait#tabpanel-rcp-panel",
+      "sha256": "2abdd83f9c15300b3bbe1bc670d76821562815ca6c4d49608eb23bebf4a6dddd"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAssociations déconseillées\n\n+ Alcool\n\nMajoration par l'alcool de l'effet sédatif des antihistaminiques H1. L'altération de la vigilance peut rendre dangereuses la conduite de véhicules et l'utilisation de machines.\n\nEviter la prise de boissons alcoolisées et de médicaments contenant de l'alcool.\n\nAssociations à prendre en compte\n\n+ Atropine et autres substances atropiniques (antidépresseurs imipraminiques, antiparkinsoniens anticholinergiques, antispasmodiques atropiniques, disopyramide, neuroleptiques phénothiaziniques)\n\nAddition des effets indésirables atropiniques à type de rétention urinaire, constipation, sécheresse de la bouche.\n\n+ Autres dépresseurs du système nerveux central : dérivés morphiniques (analgésiques, antitussifs et traitements de substitution), benzodiazépines, barbituriques, anxiolytiques autres que benzodiazépines, hypnotiques, neuroleptiques, antidépresseurs sédatifs, antihypertenseurs centraux, baclofène, thalidomide\n\nMajoration de la dépression centrale. L'altération de la vigilance peut rendre dangereuses la conduite de véhicule et l'utilisation de machines.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60173964/extrait#tabpanel-rcp-panel",
+      "sha256": "e94017e6cd54a8edc7fdf37cb33451318d42a2d946a79194d27eb16d30aab444"
+    }
+  ]
+}

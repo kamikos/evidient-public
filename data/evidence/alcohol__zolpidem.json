@@ -1,0 +1,573 @@
+{
+  "card": {
+    "pair": "alcohol__zolpidem",
+    "a": "alcohol",
+    "b": "zolpidem",
+    "category": "cns_depression",
+    "depth": "human_studies",
+    "headline": {
+      "text": "Alcohol and zolpidem together show additive adverse effects on psychomotor performance",
+      "claimIds": [
+        "c2",
+        "c3"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states alcohol and oral zolpidem showed an additive adverse effect on psychomotor performance.",
+        "claimIds": [
+          "c2"
+        ]
+      },
+      {
+        "text": "Combined alcohol and zolpidem impaired test battery performance in healthy men at peak effect.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [],
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Zolpidem and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The label states zolpidem with CNS depressants including alcohol has additive CNS-depressant effects.",
+        "quote": "• CNS depressants, including alcohol: Possible adverse additive CNS-depressant effects ( 5.1 , 7.1 )",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "does_not_support because the quote qualifies the additive CNS-depressant effects as only possible, while the claim presents them as definite, overstating certainty.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      },
+      {
+        "id": "c2",
+        "text": "The label states additive adverse psychomotor effect between alcohol and oral zolpidem was demonstrated.",
+        "quote": "An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see WARNINGS AND PRECAUTIONS (5.1) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote explicitly states that an additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated, directly supporting the claim and the increases_risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "Combined alcohol and zolpidem impaired test-battery performance in healthy men at peak effect.",
+        "quote": "Skills performance impairment after acute doses of zolpidem (a short-acting, nonbenzodiazepine hypnotic), alone and with alcohol, was evaluated in 24 subjects. The study was designed to test whether the effects of zolpidem and alcohol are simply additive or reflect potentiation. Healthy male volunteers participated in a randomized, six-way crossover study of placebo, zolpidem 10 mg, or zolpidem 15 mg in combination with a placebo beverage or an alcohol dose selected to attain a peak blood alcohol concentration of 0.08% (drug administered double-blind; beverages administered single-blind). A laboratory test battery of four tasks measured concurrent information processing ability (divided attention task), information processing rate (visual backward masking task), immediate memory (Sternberg task), and sustained attention (vigilance task). The battery was repeated three times to measure peak (+45 minutes), postpeak (+130 minutes), and residual (+230 minutes) treatment effects after each dosing. Performance on each test-battery task was significantly impaired (p < .05) by both alcohol and zolpidem (combined and each given alone) during the peak-effect assessment.",
+        "source": {
+          "kind": "pubmed",
+          "id": "7615484"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeRationale": "The quote reports in 24 healthy male volunteers that alcohol plus zolpidem significantly impaired each test-battery task at the peak-effect assessment, supporting the combined-exposure claim and increased-risk stance.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": true
+      },
+      {
+        "id": "c4",
+        "text": "Additive alcohol effects occurred with zolpidem 10 mg, without potentiation in tested skills.",
+        "quote": "Analysis of variance tests revealed significant main effects of alcohol and zolpidem, but no significant alcohol-by-drug interactions were found for any measure of skills performance. In general, additive effects of alcohol were detected with zolpidem 10 mg but not with zolpidem 15 mg. Although some additive effects of alcohol on performance skills were seen with the lower 10-mg dose of zolpidem, no nonadditive effects were found. That is, alcohol does not appear to potentiate the effects of zolpidem on the various performance skills tested in this population and at the doses and times evaluated.",
+        "source": {
+          "kind": "pubmed",
+          "id": "7615484"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "does_not_support",
+        "judgeRationale": "Does not support: the quote reports a measured finding of additive effects at 10 mg with no potentiation, rather than explicit uncertainty about the combination, so the uncertain stance mismatches.",
+        "judgeModel": "muse-wonder-1.0",
+        "accepted": false
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+        "title": "Drug Interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25e71199-c55d-4cc6-8388-b309d654d2b0",
+        "citation": "FDA label · Drug Interactions",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "7615484",
+        "title": "The acute effects of zolpidem, administered alone and with alcohol, on cognitive and psychomotor function.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7615484/",
+        "citation": "Wilkinson et al. · The Journal of clinical psychiatry 1995",
+        "design": "rct",
+        "year": 1995,
+        "sampleSize": 24,
+        "population": "Healthy male volunteers"
+      }
+    ],
+    "generatedAt": "2026-11-03T19:41:58.036Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c2"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alcohol__zolpidem",
+      "at": "2026-11-03T19:40:35.532Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+      ],
+      "t": 1
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2eda17274f0b1b5966661874134",
+      "name": "record_claim",
+      "args": {
+        "outcome": "cns_depression",
+        "quote": "• CNS depressants, including alcohol: Possible adverse additive CNS-depressant effects ( 5.1 , 7.1 )",
+        "sourceId": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states zolpidem with CNS depressants including alcohol has additive CNS-depressant effects."
+      },
+      "t": 11686
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "The label states zolpidem with CNS depressants including alcohol has additive CNS-depressant effects.",
+        "quote": "• CNS depressants, including alcohol: Possible adverse additive CNS-depressant effects ( 5.1 , 7.1 )",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression"
+      },
+      "t": 11686
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2eda17274f0b1b5966661874134",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 11686
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2eda4bb707d94b981df1d9a94e8",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see WARNINGS AND PRECAUTIONS (5.1) ].",
+        "sourceId": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "The label states additive adverse psychomotor effect between alcohol and oral zolpidem was demonstrated."
+      },
+      "t": 11686
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c2",
+        "text": "The label states additive adverse psychomotor effect between alcohol and oral zolpidem was demonstrated.",
+        "quote": "An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see WARNINGS AND PRECAUTIONS (5.1) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 11686
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2eda4bb707d94b981df1d9a94e8",
+      "summary": "record_claim completed: {\"id\":\"c2\"}",
+      "t": 11686
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2eda83c74909c8bf45037f49161",
+      "name": "search_pubmed",
+      "args": {
+        "query": "zolpidem alcohol psychomotor performance interaction human study"
+      },
+      "t": 11686
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2eda83c74909c8bf45037f49161",
+      "summary": "search_pubmed completed: {\"query\":\"zolpidem alcohol psychomotor performance interaction human study\",\"pmids\":[\"7615484\"]}",
+      "t": 11971
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2eda97c76d2bb61342e7622fa60",
+      "name": "search_pubmed",
+      "args": {
+        "query": "zolpidem alcohol combination adults CNS depression psychomotor"
+      },
+      "t": 11971
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2eda97c76d2bb61342e7622fa60",
+      "summary": "search_pubmed completed: {\"query\":\"zolpidem alcohol combination adults CNS depression psychomotor\",\"pmids\":[]}",
+      "t": 12516
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2edc65476348dc1e56aa817b312",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "7615484"
+        ]
+      },
+      "t": 22027
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2edc65476348dc1e56aa817b312",
+      "summary": "fetch_abstracts completed: [{\"pmid\":\"7615484\",\"title\":\"The acute effects of zolpidem, administered alone and with alcohol, on cognitive and psychomotor function.\",\"journal\":\"The Journal of clinical psychiatry\",\"year\":\"1995\",\"abstractText\":\"Skills performance impairment after acute doses of zolpidem (a short-acting, nonbenzodiazepine hypnotic), alone and with alcohol, was evaluated in 24 subjects. The study was designed to test whether the effects of zolpidem and alcohol are simply additive or reflect potentiation.\\n\\nHealthy male volunteers participated in a randomized, six-way crossover study of placebo, zolpidem 10 mg, or zolpidem 15 mg in combination with a placebo beverage or an alcohol dose selected to attain a peak blood alcohol concentration of 0.08% (drug administered double-blind; beverages administered single-blind). A laboratory test battery of four tasks measured concurrent information processing ability (divided attention task), information processing rate (visual backward masking task), immediate memory (Sternberg task), and sustained attention (vigilance task). The battery was repeated three times to measure peak (+45 minutes), postpeak (+130 minutes), and residual (+230 minutes) treatment effects after each dosing.\\n\\nPerformance on each test-battery task was significantly impaired (p < .05) by both alcohol and zolpidem (combined and each given alone) during the peak-effect assessment. Residual effects were not observed, with the exception of significant alcohol and drug effects on divided attention performance (p < .05). Analysis of variance tests revealed significant main effects of alcohol and zolpidem, but no significant alcohol-by-drug interactions were found for any measure of skills performance. In general, additive effects of alcohol were detected with zolpidem 10 mg but not with zolpidem 15 mg.\\n\\nAlthough some additive effects of alcohol on performance skills were seen with the lower 10-mg dose of zolpidem, no nonadditive effects were found. That is, alcohol does not appear to potentiate the effects of zolpidem on the various performance skills tested in this population and at the doses and times evaluated. With the exception of persisting deficits (at 4 hours postdose) on the more demanding divided attention task, all other findings were consistent with evidence that zolpidem is a short-acting hypnotic drug.\",\"publicationTypes\":[\"Clinical Trial\",\"Comparative Study\",\"Journal Article\",\"Randomized Controlled Trial\",\"Research Support, Non-U.S. Gov't\"],\"firstAuthor\":\"Wilkinson\",\"kind\":\"pubmed\",\"id\":\"7615484\",\"text\":\"Skills performance impairment after acute doses of zolpidem (a short-acting, nonbenzodiazepine hypnotic), alone and with alcohol, was evaluated in 24 subjects. The study was designed to test whether the effects of zolpidem and alcohol are simply additive or reflect potentiation.\\n\\nHealthy male volunteers participated in a randomized, six-way crossover study of placebo, zolpidem 10 mg, or zolpidem 15 mg in combination with a placebo beverage or an alcohol dose selected to attain a peak blood alcohol concentration of 0.08% (drug administered double-blind; beverages administered single-blind). A laboratory test battery of four tasks measured concurrent information processing ability (divided attention task), information processing rate (visual backward masking task), immediate memory (Sternberg task), and sustained attention (vigilance task). The battery was repeated three times to measure peak (+45 minutes), postpeak (+130 minutes), and residual (+230 minutes) treatment effects after each dosing.\\n\\nPerformance on each test-battery task was significantly impaired (p < .05) by both alcohol and zolpidem (combined and each given alone) during the peak-effect assessment. Residual effects were not observed, with the exception of significant alcohol and drug effects on divided attention performance (p < .05). Analysis of variance tests revealed significant main effects of alcohol and zolpidem, but no significant alcohol-by-drug interactions were found for any measure of skills performance. In general, additive effects of alcohol were detected with zolpidem 10 mg but not with zolpidem 15 mg.\\n\\nAlthough some additive effects of alcohol on performance skills were seen with the lower 10-mg dose of zolpidem, no nonadditive effects were found. That is, alcohol does not appear to potentiate the effects of zolpidem on the various performance skills tested in this population and at the doses and times evaluated. With the exception of persisting deficits (at 4 hours postdose) on the more demanding divided attention task, all other findings were consistent with evidence that zolpidem is a short-acting hypnotic drug.\"}]",
+      "t": 22775
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee072b72dba87f6c749425e844",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "Skills performance impairment after acute doses of zolpidem (a short-acting, nonbenzodiazepine hypnotic), alone and with alcohol, was evaluated in 24 subjects. The study was designed to test whether the effects of zolpidem and alcohol are simply additive or reflect potentiation. Healthy male volunteers participated in a randomized, six-way crossover study of placebo, zolpidem 10 mg, or zolpidem 15 mg in combination with a placebo beverage or an alcohol dose selected to attain a peak blood alcohol concentration of 0.08% (drug administered double-blind; beverages administered single-blind). A laboratory test battery of four tasks measured concurrent information processing ability (divided attention task), information processing rate (visual backward masking task), immediate memory (Sternberg task), and sustained attention (vigilance task). The battery was repeated three times to measure peak (+45 minutes), postpeak (+130 minutes), and residual (+230 minutes) treatment effects after each dosing. Performance on each test-battery task was significantly impaired (p < .05) by both alcohol and zolpidem (combined and each given alone) during the peak-effect assessment.",
+        "sourceId": "7615484",
+        "sourceKind": "pubmed",
+        "stance": "increases_risk",
+        "text": "Combined alcohol and zolpidem impaired test-battery performance in healthy men at peak effect."
+      },
+      "t": 39489
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c3",
+        "text": "Combined alcohol and zolpidem impaired test-battery performance in healthy men at peak effect.",
+        "quote": "Skills performance impairment after acute doses of zolpidem (a short-acting, nonbenzodiazepine hypnotic), alone and with alcohol, was evaluated in 24 subjects. The study was designed to test whether the effects of zolpidem and alcohol are simply additive or reflect potentiation. Healthy male volunteers participated in a randomized, six-way crossover study of placebo, zolpidem 10 mg, or zolpidem 15 mg in combination with a placebo beverage or an alcohol dose selected to attain a peak blood alcohol concentration of 0.08% (drug administered double-blind; beverages administered single-blind). A laboratory test battery of four tasks measured concurrent information processing ability (divided attention task), information processing rate (visual backward masking task), immediate memory (Sternberg task), and sustained attention (vigilance task). The battery was repeated three times to measure peak (+45 minutes), postpeak (+130 minutes), and residual (+230 minutes) treatment effects after each dosing. Performance on each test-battery task was significantly impaired (p < .05) by both alcohol and zolpidem (combined and each given alone) during the peak-effect assessment.",
+        "source": {
+          "kind": "pubmed",
+          "id": "7615484"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 39489
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee072b72dba87f6c749425e844",
+      "summary": "record_claim completed: {\"id\":\"c3\"}",
+      "t": 39489
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a2ee0e687396a6a18a65d10c1232",
+      "name": "record_claim",
+      "args": {
+        "outcome": "psychomotor_impairment",
+        "quote": "Analysis of variance tests revealed significant main effects of alcohol and zolpidem, but no significant alcohol-by-drug interactions were found for any measure of skills performance. In general, additive effects of alcohol were detected with zolpidem 10 mg but not with zolpidem 15 mg. Although some additive effects of alcohol on performance skills were seen with the lower 10-mg dose of zolpidem, no nonadditive effects were found. That is, alcohol does not appear to potentiate the effects of zolpidem on the various performance skills tested in this population and at the doses and times evaluated.",
+        "sourceId": "7615484",
+        "sourceKind": "pubmed",
+        "stance": "uncertain",
+        "text": "Additive alcohol effects occurred with zolpidem 10 mg, without potentiation in tested skills."
+      },
+      "t": 39489
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c4",
+        "text": "Additive alcohol effects occurred with zolpidem 10 mg, without potentiation in tested skills.",
+        "quote": "Analysis of variance tests revealed significant main effects of alcohol and zolpidem, but no significant alcohol-by-drug interactions were found for any measure of skills performance. In general, additive effects of alcohol were detected with zolpidem 10 mg but not with zolpidem 15 mg. Although some additive effects of alcohol on performance skills were seen with the lower 10-mg dose of zolpidem, no nonadditive effects were found. That is, alcohol does not appear to potentiate the effects of zolpidem on the various performance skills tested in this population and at the doses and times evaluated.",
+        "source": {
+          "kind": "pubmed",
+          "id": "7615484"
+        },
+        "stance": "uncertain",
+        "outcome": "psychomotor_impairment"
+      },
+      "t": 39489
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a2ee0e687396a6a18a65d10c1232",
+      "summary": "record_claim completed: {\"id\":\"c4\"}",
+      "t": 39489
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 49638
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 49638
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c2",
+      "result": "matched",
+      "t": 49639
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c3",
+      "result": "matched",
+      "t": 49641
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c4",
+      "result": "matched",
+      "t": 49642
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "does_not_support",
+      "rationale": "does_not_support because the quote qualifies the additive CNS-depressant effects as only possible, while the claim presents them as definite, overstating certainty.",
+      "model": "muse-wonder-1.0",
+      "t": 56564
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c3",
+      "support": "supports",
+      "rationale": "The quote reports in 24 healthy male volunteers that alcohol plus zolpidem significantly impaired each test-battery task at the peak-effect assessment, supporting the combined-exposure claim and increased-risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 58844
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c2",
+      "support": "supports",
+      "rationale": "The quote explicitly states that an additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated, directly supporting the claim and the increases_risk stance.",
+      "model": "muse-wonder-1.0",
+      "t": 59811
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c4",
+      "support": "does_not_support",
+      "rationale": "Does not support: the quote reports a measured finding of additive effects at 10 mg with no potentiation, rather than explicit uncertainty about the combination, so the uncertain stance mismatches.",
+      "model": "muse-wonder-1.0",
+      "t": 61980
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 70399
+    },
+    {
+      "type": "thinking",
+      "text": "Checked 3 card sentences against their claims; dropped 0.",
+      "t": 82504
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alcohol__zolpidem",
+        "a": "alcohol",
+        "b": "zolpidem",
+        "category": "cns_depression",
+        "depth": "human_studies",
+        "headline": {
+          "text": "Alcohol and zolpidem together show additive adverse effects on psychomotor performance",
+          "claimIds": [
+            "c2",
+            "c3"
+          ]
+        },
+        "reported": [
+          {
+            "text": "The label states alcohol and oral zolpidem showed an additive adverse effect on psychomotor performance.",
+            "claimIds": [
+              "c2"
+            ]
+          },
+          {
+            "text": "Combined alcohol and zolpidem impaired test battery performance in healthy men at peak effect.",
+            "claimIds": [
+              "c3"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [],
+        "pharmacistQuestions": [
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Zolpidem and drinking alcohol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "The label states zolpidem with CNS depressants including alcohol has additive CNS-depressant effects.",
+            "quote": "• CNS depressants, including alcohol: Possible adverse additive CNS-depressant effects ( 5.1 , 7.1 )",
+            "source": {
+              "kind": "fda_label",
+              "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "cns_depression",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "does_not_support because the quote qualifies the additive CNS-depressant effects as only possible, while the claim presents them as definite, overstating certainty.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          },
+          {
+            "id": "c2",
+            "text": "The label states additive adverse psychomotor effect between alcohol and oral zolpidem was demonstrated.",
+            "quote": "An additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated [see WARNINGS AND PRECAUTIONS (5.1) ].",
+            "source": {
+              "kind": "fda_label",
+              "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions"
+            },
+            "stance": "increases_risk",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote explicitly states that an additive adverse effect on psychomotor performance between alcohol and oral zolpidem was demonstrated, directly supporting the claim and the increases_risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c3",
+            "text": "Combined alcohol and zolpidem impaired test-battery performance in healthy men at peak effect.",
+            "quote": "Skills performance impairment after acute doses of zolpidem (a short-acting, nonbenzodiazepine hypnotic), alone and with alcohol, was evaluated in 24 subjects. The study was designed to test whether the effects of zolpidem and alcohol are simply additive or reflect potentiation. Healthy male volunteers participated in a randomized, six-way crossover study of placebo, zolpidem 10 mg, or zolpidem 15 mg in combination with a placebo beverage or an alcohol dose selected to attain a peak blood alcohol concentration of 0.08% (drug administered double-blind; beverages administered single-blind). A laboratory test battery of four tasks measured concurrent information processing ability (divided attention task), information processing rate (visual backward masking task), immediate memory (Sternberg task), and sustained attention (vigilance task). The battery was repeated three times to measure peak (+45 minutes), postpeak (+130 minutes), and residual (+230 minutes) treatment effects after each dosing. Performance on each test-battery task was significantly impaired (p < .05) by both alcohol and zolpidem (combined and each given alone) during the peak-effect assessment.",
+            "source": {
+              "kind": "pubmed",
+              "id": "7615484"
+            },
+            "stance": "increases_risk",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "supports",
+            "judgeRationale": "The quote reports in 24 healthy male volunteers that alcohol plus zolpidem significantly impaired each test-battery task at the peak-effect assessment, supporting the combined-exposure claim and increased-risk stance.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": true
+          },
+          {
+            "id": "c4",
+            "text": "Additive alcohol effects occurred with zolpidem 10 mg, without potentiation in tested skills.",
+            "quote": "Analysis of variance tests revealed significant main effects of alcohol and zolpidem, but no significant alcohol-by-drug interactions were found for any measure of skills performance. In general, additive effects of alcohol were detected with zolpidem 10 mg but not with zolpidem 15 mg. Although some additive effects of alcohol on performance skills were seen with the lower 10-mg dose of zolpidem, no nonadditive effects were found. That is, alcohol does not appear to potentiate the effects of zolpidem on the various performance skills tested in this population and at the doses and times evaluated.",
+            "source": {
+              "kind": "pubmed",
+              "id": "7615484"
+            },
+            "stance": "uncertain",
+            "outcome": "psychomotor_impairment",
+            "quoteCheck": "matched",
+            "support": "does_not_support",
+            "judgeRationale": "Does not support: the quote reports a measured finding of additive effects at 10 mg with no potentiation, rather than explicit uncertainty about the combination, so the uncertain stance mismatches.",
+            "judgeModel": "muse-wonder-1.0",
+            "accepted": false
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "25e71199-c55d-4cc6-8388-b309d654d2b0#drug_interactions",
+            "title": "Drug Interactions",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25e71199-c55d-4cc6-8388-b309d654d2b0",
+            "citation": "FDA label · Drug Interactions",
+            "design": "regulatory_label"
+          },
+          {
+            "kind": "pubmed",
+            "id": "7615484",
+            "title": "The acute effects of zolpidem, administered alone and with alcohol, on cognitive and psychomotor function.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7615484/",
+            "citation": "Wilkinson et al. · The Journal of clinical psychiatry 1995",
+            "design": "rct",
+            "year": 1995,
+            "sampleSize": 24,
+            "population": "Healthy male volunteers"
+          }
+        ],
+        "generatedAt": "2026-11-03T19:41:58.036Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "label_mentions",
+          "basis": [
+            "c2"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 82504
+    }
+  ]
+}

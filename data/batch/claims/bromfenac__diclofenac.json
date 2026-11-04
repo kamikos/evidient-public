@@ -1,0 +1,38 @@
+{
+  "pair": "bromfenac__diclofenac",
+  "curator": "claude-sonnet-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA diclofenac label lists concomitant use of diclofenac with other NSAIDs or salicylates in its drug-interaction entries.",
+      "quote": "Intervention: The concomitant use of diclofenac with other NSAIDs or salicylates is not recommended.",
+      "sourceId": "5a852412-69af-6502-e063-6294a90a0748#precautions",
+      "stance": "increases_risk",
+      "outcome": "gi_toxicity"
+    }
+  ],
+  "headline": {
+    "text": "The FDA diclofenac label lists concomitant use of diclofenac with other NSAIDs or salicylates among its interactions (c1).",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The statement covers NSAIDs as a class and does not name bromfenac, a topical ophthalmic NSAID. The bromfenac label excerpts do not mention diclofenac.",
+      "claimIds": [
+        "c1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No controlled human study of this combination was found in the PubMed search.",
+      "searched": [
+        "\"bromfenac\"[tiab] AND \"diclofenac\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pair": "cefadroxil__cefuroxime",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "No interaction statement or controlled human study of this combination was found in the packet.",
+      "searched": [
+        "\"cefadroxil\"[tiab] AND \"cefuroxime\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ],
+  "curator": "claude-sonnet-5-5"
+}

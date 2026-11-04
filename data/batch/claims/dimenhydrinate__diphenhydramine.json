@@ -1,0 +1,20 @@
+{
+  "pair": "dimenhydrinate__diphenhydramine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The dimenhydrinate label names diphenhydramine only as a component of the salt; no combined-use interaction statement or controlled study was found.",
+      "searched": [
+        "\"dimenhydrinate\"[tiab] AND \"diphenhydramine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

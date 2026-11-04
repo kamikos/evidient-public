@@ -1,0 +1,148 @@
+{
+  "card": {
+    "pair": "alcohol__estazolam",
+    "a": "alcohol",
+    "b": "estazolam",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA estazolam label links alcohol with increased risk of behaviors such as sleep driving.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The French label also describes increased benzodiazepine sedation with alcohol.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA estazolam label says alcohol with sedative-hypnotics appears to increase the risk of behaviors such as sleep driving.",
+        "quote": "Although behaviors such as sleep driving may occur with sedative-hypnotics alone at therapeutic doses, the use of alcohol and other CNS depressants with sedative-hypnotics appears to increase the risk of such behaviors",
+        "source": {
+          "kind": "fda_label",
+          "id": "a1e3b4bf-22e9-430a-a768-4d86ae886c9e#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "complex_sleep_behaviors",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The estazolam label says alcohol with sedative-hypnotics appears to increase the risk of complex behaviors such as sleep driving.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The French estazolam label says alcohol increases the sedative effect of benzodiazepines and related drugs.",
+        "quote": "Majoration par l'alcool de l'effet sédatif des benzodiazépines et apparentés.",
+        "quoteEnglish": "Alcohol increases the sedative effect of benzodiazepines and related drugs.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "FR:69888457#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The French estazolam (Nuctalon) label states alcohol increases the sedative effect of benzodiazepines, and the English rendering is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "a1e3b4bf-22e9-430a-a768-4d86ae886c9e#boxed_warning",
+        "title": "estazolam: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1e3b4bf-22e9-430a-a768-4d86ae886c9e",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a1e3b4bf-22e9-430a-a768-4d86ae886c9e#warnings",
+        "title": "estazolam: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1e3b4bf-22e9-430a-a768-4d86ae886c9e",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "a1e3b4bf-22e9-430a-a768-4d86ae886c9e#precautions",
+        "title": "estazolam: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1e3b4bf-22e9-430a-a768-4d86ae886c9e",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:69888457#4.5",
+        "title": "NUCTALON 2 mg, comprimé: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69888457/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "1524525",
+        "title": "Interactive effects of ethanol on benzodiazepines levels in blood and brain of rat.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1524525/",
+        "citation": "0389-4118 27 3 1992 Jun Arukoru kenkyu to yakubutsu izon = Japanese journal of alcohol studies & drug dependence Arukoru Kenkyuto Yakubutsu Ison",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "3718578",
+        "title": "Effects of brotizolam on smooth muscle and other organs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3718578/",
+        "citation": "0004-4172 36 3A 1986 Mar Arzneimittel-Forschung Arzneimittelforschung",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Estazolam and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.575Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

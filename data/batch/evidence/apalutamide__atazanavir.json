@@ -1,0 +1,126 @@
+{
+  "card": {
+    "pair": "apalutamide__atazanavir",
+    "a": "apalutamide",
+    "b": "atazanavir",
+    "origin": "batch",
+    "category": "efficacy",
+    "headline": {
+      "text": "The FDA label lists apalutamide with atazanavir as contraindicated because of potential loss of virologic response and resistance.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA statement applies to atazanavir with or without ritonavir.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The Spanish label also identifies potentially increased apalutamide concentrations and seizures with atazanavir/ritonavir.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label lists atazanavir with apalutamide as contraindicated because of potential loss of virologic response and protease inhibitor resistance.",
+        "quote": "Coadministration of atazanavir (with or without ritonavir) and apalutamide is contraindicated due to the potential for subsequent loss of virologic response and possible resistance to the class of protease inhibitors [see Contraindications (4) ].",
+        "source": {
+          "kind": "fda_label",
+          "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_effect",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The atazanavir table states coadministration with apalutamide (with or without ritonavir) is contraindicated for potential loss of virologic response and PI resistance.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish label says atazanavir/ritonavir may increase apalutamide concentrations and cause serious adverse events, including seizures.",
+        "quote": "Además, la concentración sérica de apalutamida puede aumentar cuando se administra conjuntamente con atazanavir/ritonavir, lo que podría provocar acontecimientos adversos graves, incluyendo convulsiones.",
+        "quoteEnglish": "Furthermore, apalutamide serum concentration may increase when coadministered with atazanavir/ritonavir, which could cause serious adverse events, including seizures.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:80654#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "seizures",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The Spanish label states apalutamide concentrations may increase with atazanavir/ritonavir, possibly causing serious adverse events including seizures, and the translation is faithful.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#contraindications",
+        "title": "atazanavir: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7fbea274-d6b5-4faa-bbf0-05fefab42114#drug_interactions",
+        "title": "atazanavir: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7fbea274-d6b5-4faa-bbf0-05fefab42114",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:80654#4.5",
+        "title": "ATAZANAVIR TEVA 200 MG CAPSULAS DURAS EFG: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=80654&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Apalutamide or Atazanavir, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Apalutamide and Atazanavir, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.652Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

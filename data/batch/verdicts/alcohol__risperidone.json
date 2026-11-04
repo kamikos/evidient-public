@@ -1,0 +1,30 @@
+{
+  "pair": "alcohol__risperidone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The French 4.5 text calls for caution combining risperidone with alcohol because of increased risk of sedation, and the English rendering is faithful."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The retrospective ED chart review reports no statistically significant effect on vital signs with risperidone with or without alcohol intoxication and benzodiazepines."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    },
+    {
+      "path": "reported.1",
+      "support": "supports"
+    }
+  ]
+}

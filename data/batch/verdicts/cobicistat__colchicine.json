@@ -1,0 +1,26 @@
+{
+ "pair": "cobicistat__colchicine",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The cobicistat table row for colchicine states the contraindication in renal/hepatic impairment."
+  },
+  {
+   "id": "c2",
+   "support": "supports",
+   "rationale": "The Spanish quote and its English rendering match the claim."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

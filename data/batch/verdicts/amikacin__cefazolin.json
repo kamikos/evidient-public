@@ -1,0 +1,21 @@
+{
+  "pair": "amikacin__cefazolin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The in vitro serum study tested amikacin among the aminoglycosides and grouped cefazolin with agents causing little inactivation; the claim keeps the in vitro framing."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

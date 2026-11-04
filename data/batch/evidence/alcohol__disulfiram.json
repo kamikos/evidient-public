@@ -1,0 +1,172 @@
+{
+  "card": {
+    "pair": "alcohol__disulfiram",
+    "a": "alcohol",
+    "b": "disulfiram",
+    "origin": "batch",
+    "category": "reaction",
+    "headline": {
+      "text": "The FDA label describes a reaction to disulfiram with even small amounts of alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The FDA label lists flushing, vomiting, breathing difficulty, hypotension and confusion among the reaction's symptoms.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "A review links the reaction to inhibition of aldehyde dehydrogenase.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label describes flushing, vomiting, breathing difficulty, hypotension and confusion with disulfiram plus even small amounts of alcohol.",
+        "quote": "Disulfiram plus alcohol, even small amounts, produce flushing, throbbing in head and neck, throbbing headache, respiratory difficulty, nausea, copious vomiting, sweating, thirst, chest pain, palpitation, dyspnea, hyperventilation, tachycardia, hypotension, syncope, marked uneasiness, weakness, vertigo, blurred vision, and confusion.",
+        "source": {
+          "kind": "fda_label",
+          "id": "d3832a1a-a140-49c1-a7df-134fa81341e3#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "disulfiram_like_reaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label lists these symptoms among those produced by disulfiram plus even small amounts of alcohol.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "A review attributes the disulfiram-alcohol reaction to inhibition of aldehyde dehydrogenase.",
+        "quote": "Disulfiram (DSF) is a well-known anti-alcohol agent that inhibits aldehyde dehydrogenase and results in extreme 'hangover' symptoms when consumed with alcohol.",
+        "source": {
+          "kind": "pubmed",
+          "id": "33971180"
+        },
+        "stance": "mechanism",
+        "outcome": "disulfiram_like_reaction",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The review states that disulfiram inhibits aldehyde dehydrogenase and results in hangover-like symptoms when alcohol is consumed.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "d3832a1a-a140-49c1-a7df-134fa81341e3#boxed_warning",
+        "title": "disulfiram: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d3832a1a-a140-49c1-a7df-134fa81341e3",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "d3832a1a-a140-49c1-a7df-134fa81341e3#warnings",
+        "title": "disulfiram: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d3832a1a-a140-49c1-a7df-134fa81341e3",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "d3832a1a-a140-49c1-a7df-134fa81341e3#precautions",
+        "title": "disulfiram: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d3832a1a-a140-49c1-a7df-134fa81341e3",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:12723#4.4",
+        "title": "ANTABUS 250 mg COMPRIMIDOS: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=12723&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:12723#4.5",
+        "title": "ANTABUS 250 mg COMPRIMIDOS: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=12723&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "41366815",
+        "title": "Revisiting the Disulfiram-Like Reaction Between Alcohol and Oral Metronidazole.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41366815/",
+        "citation": "1537-4521 53 4 2026 Apr 1 Sexually transmitted diseases Sex Transm Dis",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31871085",
+        "title": "Fact versus Fiction: a Review of the Evidence behind Alcohol and Antibiotic Interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31871085/",
+        "citation": "1098-6596 64 3 2020 Feb 21 Antimicrobial agents and chemotherapy Antimicrob Agents Chemother",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33971180",
+        "title": "Advantages and disadvantages of disulfiram coadministered with popular addictive substances.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33971180/",
+        "citation": "1879-0712 904 2021 Aug 5 European journal of pharmacology Eur J Pharmacol",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Disulfiram and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.568Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

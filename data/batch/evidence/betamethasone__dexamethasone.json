@@ -1,0 +1,155 @@
+{
+  "card": {
+    "pair": "betamethasone__dexamethasone",
+    "a": "betamethasone",
+    "b": "dexamethasone",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "A newborn rat study found antenatal betamethasone enhanced dexamethasone-related hyperoxic lung and brain injury.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "In newborn rats exposed to hyperoxia, co-administration of antenatal betamethasone significantly enhanced the detrimental effects of postnatal dexamethasone on lung and brain.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "In newborn rats, antenatal betamethasone given together with postnatal dexamethasone enhanced the harm of dexamethasone on hyperoxic lung and brain injury.",
+        "quote": "Although postnatal dexamethasone but not antenatal betamethasone alone significantly increased hyperoxic lung and brain injuries, co-administration of antenatal betamethasone significantly enhanced the detrimental effects of postnatal dexamethasone on hyperoxic lung and brain injuries in newborn rats.",
+        "source": {
+          "kind": "pubmed",
+          "id": "31469886"
+        },
+        "stance": "increases_risk",
+        "outcome": "lung_brain_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Newborn rat study states antenatal betamethasone significantly enhanced the detrimental effects of postnatal dexamethasone on hyperoxic lung and brain injury.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "7cacf0ec-3db9-48be-9a76-93ed4a1f042c#contraindications",
+        "title": "betamethasone: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cacf0ec-3db9-48be-9a76-93ed4a1f042c",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "7cacf0ec-3db9-48be-9a76-93ed4a1f042c#precautions",
+        "title": "betamethasone: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cacf0ec-3db9-48be-9a76-93ed4a1f042c",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "11f10a47-1c42-40e4-89d8-bb000fef497c#warnings",
+        "title": "dexamethasone: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11f10a47-1c42-40e4-89d8-bb000fef497c",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "11f10a47-1c42-40e4-89d8-bb000fef497c#precautions",
+        "title": "dexamethasone: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11f10a47-1c42-40e4-89d8-bb000fef497c",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35423530",
+        "title": "Revisiting activity of some glucocorticoids as a potential inhibitor of SARS-CoV-2 main protease: theoretical study.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35423530/",
+        "citation": "2046-2069 11 17 2021 Mar 5 RSC advances RSC Adv",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38219367",
+        "title": "Development of a broad-spectrum one-step immunoassay for detection of glucocorticoids in milk using magnetosome-based immunomagnetic beads.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38219367/",
+        "citation": "1873-7072 441 2024 May 30 Food chemistry Food Chem",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26076198",
+        "title": "Ropivacaine and dexamethasone: a potentially dangerous combination for therapeutic pain injections.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26076198/",
+        "citation": "1754-9485 59 5 2015 Oct Journal of medical imaging and radiation oncology J Med Imaging Radiat Oncol",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31469886",
+        "title": "Antenatal betamethasone enhanced the detrimental effects of postnatal dexamethasone on hyperoxic lung and brain injuries in newborn rats.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31469886/",
+        "citation": "1932-6203 14 8 2019 PloS one PLoS One",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "studies_only",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Betamethasone or Dexamethasone, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Betamethasone and Dexamethasone, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The only combination study found is in animals; no human study of this combination was found in the PubMed search.",
+        "searched": [
+          "\"betamethasone\"[tiab] AND \"dexamethasone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.668Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

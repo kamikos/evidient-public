@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__duloxetine",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The duloxetine label states use with heavy alcohol intake may be associated with severe liver injury."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The label reports duloxetine did not increase alcohol-induced mental and motor impairment when peak concentrations coincided."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

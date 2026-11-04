@@ -1,0 +1,375 @@
+{
+  "card": {
+    "pair": "alprazolam__tramadol",
+    "a": "alprazolam",
+    "b": "tramadol",
+    "category": "cns_depression",
+    "depth": "label_only",
+    "headline": {
+      "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "conflicts": [],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "No adult human studies of alprazolam with tramadol and sedation outcomes were found.",
+        "searched": [
+          "alprazolam tramadol concomitant sedation respiratory depression",
+          "alprazolam tramadol combination profound sedation respiratory depression coma death adult"
+        ]
+      }
+    ],
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Alprazolam or Tramadol, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Alprazolam and Tramadol, change how much this matters?"
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+        "quote": "Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "profound_sedation_respiratory_depression_coma_death",
+        "quoteCheck": "matched",
+        "accepted": true,
+        "support": "supports",
+        "judgeRationale": "The quote is a label warning that concomitant benzodiazepines and opioids may cause profound sedation, respiratory depression, coma, and death, matching the claim's class-level co-exposure, may-certainty, and increased-risk direction for alprazolam and tramadol.",
+        "judgeModel": "muse-wonder-1.0"
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning",
+        "title": "Boxed Warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=388e249d-b9b6-44c3-9f8f-880eced0239f",
+        "citation": "FDA label · Boxed Warning",
+        "design": "regulatory_label"
+      }
+    ],
+    "generatedAt": "2026-11-03T20:43:45.139Z",
+    "models": {
+      "research": "muse-spark-1.3",
+      "judge": "muse-wonder-1.0",
+      "synth": "muse-spark-1.3"
+    },
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    }
+  },
+  "trace": [
+    {
+      "type": "run_started",
+      "pair": "alprazolam__tramadol",
+      "at": "2026-11-03T20:42:22.350Z",
+      "models": {
+        "research": "muse-spark-1.3",
+        "judge": "muse-wonder-1.0",
+        "synth": "muse-spark-1.3"
+      },
+      "t": 0
+    },
+    {
+      "type": "thinking",
+      "text": "Reading the curated source snapshots.",
+      "t": 0
+    },
+    {
+      "type": "tool_result",
+      "callId": "seed:388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning",
+      "summary": "Curated seed source read.",
+      "sourceIds": [
+        "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning"
+      ],
+      "t": 0
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a326342875c6abad65c95e9fabaa",
+      "name": "record_claim",
+      "args": {
+        "outcome": "profound_sedation_respiratory_depression_coma_death",
+        "quote": "Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "sourceId": "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning",
+        "sourceKind": "fda_label",
+        "stance": "increases_risk",
+        "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death."
+      },
+      "t": 12005
+    },
+    {
+      "type": "claim_proposed",
+      "claim": {
+        "id": "c1",
+        "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+        "quote": "Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death.",
+        "source": {
+          "kind": "fda_label",
+          "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "profound_sedation_respiratory_depression_coma_death"
+      },
+      "t": 12005
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a326342875c6abad65c95e9fabaa",
+      "summary": "record_claim completed: {\"id\":\"c1\"}",
+      "t": 12005
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a326390b7670adca8caebcfb6169",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alprazolam tramadol concomitant sedation respiratory depression"
+      },
+      "t": 12005
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a326390b7670adca8caebcfb6169",
+      "summary": "search_pubmed completed: {\"query\":\"alprazolam tramadol concomitant sedation respiratory depression\",\"pmids\":[]}",
+      "t": 12506
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a32639b471c7801db8255608917f",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alprazolam tramadol combination profound sedation respiratory depression coma death adult"
+      },
+      "t": 12506
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a32639b471c7801db8255608917f",
+      "summary": "search_pubmed completed: {\"query\":\"alprazolam tramadol combination profound sedation respiratory depression coma death adult\",\"pmids\":[]}",
+      "t": 12958
+    },
+    {
+      "type": "tool_call",
+      "callId": "call_01a1a3266e1e768c9f86f4ebada97b3f",
+      "name": "record_gap",
+      "args": {
+        "searched": [
+          "alprazolam tramadol concomitant sedation respiratory depression",
+          "alprazolam tramadol combination profound sedation respiratory depression coma death adult"
+        ],
+        "text": "No adult human studies of alprazolam with tramadol and sedation outcomes were found."
+      },
+      "t": 26500
+    },
+    {
+      "type": "gap_recorded",
+      "gap": {
+        "id": "g1",
+        "text": "No adult human studies of alprazolam with tramadol and sedation outcomes were found.",
+        "searched": [
+          "alprazolam tramadol concomitant sedation respiratory depression",
+          "alprazolam tramadol combination profound sedation respiratory depression coma death adult"
+        ]
+      },
+      "t": 26501
+    },
+    {
+      "type": "tool_result",
+      "callId": "call_01a1a3266e1e768c9f86f4ebada97b3f",
+      "summary": "record_gap completed: {\"id\":\"g1\"}",
+      "t": 26501
+    },
+    {
+      "type": "tool_call",
+      "callId": "required-search_pubmed",
+      "name": "search_pubmed",
+      "args": {
+        "query": "alprazolam tramadol (clinical trial OR cohort OR humans)"
+      },
+      "t": 37592
+    },
+    {
+      "type": "tool_result",
+      "callId": "required-search_pubmed",
+      "summary": "{\"query\":\"alprazolam tramadol (clinical trial OR cohort OR humans)\",\"pmids\":[\"42536901\",\"41974216\",\"41588508\",\"40738618\",\"40738617\"]}",
+      "t": 38119
+    },
+    {
+      "type": "tool_call",
+      "callId": "required-fetch_abstracts",
+      "name": "fetch_abstracts",
+      "args": {
+        "pmids": [
+          "42536901",
+          "41974216",
+          "41588508",
+          "40738618",
+          "40738617"
+        ]
+      },
+      "t": 38119
+    },
+    {
+      "type": "tool_result",
+      "callId": "required-fetch_abstracts",
+      "summary": "[{\"pmid\":\"42536901\",\"title\":\"[Not Available].\",\"journal\":\"Salud publica de Mexico\",\"year\":\"2026\",\"abstractText\":\"Identificar los medicamentos con potencial psicoactivo y uso indebido en la población mexicana. Material y métodos. Se utilizaron datos de la Encuesta Nacional de Consumo de Drogas, Alcohol y Tabaco 2025, la muestra incluyó a 555 personas que reportaron uso indebido de medicamentos psicoactivos alguna vez en la vida, y representan a 2.4 millones de personas.\\n\\nEl medicamento más reportado fue el tramadol (86.8%), sustancia clasificada como opioide. Le siguieron el clonazepam (76.5%) y el diazepam (15.1%), ambos tranquilizantes. En tercer lugar, se encontró el metilfenidato (37.8%), considerado un estimulante de uso médico. Otros medicamentos fueron mencionados con muy baja frecuencia, entre ellos morfina, fentanilo, alprazolam, flunitrazepam, clobenzorex, fentermina, anfetamina, fenobarbital y pregabalina. Conclusión. La regulación del uso indebido de medicamentos psicoactivos en México requiere fortalecer los mecanismos de coordinación, supervisión y vigilancia, así como promover estrategias de prevención e impulsar la educación en salud.\",\"publicationTypes\":[\"English Abstract\",\"Journal Article\"],\"firstAuthor\":\"López-Brambila\",\"kind\":\"pubmed\",\"id\":\"42536901\",\"text\":\"Identificar los medicamentos con potencial psicoactivo y uso indebido en la población mexicana. Material y métodos. Se utilizaron datos de la Encuesta Nacional de Consumo de Drogas, Alcohol y Tabaco 2025, la muestra incluyó a 555 personas que reportaron uso indebido de medicamentos psicoactivos alguna vez en la vida, y representan a 2.4 millones de personas.\\n\\nEl medicamento más reportado fue el tramadol (86.8%), sustancia clasificada como opioide. Le siguieron el clonazepam (76.5%) y el diazepam (15.1%), ambos tranquilizantes. En tercer lugar, se encontró el metilfenidato (37.8%), considerado un estimulante de uso médico. Otros medicamentos fueron mencionados con muy baja frecuencia, entre ellos morfina, fentanilo, alprazolam, flunitrazepam, clobenzorex, fentermina, anfetamina, fenobarbital y pregabalina. Conclusión. La regulación del uso indebido de medicamentos psicoactivos en México requiere fortalecer los mecanismos de coordinación, supervisión y vigilancia, así como promover estrategias de prevención e impulsar la educación en salud.\"},{\"pmid\":\"41974216\",\"title\":\"In vitro metabolomics for the characterization of drugs of abuse and new psychoactive substances in SH-SY5Y cells.\",\"journal\":\"Environmental toxicology and pharmacology\",\"year\":\"2026\",\"abstractText\":\"New psychoactive substances (NPS) continuously emerge on unregulated drug markets, while in vitro pharmacological profiling at primary targets (e.g., cannabinoid receptor 1) often remains the only means of effect characterization. In this proof-of-concept study, we evaluated a complementary untargeted in vitro metabolomics approach for its ability to distinguish centrally active drugs based on drug-specific alterations of the cellular metabolome. SH-SY5Y neuroblastoma cells were exposed for 18 h to two NPS (MDMB-4en-PINACA and 4-methylmethcathinone) as well as alprazolam, cocaine, and tramadol. Cell extracts were analyzed using normal- and reverse-phase high-performance liquid chromatography coupled to quadrupole time-of-flight mass spectrometry (HPLC-QToF). Multivariate analyses revealed distinct metabolic signatures and clear separation from controls for all compounds except tramadol. These findings demonstrate the feasibility and discriminatory capacity of the established workflow, highlighting its potential as a complementary tool for pharmacological and toxicological characterization of emerging psychoactive substances.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Monti\",\"kind\":\"pubmed\",\"id\":\"41974216\",\"text\":\"New psychoactive substances (NPS) continuously emerge on unregulated drug markets, while in vitro pharmacological profiling at primary targets (e.g., cannabinoid receptor 1) often remains the only means of effect characterization. In this proof-of-concept study, we evaluated a complementary untargeted in vitro metabolomics approach for its ability to distinguish centrally active drugs based on drug-specific alterations of the cellular metabolome. SH-SY5Y neuroblastoma cells were exposed for 18 h to two NPS (MDMB-4en-PINACA and 4-methylmethcathinone) as well as alprazolam, cocaine, and tramadol. Cell extracts were analyzed using normal- and reverse-phase high-performance liquid chromatography coupled to quadrupole time-of-flight mass spectrometry (HPLC-QToF). Multivariate analyses revealed distinct metabolic signatures and clear separation from controls for all compounds except tramadol. These findings demonstrate the feasibility and discriminatory capacity of the established workflow, highlighting its potential as a complementary tool for pharmacological and toxicological characterization of emerging psychoactive substances.\"},{\"pmid\":\"41588508\",\"title\":\"Efficacy and safety of single-dose oral postoperative medications in reducing pain after endodontic treatment: a systematic review and meta-analysis.\",\"journal\":\"BMC oral health\",\"year\":\"2026\",\"abstractText\":\"BACKGROUND: Post-endodontic pain is a common complication that negatively impacts patients’ daily lives. Single-dose oral analgesics are often prescribed after non-surgical root canal treatments to manage discomfort; however, their relative efficacy remains unclear. This systematic review and meta-analysis aimed to evaluate the effectiveness of different single-dose postoperative medications for pain relief following root canal treatment (RCT). METHODS: A comprehensive search of PubMed, Scopus, Embase, and Cochrane CENTRAL up to February 2025 was conducted to identify randomized controlled trials (RCTs) comparing single-dose postoperative analgesics with placebo in patients undergoing non-surgical endodontic treatment. Pain outcomes were assessed using Visual Analog Scales (VAS) at 6–8, 12, and 24 h post-treatment. Risk of bias was evaluated using the Cochrane RoB 2 tool. Pairwise and frequentist network meta-analyses were performed, and treatments were ranked using P-scores. RESULTS: Ten RCTs were qualitatively analyzed, while five of them were eligible for quantitative analyses and were included in our meta-analysis. They were from four countries with a combined sample size of 347 participants. At 6–8 h, Diclofenac + Acetaminophen provided the greatest pain reduction (MD: -6.28, 95% CI: -11.99 to -0.56), followed by Novafen and Ibuprofen + Acetaminophen. At 12 and 24 h, Novafen and Naproxen consistently demonstrated superior analgesic effects, whereas Tramadol and Ibuprofen offered moderate relief. Ibuprofen combinations with Acetaminophen or Alprazolam showed variable efficacy. Sensitivity analyses confirmed the robustness of these findings. CONCLUSIONS: Single-dose oral medications administered after non-surgical root canal treatments effectively reduce post-endodontic pain. Diclofenac + Acetaminophen is most effective for immediate short-term relief, while Novafen and Naproxen provide sustained efficacy at later time points. These results can guide clinicians in selecting optimal single-dose medications for post-RCT pain management. Keywords: postoperative endodontic pain; network meta-analysis; pain management; endodontic treatment TRIAL REGISTRATION: Not applicable.\",\"publicationTypes\":[\"Journal Article\",\"Systematic Review\",\"Meta-Analysis\"],\"firstAuthor\":\"Kelidari\",\"kind\":\"pubmed\",\"id\":\"41588508\",\"text\":\"BACKGROUND: Post-endodontic pain is a common complication that negatively impacts patients’ daily lives. Single-dose oral analgesics are often prescribed after non-surgical root canal treatments to manage discomfort; however, their relative efficacy remains unclear. This systematic review and meta-analysis aimed to evaluate the effectiveness of different single-dose postoperative medications for pain relief following root canal treatment (RCT). METHODS: A comprehensive search of PubMed, Scopus, Embase, and Cochrane CENTRAL up to February 2025 was conducted to identify randomized controlled trials (RCTs) comparing single-dose postoperative analgesics with placebo in patients undergoing non-surgical endodontic treatment. Pain outcomes were assessed using Visual Analog Scales (VAS) at 6–8, 12, and 24 h post-treatment. Risk of bias was evaluated using the Cochrane RoB 2 tool. Pairwise and frequentist network meta-analyses were performed, and treatments were ranked using P-scores. RESULTS: Ten RCTs were qualitatively analyzed, while five of them were eligible for quantitative analyses and were included in our meta-analysis. They were from four countries with a combined sample size of 347 participants. At 6–8 h, Diclofenac + Acetaminophen provided the greatest pain reduction (MD: -6.28, 95% CI: -11.99 to -0.56), followed by Novafen and Ibuprofen + Acetaminophen. At 12 and 24 h, Novafen and Naproxen consistently demonstrated superior analgesic effects, whereas Tramadol and Ibuprofen offered moderate relief. Ibuprofen combinations with Acetaminophen or Alprazolam showed variable efficacy. Sensitivity analyses confirmed the robustness of these findings. CONCLUSIONS: Single-dose oral medications administered after non-surgical root canal treatments effectively reduce post-endodontic pain. Diclofenac + Acetaminophen is most effective for immediate short-term relief, while Novafen and Naproxen provide sustained efficacy at later time points. These results can guide clinicians in selecting optimal single-dose medications for post-RCT pain management. Keywords: postoperative endodontic pain; network meta-analysis; pain management; endodontic treatment TRIAL REGISTRATION: Not applicable.\"},{\"pmid\":\"40738618\",\"title\":\"Urinary metabolic ratio of pain management and substance abuse treatment drugs: Drug-drug interactions.\",\"journal\":\"Journal of opioid management\",\"year\":\"2025\",\"abstractText\":\"We present data showing that the urinary metabolic ratio (MR) of metabolite to parent drug can be used to estimate the drug-drug interactions (DDIs) of pain management and substance abuse treatment medications with other coadministered drugs. We quantitatively measure 18 drugs and their phase I metabolites and monitor the effects of 14 interfering drugs on their MRs. The 18 drugs include dextromethorphan, oxycodone, hydrocodone, tramadol, morphine, buprenorphine, fentanyl, clonazepam, alprazolam, quetiapine, carisoprodol, tapentadol, ketamine, methadone, impramine, and amitriptyline. The 14 interfering drugs include fluoxetine, paroxetine, bupropion, citalopram, sertraline, venlafaxine, duloxetine, risperidone, trazodone, aripiprazole, cyclobenzaprine, amphetamine, and tetrahydrocannabinol. Some of these interfering drugs are inhibitors of either the CYP2D6, CYP3A4/5, or CYP2C19 pathways. By using the urinary MR of metabolite/parent drug, we observed patterns of inhibition and enhancement due to DDIs. Using the MR reference intervals of the 18 drug pairs established in an earlier study, and the current DDI system, we can alert providers of unusual metabolism caused by DDIs. This will help providers do better prescribing or review more closely all medications and supplements patients are taking, thus avoiding underdosing or potential medication adverse reactions.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Cua\",\"kind\":\"pubmed\",\"id\":\"40738618\",\"text\":\"We present data showing that the urinary metabolic ratio (MR) of metabolite to parent drug can be used to estimate the drug-drug interactions (DDIs) of pain management and substance abuse treatment medications with other coadministered drugs. We quantitatively measure 18 drugs and their phase I metabolites and monitor the effects of 14 interfering drugs on their MRs. The 18 drugs include dextromethorphan, oxycodone, hydrocodone, tramadol, morphine, buprenorphine, fentanyl, clonazepam, alprazolam, quetiapine, carisoprodol, tapentadol, ketamine, methadone, impramine, and amitriptyline. The 14 interfering drugs include fluoxetine, paroxetine, bupropion, citalopram, sertraline, venlafaxine, duloxetine, risperidone, trazodone, aripiprazole, cyclobenzaprine, amphetamine, and tetrahydrocannabinol. Some of these interfering drugs are inhibitors of either the CYP2D6, CYP3A4/5, or CYP2C19 pathways. By using the urinary MR of metabolite/parent drug, we observed patterns of inhibition and enhancement due to DDIs. Using the MR reference intervals of the 18 drug pairs established in an earlier study, and the current DDI system, we can alert providers of unusual metabolism caused by DDIs. This will help providers do better prescribing or review more closely all medications and supplements patients are taking, thus avoiding underdosing or potential medication adverse reactions.\"},{\"pmid\":\"40738617\",\"title\":\"Urinary metabolic ratio of pain management and substance abuse treatment drugs: Reference intervals.\",\"journal\":\"Journal of opioid management\",\"year\":\"2025\",\"abstractText\":\"We present data that show that quantitative urine drug concentrations obtained from individuals monitored for drug compliance as part of their participation in chronic opioid or substance abuse treatment can be used to quantify drug metabolism. We quantitatively monitor 18 drugs and their Phase 1 metabolite. These drugs were dextromethorphan, morphine, oxycodone, hydrocodone, quetiapine, tapentadol, tramadol, buprenorphine, clonazepam, fentanyl, imipramine, ketamine, carisoprodol, alprazolam, methadone, and amitriptyline. By using the ratio of metabolite/parent drug (prescribed medication), the expected or reference values for 18 drugs were obtained. Ratio values outside of this reference range could be considered to be caused by genetic metabolizing variants, drug-drug interactions, age, or deception. Alerting providers of the variance in metabolism from the expected norm might reduce overdosing or underdosing patients.\",\"publicationTypes\":[\"Journal Article\"],\"firstAuthor\":\"Pesce\",\"kind\":\"pubmed\",\"id\":\"40738617\",\"text\":\"We present data that show that quantitative urine drug concentrations obtained from individuals monitored for drug compliance as part of their participation in chronic opioid or substance abuse treatment can be used to quantify drug metabolism. We quantitatively monitor 18 drugs and their Phase 1 metabolite. These drugs were dextromethorphan, morphine, oxycodone, hydrocodone, quetiapine, tapentadol, tramadol, buprenorphine, clonazepam, fentanyl, imipramine, ketamine, carisoprodol, alprazolam, methadone, and amitriptyline. By using the ratio of metabolite/parent drug (prescribed medication), the expected or reference values for 18 drugs were obtained. Ratio values outside of this reference range could be considered to be caused by genetic metabolizing variants, drug-drug interactions, age, or deception. Alerting providers of the variance in metabolism from the expected norm might reduce overdosing or underdosing patients.\"}]",
+      "t": 38470
+    },
+    {
+      "type": "thinking",
+      "text": "Matching exact source quotes and checking claim support.",
+      "t": 48504
+    },
+    {
+      "type": "quote_checked",
+      "claimId": "c1",
+      "result": "matched",
+      "t": 48504
+    },
+    {
+      "type": "claim_judged",
+      "claimId": "c1",
+      "support": "supports",
+      "rationale": "The quote is a label warning that concomitant benzodiazepines and opioids may cause profound sedation, respiratory depression, coma, and death, matching the claim's class-level co-exposure, may-certainty, and increased-risk direction for alprazolam and tramadol.",
+      "model": "muse-wonder-1.0",
+      "t": 54839
+    },
+    {
+      "type": "thinking",
+      "text": "Writing the card from accepted claims.",
+      "t": 54840
+    },
+    {
+      "type": "thinking",
+      "text": "Card synthesis unavailable; using accepted claim text.",
+      "t": 65254
+    },
+    {
+      "type": "thinking",
+      "text": "Made 12 external requests",
+      "t": 82789
+    },
+    {
+      "type": "card_ready",
+      "card": {
+        "pair": "alprazolam__tramadol",
+        "a": "alprazolam",
+        "b": "tramadol",
+        "category": "cns_depression",
+        "depth": "label_only",
+        "headline": {
+          "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+          "claimIds": [
+            "c1"
+          ]
+        },
+        "reported": [
+          {
+            "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+            "claimIds": [
+              "c1"
+            ]
+          }
+        ],
+        "mechanism": [],
+        "conflicts": [],
+        "gaps": [
+          {
+            "id": "g1",
+            "text": "No adult human studies of alprazolam with tramadol and sedation outcomes were found.",
+            "searched": [
+              "alprazolam tramadol concomitant sedation respiratory depression",
+              "alprazolam tramadol combination profound sedation respiratory depression coma death adult"
+            ]
+          }
+        ],
+        "pharmacistQuestions": [
+          {
+            "trigger": "label_only",
+            "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+          },
+          {
+            "trigger": "always",
+            "text": "Do any of my other medicines contain Alprazolam or Tramadol, or work the same way?"
+          },
+          {
+            "trigger": "always",
+            "text": "Does my dose, or the time between taking Alprazolam and Tramadol, change how much this matters?"
+          }
+        ],
+        "claims": [
+          {
+            "id": "c1",
+            "text": "Benzodiazepines with opioids may result in profound sedation, respiratory depression, coma, death.",
+            "quote": "Concomitant use of benzodiazepines and opioids may result in profound sedation, respiratory depression, coma, and death.",
+            "source": {
+              "kind": "fda_label",
+              "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning"
+            },
+            "stance": "increases_risk",
+            "outcome": "profound_sedation_respiratory_depression_coma_death",
+            "quoteCheck": "matched",
+            "accepted": true,
+            "support": "supports",
+            "judgeRationale": "The quote is a label warning that concomitant benzodiazepines and opioids may cause profound sedation, respiratory depression, coma, and death, matching the claim's class-level co-exposure, may-certainty, and increased-risk direction for alprazolam and tramadol.",
+            "judgeModel": "muse-wonder-1.0"
+          }
+        ],
+        "sources": [
+          {
+            "kind": "fda_label",
+            "id": "388e249d-b9b6-44c3-9f8f-880eced0239f#boxed_warning",
+            "title": "Boxed Warning",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=388e249d-b9b6-44c3-9f8f-880eced0239f",
+            "citation": "FDA label · Boxed Warning",
+            "design": "regulatory_label"
+          }
+        ],
+        "generatedAt": "2026-11-03T20:43:45.139Z",
+        "models": {
+          "research": "muse-spark-1.3",
+          "judge": "muse-wonder-1.0",
+          "synth": "muse-spark-1.3"
+        },
+        "signal": {
+          "level": "serious_warning",
+          "basis": [
+            "c1"
+          ],
+          "conflict": false
+        }
+      },
+      "t": 82789
+    }
+  ]
+}

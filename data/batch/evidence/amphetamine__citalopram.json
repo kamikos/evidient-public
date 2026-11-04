@@ -1,0 +1,164 @@
+{
+  "card": {
+    "pair": "amphetamine__citalopram",
+    "a": "amphetamine",
+    "b": "citalopram",
+    "origin": "batch",
+    "category": "serotonin",
+    "headline": {
+      "text": "The FDA amphetamine label flags serotonin syndrome with SSRIs, the class containing citalopram.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes the reaction as potentially life-threatening and addresses SSRIs as a class.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA amphetamine label says amphetamines with SSRIs, the class containing citalopram, may cause potentially life-threatening serotonin syndrome.",
+        "quote": "Serotonin syndrome, a potentially life-threatening reaction, may occur when amphetamines are used in combination with other drugs that affect the serotonergic neurotransmitter systems such as monoamine oxidase inhibitors (MAOIs), selective serotonin reuptake inhibitors (SSRIs)",
+        "source": {
+          "kind": "fda_label",
+          "id": "20735c2e-6304-425f-a4e4-584f6f90d6a0#warnings"
+        },
+        "stance": "increases_risk",
+        "outcome": "serotonin_syndrome",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The amphetamine label says potentially life-threatening serotonin syndrome may occur with SSRIs, the class that includes citalopram.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "20735c2e-6304-425f-a4e4-584f6f90d6a0#warnings",
+        "title": "amphetamine: warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20735c2e-6304-425f-a4e4-584f6f90d6a0",
+        "citation": "FDA label · warnings",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "20735c2e-6304-425f-a4e4-584f6f90d6a0#precautions",
+        "title": "amphetamine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20735c2e-6304-425f-a4e4-584f6f90d6a0",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "20735c2e-6304-425f-a4e4-584f6f90d6a0#drug_interactions",
+        "title": "amphetamine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=20735c2e-6304-425f-a4e4-584f6f90d6a0",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "0109f365-bebd-4810-a56f-4451e10245db#contraindications",
+        "title": "citalopram: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0109f365-bebd-4810-a56f-4451e10245db",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "0109f365-bebd-4810-a56f-4451e10245db#drug_interactions",
+        "title": "citalopram: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0109f365-bebd-4810-a56f-4451e10245db",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26089243",
+        "title": "Optimising PET approaches to measuring 5-HT release in human brain.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26089243/",
+        "citation": "1098-2396 69 10 2015 Oct Synapse (New York, N.Y.) Synapse",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2893415",
+        "title": "Antagonism by cholinomimetic drugs of the turning induced by intrastriatal pirenzepine in mice.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2893415/",
+        "citation": "0033-3158 93 4 1987 Psychopharmacology Psychopharmacology (Berl)",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "40738618",
+        "title": "Urinary metabolic ratio of pain management and substance abuse treatment drugs: Drug-drug interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40738618/",
+        "citation": "1551-7489 21 7 2025 Special Supplement: Data and Analysis of Apr Million Drug Samples Journal of opioid management J Opioid Manag",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "34884800",
+        "title": "Interaction Profiles of Central Nervous System Active Drugs at Human Organic Cation Transporters 1-3 and Human Plasma Membrane Monoamine Transporter.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34884800/",
+        "citation": "1422-0067 22 23 2021 Nov 30 International journal of molecular sciences Int J Mol Sci",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Amphetamine or Citalopram, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Amphetamine and Citalopram, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no controlled human study specifically testing amphetamine with citalopram.",
+        "searched": [
+          "\"amphetamine\"[tiab] AND \"citalopram\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.649Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,112 @@
+{
+  "card": {
+    "pair": "alcohol__brimonidine",
+    "a": "alcohol",
+    "b": "brimonidine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label describes possible additive CNS depressant effects between brimonidine eye drops and alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label states that specific interaction studies have not been conducted with brimonidine eye drops.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label describes possible additive or potentiating effects between brimonidine eye drops and alcohol, without specific interaction studies.",
+        "quote": "Although specific drug interaction studies have not been conducted with brimonidine tartrate ophthalmic solution, the possibility of an additive or potentiating effect with CNS depressants (alcohol, barbiturates, opiates, sedatives, or anesthetics) should be considered.",
+        "source": {
+          "kind": "fda_label",
+          "id": "e08a915a-77ca-4d16-d760-11b05848418d#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The brimonidine label names alcohol among CNS depressants with a possible additive or potentiating effect and states no specific interaction studies were done.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "e08a915a-77ca-4d16-d760-11b05848418d#drug_interactions",
+        "title": "brimonidine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e08a915a-77ca-4d16-d760-11b05848418d",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:60574868#4.5",
+        "title": "BRIMAZED 2 mg/mL, collyre en solution en récipient unidose: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60574868/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24134746",
+        "title": "Chick chorioallantoic membrane model for in ovo evaluation of timolol maleate-brimonidine tartrate ocular inserts.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24134746/",
+        "citation": "1521-0464 21 4 2014 Jun Drug delivery Drug Deliv",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "42076074",
+        "title": "Engineered Brimonidine Tartrate Aminosomes as a Mucoadhesive Platform for Sustained Glaucoma Management: Optimization, In Vitro Characterization, and In Vivo Evaluation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42076074/",
+        "citation": "1999-4923 18 4 2026 Mar 30 Pharmaceutics Pharmaceutics",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Brimonidine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.549Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

@@ -1,0 +1,21 @@
+{
+ "pair": "chlorpromazine__clozapine",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The chlorpromazine (Largactil) label lists phenothiazine neuroleptics and clozapine as atropinic drugs whose adverse effects add, and the English rendering is faithful."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  }
+ ]
+}

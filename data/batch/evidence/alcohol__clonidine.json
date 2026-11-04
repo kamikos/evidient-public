@@ -1,0 +1,147 @@
+{
+  "card": {
+    "pair": "alcohol__clonidine",
+    "a": "alcohol",
+    "b": "clonidine",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA label says clonidine may increase alcohol's central nervous system depressant effects.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes potentiation of alcohol-related central nervous system depression by clonidine.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says clonidine may increase alcohol's central nervous system depressant effects.",
+        "quote": "Clonidine may potentiate the CNS-depressive effects of alcohol, barbiturates or other sedating drugs.",
+        "source": {
+          "kind": "fda_label",
+          "id": "6d7cfb02-e580-4658-a2fe-2149b515d434#drug_interactions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says clonidine may potentiate the CNS-depressive effects of alcohol.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "6d7cfb02-e580-4658-a2fe-2149b515d434#precautions",
+        "title": "clonidine: precautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d7cfb02-e580-4658-a2fe-2149b515d434",
+        "citation": "FDA label · precautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "6d7cfb02-e580-4658-a2fe-2149b515d434#drug_interactions",
+        "title": "clonidine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d7cfb02-e580-4658-a2fe-2149b515d434",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "FR:64256681#4.5",
+        "title": "CATAPRESSAN 0,15 mg/ml, solution injectable: 4.5",
+        "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64256681/extrait#tabpanel-rcp-panel",
+        "citation": "BDPM · 4.5",
+        "country": "FR",
+        "language": "fr",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38135468",
+        "title": "Diagnosis and management of resistant hypertension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38135468/",
+        "citation": "1468-201X 110 22 2024 Oct 28 Heart (British Cardiac Society) Heart",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "31038898",
+        "title": "Clinically Relevant Drug-Drug Interactions in Primary Care.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31038898/",
+        "citation": "1532-0650 99 9 2019 May 1 American family physician Am Fam Physician",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "8930144",
+        "title": "Synergistic behavioral interaction between ethanol and clonidine in rats: role of alpha-2 adrenoceptors.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8930144/",
+        "citation": "0022-3565 279 2 1996 Nov The Journal of pharmacology and experimental therapeutics J Pharmacol Exp Ther",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "3748886",
+        "title": "Investigations of central interaction of ethanol and clonidine.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3748886/",
+        "citation": "0301-0244 38 2 1986 Mar-Apr Polish journal of pharmacology and pharmacy Pol J Pharmacol Pharm",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Clonidine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains animal studies but no controlled human study of this combination.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"clonidine\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.559Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

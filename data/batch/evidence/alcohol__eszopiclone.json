@@ -1,0 +1,101 @@
+{
+  "card": {
+    "pair": "alcohol__eszopiclone",
+    "a": "alcohol",
+    "b": "eszopiclone",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA eszopiclone label describes increased impairment risk with alcohol.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label describes impaired alertness and motor coordination, including morning impairment, with greater risk during alcohol use.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA eszopiclone label says alcohol increases the risk of impaired alertness and motor coordination, including morning impairment.",
+        "quote": "5 WARNINGS AND PRECAUTIONS • CNS Depressant Effects: Impaired alertness and motor coordination, including risk of morning impairment.\nRisk increases with dose and use with other CNS depressants and alcohol.",
+        "source": {
+          "kind": "fda_label",
+          "id": "9dfe774a-2c7a-4e10-bedd-cde64ad28676#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says the risk of impaired alertness and motor coordination, including morning impairment, increases with alcohol.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "9dfe774a-2c7a-4e10-bedd-cde64ad28676#warnings_and_cautions",
+        "title": "eszopiclone: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9dfe774a-2c7a-4e10-bedd-cde64ad28676",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24399926",
+        "title": "Dual orexin receptor antagonists show distinct effects on locomotor performance, ethanol interaction and sleep architecture relative to gamma-aminobutyric acid-A receptor modulators.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24399926/",
+        "citation": "1662-4548 7 2013 Frontiers in neuroscience Front Neurosci",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Eszopiclone and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains a rat motor-coordination study but no controlled human study of this combination.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"eszopiclone\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.576Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

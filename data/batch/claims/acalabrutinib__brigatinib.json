@@ -1,0 +1,20 @@
+{
+  "pair": "acalabrutinib__brigatinib",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The acalabrutinib label text does not mention brigatinib, and no study of the two was found.",
+      "searched": [
+        "\"acalabrutinib\"[tiab] AND \"brigatinib\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

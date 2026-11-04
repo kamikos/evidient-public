@@ -1,0 +1,84 @@
+{
+  "card": {
+    "pair": "alcohol__insulin-lispro",
+    "a": "alcohol",
+    "b": "insulin-lispro",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The FDA insulin lispro label says alcohol may increase or decrease its glucose lowering effect.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label identifies alcohol as a substance that can change the glucose lowering effect in either direction.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA insulin lispro label says alcohol may increase or decrease its blood glucose lowering effect.",
+        "quote": "Drugs That May Increase or Decrease the Blood Glucose Lowering Effect of ADMELOG Drugs: Alcohol,",
+        "source": {
+          "kind": "fda_label",
+          "id": "12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0#drug_interactions"
+        },
+        "stance": "uncertain",
+        "outcome": "altered_glucose_lowering",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label lists alcohol among drugs that may increase or decrease the blood glucose lowering effect of insulin lispro.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0#drug_interactions",
+        "title": "insulin-lispro: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Insulin lispro and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.582Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

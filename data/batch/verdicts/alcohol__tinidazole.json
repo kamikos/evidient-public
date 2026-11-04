@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__tinidazole",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The label says alcoholic beverages should be avoided during and 3 days after tinidazole because cramps, nausea, vomiting, headaches and flushing may occur."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The systematic review abstract states available data support that tinidazole can be safely used with concomitant alcohol consumption."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

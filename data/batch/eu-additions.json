@@ -1,0 +1,219 @@
+[
+  {
+    "pair": "acetaminophen__alcohol",
+    "sourceIds": [
+      "ES:23203#4.4",
+      "ES:23203#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__alprazolam",
+    "sourceIds": [
+      "ES:56025#4.4",
+      "ES:56025#4.5",
+      "FR:60647049#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__amphetamine",
+    "sourceIds": []
+  },
+  {
+    "pair": "alcohol__cetirizine",
+    "sourceIds": [
+      "ES:58481#4.4",
+      "ES:58481#4.5",
+      "FR:60807297#4.4",
+      "FR:60807297#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__diphenhydramine",
+    "sourceIds": [
+      "ES:38322#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__hydroxyzine",
+    "sourceIds": [
+      "ES:26269#4.4",
+      "ES:26269#4.5",
+      "FR:61162294#4.4",
+      "FR:61162294#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__ibuprofen",
+    "sourceIds": [
+      "ES:54985#4.4"
+    ]
+  },
+  {
+    "pair": "alcohol__lorazepam",
+    "sourceIds": [
+      "ES:49796#4.4",
+      "ES:49796#4.5",
+      "FR:60642671#4.4",
+      "FR:60642671#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__methylphenidate",
+    "sourceIds": [
+      "ES:55369#4.4",
+      "ES:55369#4.5",
+      "FR:60047182#4.4",
+      "FR:60047182#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__metronidazole",
+    "sourceIds": [
+      "ES:34985#4.4",
+      "ES:34985#4.5",
+      "FR:60416081#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__sertraline",
+    "sourceIds": [
+      "ES:59717#4.4",
+      "ES:59717#4.5",
+      "FR:60155788#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__tramadol",
+    "sourceIds": [
+      "ES:59086#4.4",
+      "ES:59086#4.5",
+      "FR:66750351#4.5"
+    ]
+  },
+  {
+    "pair": "alcohol__zolpidem",
+    "sourceIds": [
+      "ES:58470#4.4",
+      "ES:58470#4.5",
+      "FR:61705683#4.4",
+      "FR:61705683#4.5"
+    ]
+  },
+  {
+    "pair": "alprazolam__hydroxyzine",
+    "sourceIds": [
+      "FR:60647049#4.5",
+      "FR:61162294#4.5"
+    ]
+  },
+  {
+    "pair": "alprazolam__tramadol",
+    "sourceIds": [
+      "ES:56025#4.4",
+      "ES:56025#4.5",
+      "FR:60647049#4.4",
+      "FR:60647049#4.5",
+      "ES:59086#4.4",
+      "ES:59086#4.5",
+      "FR:66750351#4.4",
+      "FR:66750351#4.5"
+    ]
+  },
+  {
+    "pair": "alprazolam__zolpidem",
+    "sourceIds": [
+      "FR:60647049#4.5",
+      "ES:58470#4.4",
+      "ES:58470#4.5",
+      "FR:61705683#4.4",
+      "FR:61705683#4.5"
+    ]
+  },
+  {
+    "pair": "amphetamine__sertraline",
+    "sourceIds": []
+  },
+  {
+    "pair": "amphetamine__tramadol",
+    "sourceIds": []
+  },
+  {
+    "pair": "aspirin__ibuprofen",
+    "sourceIds": [
+      "ES:54985#4.5"
+    ]
+  },
+  {
+    "pair": "diphenhydramine__zolpidem",
+    "sourceIds": [
+      "FR:61705683#4.4",
+      "FR:61705683#4.5"
+    ]
+  },
+  {
+    "pair": "hydroxyzine__lorazepam",
+    "sourceIds": [
+      "FR:61162294#4.5"
+    ]
+  },
+  {
+    "pair": "hydroxyzine__tramadol",
+    "sourceIds": [
+      "ES:59086#4.5"
+    ]
+  },
+  {
+    "pair": "hydroxyzine__zolpidem",
+    "sourceIds": [
+      "FR:61162294#4.5",
+      "FR:61705683#4.4",
+      "FR:61705683#4.5"
+    ]
+  },
+  {
+    "pair": "ibuprofen__warfarin",
+    "sourceIds": [
+      "FR:60073914#4.5",
+      "ES:32864#4.5",
+      "FR:63245753#4.5"
+    ]
+  },
+  {
+    "pair": "lorazepam__tramadol",
+    "sourceIds": [
+      "ES:49796#4.4",
+      "FR:60642671#4.4",
+      "FR:60642671#4.5",
+      "ES:59086#4.4",
+      "ES:59086#4.5",
+      "FR:66750351#4.4",
+      "FR:66750351#4.5"
+    ]
+  },
+  {
+    "pair": "lorazepam__zolpidem",
+    "sourceIds": [
+      "ES:58470#4.4",
+      "ES:58470#4.5",
+      "FR:61705683#4.4",
+      "FR:61705683#4.5"
+    ]
+  },
+  {
+    "pair": "sertraline__tramadol",
+    "sourceIds": [
+      "ES:59717#4.4",
+      "FR:60155788#4.4",
+      "FR:60155788#4.5",
+      "ES:59086#4.5",
+      "FR:66750351#4.5"
+    ]
+  },
+  {
+    "pair": "sertraline__warfarin",
+    "sourceIds": [
+      "ES:59717#4.5",
+      "FR:60155788#4.5"
+    ]
+  }
+]

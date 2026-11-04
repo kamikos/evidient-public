@@ -1,0 +1,26 @@
+{
+  "pair": "buprenorphine__clobazam",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The clobazam boxed warning states benzodiazepines with opioids may cause profound sedation, respiratory depression, coma and death, and buprenorphine is an opioid."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The Urbanyl SmPC entry for buprenorphine states increased risk of potentially fatal respiratory depression, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

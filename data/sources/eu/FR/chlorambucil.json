@@ -1,0 +1,28 @@
+{
+  "inn": "chlorambucil",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "66518292",
+  "product": "CHLORAMINOPHENE 2 mg, gélule",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66518292/extrait",
+  "retrievedAt": "2026-11-04T08:45:14.543Z",
+  "documentUpdatedAt": "2026-11-03",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-04; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "7da38a9d07575a0435f398d91730a379880e837394ef976ee6436ded569edf70",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nLe chlorambucil est un agent cytotoxique actif à n’utiliser que sous le contrôle de médecins ayant l’expérience de l’administration de tels agents.\n\nEn cas d’éruption cutanée, la poursuite du traitement par chlorambucil doit être évaluée car des études ont montré que dans certains cas, l’éruption cutanée avait évoluée en syndrome de Stevens-Johnson ou de Lyell ou pouvait être associée à un DRESS (voir rubrique 4.8).\n\nSurveillance\n\nComme le chlorambucil peut induire une inhibition irréversible de la moelle osseuse, l’hémogramme doit être contrôlé régulièrement chez les patients sous traitement.\n\nAux doses thérapeutiques, le chlorambucil entraîne une dépression des lymphocytes, avec un effet moins important sur le nombre de neutrophiles et des plaquettes, ainsi que sur le taux d’hémoglobine. L’arrêt du chlorambucil n’est pas nécessaire au premier signe de diminution des neutrophiles, mais il convient de se rappeler que cette diminution peut se poursuivre pendant dix jours ou plus après la dernière dose. Cependant, le traitement doit être arrêté si le taux des neutrophiles est inférieur à 2000/mm3.\n\nLe chlorambucil ne doit pas être administré aux patients qui ont récemment subi une radiothérapie ou reçu d’autres agents cytotoxiques.\n\nLorsqu’une infiltration de la moelle osseuse par les lymphocytes est présente ou lorsque la moelle osseuse est hypoplasique, la dose quotidienne ne doit pas dépasser 0,1 mg/kg de poids corporel.\n\nSi le traitement par ce produit se substitue à un traitement corticoïde, le délai d’action de ce produit oblige à maintenir le traitement corticoïde pendant un trimestre environ en réduisant les doses progressivement.\n\nLes patients soumis à un traitement intermittent à fortes doses et les patients aux antécédents convulsifs doivent être étroitement surveillés après l’administration de chlorambucil car le risque de convulsions peut être accru.\n\nMutagénicité et carcinogénicité\n\nIl a été démontré que le chlorambucil provoque des lésions des chromatides ou des chromosomes chez l’homme.\n\nDes hémopathies malignes aiguës secondaires (leucémie et syndrome myélodysplasique) ont été décrites, en particulier après un traitement prolongé (voir rubrique 4.8).\n\nLe risque leucémogène doit être opposé au bénéfice thérapeutique potentiel lorsqu’on envisage l’utilisation de chlorambucil (voir rubrique 5.3).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66518292/extrait#tabpanel-rcp-panel",
+      "sha256": "d6143bb4daf4c76cae8a17252c71ff9ee7ada89602f3e49bdd9106ed2c857cd2"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nAssociations contre-indiquées\n\n+ Vaccin vivants atténués\n\nRisque de maladie vaccinale généralisée mortelle. Association contre-indiquée pendant la chimiothérapie et les 6 mois suivant l’arrêt de la chimiothérapie.\n\nAssociations déconseillées\n\n+ Phénytoïne, fosphénytoïne\n\nRisque de survenue de convulsions par diminution de l'absorption digestive de la seule phénytoïne par le cytotoxique, ou bien risque de majoration de la toxicité ou de perte d'efficacité du cytotoxique par augmentation de son métabolisme hépatique par la phénytoïne ou la fosphénytoïne.\n\n+Olaparib\n\nRisque de majoration de l’effet myélosuppresseur du cytotoxique.\n\nAssociations faisant l'objet de précautions d’emploi\n\n+ Antivitamines K\n\nAugmentation du risque thrombotique et hémorragique au cours des affections tumorales. De surcroit, possible interaction entre les AVK et la chimiothérapie. Contrôle plus fréquent de l'INR.\n\nAssociations à prendre en compte\n\n+ Immunosuppresseurs\n\nImmunodépression excessive avec risque de pseudo-lymphomes.\n\n+ Flucytosine\n\nRisque de majoration de la toxicité hématologique.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66518292/extrait#tabpanel-rcp-panel",
+      "sha256": "aee84f0143f98a93ebd4fb0286aae9104935752c99988037d095b3fa226b15d1"
+    }
+  ]
+}

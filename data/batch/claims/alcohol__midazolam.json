@@ -1,0 +1,62 @@
+{
+  "pair": "alcohol__midazolam",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The FDA midazolam label says concurrent alcohol may increase hypoventilation, airway obstruction, desaturation, or apnea and deepen or prolong drug effects.",
+      "quote": "Concomitant use of barbiturates, alcohol or other central nervous system depressants may increase the risk of hypoventilation, airway obstruction, desaturation, or apnea and may contribute to profound and/or prolonged drug effect.",
+      "sourceId": "d9305142-417d-4d8c-9a23-f9a1b6771cac#warnings",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "c2",
+      "text": "The Spanish label says midazolam combined with alcohol can increase sedation and cardiorespiratory depression.",
+      "quote": "Cuando se coadministra midazolam con depresores del SNC incluyendo el alcohol, también puede producirse un aumento de los efectos adversos tales como la sedación y depresión cardiorrespiratoria.",
+      "quoteEnglish": "When midazolam is coadministered with CNS depressants including alcohol, adverse effects such as sedation and cardiorespiratory depression may also increase.",
+      "sourceId": "ES:59023#4.5",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    },
+    {
+      "id": "cEU1",
+      "text": "The EMA midazolam label states that co-administration with CNS depressants, including alcohol, is likely to enhance sedation and respiratory depression.",
+      "quote": "The co-administration of midazolam with other sedative/hypnotic medicinal products and CNS depressants, including alcohol, is likely to result in enhanced sedation and respiratory depression.",
+      "sourceId": "EU:EMEA/H/C/002267#4.5",
+      "stance": "increases_risk",
+      "outcome": "respiratory_depression"
+    }
+  ],
+  "headline": {
+    "text": "The FDA midazolam label describes increased respiratory impairment and potentially profound or prolonged effects with alcohol.",
+    "claimIds": [
+      "c1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The FDA label lists hypoventilation, airway obstruction, desaturation, and apnea; the Spanish label describes increased sedation and cardiorespiratory depression.",
+      "claimIds": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "text": "The EMA midazolam label states that co-administration with CNS depressants, including alcohol, is likely to enhance sedation and respiratory depression.",
+      "claimIds": [
+        "cEU1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "cns_depression",
+  "gaps": [
+    {
+      "text": "The packet contains no controlled human study isolating alcohol's interaction with midazolam.",
+      "searched": [
+        "(ethanol[tiab] OR alcohol[tiab]) AND \"midazolam\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

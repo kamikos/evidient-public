@@ -1,0 +1,31 @@
+{
+  "pair": "alcohol__pregabalin",
+  "curator": "gpt-6.1-sol",
+  "claims": [
+    {
+      "id": "cEU1",
+      "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of ethanol.",
+      "quote": "Pregabalin may potentiate the effects of ethanol and lorazepam.",
+      "sourceId": "EU:EMEA/H/C/000546#4.5",
+      "stance": "increases_risk",
+      "outcome": "cns_depression"
+    }
+  ],
+  "headline": {
+    "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of ethanol.",
+    "claimIds": [
+      "cEU1"
+    ]
+  },
+  "reported": [
+    {
+      "text": "The EMA pregabalin label states that pregabalin may potentiate the effects of ethanol.",
+      "claimIds": [
+        "cEU1"
+      ]
+    }
+  ],
+  "mechanism": [],
+  "category": "cns_depression",
+  "gaps": []
+}

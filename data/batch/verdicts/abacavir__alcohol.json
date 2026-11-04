@@ -1,0 +1,21 @@
+{
+  "pair": "abacavir__alcohol",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "cEU1",
+      "support": "supports",
+      "rationale": "Independent Claude Opus 5.5 review supplied in the implementation brief: supports after amendment. The quote and prose now include the immediately following statement that the 41% exposure increase is not considered clinically significant; the original draft was overstated."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

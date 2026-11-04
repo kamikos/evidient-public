@@ -1,0 +1,28 @@
+{
+  "inn": "adapalene",
+  "country": "ES",
+  "language": "es",
+  "registryId": "61066",
+  "product": "DIFFERINE 1 mg/g GEL",
+  "url": "https://cima.aemps.es/cima/dochtml/ft/61066/FT_61066.html",
+  "retrievedAt": "2026-11-03T23:08:57.172Z",
+  "licence": "AEMPS reuse conditions; not asserted CC0",
+  "terms": "https://www.aemps.gob.es/aviso-legal/",
+  "attribution": "Fuente de la información: Agencia Española de Medicamentos y Productos Sanitarios www.aemps.gob.es. CIMA, retrieved 2026-11-03, document updated 2024-05-23T23:12:23.000Z. Extracted sections; original meaning preserved; no endorsement.",
+  "sha256": "0c5c54a72a45ba330471cf1fbe5d470b80e880e1774e29e25ed1c1991b2b4faa",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "Si se produce cualquier reacción que sugiera sensibilidad o irritación grave, se deberá interrumpir la medicación. Si el grado de irritación local lo justifica, el paciente puede directamente disminuir la frecuencia de aplicación, interrumpir la medicación temporalmente hasta que los síntomas disminuyan o permanentemente. Puede reanudarse la aplicación una vez al día si se estima que el paciente puede tolerar el tratamiento. Ni el gel, ni la crema deben entrar en contacto con los ojos, boca, alas de la nariz o membranas mucosas. Si entraran en contacto con los ojos, lavar inmediatamente con agua templada. No deben aplicarse sobre piel dañada (cortes o abrasiones), quemaduras solares o sobre piel eczematosa, ni deben utilizarse en pacientes con acné grave que afecta a extensas superficies corporales. Debe evitarse la exposición a la luz solar excesiva o a radiación UV, incluidas lámparas de rayos UV, durante el tratamiento con Differine. Se recomienda el uso de protectores solares y ropa protectora sobre las áreas a tratar cuando la exposición no pueda ser evitada (ver sección 4.5 Interacciones con otros medicamentos y otras formas de interacción). Advertencias sobre excipientes Differine crema puede producir reacciones alérgicas (posiblemente retardadas) porque contiene parahidroxibenzoato de metilo (E-218), parahidroxibenzoato de propilo (E-216). Differine gel puede producir reacciones alérgicas (posiblemente retardadas) porque contiene parahidroxibenzoato de metilo (E-218). Este medicamento también contiene 40 mg de propilenglicol (E-1520) en cada gramo, equivalente a 40 mg/g. Puede producir irritación de la piel.",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=61066&seccion=4.4",
+      "sha256": "edcb7137fd88dcd7c8a7af8ef1e804247707023e84c24ab9aaa4506b64ed5cbe"
+    },
+    {
+      "section": "4.5",
+      "text": "No se conocen interacciones con otros medicamentos que puedan ser administrados tópicamente o de forma concomitante con Differine; sin embargo, otros retinoides o medicamentos con un modo de acción similar, no deben usarse conjuntamente con adapaleno. Adapaleno es estable al oxígeno y a la luz y es químicamente no reactivo. A pesar de que diversos estudios en animales y en el hombre han demostrado que el adapaleno carece de potencial fototóxico y fotoalergénico, no ha sido establecida la seguridad de empleo de adapaleno durante la exposición repetida a la luz solar o la radiación U.V., ni en animales ni en el hombre. Por tanto, debe evitarse la exposición a luz solar excesiva o a radiación U.V. durante el tratamiento con Differine. La absorción de adapaleno a través de la piel humana es baja, por lo que la interacción con medicaciones sistémicas es poco probable. No existe evidencia de que la eficacia de medicamentos orales, como anticonceptivos y antibióticos, se vea influenciada por el uso cutáneo de Differine. Differine puede producir irritación local leve, y es probable que el uso conjunto con agentes exfoliantes, astringentes o productos irritantes, pueda ocasionar efectos irritativos adicionales. Sin embargo, tratamientos tópicos del acné como soluciones de eritromicina (hasta el 4%) o soluciones de clindamicina fosfato (al 1% como base) o geles en base acuosa de peróxido de benzoilo hasta el 10%, pueden utilizarse por la mañana cuando Differine se utiliza por la noche, no existiendo degradación mutua o irritación acumulativa.",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=61066&seccion=4.5",
+      "sha256": "41491d45b0459bff1b2cd6bf10941bc192b13ef9e09e54dbadf9352b9988d864"
+    }
+  ],
+  "documentUpdatedAt": "2024-05-23T23:12:23.000Z"
+}

@@ -1,0 +1,110 @@
+{
+  "card": {
+    "pair": "alcohol__stiripentol",
+    "a": "alcohol",
+    "b": "stiripentol",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "The FDA stiripentol label says alcohol could increase somnolence.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The label explicitly includes alcohol among CNS depressants that could potentiate somnolence.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA stiripentol label says alcohol could potentiate DIACOMIT-related somnolence.",
+        "quote": "Other central nervous system CNS depressants, including alcohol, could potentiate the somnolence effect of DIACOMIT.",
+        "source": {
+          "kind": "fda_label",
+          "id": "58304ba8-9779-4658-811e-94ffe08c3f16#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "cns_depression",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label says CNS depressants including alcohol could potentiate the somnolence effect of stiripentol.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "58304ba8-9779-4658-811e-94ffe08c3f16#warnings_and_cautions",
+        "title": "stiripentol: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=58304ba8-9779-4658-811e-94ffe08c3f16",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "7956728",
+        "title": "Metabolic chiral inversion of stiripentol in the rat. I. Mechanistic studies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7956728/",
+        "citation": "0090-9556 22 4 1994 Jul-Aug Drug metabolism and disposition: the biological fate of chemicals Drug Metab Dispos",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "2877822",
+        "title": "The metabolic fate of stiripentol in man.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2877822/",
+        "citation": "0090-9556 14 6 1986 Nov-Dec Drug metabolism and disposition: the biological fate of chemicals Drug Metab Dispos",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Stiripentol and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no human study of drinking alcohol with stiripentol.",
+        "searched": [
+          "(ethanol[tiab] OR alcohol[tiab]) AND \"stiripentol\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.614Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

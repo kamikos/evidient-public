@@ -1,0 +1,131 @@
+{
+  "card": {
+    "pair": "alcohol__daridorexant",
+    "a": "alcohol",
+    "b": "daridorexant",
+    "origin": "batch",
+    "category": "cns_depression",
+    "headline": {
+      "text": "A randomized study found numerically greater impairment with ethanol plus daridorexant than daridorexant alone.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "The study reported numerically greater impairment across eye movement, balance, alertness, intoxication, and tracking measures with coadministration.",
+        "claimIds": [
+          "c1"
+        ]
+      },
+      {
+        "text": "The EMA daridorexant label reports additive effects on psychomotor performance when 50 mg daridorexant was co-administered with alcohol.",
+        "claimIds": [
+          "cEU1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "A randomized crossover study in 19 healthy participants found greater numerical impairment on several performance and alertness measures with ethanol plus daridorexant than daridorexant alone.",
+        "quote": "Coadministration&#xa0;with ethanol produced a&#xa0;numerically greater impairment on saccadic peak velocity, body sway, visual analog scale (VAS) alertness, VAS alcohol intoxication, smooth pursuit, and adaptive tracking compared with daridorexant alone.",
+        "source": {
+          "kind": "pubmed",
+          "id": "33205362"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The abstract of the 19-subject randomized crossover study reports numerically greater impairment on the listed measures with ethanol plus daridorexant than daridorexant alone.",
+        "accepted": true
+      },
+      {
+        "id": "cEU1",
+        "text": "The EMA daridorexant label reports additive effects on psychomotor performance when 50 mg daridorexant was co-administered with alcohol.",
+        "quote": "Co-administration of 50 mg daridorexant with alcohol led to additive effects on psychomotor performance.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "EU:EMEA/H/C/005634#4.5"
+        },
+        "stance": "increases_risk",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Independent Claude Opus 5.5 review against the full EMA SmPC section 4.5, supplied in the implementation brief: supports the claim.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "3a2d1503-b816-40c9-9fac-7e03c5a3bcef#warnings_and_cautions",
+        "title": "daridorexant: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a2d1503-b816-40c9-9fac-7e03c5a3bcef",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "33205362",
+        "title": "Pharmacological Interactions between the Dual Orexin Receptor Antagonist Daridorexant and Ethanol in a Double-Blind, Randomized, Placebo-Controlled, Double-Dummy, Four-Way Crossover Phase I Study in Healthy Subjects.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33205362/",
+        "citation": "1179-1934 34 12 2020 Dec CNS drugs CNS Drugs",
+        "language": "en",
+        "design": "rct"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/005634#4.4",
+        "title": "Quviviq: 4.4",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/quviviq-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Quviviq, https://www.ema.europa.eu/en/documents/product-information/quviviq-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.4",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "EU:EMEA/H/C/005634#4.5",
+        "title": "Quviviq: 4.5",
+        "url": "https://www.ema.europa.eu/en/documents/product-information/quviviq-epar-product-information_en.pdf",
+        "citation": "European Medicines Agency, Quviviq, https://www.ema.europa.eu/en/documents/product-information/quviviq-epar-product-information_en.pdf, accessed 2026-11. Extracted SmPC sections, whitespace normalised; no endorsement. SmPC 4.5",
+        "country": "EU",
+        "language": "en",
+        "design": "regulatory_label"
+      }
+    ],
+    "conflicts": [],
+    "depth": "human_studies",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "cEU1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Daridorexant and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T18:37:23.274Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

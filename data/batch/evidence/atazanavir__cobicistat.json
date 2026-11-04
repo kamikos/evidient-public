@@ -1,0 +1,208 @@
+{
+  "card": {
+    "pair": "atazanavir__cobicistat",
+    "a": "atazanavir",
+    "b": "cobicistat",
+    "origin": "batch",
+    "category": "other",
+    "headline": {
+      "text": "The Spanish Tybost label says plasma concentrations of CYP3A-metabolized drugs, including atazanavir, increase when given with cobicistat.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "A review reports bioequivalence between cobicistat and ritonavir as an atazanavir pharmacoenhancer.",
+        "claimIds": [
+          "c3"
+        ]
+      }
+    ],
+    "mechanism": [
+      {
+        "text": "The Spanish label links the rise in atazanavir concentrations to cobicistat acting on CYP3A-metabolized drugs.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The Spanish Tybost label says plasma concentrations of CYP3A-metabolized drugs, including atazanavir and darunavir, increase when given with cobicistat.",
+        "quote": "Se observa un aumento de las concentraciones plasmáticas de los medicamentos metabolizados por el CYP3A (entre ellos atazanavir y darunavir) cuando se administran de forma concomitante con cobicistat.",
+        "quoteEnglish": "An increase in plasma concentrations of drugs metabolized by CYP3A (among them atazanavir and darunavir) is observed when they are administered concomitantly with cobicistat.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:113872001#4.4"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Tybost label states concentrations of CYP3A-metabolized drugs including atazanavir rise with cobicistat; translation is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The Spanish Tybost label says treatment with cobicistat and atazanavir or darunavir in the second and third trimesters of pregnancy produced lower atazanavir or darunavir exposure than postpartum.",
+        "quote": "Se ha demostrado que el tratamiento con cobicistat y atazanavir o darunavir durante el segundo y tercer trimestre de embarazo produce menores exposiciones a atazanavir o darunavir en comparación con el posparto.",
+        "quoteEnglish": "Treatment with cobicistat and atazanavir or darunavir during the second and third trimester of pregnancy has been shown to produce lower exposures to atazanavir or darunavir compared with postpartum.",
+        "source": {
+          "kind": "eu_smpc",
+          "id": "ES:113872001#4.4"
+        },
+        "stance": "increases_risk",
+        "outcome": "reduced_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Tybost label states cobicistat with atazanavir in second and third trimesters produced lower atazanavir exposure than postpartum; translation is faithful.",
+        "accepted": true
+      },
+      {
+        "id": "c3",
+        "text": "A review says bioequivalence between cobicistat and ritonavir as a pharmacoenhancer of atazanavir was established.",
+        "quote": "Bioequivalence between cobicistat (COBI) and ritonavir (RTV) as a pharmacoenhancer of ATV was established.",
+        "source": {
+          "kind": "pubmed",
+          "id": "28443391"
+        },
+        "stance": "mechanism",
+        "outcome": "increased_exposure",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "Review abstract states bioequivalence between cobicistat and ritonavir as atazanavir pharmacoenhancer was established.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#contraindications",
+        "title": "cobicistat: contraindications",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · contraindications",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#warnings_and_cautions",
+        "title": "cobicistat: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "3784c35c-e87f-410c-900b-8fd6313c6010#drug_interactions",
+        "title": "cobicistat: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:113872001#4.4",
+        "title": "TYBOST 150mg comprimidos recubiertos con pelicula: 4.4",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=113872001&seccion=4.4",
+        "citation": "AEMPS CIMA · 4.4",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "eu_smpc",
+        "id": "ES:113872001#4.5",
+        "title": "TYBOST 150mg comprimidos recubiertos con pelicula: 4.5",
+        "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=113872001&seccion=4.5",
+        "citation": "AEMPS CIMA · 4.5",
+        "country": "ES",
+        "language": "es",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "27022304",
+        "title": "Evaluating the role of atazanavir/cobicistat and darunavir/cobicistat fixed-dose combinations for the treatment of HIV-1 infection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27022304/",
+        "citation": "1179-1373 8 2016 HIV/AIDS (Auckland, N.Z.) HIV AIDS (Auckl)",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38227571",
+        "title": "Different effects of the companion antiretroviral drugs on dolutegravir trough concentrations.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38227571/",
+        "citation": "1473-5571 38 6 2024 May 1 AIDS (London, England) AIDS",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "35847492",
+        "title": "Approved HIV reverse transcriptase inhibitors in the past decade.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35847492/",
+        "citation": "2211-3835 12 4 2022 Apr Acta pharmaceutica Sinica. B Acta Pharm Sin B",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "28443391",
+        "title": "Atazanavir sulfate + cobicistat for the treatment of HIV infection.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28443391/",
+        "citation": "1744-8336 15 6 2017 Jun Expert review of anti-infective therapy Expert Rev Anti Infect Ther",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "limited",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "no_human_data",
+        "text": "The evidence here is limited. Is there anything about my health that makes this interaction more or less relevant?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Atazanavir or Cobicistat, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Atazanavir and Cobicistat, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The FDA Tybost label excerpts in the packet describe cobicistat with atazanavir mainly in relation to other drugs; no controlled study of atazanavir with cobicistat was among the PubMed records.",
+        "searched": [
+          "\"atazanavir\"[tiab] AND \"cobicistat\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.662Z",
+    "models": {
+      "research": "claude-sonnet-5-5",
+      "judge": "claude-opus-5-5",
+      "synth": "claude-sonnet-5-5"
+    }
+  },
+  "trace": []
+}

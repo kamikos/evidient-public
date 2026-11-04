@@ -1,0 +1,13 @@
+# FEST interaction snapshot
+
+Rebuild offline with `npx tsx scripts/fest-interactions.ts`. Test with `npx tsx --test scripts/fest-interactions.test.ts` and `npm run typecheck`. No model API is used.
+
+`interactions.json` has one entry per active assessed FEST interaction. Both substance groups retain their names, ATC codes, direct FEST references, candidate FEST identities, English names, mapping basis and nullable catalogue id/RxCUI. `pairs` contains sorted distinct catalogue id pairs from explicitly enumerated concrete members. `fullyMapped` requires every listed member on both sides to map. Partially mapped records can still supply concrete pairs.
+
+The extractor joins exact ATC codes through active, single-ingredient FEST branded products and their strength-to-substance references. When products do not establish an identity, it joins the concrete ATC member's Norwegian substance label to exact FEST `Navn`. It then matches `NavnEngelsk` against exact catalogue names and synonyms, following explicit FEST ingredient references when the closest identity has no match. Case, Unicode normalization and whitespace are normalized; no fuzzy match, salt stripping or translation is used. Multiple conflicting identities remain unmapped. Broader or synthetic ATC codes remain unmapped even if a product exists beneath the class. The curated substance list supplies the alcohol identity missing from the medicine registry catalogue. RxCUI is copied from the catalogue, never inferred.
+
+`unmapped.json` deduplicates unresolved member representations and records reasons. `not-assessed.json` contains the separate FEST InteraksjonIkkeVurdert entries; these are not interaction findings. `stats.json` records counts, complete overlap/missing lists and input hashes, using the current `data/edges.ts` and read-only `data/batch/pairs-final.json`.
+
+Norwegian consequence, mechanism and situational criterion text is preserved after XML entity decoding, including whitespace. Norwegian relevance/source-basis labels and original references are retained. Reference titles can be English; there is no English consequence/mechanism variant. PMIDs/DOIs are extracted only from explicit identifiers or reference URLs. Management text is never serialized into these derived files.
+
+Original ZIP/PDF download bytes are gzip-snapshotted in `data/raw/fest/`; its manifest records both original and stored SHA-256 hashes. The build verifies every manifest input before parsing. See `artifacts/M10c-fest-report.md` for the investigation and official document sections. DMP, FEST, 2026-10-27; NLOD. Extracted and mapped by Evidient; no DMP endorsement implied.

@@ -1,0 +1,136 @@
+{
+  "card": {
+    "pair": "alcohol__duloxetine",
+    "a": "alcohol",
+    "b": "duloxetine",
+    "origin": "batch",
+    "category": "liver",
+    "headline": {
+      "text": "The FDA label associates duloxetine with heavy alcohol intake with possible severe liver injury.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "In a separate label-described assessment, duloxetine did not increase alcohol-induced mental and motor impairment when peak concentrations coincided.",
+        "claimIds": [
+          "c2"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA label says duloxetine with heavy alcohol intake may be associated with severe liver injury.",
+        "quote": "Use of duloxetine concomitantly with heavy alcohol intake may be associated with severe liver injury.",
+        "source": {
+          "kind": "fda_label",
+          "id": "79bfd6be-a1ff-4786-b4e2-abbd0a3e3932#warnings_and_cautions"
+        },
+        "stance": "increases_risk",
+        "outcome": "liver_injury",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The duloxetine label states use with heavy alcohol intake may be associated with severe liver injury.",
+        "accepted": true
+      },
+      {
+        "id": "c2",
+        "text": "The FDA label reports that duloxetine did not increase alcohol-related mental and motor impairment when peak concentrations coincided.",
+        "quote": "When duloxetine and ethanol were administered several hours apart so that peak concentrations of each would coincide, duloxetine did not increase the impairment of mental and motor skills caused by alcohol.",
+        "source": {
+          "kind": "fda_label",
+          "id": "79bfd6be-a1ff-4786-b4e2-abbd0a3e3932#drug_interactions"
+        },
+        "stance": "no_effect_observed",
+        "outcome": "psychomotor_impairment",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The label reports duloxetine did not increase alcohol-induced mental and motor impairment when peak concentrations coincided.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "79bfd6be-a1ff-4786-b4e2-abbd0a3e3932#warnings_and_cautions",
+        "title": "duloxetine: warnings_and_cautions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=79bfd6be-a1ff-4786-b4e2-abbd0a3e3932",
+        "citation": "FDA label · warnings_and_cautions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "fda_label",
+        "id": "79bfd6be-a1ff-4786-b4e2-abbd0a3e3932#drug_interactions",
+        "title": "duloxetine: drug_interactions",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=79bfd6be-a1ff-4786-b4e2-abbd0a3e3932",
+        "citation": "FDA label · drug_interactions",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "21366359",
+        "title": "Duloxetine: clinical pharmacokinetics and drug interactions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21366359/",
+        "citation": "1179-1926 50 5 2011 May Clinical pharmacokinetics Clin Pharmacokinet",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "38494193",
+        "title": "Environmentally benign first derivative synchronous spectrofluorimetry for the analysis of two binary mixtures containing duloxetine with avanafil or tadalafil in spiked plasma samples.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38494193/",
+        "citation": "1522-7243 39 3 2024 Mar Luminescence : the journal of biological and chemical luminescence Luminescence",
+        "language": "en",
+        "design": "other"
+      },
+      {
+        "kind": "pubmed",
+        "id": "22164246",
+        "title": "Inhibition of G protein-activated inwardly rectifying K+ channels by different classes of antidepressants.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22164246/",
+        "citation": "1932-6203 6 12 2011 PloS one PLoS One",
+        "language": "en",
+        "design": "other"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "label_mentions",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines or products, like cough syrup or mouthwash, contain alcohol?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Duloxetine and drinking alcohol, change how much this matters?"
+      }
+    ],
+    "gaps": [],
+    "generatedAt": "2026-11-04T09:13:08.570Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

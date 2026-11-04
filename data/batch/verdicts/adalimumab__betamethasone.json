@@ -1,0 +1,1 @@
+{"pair":"adalimumab__betamethasone","judge":"claude-opus-5-5","claims":[{"id":"c1","support":"supports","rationale":"The label says patients on concomitant immunosuppressants such as corticosteroids may be at greater infection risk, and betamethasone is a corticosteroid."}],"sentences":[{"path":"headline","support":"supports"},{"path":"reported.0","support":"supports"}]}

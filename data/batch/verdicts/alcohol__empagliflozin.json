@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__empagliflozin",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The empagliflozin label lists alcohol abuse among precipitating conditions for ketoacidosis, as the claim states."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

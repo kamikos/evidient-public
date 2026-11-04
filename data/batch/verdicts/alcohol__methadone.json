@@ -1,0 +1,26 @@
+{
+  "pair": "alcohol__methadone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The methadone boxed warning says opioids with CNS depressants including alcohol may cause profound sedation, respiratory depression, coma and death."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "The French SmPC states that alcohol increases methadone's sedative effect, and the English rendering is faithful."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

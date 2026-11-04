@@ -1,0 +1,1 @@
+{"pair":"alcohol__levocetirizine","judge":"claude-opus-5-5","claims":[{"id":"c1","support":"supports","rationale":"The label says concurrent alcohol use should be avoided because additional reductions in alertness and CNS impairment may occur."}],"sentences":[{"path":"headline","support":"does_not_support"},{"path":"reported.0","support":"supports"}]}

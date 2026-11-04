@@ -1,0 +1,110 @@
+{
+  "card": {
+    "pair": "aspirin__dalteparin",
+    "a": "aspirin",
+    "b": "dalteparin",
+    "origin": "batch",
+    "category": "bleeding",
+    "headline": {
+      "text": "The FDA dalteparin warning identifies platelet inhibitors, including aspirin's class, as spinal or epidural hematoma risk factors during neuraxial procedures.",
+      "claimIds": [
+        "c1"
+      ]
+    },
+    "reported": [
+      {
+        "text": "This warning concerns spinal or epidural hematomas in anticoagulated patients undergoing neuraxial anesthesia or spinal puncture.",
+        "claimIds": [
+          "c1"
+        ]
+      }
+    ],
+    "mechanism": [],
+    "claims": [
+      {
+        "id": "c1",
+        "text": "The FDA dalteparin boxed warning lists concurrent platelet inhibitors, including aspirin's class, as risk factors for spinal or epidural hematoma during neuraxial procedures.",
+        "quote": "Factors that can increase the risk of developing epidural or spinal hematomas in these patients include: • Use of indwelling epidural catheters • Concomitant use of other drugs that affect hemostasis, such as non-steroidal anti-inflammatory drugs (NSAIDs), platelet inhibitors",
+        "source": {
+          "kind": "fda_label",
+          "id": "23527b8b-9b28-4e6d-9751-33b143975ac7#boxed_warning"
+        },
+        "stance": "increases_risk",
+        "outcome": "bleeding",
+        "quoteCheck": "matched",
+        "support": "supports",
+        "judgeModel": "claude-opus-5-5",
+        "judgeRationale": "The dalteparin boxed warning lists concomitant platelet inhibitors and NSAIDs, both classes containing aspirin, as risk factors for spinal/epidural hematoma during neuraxial procedures.",
+        "accepted": true
+      }
+    ],
+    "sources": [
+      {
+        "kind": "fda_label",
+        "id": "23527b8b-9b28-4e6d-9751-33b143975ac7#boxed_warning",
+        "title": "dalteparin: boxed_warning",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7",
+        "citation": "FDA label · boxed_warning",
+        "language": "en",
+        "design": "regulatory_label"
+      },
+      {
+        "kind": "pubmed",
+        "id": "26414590",
+        "title": "Venous thromboembolism: identifying patients at risk and establishing prophylaxis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26414590/",
+        "citation": "1473-4877 31 12 2015 Dec Current medical research and opinion Curr Med Res Opin",
+        "language": "en",
+        "design": "review"
+      },
+      {
+        "kind": "pubmed",
+        "id": "24221804",
+        "title": "Antiplatelet therapy in prevention of cardio- and venous thromboembolic events.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24221804/",
+        "citation": "1573-742X 37 3 2014 Apr Journal of thrombosis and thrombolysis J Thromb Thrombolysis",
+        "language": "en",
+        "design": "review"
+      }
+    ],
+    "conflicts": [],
+    "depth": "label_only",
+    "signal": {
+      "level": "serious_warning",
+      "basis": [
+        "c1"
+      ],
+      "conflict": false
+    },
+    "pharmacistQuestions": [
+      {
+        "trigger": "label_only",
+        "text": "The label describes this interaction, but there seem to be no human studies of it. How is it usually handled for someone like me?"
+      },
+      {
+        "trigger": "always",
+        "text": "Do any of my other medicines contain Aspirin or Dalteparin, or work the same way?"
+      },
+      {
+        "trigger": "always",
+        "text": "Does my dose, or the time between taking Aspirin and Dalteparin, change how much this matters?"
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "text": "The packet contains no human study isolating bleeding risk from concurrent aspirin and dalteparin.",
+        "searched": [
+          "\"aspirin\"[tiab] AND \"dalteparin\"[tiab] AND (interaction OR coadministration)"
+        ]
+      }
+    ],
+    "generatedAt": "2026-11-04T09:13:08.656Z",
+    "models": {
+      "research": "gpt-6.1-sol",
+      "judge": "claude-opus-5-5",
+      "synth": "gpt-6.1-sol"
+    }
+  },
+  "trace": []
+}

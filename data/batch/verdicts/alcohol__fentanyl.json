@@ -1,0 +1,21 @@
+{
+  "pair": "alcohol__fentanyl",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The fentanyl boxed warning states opioids with CNS depressants including alcohol may result in profound sedation, respiratory depression, coma and death."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

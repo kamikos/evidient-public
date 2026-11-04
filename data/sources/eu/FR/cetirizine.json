@@ -1,0 +1,28 @@
+{
+  "inn": "cetirizine",
+  "country": "FR",
+  "language": "fr",
+  "registryId": "60807297",
+  "product": "CETIRIZINE EG 10 mg, comprimé pelliculé sécable",
+  "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60807297/extrait",
+  "retrievedAt": "2026-11-03T23:18:21.931Z",
+  "licence": "Licence Ouverte / BDPM reuse terms",
+  "terms": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "attribution": "Base de données publique des médicaments, ANSM, HAS, UNCAM; database updated 2026-11-03, retrieved 2026-11-03; extracted RCP sections, meaning preserved; no endorsement.",
+  "sha256": "a015446ba87d2615040bc5779c05b339df121aaa9d6b6ac047926a0f1eb7ff83",
+  "documentUpdatedAt": "2026-11-03",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "4.4. Mises en garde spéciales et précautions d'emploi\n\nAux doses thérapeutiques, aucune interaction cliniquement significative n'a été mise en évidence avec la prise d'alcool (pour des concentrations sanguines d'alcool allant jusqu'à 0,5 g/l). Cependant, la prudence est recommandée en cas de prise concomitante d'alcool.\n\nDes précautions doivent être prises chez les patients avec des facteurs prédisposant à la rétention urinaire (par ex. lésion de la moelle épinière, hyperplasie prostatique) étant donné que la cétirizine peut augmenter le risque de rétention urinaire.\n\nLa cétirizine doit être administrée avec prudence chez les patients épileptiques ou à risque de convulsions.\n\nLa réponse aux tests allergiques cutanés est inhibée par les antihistaminiques et une période de 3 jours sans traitement est nécessaire avant de les réaliser.\n\nUn prurit et/ou une urticaire peuvent se déclarer lors de l’arrêt de la cétirizine, même si les symptômes n’étaient pas présents avant le début du traitement. Dans certains cas, les symptômes peuvent être intenses et nécessiter la reprise du traitement. Les symptômes devraient disparaître lors de la reprise du traitement.\n\nCe médicament contient du lactose. Les patients présentant une intolérance au galactose, un déficit total en lactase ou un syndrome de malabsorption du glucose et du galactose (maladies héréditaires rares) ne doivent pas prendre ce médicament.\n\nPopulation pédiatrique\n\nL’utilisation du comprimé pelliculé n’est pas recommandée chez l’enfant de moins de 6 ans car cette formulation ne permet pas l’adaptation posologique dans cette tranche d’âge. Il est recommandé d’utiliser une forme pédiatrique de cétirizine.",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60807297/extrait#tabpanel-rcp-panel",
+      "sha256": "6f745fbae41fe67cd7c620d65c96f8a3e9d28f27ff3b1bcdc2ba68aed727020c"
+    },
+    {
+      "section": "4.5",
+      "text": "4.5. Interactions avec d'autres médicaments et autres formes d'interactions\n\nCompte tenu des données de pharmacocinétique, de pharmacodynamie et du profil de tolérance de la cétirizine, aucune interaction n'est attendue avec cet antihistaminique. A ce jour, aucune interaction pharmacodynamique ou pharmacocinétique significative n'a été rapportée lors des études d'interactions médicamenteuses réalisées notamment avec la pseudoéphédrine ou la théophylline (400 mg/jour).\n\nLe taux d'absorption de la cétirizine n'est pas diminué par l'alimentation, bien que la vitesse d'absorption soit réduite.\n\nLa prise concomitante d'alcool ou d'autres dépresseurs du système nerveux central (SNC) peut entraîner une altération de la vigilance ou des performances chez les patients sensibles, bien que la cétirizine ne potentialise pas les effets de l'alcool (à une concentration sanguine de 0,5 g/l).",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60807297/extrait#tabpanel-rcp-panel",
+      "sha256": "90c739fac3770e42148987fd60e44494dc5393f539705b7accf412f9e87cde80"
+    }
+  ]
+}

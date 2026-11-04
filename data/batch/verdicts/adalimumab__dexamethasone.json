@@ -1,0 +1,21 @@
+{
+  "pair": "adalimumab__dexamethasone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "The adalimumab label says patients on concomitant immunosuppressants such as corticosteroids may be at greater infection risk, and dexamethasone is a corticosteroid."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

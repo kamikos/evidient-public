@@ -1,0 +1,34 @@
+{
+ "pair": "chlordiazepoxide__dihydrocodeine",
+ "judge": "claude-opus-5-5",
+ "claims": [
+  {
+   "id": "c1",
+   "support": "supports",
+   "rationale": "The quote matches the claim, and dihydrocodeine is an opioid."
+  },
+  {
+   "id": "c2",
+   "support": "partial",
+   "rationale": "The quote backs worsened respiratory depression, but the GABA A / mu receptor explanation in the claim comes from the adjacent sentence, not the quote."
+  }
+ ],
+ "sentences": [
+  {
+   "path": "headline",
+   "support": "supports"
+  },
+  {
+   "path": "reported.0",
+   "support": "supports"
+  },
+  {
+   "path": "reported.1",
+   "support": "supports"
+  },
+  {
+   "path": "mechanism.0",
+   "support": "does_not_support"
+  }
+ ]
+}

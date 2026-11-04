@@ -1,0 +1,20 @@
+{
+  "pair": "cyclophosphamide__dacarbazine",
+  "curator": "claude-sonnet-5-5",
+  "claims": [],
+  "headline": {
+    "text": "The packet's sources do not describe this combination.",
+    "claimIds": []
+  },
+  "reported": [],
+  "mechanism": [],
+  "category": "other",
+  "gaps": [
+    {
+      "text": "The cyclophosphamide label sections do not mention dacarbazine, and the PubMed records found do not report an interaction between the two.",
+      "searched": [
+        "\"cyclophosphamide\"[tiab] AND \"dacarbazine\"[tiab] AND (interaction OR coadministration)"
+      ]
+    }
+  ]
+}

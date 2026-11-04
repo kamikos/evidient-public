@@ -1,0 +1,26 @@
+{
+  "pair": "abiraterone__dexamethasone",
+  "judge": "claude-opus-5-5",
+  "claims": [
+    {
+      "id": "c1",
+      "support": "supports",
+      "rationale": "Mouse PK study reports dexamethasone pretreatment lowered abiraterone Cmax about five-fold and AUC about ten-fold; claim states it is in mice."
+    },
+    {
+      "id": "c2",
+      "support": "supports",
+      "rationale": "Retrospective study of 53 patients on abiraterone with prednisolone or dexamethasone reports no significant serum potassium change in either group."
+    }
+  ],
+  "sentences": [
+    {
+      "path": "headline",
+      "support": "supports"
+    },
+    {
+      "path": "reported.0",
+      "support": "supports"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "inn": "bromfenac",
+  "country": "ES",
+  "language": "es",
+  "registryId": "91285",
+  "product": "ALCARIX 0,9 MG/ML COLIRIO EN SOLUCION",
+  "url": "https://cima.aemps.es/cima/dochtml/ft/91285/FT_91285.html",
+  "retrievedAt": "2026-11-03T23:09:08.088Z",
+  "licence": "AEMPS reuse conditions; not asserted CC0",
+  "terms": "https://www.aemps.gob.es/aviso-legal/",
+  "attribution": "Fuente de la información: Agencia Española de Medicamentos y Productos Sanitarios www.aemps.gob.es. CIMA, retrieved 2026-11-03, document updated 2026-06-08T22:16:10.000Z. Extracted sections; original meaning preserved; no endorsement.",
+  "sha256": "623d5222c1e7f2d5d0b0e53b78ebdf095f9fd92f09257e0d535e465b78e8c166",
+  "sections": [
+    {
+      "section": "4.4",
+      "text": "Todos los AINE de uso tópico oftálmico pueden enlentecer o retardar la cicatrización, del mismo modo que lo hacen los corticosteroides tópicos oftálmicos. El uso concomitante de AINE y de esteroides oftálmicos puede aumentar el potencial de problemas relacionados con la cicatrización. Sensibilidad cruzada Existe la posibilidad de sensibilidad cruzada con el ácido acetilsalicílico, derivados del ácido fenilacético y otros AINE. Por lo tanto, al tratar a individuos que han mostrado anteriormente sensibilidad a estos medicamentos se debe evitar su uso (ver sección 4.3). Personas susceptibles En pacientes susceptibles, el uso continuado de AINE de uso tópico oftálmico, entre los que se incluye bromfenaco, puede dar como resultado una ruptura del epitelio, adelgazamiento corneal, erosión corneal, ulceración corneal o perforación corneal. Estos acontecimientos pueden comprometer la visión. Los pacientes con evidencia de ruptura epitelial corneal deberán interrumpir inmediatamente el uso de los AINE tópicos oftálmicos y se les debe realizar un cuidadoso seguimiento del estado de salud de la córnea. Por consiguiente, en pacientes de riesgo, el uso concomitante de corticosteroides oftálmicos y AINE puede conducir a un riesgo mayor de acontecimientos adversos corneales. Experiencia posterior a la comercialización La experiencia con AINE de uso tópico oftálmico posterior a la comercialización sugiere que existe un mayor riesgo de padecer reacciones adversas corneales que podrían comprometer la visión en pacientes sometidos a intervenciones oculares complicadas, como denervación corneal, defectos del epitelio corneal, diabetes mellitus, artritis reumatoide, cirugías oculares repetidas en un período corto de tiempo y enfermedades de la superficie ocular como p. ej., síndrome del ojo seco. Los AINE de uso tópico oftálmico se deberán usar con precaución en estos pacientes. Se ha notificado que la administración oftálmica de los AINE asociada a cirugía ocular puede provocar un aumento de sangrado de los tejidos oculares (incluido hifema). Alcarix se debe utilizar con precaución en pacientes en los que exista tendencia al sangrado o que estén recibiendo otros medicamentos que puedan prolongar el tiempo de sangrado. En casos raros se ha observado un empeoramiento de la respuesta inflamatoria, p. ej., en forma de edema macular, a consecuencia de la operación de cataratas, tras la retirada de bromfenaco. Infección ocular El uso tópico oftálmico de medicamentos antiinflamatorios puede enmascarar una infección ocular aguda. Uso de lentes de contacto En general, no se recomienda utilizar lentes de contacto durante el período posoperatorio tras cirugía de catarata. Por lo tanto, se debe recomendar a los pacientes que no utilicen lentes de contacto durante el tratamiento con Alcarix. Excipientes Cloruro de benzalconio Este medicamento contiene 0,00155 mg de cloruro de benzalconio por gota, equivalente a 0,05 mg/ml. El cloruro de benzalconio se puede absorber por las lentes de contacto blandas y puede alterar el color de las lentes de contacto. Retirar las lentes de contacto antes de usar este medicamento y. esperar 15 minutos antes de volver a colocarlas. Se ha notificado que el cloruro de benzalconio puede causar irritación ocular, síntomas de ojo seco y puede afectar a la película lacrimal y a la superficie de la córnea. Debe utilizarse con precaución en pacientes con ojo seco y en pacientes en los que la córnea pueda estar afectada. Se debe vigilar a los pacientes en caso de uso prolongado.",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=91285&seccion=4.4",
+      "sha256": "66f8c2226a9fd1e6ef6be64bfbc752dc1386e0850b51d5a66a6f893d8e3c047f"
+    },
+    {
+      "section": "4.5",
+      "text": "No se han realizado estudios de interacciones. No se han notificado interacciones con colirios antibióticos utilizados de forma conjunta en la cirugía.",
+      "url": "https://cima.aemps.es/cima/rest/docSegmentado/contenido/1?nregistro=91285&seccion=4.5",
+      "sha256": "abb86b8705ff0531812e13f94e3b5eb7efadcaa20abc6f1ca18becc8d46ed77a"
+    }
+  ],
+  "documentUpdatedAt": "2026-06-08T22:16:10.000Z"
+}
